@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<!-- Definition of message queue -->
+	<xs:complexType name="msgKeyType">
+		<xs:annotation>
+			<xs:documentation>Define a message key type</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="msgTxt" type="xs:string"/>
+		</xs:sequence>
+		<xs:attribute name="PrideMsgNum" type="xs:nonNegativeInteger" use="required" />
+		<xs:attribute name="Id" type="xs:nonNegativeInteger" use="required"/>
+	</xs:complexType>
+
+	<!-- Definition of platform type -->
+	<xs:simpleType name="platType">
+		<xs:annotation>
+			<xs:documentation>Type ...</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="PLATFORM"/>
+			<xs:enumeration value="CONCOURSE"/>
+		</xs:restriction>
+  	</xs:simpleType>
+
+	<!-- Definition of platform -->
+	<xs:complexType name="PlatformType">
+		<xs:annotation>
+			<xs:documentation>Define a platform entry</xs:documentation>
+		</xs:annotation>
+		<xs:attribute name="Id" type="xs:nonNegativeInteger" use="required"/>
+		<xs:attribute name="Type" type="platType" use="required"/>
+	</xs:complexType>
+
+    <!-- Definition of URL -->
+    <xs:complexType name="PDSI_Type">
+        <xs:attribute name="ReadyURL" type="xs:anyURI" use="required"/>
+        <xs:attribute name="PlatformURL" type="xs:anyURI" use="required"/>
+    </xs:complexType>
+    
+
+	<!-- Root element -->
+	<xs:element name="FixedMessageDisplay">
+		<xs:complexType>
+			<xs:sequence>
+			    <xs:element name="PDSI" type="PDSI_Type" /> 
+				<xs:element name="MessageKey" type="msgKeyType" minOccurs="0" maxOccurs="unbounded" />
+				<xs:element name="Platform" type="PlatformType" minOccurs="0" maxOccurs="unbounded" />
+			</xs:sequence>			
+		</xs:complexType>
+        <xs:unique name="unique-message">
+            <xs:selector xpath="MessageKey"/>
+            <xs:field xpath="@PrideMsgNum"/>
+        </xs:unique>
+        <xs:unique name="unique-platform">
+            <xs:selector xpath="Platform"/>
+            <xs:field xpath="@Id"/>
+            <xs:field xpath="@Type"/>
+        </xs:unique>
+	</xs:element>
+
+</xs:schema>

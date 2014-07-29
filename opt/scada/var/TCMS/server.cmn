@@ -1,0 +1,46 @@
+# $Id$
+#
+# SystematICS configuration file
+#     C:\westrol_config\WESTROL\server.cmn
+# Creation Date: 20/04/2010 10:26:33 AM
+# Created with the SystematICS Configurator version 1.7.3.1D
+#
+
+# Alarm State Names
+LongToLocaleStringBundle, AlarmStateNames, 1, "C", "ALM"
+LongToLocaleStringBundle, AlarmStateNames, 2, "C", "RTN"
+LongToLocaleStringBundle, AlarmStateNames, 3, "C", "WRS"
+LongToLocaleStringBundle, AlarmStateNames, 4, "C", "BTR"
+LongToLocaleStringBundle, AlarmStateNames, 5, "C", "BAD"
+
+# Component Descriptions
+StringToLocaleStringBundle, ComponentDescription, Alarm, "C", "Alarm"
+StringToLocaleStringBundle, ComponentDescription, Counter, "C", "Counter"
+StringToLocaleStringBundle, ComponentDescription, DisabledAlarm, "C", "Disabled Alarm"
+StringToLocaleStringBundle, ComponentDescription, Disturbance, "C", "Disturbance"
+StringToLocaleStringBundle, ComponentDescription, FepRtu, "C", "FepRtu"
+StringToLocaleStringBundle, ComponentDescription, ModbusRoute, "C", "ModbusRoute"
+StringToLocaleStringBundle, ComponentDescription, ModbusScanGroup, "C", "ModbusScanGroup"
+StringToLocaleStringBundle, ComponentDescription, Overflow, "C", "Overflow"
+StringToLocaleStringBundle, ComponentDescription, Point, "C", "Point"
+StringToLocaleStringBundle, ComponentDescription, Restart, "C", "Restart"
+StringToLocaleStringBundle, ComponentDescription, Route, "C", "Route"
+StringToLocaleStringBundle, ComponentDescription, Rtu, "C", "Rtu"
+StringToLocaleStringBundle, ComponentDescription, Sequence, "C", "Sequence"
+StringToLocaleStringBundle, ComponentDescription, TimeSync, "C", "TimeSync"
+StringToLocaleStringBundle, ComponentDescription, Trouble, "C", "Trouble"
+StringToLocaleStringBundle, ComponentDescription, Value, "C", "Value"
+
+# Subscribing Value Conditions
+StringToLocaleStringBundle, SubscribingValueCondition, FAILED, "C", "(failed)"
+StringToLocaleStringBundle, SubscribingValueCondition, UNSYNC, "C", "(unsync)"
+StringToLocaleStringBundle, SubscribingValueCondition, SYNC_BUT_BAD, "C", "(sync_but_bad)"
+StringToLocaleStringBundle, SubscribingValueCondition, UNKNOWN, "C", "(unknown)"
+
+# Failed Comparisons
+StringToLocaleStringBundle, FailedComparisons, Tag, "C", "Tag"
+StringToLocaleStringBundle, FailedComparisons, Sub-expression, "C", "Sub-expression"
+StringToLocaleStringBundle, FailedComparisons, undefined, "C", "<-undefined comparison->"
+
+# HTTP Callback IP Addresses
+

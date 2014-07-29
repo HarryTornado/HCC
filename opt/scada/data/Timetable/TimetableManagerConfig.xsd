@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--Created with Liquid XML Studio - FREE Community Edition 7.1.4.1284 (http://www.liquid-technologies.com)-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="TimetableManager">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Timetables" />
+        <xs:element ref="Subsystems" />
+        <xs:element ref="Logs" />
+      </xs:sequence>
+      <xs:attribute name="acceptedUpdatesPath" type="xs:string" use="required" />
+	  <xs:attribute name="releaseTimetableInMinutes" type="xs:string" use="required" />
+	</xs:complexType>
+  </xs:element>
+  <xs:element name="Timetables">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="1" ref="Timetable" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Timetable">
+    <xs:complexType>
+      <xs:attribute name="amount" use="required">
+        <xs:simpleType>
+          <xs:restriction base="xs:nonNegativeInteger" />
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="url" use="required">
+        <xs:simpleType>
+          <xs:restriction base="xs:anyURI" />
+        </xs:simpleType>
+      </xs:attribute>
+	  <xs:attribute name="planned-url" use="required">
+		<xs:simpleType>
+		  <xs:restriction base="xs:anyURI" />
+		</xs:simpleType>
+	  </xs:attribute>
+	  <xs:attribute name="config" use="required">
+		<xs:simpleType>
+		  <xs:restriction base="xs:anyURI" />
+		</xs:simpleType>
+	  </xs:attribute>
+	</xs:complexType>
+  </xs:element>
+  <xs:element name="Subsystems">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="Subsystem" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Subsystem">
+    <xs:complexType>
+      <xs:attribute name="id" use="required">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="TimetableDataLibrary" />
+			<xs:enumeration value="ActivationScheduler" />
+			<xs:enumeration value="PathBook" />
+            <xs:enumeration value="ServicePlanManager" />
+			<xs:enumeration value="HistoricalRecord" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="enable" type="xs:boolean" use="required" />
+      <xs:attribute name="configpath" use="required">
+        <xs:simpleType>
+          <xs:restriction base="xs:string" />
+        </xs:simpleType>
+      </xs:attribute>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Logs">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="Log" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Log">
+    <xs:complexType>
+	  <xs:attribute name="level" use="required">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+			<xs:enumeration value="TRACE" />
+			<xs:enumeration value="DEBUG" />
+			<xs:enumeration value="INFO" />
+			<xs:enumeration value="WARN" />
+			<xs:enumeration value="ERROR" />
+			<xs:enumeration value="FATAL" />
+		  </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+	  <xs:attribute name="enableTT" type="xs:string" use="required" />
+	  <xs:attribute name="enableICS" type="xs:string" use="required" />
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

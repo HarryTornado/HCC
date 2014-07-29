@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configs>
+	<SignallingIndication xml:id="E002.JR">
+		<interlockingName>KPK</interlockingName>
+		<deviceName>config:/JzaSimulator#KPK</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/KPK/mnem/002.JR</sourceURL>
+		<offset>15</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E007.JR">
+		<interlockingName>KPK</interlockingName>
+		<deviceName>config:/JzaSimulator#KPK</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/KPK/mnem/007.JR</sourceURL>
+		<offset>14</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L515.FGNP">
+		<interlockingName>KPK</interlockingName>
+		<deviceName>config:/JzaSimulator#KPK</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/KPK/mnem/515.FGNP</sourceURL>
+		<offset>2</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L515.FCP">
+		<interlockingName>KPK</interlockingName>
+		<deviceName>config:/JzaSimulator#KPK</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/KPK/mnem/515.FCP</sourceURL>
+		<offset>3</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P002.LRP">
+		<interlockingName>KPK</interlockingName>
+		<deviceName>config:/JzaSimulator#KPK</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/KPK/mnem/002.LRP</sourceURL>
+		<offset>7</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P002.RWCR">
+		<interlockingName>KPK</interlockingName>
+		<deviceName>config:/JzaSimulator#KPK</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/KPK/mnem/002.RWCR</sourceURL>
+		<offset>8</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P002.NWCR">
+		<interlockingName>KPK</interlockingName>
+		<deviceName>config:/JzaSimulator#KPK</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/KPK/mnem/002.NWCR</sourceURL>
+		<offset>9</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P007.LRP">
+		<interlockingName>KPK</interlockingName>
+		<deviceName>config:/JzaSimulator#KPK</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/KPK/mnem/007.LRP</sourceURL>
+		<offset>4</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P007.RWCR">
+		<interlockingName>KPK</interlockingName>
+		<deviceName>config:/JzaSimulator#KPK</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/KPK/mnem/007.RWCR</sourceURL>
+		<offset>5</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P007.NWCR">
+		<interlockingName>KPK</interlockingName>
+		<deviceName>config:/JzaSimulator#KPK</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/KPK/mnem/007.NWCR</sourceURL>
+		<offset>6</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S101.RGP">
+		<interlockingName>KPK</interlockingName>
+		<deviceName>config:/JzaSimulator#KPK</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/KPK/mnem/101.RGP</sourceURL>
+		<offset>10</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S101.CGR">
+		<interlockingName>KPK</interlockingName>
+		<deviceName>config:/JzaSimulator#KPK</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/KPK/mnem/101.CGR</sourceURL>
+		<offset>11</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S101.NGP">
+		<interlockingName>KPK</interlockingName>
+		<deviceName>config:/JzaSimulator#KPK</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/KPK/mnem/101.NGP</sourceURL>
+		<offset>12</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S101.RIP">
+		<interlockingName>KPK</interlockingName>
+		<deviceName>config:/JzaSimulator#KPK</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/KPK/mnem/101.RIP</sourceURL>
+		<offset>6</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S101.CPBS">
+		<interlockingName>KPK</interlockingName>
+		<deviceName>config:/JzaSimulator#KPK</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/KPK/mnem/101.CPBS</sourceURL>
+		<offset>7</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S101.AOR">
+		<interlockingName>KPK</interlockingName>
+		<deviceName>config:/JzaSimulator#KPK</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/KPK/mnem/101.AOR</sourceURL>
+		<offset>8</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S101.ASP">
+		<interlockingName>KPK</interlockingName>
+		<deviceName>config:/JzaSimulator#KPK</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/KPK/mnem/101.ASP</sourceURL>
+		<offset>9</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S102.CPBS">
+		<interlockingName>KPK</interlockingName>
+		<deviceName>config:/JzaSimulator#KPK</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/KPK/mnem/102.CPBS</sourceURL>
+		<offset>0</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S102.AOR">
+		<interlockingName>KPK</interlockingName>
+		<deviceName>config:/JzaSimulator#KPK</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/KPK/mnem/102.AOR</sourceURL>
+		<offset>1</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S102.ASP">
+		<interlockingName>KPK</interlockingName>
+		<deviceName>config:/JzaSimulator#KPK</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/KPK/mnem/102.ASP</sourceURL>
+		<offset>2</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S102.RGP">
+		<interlockingName>KPK</interlockingName>
+		<deviceName>config:/JzaSimulator#KPK</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/KPK/mnem/102.RGP</sourceURL>
+		<offset>3</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S102.CGR">
+		<interlockingName>KPK</interlockingName>
+		<deviceName>config:/JzaSimulator#KPK</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/KPK/mnem/102.CGR</sourceURL>
+		<offset>4</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S102.NGP">
+		<interlockingName>KPK</interlockingName>
+		<deviceName>config:/JzaSimulator#KPK</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/KPK/mnem/102.NGP</sourceURL>
+		<offset>5</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S102.RIP">
+		<interlockingName>KPK</interlockingName>
+		<deviceName>config:/JzaSimulator#KPK</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/KPK/mnem/102.RIP</sourceURL>
+		<offset>15</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S103.AOR">
+		<interlockingName>KPK</interlockingName>
+		<deviceName>config:/JzaSimulator#KPK</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/KPK/mnem/103.AOR</sourceURL>
+		<offset>10</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S103.ASP">
+		<interlockingName>KPK</interlockingName>
+		<deviceName>config:/JzaSimulator#KPK</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/KPK/mnem/103.ASP</sourceURL>
+		<offset>11</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S103.RGP">
+		<interlockingName>KPK</interlockingName>
+		<deviceName>config:/JzaSimulator#KPK</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/KPK/mnem/103.RGP</sourceURL>
+		<offset>12</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S103.CGR">
+		<interlockingName>KPK</interlockingName>
+		<deviceName>config:/JzaSimulator#KPK</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/KPK/mnem/103.CGR</sourceURL>
+		<offset>13</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S103.NGP">
+		<interlockingName>KPK</interlockingName>
+		<deviceName>config:/JzaSimulator#KPK</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/KPK/mnem/103.NGP</sourceURL>
+		<offset>14</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S103.RIP">
+		<interlockingName>KPK</interlockingName>
+		<deviceName>config:/JzaSimulator#KPK</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/KPK/mnem/103.RIP</sourceURL>
+		<offset>8</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S103.CPBS">
+		<interlockingName>KPK</interlockingName>
+		<deviceName>config:/JzaSimulator#KPK</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/KPK/mnem/103.CPBS</sourceURL>
+		<offset>9</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S104.RIP">
+		<interlockingName>KPK</interlockingName>
+		<deviceName>config:/JzaSimulator#KPK</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/KPK/mnem/104.RIP</sourceURL>
+		<offset>1</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S104.AOR">
+		<interlockingName>KPK</interlockingName>
+		<deviceName>config:/JzaSimulator#KPK</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/KPK/mnem/104.AOR</sourceURL>
+		<offset>3</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S104.ASP">
+		<interlockingName>KPK</interlockingName>
+		<deviceName>config:/JzaSimulator#KPK</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/KPK/mnem/104.ASP</sourceURL>
+		<offset>4</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S104.RGP">
+		<interlockingName>KPK</interlockingName>
+		<deviceName>config:/JzaSimulator#KPK</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/KPK/mnem/104.RGP</sourceURL>
+		<offset>5</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S104.NGP">
+		<interlockingName>KPK</interlockingName>
+		<deviceName>config:/JzaSimulator#KPK</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/KPK/mnem/104.NGP</sourceURL>
+		<offset>7</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S107.NGP">
+		<interlockingName>KPK</interlockingName>
+		<deviceName>config:/JzaSimulator#KPK</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/KPK/mnem/107.NGP</sourceURL>
+		<offset>0</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S107.RIP">
+		<interlockingName>KPK</interlockingName>
+		<deviceName>config:/JzaSimulator#KPK</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/KPK/mnem/107.RIP</sourceURL>
+		<offset>10</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S107.CPBS">
+		<interlockingName>KPK</interlockingName>
+		<deviceName>config:/JzaSimulator#KPK</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/KPK/mnem/107.CPBS</sourceURL>
+		<offset>11</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S107.AOR">
+		<interlockingName>KPK</interlockingName>
+		<deviceName>config:/JzaSimulator#KPK</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/KPK/mnem/107.AOR</sourceURL>
+		<offset>12</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S107.ASP">
+		<interlockingName>KPK</interlockingName>
+		<deviceName>config:/JzaSimulator#KPK</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/KPK/mnem/107.ASP</sourceURL>
+		<offset>13</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S107.RGP">
+		<interlockingName>KPK</interlockingName>
+		<deviceName>config:/JzaSimulator#KPK</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/KPK/mnem/107.RGP</sourceURL>
+		<offset>14</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S107.CGR">
+		<interlockingName>KPK</interlockingName>
+		<deviceName>config:/JzaSimulator#KPK</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/KPK/mnem/107.CGR</sourceURL>
+		<offset>15</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T001.TPK">
+		<interlockingName>KPK</interlockingName>
+		<deviceName>config:/JzaSimulator#KPK</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/KPK/mnem/001.TPK</sourceURL>
+		<offset>9</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T002.TPK">
+		<interlockingName>KPK</interlockingName>
+		<deviceName>config:/JzaSimulator#KPK</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/KPK/mnem/002.TPK</sourceURL>
+		<offset>8</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T007.TPK">
+		<interlockingName>KPK</interlockingName>
+		<deviceName>config:/JzaSimulator#KPK</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/KPK/mnem/007.TPK</sourceURL>
+		<offset>7</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T101.TPK">
+		<interlockingName>KPK</interlockingName>
+		<deviceName>config:/JzaSimulator#KPK</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/KPK/mnem/101.TPK</sourceURL>
+		<offset>6</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T102.TPK">
+		<interlockingName>KPK</interlockingName>
+		<deviceName>config:/JzaSimulator#KPK</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/KPK/mnem/102.TPK</sourceURL>
+		<offset>5</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T103.TPK">
+		<interlockingName>KPK</interlockingName>
+		<deviceName>config:/JzaSimulator#KPK</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/KPK/mnem/103.TPK</sourceURL>
+		<offset>4</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T104.TPK">
+		<interlockingName>KPK</interlockingName>
+		<deviceName>config:/JzaSimulator#KPK</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/KPK/mnem/104.TPK</sourceURL>
+		<offset>3</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T106.TPK">
+		<interlockingName>KPK</interlockingName>
+		<deviceName>config:/JzaSimulator#KPK</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/KPK/mnem/106.TPK</sourceURL>
+		<offset>2</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T108.TPK">
+		<interlockingName>KPK</interlockingName>
+		<deviceName>config:/JzaSimulator#KPK</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/KPK/mnem/108.TPK</sourceURL>
+		<offset>1</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T109.TPK">
+		<interlockingName>KPK</interlockingName>
+		<deviceName>config:/JzaSimulator#KPK</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/KPK/mnem/109.TPK</sourceURL>
+		<offset>0</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T507.TPK">
+		<interlockingName>KPK</interlockingName>
+		<deviceName>config:/JzaSimulator#KPK</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/KPK/mnem/507.TPK</sourceURL>
+		<offset>15</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T518.TPK">
+		<interlockingName>KPK</interlockingName>
+		<deviceName>config:/JzaSimulator#KPK</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/KPK/mnem/518.TPK</sourceURL>
+		<offset>14</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T550.TPK">
+		<interlockingName>KPK</interlockingName>
+		<deviceName>config:/JzaSimulator#KPK</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/KPK/mnem/550.TPK</sourceURL>
+		<offset>13</offset>
+		<word>2</word>
+	</SignallingIndication>
+</Configs>

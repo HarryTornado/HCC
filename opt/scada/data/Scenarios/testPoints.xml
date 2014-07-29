@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scenario>
+	<header>
+		<name>testPoints</name>
+		<author>SMB</author>
+		<description>Test the movement of points</description>
+		<date>09/04/2010</date>
+	</header>
+	<actions>
+		<!-- Cycle all points -->
+		<cli>PTN SHM/P808D</cli>
+		<sleep>10</sleep>
+		<cli>PTR SHM/P808D</cli>
+		<sleep>10</sleep>
+		<cli>PTN SHM/P808U</cli>
+		<sleep>10</sleep>
+		<cli>PTR SHM/P808U</cli>
+		<sleep>10</sleep>
+		<cli>PTN SHM/P813D</cli>
+		<sleep>10</sleep>
+		<cli>PTR SHM/P813D</cli>
+		<sleep>10</sleep>
+		<cli>PTN SHM/P813U</cli>
+		<sleep>10</sleep>
+		<cli>PTR SHM/P813U</cli>
+		<sleep>10</sleep>
+		<cli>PTN SHM/P814</cli>
+		<sleep>10</sleep>
+		<cli>PTR SHM/P814</cli>
+		<sleep>10</sleep>
+		<cli>PTN SHM/P815D</cli>
+		<sleep>10</sleep>
+		<cli>PTR SHM/P815D</cli>
+		<sleep>10</sleep>
+		<cli>PTN SHM/P815U</cli>
+		<sleep>10</sleep>
+		<cli>PTR SHM/P815U</cli>
+		<sleep>10</sleep>
+	</actions>
+</scenario>

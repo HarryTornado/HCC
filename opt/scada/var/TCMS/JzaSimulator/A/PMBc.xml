@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configs>
+	<SignallingControl xml:id="S792.RLPR">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#PMB</deviceName>
+		<offset>14</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S792.NLPR">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#PMB</deviceName>
+		<offset>15</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S793.RLPR">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#PMB</deviceName>
+		<offset>9</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S793.NLPR">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#PMB</deviceName>
+		<offset>10</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+</Configs>

@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configs>
+	<SignallingControl xml:id="P001.RLPR">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<offset>13</offset>
+		<word>4</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P001.NLPR">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<offset>14</offset>
+		<word>4</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P002.RLPR">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<offset>11</offset>
+		<word>4</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P002.NLPR">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<offset>12</offset>
+		<word>4</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P011.RLPR">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<offset>9</offset>
+		<word>4</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P011.NLPR">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<offset>10</offset>
+		<word>4</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S102.CPBPR">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<offset>11</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S102.AORPN">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<offset>12</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S102.AORPR">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<offset>13</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S102.RLPR">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<offset>14</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S102.NLPR">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<offset>15</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S104.NLPR">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<offset>0</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S104.RLPR">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<offset>15</offset>
+		<word>4</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S107.CPBPR">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<offset>6</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S107.AORPN">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<offset>7</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S107.AORPR">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<offset>8</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S107.RLPR">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<offset>9</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S107.NLPR">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<offset>10</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S108.CPBPR">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<offset>1</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S108.AORPN">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<offset>2</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S108.AORPR">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<offset>3</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S108.RLPR">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<offset>4</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S108.NLPR">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<offset>5</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S110.NLPR">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<offset>0</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S110.CPBPR">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<offset>12</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S110.AORPN">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<offset>13</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S110.AORPR">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<offset>14</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S110.RLPR">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<offset>15</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S111.CPBPR">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<offset>7</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S111.AORPN">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<offset>8</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S111.AORPR">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<offset>9</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S111.RLPR">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<offset>10</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S111.NLPR">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<offset>11</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S113.AORPN">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<offset>3</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S113.AORPR">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<offset>4</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S113.RLPR">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<offset>5</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S113.NLPR">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<offset>6</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+</Configs>

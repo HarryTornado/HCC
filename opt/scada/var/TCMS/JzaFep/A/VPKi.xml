@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configs>
+	<JzaIndication xml:id="EV001.EFP">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/VPK#VPK</deviceName>
+		<offset>4</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="EV004.BATTLR">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/VPK#VPK</deviceName>
+		<offset>1</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="EV005.BF">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/VPK#VPK</deviceName>
+		<offset>0</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="EV011.PWRONR">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/VPK#VPK</deviceName>
+		<offset>6</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="EV012.PWROFFR">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/VPK#VPK</deviceName>
+		<offset>5</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="EV021.APLP">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/VPK#VPK</deviceName>
+		<offset>9</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="EV022.CF">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/VPK#VPK</deviceName>
+		<offset>8</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="EV023.CPFR">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/VPK#VPK</deviceName>
+		<offset>7</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="EV102.ECP">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/VPK#VPK</deviceName>
+		<offset>3</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="EV103.ACPOR">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/VPK#VPK</deviceName>
+		<offset>2</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P002.LRP">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/VPK#VPK</deviceName>
+		<offset>0</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P002.RWCR">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/VPK#VPK</deviceName>
+		<offset>1</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P002.NWCR">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/VPK#VPK</deviceName>
+		<offset>2</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P005.LRP">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/VPK#VPK</deviceName>
+		<offset>13</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P005.RWCR">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/VPK#VPK</deviceName>
+		<offset>14</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P005.NWCR">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/VPK#VPK</deviceName>
+		<offset>15</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="SV002.RGP">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/VPK#VPK</deviceName>
+		<offset>10</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="SV005.RGP">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/VPK#VPK</deviceName>
+		<offset>9</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="SV100.RIP">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/VPK#VPK</deviceName>
+		<offset>3</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="SV100.AOR">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/VPK#VPK</deviceName>
+		<offset>5</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="SV100.ASP">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/VPK#VPK</deviceName>
+		<offset>6</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="SV100.RGP">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/VPK#VPK</deviceName>
+		<offset>7</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="SV100.NGP">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/VPK#VPK</deviceName>
+		<offset>8</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="SV102.RGP">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/VPK#VPK</deviceName>
+		<offset>0</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="SV102.CGR">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/VPK#VPK</deviceName>
+		<offset>1</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="SV102.NGP">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/VPK#VPK</deviceName>
+		<offset>2</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="SV102.RIP">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/VPK#VPK</deviceName>
+		<offset>12</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="SV102.CPBS">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/VPK#VPK</deviceName>
+		<offset>13</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="SV102.AOR">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/VPK#VPK</deviceName>
+		<offset>14</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="SV102.ASP">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/VPK#VPK</deviceName>
+		<offset>15</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="SV103.RGP">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/VPK#VPK</deviceName>
+		<offset>10</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="SV103.NGP">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/VPK#VPK</deviceName>
+		<offset>11</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="SV103.RIP">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/VPK#VPK</deviceName>
+		<offset>8</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="SV103.ASP">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/VPK#VPK</deviceName>
+		<offset>9</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="SV104.RIP">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/VPK#VPK</deviceName>
+		<offset>4</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="SV104.ASP">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/VPK#VPK</deviceName>
+		<offset>5</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="SV104.RGP">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/VPK#VPK</deviceName>
+		<offset>6</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="SV104.NGP">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/VPK#VPK</deviceName>
+		<offset>7</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="SV105.ASP">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/VPK#VPK</deviceName>
+		<offset>0</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="SV105.RGP">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/VPK#VPK</deviceName>
+		<offset>1</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="SV105.CGR">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/VPK#VPK</deviceName>
+		<offset>2</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="SV105.NGP">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/VPK#VPK</deviceName>
+		<offset>3</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="SV105.RIP">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/VPK#VPK</deviceName>
+		<offset>13</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="SV105.CPBS">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/VPK#VPK</deviceName>
+		<offset>14</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="SV105.AOR">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/VPK#VPK</deviceName>
+		<offset>15</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="SV107.ASP">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/VPK#VPK</deviceName>
+		<offset>10</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="SV107.RGP">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/VPK#VPK</deviceName>
+		<offset>11</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="SV107.NGP">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/VPK#VPK</deviceName>
+		<offset>12</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="SV107.RIP">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/VPK#VPK</deviceName>
+		<offset>7</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="SV107.AOR">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/VPK#VPK</deviceName>
+		<offset>9</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="SV109.RIP">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/VPK#VPK</deviceName>
+		<offset>3</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="SV109.ASP">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/VPK#VPK</deviceName>
+		<offset>4</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="SV109.RGP">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/VPK#VPK</deviceName>
+		<offset>5</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="SV109.NGP">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/VPK#VPK</deviceName>
+		<offset>6</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T002.TPK">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/VPK#VPK</deviceName>
+		<offset>10</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T005.TPK">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/VPK#VPK</deviceName>
+		<offset>12</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T100.TPK">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/VPK#VPK</deviceName>
+		<offset>9</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T102.TPK">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/VPK#VPK</deviceName>
+		<offset>11</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="TV103.TPK">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/VPK#VPK</deviceName>
+		<offset>7</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T105.TPK">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/VPK#VPK</deviceName>
+		<offset>5</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T107.TPK">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/VPK#VPK</deviceName>
+		<offset>4</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="TS135.TPK">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/VPK#VPK</deviceName>
+		<offset>8</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="TS141.TPK">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/VPK#VPK</deviceName>
+		<offset>6</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T703.ARP">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/VPK#VPK</deviceName>
+		<offset>2</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T703.TPK">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/VPK#VPK</deviceName>
+		<offset>3</offset>
+		<word>4</word>
+	</JzaIndication>
+</Configs>

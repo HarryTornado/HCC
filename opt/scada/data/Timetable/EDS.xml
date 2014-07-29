@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DockingSheet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="DockingSheetConfig.xsd">
+	<Logs>
+		<!-- level can be TRACE, DEBUG, INFO, WARN, ERROR or FATAL -->
+		<Log level="DEBUG" maxFileSizeMB="10" maxBackupIndex="1" mode="MODE_CHANGE_DAILY" enable="ENABLE_SYSTEMATICS" module="EDS" directory="EDS"/>
+	</Logs>
+	<Statistics			enable="true"/>
+	<Domain				Id="TCMS"/>
+	<ConfigurationFile	Id="GeoObjects"				FileName="GeneratedGeoObjects.xml"/>
+	<ConfigurationFile	Id="PathBook"				FileName="PathBook02A.xml"/>
+	<ConfigurationFile	Id="TimetableDataConfig"	FileName="TTConfigData.xml"/>
+	<ConfigurationFile	Id="View"					FileName="EDSConfig.xml"/>
+	<ConfigurationFile	Id="RoutingSignals"			FileName="RoutingSignals.xml"/>
+	<ReadURL			url="oil://TimetableManager.tcms/config"/>
+	<SPMWriteURL		url="oil://spm-svr.tcms"/>
+	<TMWriteURL			url="oil://TimetableManager.tcms"/>
+	<HubStation			Id="FSS"/>
+	<SignalGroupFilter	enable="true"/>
+	<Platform			Id="01"/>
+	<Platform			Id="02"/>
+	<Platform			Id="03"/>
+	<Platform			Id="04"/>
+	<Platform			Id="05"/>
+	<Platform			Id="06"/>
+	<Platform			Id="07"/>
+	<Platform			Id="08"/>
+	<Platform			Id="09"/>
+	<Platform			Id="10"/>
+	<Platform			Id="11"/>
+	<Platform			Id="12"/>
+	<Platform			Id="13"/>
+	<Platform			Id="14"/>
+	<Time				Start="06:00" End="09:00"/>
+	<Group				Id="BLY" dataClass="210" controlled="true"  readOnly="false" filterOut="false"/>
+	<Group				Id="CHL" dataClass="230" controlled="true"  readOnly="false" filterOut="false"/>
+	<Group				Id="NOR" dataClass="240" controlled="true" readOnly="false"  filterOut="false"/>
+	<Group				Id="CFD" dataClass="220" controlled="true" readOnly="false"  filterOut="false"/>
+	<Group				Id="SHM" dataClass="250" controlled="true" readOnly="false"  filterOut="false"/>
+	<DueStation			Id="FSY"/>
+	<DueStation			Id="NME"/>
+	<DueStation			Id="SSS"/>
+	<DueStation			Id="FSS"/>
+	<ObsStation			Id="KEN"/>
+	<ObsStation			Id="JWL"/>
+	<ObsStation			Id="SKN"/>
+	<History			source="EDS" enable="true"/>
+	<Authorisation		enable="false" file="session.txt" directory="" operationClass="regionControl"/>
+</DockingSheet>

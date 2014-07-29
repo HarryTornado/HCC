@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configs>
+	<SignallingControl xml:id="P022.RLPR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<offset>4</offset>
+		<word>7</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P022.NLPR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<offset>5</offset>
+		<word>7</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P025.RLPR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<offset>2</offset>
+		<word>7</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P025.NLPR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<offset>3</offset>
+		<word>7</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P026.RLPR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<offset>0</offset>
+		<word>7</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P026.NLPR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<offset>1</offset>
+		<word>7</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P027.RLPR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<offset>14</offset>
+		<word>8</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P027.NLPR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<offset>15</offset>
+		<word>8</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S121.CPBPR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<offset>11</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S121.AORPN">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<offset>12</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S121.AORPR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<offset>13</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="R121.(A)RRP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<offset>14</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="R121.(A)RR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<offset>14</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S121.NLPR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<offset>15</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S122.CPBPR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<offset>6</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S122.AORPN">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<offset>7</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S122.AORPR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<offset>8</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="R122.(A)RR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<offset>9</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="R122.(B)RR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<offset>9</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S122.NLPR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<offset>10</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S123.CPBPR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<offset>1</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S123.AORPN">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<offset>2</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S123.AORPR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<offset>3</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="R123.(A)RRP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<offset>4</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="R123.(A)RR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<offset>4</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="R123.(B)RR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<offset>4</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S123.NLPR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<offset>5</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="R124.(A)RR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<offset>0</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S124.NLPR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<offset>1</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S125.NLPR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<offset>0</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S125.CPBPR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<offset>12</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S125.AORPN">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<offset>13</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S125.AORPR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<offset>14</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="R125.(A)RR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<offset>15</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="R125.(B)RR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<offset>15</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S126.CPBPR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<offset>7</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S126.AORPN">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<offset>8</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S126.AORPR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<offset>9</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="R126.(A)RR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<offset>10</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="R126.(B)RR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<offset>10</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S126.NLPR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<offset>11</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S127.CPBPR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<offset>2</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S127.AORPN">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<offset>3</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S127.AORPR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<offset>4</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="R127.(A)RR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<offset>5</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="R127.(B)RR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<offset>5</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S127.NLPR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<offset>6</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+</Configs>

@@ -1,0 +1,986 @@
+Wed 02/Nov/2011 18:36:08.510 TrainController/4104 reading trip
+Wed 02/Nov/2011 18:36:08.511 TrainController/4104 creating train plan
+Wed 02/Nov/2011 18:36:08.515 TrainController/4104 update train plan time
+Wed 02/Nov/2011 18:36:08.530 TrainController/4104 request Schedule
+Wed 02/Nov/2011 18:36:08.530 TrainController/4104 train status changed. 
+Wed 02/Nov/2011 18:36:08.531 TrainController/4104 exiting trainStateChanged
+Wed 02/Nov/2011 18:36:09.512 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:36:09.513 TrainController/4104 checking FSE/R777B-FSE/R797A
+Wed 02/Nov/2011 18:36:09.514 TrainController/4104 now starting FSE/R777B-FSE/R797A
+Wed 02/Nov/2011 18:36:09.516 TrainController2/4104/SignalController/FSE/R777B-FSE/R797A created
+Wed 02/Nov/2011 18:36:09.516 TrainController/4104 checking FSE/R659A
+Wed 02/Nov/2011 18:36:09.516 TrainController/4104 previous sr FSE/R777B-FSE/R797A status: waiting
+Wed 02/Nov/2011 18:36:09.516 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:36:09.518 TrainController2/4104/SignalController/FSE/R777B-FSE/R797A successfully claimed
+Wed 02/Nov/2011 18:36:09.548 TrainController2/4104/SignalController/FSE/R777B-FSE/R797A RouteStateChange Event. RouteModel:FSE/R797A, oldState: Dormant, newState: Turning
+Wed 02/Nov/2011 18:36:10.518 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:36:10.520 TrainController/4104 checking FSE/R659A
+Wed 02/Nov/2011 18:36:10.520 TrainController/4104 waiting 39 seconds  to start FSE/R659A
+Wed 02/Nov/2011 18:36:10.521 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:36:11.652 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:36:11.654 TrainController/4104 checking FSE/R659A
+Wed 02/Nov/2011 18:36:11.654 TrainController/4104 waiting 39 seconds  to start FSE/R659A
+Wed 02/Nov/2011 18:36:11.655 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:36:12.658 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:36:12.660 TrainController/4104 checking FSE/R659A
+Wed 02/Nov/2011 18:36:12.660 TrainController/4104 waiting 39 seconds  to start FSE/R659A
+Wed 02/Nov/2011 18:36:12.660 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:36:13.662 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:36:13.664 TrainController/4104 checking FSE/R659A
+Wed 02/Nov/2011 18:36:13.664 TrainController/4104 waiting 39 seconds  to start FSE/R659A
+Wed 02/Nov/2011 18:36:13.664 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:36:14.666 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:36:14.667 TrainController/4104 checking FSE/R659A
+Wed 02/Nov/2011 18:36:14.667 TrainController/4104 waiting 39 seconds  to start FSE/R659A
+Wed 02/Nov/2011 18:36:14.667 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:36:15.502 TrainController2/4104/SignalController/FSE/R777B-FSE/R797A RouteStateChange Event. RouteModel:FSE/R797A, oldState: Turning, newState: Locked
+Wed 02/Nov/2011 18:36:15.669 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:36:15.670 TrainController/4104 checking FSE/R659A
+Wed 02/Nov/2011 18:36:15.671 TrainController/4104 waiting 39 seconds  to start FSE/R659A
+Wed 02/Nov/2011 18:36:15.671 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:36:16.513 TrainController2/4104/SignalController/FSE/R777B-FSE/R797A RouteStateChange Event. RouteModel:FSE/R797A, oldState: Locked, newState: Clear
+Wed 02/Nov/2011 18:36:16.513 TrainController2/4104/SignalController/FSE/R777B-FSE/R797A checking for next route...
+Wed 02/Nov/2011 18:36:16.513 TrainController2/4104/SignalController/FSE/R777B-FSE/R797A new route: FSE/R777B
+Wed 02/Nov/2011 18:36:16.527 TrainController2/4104/SignalController/FSE/R777B-FSE/R797A RouteStateChange Event. RouteModel:FSE/R777B, oldState: Dormant, newState: Turning
+Wed 02/Nov/2011 18:36:16.674 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:36:16.674 TrainController/4104 checking FSE/R659A
+Wed 02/Nov/2011 18:36:16.675 TrainController/4104 waiting 39 seconds  to start FSE/R659A
+Wed 02/Nov/2011 18:36:16.675 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:36:17.677 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:36:17.678 TrainController/4104 checking FSE/R659A
+Wed 02/Nov/2011 18:36:17.678 TrainController/4104 waiting 39 seconds  to start FSE/R659A
+Wed 02/Nov/2011 18:36:17.679 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:36:18.680 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:36:18.681 TrainController/4104 checking FSE/R659A
+Wed 02/Nov/2011 18:36:18.681 TrainController/4104 waiting 39 seconds  to start FSE/R659A
+Wed 02/Nov/2011 18:36:18.682 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:36:19.684 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:36:19.685 TrainController/4104 checking FSE/R659A
+Wed 02/Nov/2011 18:36:19.685 TrainController/4104 waiting 39 seconds  to start FSE/R659A
+Wed 02/Nov/2011 18:36:19.685 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:36:20.687 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:36:20.688 TrainController/4104 checking FSE/R659A
+Wed 02/Nov/2011 18:36:20.689 TrainController/4104 waiting 39 seconds  to start FSE/R659A
+Wed 02/Nov/2011 18:36:20.689 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:36:21.747 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:36:21.751 TrainController/4104 checking FSE/R659A
+Wed 02/Nov/2011 18:36:21.752 TrainController/4104 waiting 39 seconds  to start FSE/R659A
+Wed 02/Nov/2011 18:36:21.752 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:36:22.539 TrainController2/4104/SignalController/FSE/R777B-FSE/R797A RouteStateChange Event. RouteModel:FSE/R777B, oldState: Turning, newState: Locked
+Wed 02/Nov/2011 18:36:22.755 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:36:22.757 TrainController/4104 checking FSE/R659A
+Wed 02/Nov/2011 18:36:22.757 TrainController/4104 waiting 39 seconds  to start FSE/R659A
+Wed 02/Nov/2011 18:36:22.758 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:36:23.552 TrainController2/4104/SignalController/FSE/R777B-FSE/R797A RouteStateChange Event. RouteModel:FSE/R777B, oldState: Locked, newState: Clear
+Wed 02/Nov/2011 18:36:23.552 TrainController2/4104/SignalController/FSE/R777B-FSE/R797A checking for next route...
+Wed 02/Nov/2011 18:36:23.552 TrainController2/4104/SignalController/FSE/R777B-FSE/R797A no more route. SignalController OK sent to Traincontroller
+Wed 02/Nov/2011 18:36:23.553 TrainController/4104  signal controller FSE/R777B-FSE/R797A ok
+Wed 02/Nov/2011 18:36:23.759 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:36:23.760 TrainController/4104 checking FSE/R659A
+Wed 02/Nov/2011 18:36:23.760 TrainController/4104 waiting 39 seconds  to start FSE/R659A
+Wed 02/Nov/2011 18:36:23.760 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:36:24.541 TrainController2/4104/SignalController/FSE/R777B-FSE/R797A RouteStateChange Event. RouteModel:FSE/R777B, oldState: Clear, newState: TrainIn
+Wed 02/Nov/2011 18:36:24.542 TrainController/4104 train status changed. 
+Wed 02/Nov/2011 18:36:24.543 TrainController/4104 exiting trainStateChanged
+Wed 02/Nov/2011 18:36:24.762 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:36:24.763 TrainController/4104 checking FSE/R659A
+Wed 02/Nov/2011 18:36:24.763 TrainController/4104 waiting 32 seconds  to start FSE/R659A
+Wed 02/Nov/2011 18:36:24.764 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:36:25.766 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:36:25.768 TrainController/4104 checking FSE/R659A
+Wed 02/Nov/2011 18:36:25.768 TrainController/4104 waiting 32 seconds  to start FSE/R659A
+Wed 02/Nov/2011 18:36:25.768 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:36:26.770 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:36:26.771 TrainController/4104 checking FSE/R659A
+Wed 02/Nov/2011 18:36:26.771 TrainController/4104 waiting 24 seconds  to start FSE/R659A
+Wed 02/Nov/2011 18:36:26.772 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:36:27.774 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:36:27.775 TrainController/4104 checking FSE/R659A
+Wed 02/Nov/2011 18:36:27.776 TrainController/4104 waiting 24 seconds  to start FSE/R659A
+Wed 02/Nov/2011 18:36:27.776 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:36:28.778 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:36:28.779 TrainController/4104 checking FSE/R659A
+Wed 02/Nov/2011 18:36:28.780 TrainController/4104 waiting 14 seconds  to start FSE/R659A
+Wed 02/Nov/2011 18:36:28.780 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:36:29.558 TrainController/4104 train status changed. 
+Wed 02/Nov/2011 18:36:29.558 TrainController/4104 exiting trainStateChanged
+Wed 02/Nov/2011 18:36:29.782 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:36:29.783 TrainController/4104 checking FSE/R659A
+Wed 02/Nov/2011 18:36:29.783 TrainController/4104 waiting 14 seconds  to start FSE/R659A
+Wed 02/Nov/2011 18:36:29.783 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:36:30.785 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:36:30.787 TrainController/4104 checking FSE/R659A
+Wed 02/Nov/2011 18:36:30.788 TrainController/4104 waiting 5 seconds  to start FSE/R659A
+Wed 02/Nov/2011 18:36:30.788 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:36:31.800 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:36:31.804 TrainController/4104 train status changed. 
+Wed 02/Nov/2011 18:36:31.804 TrainController/4104 exiting trainStateChanged
+Wed 02/Nov/2011 18:36:31.805 TrainController/4104 checking FSE/R659A
+Wed 02/Nov/2011 18:36:31.809 TrainController/4104 waiting 5 seconds  to start FSE/R659A
+Wed 02/Nov/2011 18:36:31.809 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:36:32.811 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:36:32.815 TrainController/4104 checking FSE/R659A
+Wed 02/Nov/2011 18:36:32.817 TrainController/4104 waiting 5 seconds  to start FSE/R659A
+Wed 02/Nov/2011 18:36:32.817 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:36:33.619 TrainController/4104 train status changed. 
+Wed 02/Nov/2011 18:36:33.620 TrainController/4104 exiting trainStateChanged
+Wed 02/Nov/2011 18:36:33.871 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:36:34.118 TrainController/4104 checking FSE/R659A
+Wed 02/Nov/2011 18:36:34.123 TrainController/4104 now starting FSE/R659A
+Wed 02/Nov/2011 18:36:34.125 TrainController2/4104/SignalController/FSE/R659A created
+Wed 02/Nov/2011 18:36:34.126 TrainController/4104 checking FSE/R657A
+Wed 02/Nov/2011 18:36:34.126 TrainController2/4104/SignalController/FSE/R659A successfully claimed
+Wed 02/Nov/2011 18:36:34.126 TrainController/4104 waiting 17 seconds  to start FSE/R657A
+Wed 02/Nov/2011 18:36:34.127 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:36:34.143 TrainController2/4104/SignalController/FSE/R659A RouteStateChange Event. RouteModel:FSE/R659A, oldState: Turning, newState: Locked
+Wed 02/Nov/2011 18:36:34.154 TrainController2/4104/SignalController/FSE/R659A RouteStateChange Event. RouteModel:FSE/R659A, oldState: Dormant, newState: Locked
+Wed 02/Nov/2011 18:36:34.605 TrainController2/4104/SignalController/FSE/R659A RouteStateChange Event. RouteModel:FSE/R659A, oldState: Locked, newState: Clear
+Wed 02/Nov/2011 18:36:34.605 TrainController2/4104/SignalController/FSE/R659A checking for next route...
+Wed 02/Nov/2011 18:36:34.606 TrainController2/4104/SignalController/FSE/R659A no more route. SignalController OK sent to Traincontroller
+Wed 02/Nov/2011 18:36:34.607 TrainController/4104  signal controller FSE/R659A ok
+Wed 02/Nov/2011 18:36:34.607 TrainController2/4104/SignalController/FSE/R777B-FSE/R797A RouteStateChange Event. RouteModel:FSE/R797A, oldState: Clear, newState: TrainIn
+Wed 02/Nov/2011 18:36:34.619 TrainController2/4104/SignalController/FSE/R777B-FSE/R797A Clearing up
+Wed 02/Nov/2011 18:36:35.132 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:36:35.133 TrainController/4104 checking FSE/R657A
+Wed 02/Nov/2011 18:36:35.134 TrainController/4104 waiting 6 seconds  to start FSE/R657A
+Wed 02/Nov/2011 18:36:35.135 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:36:35.584 TrainController/4104 train status changed. 
+Wed 02/Nov/2011 18:36:35.584 TrainController/4104 exiting trainStateChanged
+Wed 02/Nov/2011 18:36:36.137 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:36:36.138 TrainController/4104 checking FSE/R657A
+Wed 02/Nov/2011 18:36:36.139 TrainController/4104 waiting 6 seconds  to start FSE/R657A
+Wed 02/Nov/2011 18:36:36.139 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:36:37.141 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:36:37.143 TrainController/4104 checking FSE/R657A
+Wed 02/Nov/2011 18:36:37.144 TrainController/4104 waiting 1 seconds  to start FSE/R657A
+Wed 02/Nov/2011 18:36:37.144 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:36:38.145 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:36:38.147 TrainController/4104 checking FSE/R657A
+Wed 02/Nov/2011 18:36:38.148 TrainController/4104 waiting 1 seconds  to start FSE/R657A
+Wed 02/Nov/2011 18:36:38.148 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:36:38.670 TrainController/4104 train status changed. 
+Wed 02/Nov/2011 18:36:38.670 TrainController/4104 exiting trainStateChanged
+Wed 02/Nov/2011 18:36:39.149 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:36:39.150 TrainController/4104 checking FSE/R657A
+Wed 02/Nov/2011 18:36:39.151 TrainController/4104 now starting FSE/R657A
+Wed 02/Nov/2011 18:36:39.152 TrainController2/4104/SignalController/FSE/R657A created
+Wed 02/Nov/2011 18:36:39.153 TrainController/4104 checking MUL/R655A
+Wed 02/Nov/2011 18:36:39.153 TrainController/4104 previous sr FSE/R657A status: waiting
+Wed 02/Nov/2011 18:36:39.153 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:36:39.154 TrainController2/4104/SignalController/FSE/R657A successfully claimed
+Wed 02/Nov/2011 18:36:39.186 TrainController2/4104/SignalController/FSE/R657A RouteStateChange Event. RouteModel:FSE/R657A, oldState: Turning, newState: Locked
+Wed 02/Nov/2011 18:36:39.197 TrainController2/4104/SignalController/FSE/R657A RouteStateChange Event. RouteModel:FSE/R657A, oldState: Dormant, newState: Locked
+Wed 02/Nov/2011 18:36:39.629 TrainController2/4104/SignalController/FSE/R657A RouteStateChange Event. RouteModel:FSE/R657A, oldState: Locked, newState: Clear
+Wed 02/Nov/2011 18:36:39.629 TrainController2/4104/SignalController/FSE/R657A checking for next route...
+Wed 02/Nov/2011 18:36:39.629 TrainController2/4104/SignalController/FSE/R657A no more route. SignalController OK sent to Traincontroller
+Wed 02/Nov/2011 18:36:39.630 TrainController/4104  signal controller FSE/R657A ok
+Wed 02/Nov/2011 18:36:39.680 TrainController/4104 train status changed. 
+Wed 02/Nov/2011 18:36:39.680 TrainController/4104 exiting trainStateChanged
+Wed 02/Nov/2011 18:36:40.155 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:36:40.156 TrainController/4104 checking MUL/R655A
+Wed 02/Nov/2011 18:36:40.156 TrainController/4104 waiting 10 seconds  to start MUL/R655A
+Wed 02/Nov/2011 18:36:40.156 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:36:40.622 TrainController2/4104/SignalController/FSE/R659A RouteStateChange Event. RouteModel:FSE/R659A, oldState: Clear, newState: TrainIn
+Wed 02/Nov/2011 18:36:40.633 TrainController2/4104/SignalController/FSE/R659A Clearing up
+Wed 02/Nov/2011 18:36:41.158 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:36:41.160 TrainController/4104 checking MUL/R655A
+Wed 02/Nov/2011 18:36:41.160 TrainController/4104 now starting MUL/R655A
+Wed 02/Nov/2011 18:36:41.161 TrainController2/4104/SignalController/MUL/R655A created
+Wed 02/Nov/2011 18:36:41.161 TrainController/4104 checking MUL/R653A
+Wed 02/Nov/2011 18:36:41.161 TrainController2/4104/SignalController/MUL/R655A successfully claimed
+Wed 02/Nov/2011 18:36:41.162 TrainController/4104 waiting 13 seconds  to start MUL/R653A
+Wed 02/Nov/2011 18:36:41.162 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:36:41.480 TrainController2/4104/SignalController/MUL/R655A RouteStateChange Event. RouteModel:MUL/R655A, oldState: Turning, newState: Locked
+Wed 02/Nov/2011 18:36:41.510 TrainController2/4104/SignalController/MUL/R655A RouteStateChange Event. RouteModel:MUL/R655A, oldState: Dormant, newState: Locked
+Wed 02/Nov/2011 18:36:41.697 TrainController/4104 train status changed. 
+Wed 02/Nov/2011 18:36:41.697 TrainController/4104 exiting trainStateChanged
+Wed 02/Nov/2011 18:36:41.883 TrainController2/4104/SignalController/MUL/R655A RouteStateChange Event. RouteModel:MUL/R655A, oldState: Locked, newState: Clear
+Wed 02/Nov/2011 18:36:41.883 TrainController2/4104/SignalController/MUL/R655A checking for next route...
+Wed 02/Nov/2011 18:36:41.884 TrainController2/4104/SignalController/MUL/R655A no more route. SignalController OK sent to Traincontroller
+Wed 02/Nov/2011 18:36:41.884 TrainController/4104  signal controller MUL/R655A ok
+Wed 02/Nov/2011 18:36:42.163 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:36:42.165 TrainController/4104 checking MUL/R653A
+Wed 02/Nov/2011 18:36:42.165 TrainController/4104 waiting 13 seconds  to start MUL/R653A
+Wed 02/Nov/2011 18:36:42.165 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:36:42.701 TrainController2/4104/SignalController/FSE/R657A RouteStateChange Event. RouteModel:FSE/R657A, oldState: Clear, newState: TrainIn
+Wed 02/Nov/2011 18:36:42.712 TrainController2/4104/SignalController/FSE/R657A Clearing up
+Wed 02/Nov/2011 18:36:43.167 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:36:43.169 TrainController/4104 checking MUL/R653A
+Wed 02/Nov/2011 18:36:43.169 TrainController/4104 waiting 5 seconds  to start MUL/R653A
+Wed 02/Nov/2011 18:36:43.170 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:36:43.678 TrainController/4104 train status changed. 
+Wed 02/Nov/2011 18:36:43.678 TrainController/4104 exiting trainStateChanged
+Wed 02/Nov/2011 18:36:44.171 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:36:44.172 TrainController/4104 checking MUL/R653A
+Wed 02/Nov/2011 18:36:44.173 TrainController/4104 waiting 5 seconds  to start MUL/R653A
+Wed 02/Nov/2011 18:36:44.173 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:36:45.174 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:36:45.175 TrainController/4104 checking MUL/R653A
+Wed 02/Nov/2011 18:36:45.175 TrainController/4104 now starting MUL/R653A
+Wed 02/Nov/2011 18:36:45.176 TrainController2/4104/SignalController/MUL/R653A created
+Wed 02/Nov/2011 18:36:45.176 TrainController/4104 checking MUL/R649A
+Wed 02/Nov/2011 18:36:45.176 TrainController/4104 previous sr MUL/R653A status: waiting
+Wed 02/Nov/2011 18:36:45.177 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:36:45.177 TrainController2/4104/SignalController/MUL/R653A successfully claimed
+Wed 02/Nov/2011 18:36:45.193 TrainController2/4104/SignalController/MUL/R653A RouteStateChange Event. RouteModel:MUL/R653A, oldState: Turning, newState: Locked
+Wed 02/Nov/2011 18:36:45.204 TrainController2/4104/SignalController/MUL/R653A RouteStateChange Event. RouteModel:MUL/R653A, oldState: Dormant, newState: Locked
+Wed 02/Nov/2011 18:36:45.790 TrainController/4104 train status changed. 
+Wed 02/Nov/2011 18:36:45.790 TrainController/4104 exiting trainStateChanged
+Wed 02/Nov/2011 18:36:45.903 TrainController2/4104/SignalController/MUL/R653A RouteStateChange Event. RouteModel:MUL/R653A, oldState: Locked, newState: Clear
+Wed 02/Nov/2011 18:36:45.903 TrainController2/4104/SignalController/MUL/R653A checking for next route...
+Wed 02/Nov/2011 18:36:45.904 TrainController2/4104/SignalController/MUL/R653A no more route. SignalController OK sent to Traincontroller
+Wed 02/Nov/2011 18:36:45.904 TrainController/4104  signal controller MUL/R653A ok
+Wed 02/Nov/2011 18:36:46.179 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:36:46.180 TrainController/4104 checking MUL/R649A
+Wed 02/Nov/2011 18:36:46.180 TrainController/4104 waiting 4 seconds  to start MUL/R649A
+Wed 02/Nov/2011 18:36:46.180 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:36:46.906 TrainController2/4104/SignalController/MUL/R655A RouteStateChange Event. RouteModel:MUL/R655A, oldState: Clear, newState: TrainIn
+Wed 02/Nov/2011 18:36:46.918 TrainController2/4104/SignalController/MUL/R655A Clearing up
+Wed 02/Nov/2011 18:36:47.182 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:36:47.183 TrainController/4104 checking MUL/R649A
+Wed 02/Nov/2011 18:36:47.184 TrainController/4104 now starting MUL/R649A
+Wed 02/Nov/2011 18:36:47.185 TrainController2/4104/SignalController/MUL/R649A created
+Wed 02/Nov/2011 18:36:47.185 TrainController/4104 checking MUL/R645A
+Wed 02/Nov/2011 18:36:47.185 TrainController/4104 previous sr MUL/R649A status: waiting
+Wed 02/Nov/2011 18:36:47.185 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:36:47.186 TrainController2/4104/SignalController/MUL/R649A successfully claimed
+Wed 02/Nov/2011 18:36:47.272 TrainController2/4104/SignalController/MUL/R649A RouteStateChange Event. RouteModel:MUL/R649A, oldState: Turning, newState: Locked
+Wed 02/Nov/2011 18:36:47.282 TrainController2/4104/SignalController/MUL/R649A RouteStateChange Event. RouteModel:MUL/R649A, oldState: Dormant, newState: Locked
+Wed 02/Nov/2011 18:36:47.791 TrainController/4104 train status changed. 
+Wed 02/Nov/2011 18:36:47.791 TrainController/4104 exiting trainStateChanged
+Wed 02/Nov/2011 18:36:48.064 TrainController2/4104/SignalController/MUL/R649A RouteStateChange Event. RouteModel:MUL/R649A, oldState: Locked, newState: Clear
+Wed 02/Nov/2011 18:36:48.064 TrainController2/4104/SignalController/MUL/R649A checking for next route...
+Wed 02/Nov/2011 18:36:48.065 TrainController2/4104/SignalController/MUL/R649A no more route. SignalController OK sent to Traincontroller
+Wed 02/Nov/2011 18:36:48.065 TrainController/4104  signal controller MUL/R649A ok
+Wed 02/Nov/2011 18:36:48.187 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:36:48.187 TrainController/4104 checking MUL/R645A
+Wed 02/Nov/2011 18:36:48.188 TrainController/4104 now starting MUL/R645A
+Wed 02/Nov/2011 18:36:48.189 TrainController2/4104/SignalController/MUL/R645A created
+Wed 02/Nov/2011 18:36:48.189 TrainController/4104 checking MUL/R793A
+Wed 02/Nov/2011 18:36:48.189 TrainController/4104 previous sr MUL/R645A status: waiting
+Wed 02/Nov/2011 18:36:48.189 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:36:48.190 TrainController2/4104/SignalController/MUL/R645A successfully claimed
+Wed 02/Nov/2011 18:36:48.216 TrainController2/4104/SignalController/MUL/R645A RouteStateChange Event. RouteModel:MUL/R645A, oldState: Turning, newState: Locked
+Wed 02/Nov/2011 18:36:48.227 TrainController2/4104/SignalController/MUL/R645A RouteStateChange Event. RouteModel:MUL/R645A, oldState: Dormant, newState: Locked
+Wed 02/Nov/2011 18:36:49.072 TrainController2/4104/SignalController/MUL/R653A RouteStateChange Event. RouteModel:MUL/R653A, oldState: Clear, newState: TrainIn
+Wed 02/Nov/2011 18:36:49.077 TrainController2/4104/SignalController/MUL/R645A RouteStateChange Event. RouteModel:MUL/R645A, oldState: Locked, newState: Clear
+Wed 02/Nov/2011 18:36:49.077 TrainController2/4104/SignalController/MUL/R645A checking for next route...
+Wed 02/Nov/2011 18:36:49.077 TrainController2/4104/SignalController/MUL/R645A no more route. SignalController OK sent to Traincontroller
+Wed 02/Nov/2011 18:36:49.078 TrainController/4104  signal controller MUL/R645A ok
+Wed 02/Nov/2011 18:36:49.083 TrainController2/4104/SignalController/MUL/R653A Clearing up
+Wed 02/Nov/2011 18:36:49.239 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:36:49.246 TrainController/4104 checking MUL/R793A
+Wed 02/Nov/2011 18:36:49.251 TrainController/4104 now starting MUL/R793A
+Wed 02/Nov/2011 18:36:49.252 TrainController2/4104/SignalController/MUL/R793A created
+Wed 02/Nov/2011 18:36:49.252 TrainController/4104 checking MUL/R637A
+Wed 02/Nov/2011 18:36:49.252 TrainController/4104 previous sr MUL/R793A status: waiting
+Wed 02/Nov/2011 18:36:49.252 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:36:49.252 TrainController2/4104/SignalController/MUL/R793A successfully claimed
+Wed 02/Nov/2011 18:36:49.318 TrainController2/4104/SignalController/MUL/R793A RouteStateChange Event. RouteModel:MUL/R793A, oldState: Turning, newState: Locked
+Wed 02/Nov/2011 18:36:49.328 TrainController2/4104/SignalController/MUL/R793A RouteStateChange Event. RouteModel:MUL/R793A, oldState: Dormant, newState: Locked
+Wed 02/Nov/2011 18:36:49.752 TrainController/4104 train status changed. 
+Wed 02/Nov/2011 18:36:49.753 TrainController/4104 exiting trainStateChanged
+Wed 02/Nov/2011 18:36:50.080 TrainController2/4104/SignalController/MUL/R793A RouteStateChange Event. RouteModel:MUL/R793A, oldState: Locked, newState: Clear
+Wed 02/Nov/2011 18:36:50.080 TrainController2/4104/SignalController/MUL/R793A checking for next route...
+Wed 02/Nov/2011 18:36:50.081 TrainController2/4104/SignalController/MUL/R793A no more route. SignalController OK sent to Traincontroller
+Wed 02/Nov/2011 18:36:50.081 TrainController/4104  signal controller MUL/R793A ok
+Wed 02/Nov/2011 18:36:50.256 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:36:50.259 TrainController/4104 checking MUL/R637A
+Wed 02/Nov/2011 18:36:50.259 TrainController/4104 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 18:36:50.260 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:36:51.087 TrainController2/4104/SignalController/MUL/R649A RouteStateChange Event. RouteModel:MUL/R649A, oldState: Clear, newState: TrainIn
+Wed 02/Nov/2011 18:36:51.098 TrainController2/4104/SignalController/MUL/R649A Clearing up
+Wed 02/Nov/2011 18:36:51.262 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:36:51.264 TrainController/4104 checking MUL/R637A
+Wed 02/Nov/2011 18:36:51.264 TrainController/4104 waiting 10 seconds  to start MUL/R637A
+Wed 02/Nov/2011 18:36:51.265 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:36:51.763 TrainController/4104 train status changed. 
+Wed 02/Nov/2011 18:36:51.764 TrainController/4104 exiting trainStateChanged
+Wed 02/Nov/2011 18:36:52.267 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:36:52.268 TrainController/4104 checking MUL/R637A
+Wed 02/Nov/2011 18:36:52.270 TrainController/4104 waiting 10 seconds  to start MUL/R637A
+Wed 02/Nov/2011 18:36:52.270 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:36:53.089 TrainController2/4104/SignalController/MUL/R645A RouteStateChange Event. RouteModel:MUL/R645A, oldState: Clear, newState: TrainIn
+Wed 02/Nov/2011 18:36:53.100 TrainController2/4104/SignalController/MUL/R645A Clearing up
+Wed 02/Nov/2011 18:36:53.272 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:36:53.273 TrainController/4104 checking MUL/R637A
+Wed 02/Nov/2011 18:36:53.274 TrainController/4104 waiting 3 seconds  to start MUL/R637A
+Wed 02/Nov/2011 18:36:53.274 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:36:54.155 TrainController/4104 train status changed. 
+Wed 02/Nov/2011 18:36:54.155 TrainController/4104 head track MUL/T645 is on new platform PAR002
+Wed 02/Nov/2011 18:36:54.156 TrainController/4104 inPlatform: false
+Wed 02/Nov/2011 18:36:54.156 TrainController/4104 exiting trainStateChanged
+Wed 02/Nov/2011 18:36:54.276 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:36:54.281 TrainController/4104 checking MUL/R637A
+Wed 02/Nov/2011 18:36:54.281 TrainController/4104 waiting 3 seconds  to start MUL/R637A
+Wed 02/Nov/2011 18:36:54.282 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:36:55.284 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:36:55.285 TrainController/4104 checking MUL/R637A
+Wed 02/Nov/2011 18:36:55.286 TrainController/4104 now starting MUL/R637A
+Wed 02/Nov/2011 18:36:55.287 TrainController2/4104/SignalController/MUL/R637A created
+Wed 02/Nov/2011 18:36:55.289 TrainController/4104 checking MUL/R635A
+Wed 02/Nov/2011 18:36:55.290 TrainController2/4104/SignalController/MUL/R637A successfully claimed
+Wed 02/Nov/2011 18:36:55.290 TrainController/4104 waiting 20 seconds  to start MUL/R635A
+Wed 02/Nov/2011 18:36:55.291 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:36:55.360 TrainController2/4104/SignalController/MUL/R637A RouteStateChange Event. RouteModel:MUL/R637A, oldState: Turning, newState: Locked
+Wed 02/Nov/2011 18:36:55.370 TrainController2/4104/SignalController/MUL/R637A RouteStateChange Event. RouteModel:MUL/R637A, oldState: Dormant, newState: Locked
+Wed 02/Nov/2011 18:36:56.102 TrainController2/4104/SignalController/MUL/R637A RouteStateChange Event. RouteModel:MUL/R637A, oldState: Locked, newState: Clear
+Wed 02/Nov/2011 18:36:56.102 TrainController2/4104/SignalController/MUL/R637A checking for next route...
+Wed 02/Nov/2011 18:36:56.102 TrainController2/4104/SignalController/MUL/R637A no more route. SignalController OK sent to Traincontroller
+Wed 02/Nov/2011 18:36:56.103 TrainController/4104  signal controller MUL/R637A ok
+Wed 02/Nov/2011 18:36:56.321 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:36:56.328 TrainController/4104 checking MUL/R635A
+Wed 02/Nov/2011 18:36:56.328 TrainController/4104 waiting 20 seconds  to start MUL/R635A
+Wed 02/Nov/2011 18:36:56.328 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:36:56.339 TrainController/4104 train status changed. 
+Wed 02/Nov/2011 18:36:56.339 TrainController/4104 head track MUL/T654 is on new platform PAR002
+Wed 02/Nov/2011 18:36:56.340 TrainController/4104 inPlatform: true
+Wed 02/Nov/2011 18:36:56.340 TrainController/4104 dwell time: 0
+Wed 02/Nov/2011 18:36:56.341 TrainController/4104 exiting trainStateChanged
+Wed 02/Nov/2011 18:36:57.102 TrainController2/4104/SignalController/MUL/R793A RouteStateChange Event. RouteModel:MUL/R793A, oldState: Clear, newState: TrainIn
+Wed 02/Nov/2011 18:36:57.114 TrainController2/4104/SignalController/MUL/R793A Clearing up
+Wed 02/Nov/2011 18:36:57.330 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:36:57.332 TrainController/4104 checking MUL/R635A
+Wed 02/Nov/2011 18:36:57.332 TrainController/4104 waiting 15 seconds  to start MUL/R635A
+Wed 02/Nov/2011 18:36:57.332 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:36:58.334 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:36:58.336 TrainController/4104 checking MUL/R635A
+Wed 02/Nov/2011 18:36:58.339 TrainController/4104 waiting 15 seconds  to start MUL/R635A
+Wed 02/Nov/2011 18:36:58.339 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:36:58.353 TrainController/4104 train status changed. 
+Wed 02/Nov/2011 18:36:58.353 TrainController/4104 exiting trainStateChanged
+Wed 02/Nov/2011 18:36:59.340 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:36:59.342 TrainController/4104 checking MUL/R635A
+Wed 02/Nov/2011 18:36:59.342 TrainController/4104 waiting 4 seconds  to start MUL/R635A
+Wed 02/Nov/2011 18:36:59.342 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:37:00.178 TrainController/4104 train status changed. 
+Wed 02/Nov/2011 18:37:00.179 TrainController/4104 exiting trainStateChanged
+Wed 02/Nov/2011 18:37:00.409 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:37:00.414 TrainController/4104 checking MUL/R635A
+Wed 02/Nov/2011 18:37:00.418 TrainController/4104 waiting 4 seconds  to start MUL/R635A
+Wed 02/Nov/2011 18:37:00.418 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:37:01.422 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:37:01.425 TrainController/4104 checking MUL/R635A
+Wed 02/Nov/2011 18:37:01.427 TrainController/4104 now starting MUL/R635A
+Wed 02/Nov/2011 18:37:01.428 TrainController2/4104/SignalController/MUL/R635A created
+Wed 02/Nov/2011 18:37:01.428 TrainController/4104 checking MUL/R629A
+Wed 02/Nov/2011 18:37:01.428 TrainController2/4104/SignalController/MUL/R635A successfully claimed
+Wed 02/Nov/2011 18:37:01.429 TrainController/4104 waiting 15 seconds  to start MUL/R629A
+Wed 02/Nov/2011 18:37:01.429 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:37:01.450 TrainController2/4104/SignalController/MUL/R635A RouteStateChange Event. RouteModel:MUL/R635A, oldState: Turning, newState: Locked
+Wed 02/Nov/2011 18:37:01.460 TrainController2/4104/SignalController/MUL/R635A RouteStateChange Event. RouteModel:MUL/R635A, oldState: Dormant, newState: Locked
+Wed 02/Nov/2011 18:37:02.119 TrainController2/4104/SignalController/MUL/R635A RouteStateChange Event. RouteModel:MUL/R635A, oldState: Locked, newState: Clear
+Wed 02/Nov/2011 18:37:02.119 TrainController2/4104/SignalController/MUL/R635A checking for next route...
+Wed 02/Nov/2011 18:37:02.120 TrainController2/4104/SignalController/MUL/R635A no more route. SignalController OK sent to Traincontroller
+Wed 02/Nov/2011 18:37:02.120 TrainController/4104  signal controller MUL/R635A ok
+Wed 02/Nov/2011 18:37:02.121 TrainController/4104 train status changed. 
+Wed 02/Nov/2011 18:37:02.122 TrainController/4104 exiting trainStateChanged
+Wed 02/Nov/2011 18:37:02.431 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:37:02.433 TrainController/4104 checking MUL/R629A
+Wed 02/Nov/2011 18:37:02.434 TrainController/4104 waiting 15 seconds  to start MUL/R629A
+Wed 02/Nov/2011 18:37:02.434 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:37:03.354 TrainController2/4104/SignalController/MUL/R637A RouteStateChange Event. RouteModel:MUL/R637A, oldState: Clear, newState: TrainIn
+Wed 02/Nov/2011 18:37:03.368 TrainController2/4104/SignalController/MUL/R637A Clearing up
+Wed 02/Nov/2011 18:37:03.530 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:37:03.535 TrainController/4104 checking MUL/R629A
+Wed 02/Nov/2011 18:37:03.539 TrainController/4104 now starting MUL/R629A
+Wed 02/Nov/2011 18:37:03.542 TrainController2/4104/SignalController/MUL/R629A created
+Wed 02/Nov/2011 18:37:03.544 TrainController/4104 checking MUL/R623A
+Wed 02/Nov/2011 18:37:03.544 TrainController2/4104/SignalController/MUL/R629A successfully claimed
+Wed 02/Nov/2011 18:37:03.544 TrainController/4104 waiting 5 seconds  to start MUL/R623A
+Wed 02/Nov/2011 18:37:03.545 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:37:03.595 TrainController2/4104/SignalController/MUL/R629A RouteStateChange Event. RouteModel:MUL/R629A, oldState: Turning, newState: Locked
+Wed 02/Nov/2011 18:37:03.609 TrainController2/4104/SignalController/MUL/R629A RouteStateChange Event. RouteModel:MUL/R629A, oldState: Dormant, newState: Locked
+Wed 02/Nov/2011 18:37:04.315 TrainController/4104 train status changed. 
+Wed 02/Nov/2011 18:37:04.315 TrainController/4104 exiting trainStateChanged
+Wed 02/Nov/2011 18:37:04.341 TrainController2/4104/SignalController/MUL/R629A RouteStateChange Event. RouteModel:MUL/R629A, oldState: Locked, newState: Clear
+Wed 02/Nov/2011 18:37:04.341 TrainController2/4104/SignalController/MUL/R629A checking for next route...
+Wed 02/Nov/2011 18:37:04.342 TrainController2/4104/SignalController/MUL/R629A no more route. SignalController OK sent to Traincontroller
+Wed 02/Nov/2011 18:37:04.343 TrainController/4104  signal controller MUL/R629A ok
+Wed 02/Nov/2011 18:37:04.546 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:37:04.549 TrainController/4104 checking MUL/R623A
+Wed 02/Nov/2011 18:37:04.553 TrainController/4104 waiting 5 seconds  to start MUL/R623A
+Wed 02/Nov/2011 18:37:04.553 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:37:05.555 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:37:05.557 TrainController/4104 checking MUL/R623A
+Wed 02/Nov/2011 18:37:05.558 TrainController/4104 now starting MUL/R623A
+Wed 02/Nov/2011 18:37:05.558 TrainController2/4104/SignalController/MUL/R623A created
+Wed 02/Nov/2011 18:37:05.558 TrainController/4104 checking MUL/R791A
+Wed 02/Nov/2011 18:37:05.559 TrainController/4104 previous sr MUL/R623A status: waiting
+Wed 02/Nov/2011 18:37:05.559 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:37:05.559 TrainController2/4104/SignalController/MUL/R623A successfully claimed
+Wed 02/Nov/2011 18:37:05.685 TrainController2/4104/SignalController/MUL/R623A RouteStateChange Event. RouteModel:MUL/R623A, oldState: Turning, newState: Locked
+Wed 02/Nov/2011 18:37:05.699 TrainController2/4104/SignalController/MUL/R623A RouteStateChange Event. RouteModel:MUL/R623A, oldState: Dormant, newState: Locked
+Wed 02/Nov/2011 18:37:06.116 TrainController/4104 train status changed. 
+Wed 02/Nov/2011 18:37:06.117 TrainController/4104 exiting trainStateChanged
+Wed 02/Nov/2011 18:37:06.343 TrainController2/4104/SignalController/MUL/R623A RouteStateChange Event. RouteModel:MUL/R623A, oldState: Locked, newState: Clear
+Wed 02/Nov/2011 18:37:06.343 TrainController2/4104/SignalController/MUL/R623A checking for next route...
+Wed 02/Nov/2011 18:37:06.343 TrainController2/4104/SignalController/MUL/R623A no more route. SignalController OK sent to Traincontroller
+Wed 02/Nov/2011 18:37:06.344 TrainController/4104  signal controller MUL/R623A ok
+Wed 02/Nov/2011 18:37:06.561 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:37:06.562 TrainController/4104 checking MUL/R791A
+Wed 02/Nov/2011 18:37:06.562 TrainController/4104 waiting 13 seconds  to start MUL/R791A
+Wed 02/Nov/2011 18:37:06.562 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:37:07.352 TrainController2/4104/SignalController/MUL/R635A RouteStateChange Event. RouteModel:MUL/R635A, oldState: Clear, newState: TrainIn
+Wed 02/Nov/2011 18:37:07.363 TrainController2/4104/SignalController/MUL/R635A Clearing up
+Wed 02/Nov/2011 18:37:07.563 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:37:07.564 TrainController/4104 checking MUL/R791A
+Wed 02/Nov/2011 18:37:07.564 TrainController/4104 now starting MUL/R791A
+Wed 02/Nov/2011 18:37:07.565 TrainController2/4104/SignalController/MUL/R791A created
+Wed 02/Nov/2011 18:37:07.565 TrainController/4104 checking MUL/R617A
+Wed 02/Nov/2011 18:37:07.566 TrainController/4104 previous sr MUL/R791A status: waiting
+Wed 02/Nov/2011 18:37:07.566 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:37:07.566 TrainController2/4104/SignalController/MUL/R791A successfully claimed
+Wed 02/Nov/2011 18:37:07.619 TrainController2/4104/SignalController/MUL/R791A RouteStateChange Event. RouteModel:MUL/R791A, oldState: Turning, newState: Locked
+Wed 02/Nov/2011 18:37:07.630 TrainController2/4104/SignalController/MUL/R791A RouteStateChange Event. RouteModel:MUL/R791A, oldState: Dormant, newState: Locked
+Wed 02/Nov/2011 18:37:08.346 TrainController/4104 train status changed. 
+Wed 02/Nov/2011 18:37:08.346 TrainController/4104 exiting trainStateChanged
+Wed 02/Nov/2011 18:37:08.362 TrainController2/4104/SignalController/MUL/R791A RouteStateChange Event. RouteModel:MUL/R791A, oldState: Locked, newState: Clear
+Wed 02/Nov/2011 18:37:08.362 TrainController2/4104/SignalController/MUL/R791A checking for next route...
+Wed 02/Nov/2011 18:37:08.363 TrainController2/4104/SignalController/MUL/R791A no more route. SignalController OK sent to Traincontroller
+Wed 02/Nov/2011 18:37:08.363 TrainController/4104  signal controller MUL/R791A ok
+Wed 02/Nov/2011 18:37:08.567 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:37:08.568 TrainController/4104 checking MUL/R617A
+Wed 02/Nov/2011 18:37:08.568 TrainController/4104 waiting 14 seconds  to start MUL/R617A
+Wed 02/Nov/2011 18:37:08.569 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:37:09.368 TrainController2/4104/SignalController/MUL/R629A RouteStateChange Event. RouteModel:MUL/R629A, oldState: Clear, newState: TrainIn
+Wed 02/Nov/2011 18:37:09.378 TrainController2/4104/SignalController/MUL/R629A Clearing up
+Wed 02/Nov/2011 18:37:09.570 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:37:09.571 TrainController/4104 checking MUL/R617A
+Wed 02/Nov/2011 18:37:09.571 TrainController/4104 waiting 6 seconds  to start MUL/R617A
+Wed 02/Nov/2011 18:37:09.571 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:37:10.441 TrainController/4104 train status changed. 
+Wed 02/Nov/2011 18:37:10.441 TrainController/4104 exiting trainStateChanged
+Wed 02/Nov/2011 18:37:10.591 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:37:10.596 TrainController/4104 checking MUL/R617A
+Wed 02/Nov/2011 18:37:10.600 TrainController/4104 waiting 6 seconds  to start MUL/R617A
+Wed 02/Nov/2011 18:37:10.600 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:37:11.370 TrainController2/4104/SignalController/MUL/R623A RouteStateChange Event. RouteModel:MUL/R623A, oldState: Clear, newState: TrainIn
+Wed 02/Nov/2011 18:37:11.381 TrainController2/4104/SignalController/MUL/R623A Clearing up
+Wed 02/Nov/2011 18:37:11.601 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:37:11.602 TrainController/4104 checking MUL/R617A
+Wed 02/Nov/2011 18:37:11.602 TrainController/4104 now starting MUL/R617A
+Wed 02/Nov/2011 18:37:11.602 TrainController2/4104/SignalController/MUL/R617A created
+Wed 02/Nov/2011 18:37:11.604 TrainController/4104 checking MUL/R615A
+Wed 02/Nov/2011 18:37:11.604 TrainController2/4104/SignalController/MUL/R617A successfully claimed
+Wed 02/Nov/2011 18:37:11.605 TrainController/4104 waiting 6 seconds  to start MUL/R615A
+Wed 02/Nov/2011 18:37:11.605 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:37:11.629 TrainController2/4104/SignalController/MUL/R617A RouteStateChange Event. RouteModel:MUL/R617A, oldState: Turning, newState: Locked
+Wed 02/Nov/2011 18:37:11.639 TrainController2/4104/SignalController/MUL/R617A RouteStateChange Event. RouteModel:MUL/R617A, oldState: Dormant, newState: Locked
+Wed 02/Nov/2011 18:37:12.378 TrainController2/4104/SignalController/MUL/R617A RouteStateChange Event. RouteModel:MUL/R617A, oldState: Locked, newState: Clear
+Wed 02/Nov/2011 18:37:12.378 TrainController2/4104/SignalController/MUL/R617A checking for next route...
+Wed 02/Nov/2011 18:37:12.379 TrainController2/4104/SignalController/MUL/R617A no more route. SignalController OK sent to Traincontroller
+Wed 02/Nov/2011 18:37:12.379 TrainController/4104  signal controller MUL/R617A ok
+Wed 02/Nov/2011 18:37:12.448 TrainController/4104 train status changed. 
+Wed 02/Nov/2011 18:37:12.448 TrainController/4104 head track MUL/T623 is on new platform MCE002
+Wed 02/Nov/2011 18:37:12.449 TrainController/4104 inPlatform: false
+Wed 02/Nov/2011 18:37:12.450 TrainController/4104 exiting trainStateChanged
+Wed 02/Nov/2011 18:37:12.606 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:37:12.607 TrainController/4104 checking MUL/R615A
+Wed 02/Nov/2011 18:37:12.608 TrainController/4104 waiting 6 seconds  to start MUL/R615A
+Wed 02/Nov/2011 18:37:12.608 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:37:13.610 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:37:13.610 TrainController/4104 checking MUL/R615A
+Wed 02/Nov/2011 18:37:13.611 TrainController/4104 now starting MUL/R615A
+Wed 02/Nov/2011 18:37:13.611 TrainController2/4104/SignalController/MUL/R615A created
+Wed 02/Nov/2011 18:37:13.611 TrainController/4104 checking MUL/R611A
+Wed 02/Nov/2011 18:37:13.612 TrainController/4104 previous sr MUL/R615A status: waiting
+Wed 02/Nov/2011 18:37:13.612 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:37:13.612 TrainController2/4104/SignalController/MUL/R615A successfully claimed
+Wed 02/Nov/2011 18:37:13.725 TrainController2/4104/SignalController/MUL/R615A RouteStateChange Event. RouteModel:MUL/R615A, oldState: Turning, newState: Locked
+Wed 02/Nov/2011 18:37:13.744 TrainController2/4104/SignalController/MUL/R615A RouteStateChange Event. RouteModel:MUL/R615A, oldState: Dormant, newState: Locked
+Wed 02/Nov/2011 18:37:14.380 TrainController2/4104/SignalController/MUL/R615A RouteStateChange Event. RouteModel:MUL/R615A, oldState: Locked, newState: Clear
+Wed 02/Nov/2011 18:37:14.380 TrainController2/4104/SignalController/MUL/R615A checking for next route...
+Wed 02/Nov/2011 18:37:14.381 TrainController2/4104/SignalController/MUL/R615A no more route. SignalController OK sent to Traincontroller
+Wed 02/Nov/2011 18:37:14.381 TrainController/4104  signal controller MUL/R615A ok
+Wed 02/Nov/2011 18:37:14.443 TrainController/4104 train status changed. 
+Wed 02/Nov/2011 18:37:14.443 TrainController/4104 head track MUL/T636 is on new platform MCE002
+Wed 02/Nov/2011 18:37:14.443 TrainController/4104 inPlatform: true
+Wed 02/Nov/2011 18:37:14.444 TrainController/4104 dwell time: 0
+Wed 02/Nov/2011 18:37:14.444 TrainController/4104 exiting trainStateChanged
+Wed 02/Nov/2011 18:37:14.613 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:37:14.614 TrainController/4104 checking MUL/R611A
+Wed 02/Nov/2011 18:37:14.614 TrainController/4104 waiting 6 seconds  to start MUL/R611A
+Wed 02/Nov/2011 18:37:14.615 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:37:15.392 TrainController2/4104/SignalController/MUL/R791A RouteStateChange Event. RouteModel:MUL/R791A, oldState: Clear, newState: TrainIn
+Wed 02/Nov/2011 18:37:15.403 TrainController2/4104/SignalController/MUL/R791A Clearing up
+Wed 02/Nov/2011 18:37:15.616 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:37:15.617 TrainController/4104 checking MUL/R611A
+Wed 02/Nov/2011 18:37:15.617 TrainController/4104 now starting MUL/R611A
+Wed 02/Nov/2011 18:37:15.618 TrainController2/4104/SignalController/MUL/R611A created
+Wed 02/Nov/2011 18:37:15.618 TrainController/4104 checking MUL/R789A
+Wed 02/Nov/2011 18:37:15.618 TrainController/4104 previous sr MUL/R611A status: waiting
+Wed 02/Nov/2011 18:37:15.618 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:37:15.619 TrainController2/4104/SignalController/MUL/R611A successfully claimed
+Wed 02/Nov/2011 18:37:15.638 TrainController2/4104/SignalController/MUL/R611A RouteStateChange Event. RouteModel:MUL/R611A, oldState: Turning, newState: Locked
+Wed 02/Nov/2011 18:37:15.649 TrainController2/4104/SignalController/MUL/R611A RouteStateChange Event. RouteModel:MUL/R611A, oldState: Dormant, newState: Locked
+Wed 02/Nov/2011 18:37:16.441 TrainController/4104 train status changed. 
+Wed 02/Nov/2011 18:37:16.441 TrainController/4104 exiting trainStateChanged
+Wed 02/Nov/2011 18:37:16.450 TrainController2/4104/SignalController/MUL/R611A RouteStateChange Event. RouteModel:MUL/R611A, oldState: Locked, newState: Clear
+Wed 02/Nov/2011 18:37:16.450 TrainController2/4104/SignalController/MUL/R611A checking for next route...
+Wed 02/Nov/2011 18:37:16.451 TrainController2/4104/SignalController/MUL/R611A no more route. SignalController OK sent to Traincontroller
+Wed 02/Nov/2011 18:37:16.451 TrainController/4104  signal controller MUL/R611A ok
+Wed 02/Nov/2011 18:37:16.679 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:37:16.681 TrainController/4104 checking MUL/R789A
+Wed 02/Nov/2011 18:37:16.682 TrainController/4104 waiting 7 seconds  to start MUL/R789A
+Wed 02/Nov/2011 18:37:16.682 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:37:17.683 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:37:17.685 TrainController/4104 checking MUL/R789A
+Wed 02/Nov/2011 18:37:17.685 TrainController/4104 waiting 2 seconds  to start MUL/R789A
+Wed 02/Nov/2011 18:37:17.685 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:37:18.409 TrainController/4104 train status changed. 
+Wed 02/Nov/2011 18:37:18.410 TrainController/4104 exiting trainStateChanged
+Wed 02/Nov/2011 18:37:18.687 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:37:18.687 TrainController/4104 checking MUL/R789A
+Wed 02/Nov/2011 18:37:18.688 TrainController/4104 waiting 2 seconds  to start MUL/R789A
+Wed 02/Nov/2011 18:37:18.688 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:37:19.467 TrainController2/4104/SignalController/MUL/R617A RouteStateChange Event. RouteModel:MUL/R617A, oldState: Clear, newState: TrainIn
+Wed 02/Nov/2011 18:37:19.478 TrainController2/4104/SignalController/MUL/R617A Clearing up
+Wed 02/Nov/2011 18:37:19.689 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:37:19.690 TrainController/4104 checking MUL/R789A
+Wed 02/Nov/2011 18:37:19.690 TrainController/4104 now starting MUL/R789A
+Wed 02/Nov/2011 18:37:19.691 TrainController2/4104/SignalController/MUL/R789A created
+Wed 02/Nov/2011 18:37:19.691 TrainController/4104 checking MUL/R603A
+Wed 02/Nov/2011 18:37:19.691 TrainController/4104 previous sr MUL/R789A status: waiting
+Wed 02/Nov/2011 18:37:19.691 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:37:19.691 TrainController2/4104/SignalController/MUL/R789A successfully claimed
+Wed 02/Nov/2011 18:37:19.704 TrainController2/4104/SignalController/MUL/R789A RouteStateChange Event. RouteModel:MUL/R789A, oldState: Turning, newState: Locked
+Wed 02/Nov/2011 18:37:19.716 TrainController2/4104/SignalController/MUL/R789A RouteStateChange Event. RouteModel:MUL/R789A, oldState: Dormant, newState: Locked
+Wed 02/Nov/2011 18:37:20.568 TrainController/4104 train status changed. 
+Wed 02/Nov/2011 18:37:20.568 TrainController/4104 exiting trainStateChanged
+Wed 02/Nov/2011 18:37:20.581 TrainController2/4104/SignalController/MUL/R789A RouteStateChange Event. RouteModel:MUL/R789A, oldState: Locked, newState: Clear
+Wed 02/Nov/2011 18:37:20.581 TrainController2/4104/SignalController/MUL/R789A checking for next route...
+Wed 02/Nov/2011 18:37:20.581 TrainController2/4104/SignalController/MUL/R789A no more route. SignalController OK sent to Traincontroller
+Wed 02/Nov/2011 18:37:20.582 TrainController/4104  signal controller MUL/R789A ok
+Wed 02/Nov/2011 18:37:20.692 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:37:20.693 TrainController/4104 checking MUL/R603A
+Wed 02/Nov/2011 18:37:20.693 TrainController/4104 waiting 9 seconds  to start MUL/R603A
+Wed 02/Nov/2011 18:37:20.694 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:37:21.581 TrainController2/4104/SignalController/MUL/R615A RouteStateChange Event. RouteModel:MUL/R615A, oldState: Clear, newState: TrainIn
+Wed 02/Nov/2011 18:37:21.592 TrainController2/4104/SignalController/MUL/R615A Clearing up
+Wed 02/Nov/2011 18:37:21.754 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:37:21.760 TrainController/4104 checking MUL/R603A
+Wed 02/Nov/2011 18:37:21.760 TrainController/4104 waiting 2 seconds  to start MUL/R603A
+Wed 02/Nov/2011 18:37:21.762 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:37:22.465 TrainController/4104 train status changed. 
+Wed 02/Nov/2011 18:37:22.466 TrainController/4104 exiting trainStateChanged
+Wed 02/Nov/2011 18:37:22.763 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:37:22.764 TrainController/4104 checking MUL/R603A
+Wed 02/Nov/2011 18:37:22.765 TrainController/4104 waiting 2 seconds  to start MUL/R603A
+Wed 02/Nov/2011 18:37:22.765 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:37:23.598 TrainController2/4104/SignalController/MUL/R611A RouteStateChange Event. RouteModel:MUL/R611A, oldState: Clear, newState: TrainIn
+Wed 02/Nov/2011 18:37:23.608 TrainController2/4104/SignalController/MUL/R611A Clearing up
+Wed 02/Nov/2011 18:37:23.769 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:37:23.779 TrainController/4104 checking MUL/R603A
+Wed 02/Nov/2011 18:37:23.786 TrainController/4104 now starting MUL/R603A
+Wed 02/Nov/2011 18:37:23.790 TrainController2/4104/SignalController/MUL/R603A created
+Wed 02/Nov/2011 18:37:23.793 TrainController/4104 checking MUL/R601A
+Wed 02/Nov/2011 18:37:23.798 TrainController2/4104/SignalController/MUL/R603A successfully claimed
+Wed 02/Nov/2011 18:37:23.798 TrainController/4104 waiting 22 seconds  to start MUL/R601A
+Wed 02/Nov/2011 18:37:23.799 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:37:23.833 TrainController2/4104/SignalController/MUL/R603A RouteStateChange Event. RouteModel:MUL/R603A, oldState: Turning, newState: Locked
+Wed 02/Nov/2011 18:37:23.849 TrainController2/4104/SignalController/MUL/R603A RouteStateChange Event. RouteModel:MUL/R603A, oldState: Dormant, newState: Locked
+Wed 02/Nov/2011 18:37:24.596 TrainController/4104 train status changed. 
+Wed 02/Nov/2011 18:37:24.596 TrainController/4104 head track MUL/T611 is on new platform FGS002
+Wed 02/Nov/2011 18:37:24.598 TrainController/4104 inPlatform: false
+Wed 02/Nov/2011 18:37:24.598 TrainController/4104 exiting trainStateChanged
+Wed 02/Nov/2011 18:37:24.602 TrainController2/4104/SignalController/MUL/R603A RouteStateChange Event. RouteModel:MUL/R603A, oldState: Locked, newState: Clear
+Wed 02/Nov/2011 18:37:24.603 TrainController2/4104/SignalController/MUL/R603A checking for next route...
+Wed 02/Nov/2011 18:37:24.603 TrainController2/4104/SignalController/MUL/R603A no more route. SignalController OK sent to Traincontroller
+Wed 02/Nov/2011 18:37:24.604 TrainController/4104  signal controller MUL/R603A ok
+Wed 02/Nov/2011 18:37:24.802 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:37:24.804 TrainController/4104 checking MUL/R601A
+Wed 02/Nov/2011 18:37:24.806 TrainController/4104 waiting 22 seconds  to start MUL/R601A
+Wed 02/Nov/2011 18:37:24.807 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:37:25.808 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:37:25.811 TrainController/4104 checking MUL/R601A
+Wed 02/Nov/2011 18:37:25.811 TrainController/4104 waiting 16 seconds  to start MUL/R601A
+Wed 02/Nov/2011 18:37:25.811 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:37:26.775 TrainController/4104 train status changed. 
+Wed 02/Nov/2011 18:37:26.775 TrainController/4104 head track MUL/T612 is on new platform FGS002
+Wed 02/Nov/2011 18:37:26.776 TrainController/4104 inPlatform: true
+Wed 02/Nov/2011 18:37:26.776 TrainController/4104 dwell time: 0
+Wed 02/Nov/2011 18:37:26.776 TrainController/4104 exiting trainStateChanged
+Wed 02/Nov/2011 18:37:26.815 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:37:26.817 TrainController/4104 checking MUL/R601A
+Wed 02/Nov/2011 18:37:26.817 TrainController/4104 waiting 16 seconds  to start MUL/R601A
+Wed 02/Nov/2011 18:37:26.818 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:37:27.779 TrainController2/4104/SignalController/MUL/R789A RouteStateChange Event. RouteModel:MUL/R789A, oldState: Clear, newState: TrainIn
+Wed 02/Nov/2011 18:37:27.792 TrainController2/4104/SignalController/MUL/R789A Clearing up
+Wed 02/Nov/2011 18:37:27.972 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:37:28.002 TrainController/4104 checking MUL/R601A
+Wed 02/Nov/2011 18:37:28.025 TrainController/4104 waiting 10 seconds  to start MUL/R601A
+Wed 02/Nov/2011 18:37:28.026 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:37:28.664 TrainController/4104 train status changed. 
+Wed 02/Nov/2011 18:37:28.664 TrainController/4104 exiting trainStateChanged
+Wed 02/Nov/2011 18:37:29.031 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:37:29.037 TrainController/4104 checking MUL/R601A
+Wed 02/Nov/2011 18:37:29.041 TrainController/4104 waiting 10 seconds  to start MUL/R601A
+Wed 02/Nov/2011 18:37:29.041 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:37:30.042 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:37:30.047 TrainController/4104 checking MUL/R601A
+Wed 02/Nov/2011 18:37:30.049 TrainController/4104 waiting 2 seconds  to start MUL/R601A
+Wed 02/Nov/2011 18:37:30.049 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:37:30.916 TrainController/4104 train status changed. 
+Wed 02/Nov/2011 18:37:30.916 TrainController/4104 exiting trainStateChanged
+Wed 02/Nov/2011 18:37:31.051 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:37:31.053 TrainController/4104 checking MUL/R601A
+Wed 02/Nov/2011 18:37:31.053 TrainController/4104 waiting 2 seconds  to start MUL/R601A
+Wed 02/Nov/2011 18:37:31.054 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:37:31.936 TrainController2/4104/SignalController/MUL/R603A RouteStateChange Event. RouteModel:MUL/R603A, oldState: Clear, newState: TrainIn
+Wed 02/Nov/2011 18:37:31.947 TrainController2/4104/SignalController/MUL/R603A Clearing up
+Wed 02/Nov/2011 18:37:32.113 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:37:32.114 TrainController/4104 checking MUL/R601A
+Wed 02/Nov/2011 18:37:32.147 TrainController/4104 now starting MUL/R601A
+Wed 02/Nov/2011 18:37:32.265 TrainController2/4104/SignalController/MUL/R601A created
+Wed 02/Nov/2011 18:37:32.350 TrainController/4104 checking SSN/R702A-SSN/R704B
+Wed 02/Nov/2011 18:37:32.351 TrainController2/4104/SignalController/MUL/R601A successfully claimed
+Wed 02/Nov/2011 18:37:32.425 TrainController/4104 now starting SSN/R702A-SSN/R704B
+Wed 02/Nov/2011 18:37:32.429 TrainController2/4104/SignalController/SSN/R702A-SSN/R704B created
+Wed 02/Nov/2011 18:37:32.434 TrainController/4104 checking SSN/R720A-SSS/R722C
+Wed 02/Nov/2011 18:37:32.434 TrainController2/4104/SignalController/SSN/R702A-SSN/R704B successfully claimed
+Wed 02/Nov/2011 18:37:32.436 TrainController/4104 waiting 13 seconds  to start SSN/R720A-SSS/R722C
+Wed 02/Nov/2011 18:37:32.436 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:37:32.459 TrainController2/4104/SignalController/MUL/R601A RouteStateChange Event. RouteModel:MUL/R601A, oldState: Turning, newState: Locked
+Wed 02/Nov/2011 18:37:32.515 TrainController2/4104/SignalController/MUL/R601A RouteStateChange Event. RouteModel:MUL/R601A, oldState: Dormant, newState: Locked
+Wed 02/Nov/2011 18:37:32.520 TrainController2/4104/SignalController/SSN/R702A-SSN/R704B RouteStateChange Event. RouteModel:SSN/R704B, oldState: Dormant, newState: Turning
+Wed 02/Nov/2011 18:37:32.916 TrainController/4104 train status changed. 
+Wed 02/Nov/2011 18:37:32.916 TrainController/4104 exiting trainStateChanged
+Wed 02/Nov/2011 18:37:32.933 TrainController2/4104/SignalController/MUL/R601A RouteStateChange Event. RouteModel:MUL/R601A, oldState: Locked, newState: Clear
+Wed 02/Nov/2011 18:37:32.933 TrainController2/4104/SignalController/MUL/R601A checking for next route...
+Wed 02/Nov/2011 18:37:32.934 TrainController2/4104/SignalController/MUL/R601A no more route. SignalController OK sent to Traincontroller
+Wed 02/Nov/2011 18:37:32.934 TrainController/4104  signal controller MUL/R601A ok
+Wed 02/Nov/2011 18:37:33.708 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:37:33.793 TrainController/4104 checking SSN/R720A-SSS/R722C
+Wed 02/Nov/2011 18:37:33.804 TrainController/4104 waiting 13 seconds  to start SSN/R720A-SSS/R722C
+Wed 02/Nov/2011 18:37:33.804 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:37:34.807 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:37:34.809 TrainController/4104 checking SSN/R720A-SSS/R722C
+Wed 02/Nov/2011 18:37:34.811 TrainController/4104 waiting 4 seconds  to start SSN/R720A-SSS/R722C
+Wed 02/Nov/2011 18:37:34.811 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:37:35.094 TrainController/4104 train status changed. 
+Wed 02/Nov/2011 18:37:35.094 TrainController/4104 exiting trainStateChanged
+Wed 02/Nov/2011 18:37:35.813 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:37:35.816 TrainController/4104 checking SSN/R720A-SSS/R722C
+Wed 02/Nov/2011 18:37:35.819 TrainController/4104 waiting 4 seconds  to start SSN/R720A-SSS/R722C
+Wed 02/Nov/2011 18:37:35.819 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:37:35.835 TrainController2/4104/SignalController/MUL/R601A RouteStateChange Event. RouteModel:MUL/R601A, oldState: Clear, newState: TrainIn
+Wed 02/Nov/2011 18:37:35.846 TrainController2/4104/SignalController/MUL/R601A Clearing up
+Wed 02/Nov/2011 18:37:36.821 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:37:36.823 TrainController/4104 checking SSN/R720A-SSS/R722C
+Wed 02/Nov/2011 18:37:36.824 TrainController/4104 now starting SSN/R720A-SSS/R722C
+Wed 02/Nov/2011 18:37:36.826 TrainController2/4104/SignalController/SSN/R720A-SSS/R722C created
+Wed 02/Nov/2011 18:37:36.826 TrainController/4104 checking SSS/R824A
+Wed 02/Nov/2011 18:37:36.826 TrainController/4104 checking SSS/R826A
+Wed 02/Nov/2011 18:37:36.827 TrainController2/4104/SignalController/SSN/R720A-SSS/R722C successfully claimed
+Wed 02/Nov/2011 18:37:36.827 TrainController/4104 checking FSA/R828A-FSA/R740B
+Wed 02/Nov/2011 18:37:36.977 TrainController/4104 waiting 84 seconds  to start FSA/R828A-FSA/R740B
+Wed 02/Nov/2011 18:37:36.977 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:37:37.006 TrainController2/4104/SignalController/SSN/R720A-SSS/R722C RouteStateChange Event. RouteModel:SSS/R722C, oldState: Turning, newState: Locked
+Wed 02/Nov/2011 18:37:37.019 TrainController2/4104/SignalController/SSN/R720A-SSS/R722C RouteStateChange Event. RouteModel:SSS/R722C, oldState: Dormant, newState: Locked
+Wed 02/Nov/2011 18:37:37.029 TrainController/4104 train status changed. 
+Wed 02/Nov/2011 18:37:37.029 TrainController/4104 exiting trainStateChanged
+Wed 02/Nov/2011 18:37:37.850 TrainController2/4104/SignalController/SSN/R702A-SSN/R704B RouteStateChange Event. RouteModel:SSN/R704B, oldState: Turning, newState: Locked
+Wed 02/Nov/2011 18:37:37.978 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:37:37.979 TrainController/4104 checking FSA/R828A-FSA/R740B
+Wed 02/Nov/2011 18:37:37.980 TrainController/4104 waiting 84 seconds  to start FSA/R828A-FSA/R740B
+Wed 02/Nov/2011 18:37:37.980 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:37:38.032 TrainController2/4104/SignalController/SSN/R720A-SSS/R722C RouteStateChange Event. RouteModel:SSS/R722C, oldState: Locked, newState: Clear
+Wed 02/Nov/2011 18:37:38.032 TrainController2/4104/SignalController/SSN/R720A-SSS/R722C checking for next route...
+Wed 02/Nov/2011 18:37:38.033 TrainController2/4104/SignalController/SSN/R720A-SSS/R722C new route: SSN/R720A
+Wed 02/Nov/2011 18:37:38.048 TrainController2/4104/SignalController/SSN/R720A-SSS/R722C RouteStateChange Event. RouteModel:SSN/R720A, oldState: Turning, newState: Locked
+Wed 02/Nov/2011 18:37:38.059 TrainController2/4104/SignalController/SSN/R720A-SSS/R722C RouteStateChange Event. RouteModel:SSN/R720A, oldState: Dormant, newState: Locked
+Wed 02/Nov/2011 18:37:38.841 TrainController2/4104/SignalController/SSN/R702A-SSN/R704B RouteStateChange Event. RouteModel:SSN/R704B, oldState: Locked, newState: Clear
+Wed 02/Nov/2011 18:37:38.842 TrainController2/4104/SignalController/SSN/R702A-SSN/R704B checking for next route...
+Wed 02/Nov/2011 18:37:38.842 TrainController2/4104/SignalController/SSN/R702A-SSN/R704B new route: SSN/R702A
+Wed 02/Nov/2011 18:37:38.852 TrainController2/4104/SignalController/SSN/R720A-SSS/R722C RouteStateChange Event. RouteModel:SSN/R720A, oldState: Locked, newState: Clear
+Wed 02/Nov/2011 18:37:38.852 TrainController2/4104/SignalController/SSN/R720A-SSS/R722C checking for next route...
+Wed 02/Nov/2011 18:37:38.853 TrainController2/4104/SignalController/SSN/R720A-SSS/R722C no more route. SignalController OK sent to Traincontroller
+Wed 02/Nov/2011 18:37:38.853 TrainController/4104  signal controller SSN/R720A-SSS/R722C ok
+Wed 02/Nov/2011 18:37:38.855 TrainController2/4104/SignalController/SSN/R702A-SSN/R704B RouteStateChange Event. RouteModel:SSN/R702A, oldState: Turning, newState: Locked
+Wed 02/Nov/2011 18:37:38.865 TrainController2/4104/SignalController/SSN/R702A-SSN/R704B RouteStateChange Event. RouteModel:SSN/R702A, oldState: Dormant, newState: Locked
+Wed 02/Nov/2011 18:37:38.981 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:37:38.982 TrainController/4104 checking FSA/R828A-FSA/R740B
+Wed 02/Nov/2011 18:37:38.983 TrainController/4104 waiting 84 seconds  to start FSA/R828A-FSA/R740B
+Wed 02/Nov/2011 18:37:38.984 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:37:39.113 TrainController/4104 train status changed. 
+Wed 02/Nov/2011 18:37:39.113 TrainController/4104 exiting trainStateChanged
+Wed 02/Nov/2011 18:37:39.852 TrainController2/4104/SignalController/SSN/R702A-SSN/R704B RouteStateChange Event. RouteModel:SSN/R702A, oldState: Locked, newState: Clear
+Wed 02/Nov/2011 18:37:39.852 TrainController2/4104/SignalController/SSN/R702A-SSN/R704B checking for next route...
+Wed 02/Nov/2011 18:37:39.853 TrainController2/4104/SignalController/SSN/R702A-SSN/R704B no more route. SignalController OK sent to Traincontroller
+Wed 02/Nov/2011 18:37:39.854 TrainController/4104  signal controller SSN/R702A-SSN/R704B ok
+Wed 02/Nov/2011 18:37:39.985 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:37:39.986 TrainController/4104 checking FSA/R828A-FSA/R740B
+Wed 02/Nov/2011 18:37:39.986 TrainController/4104 waiting 84 seconds  to start FSA/R828A-FSA/R740B
+Wed 02/Nov/2011 18:37:39.986 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:37:40.855 TrainController2/4104/SignalController/SSN/R702A-SSN/R704B RouteStateChange Event. RouteModel:SSN/R702A, oldState: Clear, newState: TrainIn
+Wed 02/Nov/2011 18:37:40.987 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:37:40.988 TrainController/4104 checking FSA/R828A-FSA/R740B
+Wed 02/Nov/2011 18:37:40.988 TrainController/4104 waiting 74 seconds  to start FSA/R828A-FSA/R740B
+Wed 02/Nov/2011 18:37:40.988 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:37:41.299 TrainController/4104 train status changed. 
+Wed 02/Nov/2011 18:37:41.299 TrainController/4104 exiting trainStateChanged
+Wed 02/Nov/2011 18:37:41.990 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:37:41.991 TrainController/4104 checking FSA/R828A-FSA/R740B
+Wed 02/Nov/2011 18:37:41.991 TrainController/4104 waiting 74 seconds  to start FSA/R828A-FSA/R740B
+Wed 02/Nov/2011 18:37:41.992 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:37:42.867 TrainController2/4104/SignalController/SSN/R702A-SSN/R704B RouteStateChange Event. RouteModel:SSN/R704B, oldState: Clear, newState: TrainIn
+Wed 02/Nov/2011 18:37:42.879 TrainController2/4104/SignalController/SSN/R702A-SSN/R704B Clearing up
+Wed 02/Nov/2011 18:37:43.037 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:37:43.044 TrainController/4104 checking FSA/R828A-FSA/R740B
+Wed 02/Nov/2011 18:37:43.045 TrainController/4104 waiting 72 seconds  to start FSA/R828A-FSA/R740B
+Wed 02/Nov/2011 18:37:43.045 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:37:44.047 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:37:44.048 TrainController/4104 checking FSA/R828A-FSA/R740B
+Wed 02/Nov/2011 18:37:44.050 TrainController/4104 waiting 72 seconds  to start FSA/R828A-FSA/R740B
+Wed 02/Nov/2011 18:37:44.050 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:37:45.051 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:37:45.052 TrainController/4104 checking FSA/R828A-FSA/R740B
+Wed 02/Nov/2011 18:37:45.053 TrainController/4104 waiting 70 seconds  to start FSA/R828A-FSA/R740B
+Wed 02/Nov/2011 18:37:45.053 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:37:45.886 TrainController/4104 train status changed. 
+Wed 02/Nov/2011 18:37:45.886 TrainController/4104 exiting trainStateChanged
+Wed 02/Nov/2011 18:37:46.054 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:37:46.055 TrainController/4104 checking FSA/R828A-FSA/R740B
+Wed 02/Nov/2011 18:37:46.055 TrainController/4104 waiting 70 seconds  to start FSA/R828A-FSA/R740B
+Wed 02/Nov/2011 18:37:46.055 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:37:47.057 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:37:47.058 TrainController/4104 checking FSA/R828A-FSA/R740B
+Wed 02/Nov/2011 18:37:47.059 TrainController/4104 waiting 59 seconds  to start FSA/R828A-FSA/R740B
+Wed 02/Nov/2011 18:37:47.059 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:37:48.071 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:37:48.075 TrainController/4104 train status changed. 
+Wed 02/Nov/2011 18:37:48.075 TrainController/4104 exiting trainStateChanged
+Wed 02/Nov/2011 18:37:48.078 TrainController/4104 checking FSA/R828A-FSA/R740B
+Wed 02/Nov/2011 18:37:48.081 TrainController/4104 waiting 59 seconds  to start FSA/R828A-FSA/R740B
+Wed 02/Nov/2011 18:37:48.081 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:37:48.884 TrainController2/4104/SignalController/SSN/R720A-SSS/R722C RouteStateChange Event. RouteModel:SSN/R720A, oldState: Clear, newState: TrainIn
+Wed 02/Nov/2011 18:37:49.083 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:37:49.084 TrainController/4104 checking FSA/R828A-FSA/R740B
+Wed 02/Nov/2011 18:37:49.087 TrainController/4104 waiting 49 seconds  to start FSA/R828A-FSA/R740B
+Wed 02/Nov/2011 18:37:49.087 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:37:50.101 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:37:50.101 TrainController/4104 train status changed. 
+Wed 02/Nov/2011 18:37:50.102 TrainController/4104 head track SSN/T720 is on new platform SSS013
+Wed 02/Nov/2011 18:37:50.108 TrainController/4104 inPlatform: false
+Wed 02/Nov/2011 18:37:50.108 TrainController/4104 exiting trainStateChanged
+Wed 02/Nov/2011 18:37:50.111 TrainController/4104 checking FSA/R828A-FSA/R740B
+Wed 02/Nov/2011 18:37:50.115 TrainController/4104 waiting 49 seconds  to start FSA/R828A-FSA/R740B
+Wed 02/Nov/2011 18:37:50.116 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:37:51.278 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:37:51.281 TrainController/4104 checking FSA/R828A-FSA/R740B
+Wed 02/Nov/2011 18:37:51.285 TrainController/4104 waiting 49 seconds  to start FSA/R828A-FSA/R740B
+Wed 02/Nov/2011 18:37:51.285 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:37:51.925 TrainController/4104 train status changed. 
+Wed 02/Nov/2011 18:37:51.926 TrainController/4104 head track SSS/T605 is on new platform SSS013
+Wed 02/Nov/2011 18:37:51.926 TrainController/4104 inPlatform: true
+Wed 02/Nov/2011 18:37:51.926 TrainController/4104 dwell time: 0
+Wed 02/Nov/2011 18:37:51.926 TrainController/4104 exiting trainStateChanged
+Wed 02/Nov/2011 18:37:52.286 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:37:52.286 TrainController/4104 checking FSA/R828A-FSA/R740B
+Wed 02/Nov/2011 18:37:52.287 TrainController/4104 waiting 39 seconds  to start FSA/R828A-FSA/R740B
+Wed 02/Nov/2011 18:37:52.287 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:37:53.288 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:37:53.289 TrainController/4104 checking FSA/R828A-FSA/R740B
+Wed 02/Nov/2011 18:37:53.289 TrainController/4104 waiting 39 seconds  to start FSA/R828A-FSA/R740B
+Wed 02/Nov/2011 18:37:53.290 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:37:53.322 TrainController2/4104/SignalController/SSN/R720A-SSS/R722C RouteStateChange Event. RouteModel:SSS/R722C, oldState: Clear, newState: TrainIn
+Wed 02/Nov/2011 18:37:53.334 TrainController2/4104/SignalController/SSN/R720A-SSS/R722C Clearing up
+Wed 02/Nov/2011 18:37:53.903 TrainController/4104 train status changed. 
+Wed 02/Nov/2011 18:37:53.903 TrainController/4104 exiting trainStateChanged
+Wed 02/Nov/2011 18:37:54.291 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:37:54.292 TrainController/4104 checking FSA/R828A-FSA/R740B
+Wed 02/Nov/2011 18:37:54.293 TrainController/4104 waiting 28 seconds  to start FSA/R828A-FSA/R740B
+Wed 02/Nov/2011 18:37:54.293 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:37:55.294 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:37:55.296 TrainController/4104 checking FSA/R828A-FSA/R740B
+Wed 02/Nov/2011 18:37:55.296 TrainController/4104 waiting 28 seconds  to start FSA/R828A-FSA/R740B
+Wed 02/Nov/2011 18:37:55.297 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:37:55.917 TrainController/4104 train status changed. 
+Wed 02/Nov/2011 18:37:55.917 TrainController/4104 exiting trainStateChanged
+Wed 02/Nov/2011 18:37:56.298 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:37:56.299 TrainController/4104 checking FSA/R828A-FSA/R740B
+Wed 02/Nov/2011 18:37:56.300 TrainController/4104 waiting 24 seconds  to start FSA/R828A-FSA/R740B
+Wed 02/Nov/2011 18:37:56.300 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:37:57.301 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:37:57.303 TrainController/4104 checking FSA/R828A-FSA/R740B
+Wed 02/Nov/2011 18:37:57.303 TrainController/4104 waiting 24 seconds  to start FSA/R828A-FSA/R740B
+Wed 02/Nov/2011 18:37:57.303 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:37:58.304 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:37:58.306 TrainController/4104 checking FSA/R828A-FSA/R740B
+Wed 02/Nov/2011 18:37:58.306 TrainController/4104 waiting 18 seconds  to start FSA/R828A-FSA/R740B
+Wed 02/Nov/2011 18:37:58.306 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:37:58.539 TrainController/4104 train status changed. 
+Wed 02/Nov/2011 18:37:58.539 TrainController/4104 exiting trainStateChanged
+Wed 02/Nov/2011 18:37:59.308 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:37:59.310 TrainController/4104 checking FSA/R828A-FSA/R740B
+Wed 02/Nov/2011 18:37:59.310 TrainController/4104 waiting 18 seconds  to start FSA/R828A-FSA/R740B
+Wed 02/Nov/2011 18:37:59.310 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:38:00.312 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:38:00.313 TrainController/4104 checking FSA/R828A-FSA/R740B
+Wed 02/Nov/2011 18:38:00.314 TrainController/4104 waiting 12 seconds  to start FSA/R828A-FSA/R740B
+Wed 02/Nov/2011 18:38:00.314 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:38:00.508 TrainController/4104 train status changed. 
+Wed 02/Nov/2011 18:38:00.508 TrainController/4104 exiting trainStateChanged
+Wed 02/Nov/2011 18:38:01.315 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:38:01.316 TrainController/4104 checking FSA/R828A-FSA/R740B
+Wed 02/Nov/2011 18:38:01.317 TrainController/4104 waiting 12 seconds  to start FSA/R828A-FSA/R740B
+Wed 02/Nov/2011 18:38:01.317 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:38:02.318 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:38:02.319 TrainController/4104 checking FSA/R828A-FSA/R740B
+Wed 02/Nov/2011 18:38:02.320 TrainController/4104 waiting 2 seconds  to start FSA/R828A-FSA/R740B
+Wed 02/Nov/2011 18:38:02.320 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:38:02.397 TrainController/4104 train status changed. 
+Wed 02/Nov/2011 18:38:02.397 TrainController/4104 exiting trainStateChanged
+Wed 02/Nov/2011 18:38:03.322 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:38:03.323 TrainController/4104 checking FSA/R828A-FSA/R740B
+Wed 02/Nov/2011 18:38:03.324 TrainController/4104 waiting 2 seconds  to start FSA/R828A-FSA/R740B
+Wed 02/Nov/2011 18:38:03.324 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:38:04.326 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:38:04.327 TrainController/4104 checking FSA/R828A-FSA/R740B
+Wed 02/Nov/2011 18:38:04.327 TrainController/4104 now starting FSA/R828A-FSA/R740B
+Wed 02/Nov/2011 18:38:04.328 TrainController2/4104/SignalController/FSA/R828A-FSA/R740B created
+Wed 02/Nov/2011 18:38:04.328 TrainController/4104 checking FSA/R754A
+Wed 02/Nov/2011 18:38:04.329 TrainController/4104 previous sr FSA/R828A-FSA/R740B status: waiting
+Wed 02/Nov/2011 18:38:04.329 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:38:04.330 TrainController2/4104/SignalController/FSA/R828A-FSA/R740B successfully claimed
+Wed 02/Nov/2011 18:38:04.589 TrainController2/4104/SignalController/FSA/R828A-FSA/R740B RouteStateChange Event. RouteModel:FSA/R740B, oldState: Dormant, newState: Turning
+Wed 02/Nov/2011 18:38:04.609 TrainController/4104 train status changed. 
+Wed 02/Nov/2011 18:38:04.609 TrainController/4104 exiting trainStateChanged
+Wed 02/Nov/2011 18:38:05.330 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:38:05.331 TrainController/4104 checking FSA/R754A
+Wed 02/Nov/2011 18:38:05.332 TrainController/4104 waiting 34 seconds  to start FSA/R754A
+Wed 02/Nov/2011 18:38:05.332 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:38:06.333 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:38:06.334 TrainController/4104 checking FSA/R754A
+Wed 02/Nov/2011 18:38:06.335 TrainController/4104 waiting 28 seconds  to start FSA/R754A
+Wed 02/Nov/2011 18:38:06.335 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:38:06.612 TrainController/4104 train status changed. 
+Wed 02/Nov/2011 18:38:06.613 TrainController/4104 exiting trainStateChanged
+Wed 02/Nov/2011 18:38:07.336 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:38:07.337 TrainController/4104 checking FSA/R754A
+Wed 02/Nov/2011 18:38:07.337 TrainController/4104 waiting 28 seconds  to start FSA/R754A
+Wed 02/Nov/2011 18:38:07.337 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:38:08.338 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:38:08.339 TrainController/4104 checking FSA/R754A
+Wed 02/Nov/2011 18:38:08.339 TrainController/4104 waiting 16 seconds  to start FSA/R754A
+Wed 02/Nov/2011 18:38:08.339 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:38:08.685 TrainController/4104 train status changed. 
+Wed 02/Nov/2011 18:38:08.685 TrainController/4104 exiting trainStateChanged
+Wed 02/Nov/2011 18:38:09.340 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:38:09.341 TrainController/4104 checking FSA/R754A
+Wed 02/Nov/2011 18:38:09.342 TrainController/4104 waiting 16 seconds  to start FSA/R754A
+Wed 02/Nov/2011 18:38:09.342 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:38:09.638 TrainController2/4104/SignalController/FSA/R828A-FSA/R740B RouteStateChange Event. RouteModel:FSA/R740B, oldState: Turning, newState: Locked
+Wed 02/Nov/2011 18:38:10.343 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:38:10.344 TrainController/4104 checking FSA/R754A
+Wed 02/Nov/2011 18:38:10.344 TrainController/4104 waiting 16 seconds  to start FSA/R754A
+Wed 02/Nov/2011 18:38:10.344 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:38:10.649 TrainController2/4104/SignalController/FSA/R828A-FSA/R740B RouteStateChange Event. RouteModel:FSA/R740B, oldState: Locked, newState: Clear
+Wed 02/Nov/2011 18:38:10.650 TrainController2/4104/SignalController/FSA/R828A-FSA/R740B checking for next route...
+Wed 02/Nov/2011 18:38:10.650 TrainController2/4104/SignalController/FSA/R828A-FSA/R740B new route: FSA/R828A
+Wed 02/Nov/2011 18:38:10.667 TrainController2/4104/SignalController/FSA/R828A-FSA/R740B RouteStateChange Event. RouteModel:FSA/R828A, oldState: Turning, newState: Locked
+Wed 02/Nov/2011 18:38:10.678 TrainController2/4104/SignalController/FSA/R828A-FSA/R740B RouteStateChange Event. RouteModel:FSA/R828A, oldState: Dormant, newState: Locked
+Wed 02/Nov/2011 18:38:10.700 TrainController/4104 train status changed. 
+Wed 02/Nov/2011 18:38:10.700 TrainController/4104 exiting trainStateChanged
+Wed 02/Nov/2011 18:38:11.346 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:38:11.347 TrainController/4104 checking FSA/R754A
+Wed 02/Nov/2011 18:38:11.348 TrainController/4104 waiting 16 seconds  to start FSA/R754A
+Wed 02/Nov/2011 18:38:11.348 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:38:11.642 TrainController2/4104/SignalController/FSA/R828A-FSA/R740B RouteStateChange Event. RouteModel:FSA/R828A, oldState: Locked, newState: Clear
+Wed 02/Nov/2011 18:38:11.642 TrainController2/4104/SignalController/FSA/R828A-FSA/R740B checking for next route...
+Wed 02/Nov/2011 18:38:11.642 TrainController2/4104/SignalController/FSA/R828A-FSA/R740B no more route. SignalController OK sent to Traincontroller
+Wed 02/Nov/2011 18:38:11.643 TrainController/4104  signal controller FSA/R828A-FSA/R740B ok
+Wed 02/Nov/2011 18:38:12.349 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:38:12.350 TrainController/4104 checking FSA/R754A
+Wed 02/Nov/2011 18:38:12.351 TrainController/4104 waiting 16 seconds  to start FSA/R754A
+Wed 02/Nov/2011 18:38:12.351 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:38:12.649 TrainController2/4104/SignalController/FSA/R828A-FSA/R740B RouteStateChange Event. RouteModel:FSA/R828A, oldState: Clear, newState: TrainIn
+Wed 02/Nov/2011 18:38:12.675 TrainController/4104 train status changed. 
+Wed 02/Nov/2011 18:38:12.675 TrainController/4104 exiting trainStateChanged
+Wed 02/Nov/2011 18:38:13.352 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:38:13.353 TrainController/4104 checking FSA/R754A
+Wed 02/Nov/2011 18:38:13.354 TrainController/4104 waiting 9 seconds  to start FSA/R754A
+Wed 02/Nov/2011 18:38:13.354 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:38:14.465 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:38:14.466 TrainController/4104 checking FSA/R754A
+Wed 02/Nov/2011 18:38:14.466 TrainController/4104 waiting 9 seconds  to start FSA/R754A
+Wed 02/Nov/2011 18:38:14.467 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:38:15.468 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:38:15.469 TrainController/4104 checking FSA/R754A
+Wed 02/Nov/2011 18:38:15.469 TrainController/4104 now starting FSA/R754A
+Wed 02/Nov/2011 18:38:15.470 TrainController2/4104/SignalController/FSA/R754A created
+Wed 02/Nov/2011 18:38:15.470 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:38:15.471 TrainController2/4104/SignalController/FSA/R754A successfully claimed
+Wed 02/Nov/2011 18:38:15.473 TrainController2/4104/SignalController/FSA/R754A RouteStateChange Event. RouteModel:FSA/R754A, oldState: Turning, newState: Locked
+Wed 02/Nov/2011 18:38:15.484 TrainController2/4104/SignalController/FSA/R754A RouteStateChange Event. RouteModel:FSA/R754A, oldState: Dormant, newState: Locked
+Wed 02/Nov/2011 18:38:15.668 TrainController2/4104/SignalController/FSA/R754A RouteStateChange Event. RouteModel:FSA/R754A, oldState: Locked, newState: Clear
+Wed 02/Nov/2011 18:38:15.668 TrainController2/4104/SignalController/FSA/R754A checking for next route...
+Wed 02/Nov/2011 18:38:15.668 TrainController2/4104/SignalController/FSA/R754A no more route. SignalController OK sent to Traincontroller
+Wed 02/Nov/2011 18:38:15.669 TrainController/4104  signal controller FSA/R754A ok
+Wed 02/Nov/2011 18:38:16.471 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:38:16.472 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:38:16.669 TrainController2/4104/SignalController/FSA/R828A-FSA/R740B RouteStateChange Event. RouteModel:FSA/R740B, oldState: Clear, newState: TrainIn
+Wed 02/Nov/2011 18:38:16.681 TrainController2/4104/SignalController/FSA/R828A-FSA/R740B Clearing up
+Wed 02/Nov/2011 18:38:17.473 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:38:17.474 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:38:17.705 TrainController/4104 train status changed. 
+Wed 02/Nov/2011 18:38:17.705 TrainController/4104 exiting trainStateChanged
+Wed 02/Nov/2011 18:38:18.475 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:38:18.475 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:38:19.476 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:38:19.477 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:38:19.714 TrainController/4104 train status changed. 
+Wed 02/Nov/2011 18:38:19.714 TrainController/4104 exiting trainStateChanged
+Wed 02/Nov/2011 18:38:20.478 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:38:20.479 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:38:21.480 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:38:21.480 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:38:21.723 TrainController/4104 train status changed. 
+Wed 02/Nov/2011 18:38:21.723 TrainController/4104 exiting trainStateChanged
+Wed 02/Nov/2011 18:38:22.481 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:38:22.482 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:38:23.483 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:38:23.483 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:38:23.931 TrainController/4104 train status changed. 
+Wed 02/Nov/2011 18:38:23.931 TrainController/4104 exiting trainStateChanged
+Wed 02/Nov/2011 18:38:24.485 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:38:24.485 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:38:25.487 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:38:25.487 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:38:25.702 TrainController2/4104/SignalController/FSA/R754A RouteStateChange Event. RouteModel:FSA/R754A, oldState: Clear, newState: TrainIn
+Wed 02/Nov/2011 18:38:25.713 TrainController2/4104/SignalController/FSA/R754A Clearing up
+Wed 02/Nov/2011 18:38:26.488 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:38:26.488 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:38:27.491 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:38:27.491 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:38:27.767 TrainController/4104 train status changed. 
+Wed 02/Nov/2011 18:38:27.767 TrainController/4104 head track FSB/T758 is on new platform FSS009
+Wed 02/Nov/2011 18:38:27.768 TrainController/4104 inPlatform: false
+Wed 02/Nov/2011 18:38:27.768 TrainController/4104 exiting trainStateChanged
+Wed 02/Nov/2011 18:38:28.494 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:38:28.494 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:38:29.497 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:38:29.497 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:38:30.498 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:38:30.499 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:38:30.695 TrainController/4104 train status changed. 
+Wed 02/Nov/2011 18:38:30.695 TrainController/4104 head track FSB/T763 is on new platform FSS009
+Wed 02/Nov/2011 18:38:30.696 TrainController/4104 inPlatform: true
+Wed 02/Nov/2011 18:38:30.696 TrainController/4104 At the last platform FSS009, forming [4105]
+Wed 02/Nov/2011 18:38:30.697 TrainController/4104 exiting trainStateChanged
+Wed 02/Nov/2011 18:38:30.698 TrainController/4104 train status changed. 
+Wed 02/Nov/2011 18:38:30.698 TrainController/4104 head track FSB/T763 is on new platform FSS009
+Wed 02/Nov/2011 18:38:30.699 TrainController/4104 inPlatform: true
+Wed 02/Nov/2011 18:38:30.699 TrainController/4104 exiting trainStateChanged
+Wed 02/Nov/2011 18:38:31.502 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:38:31.502 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:38:32.503 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:38:32.503 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:38:32.801 TrainController/4104 train status changed. 
+Wed 02/Nov/2011 18:38:32.801 TrainController/4104 head track FSB/T763 is on new platform FSS009
+Wed 02/Nov/2011 18:38:32.953 TrainController/4104 inPlatform: true
+Wed 02/Nov/2011 18:38:32.953 TrainController/4104 exiting trainStateChanged
+Wed 02/Nov/2011 18:38:33.505 TrainController/4104 starting requestSchedule......
+Wed 02/Nov/2011 18:38:33.505 TrainController/4104 requestSchedule...... completed
+Wed 02/Nov/2011 18:38:33.723 TrainController/4104 trip 4104 finished. Train stopped. dwell time: 14 seconds

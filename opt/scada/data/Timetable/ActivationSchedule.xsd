@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--Created with Liquid XML Studio - FREE Community Edition 7.1.6.1440 (http://www.liquid-technologies.com)-->
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:include schemaLocation="TTDataTypes.xsd" />
+  <xs:element name="ActivationSchedule" >
+    <xs:annotation>
+      <xs:documentation>Comment describing your root element</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" name="MasterTimetable">
+          <xs:annotation>
+            <xs:documentation>Assigned Master Timetable</xs:documentation>
+          </xs:annotation>
+          <xs:complexType>
+            <xs:attribute name="FileName" type="FileName" />
+            <xs:attribute name="Version" type="xs:string" />
+            <xs:attribute name="ValidFrom" type="xs:date" />
+            <xs:attribute name="ValidTo" type="xs:date" />
+            <xs:attribute name="DayCode" type="DayCodeType" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element minOccurs="0" maxOccurs="unbounded" name="DailyTimetable">
+          <xs:annotation>
+            <xs:documentation>Hold entries for Timtable Allocations.</xs:documentation>
+          </xs:annotation>
+          <xs:complexType>
+            <xs:attribute name="FileName" type="FileName" />
+            <xs:attribute name="Version" type="xs:string" />
+            <xs:attribute name="DateToUse" type="xs:date" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="FileName" type="FileName" />
+      <xs:attribute name="Version" type="xs:string" />
+      <xs:attribute name="LoadTime" use="required">
+        <xs:simpleType>
+          <xs:restriction base="xs:time">
+            <xs:minInclusive value="12:00:00" />
+            <xs:maxInclusive value="20:59:59" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="ActivationTime" use="required">
+        <xs:simpleType>
+          <xs:restriction base="xs:time">
+            <xs:minInclusive value="21:00:00" />
+            <xs:maxInclusive value="23:59:59" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="MaxLoadTime" use="required">
+        <xs:simpleType>
+          <xs:restriction base="xs:time">
+            <xs:minInclusive value="12:00:00" />
+            <xs:maxInclusive value="23:59:59" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+

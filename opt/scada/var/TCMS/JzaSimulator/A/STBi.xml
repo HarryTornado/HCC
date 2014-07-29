@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configs>
+	<SignallingIndication xml:id="C661.CRP">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSN/mnem/661.CRP</sourceURL>
+		<offset>11</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E264.BF">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSN/mnem/E264.BF</sourceURL>
+		<offset>12</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E266.APLP">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSN/mnem/E266.APLP</sourceURL>
+		<offset>11</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E267.HIRR">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSN/mnem/267.HIRR</sourceURL>
+		<offset>10</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E602.ECP">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSN/mnem/E602.ECP</sourceURL>
+		<offset>14</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E610.SLAP">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSN/mnem/E610.SLAP</sourceURL>
+		<offset>13</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P603.NWCR">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSN/mnem/603.NWCR</sourceURL>
+		<offset>10</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P603.LRP">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSN/mnem/603.LRP</sourceURL>
+		<offset>8</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P603.RWCR">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSN/mnem/603.RWCR</sourceURL>
+		<offset>9</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P604.LRP">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSN/mnem/604.LRP</sourceURL>
+		<offset>5</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P604.RWCR">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSN/mnem/604.RWCR</sourceURL>
+		<offset>6</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P604.NWCR">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSN/mnem/604.NWCR</sourceURL>
+		<offset>7</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P607.LRP">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSS/mnem/607.LRP</sourceURL>
+		<offset>2</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P607.RWCR">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSS/mnem/607.RWCR</sourceURL>
+		<offset>3</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P607.NWCR">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSS/mnem/607.NWCR</sourceURL>
+		<offset>4</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S600.RGP">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSN/mnem/600.RGP</sourceURL>
+		<offset>8</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S600.NGP">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSN/mnem/600.NGP</sourceURL>
+		<offset>9</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S606.RIP">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSN/mnem/PS606.RIP</sourceURL>
+		<offset>2</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S606.RGP">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSN/mnem/PS606.RGP</sourceURL>
+		<offset>6</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S606.NGP">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSN/mnem/PS606.NGP</sourceURL>
+		<offset>7</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S607.RGP">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSS/mnem/PS607.RGP</sourceURL>
+		<offset>0</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S607.NGP">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSS/mnem/PS607.NGP</sourceURL>
+		<offset>1</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S607.RIP">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSS/mnem/PS607.RIP</sourceURL>
+		<offset>12</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S680.RGP">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSN/mnem/680.RGP</sourceURL>
+		<offset>10</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S683.RGP">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSS/mnem/683.RGP</sourceURL>
+		<offset>3</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S686.RGP">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSS/mnem/686.RGP</sourceURL>
+		<offset>14</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S702.RGP">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSN/mnem/702.RGP</sourceURL>
+		<offset>10</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S702.NGP">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSN/mnem/702.NGP</sourceURL>
+		<offset>12</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S702.RIP">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSN/mnem/702.RIP</sourceURL>
+		<offset>6</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S702.AOR">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSN/mnem/702.AOR</sourceURL>
+		<offset>8</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S702.ASP">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSN/mnem/702.ASP</sourceURL>
+		<offset>9</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S703.CPBS">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSN/mnem/703.CPBS</sourceURL>
+		<offset>0</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S703.AOR">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSN/mnem/703.AOR</sourceURL>
+		<offset>1</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S703.ASP">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSN/mnem/703.ASP</sourceURL>
+		<offset>2</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S703.RGP">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSN/mnem/703.RGP</sourceURL>
+		<offset>3</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S703.CGR">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSN/mnem/703.CGR</sourceURL>
+		<offset>4</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S703.NGP">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSN/mnem/703.NGP</sourceURL>
+		<offset>5</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S703.RIP">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSN/mnem/703.RIP</sourceURL>
+		<offset>15</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S704.AOR">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSN/mnem/704.AOR</sourceURL>
+		<offset>10</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S704.ASP">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSN/mnem/704.ASP</sourceURL>
+		<offset>11</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S704.RGP">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSN/mnem/704.RGP</sourceURL>
+		<offset>12</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S704.CGR">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSN/mnem/704.CGR</sourceURL>
+		<offset>13</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S704.NGP">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSN/mnem/704.NGP</sourceURL>
+		<offset>14</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S704.RIP">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSN/mnem/704.RIP</sourceURL>
+		<offset>8</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S704.CPBS">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSN/mnem/704.CPBS</sourceURL>
+		<offset>9</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S705.RIP">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSS/mnem/705.RIP</sourceURL>
+		<offset>2</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S705.AOR">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSS/mnem/705.AOR</sourceURL>
+		<offset>4</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S705.ASP">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSS/mnem/705.ASP</sourceURL>
+		<offset>5</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S705.RGP">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSS/mnem/705.RGP</sourceURL>
+		<offset>6</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S705.NGP">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSS/mnem/705.NGP</sourceURL>
+		<offset>7</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S706.NGP">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSS/mnem/706.NGP</sourceURL>
+		<offset>1</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S706.RIP">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSS/mnem/706.RIP</sourceURL>
+		<offset>11</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S706.AOR">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSS/mnem/706.AOR</sourceURL>
+		<offset>13</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S706.ASP">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSS/mnem/706.ASP</sourceURL>
+		<offset>14</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S706.RGP">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSS/mnem/706.RGP</sourceURL>
+		<offset>15</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S707.NGP">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSS/mnem/707.NGP</sourceURL>
+		<offset>10</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S707.RIP">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSS/mnem/707.RIP</sourceURL>
+		<offset>4</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S707.CPBS">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSS/mnem/707.CPBS</sourceURL>
+		<offset>5</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S707.AOR">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSS/mnem/707.AOR</sourceURL>
+		<offset>6</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S707.ASP">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSS/mnem/707.ASP</sourceURL>
+		<offset>7</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S707.RGP">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSS/mnem/707.RGP</sourceURL>
+		<offset>8</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S707.CGR">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSS/mnem/707.CGR</sourceURL>
+		<offset>9</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S709.NGP">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSS/mnem/709.NGP</sourceURL>
+		<offset>10</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S709.RIP">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSS/mnem/709.RIP</sourceURL>
+		<offset>4</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S709.AOR">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSS/mnem/709.AOR</sourceURL>
+		<offset>6</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S709.ASP">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSS/mnem/709.ASP</sourceURL>
+		<offset>7</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S709.RGP">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSS/mnem/709.RGP</sourceURL>
+		<offset>8</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S748.RGP">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSS/mnem/748.RGP</sourceURL>
+		<offset>0</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T005.ARP">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSS/mnem/005.ARP</sourceURL>
+		<offset>13</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T005.TPK">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSS/mnem/005.PTPK</sourceURL>
+		<offset>14</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T006.TPK">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSN/mnem/006.TPK</sourceURL>
+		<offset>1</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T007.TPK">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSS/mnem/007.TPK</sourceURL>
+		<offset>15</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T009.ARP">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSN/mnem/009.ARP</sourceURL>
+		<offset>11</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T009.TPK">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSN/mnem/009.PTPK</sourceURL>
+		<offset>12</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T601.TPK">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSN/mnem/601.TPK</sourceURL>
+		<offset>13</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T603.TPK">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSN/mnem/603.TPK</sourceURL>
+		<offset>12</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T624.TPK">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSS/mnem/624.TPK</sourceURL>
+		<offset>14</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T680.TPK">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSN/mnem/680.TPK</sourceURL>
+		<offset>11</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T683.TPK">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSS/mnem/683.TPK</sourceURL>
+		<offset>10</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T684.TPK">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSS/mnem/684.TPK</sourceURL>
+		<offset>9</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T686.TPK">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSS/mnem/686.TPK</sourceURL>
+		<offset>8</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T701.TPK">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSS/mnem/701.TPK</sourceURL>
+		<offset>7</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T702.TPK">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSN/mnem/702.TPK</sourceURL>
+		<offset>6</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T703.TPK">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSN/mnem/703.TPK</sourceURL>
+		<offset>5</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T704.TPK">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSN/mnem/704.TPK</sourceURL>
+		<offset>4</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T705.TPK">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSS/mnem/705.TPK</sourceURL>
+		<offset>3</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T706.TPK">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSS/mnem/706.TPK</sourceURL>
+		<offset>2</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T707.TPK">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSS/mnem/707.TPK</sourceURL>
+		<offset>1</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T708.TPK">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSN/mnem/708.TPK</sourceURL>
+		<offset>0</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T709.TPK">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSS/mnem/709.TPK</sourceURL>
+		<offset>15</offset>
+		<word>8</word>
+	</SignallingIndication>
+</Configs>

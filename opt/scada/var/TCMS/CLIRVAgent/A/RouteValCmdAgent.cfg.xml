@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Config>
+
+<CmdAgentMain xml_id="CmdAgentRVMain">
+	<thisServiceCommandPath>/coreCommand</thisServiceCommandPath>
+	<targetAppHostname>oil://RouteValidation.TCMS</targetAppHostname>
+	<thisServiceName>CLIRVAgent</thisServiceName>
+	<thisServiceHostname>oil://CLIRVAgent.TCMS</thisServiceHostname>
+	<commandsInfo>
+
+		<!-- Command strings from the SC Panel or the keyboard. -->
+		<commandInfo registration="^.*">
+			<data><syntaxOptions>
+
+				<!-- Annul Route -->
+				<description>
+					<syntax mnemonic="ANL">RAILOBJ:signal+</syntax>
+					<urlPathTemplateSet>
+						<urlPathTemplate content="AnnulRoute signals=%@">/cli</urlPathTemplate>
+					</urlPathTemplateSet>
+				</description>
+
+				<!-- Cancel Route -->
+				<description>
+					<syntax mnemonic="CAN" multiple="true">RAILOBJ:signal</syntax>
+					<urlPathTemplateSet>
+						<!-- RQE -->
+						<urlPathTemplate content="RemoveQueueEntry %1!=%1">/cli</urlPathTemplate>
+						<!-- SLC -->
+						<urlPathTemplate content="CancelSignal %1!=%1">/cli</urlPathTemplate>
+						<!-- SFF -->
+						<urlPathTemplate content="SetFleetingOff %1!=%1">/cli</urlPathTemplate>
+						<!-- DAM -->
+						<urlPathTemplate content="DisableARSMode %1!=%1">/cli</urlPathTemplate>
+					</urlPathTemplateSet>
+				</description>
+
+				<!-- Points Normal -->
+				<description>
+					<syntax mnemonic="PTN">RAILOBJ:point</syntax>
+					<urlPathTemplateSet>
+						<urlPathTemplate content="SetPointsNormal %1!=%1">/cli</urlPathTemplate>
+					</urlPathTemplateSet>
+				</description>
+
+				<!-- Points Reverse -->
+				<description>
+					<syntax mnemonic="PTR">RAILOBJ:point</syntax>
+					<urlPathTemplateSet>
+						<urlPathTemplate content="SetPointsReverse %1!=%1">/cli</urlPathTemplate>
+					</urlPathTemplateSet>
+				</description>
+
+				<!-- Points to Sleeve -->
+				<description>
+					<syntax mnemonic="PTS">RAILOBJ:point</syntax>
+					<urlPathTemplateSet>
+						<urlPathTemplate content="SleevePoints %1!=%1">/cli</urlPathTemplate>
+					</urlPathTemplateSet>
+				</description>
+
+				<!-- Points to Unsleeve -->
+				<description>
+					<syntax mnemonic="PTU">RAILOBJ:point</syntax>
+					<urlPathTemplateSet>
+						<urlPathTemplate content="UnsleevePoints %1!=%1">/cli</urlPathTemplate>
+					</urlPathTemplateSet>
+				</description>
+
+				<!-- Signal Fleeting Off -->
+				<description>
+					<syntax mnemonic="SFF" multiple="true">RAILOBJ:signal</syntax>
+					<urlPathTemplateSet>
+						<urlPathTemplate content="SetFleetingOff %1!=%1">/cli</urlPathTemplate>
+					</urlPathTemplateSet>
+				</description>
+
+				<!-- Signal Fleeting On -->
+				<description>
+					<syntax mnemonic="SFO" multiple="true">RAILOBJ:signal</syntax>
+					<urlPathTemplateSet>
+						<urlPathTemplate content="SetFleetingOn %1!=%1">/cli</urlPathTemplate>
+						<!-- DAM -->
+						<urlPathTemplate content="DisableARSMode %1!=%1">/cli</urlPathTemplate>
+					</urlPathTemplateSet>
+				</description>
+
+				<!-- Signal Low Speed -->
+				<description>
+					<syntax mnemonic="SLS" multiple="true">RAILOBJ:signal</syntax>
+					<urlPathTemplateSet>
+						<urlPathTemplate content="SetSignalLowSpeed %1!=%1">/cli</urlPathTemplate>
+					</urlPathTemplateSet>
+				</description>
+
+				<!-- Signal Manual Operation -->
+				<description>
+					<syntax mnemonic="SMO" multiple="true">RAILOBJ:signal</syntax>
+					<urlPathTemplateSet>
+						<!-- SFF -->
+						<urlPathTemplate content="SetFleetingOff %1!=%1">/cli</urlPathTemplate>
+						<!-- DAM -->
+						<urlPathTemplate content="DisableARSMode %1!=%1">/cli</urlPathTemplate>
+					</urlPathTemplateSet>
+				</description>
+
+				<!-- Set Route Command -->
+				<description>
+					<syntax mnemonic="SRO">RAILOBJ:signal RAILOBJ:signal+</syntax>
+					<urlPathTemplateSet>
+						<urlPathTemplate content="SetRoute cmd-name=%0 workstation=UNDEFINED bypass=FALSE signals=%@">/cli</urlPathTemplate>
+					</urlPathTemplateSet>
+				</description>
+
+				<!-- Set Signal to ARS -->
+				<description>
+					<syntax mnemonic="STD" multiple="true">RAILOBJ:signal</syntax>
+					<urlPathTemplateSet>
+						<urlPathTemplate content="SetFleetingOff %1!=%1">/cli</urlPathTemplate>
+						<urlPathTemplate content="EnableARSMode %1!=%1">/cli</urlPathTemplate>
+					</urlPathTemplateSet>
+				</description>
+
+			</syntaxOptions></data>
+		</commandInfo>
+
+		<!-- General Control Cancel -->
+		<commandInfo  registration="^GCC\s.*">
+			<data><syntaxOptions>
+				<description>
+					<syntax mnemonic="GCC">RAILOBJ:special</syntax>
+					<urlPathTemplateSet>
+						<urlPathTemplate content="GroundFrameReleaseOff ground-frame=%1">/cli</urlPathTemplate>
+					</urlPathTemplateSet>
+				</description>
+			</syntaxOptions></data>
+		</commandInfo>
+
+		<!-- General Control Given -->
+		<commandInfo  registration="^GCG\s.*">
+			<data><syntaxOptions>
+				<description>
+					<syntax mnemonic="GCG">RAILOBJ:special</syntax>
+					<urlPathTemplateSet>
+						<urlPathTemplate content="GroundFrameReleaseOn ground-frame=%1">/cli</urlPathTemplate>
+					</urlPathTemplateSet>
+				</description>
+			</syntaxOptions></data>
+		</commandInfo>
+
+		<!-- Line Control Cancel -->
+		<commandInfo  registration="^LCC\s.*">
+			<data><syntaxOptions>
+				<description>
+					<syntax mnemonic="LCC">RAILOBJ:slcontrol</syntax>
+					<urlPathTemplateSet>
+						<urlPathTemplate content="SingleLineControlNormal line-control=%1">/cli</urlPathTemplate>
+					</urlPathTemplateSet>
+				</description>
+			</syntaxOptions></data>
+		</commandInfo>
+
+		<!-- Line Control Given -->
+		<commandInfo  registration="^LCG\s.*">
+			<data><syntaxOptions>
+				<description>
+					<syntax mnemonic="LCG">RAILOBJ:slcontrol</syntax>
+					<urlPathTemplateSet>
+						<urlPathTemplate content="SingleLineControlReverse line-control=%1">/cli</urlPathTemplate>
+					</urlPathTemplateSet>
+				</description>
+			</syntaxOptions></data>
+		</commandInfo>
+
+		<!-- Signal Block -->
+		<commandInfo registration="^SLB\s.*">
+		<data><syntaxOptions>
+			<description>
+				<syntax mnemonic="SLB">RAILOBJ:signal</syntax> 
+				<urlPathTemplateSet>
+					<urlPathTemplate content="BlockSignal signal=%1">/cli</urlPathTemplate> 
+				</urlPathTemplateSet>
+			</description>
+			</syntaxOptions></data>
+		</commandInfo>
+
+		<!-- Signal Unblock -->
+		<commandInfo registration="^SLU\s.*">
+			<data><syntaxOptions>
+				<description>
+					<syntax mnemonic="SLU">RAILOBJ:signal</syntax>
+					<urlPathTemplateSet>
+						<urlPathTemplate content="UnblockSignal signal=%1">/cli</urlPathTemplate>
+					</urlPathTemplateSet>
+				</description>
+			</syntaxOptions></data>
+		</commandInfo>
+
+		<!-- Track Block -->
+		<commandInfo registration="^TKB\s.*">
+			<data><syntaxOptions>
+				<description>
+					<syntax mnemonic="TKB">RAILOBJ:trackcct</syntax>
+					<urlPathTemplateSet>
+						<urlPathTemplate content="BlockTrack track-circuit=%1">/cli</urlPathTemplate>
+					</urlPathTemplateSet>
+				</description>
+			</syntaxOptions></data>
+		</commandInfo>
+
+		<!-- Track Unblock -->
+		<commandInfo registration="^TKU\s.*">
+			<data><syntaxOptions>
+				<description>
+					<syntax mnemonic="TKU">RAILOBJ:trackcct</syntax>
+					<urlPathTemplateSet>
+						<urlPathTemplate content="UnblockTrack track-circuit=%1">/cli</urlPathTemplate>
+					</urlPathTemplateSet>
+				</description>
+			</syntaxOptions></data>
+		</commandInfo>
+
+	</commandsInfo>
+</CmdAgentMain>
+
+</Config>

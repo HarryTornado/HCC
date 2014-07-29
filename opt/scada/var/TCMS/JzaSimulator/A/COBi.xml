@@ -1,0 +1,1228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configs>
+	<SignallingIndication xml:id="L226.DTOP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIML(PR)D/value</sourceURL>
+		<offset>12</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L226.BPOK">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIML(PR)C/value</sourceURL>
+		<offset>13</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L226.FGNP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIML(PR)B/value</sourceURL>
+		<offset>14</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L226.FCP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIML(PR)A/value</sourceURL>
+		<offset>15</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L254.FGNP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIML(PS)B/value</sourceURL>
+		<offset>10</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L254.FCP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIML(PS)A/value</sourceURL>
+		<offset>11</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L254.DTOP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIML(PS)D/value</sourceURL>
+		<offset>8</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L254.BPOK">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIML(PS)C/value</sourceURL>
+		<offset>9</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L258.DTOP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIML(BR)D/value</sourceURL>
+		<offset>4</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L258.BPOK">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIML(BR)C/value</sourceURL>
+		<offset>5</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L258.FGNP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIML(BR)B/value</sourceURL>
+		<offset>6</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L258.FCP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIML(BR)A/value</sourceURL>
+		<offset>7</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L266.DTOP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIML(US)D/value</sourceURL>
+		<offset>12</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L266.BPOK">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIML(US)C/value</sourceURL>
+		<offset>13</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L266.FGNP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIML(US)B/value</sourceURL>
+		<offset>14</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L266.FCP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIML(US)A/value</sourceURL>
+		<offset>15</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L282.FGNP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIML(DS)B/value</sourceURL>
+		<offset>10</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L282.FCP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIML(DS)A/value</sourceURL>
+		<offset>11</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L282.DTOP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIML(DS)D/value</sourceURL>
+		<offset>8</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L282.BPOK">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIML(DS)C/value</sourceURL>
+		<offset>9</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L284.DTOP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIML(ATS)D/value</sourceURL>
+		<offset>4</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L284.BPOK">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIML(ATS)C/value</sourceURL>
+		<offset>5</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L284.FGNP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIML(ATS)B/value</sourceURL>
+		<offset>6</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L284.FCP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIML(ATS)A/value</sourceURL>
+		<offset>7</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L292.DTOP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIML(VS)D/value</sourceURL>
+		<offset>0</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L292.BPOK">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIML(VS)C/value</sourceURL>
+		<offset>1</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L292.FGNP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIML(VS)B/value</sourceURL>
+		<offset>2</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L292.FCP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIML(VS)A/value</sourceURL>
+		<offset>3</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L308.DTOP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIML(HS)D/value</sourceURL>
+		<offset>12</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L308.BPOK">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIML(HS)C/value</sourceURL>
+		<offset>13</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L308.FGNP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIML(HS)B/value</sourceURL>
+		<offset>14</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L308.FCP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIML(HS)A/value</sourceURL>
+		<offset>15</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L318.FGNP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIML(ANS)B/value</sourceURL>
+		<offset>10</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L318.FCP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIML(ANS)A/value</sourceURL>
+		<offset>11</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L318.DTOP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIML(ANS)D/value</sourceURL>
+		<offset>8</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L318.BPOK">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIML(ANS)C/value</sourceURL>
+		<offset>9</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L332.DTOP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIML(MR)D/value</sourceURL>
+		<offset>0</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L332.BPOK">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIML(MR)C/value</sourceURL>
+		<offset>1</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L332.FGNP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIML(MR)B/value</sourceURL>
+		<offset>2</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L332.FCP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIML(MR)A/value</sourceURL>
+		<offset>3</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L398.DTOP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIML(BS)D/value</sourceURL>
+		<offset>4</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L398.BPOK">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIML(BS)C/value</sourceURL>
+		<offset>5</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L398.FGNP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIML(BS)B/value</sourceURL>
+		<offset>6</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L398.FCP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIML(BS)A/value</sourceURL>
+		<offset>7</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L410.DTOP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIML(OS)D/value</sourceURL>
+		<offset>0</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L410.BPOK">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIML(OS)C/value</sourceURL>
+		<offset>1</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L410.FGNP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIML(OS)B/value</sourceURL>
+		<offset>2</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L410.FCP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIML(OS)A/value</sourceURL>
+		<offset>3</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L530.DTOP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIML(GS)D/value</sourceURL>
+		<offset>12</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L530.BPOK">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIML(GS)C/value</sourceURL>
+		<offset>13</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L530.FGNP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIML(GS)B/value</sourceURL>
+		<offset>14</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L530.FCP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIML(GS)A/value</sourceURL>
+		<offset>15</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L532.FGNP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIML(MS)B/value</sourceURL>
+		<offset>10</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L532.FCP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIML(MS)A/value</sourceURL>
+		<offset>11</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L532.DTOP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIML(MS)D/value</sourceURL>
+		<offset>8</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L532.BPOK">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIML(MS)C/value</sourceURL>
+		<offset>9</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L534.DTOP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIML(RS)D/value</sourceURL>
+		<offset>12</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L534.BPOK">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIML(RS)C/value</sourceURL>
+		<offset>13</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L534.FGNP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIML(RS)B/value</sourceURL>
+		<offset>14</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L534.FCP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIML(RS)A/value</sourceURL>
+		<offset>15</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P442.LRP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMP442C/value</sourceURL>
+		<offset>0</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P442.RWCR">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMP442B/value</sourceURL>
+		<offset>1</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P442.NWCR">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMP442A/value</sourceURL>
+		<offset>2</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S226.RGP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMSC226C/value</sourceURL>
+		<offset>7</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S229.RGP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMSC229C/value</sourceURL>
+		<offset>6</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S260.RGP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMSC260C/value</sourceURL>
+		<offset>5</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S263.RGP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMSC263C/value</sourceURL>
+		<offset>4</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S284.RGP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMSC284C/value</sourceURL>
+		<offset>3</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S291.RGP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMSC291C/value</sourceURL>
+		<offset>2</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S308.RGP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMSC308C/value</sourceURL>
+		<offset>1</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S313.RGP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMSC313C/value</sourceURL>
+		<offset>0</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S434.RGP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMSCOB434C/value</sourceURL>
+		<offset>15</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S530.AOR">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMSCOB530E/value</sourceURL>
+		<offset>10</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S530.ASP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMSCOB530D/value</sourceURL>
+		<offset>11</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S530.RGP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMSCOB530C/value</sourceURL>
+		<offset>12</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S530.NGP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMSCOB530A/value</sourceURL>
+		<offset>13</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S530.RIP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMSCOB530G/value</sourceURL>
+		<offset>8</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S531.RIP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMSCOB531G/value</sourceURL>
+		<offset>0</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S531.ASP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMSCOB531D/value</sourceURL>
+		<offset>1</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S531.RGP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMSCOB531C/value</sourceURL>
+		<offset>2</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S531.NGP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMSCOB531A/value</sourceURL>
+		<offset>3</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S532.AOR">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMSCOB532E/value</sourceURL>
+		<offset>10</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S532.ASP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMSCOB532D/value</sourceURL>
+		<offset>11</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S532.RGP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMSCOB532C/value</sourceURL>
+		<offset>12</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S532.CGR">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMSCOB532B/value</sourceURL>
+		<offset>13</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S532.NGP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMSCOB532A/value</sourceURL>
+		<offset>14</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S532.RIP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMSCOB532G/value</sourceURL>
+		<offset>8</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S532.CPBS">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMSCOB532F/value</sourceURL>
+		<offset>9</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S534.RIP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMSCOB534G/value</sourceURL>
+		<offset>0</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S534.AOR">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMSCOB534E/value</sourceURL>
+		<offset>2</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S534.ASP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMSCOB534D/value</sourceURL>
+		<offset>3</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S534.RGP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMSCOB534C/value</sourceURL>
+		<offset>4</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S534.NGP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMSCOB534A/value</sourceURL>
+		<offset>5</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S539.AOR">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMSCOB539E/value</sourceURL>
+		<offset>10</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S539.ASP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMSCOB539D/value</sourceURL>
+		<offset>11</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S539.RGP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMSCOB539C/value</sourceURL>
+		<offset>12</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S539.NGP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMSCOB539A/value</sourceURL>
+		<offset>13</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S539.RIP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMSCOB539G/value</sourceURL>
+		<offset>8</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S539.CPBS">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMSCOB539F/value</sourceURL>
+		<offset>9</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S541.RIP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMSCOB541G/value</sourceURL>
+		<offset>0</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S541.CPBS">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMSCOB541F/value</sourceURL>
+		<offset>1</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S541.AOR">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMSCOB541E/value</sourceURL>
+		<offset>2</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S541.ASP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMSCOB541D/value</sourceURL>
+		<offset>3</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S541.RGP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMSCOB541C/value</sourceURL>
+		<offset>4</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S541.CGR">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMSCOB541B/value</sourceURL>
+		<offset>5</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S541.NGP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMSCOB541A/value</sourceURL>
+		<offset>6</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S542.AOR">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMSCOB542E/value</sourceURL>
+		<offset>10</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S542.ASP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMSCOB542D/value</sourceURL>
+		<offset>11</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S542.RGP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMSCOB542C/value</sourceURL>
+		<offset>12</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S542.CGR">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMSCOB542B/value</sourceURL>
+		<offset>13</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S542.NGP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMSCOB542A/value</sourceURL>
+		<offset>14</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S542.RIP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMSCOB542G/value</sourceURL>
+		<offset>8</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S542.CPBS">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMSCOB542F/value</sourceURL>
+		<offset>9</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S543.RIP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMSCOB543G/value</sourceURL>
+		<offset>0</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S543.AOR">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMSCOB543E/value</sourceURL>
+		<offset>2</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S543.ASP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMSCOB543D/value</sourceURL>
+		<offset>3</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S543.RGP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMSCOB543C/value</sourceURL>
+		<offset>4</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S543.NGP">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMSCOB543A/value</sourceURL>
+		<offset>5</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T209.TPK">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMTC209A/value</sourceURL>
+		<offset>7</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T225.TPK">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMTC225A/value</sourceURL>
+		<offset>4</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T226.TPK">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMTC226A/value</sourceURL>
+		<offset>5</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T229.TPK">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMTC229A/value</sourceURL>
+		<offset>3</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T232.TPK">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMTC232A/value</sourceURL>
+		<offset>2</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T250.TPK">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMTC250A/value</sourceURL>
+		<offset>1</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T251.TPK">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMTC251A/value</sourceURL>
+		<offset>0</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T254.TPK">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMTC254A/value</sourceURL>
+		<offset>15</offset>
+		<word>12</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T255.TPK">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMTC255A/value</sourceURL>
+		<offset>14</offset>
+		<word>12</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T258.TPK">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMTC258A/value</sourceURL>
+		<offset>13</offset>
+		<word>12</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T259.TPK">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMTC259A/value</sourceURL>
+		<offset>12</offset>
+		<word>12</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T260.TPK">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMTC260A/value</sourceURL>
+		<offset>11</offset>
+		<word>12</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T263.TPK">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMTC263A/value</sourceURL>
+		<offset>10</offset>
+		<word>12</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T264.TPK">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMTC264A/value</sourceURL>
+		<offset>9</offset>
+		<word>12</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T265.TPK">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMTC265A/value</sourceURL>
+		<offset>8</offset>
+		<word>12</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T266.TPK">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMTC266A/value</sourceURL>
+		<offset>7</offset>
+		<word>12</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T274.TPK">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMTC274A/value</sourceURL>
+		<offset>6</offset>
+		<word>12</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T275.TPK">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMTC275A/value</sourceURL>
+		<offset>5</offset>
+		<word>12</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T282.TPK">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMTC282A/value</sourceURL>
+		<offset>4</offset>
+		<word>12</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T284.TPK">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMTC284A/value</sourceURL>
+		<offset>3</offset>
+		<word>12</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T285.TPK">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMTC285A/value</sourceURL>
+		<offset>2</offset>
+		<word>12</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T290.TPK">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMTC290A/value</sourceURL>
+		<offset>1</offset>
+		<word>12</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T291.TPK">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMTC291A/value</sourceURL>
+		<offset>0</offset>
+		<word>12</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T292.TPK">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMTC292A/value</sourceURL>
+		<offset>15</offset>
+		<word>13</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T293.TPK">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMTC293A/value</sourceURL>
+		<offset>14</offset>
+		<word>13</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T300.TPK">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMTC300A/value</sourceURL>
+		<offset>7</offset>
+		<word>13</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T301.TPK">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMTC301A/value</sourceURL>
+		<offset>6</offset>
+		<word>13</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T307.TPK">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMTC307A/value</sourceURL>
+		<offset>5</offset>
+		<word>13</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T308.TPK">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMTC308A/value</sourceURL>
+		<offset>4</offset>
+		<word>13</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T313.TPK">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMTC313A/value</sourceURL>
+		<offset>3</offset>
+		<word>13</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T314.TPK">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMTC314A/value</sourceURL>
+		<offset>2</offset>
+		<word>13</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T315.TPK">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMTC315A/value</sourceURL>
+		<offset>1</offset>
+		<word>13</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T318.TPK">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMTC318A/value</sourceURL>
+		<offset>0</offset>
+		<word>13</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T319.TPK">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMTC319A/value</sourceURL>
+		<offset>15</offset>
+		<word>14</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T332.TPK">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMTC332A/value</sourceURL>
+		<offset>14</offset>
+		<word>14</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T335.TPK">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMTC335A/value</sourceURL>
+		<offset>13</offset>
+		<word>14</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T340.TPK">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMTC340A/value</sourceURL>
+		<offset>12</offset>
+		<word>14</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T358.TPK">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMTC358A/value</sourceURL>
+		<offset>11</offset>
+		<word>14</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T359.TPK">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMTC359A/value</sourceURL>
+		<offset>10</offset>
+		<word>14</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T364.TPK">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMTC364A/value</sourceURL>
+		<offset>9</offset>
+		<word>14</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T372.TPK">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMTC372A/value</sourceURL>
+		<offset>8</offset>
+		<word>14</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T377.TPK">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMTC377A/value</sourceURL>
+		<offset>7</offset>
+		<word>14</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T384.TPK">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMTC384A/value</sourceURL>
+		<offset>6</offset>
+		<word>14</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T385.TPK">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMTC385A/value</sourceURL>
+		<offset>5</offset>
+		<word>14</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T398.TPK">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMTC398A/value</sourceURL>
+		<offset>4</offset>
+		<word>14</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T399.TPK">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMTC399A/value</sourceURL>
+		<offset>3</offset>
+		<word>14</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T410.TPK">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMTC410A/value</sourceURL>
+		<offset>15</offset>
+		<word>15</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T420.TPK">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMTC420A/value</sourceURL>
+		<offset>14</offset>
+		<word>15</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T434.TPK">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMT434A/value</sourceURL>
+		<offset>13</offset>
+		<word>15</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T442.TPK">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMT442A/value</sourceURL>
+		<offset>12</offset>
+		<word>15</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T530.TPK">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMT530A/value</sourceURL>
+		<offset>7</offset>
+		<word>15</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T531.TPK">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMT531A/value</sourceURL>
+		<offset>6</offset>
+		<word>15</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T532.TPK">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMT532A/value</sourceURL>
+		<offset>5</offset>
+		<word>15</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T534.TPK">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMT534A/value</sourceURL>
+		<offset>4</offset>
+		<word>15</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T539.TPK">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMT539A/value</sourceURL>
+		<offset>3</offset>
+		<word>15</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T541.TPK">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMT541A/value</sourceURL>
+		<offset>2</offset>
+		<word>15</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T543.TPK">
+		<interlockingName>COB</interlockingName>
+		<deviceName>config:/JzaSimulator#COB</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/COB/LIMT543A/value</sourceURL>
+		<offset>1</offset>
+		<word>15</word>
+	</SignallingIndication>
+</Configs>

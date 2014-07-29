@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configs>
+	<JzaIndication xml:id="C220.CRP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/FEA#FEA</deviceName>
+		<offset>9</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E261.SLAP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/FEA#FEA</deviceName>
+		<offset>3</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E268.ECP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/FEA#FEA</deviceName>
+		<offset>4</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E361.HIRR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/FEA#FEA</deviceName>
+		<offset>15</offset>
+		<word>8</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E852.EFP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/FEA#FEA</deviceName>
+		<offset>2</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E853.BF">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/FEA#FEA</deviceName>
+		<offset>1</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E858.APLP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/FEA#FEA</deviceName>
+		<offset>0</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E863.FIRE">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/FEA#FEA</deviceName>
+		<offset>14</offset>
+		<word>8</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P254.LRP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/FEA#FEA</deviceName>
+		<offset>6</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P254.RWCR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/FEA#FEA</deviceName>
+		<offset>7</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P254.NWCR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/FEA#FEA</deviceName>
+		<offset>8</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P255.LRP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/FEA#FEA</deviceName>
+		<offset>3</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P255.RWCR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/FEA#FEA</deviceName>
+		<offset>4</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P255.NWCR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/FEA#FEA</deviceName>
+		<offset>5</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S259.RGP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/FEA#FEA</deviceName>
+		<offset>7</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S259.NGP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/FEA#FEA</deviceName>
+		<offset>8</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S268.RGP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/FEA#FEA</deviceName>
+		<offset>5</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S268.NGP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/FEA#FEA</deviceName>
+		<offset>6</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S272.RGP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/FEA#FEA</deviceName>
+		<offset>4</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S274.RGP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/FEA#FEA</deviceName>
+		<offset>2</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S275.RGP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/FEA#FEA</deviceName>
+		<offset>1</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S276.RGP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/FEA#FEA</deviceName>
+		<offset>0</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S277.RGP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/FEA#FEA</deviceName>
+		<offset>15</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S278.RGP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/FEA#FEA</deviceName>
+		<offset>14</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S279.RGP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/FEA#FEA</deviceName>
+		<offset>13</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S354.RIP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/FEA#FEA</deviceName>
+		<offset>0</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S354.CPBS">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/FEA#FEA</deviceName>
+		<offset>1</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S354.AOR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/FEA#FEA</deviceName>
+		<offset>2</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S354.ASP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/FEA#FEA</deviceName>
+		<offset>3</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S354.RGP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/FEA#FEA</deviceName>
+		<offset>4</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S354.CGR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/FEA#FEA</deviceName>
+		<offset>5</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S354.NGP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/FEA#FEA</deviceName>
+		<offset>6</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S355.CPBS">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/FEA#FEA</deviceName>
+		<offset>10</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S355.AOR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/FEA#FEA</deviceName>
+		<offset>11</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S355.ASP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/FEA#FEA</deviceName>
+		<offset>12</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S355.RGP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/FEA#FEA</deviceName>
+		<offset>13</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S355.CGR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/FEA#FEA</deviceName>
+		<offset>14</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S355.NGP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/FEA#FEA</deviceName>
+		<offset>15</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S355.RIP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/FEA#FEA</deviceName>
+		<offset>9</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S394.RIP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/FEA#FEA</deviceName>
+		<offset>2</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S394.CPBS">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/FEA#FEA</deviceName>
+		<offset>3</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S394.AOR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/FEA#FEA</deviceName>
+		<offset>4</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S394.ASP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/FEA#FEA</deviceName>
+		<offset>5</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S394.RGP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/FEA#FEA</deviceName>
+		<offset>6</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S394.CGR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/FEA#FEA</deviceName>
+		<offset>7</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S394.NGP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/FEA#FEA</deviceName>
+		<offset>8</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T255.TPK">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/FEA#FEA</deviceName>
+		<offset>15</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T256.TPK">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/FEA#FEA</deviceName>
+		<offset>14</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T268.TPK">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/FEA#FEA</deviceName>
+		<offset>13</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T272.TPK">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/FEA#FEA</deviceName>
+		<offset>12</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T273.TPK">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/FEA#FEA</deviceName>
+		<offset>11</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T274.TPK">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/FEA#FEA</deviceName>
+		<offset>10</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T275.TPK">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/FEA#FEA</deviceName>
+		<offset>9</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T276.TPK">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/FEA#FEA</deviceName>
+		<offset>8</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T277.TPK">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/FEA#FEA</deviceName>
+		<offset>7</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T278.TPK">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/FEA#FEA</deviceName>
+		<offset>6</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T279.TPK">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/FEA#FEA</deviceName>
+		<offset>5</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T280.TPK">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/FEA#FEA</deviceName>
+		<offset>4</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T354.TPK">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/FEA#FEA</deviceName>
+		<offset>15</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T355.TPK">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/FEA#FEA</deviceName>
+		<offset>14</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T356.TPK">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/FEA#FEA</deviceName>
+		<offset>13</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T358.TPK">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/FEA#FEA</deviceName>
+		<offset>12</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T370.TPK">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/FEA#FEA</deviceName>
+		<offset>2</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T372.TPK">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/FEA#FEA</deviceName>
+		<offset>10</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T375.TPK">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/FEA#FEA</deviceName>
+		<offset>9</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T379.TPK">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/FEA#FEA</deviceName>
+		<offset>8</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T394.TPK">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/FEA#FEA</deviceName>
+		<offset>7</offset>
+		<word>7</word>
+	</JzaIndication>
+</Configs>

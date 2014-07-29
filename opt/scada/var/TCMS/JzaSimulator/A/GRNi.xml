@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configs>
+	<SignallingIndication xml:id="E005.BF">
+		<interlockingName>GRN</interlockingName>
+		<deviceName>config:/JzaSimulator#GRN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/GRN/mnem/E005.BF</sourceURL>
+		<offset>0</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P004.LRP">
+		<interlockingName>GRN</interlockingName>
+		<deviceName>config:/JzaSimulator#GRN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/GRN/mnem/004.LRP</sourceURL>
+		<offset>6</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P004.RWCR">
+		<interlockingName>GRN</interlockingName>
+		<deviceName>config:/JzaSimulator#GRN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/GRN/mnem/004.RWCR</sourceURL>
+		<offset>7</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P004.NWCR">
+		<interlockingName>GRN</interlockingName>
+		<deviceName>config:/JzaSimulator#GRN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/GRN/mnem/004.NWCR</sourceURL>
+		<offset>8</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P008.LRP">
+		<interlockingName>GRN</interlockingName>
+		<deviceName>config:/JzaSimulator#GRN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/GRN/mnem/008.LRP</sourceURL>
+		<offset>3</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P008.RWCR">
+		<interlockingName>GRN</interlockingName>
+		<deviceName>config:/JzaSimulator#GRN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/GRN/mnem/008.RWCR</sourceURL>
+		<offset>4</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P008.NWCR">
+		<interlockingName>GRN</interlockingName>
+		<deviceName>config:/JzaSimulator#GRN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/GRN/mnem/008.NWCR</sourceURL>
+		<offset>5</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P024.LRP">
+		<interlockingName>GRN</interlockingName>
+		<deviceName>config:/JzaSimulator#GRN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/GRN/mnem/024.LRP</sourceURL>
+		<offset>0</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P024.RWCR">
+		<interlockingName>GRN</interlockingName>
+		<deviceName>config:/JzaSimulator#GRN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/GRN/mnem/024.RWCR</sourceURL>
+		<offset>1</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P024.NWCR">
+		<interlockingName>GRN</interlockingName>
+		<deviceName>config:/JzaSimulator#GRN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/GRN/mnem/024.NWCR</sourceURL>
+		<offset>2</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S002.RIP">
+		<interlockingName>GRN</interlockingName>
+		<deviceName>config:/JzaSimulator#GRN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/GRN/mnem/002.RIP</sourceURL>
+		<offset>1</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S002.ASP">
+		<interlockingName>GRN</interlockingName>
+		<deviceName>config:/JzaSimulator#GRN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/GRN/mnem/002.ASP</sourceURL>
+		<offset>4</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S002.RGP">
+		<interlockingName>GRN</interlockingName>
+		<deviceName>config:/JzaSimulator#GRN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/GRN/mnem/002.RGP</sourceURL>
+		<offset>5</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S002.NGP">
+		<interlockingName>GRN</interlockingName>
+		<deviceName>config:/JzaSimulator#GRN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/GRN/mnem/002.NGP</sourceURL>
+		<offset>6</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S003.CPBS">
+		<interlockingName>GRN</interlockingName>
+		<deviceName>config:/JzaSimulator#GRN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/GRN/mnem/003.CPBS</sourceURL>
+		<offset>10</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S003.ASP">
+		<interlockingName>GRN</interlockingName>
+		<deviceName>config:/JzaSimulator#GRN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/GRN/mnem/003.ASP</sourceURL>
+		<offset>12</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S003.RGP">
+		<interlockingName>GRN</interlockingName>
+		<deviceName>config:/JzaSimulator#GRN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/GRN/mnem/003.RGP</sourceURL>
+		<offset>13</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S003.CGR">
+		<interlockingName>GRN</interlockingName>
+		<deviceName>config:/JzaSimulator#GRN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/GRN/mnem/003.CGR</sourceURL>
+		<offset>14</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S003.NGP">
+		<interlockingName>GRN</interlockingName>
+		<deviceName>config:/JzaSimulator#GRN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/GRN/mnem/003.NGP</sourceURL>
+		<offset>15</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S003.RIP">
+		<interlockingName>GRN</interlockingName>
+		<deviceName>config:/JzaSimulator#GRN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/GRN/mnem/003.RIP</sourceURL>
+		<offset>9</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S005.NGP">
+		<interlockingName>GRN</interlockingName>
+		<deviceName>config:/JzaSimulator#GRN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/GRN/mnem/005.NGP</sourceURL>
+		<offset>10</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S005.RIP">
+		<interlockingName>GRN</interlockingName>
+		<deviceName>config:/JzaSimulator#GRN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/GRN/mnem/005.RIP</sourceURL>
+		<offset>7</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S005.ASP">
+		<interlockingName>GRN</interlockingName>
+		<deviceName>config:/JzaSimulator#GRN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/GRN/mnem/005.ASP</sourceURL>
+		<offset>8</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S005.RGP">
+		<interlockingName>GRN</interlockingName>
+		<deviceName>config:/JzaSimulator#GRN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/GRN/mnem/005.RGP</sourceURL>
+		<offset>9</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S012.RIP">
+		<interlockingName>GRN</interlockingName>
+		<deviceName>config:/JzaSimulator#GRN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/GRN/mnem/012.RIP</sourceURL>
+		<offset>1</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S012.CPBS">
+		<interlockingName>GRN</interlockingName>
+		<deviceName>config:/JzaSimulator#GRN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/GRN/mnem/012.CPBS</sourceURL>
+		<offset>2</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S012.ASP">
+		<interlockingName>GRN</interlockingName>
+		<deviceName>config:/JzaSimulator#GRN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/GRN/mnem/012.ASP</sourceURL>
+		<offset>4</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S012.RGP">
+		<interlockingName>GRN</interlockingName>
+		<deviceName>config:/JzaSimulator#GRN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/GRN/mnem/012.RGP</sourceURL>
+		<offset>5</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S012.CGR">
+		<interlockingName>GRN</interlockingName>
+		<deviceName>config:/JzaSimulator#GRN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/GRN/mnem/012.CGR</sourceURL>
+		<offset>6</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S012.NGP">
+		<interlockingName>GRN</interlockingName>
+		<deviceName>config:/JzaSimulator#GRN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/GRN/mnem/012.NGP</sourceURL>
+		<offset>7</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S013.CPBS">
+		<interlockingName>GRN</interlockingName>
+		<deviceName>config:/JzaSimulator#GRN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/GRN/mnem/013.CPBS</sourceURL>
+		<offset>10</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S013.ASP">
+		<interlockingName>GRN</interlockingName>
+		<deviceName>config:/JzaSimulator#GRN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/GRN/mnem/013.ASP</sourceURL>
+		<offset>12</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S013.RGP">
+		<interlockingName>GRN</interlockingName>
+		<deviceName>config:/JzaSimulator#GRN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/GRN/mnem/013.RGP</sourceURL>
+		<offset>13</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S013.CGR">
+		<interlockingName>GRN</interlockingName>
+		<deviceName>config:/JzaSimulator#GRN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/GRN/mnem/013.CGR</sourceURL>
+		<offset>14</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S013.NGP">
+		<interlockingName>GRN</interlockingName>
+		<deviceName>config:/JzaSimulator#GRN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/GRN/mnem/013.NGP</sourceURL>
+		<offset>15</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S013.RIP">
+		<interlockingName>GRN</interlockingName>
+		<deviceName>config:/JzaSimulator#GRN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/GRN/mnem/013.RIP</sourceURL>
+		<offset>9</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S019.RIP">
+		<interlockingName>GRN</interlockingName>
+		<deviceName>config:/JzaSimulator#GRN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/GRN/mnem/019.RIP</sourceURL>
+		<offset>1</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S019.ASP">
+		<interlockingName>GRN</interlockingName>
+		<deviceName>config:/JzaSimulator#GRN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/GRN/mnem/019.ASP</sourceURL>
+		<offset>4</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S019.RGP">
+		<interlockingName>GRN</interlockingName>
+		<deviceName>config:/JzaSimulator#GRN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/GRN/mnem/019.RGP</sourceURL>
+		<offset>5</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S019.NGP">
+		<interlockingName>GRN</interlockingName>
+		<deviceName>config:/JzaSimulator#GRN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/GRN/mnem/019.NGP</sourceURL>
+		<offset>7</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S023.ASP">
+		<interlockingName>GRN</interlockingName>
+		<deviceName>config:/JzaSimulator#GRN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/GRN/mnem/023.ASP</sourceURL>
+		<offset>12</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S023.RGP">
+		<interlockingName>GRN</interlockingName>
+		<deviceName>config:/JzaSimulator#GRN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/GRN/mnem/023.RGP</sourceURL>
+		<offset>13</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S023.NGP">
+		<interlockingName>GRN</interlockingName>
+		<deviceName>config:/JzaSimulator#GRN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/GRN/mnem/023.NGP</sourceURL>
+		<offset>15</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S023.RIP">
+		<interlockingName>GRN</interlockingName>
+		<deviceName>config:/JzaSimulator#GRN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/GRN/mnem/023.RIP</sourceURL>
+		<offset>9</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S029.RIP">
+		<interlockingName>GRN</interlockingName>
+		<deviceName>config:/JzaSimulator#GRN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/GRN/mnem/029.RIP</sourceURL>
+		<offset>1</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S029.ASP">
+		<interlockingName>GRN</interlockingName>
+		<deviceName>config:/JzaSimulator#GRN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/GRN/mnem/029.ASP</sourceURL>
+		<offset>4</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S029.RGP">
+		<interlockingName>GRN</interlockingName>
+		<deviceName>config:/JzaSimulator#GRN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/GRN/mnem/029.RGP</sourceURL>
+		<offset>5</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S029.NGP">
+		<interlockingName>GRN</interlockingName>
+		<deviceName>config:/JzaSimulator#GRN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/GRN/mnem/029.NGP</sourceURL>
+		<offset>7</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S030.ASP">
+		<interlockingName>GRN</interlockingName>
+		<deviceName>config:/JzaSimulator#GRN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/GRN/mnem/030.ASP</sourceURL>
+		<offset>12</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S030.RGP">
+		<interlockingName>GRN</interlockingName>
+		<deviceName>config:/JzaSimulator#GRN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/GRN/mnem/030.RGP</sourceURL>
+		<offset>13</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S030.NGP">
+		<interlockingName>GRN</interlockingName>
+		<deviceName>config:/JzaSimulator#GRN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/GRN/mnem/030.NGP</sourceURL>
+		<offset>15</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S030.RIP">
+		<interlockingName>GRN</interlockingName>
+		<deviceName>config:/JzaSimulator#GRN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/GRN/mnem/030.RIP</sourceURL>
+		<offset>9</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S609.RGP">
+		<interlockingName>GRN</interlockingName>
+		<deviceName>config:/JzaSimulator#GRN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/GRN/mnem/609.RGP</sourceURL>
+		<offset>14</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S634.RGP">
+		<interlockingName>GRN</interlockingName>
+		<deviceName>config:/JzaSimulator#GRN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/GRN/mnem/634.RGP</sourceURL>
+		<offset>13</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S635.RGP">
+		<interlockingName>GRN</interlockingName>
+		<deviceName>config:/JzaSimulator#GRN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/GRN/mnem/635.RGP</sourceURL>
+		<offset>12</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S664.RGP">
+		<interlockingName>GRN</interlockingName>
+		<deviceName>config:/JzaSimulator#GRN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/GRN/mnem/664.RGP</sourceURL>
+		<offset>11</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T002.TPK">
+		<interlockingName>GRN</interlockingName>
+		<deviceName>config:/JzaSimulator#GRN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/GRN/mnem/002.TPK</sourceURL>
+		<offset>15</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T003.TPK">
+		<interlockingName>GRN</interlockingName>
+		<deviceName>config:/JzaSimulator#GRN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/GRN/mnem/003.TPK</sourceURL>
+		<offset>14</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T012.TPK">
+		<interlockingName>GRN</interlockingName>
+		<deviceName>config:/JzaSimulator#GRN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/GRN/mnem/012.TPK</sourceURL>
+		<offset>13</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T013.TPK">
+		<interlockingName>GRN</interlockingName>
+		<deviceName>config:/JzaSimulator#GRN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/GRN/mnem/013.TPK</sourceURL>
+		<offset>12</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T014.TPK">
+		<interlockingName>GRN</interlockingName>
+		<deviceName>config:/JzaSimulator#GRN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/GRN/mnem/014.TPK</sourceURL>
+		<offset>11</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T015.TPK">
+		<interlockingName>GRN</interlockingName>
+		<deviceName>config:/JzaSimulator#GRN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/GRN/mnem/015.TPK</sourceURL>
+		<offset>10</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T019.TPK">
+		<interlockingName>GRN</interlockingName>
+		<deviceName>config:/JzaSimulator#GRN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/GRN/mnem/019.TPK</sourceURL>
+		<offset>9</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T028.TPK">
+		<interlockingName>GRN</interlockingName>
+		<deviceName>config:/JzaSimulator#GRN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/GRN/mnem/028.TPK</sourceURL>
+		<offset>7</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T029.TPK">
+		<interlockingName>GRN</interlockingName>
+		<deviceName>config:/JzaSimulator#GRN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/GRN/mnem/029.TPK</sourceURL>
+		<offset>6</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T030.TPK">
+		<interlockingName>GRN</interlockingName>
+		<deviceName>config:/JzaSimulator#GRN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/GRN/mnem/030.TPK</sourceURL>
+		<offset>5</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T609.TPK">
+		<interlockingName>GRN</interlockingName>
+		<deviceName>config:/JzaSimulator#GRN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/GRN/mnem/609.TPK</sourceURL>
+		<offset>4</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T634.TPK">
+		<interlockingName>GRN</interlockingName>
+		<deviceName>config:/JzaSimulator#GRN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/GRN/mnem/634.TPK</sourceURL>
+		<offset>3</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T635.TPK">
+		<interlockingName>GRN</interlockingName>
+		<deviceName>config:/JzaSimulator#GRN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/GRN/mnem/635.TPK</sourceURL>
+		<offset>2</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T650.TPK">
+		<interlockingName>GRN</interlockingName>
+		<deviceName>config:/JzaSimulator#GRN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/GRN/mnem/650.TPK</sourceURL>
+		<offset>1</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T657.TPK">
+		<interlockingName>GRN</interlockingName>
+		<deviceName>config:/JzaSimulator#GRN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/GRN/mnem/657.TPK</sourceURL>
+		<offset>0</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T664.TPK">
+		<interlockingName>GRN</interlockingName>
+		<deviceName>config:/JzaSimulator#GRN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/GRN/mnem/664.TPK</sourceURL>
+		<offset>15</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T680.TPK">
+		<interlockingName>GRN</interlockingName>
+		<deviceName>config:/JzaSimulator#GRN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/GRN/mnem/680.TPK</sourceURL>
+		<offset>14</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T696.TPK">
+		<interlockingName>GRN</interlockingName>
+		<deviceName>config:/JzaSimulator#GRN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/GRN/mnem/696.TPK</sourceURL>
+		<offset>13</offset>
+		<word>8</word>
+	</SignallingIndication>
+</Configs>

@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configs>
+	<JzaIndication xml:id="E001.JR">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>12</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E002.JR">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>11</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E003.AREA">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>7</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E011.JR">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>10</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E021.APLP">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>5</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E022.CF">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>4</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E023.CPFR">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>9</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E101.EFP">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>4</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E102.ECP">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>3</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E103.ACPOR">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>2</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E104.BATTLR">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>1</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E105.BF">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>0</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E321.PGFP">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>8</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E334.PGFP">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>6</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E336.LXACFR">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>6</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E341.PWRF">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>11</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E342.PWRF">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>10</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E359.LXACFR">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>5</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="L336.DTOP">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>1</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="L336.BPOK">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>2</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="L336.FGNP">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>3</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="L336.FCP">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>4</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="L358.FCP">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>0</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="L358.DTOP">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>13</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="L358.BPOK">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>14</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="L358.FGNP">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>15</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P001.NWCR">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>10</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P001.LRP">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>8</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P001.RWCR">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>9</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P002.LRP">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>5</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P002.RWCR">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>6</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P002.NWCR">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>7</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P011.LRP">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>12</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P011.RWCR">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>13</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P011.NWCR">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>14</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S102.RIP">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>1</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S102.CPBS">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>2</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S102.AOR">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>3</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S102.ASP">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>4</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S102.RGP">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>5</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S102.CGR">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>6</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S102.NGP">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>7</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S104.NGP">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>0</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S104.RIP">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>13</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S104.ASP">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>14</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S104.RGP">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>15</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S107.RGP">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>10</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S107.CGR">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>11</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S107.NGP">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>12</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S107.RIP">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>6</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S107.CPBS">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>7</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S107.AOR">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>8</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S107.ASP">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>9</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S108.CPBS">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>0</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S108.AOR">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>1</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S108.ASP">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>2</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S108.RGP">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>3</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S108.CGR">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>4</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S108.NGP">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>5</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S108.RIP">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>15</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S110.AOR">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>10</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S110.ASP">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>11</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S110.RGP">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>12</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S110.CGR">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>13</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S110.NGP">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>14</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S110.RIP">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>8</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S110.CPBS">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>9</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S111.RIP">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>1</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S111.CPBS">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>2</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S111.AOR">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>3</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S111.ASP">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>4</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S111.RGP">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>5</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S111.CGR">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>6</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S111.NGP">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>7</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S113.NGP">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>0</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S113.RIP">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>11</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S113.CPBS">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>12</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S113.AOR">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>13</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S113.ASP">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>14</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S113.RGP">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>15</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S330.RGP">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>1</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S351.RGP">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>3</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T002.TPK">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>0</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T007.TPK">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>15</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T008.TPK">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>14</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T009.TPK">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>13</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T010.TPK">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>12</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T011.TPK">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>11</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T102.TPK">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>10</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T104.TPK">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>0</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T104.ARP">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>15</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T107.TPK">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>9</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T108.TPK">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>8</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T109.TPK">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>9</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T110.TPK">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>7</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T111.TPK">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>6</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T321.TPK">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>8</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T323.TPK">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>5</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T347.TPK">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>4</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T351.TPK">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>2</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T356.TPK">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>3</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T358.TPK">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>2</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T360.TPK">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/BEL#BEL</deviceName>
+		<offset>1</offset>
+		<word>5</word>
+	</JzaIndication>
+</Configs>

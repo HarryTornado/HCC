@@ -1,0 +1,1305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configs>
+	<SignallingControl xml:id="C663.RLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>2</offset>
+		<word>12</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="C663.NLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>3</offset>
+		<word>12</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="C666.RLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>0</offset>
+		<word>12</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="C666.NLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>1</offset>
+		<word>12</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="E245.RLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>4</offset>
+		<word>12</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="E245.NLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>5</offset>
+		<word>12</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="E708.GECG">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>14</offset>
+		<word>13</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="E708.GECC">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>15</offset>
+		<word>13</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="E712.GECG">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>12</offset>
+		<word>13</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="E712.GECC">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>13</offset>
+		<word>13</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="E728.GECG">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>10</offset>
+		<word>13</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="E728.GECC">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>11</offset>
+		<word>13</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="E748.GECG">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>8</offset>
+		<word>13</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="E748.GECC">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>9</offset>
+		<word>13</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="E768.GECG">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>6</offset>
+		<word>13</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="E768.GECC">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>7</offset>
+		<word>13</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P604.RLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>10</offset>
+		<word>9</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P604.NLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>11</offset>
+		<word>9</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P607.RLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>8</offset>
+		<word>9</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P607.NLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>9</offset>
+		<word>9</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P608.RLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>6</offset>
+		<word>9</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P608.NLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>7</offset>
+		<word>9</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P610.RLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>4</offset>
+		<word>9</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P610.NLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>5</offset>
+		<word>9</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P611.RLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>2</offset>
+		<word>9</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P611.NLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>3</offset>
+		<word>9</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P612.RLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>0</offset>
+		<word>9</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P612.NLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>1</offset>
+		<word>9</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P613.RLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>14</offset>
+		<word>10</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P613.NLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>15</offset>
+		<word>10</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P622.RLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>12</offset>
+		<word>10</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P622.NLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>13</offset>
+		<word>10</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P623.RLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>10</offset>
+		<word>10</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P623.NLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>11</offset>
+		<word>10</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P624.RLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>8</offset>
+		<word>10</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P624.NLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>9</offset>
+		<word>10</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P628.RLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>6</offset>
+		<word>10</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P628.NLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>7</offset>
+		<word>10</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P632.RLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>4</offset>
+		<word>10</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P632.NLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>5</offset>
+		<word>10</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P633.RLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>2</offset>
+		<word>10</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P633.NLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>3</offset>
+		<word>10</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P642.RLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>0</offset>
+		<word>10</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P642.NLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>1</offset>
+		<word>10</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P644.RLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>14</offset>
+		<word>11</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P644.NLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>15</offset>
+		<word>11</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P647.RLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>12</offset>
+		<word>11</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P647.NLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>13</offset>
+		<word>11</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P648.RLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>10</offset>
+		<word>11</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P648.NLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>11</offset>
+		<word>11</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P652.RLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>8</offset>
+		<word>11</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P652.NLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>9</offset>
+		<word>11</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P662.RLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>6</offset>
+		<word>11</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P662.NLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>7</offset>
+		<word>11</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P664.RLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>4</offset>
+		<word>11</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P664.NLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>5</offset>
+		<word>11</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P667.RLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>2</offset>
+		<word>11</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P667.NLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>3</offset>
+		<word>11</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P668.RLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>0</offset>
+		<word>11</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P668.NLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>1</offset>
+		<word>11</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P670.RLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>14</offset>
+		<word>12</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P670.NLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>15</offset>
+		<word>12</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P671.RLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>12</offset>
+		<word>12</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P671.NLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>13</offset>
+		<word>12</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P672.RLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>10</offset>
+		<word>12</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P672.NLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>11</offset>
+		<word>12</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P673.RLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>8</offset>
+		<word>12</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P673.NLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>9</offset>
+		<word>12</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P677.RLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>6</offset>
+		<word>12</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P677.NLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>7</offset>
+		<word>12</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S702.CPBPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>11</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S702.AORPN">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>12</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S702.AORPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>13</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S702.RLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>14</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S702.NLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>15</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S704.CPBPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>6</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S704.AORPN">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>7</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S704.AORPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>8</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S704.RLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>9</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S704.NLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>10</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S707.CPBPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>1</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S707.AORPN">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>2</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S707.AORPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>3</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S707.RLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>4</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S707.NLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>5</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S708.NLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>0</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S708.CPBPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>12</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S708.AORPN">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>13</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S708.AORPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>14</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S708.RLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>15</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S709.RLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>10</offset>
+		<word>8</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S709.NLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>11</offset>
+		<word>8</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S710.RLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>8</offset>
+		<word>8</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S710.NLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>9</offset>
+		<word>8</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S711.RLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>6</offset>
+		<word>8</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S711.NLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>7</offset>
+		<word>8</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S712.CPBPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>7</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S712.AORPN">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>8</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S712.AORPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>9</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S712.RLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>10</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S712.NLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>11</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S724.RLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>4</offset>
+		<word>8</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S724.NLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>5</offset>
+		<word>8</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S727.CPBPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>2</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S727.AORPN">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>3</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S727.AORPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>4</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S727.RLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>5</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S727.NLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>6</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S728.RLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>0</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S728.NLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>1</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S728.CPBPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>13</offset>
+		<word>4</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S728.AORPN">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>14</offset>
+		<word>4</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S728.AORPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>15</offset>
+		<word>4</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S729.CPBPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>8</offset>
+		<word>4</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S729.AORPN">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>9</offset>
+		<word>4</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S729.AORPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>10</offset>
+		<word>4</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S729.RLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>11</offset>
+		<word>4</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S729.NLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>12</offset>
+		<word>4</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S733.CPBPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>3</offset>
+		<word>4</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S733.AORPN">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>4</offset>
+		<word>4</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S733.AORPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>5</offset>
+		<word>4</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S733.RLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>6</offset>
+		<word>4</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S733.NLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>7</offset>
+		<word>4</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S735.AORPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>0</offset>
+		<word>4</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S735.RLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>1</offset>
+		<word>4</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S735.NLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>2</offset>
+		<word>4</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S735.CPBPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>14</offset>
+		<word>5</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S735.AORPN">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>15</offset>
+		<word>5</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S742.CPBPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>9</offset>
+		<word>5</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S742.AORPN">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>10</offset>
+		<word>5</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S742.AORPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>11</offset>
+		<word>5</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S742.RLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>12</offset>
+		<word>5</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S742.NLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>13</offset>
+		<word>5</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S744.CPBPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>4</offset>
+		<word>5</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S744.AORPN">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>5</offset>
+		<word>5</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S744.AORPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>6</offset>
+		<word>5</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S744.RLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>7</offset>
+		<word>5</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S744.NLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>8</offset>
+		<word>5</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S747.AORPN">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>0</offset>
+		<word>5</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S747.AORPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>1</offset>
+		<word>5</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S747.RLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>2</offset>
+		<word>5</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S747.NLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>3</offset>
+		<word>5</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S747.CPBPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>15</offset>
+		<word>6</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S748.CPBPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>10</offset>
+		<word>6</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S748.AORPN">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>11</offset>
+		<word>6</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S748.AORPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>12</offset>
+		<word>6</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S748.RLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>13</offset>
+		<word>6</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S748.NLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>14</offset>
+		<word>6</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S764.RLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>2</offset>
+		<word>8</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S764.NLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>3</offset>
+		<word>8</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S765.CPBPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>5</offset>
+		<word>6</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S765.AORPN">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>6</offset>
+		<word>6</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S765.AORPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>7</offset>
+		<word>6</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S765.RLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>8</offset>
+		<word>6</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S765.NLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>9</offset>
+		<word>6</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S767.CPBPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>0</offset>
+		<word>6</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S767.AORPN">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>1</offset>
+		<word>6</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S767.AORPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>2</offset>
+		<word>6</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S767.RLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>3</offset>
+		<word>6</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S767.NLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>4</offset>
+		<word>6</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S768.CPBPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>11</offset>
+		<word>7</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S768.AORPN">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>12</offset>
+		<word>7</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S768.AORPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>13</offset>
+		<word>7</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S768.RLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>14</offset>
+		<word>7</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S768.NLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>15</offset>
+		<word>7</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S769.CPBPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>6</offset>
+		<word>7</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S769.AORPN">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>7</offset>
+		<word>7</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S769.AORPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>8</offset>
+		<word>7</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S769.RLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>9</offset>
+		<word>7</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S769.NLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>10</offset>
+		<word>7</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S770.RLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>0</offset>
+		<word>8</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S770.NLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>1</offset>
+		<word>8</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S771.RLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>14</offset>
+		<word>9</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S771.NLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>15</offset>
+		<word>9</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S773.CPBPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>1</offset>
+		<word>7</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S773.AORPN">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>2</offset>
+		<word>7</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S773.AORPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>3</offset>
+		<word>7</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S773.RLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>4</offset>
+		<word>7</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S773.NLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>5</offset>
+		<word>7</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S777.NLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>0</offset>
+		<word>7</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S777.CPBPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>12</offset>
+		<word>8</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S777.AORPN">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>13</offset>
+		<word>8</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S777.AORPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>14</offset>
+		<word>8</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S777.RLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>15</offset>
+		<word>8</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S781.RLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>12</offset>
+		<word>9</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S781.NLPR">
+		<interlockingName>CFD</interlockingName>
+		<deviceName>config:/JzaSimulator#CFD</deviceName>
+		<offset>13</offset>
+		<word>9</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+</Configs>

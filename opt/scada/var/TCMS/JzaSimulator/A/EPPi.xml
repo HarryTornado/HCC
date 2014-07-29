@@ -1,0 +1,2355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configs>
+	<SignallingIndication xml:id="E022.JR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP022D/value</sourceURL>
+		<offset>14</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E025.JR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP025D/value</sourceURL>
+		<offset>10</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E026.JR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP026D/value</sourceURL>
+		<offset>6</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E027.JR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP027D/value</sourceURL>
+		<offset>2</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E650.PGFP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIML650A/value</sourceURL>
+		<offset>2</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L652.DTOP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIML652D/value</sourceURL>
+		<offset>10</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L652.BPOK">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIML652C/value</sourceURL>
+		<offset>11</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L652.FGNP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIML652B/value</sourceURL>
+		<offset>12</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L652.FCP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIML652A/value</sourceURL>
+		<offset>13</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P022.RWCR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP022B/value</sourceURL>
+		<offset>0</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P022.NWCR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP022A/value</sourceURL>
+		<offset>1</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P022.LRP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP022C/value</sourceURL>
+		<offset>15</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P025.LRP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP025C/value</sourceURL>
+		<offset>11</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P025.RWCR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP025B/value</sourceURL>
+		<offset>12</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P025.NWCR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP025A/value</sourceURL>
+		<offset>13</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P026.LRP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP026C/value</sourceURL>
+		<offset>7</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P026.RWCR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP026B/value</sourceURL>
+		<offset>8</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P026.NWCR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP026A/value</sourceURL>
+		<offset>9</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P027.LRP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP027C/value</sourceURL>
+		<offset>3</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P027.RWCR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP027B/value</sourceURL>
+		<offset>4</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P027.NWCR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP027A/value</sourceURL>
+		<offset>5</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P028.RWCR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP028B/value</sourceURL>
+		<offset>10</offset>
+		<word>16</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P028.NWCR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP028A/value</sourceURL>
+		<offset>11</offset>
+		<word>16</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P028.LRP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP028C/value</sourceURL>
+		<offset>9</offset>
+		<word>16</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P030.LRP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP030C/value</sourceURL>
+		<offset>6</offset>
+		<word>16</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P030.RWCR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP030B/value</sourceURL>
+		<offset>7</offset>
+		<word>16</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P030.NWCR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP030A/value</sourceURL>
+		<offset>8</offset>
+		<word>16</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P031.LRP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP031C/value</sourceURL>
+		<offset>3</offset>
+		<word>16</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P031.RWCR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP031B/value</sourceURL>
+		<offset>4</offset>
+		<word>16</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P031.NWCR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP031A/value</sourceURL>
+		<offset>5</offset>
+		<word>16</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P032.LRP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP032C/value</sourceURL>
+		<offset>0</offset>
+		<word>16</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P032.RWCR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP032B/value</sourceURL>
+		<offset>1</offset>
+		<word>16</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P032.NWCR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP032A/value</sourceURL>
+		<offset>2</offset>
+		<word>16</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P034.LRP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP034C/value</sourceURL>
+		<offset>13</offset>
+		<word>17</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P034.RWCR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP034B/value</sourceURL>
+		<offset>14</offset>
+		<word>17</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P034.NWCR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP034A/value</sourceURL>
+		<offset>15</offset>
+		<word>17</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P035.LRP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP035C/value</sourceURL>
+		<offset>10</offset>
+		<word>17</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P035.RWCR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP035B/value</sourceURL>
+		<offset>11</offset>
+		<word>17</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P035.NWCR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP035A/value</sourceURL>
+		<offset>12</offset>
+		<word>17</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P036.LRP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP036C/value</sourceURL>
+		<offset>7</offset>
+		<word>17</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P036.RWCR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP036B/value</sourceURL>
+		<offset>8</offset>
+		<word>17</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P036.NWCR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP036A/value</sourceURL>
+		<offset>9</offset>
+		<word>17</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P037.LRP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP037C/value</sourceURL>
+		<offset>4</offset>
+		<word>17</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P037.RWCR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP037B/value</sourceURL>
+		<offset>5</offset>
+		<word>17</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P037.NWCR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP037A/value</sourceURL>
+		<offset>6</offset>
+		<word>17</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P038.LRP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP038C/value</sourceURL>
+		<offset>1</offset>
+		<word>17</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P038.RWCR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP038B/value</sourceURL>
+		<offset>2</offset>
+		<word>17</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P038.NWCR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP038A/value</sourceURL>
+		<offset>3</offset>
+		<word>17</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P040.NWCR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP040A/value</sourceURL>
+		<offset>0</offset>
+		<word>17</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P040.LRP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP040C/value</sourceURL>
+		<offset>14</offset>
+		<word>18</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P040.RWCR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP040B/value</sourceURL>
+		<offset>15</offset>
+		<word>18</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P042.LRP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP042C/value</sourceURL>
+		<offset>11</offset>
+		<word>18</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P042.RWCR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP042B/value</sourceURL>
+		<offset>12</offset>
+		<word>18</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P042.NWCR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP042A/value</sourceURL>
+		<offset>13</offset>
+		<word>18</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P047.NWCR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP047A/value</sourceURL>
+		<offset>10</offset>
+		<word>18</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P047.LRP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP047C/value</sourceURL>
+		<offset>8</offset>
+		<word>18</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P047.RWCR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP047B/value</sourceURL>
+		<offset>9</offset>
+		<word>18</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P048.LRP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP048C/value</sourceURL>
+		<offset>5</offset>
+		<word>18</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P048.RWCR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP048B/value</sourceURL>
+		<offset>6</offset>
+		<word>18</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P048.NWCR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP048A/value</sourceURL>
+		<offset>7</offset>
+		<word>18</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P049.LRP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP048C/value</sourceURL>
+		<offset>2</offset>
+		<word>18</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P049.RWCR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP048B/value</sourceURL>
+		<offset>3</offset>
+		<word>18</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P049.NWCR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP048A/value</sourceURL>
+		<offset>4</offset>
+		<word>18</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P050.RWCR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP048B/value</sourceURL>
+		<offset>0</offset>
+		<word>18</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P050.NWCR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP048A/value</sourceURL>
+		<offset>1</offset>
+		<word>18</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P050.LRP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP048C/value</sourceURL>
+		<offset>15</offset>
+		<word>19</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P052.LRP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP048C/value</sourceURL>
+		<offset>12</offset>
+		<word>19</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P052.RWCR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP048B/value</sourceURL>
+		<offset>13</offset>
+		<word>19</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P052.NWCR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP048A/value</sourceURL>
+		<offset>14</offset>
+		<word>19</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P053.RWCR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP048B/value</sourceURL>
+		<offset>10</offset>
+		<word>19</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P053.NWCR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP048A/value</sourceURL>
+		<offset>11</offset>
+		<word>19</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P053.LRP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP048C/value</sourceURL>
+		<offset>9</offset>
+		<word>19</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P054.LRP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP048C/value</sourceURL>
+		<offset>6</offset>
+		<word>19</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P054.RWCR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP048B/value</sourceURL>
+		<offset>7</offset>
+		<word>19</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P054.NWCR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP048A/value</sourceURL>
+		<offset>8</offset>
+		<word>19</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P055.LRP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP048C/value</sourceURL>
+		<offset>3</offset>
+		<word>19</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P055.RWCR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP048B/value</sourceURL>
+		<offset>4</offset>
+		<word>19</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P055.NWCR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP048A/value</sourceURL>
+		<offset>5</offset>
+		<word>19</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P056.LRP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP048C/value</sourceURL>
+		<offset>0</offset>
+		<word>19</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P056.RWCR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP048B/value</sourceURL>
+		<offset>1</offset>
+		<word>19</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P056.NWCR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP048A/value</sourceURL>
+		<offset>2</offset>
+		<word>19</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P059.LRP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP048C/value</sourceURL>
+		<offset>13</offset>
+		<word>20</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P059.RWCR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP048B/value</sourceURL>
+		<offset>14</offset>
+		<word>20</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P059.NWCR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP048A/value</sourceURL>
+		<offset>15</offset>
+		<word>20</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P061.LRP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP061C/value</sourceURL>
+		<offset>10</offset>
+		<word>20</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P061.RWCR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP061B/value</sourceURL>
+		<offset>11</offset>
+		<word>20</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P061.NWCR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP061A/value</sourceURL>
+		<offset>12</offset>
+		<word>20</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P069.LRP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP069C/value</sourceURL>
+		<offset>7</offset>
+		<word>20</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P069.RWCR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP069B/value</sourceURL>
+		<offset>8</offset>
+		<word>20</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P069.NWCR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP069A/value</sourceURL>
+		<offset>9</offset>
+		<word>20</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P071.LRP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP071C/value</sourceURL>
+		<offset>4</offset>
+		<word>20</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P071.RWCR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP071B/value</sourceURL>
+		<offset>5</offset>
+		<word>20</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P071.NWCR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMP071A/value</sourceURL>
+		<offset>6</offset>
+		<word>20</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S121.RIP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS121G/value</sourceURL>
+		<offset>3</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S121.CPBS">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS121F/value</sourceURL>
+		<offset>4</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S121.AOR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS121E/value</sourceURL>
+		<offset>5</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S121.ASP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS121D/value</sourceURL>
+		<offset>6</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S121.RGP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS121C/value</sourceURL>
+		<offset>7</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S121.CGR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS121B/value</sourceURL>
+		<offset>8</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S121.NGP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS121A/value</sourceURL>
+		<offset>9</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S122.CGR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS122B/value</sourceURL>
+		<offset>0</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S122.NGP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS122A/value</sourceURL>
+		<offset>1</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S122.RIP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS122G/value</sourceURL>
+		<offset>11</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S122.CPBS">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS122F/value</sourceURL>
+		<offset>12</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S122.AOR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS122E/value</sourceURL>
+		<offset>13</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S122.ASP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS122D/value</sourceURL>
+		<offset>14</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S122.RGP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS122C/value</sourceURL>
+		<offset>15</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S123.RIP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS123G/value</sourceURL>
+		<offset>3</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S123.CPBS">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS123F/value</sourceURL>
+		<offset>4</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S123.AOR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS123E/value</sourceURL>
+		<offset>5</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S123.ASP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS123D/value</sourceURL>
+		<offset>6</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S123.RGP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS123C/value</sourceURL>
+		<offset>7</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S123.CGR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS123B/value</sourceURL>
+		<offset>8</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S123.NGP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS123A/value</sourceURL>
+		<offset>9</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S124.RGP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS124C/value</sourceURL>
+		<offset>0</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S124.NGP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS124A/value</sourceURL>
+		<offset>1</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S124.RIP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS124G/value</sourceURL>
+		<offset>14</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S124.ASP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS124D/value</sourceURL>
+		<offset>15</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S125.RIP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS125G/value</sourceURL>
+		<offset>3</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S125.CPBS">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS125F/value</sourceURL>
+		<offset>4</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S125.AOR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS125E/value</sourceURL>
+		<offset>5</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S125.ASP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS125D/value</sourceURL>
+		<offset>6</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S125.RGP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS125C/value</sourceURL>
+		<offset>7</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S125.CGR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS125B/value</sourceURL>
+		<offset>8</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S125.NGP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS125A/value</sourceURL>
+		<offset>9</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S126.CGR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS126B/value</sourceURL>
+		<offset>0</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S126.NGP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS126A/value</sourceURL>
+		<offset>1</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S126.RIP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS126G/value</sourceURL>
+		<offset>11</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S126.CPBS">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS126F/value</sourceURL>
+		<offset>12</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S126.AOR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS126E/value</sourceURL>
+		<offset>13</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S126.ASP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS126D/value</sourceURL>
+		<offset>14</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S126.RGP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS126C/value</sourceURL>
+		<offset>15</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S127.RIP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS127G/value</sourceURL>
+		<offset>3</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S127.CPBS">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS127F/value</sourceURL>
+		<offset>4</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S127.AOR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS127E/value</sourceURL>
+		<offset>5</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S127.ASP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS127D/value</sourceURL>
+		<offset>6</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S127.RGP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS127C/value</sourceURL>
+		<offset>7</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S127.CGR">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS127B/value</sourceURL>
+		<offset>8</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S127.NGP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS127A/value</sourceURL>
+		<offset>9</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S128.RIP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS128G/value</sourceURL>
+		<offset>12</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S128.ASP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS128D/value</sourceURL>
+		<offset>13</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S128.RGP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS128C/value</sourceURL>
+		<offset>14</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S128.NGP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS128A/value</sourceURL>
+		<offset>15</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S130.RGP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS130C/value</sourceURL>
+		<offset>10</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S130.NGP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS130A/value</sourceURL>
+		<offset>11</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S130.RIP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS130G/value</sourceURL>
+		<offset>8</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S130.ASP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS130D/value</sourceURL>
+		<offset>9</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S132.RIP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS132G/value</sourceURL>
+		<offset>4</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S132.ASP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS132D/value</sourceURL>
+		<offset>5</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S132.RGP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS132C/value</sourceURL>
+		<offset>6</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S132.NGP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS132A/value</sourceURL>
+		<offset>7</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S134.RIP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS134G/value</sourceURL>
+		<offset>0</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S134.ASP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS134D/value</sourceURL>
+		<offset>1</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S134.RGP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS134C/value</sourceURL>
+		<offset>2</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S134.NGP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS134A/value</sourceURL>
+		<offset>3</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S135.RIP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS135G/value</sourceURL>
+		<offset>12</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S135.ASP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS135D/value</sourceURL>
+		<offset>13</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S135.RGP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS135C/value</sourceURL>
+		<offset>14</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S135.NGP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS135A/value</sourceURL>
+		<offset>15</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S136.RGP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS136C/value</sourceURL>
+		<offset>10</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S136.NGP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS136A/value</sourceURL>
+		<offset>11</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S136.RIP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS136G/value</sourceURL>
+		<offset>8</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S136.ASP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS136D/value</sourceURL>
+		<offset>9</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S137.RIP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS137G/value</sourceURL>
+		<offset>4</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S137.ASP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS137D/value</sourceURL>
+		<offset>5</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S137.RGP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS137C/value</sourceURL>
+		<offset>6</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S137.NGP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS137A/value</sourceURL>
+		<offset>7</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S138.RIP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS138G/value</sourceURL>
+		<offset>0</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S138.ASP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS138D/value</sourceURL>
+		<offset>1</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S138.RGP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS138C/value</sourceURL>
+		<offset>2</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S138.NGP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS138A/value</sourceURL>
+		<offset>3</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S139.RIP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS139G/value</sourceURL>
+		<offset>12</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S139.ASP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS139D/value</sourceURL>
+		<offset>13</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S139.RGP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS139C/value</sourceURL>
+		<offset>14</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S139.NGP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS139A/value</sourceURL>
+		<offset>15</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S140.RGP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS140C/value</sourceURL>
+		<offset>10</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S140.NGP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS140A/value</sourceURL>
+		<offset>11</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S140.RIP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS140G/value</sourceURL>
+		<offset>8</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S140.ASP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS140D/value</sourceURL>
+		<offset>9</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S142.RIP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS142G/value</sourceURL>
+		<offset>4</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S142.ASP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS142D/value</sourceURL>
+		<offset>5</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S142.RGP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS142C/value</sourceURL>
+		<offset>6</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S142.NGP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS142A/value</sourceURL>
+		<offset>7</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S146.RIP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS146G/value</sourceURL>
+		<offset>0</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S146.ASP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS146D/value</sourceURL>
+		<offset>1</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S146.RGP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS146C/value</sourceURL>
+		<offset>2</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S146.NGP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS146A/value</sourceURL>
+		<offset>3</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S147.RIP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS147G/value</sourceURL>
+		<offset>12</offset>
+		<word>12</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S147.ASP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS147D/value</sourceURL>
+		<offset>13</offset>
+		<word>12</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S147.RGP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS147C/value</sourceURL>
+		<offset>14</offset>
+		<word>12</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S147.NGP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS147A/value</sourceURL>
+		<offset>15</offset>
+		<word>12</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S148.RGP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS148C/value</sourceURL>
+		<offset>10</offset>
+		<word>12</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S148.NGP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS148A/value</sourceURL>
+		<offset>11</offset>
+		<word>12</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S148.RIP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS148G/value</sourceURL>
+		<offset>8</offset>
+		<word>12</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S148.ASP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS148D/value</sourceURL>
+		<offset>9</offset>
+		<word>12</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S149.RIP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS149G/value</sourceURL>
+		<offset>4</offset>
+		<word>12</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S149.ASP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS149D/value</sourceURL>
+		<offset>5</offset>
+		<word>12</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S149.RGP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS149C/value</sourceURL>
+		<offset>6</offset>
+		<word>12</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S149.NGP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS149A/value</sourceURL>
+		<offset>7</offset>
+		<word>12</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S150.RIP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS150G/value</sourceURL>
+		<offset>0</offset>
+		<word>12</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S150.ASP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS150D/value</sourceURL>
+		<offset>1</offset>
+		<word>12</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S150.RGP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS150C/value</sourceURL>
+		<offset>2</offset>
+		<word>12</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S150.NGP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS150A/value</sourceURL>
+		<offset>3</offset>
+		<word>12</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S151.RIP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS151G/value</sourceURL>
+		<offset>12</offset>
+		<word>13</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S151.ASP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS151D/value</sourceURL>
+		<offset>13</offset>
+		<word>13</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S151.RGP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS151C/value</sourceURL>
+		<offset>14</offset>
+		<word>13</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S151.NGP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS151A/value</sourceURL>
+		<offset>15</offset>
+		<word>13</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S152.RGP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS152C/value</sourceURL>
+		<offset>10</offset>
+		<word>13</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S152.NGP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS152A/value</sourceURL>
+		<offset>11</offset>
+		<word>13</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S152.RIP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS152G/value</sourceURL>
+		<offset>8</offset>
+		<word>13</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S152.ASP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS152D/value</sourceURL>
+		<offset>9</offset>
+		<word>13</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S153.RIP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS153G/value</sourceURL>
+		<offset>4</offset>
+		<word>13</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S153.ASP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS153D/value</sourceURL>
+		<offset>5</offset>
+		<word>13</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S153.RGP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS153C/value</sourceURL>
+		<offset>6</offset>
+		<word>13</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S153.NGP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS153A/value</sourceURL>
+		<offset>7</offset>
+		<word>13</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S154.RIP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS154G/value</sourceURL>
+		<offset>0</offset>
+		<word>13</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S154.ASP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS154D/value</sourceURL>
+		<offset>1</offset>
+		<word>13</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S154.RGP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS154C/value</sourceURL>
+		<offset>2</offset>
+		<word>13</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S154.NGP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS154A/value</sourceURL>
+		<offset>3</offset>
+		<word>13</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S155.RIP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS155G/value</sourceURL>
+		<offset>12</offset>
+		<word>14</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S155.ASP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS155D/value</sourceURL>
+		<offset>13</offset>
+		<word>14</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S155.RGP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS155C/value</sourceURL>
+		<offset>14</offset>
+		<word>14</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S155.NGP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS155A/value</sourceURL>
+		<offset>15</offset>
+		<word>14</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S156.RGP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS156C/value</sourceURL>
+		<offset>10</offset>
+		<word>14</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S156.NGP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS156A/value</sourceURL>
+		<offset>11</offset>
+		<word>14</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S156.RIP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS156G/value</sourceURL>
+		<offset>8</offset>
+		<word>14</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S156.ASP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS156D/value</sourceURL>
+		<offset>9</offset>
+		<word>14</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S157.RIP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS157G/value</sourceURL>
+		<offset>4</offset>
+		<word>14</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S157.ASP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS157D/value</sourceURL>
+		<offset>5</offset>
+		<word>14</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S157.RGP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS157C/value</sourceURL>
+		<offset>6</offset>
+		<word>14</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S157.NGP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS157A/value</sourceURL>
+		<offset>7</offset>
+		<word>14</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S161.RIP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS161G/value</sourceURL>
+		<offset>0</offset>
+		<word>14</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S161.ASP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS161D/value</sourceURL>
+		<offset>1</offset>
+		<word>14</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S161.RGP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS161C/value</sourceURL>
+		<offset>2</offset>
+		<word>14</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S161.NGP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS161A/value</sourceURL>
+		<offset>3</offset>
+		<word>14</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S163.RIP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS163G/value</sourceURL>
+		<offset>12</offset>
+		<word>15</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S163.ASP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS163D/value</sourceURL>
+		<offset>13</offset>
+		<word>15</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S163.RGP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS163C/value</sourceURL>
+		<offset>14</offset>
+		<word>15</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S163.NGP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS163A/value</sourceURL>
+		<offset>15</offset>
+		<word>15</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S164.RGP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS164C/value</sourceURL>
+		<offset>10</offset>
+		<word>15</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S164.NGP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS164A/value</sourceURL>
+		<offset>11</offset>
+		<word>15</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S164.RIP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS164G/value</sourceURL>
+		<offset>8</offset>
+		<word>15</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S164.ASP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS164D/value</sourceURL>
+		<offset>9</offset>
+		<word>15</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S165.RIP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS165G/value</sourceURL>
+		<offset>4</offset>
+		<word>15</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S165.ASP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS165D/value</sourceURL>
+		<offset>5</offset>
+		<word>15</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S165.RGP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS165C/value</sourceURL>
+		<offset>6</offset>
+		<word>15</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S165.NGP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS165A/value</sourceURL>
+		<offset>7</offset>
+		<word>15</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S169.RIP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS169G/value</sourceURL>
+		<offset>0</offset>
+		<word>15</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S169.ASP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS169D/value</sourceURL>
+		<offset>1</offset>
+		<word>15</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S169.RGP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS169C/value</sourceURL>
+		<offset>2</offset>
+		<word>15</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S169.NGP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS169A/value</sourceURL>
+		<offset>3</offset>
+		<word>15</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S175.RIP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS175G/value</sourceURL>
+		<offset>12</offset>
+		<word>16</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S175.ASP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS175D/value</sourceURL>
+		<offset>13</offset>
+		<word>16</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S175.RGP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS175C/value</sourceURL>
+		<offset>14</offset>
+		<word>16</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S175.NGP">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMS175A/value</sourceURL>
+		<offset>15</offset>
+		<word>16</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T020.TPK">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMT020A/value</sourceURL>
+		<offset>1</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T021.TPK">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMT021A/value</sourceURL>
+		<offset>0</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T022.TPK">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMT022A/value</sourceURL>
+		<offset>15</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T025.TPK">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMT025A/value</sourceURL>
+		<offset>14</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T027.TPK">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMT027A/value</sourceURL>
+		<offset>13</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T028.TPK">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMT028A/value</sourceURL>
+		<offset>3</offset>
+		<word>20</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T030.TPK">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMT030A/value</sourceURL>
+		<offset>2</offset>
+		<word>20</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T031.TPK">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMT031A/value</sourceURL>
+		<offset>1</offset>
+		<word>20</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T034.TPK">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMT034A/value</sourceURL>
+		<offset>0</offset>
+		<word>20</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T035.TPK">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMT035A/value</sourceURL>
+		<offset>15</offset>
+		<word>21</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T036.TPK">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMT036A/value</sourceURL>
+		<offset>14</offset>
+		<word>21</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T038.TPK">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMT038A/value</sourceURL>
+		<offset>13</offset>
+		<word>21</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T047.TPK">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMT047A/value</sourceURL>
+		<offset>12</offset>
+		<word>21</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T048.TPK">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMT048A/value</sourceURL>
+		<offset>11</offset>
+		<word>21</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T049.TPK">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMT049A/value</sourceURL>
+		<offset>10</offset>
+		<word>21</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T052.TPK">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMT052A/value</sourceURL>
+		<offset>9</offset>
+		<word>21</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T055.TPK">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMT055A/value</sourceURL>
+		<offset>4</offset>
+		<word>22</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T069.TPK">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMT069A/value</sourceURL>
+		<offset>3</offset>
+		<word>22</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T071.TPK">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMT071A/value</sourceURL>
+		<offset>8</offset>
+		<word>21</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T121.TPK">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMT121A/value</sourceURL>
+		<offset>12</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T122.TPK">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMT122A/value</sourceURL>
+		<offset>11</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T123.TPK">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMT123A/value</sourceURL>
+		<offset>10</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T124.TPK">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMT124A/value</sourceURL>
+		<offset>9</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T125.TPK">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMT125A/value</sourceURL>
+		<offset>8</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T126.TPK">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMT126A/value</sourceURL>
+		<offset>7</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T127.TPK">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMT127A/value</sourceURL>
+		<offset>6</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T128.TPK">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMT128A/value</sourceURL>
+		<offset>7</offset>
+		<word>21</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T130.TPK">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMT130A/value</sourceURL>
+		<offset>6</offset>
+		<word>21</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T131.TPK">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMT131A/value</sourceURL>
+		<offset>5</offset>
+		<word>21</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T132.TPK">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMT132A/value</sourceURL>
+		<offset>4</offset>
+		<word>21</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T134.TPK">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMT134A/value</sourceURL>
+		<offset>3</offset>
+		<word>21</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T135.TPK">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMT135A/value</sourceURL>
+		<offset>2</offset>
+		<word>21</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T136.TPK">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMT136A/value</sourceURL>
+		<offset>1</offset>
+		<word>21</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T137.TPK">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMT137A/value</sourceURL>
+		<offset>0</offset>
+		<word>21</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T138.TPK">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMT138A/value</sourceURL>
+		<offset>15</offset>
+		<word>22</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T139.TPK">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMT139A/value</sourceURL>
+		<offset>14</offset>
+		<word>22</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T140.TPK">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMT140A/value</sourceURL>
+		<offset>13</offset>
+		<word>22</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T142.TPK">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMT142A/value</sourceURL>
+		<offset>12</offset>
+		<word>22</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T150.TPK">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMT150A/value</sourceURL>
+		<offset>11</offset>
+		<word>22</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T152.TPK">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMT152A/value</sourceURL>
+		<offset>10</offset>
+		<word>22</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T154.TPK">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMT154A/value</sourceURL>
+		<offset>9</offset>
+		<word>22</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T156.TPK">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMT156A/value</sourceURL>
+		<offset>8</offset>
+		<word>22</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T164.TPK">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMT164A/value</sourceURL>
+		<offset>7</offset>
+		<word>22</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T171.TPK">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMT171A/value</sourceURL>
+		<offset>6</offset>
+		<word>22</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T175.TPK">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMT175A/value</sourceURL>
+		<offset>5</offset>
+		<word>22</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T655.TPK">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMT655A/value</sourceURL>
+		<offset>5</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T701.TPK">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMT701A/value</sourceURL>
+		<offset>4</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T705.TPK">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMT705A/value</sourceURL>
+		<offset>2</offset>
+		<word>22</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T707.TPK">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMT707A/value</sourceURL>
+		<offset>1</offset>
+		<word>22</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T709.TPK">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMT709A/value</sourceURL>
+		<offset>0</offset>
+		<word>22</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T711.TPK">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMT711A/value</sourceURL>
+		<offset>15</offset>
+		<word>23</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T713.TPK">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMT713A/value</sourceURL>
+		<offset>14</offset>
+		<word>23</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T715.TPK">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMT715A/value</sourceURL>
+		<offset>13</offset>
+		<word>23</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T804.TPK">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMT804A/value</sourceURL>
+		<offset>12</offset>
+		<word>23</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T811.TPK">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMT811A/value</sourceURL>
+		<offset>11</offset>
+		<word>23</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T812.TPK">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMT812A/value</sourceURL>
+		<offset>10</offset>
+		<word>23</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T813.TPK">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMT813A/value</sourceURL>
+		<offset>9</offset>
+		<word>23</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T814.TPK">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMT814A/value</sourceURL>
+		<offset>8</offset>
+		<word>23</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T815.TPK">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMT815A/value</sourceURL>
+		<offset>7</offset>
+		<word>23</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T816.TPK">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMT816A/value</sourceURL>
+		<offset>6</offset>
+		<word>23</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T818.TPK">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMT818A/value</sourceURL>
+		<offset>4</offset>
+		<word>23</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T819.TPK">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMT819A/value</sourceURL>
+		<offset>3</offset>
+		<word>23</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T820.TPK">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMT820A/value</sourceURL>
+		<offset>2</offset>
+		<word>23</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T821.TPK">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMT821A/value</sourceURL>
+		<offset>1</offset>
+		<word>23</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T822.TPK">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMT822A/value</sourceURL>
+		<offset>0</offset>
+		<word>23</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T823.TPK">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMT823A/value</sourceURL>
+		<offset>15</offset>
+		<word>24</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T824.TPK">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMT824A/value</sourceURL>
+		<offset>14</offset>
+		<word>24</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T825.TPK">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMT825A/value</sourceURL>
+		<offset>13</offset>
+		<word>24</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T826.TPK">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMT826A/value</sourceURL>
+		<offset>12</offset>
+		<word>24</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T911.TPK">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMT911A/value</sourceURL>
+		<offset>11</offset>
+		<word>24</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T912.TPK">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMT912A/value</sourceURL>
+		<offset>10</offset>
+		<word>24</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T913.TPK">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMT913A/value</sourceURL>
+		<offset>9</offset>
+		<word>24</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T918.TPK">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMT918A/value</sourceURL>
+		<offset>8</offset>
+		<word>24</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T919.TPK">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMT919A/value</sourceURL>
+		<offset>7</offset>
+		<word>24</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T920.TPK">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMT920A/value</sourceURL>
+		<offset>6</offset>
+		<word>24</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T921.TPK">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMT921A/value</sourceURL>
+		<offset>5</offset>
+		<word>24</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T922.TPK">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMT922A/value</sourceURL>
+		<offset>4</offset>
+		<word>24</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T923.TPK">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMT923A/value</sourceURL>
+		<offset>3</offset>
+		<word>24</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T924.TPK">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMT924A/value</sourceURL>
+		<offset>2</offset>
+		<word>24</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T925.TPK">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMT925A/value</sourceURL>
+		<offset>1</offset>
+		<word>24</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T926.TPK">
+		<interlockingName>EPP</interlockingName>
+		<deviceName>config:/JzaSimulator#EPP</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/EPP/LIMT926A/value</sourceURL>
+		<offset>0</offset>
+		<word>24</word>
+	</SignallingIndication>
+</Configs>

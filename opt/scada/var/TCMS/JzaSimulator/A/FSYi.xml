@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configs>
+	<SignallingIndication xml:id="E001.BOHP">
+		<interlockingName>WFY</interlockingName>
+		<deviceName>config:/JzaSimulator#FSY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/WFY/mnem/E001.BOHP</sourceURL>
+		<offset>4</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E002FS.ECP">
+		<interlockingName>WFY</interlockingName>
+		<deviceName>config:/JzaSimulator#FSY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/WFY/mnem/002FS.ECP</sourceURL>
+		<offset>3</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E003FS.ACPOR">
+		<interlockingName>WFY</interlockingName>
+		<deviceName>config:/JzaSimulator#FSY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/WFY/mnem/003FS.ACPOR</sourceURL>
+		<offset>2</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E004FS.BATTLR">
+		<interlockingName>WFY</interlockingName>
+		<deviceName>config:/JzaSimulator#FSY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/WFY/mnem/004FS.BATTLR</sourceURL>
+		<offset>1</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E005FS.BF">
+		<interlockingName>WFY</interlockingName>
+		<deviceName>config:/JzaSimulator#FSY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/WFY/mnem/005FS.BF</sourceURL>
+		<offset>0</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E006FS.SCREP">
+		<interlockingName>WFY</interlockingName>
+		<deviceName>config:/JzaSimulator#FSY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/WFY/mnem/006FS.SCREP</sourceURL>
+		<offset>7</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E011FS.PWRONR">
+		<interlockingName>WFY</interlockingName>
+		<deviceName>config:/JzaSimulator#FSY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/WFY/mnem/011FS.PWRONR</sourceURL>
+		<offset>9</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E012FS.PWROFFR">
+		<interlockingName>WFY</interlockingName>
+		<deviceName>config:/JzaSimulator#FSY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/WFY/mnem/012FS.PWROFFR</sourceURL>
+		<offset>8</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S214.RGP">
+		<interlockingName>WFY</interlockingName>
+		<deviceName>config:/JzaSimulator#FSY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/WFY/mnem/214.RGP</sourceURL>
+		<offset>8</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S217.RGP">
+		<interlockingName>WFY</interlockingName>
+		<deviceName>config:/JzaSimulator#FSY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/WFY/mnem/217.RGP</sourceURL>
+		<offset>7</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S220.RGP">
+		<interlockingName>WFY</interlockingName>
+		<deviceName>config:/JzaSimulator#FSY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/WFY/mnem/220.RGP</sourceURL>
+		<offset>6</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S221.RGP">
+		<interlockingName>WFY</interlockingName>
+		<deviceName>config:/JzaSimulator#FSY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/WFY/mnem/221.RGP</sourceURL>
+		<offset>5</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S223.RGP">
+		<interlockingName>WFY</interlockingName>
+		<deviceName>config:/JzaSimulator#FSY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/WFY/mnem/223.RGP</sourceURL>
+		<offset>4</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="SM230.RGP">
+		<interlockingName>WFY</interlockingName>
+		<deviceName>config:/JzaSimulator#FSY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/WFY/mnem/M230.RGP</sourceURL>
+		<offset>3</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="SW230.RGP">
+		<interlockingName>WFY</interlockingName>
+		<deviceName>config:/JzaSimulator#FSY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/WFY/mnem/W230.RGP</sourceURL>
+		<offset>2</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="SM235.RGP">
+		<interlockingName>WFY</interlockingName>
+		<deviceName>config:/JzaSimulator#FSY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/WFY/mnem/M235.RGP</sourceURL>
+		<offset>1</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="SW235.RIP">
+		<interlockingName>WFY</interlockingName>
+		<deviceName>config:/JzaSimulator#FSY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/WFY/mnem/W235.RIP</sourceURL>
+		<offset>3</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="SW235.AOR">
+		<interlockingName>WFY</interlockingName>
+		<deviceName>config:/JzaSimulator#FSY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/WFY/mnem/W235.AOR</sourceURL>
+		<offset>5</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="SW235.ASP">
+		<interlockingName>WFY</interlockingName>
+		<deviceName>config:/JzaSimulator#FSY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/WFY/mnem/W235.ASP</sourceURL>
+		<offset>6</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="SW235.RGP">
+		<interlockingName>WFY</interlockingName>
+		<deviceName>config:/JzaSimulator#FSY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/WFY/mnem/W235.RGP</sourceURL>
+		<offset>7</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="SW235.NGP">
+		<interlockingName>WFY</interlockingName>
+		<deviceName>config:/JzaSimulator#FSY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/WFY/mnem/W235.NGP</sourceURL>
+		<offset>9</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S238.RGP">
+		<interlockingName>WFY</interlockingName>
+		<deviceName>config:/JzaSimulator#FSY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/WFY/mnem/238.RGP</sourceURL>
+		<offset>0</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S238.NGP">
+		<interlockingName>WFY</interlockingName>
+		<deviceName>config:/JzaSimulator#FSY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/WFY/mnem/238.NGP</sourceURL>
+		<offset>2</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S238.RIP">
+		<interlockingName>WFY</interlockingName>
+		<deviceName>config:/JzaSimulator#FSY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/WFY/mnem/238.RIP</sourceURL>
+		<offset>12</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S238.AOR">
+		<interlockingName>WFY</interlockingName>
+		<deviceName>config:/JzaSimulator#FSY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/WFY/mnem/238.AOR</sourceURL>
+		<offset>14</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S238.ASP">
+		<interlockingName>WFY</interlockingName>
+		<deviceName>config:/JzaSimulator#FSY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/WFY/mnem/238.ASP</sourceURL>
+		<offset>15</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S243.RGP">
+		<interlockingName>WFY</interlockingName>
+		<deviceName>config:/JzaSimulator#FSY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/WFY/mnem/243.RGP</sourceURL>
+		<offset>0</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S244.RGP">
+		<interlockingName>WFY</interlockingName>
+		<deviceName>config:/JzaSimulator#FSY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/WFY/mnem/244.RGP</sourceURL>
+		<offset>15</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S247.RGP">
+		<interlockingName>WFY</interlockingName>
+		<deviceName>config:/JzaSimulator#FSY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/WFY/mnem/247.RGP</sourceURL>
+		<offset>14</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S250.RGP">
+		<interlockingName>WFY</interlockingName>
+		<deviceName>config:/JzaSimulator#FSY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/WFY/mnem/250.RGP</sourceURL>
+		<offset>13</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S255.RGP">
+		<interlockingName>WFY</interlockingName>
+		<deviceName>config:/JzaSimulator#FSY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/WFY/mnem/255.RGP</sourceURL>
+		<offset>12</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S256.RGP">
+		<interlockingName>WFY</interlockingName>
+		<deviceName>config:/JzaSimulator#FSY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/WFY/mnem/256.RGP</sourceURL>
+		<offset>11</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S257.RGP">
+		<interlockingName>WFY</interlockingName>
+		<deviceName>config:/JzaSimulator#FSY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/WFY/mnem/257.RGP</sourceURL>
+		<offset>10</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T214.TPK">
+		<interlockingName>WFY</interlockingName>
+		<deviceName>config:/JzaSimulator#FSY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/WFY/mnem/214.TPK</sourceURL>
+		<offset>10</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T217.TPK">
+		<interlockingName>WFY</interlockingName>
+		<deviceName>config:/JzaSimulator#FSY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/WFY/mnem/217.TPK</sourceURL>
+		<offset>9</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T220.TPK">
+		<interlockingName>WFY</interlockingName>
+		<deviceName>config:/JzaSimulator#FSY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/WFY/mnem/220.TPK</sourceURL>
+		<offset>8</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T221.TPK">
+		<interlockingName>WFY</interlockingName>
+		<deviceName>config:/JzaSimulator#FSY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/WFY/mnem/221.TPK</sourceURL>
+		<offset>7</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T223.TPK">
+		<interlockingName>WFY</interlockingName>
+		<deviceName>config:/JzaSimulator#FSY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/WFY/mnem/223.TPK</sourceURL>
+		<offset>6</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T225.TPK">
+		<interlockingName>WFY</interlockingName>
+		<deviceName>config:/JzaSimulator#FSY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/WFY/mnem/225.TPK</sourceURL>
+		<offset>5</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T227.TPK">
+		<interlockingName>WFY</interlockingName>
+		<deviceName>config:/JzaSimulator#FSY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/WFY/mnem/227.TPK</sourceURL>
+		<offset>4</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="TM230.TPK">
+		<interlockingName>WFY</interlockingName>
+		<deviceName>config:/JzaSimulator#FSY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/WFY/mnem/M230.TPK</sourceURL>
+		<offset>3</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="TW230.TPK">
+		<interlockingName>WFY</interlockingName>
+		<deviceName>config:/JzaSimulator#FSY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/WFY/mnem/W230.TPK</sourceURL>
+		<offset>2</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="TM235.TPK">
+		<interlockingName>WFY</interlockingName>
+		<deviceName>config:/JzaSimulator#FSY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/WFY/mnem/M235.TPK</sourceURL>
+		<offset>1</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="TW235.TPK">
+		<interlockingName>WFY</interlockingName>
+		<deviceName>config:/JzaSimulator#FSY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/WFY/mnem/W235.TPK</sourceURL>
+		<offset>0</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T238.TPK">
+		<interlockingName>WFY</interlockingName>
+		<deviceName>config:/JzaSimulator#FSY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/WFY/mnem/238.TPK</sourceURL>
+		<offset>15</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T243.TPK">
+		<interlockingName>WFY</interlockingName>
+		<deviceName>config:/JzaSimulator#FSY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/WFY/mnem/243.TPK</sourceURL>
+		<offset>14</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T244.TPK">
+		<interlockingName>WFY</interlockingName>
+		<deviceName>config:/JzaSimulator#FSY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/WFY/mnem/244.TPK</sourceURL>
+		<offset>13</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T247.TPK">
+		<interlockingName>WFY</interlockingName>
+		<deviceName>config:/JzaSimulator#FSY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/WFY/mnem/247.TPK</sourceURL>
+		<offset>12</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T250.TPK">
+		<interlockingName>WFY</interlockingName>
+		<deviceName>config:/JzaSimulator#FSY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/WFY/mnem/250.TPK</sourceURL>
+		<offset>11</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T255.TPK">
+		<interlockingName>WFY</interlockingName>
+		<deviceName>config:/JzaSimulator#FSY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/WFY/mnem/255.TPK</sourceURL>
+		<offset>10</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T256.TPK">
+		<interlockingName>WFY</interlockingName>
+		<deviceName>config:/JzaSimulator#FSY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/WFY/mnem/256.TPK</sourceURL>
+		<offset>9</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T257.TPK">
+		<interlockingName>WFY</interlockingName>
+		<deviceName>config:/JzaSimulator#FSY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/WFY/mnem/257.TPK</sourceURL>
+		<offset>8</offset>
+		<word>4</word>
+	</SignallingIndication>
+</Configs>

@@ -1,0 +1,747 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configs>
+	<JzaIndication xml:id="C261.CRP">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>11</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E200.ECP">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>4</offset>
+		<word>9</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E253.ISEP">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>3</offset>
+		<word>9</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E255.EFP">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>1</offset>
+		<word>9</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E262.BF">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>2</offset>
+		<word>9</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P201.NWCR">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>10</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P201.LRP">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>8</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P201.RWCR">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>9</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P203.LRP">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>5</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P203.RWCR">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>6</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P203.NWCR">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>7</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P205.LRP">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>2</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P205.RWCR">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>3</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P205.NWCR">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>4</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P206.RWCR">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>0</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P206.NWCR">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>1</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P206.LRP">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>15</offset>
+		<word>8</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S127.ASP">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>10</offset>
+		<word>10</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S127.RGP">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>11</offset>
+		<word>10</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S127.NGP">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>13</offset>
+		<word>10</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S127.RIP">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>7</offset>
+		<word>10</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S127.AOR">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>9</offset>
+		<word>10</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S200.RGP">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>14</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S200.NGP">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>15</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S206.ASP">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>11</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S206.RGP">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>12</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S206.NGP">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>13</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S206.RIP">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>8</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S207.RIP">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>2</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S207.ASP">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>5</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S207.RGP">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>6</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S207.NGP">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>7</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S228.RGP">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>0</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S228.NGP">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>1</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S228.RIP">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>12</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S228.ASP">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>15</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S280.NGP">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>10</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S280.RIP">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>5</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S280.RGP">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>9</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S281.ASP">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>2</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S281.RGP">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>3</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S281.NGP">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>4</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S281.RIP">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>15</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S283.RGP">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>13</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S284.RGP">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>10</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S286.RGP">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>8</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S288.RIP">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>1</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S288.ASP">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>4</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S288.RGP">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>5</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S288.NGP">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>6</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S300.NGP">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>0</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S300.RIP">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>10</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S300.AOR">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>12</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S300.ASP">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>13</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S300.RGP">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>14</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S301.RIP">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>3</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S301.CPBS">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>4</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S301.AOR">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>5</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S301.ASP">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>6</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S301.RGP">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>7</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S301.CGR">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>8</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S301.NGP">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>9</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S302.RGP">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>0</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S302.CGR">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>1</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S302.NGP">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>2</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S302.RIP">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>12</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S302.CPBS">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>13</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S302.AOR">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>14</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S302.ASP">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>15</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S303.CGR">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>10</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S303.NGP">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>11</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S303.RIP">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>5</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S303.CPBS">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>6</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S303.AOR">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>7</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S303.ASP">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>8</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S303.RGP">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>9</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S304.AOR">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>1</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S304.ASP">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>2</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S304.RGP">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>3</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S304.NGP">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>4</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S304.RIP">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>15</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S305.AOR">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>10</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S305.ASP">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>11</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S305.RGP">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>12</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S305.CGR">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>13</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S305.NGP">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>14</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S305.RIP">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>8</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S305.CPBS">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>9</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S306.RIP">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>1</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S306.AOR">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>3</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S306.ASP">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>4</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S306.RGP">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>5</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S306.NGP">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>7</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S307.RIP">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>0</offset>
+		<word>10</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S307.AOR">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>2</offset>
+		<word>10</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S307.ASP">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>3</offset>
+		<word>10</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S307.RGP">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>4</offset>
+		<word>10</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S307.NGP">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>6</offset>
+		<word>10</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T201.TPK">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>14</offset>
+		<word>8</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T205.TPK">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>13</offset>
+		<word>8</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T223.TPK">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>12</offset>
+		<word>8</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T283.TPK">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>11</offset>
+		<word>8</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T284.TPK">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>10</offset>
+		<word>8</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T286.TPK">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>9</offset>
+		<word>8</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T300.TPK">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>8</offset>
+		<word>8</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T301.TPK">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>7</offset>
+		<word>8</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T302.TPK">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>6</offset>
+		<word>8</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T303.TPK">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>5</offset>
+		<word>8</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T304.TPK">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>4</offset>
+		<word>8</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T305.TPK">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>3</offset>
+		<word>8</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T306.TPK">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>2</offset>
+		<word>8</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T307.TPK">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>1</offset>
+		<word>8</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T806.TPK">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>0</offset>
+		<word>8</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T806.ARP">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>15</offset>
+		<word>9</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T807.ARP">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>13</offset>
+		<word>9</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T807.TPK">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>14</offset>
+		<word>9</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T828.ARP">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>11</offset>
+		<word>9</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T828.TPK">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>12</offset>
+		<word>9</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T880.TPK">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>10</offset>
+		<word>9</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T880.ARP">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>9</offset>
+		<word>9</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T881.ARP">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>7</offset>
+		<word>9</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T881.TPK">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>8</offset>
+		<word>9</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T888.ARP">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>5</offset>
+		<word>9</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T888.TPK">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/SSB#SSB</deviceName>
+		<offset>6</offset>
+		<word>9</word>
+	</JzaIndication>
+</Configs>

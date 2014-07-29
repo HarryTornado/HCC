@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<Config>
+  <OISPrefixes>
+    <!--  Fringe data 
+    --> 
+    <fringeOpClass name="defaultOperationalFringe" /> 
+    <fringeDomain name="TCMS" /> 
+    <auditFringe value="false" /> 
+    <!--  Prefix data 
+    --> 
+    <prefixOpClass name="defaultOperationalPrefix" /> 
+    <prefixDomain name="TCMS" /> 
+    <auditPrefix value="false" /> 
+    <defaultPrefixes>
+	<prefix id="IAB" />
+    </defaultPrefixes>
+  </OISPrefixes>
+</Config>

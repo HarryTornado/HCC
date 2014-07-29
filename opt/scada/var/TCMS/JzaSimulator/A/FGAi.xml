@@ -1,0 +1,878 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configs>
+	<SignallingIndication xml:id="E011.SLAP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/011.SLAP</sourceURL>
+		<offset>2</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E018.SLAP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/018.SLAP</sourceURL>
+		<offset>15</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E022.APLP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/022.APLP</sourceURL>
+		<offset>9</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E201.APLP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/201.APLP</sourceURL>
+		<offset>8</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E209.SLAP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/209.SLAP</sourceURL>
+		<offset>1</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E218.SLAP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/218.SLAP</sourceURL>
+		<offset>14</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E219.SCREP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/219.SCREP</sourceURL>
+		<offset>12</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E222.EFP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/222.EFP</sourceURL>
+		<offset>11</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E230.ECP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/230.ECP</sourceURL>
+		<offset>5</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E231.ECP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/231.ECP</sourceURL>
+		<offset>4</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E232.ECP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/232.ECP</sourceURL>
+		<offset>3</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E233.ECP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/233.ECP</sourceURL>
+		<offset>2</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E401.APLP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/401.APLP</sourceURL>
+		<offset>7</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E411.SLAP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/411.SLAP</sourceURL>
+		<offset>0</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S003.RGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/003.RGP</sourceURL>
+		<offset>8</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S003.NGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/003.NGP</sourceURL>
+		<offset>9</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S004.RGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/004.RGP</sourceURL>
+		<offset>6</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S004.NGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/004.NGP</sourceURL>
+		<offset>7</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S005.RGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/005.RGP</sourceURL>
+		<offset>4</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S005.NGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/005.NGP</sourceURL>
+		<offset>5</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S006.RGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/006.RGP</sourceURL>
+		<offset>2</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S006.NGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/006.NGP</sourceURL>
+		<offset>3</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S010.RGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/010.RGP</sourceURL>
+		<offset>0</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S010.NGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/010.NGP</sourceURL>
+		<offset>1</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S011.RGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/011.RGP</sourceURL>
+		<offset>14</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S011.NGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/011.NGP</sourceURL>
+		<offset>15</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S017.RGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/017.RGP</sourceURL>
+		<offset>12</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S017.NGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/017.NGP</sourceURL>
+		<offset>13</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S018.RGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/018.RGP</sourceURL>
+		<offset>10</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S018.NGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/018.NGP</sourceURL>
+		<offset>11</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S019.RGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/019.RGP</sourceURL>
+		<offset>8</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S019.NGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/019.NGP</sourceURL>
+		<offset>9</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S024.RGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/024.RGP</sourceURL>
+		<offset>6</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S024.NGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/024.NGP</sourceURL>
+		<offset>7</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S188.CPBS">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/188.(DN)APOP</sourceURL>
+		<offset>0</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S188.ASP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/188.ASP</sourceURL>
+		<offset>2</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S188.RGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/188.RGP</sourceURL>
+		<offset>3</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S188.NGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/188.NGP</sourceURL>
+		<offset>5</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S189.ASP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/189.ASP</sourceURL>
+		<offset>11</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S189.RGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/189.RGP</sourceURL>
+		<offset>12</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S189.NGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/189.NGP</sourceURL>
+		<offset>14</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S189.CPBS">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/189.(UP)APOP</sourceURL>
+		<offset>9</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S201.RGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/201.RGP</sourceURL>
+		<offset>14</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S201.NGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/201.NGP</sourceURL>
+		<offset>15</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S202.RGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/202.RGP</sourceURL>
+		<offset>12</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S202.NGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/202.NGP</sourceURL>
+		<offset>13</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S203.RGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/203.RGP</sourceURL>
+		<offset>10</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S203.NGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/203.NGP</sourceURL>
+		<offset>11</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S204.RGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/204.RGP</sourceURL>
+		<offset>8</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S204.NGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/204.NGP</sourceURL>
+		<offset>9</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S209.RGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/209.RGP</sourceURL>
+		<offset>6</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S209.NGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/209.NGP</sourceURL>
+		<offset>7</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S210.RGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/210.RGP</sourceURL>
+		<offset>4</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S210.NGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/210.NGP</sourceURL>
+		<offset>5</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S213.RGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/213.RGP</sourceURL>
+		<offset>2</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S213.NGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/213.NGP</sourceURL>
+		<offset>3</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S217.RGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/217.RGP</sourceURL>
+		<offset>0</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S217.NGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/217.NGP</sourceURL>
+		<offset>1</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S218.RGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/218.RGP</sourceURL>
+		<offset>14</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S218.NGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/218.NGP</sourceURL>
+		<offset>15</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S226.RGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/226.RGP</sourceURL>
+		<offset>12</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S226.NGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/226.NGP</sourceURL>
+		<offset>13</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S388.NGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/388.NGP</sourceURL>
+		<offset>11</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S388.CPBS">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/388.(DN)APOP</sourceURL>
+		<offset>6</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S388.ASP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/388.ASP</sourceURL>
+		<offset>8</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S388.RGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/388.RGP</sourceURL>
+		<offset>9</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S389.ASP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/389.ASP</sourceURL>
+		<offset>1</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S389.RGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/389.RGP</sourceURL>
+		<offset>2</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S389.NGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/389.NGP</sourceURL>
+		<offset>4</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S389.CPBS">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/389.(UP)APOP</sourceURL>
+		<offset>15</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S403.RGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/403.RGP</sourceURL>
+		<offset>12</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S403.NGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/403.NGP</sourceURL>
+		<offset>13</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S408.RGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/408.RGP</sourceURL>
+		<offset>10</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S408.NGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/408.NGP</sourceURL>
+		<offset>11</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S410.RGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/410.RGP</sourceURL>
+		<offset>8</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S410.NGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/410.NGP</sourceURL>
+		<offset>9</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S411.RGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/411.RGP</sourceURL>
+		<offset>6</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S411.NGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/411.NGP</sourceURL>
+		<offset>7</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S414.RGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/414.RGP</sourceURL>
+		<offset>4</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S414.NGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/414.NGP</sourceURL>
+		<offset>5</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S415.RGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/415.RGP</sourceURL>
+		<offset>2</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S415.NGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/415.NGP</sourceURL>
+		<offset>3</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S418.RGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/418.RGP</sourceURL>
+		<offset>0</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S418.NGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/418.NGP</sourceURL>
+		<offset>1</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S419.RGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/419.RGP</sourceURL>
+		<offset>14</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S419.NGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/419.NGP</sourceURL>
+		<offset>15</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S424.RGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/424.RGP</sourceURL>
+		<offset>12</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S424.NGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/424.NGP</sourceURL>
+		<offset>13</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S588.NGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/588.NGP</sourceURL>
+		<offset>11</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S588.CPBS">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/588.(UP)APOP</sourceURL>
+		<offset>6</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S588.ASP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/588.ASP</sourceURL>
+		<offset>8</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S588.RGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/588.RGP</sourceURL>
+		<offset>9</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S589.ASP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/589.ASP</sourceURL>
+		<offset>1</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S589.RGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/589.RGP</sourceURL>
+		<offset>2</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S589.NGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/589.NGP</sourceURL>
+		<offset>4</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S589.CPBS">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/589.(DN)APOP</sourceURL>
+		<offset>15</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T004.TPK">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/004.TKP</sourceURL>
+		<offset>7</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T006.TPK">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/006.TKP</sourceURL>
+		<offset>6</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T011.TPK">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/011.TKP</sourceURL>
+		<offset>5</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T018.TPK">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/018.TKP</sourceURL>
+		<offset>4</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T019.TPK">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/019.TKP</sourceURL>
+		<offset>3</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T024.TPK">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/024.TKP</sourceURL>
+		<offset>2</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T188.TPK">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/188.TKP</sourceURL>
+		<offset>1</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T189.TPK">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/189.TKP</sourceURL>
+		<offset>0</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T200.TPK">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/200.TKP</sourceURL>
+		<offset>13</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T202.TPK">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/202.TKP</sourceURL>
+		<offset>12</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T204.TPK">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/204.TKP</sourceURL>
+		<offset>11</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T209.TPK">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/209.TKP</sourceURL>
+		<offset>10</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T210.TPK">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/210.TKP</sourceURL>
+		<offset>9</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T213.TPK">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/213.TKP</sourceURL>
+		<offset>8</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T217.TPK">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/217.TKP</sourceURL>
+		<offset>7</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T218.TPK">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/218.TKP</sourceURL>
+		<offset>6</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T226.TPK">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/226.TKP</sourceURL>
+		<offset>5</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T388.TPK">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/388.TKP</sourceURL>
+		<offset>4</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T403.TPK">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/403.TKP</sourceURL>
+		<offset>13</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T407.TPK">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/407.TKP</sourceURL>
+		<offset>12</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T408.TPK">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/408.TKP</sourceURL>
+		<offset>11</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T411.TPK">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/411.TKP</sourceURL>
+		<offset>9</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T415.TPK">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/415.TKP</sourceURL>
+		<offset>7</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T418.TPK">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/418.TKP</sourceURL>
+		<offset>6</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T419.TPK">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/419.TKP</sourceURL>
+		<offset>5</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T424.TPK">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/424.TKP</sourceURL>
+		<offset>4</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T425.TPK">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/425.TKP</sourceURL>
+		<offset>8</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T472.TPK">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/472.TKP</sourceURL>
+		<offset>10</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T588.TPK">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#FGA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/588.TKP</sourceURL>
+		<offset>3</offset>
+		<word>9</word>
+	</SignallingIndication>
+</Configs>

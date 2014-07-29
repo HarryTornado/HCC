@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Config>
+
+<CmdAgentMain xml_id="CmdAgentTDMain">
+	<thisServiceCommandPath>/coreCommand</thisServiceCommandPath>
+	<targetAppHostname>oil://TrainDescriber.TCMS</targetAppHostname>
+	<thisServiceName>CLITDAgent</thisServiceName>
+	<thisServiceHostname>oil://CLITDAgent.TCMS</thisServiceHostname>
+	<commandsInfo>
+
+		<!-- Fringe box Train Number Cancel -->
+		<commandInfo registration="^FNC\s.*">
+			<data><syntaxOptions>
+				<description>
+					<syntax mnemonic="FNC">NUMBER:train</syntax>
+					<urlPathTemplateSet>
+						<urlPathTemplate content="remove tdn=%1 constraint=stored">/cli</urlPathTemplate>
+					</urlPathTemplateSet>
+				</description>
+			</syntaxOptions></data>
+		</commandInfo>
+
+		<!-- Fringe box Train Number Insert -->
+		<commandInfo registration="^FNI\s.*">
+			<data><syntaxOptions>
+				<description>
+					<syntax mnemonic="FNI">NUMBER:train RAILOBJ:fringebox</syntax>
+					<urlPathTemplateSet>
+						<urlPathTemplate content="insert tdn=%1 at-fringe=%2 constraint=new">/cli</urlPathTemplate>
+					</urlPathTemplateSet>
+				</description>
+			</syntaxOptions></data>
+		</commandInfo>
+
+		<!-- Fringe box Train Number Exchange -->
+		<commandInfo registration="^FNX\s.*">
+			<data><syntaxOptions>
+				<description>
+					<syntax mnemonic="FNX">NUMBER:train NUMBER:train</syntax>
+					<urlPathTemplateSet>
+						<urlPathTemplate content="rename old-tdn=%1 tdn=%2 constraint=stored">/cli</urlPathTemplate>
+					</urlPathTemplateSet>
+				</description>
+			</syntaxOptions></data>
+		</commandInfo>
+
+		<!-- Train Number Erase -->
+		<commandInfo registration="^TNE\s.*">
+			<data><syntaxOptions>
+				<description>
+					<syntax mnemonic="TNE">NUMBER:train</syntax>
+					<urlPathTemplateSet>
+						<urlPathTemplate content="remove tdn=%1">/cli</urlPathTemplate>
+					</urlPathTemplateSet>
+				</description>
+			</syntaxOptions></data>
+		</commandInfo>
+
+		<!-- Train Number Insert -->
+		<commandInfo registration="^TNI\s.*">
+			<data><syntaxOptions>
+				<description>
+					<syntax mnemonic="TNI">RAILOBJ:signal NUMBER:train</syntax>
+					<urlPathTemplateSet>
+						<urlPathTemplate content="insert at-signal=%1 tdn=%2">/cli</urlPathTemplate>
+					</urlPathTemplateSet>
+				</description>
+			</syntaxOptions></data>
+		</commandInfo>
+
+		<!-- Train Number Split -->
+		<commandInfo registration="^TNS\s.*">
+			<data><syntaxOptions>
+				<description>
+					<syntax mnemonic="TNS">RAILOBJ:signal NUMBER:train</syntax>
+					<urlPathTemplateSet>
+						<urlPathTemplate content="insert at-signal=%1 tdn=%2 constraint=new">/cli</urlPathTemplate>
+					</urlPathTemplateSet>
+				</description>
+			</syntaxOptions></data>
+		</commandInfo>
+
+		<!-- Train Number Exchange -->
+		<commandInfo registration="^TNX\s.*">
+			<data><syntaxOptions>
+				<description>
+					<syntax mnemonic="TNX">NUMBER:train NUMBER:train</syntax>
+					<urlPathTemplateSet>
+						<urlPathTemplate content="rename old-tdn=%1 tdn=%2">/cli</urlPathTemplate>
+					</urlPathTemplateSet>
+				</description>
+			</syntaxOptions></data>
+		</commandInfo>
+
+	</commandsInfo>
+</CmdAgentMain>
+</Config>
+

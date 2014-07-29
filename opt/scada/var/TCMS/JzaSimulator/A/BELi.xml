@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configs>
+	<SignallingIndication xml:id="E001.JR">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/001.JR</sourceURL>
+		<offset>12</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E002.JR">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/002.JR</sourceURL>
+		<offset>11</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E003.AREA">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/003.AREA</sourceURL>
+		<offset>7</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E011.JR">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/011.JR</sourceURL>
+		<offset>10</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L336.FGNP">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/336.FGNP</sourceURL>
+		<offset>3</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L336.FCP">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/336.FCP</sourceURL>
+		<offset>4</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L358.FCP">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/358.FCP</sourceURL>
+		<offset>0</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L358.FGNP">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/358.FGNP</sourceURL>
+		<offset>15</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P001.NWCR">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/001.NWCR</sourceURL>
+		<offset>10</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P001.LRP">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/001.LRP</sourceURL>
+		<offset>8</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P001.RWCR">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/001.RWCR</sourceURL>
+		<offset>9</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P002.LRP">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/002.LRP</sourceURL>
+		<offset>5</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P002.RWCR">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/002.RWCR</sourceURL>
+		<offset>6</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P002.NWCR">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/002.NWCR</sourceURL>
+		<offset>7</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P011.LRP">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/011.LRP</sourceURL>
+		<offset>12</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P011.RWCR">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/011.RWCR</sourceURL>
+		<offset>13</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P011.NWCR">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/011.NWCR</sourceURL>
+		<offset>14</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S102.RIP">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/102.RIP</sourceURL>
+		<offset>1</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S102.CPBS">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/102.CPBS</sourceURL>
+		<offset>2</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S102.AOR">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/102.AOR</sourceURL>
+		<offset>3</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S102.ASP">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/102.ASP</sourceURL>
+		<offset>4</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S102.RGP">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/102.RGP</sourceURL>
+		<offset>5</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S102.CGR">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/102.CGR</sourceURL>
+		<offset>6</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S102.NGP">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/102.NGP</sourceURL>
+		<offset>7</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S104.NGP">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/104.NGP</sourceURL>
+		<offset>0</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S104.RIP">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/104.RIP</sourceURL>
+		<offset>13</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S104.ASP">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/104.ASP</sourceURL>
+		<offset>14</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S104.RGP">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/104.RGP</sourceURL>
+		<offset>15</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S107.RGP">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/107.RGP</sourceURL>
+		<offset>10</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S107.CGR">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/107.CGR</sourceURL>
+		<offset>11</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S107.NGP">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/107.NGP</sourceURL>
+		<offset>12</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S107.RIP">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/107.RIP</sourceURL>
+		<offset>6</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S107.CPBS">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/107.CPBS</sourceURL>
+		<offset>7</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S107.AOR">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/107.AOR</sourceURL>
+		<offset>8</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S107.ASP">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/107.ASP</sourceURL>
+		<offset>9</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S108.CPBS">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/108.CPBS</sourceURL>
+		<offset>0</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S108.AOR">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/108.AOR</sourceURL>
+		<offset>1</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S108.ASP">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/108.ASP</sourceURL>
+		<offset>2</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S108.RGP">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/108.RGP</sourceURL>
+		<offset>3</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S108.CGR">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/108.CGR</sourceURL>
+		<offset>4</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S108.NGP">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/108.NGP</sourceURL>
+		<offset>5</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S108.RIP">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/108.RIP</sourceURL>
+		<offset>15</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S110.AOR">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/110.AOR</sourceURL>
+		<offset>10</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S110.ASP">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/110.ASP</sourceURL>
+		<offset>11</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S110.RGP">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/110.RGP</sourceURL>
+		<offset>12</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S110.CGR">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/110.CGR</sourceURL>
+		<offset>13</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S110.NGP">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/110.NGP</sourceURL>
+		<offset>14</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S110.RIP">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/110.RIP</sourceURL>
+		<offset>8</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S110.CPBS">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/110.CPBS</sourceURL>
+		<offset>9</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S111.RIP">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/111.RIP</sourceURL>
+		<offset>1</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S111.CPBS">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/111.CPBS</sourceURL>
+		<offset>2</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S111.AOR">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/111.AOR</sourceURL>
+		<offset>3</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S111.ASP">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/111.ASP</sourceURL>
+		<offset>4</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S111.RGP">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/111.RGP</sourceURL>
+		<offset>5</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S111.CGR">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/111.CGR</sourceURL>
+		<offset>6</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S111.NGP">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/111.NGP</sourceURL>
+		<offset>7</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S113.NGP">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/113.NGP</sourceURL>
+		<offset>0</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S113.RIP">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/113.RIP</sourceURL>
+		<offset>11</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S113.CPBS">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/113.CPBS</sourceURL>
+		<offset>12</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S113.AOR">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/113.AOR</sourceURL>
+		<offset>13</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S113.ASP">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/113.ASP</sourceURL>
+		<offset>14</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S113.RGP">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/113.RGP</sourceURL>
+		<offset>15</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S330.RGP">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/330.RGP</sourceURL>
+		<offset>1</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S351.RGP">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/351.RGP</sourceURL>
+		<offset>3</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T002.TPK">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/002.TPK</sourceURL>
+		<offset>0</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T007.TPK">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/007.TPK</sourceURL>
+		<offset>15</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T008.TPK">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/008.TPK</sourceURL>
+		<offset>14</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T009.TPK">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/009.TPK</sourceURL>
+		<offset>13</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T010.TPK">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/010.TPK</sourceURL>
+		<offset>12</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T011.TPK">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/011.TPK</sourceURL>
+		<offset>11</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T102.TPK">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/102.TPK</sourceURL>
+		<offset>10</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T104.TPK">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/104.TPK</sourceURL>
+		<offset>0</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T104.ARP">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/104.ARP</sourceURL>
+		<offset>15</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T107.TPK">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/107.TPK</sourceURL>
+		<offset>9</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T108.TPK">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/108.TPK</sourceURL>
+		<offset>8</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T109.TPK">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/109.TPK</sourceURL>
+		<offset>9</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T110.TPK">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/110.TPK</sourceURL>
+		<offset>7</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T111.TPK">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/111.TPK</sourceURL>
+		<offset>6</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T321.TPK">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/321.TPK</sourceURL>
+		<offset>8</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T323.TPK">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/323.TPK</sourceURL>
+		<offset>5</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T347.TPK">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/347.TPK</sourceURL>
+		<offset>4</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T351.TPK">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/351.TPK</sourceURL>
+		<offset>2</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T356.TPK">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/356.TPK</sourceURL>
+		<offset>3</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T358.TPK">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/358.TPK</sourceURL>
+		<offset>2</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T360.TPK">
+		<interlockingName>BEL</interlockingName>
+		<deviceName>config:/JzaSimulator#BEL</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BEL/mnem/360.TPK</sourceURL>
+		<offset>1</offset>
+		<word>5</word>
+	</SignallingIndication>
+</Configs>

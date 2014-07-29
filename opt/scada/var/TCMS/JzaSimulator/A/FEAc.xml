@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configs>
+	<SignallingControl xml:id="C220.RLPR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<offset>14</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="C220.NLPR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<offset>15</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P254.RLPR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<offset>9</offset>
+		<word>4</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P254.NLPR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<offset>10</offset>
+		<word>4</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P255.RLPR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<offset>7</offset>
+		<word>4</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P255.NLPR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<offset>8</offset>
+		<word>4</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P262.RLPR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<offset>4</offset>
+		<word>7</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P262.NLPR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<offset>5</offset>
+		<word>7</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P265.RLPR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<offset>0</offset>
+		<word>7</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P265.NLPR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<offset>1</offset>
+		<word>7</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P673.RLPR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<offset>14</offset>
+		<word>8</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P673.NLPR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<offset>15</offset>
+		<word>8</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P674.RLPR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<offset>12</offset>
+		<word>8</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P674.NLPR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<offset>13</offset>
+		<word>8</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S260.RLPR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<offset>10</offset>
+		<word>5</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S260.NLPR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<offset>11</offset>
+		<word>5</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S263.RLPR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<offset>6</offset>
+		<word>5</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S263.NLPR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<offset>7</offset>
+		<word>5</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S354.CPBPR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<offset>11</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S354.AORPN">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<offset>12</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S354.AORPR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<offset>13</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S354.RLPR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<offset>14</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S354.NLPR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<offset>15</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S355.CPBPR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<offset>6</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S355.AORPN">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<offset>7</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S355.AORPR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<offset>8</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S355.RLPR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<offset>9</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S355.NLPR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<offset>10</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S362.CPBPR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<offset>11</offset>
+		<word>6</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S362.AORPN">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<offset>12</offset>
+		<word>6</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S362.AORPR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<offset>13</offset>
+		<word>6</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S362.RLPR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<offset>14</offset>
+		<word>6</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S362.NLPR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<offset>15</offset>
+		<word>6</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S363.CPBPR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<offset>6</offset>
+		<word>6</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S363.AORPN">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<offset>7</offset>
+		<word>6</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S363.AORPR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<offset>8</offset>
+		<word>6</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S363.RLPR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<offset>9</offset>
+		<word>6</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S363.NLPR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<offset>10</offset>
+		<word>6</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S364.CPBPR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<offset>1</offset>
+		<word>6</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S364.AORPN">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<offset>2</offset>
+		<word>6</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S364.AORPR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<offset>3</offset>
+		<word>6</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S364.RLPR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<offset>4</offset>
+		<word>6</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S364.NLPR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<offset>5</offset>
+		<word>6</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S365.NLPR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<offset>0</offset>
+		<word>6</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S365.CPBPR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<offset>12</offset>
+		<word>7</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S365.AORPN">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<offset>13</offset>
+		<word>7</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S365.AORPR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<offset>14</offset>
+		<word>7</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S365.RLPR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<offset>15</offset>
+		<word>7</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S394.CPBPR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<offset>1</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S394.AORPN">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<offset>2</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S394.AORPR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<offset>3</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S394.RLPR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<offset>4</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S394.NLPR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<offset>5</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+</Configs>

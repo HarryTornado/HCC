@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configs>
+	<JzaIndication xml:id="E228.JR">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/ERM#ERM</deviceName>
+		<offset>7</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E742.PIDF">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/ERM#ERM</deviceName>
+		<offset>6</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P228.LRP">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/ERM#ERM</deviceName>
+		<offset>4</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P228.RWCR">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/ERM#ERM</deviceName>
+		<offset>5</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P228.NWCR">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/ERM#ERM</deviceName>
+		<offset>6</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P291.LRP">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/ERM#ERM</deviceName>
+		<offset>1</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P291.RWCR">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/ERM#ERM</deviceName>
+		<offset>2</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P291.NWCR">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/ERM#ERM</deviceName>
+		<offset>3</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="SH80.RGP">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/ERM#ERM</deviceName>
+		<offset>9</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="SL80.RGP">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/ERM#ERM</deviceName>
+		<offset>13</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="SH83.RGP">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/ERM#ERM</deviceName>
+		<offset>7</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="SL89.RGP">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/ERM#ERM</deviceName>
+		<offset>11</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="SH95.RGP">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/ERM#ERM</deviceName>
+		<offset>5</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="SL95.RGP">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/ERM#ERM</deviceName>
+		<offset>7</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="SL96.RGP">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/ERM#ERM</deviceName>
+		<offset>5</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="SH100.RGP">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/ERM#ERM</deviceName>
+		<offset>3</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="SL100.RGP">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/ERM#ERM</deviceName>
+		<offset>3</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="SH101.RGP">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/ERM#ERM</deviceName>
+		<offset>1</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="SL101.RGP">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/ERM#ERM</deviceName>
+		<offset>1</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S304.NGP">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/ERM#ERM</deviceName>
+		<offset>0</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S304.RIP">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/ERM#ERM</deviceName>
+		<offset>10</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S304.AOR">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/ERM#ERM</deviceName>
+		<offset>12</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S304.ASP">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/ERM#ERM</deviceName>
+		<offset>13</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S304.RGP">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/ERM#ERM</deviceName>
+		<offset>14</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S306.RIP">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/ERM#ERM</deviceName>
+		<offset>2</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S306.CPBS">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/ERM#ERM</deviceName>
+		<offset>3</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S306.AOR">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/ERM#ERM</deviceName>
+		<offset>4</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S306.ASP">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/ERM#ERM</deviceName>
+		<offset>5</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S306.RGP">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/ERM#ERM</deviceName>
+		<offset>6</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S306.CGR">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/ERM#ERM</deviceName>
+		<offset>7</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S306.NGP">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/ERM#ERM</deviceName>
+		<offset>8</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S328.CGR">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/ERM#ERM</deviceName>
+		<offset>0</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S328.NGP">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/ERM#ERM</deviceName>
+		<offset>1</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S328.RIP">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/ERM#ERM</deviceName>
+		<offset>11</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S328.CPBS">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/ERM#ERM</deviceName>
+		<offset>12</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S328.AOR">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/ERM#ERM</deviceName>
+		<offset>13</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S328.ASP">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/ERM#ERM</deviceName>
+		<offset>14</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S328.RGP">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/ERM#ERM</deviceName>
+		<offset>15</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S371.NGP">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/ERM#ERM</deviceName>
+		<offset>10</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S371.RIP">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/ERM#ERM</deviceName>
+		<offset>4</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S371.CPBS">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/ERM#ERM</deviceName>
+		<offset>5</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S371.AOR">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/ERM#ERM</deviceName>
+		<offset>6</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S371.ASP">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/ERM#ERM</deviceName>
+		<offset>7</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S371.RGP">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/ERM#ERM</deviceName>
+		<offset>8</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S371.CGR">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/ERM#ERM</deviceName>
+		<offset>9</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S373.RIP">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/ERM#ERM</deviceName>
+		<offset>3</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S373.AOR">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/ERM#ERM</deviceName>
+		<offset>5</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S373.ASP">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/ERM#ERM</deviceName>
+		<offset>6</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S373.RGP">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/ERM#ERM</deviceName>
+		<offset>7</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S373.NGP">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/ERM#ERM</deviceName>
+		<offset>9</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S391.ASP">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/ERM#ERM</deviceName>
+		<offset>10</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S391.RGP">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/ERM#ERM</deviceName>
+		<offset>11</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S391.CGR">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/ERM#ERM</deviceName>
+		<offset>12</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S391.NGP">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/ERM#ERM</deviceName>
+		<offset>13</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S391.RIP">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/ERM#ERM</deviceName>
+		<offset>7</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S391.CPBS">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/ERM#ERM</deviceName>
+		<offset>8</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S391.AOR">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/ERM#ERM</deviceName>
+		<offset>9</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="TH80.TPK">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/ERM#ERM</deviceName>
+		<offset>8</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="TL80.TPK">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/ERM#ERM</deviceName>
+		<offset>12</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="TH83.TPK">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/ERM#ERM</deviceName>
+		<offset>6</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="TL89.TPK">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/ERM#ERM</deviceName>
+		<offset>10</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="TL93.TPK">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/ERM#ERM</deviceName>
+		<offset>9</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="TL94.TPK">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/ERM#ERM</deviceName>
+		<offset>8</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="TH95.TPK">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/ERM#ERM</deviceName>
+		<offset>4</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="TL95.TPK">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/ERM#ERM</deviceName>
+		<offset>6</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="TL96.TPK">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/ERM#ERM</deviceName>
+		<offset>4</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="TL99.TPK">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/ERM#ERM</deviceName>
+		<offset>14</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="TH100.TPK">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/ERM#ERM</deviceName>
+		<offset>2</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="TL100.TPK">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/ERM#ERM</deviceName>
+		<offset>2</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="TH101.TPK">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/ERM#ERM</deviceName>
+		<offset>0</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="TL101.TPK">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/ERM#ERM</deviceName>
+		<offset>0</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="TH102.TPK">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/ERM#ERM</deviceName>
+		<offset>15</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="TL102.TPK">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/ERM#ERM</deviceName>
+		<offset>15</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T228.TPK">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/ERM#ERM</deviceName>
+		<offset>0</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T304.TPK">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/ERM#ERM</deviceName>
+		<offset>15</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T306.TPK">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/ERM#ERM</deviceName>
+		<offset>14</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T328.TPK">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/ERM#ERM</deviceName>
+		<offset>13</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T366.TPK">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/ERM#ERM</deviceName>
+		<offset>12</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T371.TPK">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/ERM#ERM</deviceName>
+		<offset>11</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T373.TPK">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/ERM#ERM</deviceName>
+		<offset>10</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T391.TPK">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/ERM#ERM</deviceName>
+		<offset>9</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T394.TPK">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/ERM#ERM</deviceName>
+		<offset>8</offset>
+		<word>6</word>
+	</JzaIndication>
+</Configs>

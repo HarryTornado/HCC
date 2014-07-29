@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--Created with Liquid XML Studio - FREE Community Edition 7.1.6.1440 (http://www.liquid-technologies.com)-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:include schemaLocation="TTDataTypes.xsd" />
+  <xs:complexType name="Circular">
+    <xs:annotation>
+      <xs:documentation>Stores circular information and the associated trips.</xs:documentation>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="Text" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ServiceId" type="xs:string" />
+    </xs:sequence>
+    <xs:attribute name="Id" type="xs:string" use="required" />
+    <xs:attribute name="CreationDateTime" type="xs:dateTime" use="required" />
+    <xs:attribute name="ModificationDateTime" type="xs:dateTime" />
+  </xs:complexType>
+  <xs:element name="Timetable">
+    <xs:annotation>
+      <xs:documentation>This is the timetable root element. Everything that is needed to describe one timetable is capture in the elements under this element.</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Header">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TimetableFileName" type="FileName">
+                <xs:annotation>
+                  <xs:documentation>This attribute captures the name of the timetable file. It  should be set by the application that will create/save timetables.</xs:documentation>
+                </xs:annotation>
+              </xs:element>
+              <xs:element name="BasedOnTT" type="FileName">
+                <xs:annotation>
+                  <xs:documentation>If timetables are copied from others, the file name of the one copied from should be stored here. The application using the doing the copying is responsible for setting this.</xs:documentation>
+                </xs:annotation>
+              </xs:element>
+              <xs:element name="GEODataVersion" type="xs:string">
+                <xs:annotation>
+                  <xs:documentation>Identifies which GeoObjectPairs version this timetable is built with.</xs:documentation>
+                </xs:annotation>
+              </xs:element>
+              <xs:element name="RoutesDataVersion" type="xs:string">
+                <xs:annotation>
+                  <xs:documentation>Identifies which Path Book version this timetable is built on. </xs:documentation>
+                </xs:annotation>
+              </xs:element>
+              <xs:element name="Valid">
+                <xs:annotation>
+                  <xs:documentation>Identifies the date range that this timetable is valid for.</xs:documentation>
+                </xs:annotation>
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="0" name="From" type="xs:dateTime">
+                      <xs:annotation>
+                        <xs:documentation>Date from</xs:documentation>
+                      </xs:annotation>
+                    </xs:element>
+                    <xs:element minOccurs="0" name="To" type="xs:dateTime">
+                      <xs:annotation>
+                        <xs:documentation>Date To</xs:documentation>
+                      </xs:annotation>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="ServicePlan">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="0" name="PassengerInfoFile" type="FileName">
+                      <xs:annotation>
+                        <xs:documentation>Timetable to PassengerInfo File links by Service IDs. Contains the name of the associated Timetable file.  </xs:documentation>
+                      </xs:annotation>
+                    </xs:element>
+                    <xs:element minOccurs="0" name="FleetManagementFile" type="FileName">
+                      <xs:annotation>
+                        <xs:documentation>Timetable to FleetManagement File links by Service IDs. Contains the name of the associated Timetable file.</xs:documentation>
+                      </xs:annotation>
+                    </xs:element>
+                    <xs:element minOccurs="0" name="CrewRosteringFile" type="FileName">
+                      <xs:annotation>
+                        <xs:documentation>Timetable to PassengerInfo File links by Service IDs. Contains the name of the associated Timetable file.</xs:documentation>
+                      </xs:annotation>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element minOccurs="0" name="HistoryFile" type="FileName">
+                <xs:annotation>
+                  <xs:documentation>Timetable to History file links by unique IDs. Contains the name of the associated Timetable file.</xs:documentation>
+                </xs:annotation>
+              </xs:element>
+              <xs:element minOccurs="0" name="Notes" type="xs:string">
+                <xs:annotation>
+                  <xs:documentation>A elements that captures notes that are applicable for this Timetable as a whole</xs:documentation>
+                </xs:annotation>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element minOccurs="0" maxOccurs="unbounded" name="Circular" type="Circular" />
+        <xs:element maxOccurs="unbounded" name="Service" type="ServiceType">
+          <xs:annotation>
+            <xs:documentation>Timetables are a collection of Services that contain all the information to run through the railway and provide information to applications.</xs:documentation>
+          </xs:annotation>
+          <xs:unique name="uniqueTripIsInService">
+            <xs:selector xpath="Trip" />
+            <xs:field xpath="TripId" />
+          </xs:unique>
+        </xs:element>
+        <xs:element minOccurs="0" name="FleetRun" type="FleetRunType">
+          <xs:unique name="uniqueRun">
+            <xs:selector xpath="Run" />
+            <xs:field xpath="@Id" />
+            <xs:field xpath="@DaysCode" />
+          </xs:unique>
+        </xs:element>
+        <xs:element minOccurs="0" maxOccurs="unbounded" name="TrackBlock" type="TrackBlock" />
+      </xs:sequence>
+      <xs:attribute default="0" name="AmendmentLevel" type="xs:unsignedLong">
+        <xs:annotation>
+          <xs:documentation>This number is used by applications to monitor the number of changes that have been made to the timetable. Its use is entirely application driven.</xs:documentation>
+        </xs:annotation>
+      </xs:attribute>
+      <xs:attribute name="Version" type="xs:string">
+        <xs:annotation>
+          <xs:documentation>Captures the version of the timetable as entered by an application.</xs:documentation>
+        </xs:annotation>
+      </xs:attribute>
+      <xs:attribute name="DayCode" type="DayCodeType" use="required">
+        <xs:annotation>
+          <xs:documentation>Identifies the day(s) this timetable is to be used for.</xs:documentation>
+        </xs:annotation>
+      </xs:attribute>
+      <xs:attribute name="CreatedBy" type="xs:string">
+        <xs:annotation>
+          <xs:documentation>The last person to edit this timetable.</xs:documentation>
+        </xs:annotation>
+      </xs:attribute>
+      <xs:attribute name="CreationDateTime" type="xs:dateTime" use="required">
+        <xs:annotation>
+          <xs:documentation>A date-time stamp of when this timetable was created.</xs:documentation>
+        </xs:annotation>
+      </xs:attribute>
+      <xs:attribute name="TimetableState" type="TimetableStateType" use="required">
+        <xs:annotation>
+          <xs:documentation>OFFLINE - never been loaded by Timetable manager, ONLINE_INACTIVE - Loaded by Timetable manager but not currently in use, ONLINE_ACTIVE - it has been loaded and it's currently in use. States used to identify where the timeatble is in its lifecycle. </xs:documentation>
+        </xs:annotation>
+      </xs:attribute>
+      <xs:attribute name="ValidationState" type="ValidationStateType" use="required">
+        <xs:annotation>
+          <xs:documentation>Capture the states of validation. NOT_VALIDATED - validation has never been attempted on the Timetable. NOT_VALID - validation has been attempted on this timetable but it failed, due to being invalid against this schema and/or invalid against business rules.</xs:documentation>
+        </xs:annotation>
+      </xs:attribute>
+    </xs:complexType>
+    <xs:unique name="UniqueServiceIdAndDaysCodeInTimetable">
+      <xs:selector xpath="Service" />
+      <xs:field xpath="DaysCode" />
+      <xs:field xpath="ServiceId" />
+    </xs:unique>
+  </xs:element>
+  <xs:complexType name="formType">
+    <xs:sequence>
+      <xs:element maxOccurs="4" ref="TripId" />
+      <!-- in case of valid trip the maxOccurs should be 2, but we decide to include invalid form  -->
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Type">
+    <xs:annotation>
+      <xs:documentation>E=Electric N=Non PSR Electric T=Empty Electric P=Passenger Train Q=Passenger Train Non PSR Y=Empty Cars S=Sprinter R=Sprinter Non PSR J=Empty Sprinter V=Vlocity U=Vlocity Non PSR W=Empty Vlocity X=XPT L=Light Locomotive G=Freight Train H=Express Z=Unspecified</xs:documentation>
+    </xs:annotation>
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:pattern value="E|N|T|P|Q|Y|S|R|J|V|U|W|X|L|G|H|Z" />
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+  <xs:simpleType name="ConsistsType">
+    <xs:annotation>
+      <xs:documentation>3N=3-car Siemens 3C=3-car Comeng 3X=3-car X'trapolis 3S=3-car Silver 3=3-car of any type 6C=6-car Comeng on this run 6X=6-car X'trapolis on this run 6N=6-car Siemens on this run 6S=6-car Silver on this run 6M=6-car Comeng on later run 6R=6-car X'trapolis on later run 6E=6-car Siemens on later run Z=Unspecified</xs:documentation>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:pattern value="3N|3C|3X|3S|3|6C|6X|6N|6S|6M|6R|6E|6|Z" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="PlannedConsists" type="ConsistsType" />
+  <xs:element name="ActualConsists" type="ConsistsType" />
+  <xs:element name="Group">
+    <xs:annotation>
+      <xs:documentation>BLY=Burnley CFD=Caufield CHL=CliftonHill NOR=Northern SHM=Sandringham</xs:documentation>
+    </xs:annotation>
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:pattern value="BLY|CFD|CHL|NOR|SHM" />
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+  <xs:element name="RouteId">
+    <xs:simpleType>
+      <xs:restriction base="xs:nonNegativeInteger">
+        <xs:pattern value="[0-9][0-9][0-9]" />
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+  <xs:element name="Path">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="PathId" type="xs:nonNegativeInteger">
+          <xs:annotation>
+            <xs:documentation>Id of the path taken from the path book.</xs:documentation>
+          </xs:annotation>
+        </xs:element>
+        <xs:element ref="Group" />
+        <xs:element name="StopCode" type="StopCode">
+          <xs:annotation>
+            <xs:documentation>Selected stopcode, one of the possible stopcode for this path identified in the path book.</xs:documentation>
+          </xs:annotation>
+        </xs:element>
+        <xs:element maxOccurs="unbounded" ref="GeoObject">
+          <xs:annotation>
+            <xs:documentation>Paths are forefilled by visits to geographical objects. These object are identified here and are taken from Geographicaal Object Pairs, which are used to creae path books.</xs:documentation>
+          </xs:annotation>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+    <xs:unique name="GeoObjectIdUniqueInPath">
+      <xs:selector xpath="GeoObject/Object" />
+      <xs:field xpath="GeoObjectId" />
+    </xs:unique>
+    <xs:unique name="StationPlatformUniqueInPath">
+      <xs:selector xpath="GeoObject/Object/GeoObject/Platform" />
+      <xs:field xpath="Station" />
+      <xs:field xpath="PlatformNumber" />
+      <xs:field xpath="IsStationRoad" />
+    </xs:unique>
+    <xs:unique name="SignalNumberUniqueInPath">
+      <xs:selector xpath="GeoObject/Object/GeoObject/Signal" />
+      <xs:field xpath="SignalNumber" />
+    </xs:unique>
+  </xs:element>
+  <xs:element name="GeoObject">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Object" type="GEOObjType">
+          <xs:annotation>
+            <xs:documentation>Captures the geographical object</xs:documentation>
+          </xs:annotation>
+        </xs:element>
+        <xs:element ref="Arrives" />
+        <xs:element minOccurs="0" name="ArrivedTime" type="TimeType">
+          <xs:annotation>
+            <xs:documentation>The actual arrival time at the object. The presence of this element indicates that the train has arrived at this object.</xs:documentation>
+          </xs:annotation>
+        </xs:element>
+        <xs:element ref="Departs" />
+        <xs:element minOccurs="0" name="DepartedTime" type="TimeType">
+          <xs:annotation>
+            <xs:documentation>The actual departure time at the object. The presence of this element indicates that the train has departed this object.</xs:documentation>
+          </xs:annotation>
+        </xs:element>
+        <xs:element minOccurs="0" name="DwellTime" type="TimeType" />
+        <xs:element minOccurs="0" name="LayoverTime" type="xs:boolean" />
+        <xs:element minOccurs="0" name="AdditionalTime" type="TimeType" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TripId" type="TripIdType" />
+  <xs:complexType name="ServiceType">
+    <xs:sequence>
+      <xs:element ref="ServiceId" />
+      <xs:element default="0" name="Version" type="xs:nonNegativeInteger">
+        <xs:annotation>
+          <xs:documentation>Identifies the version of this service - used for locking services during editing and ensuring that service data is not over-written.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element ref="Direction" />
+      <xs:element name="Groups">
+        <xs:annotation>
+          <xs:documentation>Identifies that groups that this service belongs to.</xs:documentation>
+        </xs:annotation>
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element maxOccurs="5" ref="Group" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="StartStation">
+        <xs:annotation>
+          <xs:documentation>The first station that this service visits.</xs:documentation>
+        </xs:annotation>
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element ref="Station" />
+            <xs:element ref="Departs" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="EndStation">
+        <xs:annotation>
+          <xs:documentation>The last station that this service will visit</xs:documentation>
+        </xs:annotation>
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element ref="Station" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element minOccurs="0" name="DaysCode">
+        <xs:annotation>
+          <xs:documentation>Applicable to narrow down MF (see DayCode in hedaer) If it's a monday to friday timetable then we can restrict the day that this service will run e.g. MO = Monday Only</xs:documentation>
+        </xs:annotation>
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:pattern value="MO|TO|WO|HO|FO|ME|TE|WE|HE|FE|SA|SU|MF" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element default="0" name="PassengerWeightedMinutes" type="xs:nonNegativeInteger">
+        <xs:annotation>
+          <xs:documentation>A number that represents a penalty for this service.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Note" type="Note" />
+	  <xs:element minOccurs="0" maxOccurs="unbounded" name="PassengerInfo" type="PassengerInfoType" />
+	  <xs:element minOccurs="0" maxOccurs="unbounded" name="Connection" type="ConnectionType" />
+      <xs:element maxOccurs="unbounded" name="Trip" type="TripType">
+        <xs:annotation>
+          <xs:documentation>Services are made up of 1 to many trips, usually one to one. The combination of trips allow a service to get from its start to its end station.</xs:documentation>
+        </xs:annotation>
+        <xs:unique name="TripIdsUniqueInTrip">
+          <xs:selector xpath=".//TripId" />
+          <xs:field xpath="." />
+        </xs:unique>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute name="PidsRefStation" use="optional">
+      <xs:simpleType>
+        <xs:restriction base="xs:string">
+          <xs:pattern value="[A-Z]{3}" />
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+  </xs:complexType>
+  <xs:complexType name="TripType">
+    <xs:sequence>
+      <xs:element ref="TripId">
+        <xs:annotation>
+          <xs:documentation>An id that identifies that trip, Usually the same as or based on the service id. E.g if one service to one trip, serv id = 1000 then trip id = 1000. e.g.2 if one service to two trips, trip one = 1000, trip two = 1000A</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+<!--
+      <xs:element minOccurs="0" name="RunId" type="TripIdType">
+        <xs:annotation>
+          <xs:documentation>Identifier of the run that contains this trip</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+-->
+      <xs:element default="NOT_STARTED" name="Status">
+        <xs:annotation>
+          <xs:documentation>Identifies what state in the trips life cycles this trip is in. NOT_STARTED - trip has never started. CANCELLED - trip is in the cancelled state and will therefore never run. IN_PROGRESS the trip is in progress, is currently in a run. FINISHED - the trip has finished its run.</xs:documentation>
+        </xs:annotation>
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:pattern value="NOT_STARTED|CANCELLED|IN_PROGRESS|FINISHED" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="ChangeStatus" type="ChangeStatusType" />
+      <xs:element default="true" name="Acknowledged" type="xs:boolean">
+        <xs:annotation>
+          <xs:documentation>when a trip starts its life acknowledged is true. when changes status changes this get set to false and will mean that this trip will not have routes automatically set for it. When a signalman acknowledges the change this attribute will be set back to true and ARS can set routes for it.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" name="LastCommonObject" type="GeoObjectIdType">
+        <xs:annotation>
+          <xs:documentation>The ID of the last common object when new paths have been assigned to the trip. ARS will be able to continue routing the train when the acknowledged flag is false until this object is reached.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element ref="Type">
+        <xs:annotation>
+          <xs:documentation>Type of train that this trip should be run by. E=Electric N=Non PSR Electric T=Empty Electric P=Passenger Train Q=Passenger Train Non PSR Y=Empty Cars S=Sprinter R=Sprinter Non PSR J=Empty Sprinter V=Vlocity U=Vlocity Non PSR W=Empty Vlocity X=XPT L=Light Locomotive G=Freight Train H=Express Z=Unspecified</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element ref="PlannedConsists">
+        <xs:annotation>
+          <xs:documentation>The configuration of cars. 3N=3-car Siemens 3C=3-car Comeng 3X=3-car X'trapolis 3S=3-car Silver 3=3-car of any type 6C=6-car Comeng on this run 6X=6-car X'trapolis on this run 6N=6-car Siemens on this run 6S=6-car Silver on this run 6M=6-car Comeng on later run 6R=6-car X'trapolis on later run 6E=6-car Siemens on later run Z=Unspecified</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" ref="ActualConsists">
+        <xs:annotation>
+          <xs:documentation>As per PlannedConsists but for the actual consists value if we receive it.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="StartStation">
+        <xs:annotation>
+          <xs:documentation>The start station for this trip</xs:documentation>
+        </xs:annotation>
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element ref="Station" />
+            <xs:element ref="Departs" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="EndStation">
+        <xs:annotation>
+          <xs:documentation>The end station for this trip</xs:documentation>
+        </xs:annotation>
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element ref="Station" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="FormedBy" type="formType">
+        <xs:annotation>
+          <xs:documentation>Captures the ids of trips that this trip is formed by. If its formed by two trip those two trips will merge to give us this trip</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="WillForm" type="formType">
+        <xs:annotation>
+          <xs:documentation>Captures the ids of trips that this trip will form. If it will form two trips those two trips will be created by a split of this trip.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Note" type="Note" />
+      <xs:element minOccurs="0" name="Variance">
+        <xs:annotation>
+          <xs:documentation>Record during a run, how late or early a trip is running.</xs:documentation>
+        </xs:annotation>
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="Time" type="TimeType" />
+            <xs:element default="false" name="IsEarly" type="xs:boolean" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element minOccurs="0" default="true" name="ShuntRelocate" type="xs:boolean" />
+      <xs:element maxOccurs="unbounded" ref="Path">
+        <xs:annotation>
+          <xs:documentation>Trips are made up of a collection of paths that get the trip form its start to end station. Path capture the stop code to be used too. this will identify which stations to stop at and how long for.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute default="false" name="SharedAOC">
+      <xs:simpleType>
+        <xs:restriction base="xs:boolean">
+          <xs:pattern value="true|false" />
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+    <xs:attribute default="true" name="isPlannedTrip">
+      <xs:simpleType>
+        <xs:restriction base="xs:boolean">
+          <xs:pattern value="true|false" />
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+    <xs:attribute default="false" name="isExpress">
+      <xs:simpleType>
+        <xs:restriction base="xs:boolean">
+          <xs:pattern value="true|false" />
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+  </xs:complexType>
+  <xs:simpleType name="ValidationStateType">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="NOT_VALIDATED|NOT_VALID|VALID" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="TimetableStateType">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="STATE_NOTSET|OFFLINE|ONLINE_INACTIVE|ONLINE_ACTIVE" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="TrainUnitType">
+    <xs:annotation>
+      <xs:documentation>Contains information about the unit that makes up a train</xs:documentation>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Fault" type="FaultType" />
+    </xs:sequence>
+    <xs:attribute name="Id" type="xs:string" use="required" />
+    <xs:attribute name="Consist" type="ConsistsType" use="required" />
+  </xs:complexType>
+  <xs:complexType name="TrainType">
+    <xs:annotation>
+      <xs:documentation>Contains information about the train associated with the run</xs:documentation>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" name="Unit" type="TrainUnitType" />
+    </xs:sequence>
+    <xs:attribute name="Id" type="xs:string" use="required" />
+    <xs:attribute name="Stabling" type="GeoObjectIdType" use="optional" />
+    <xs:attribute name="Serviceability" type="xs:string" use="optional" />
+    <xs:attribute name="Dividable" type="xs:boolean" use="required" />
+    <xs:attribute name="Req" type="xs:string" use="optional" />
+  </xs:complexType>
+  <xs:complexType name="TripFormType">
+    <xs:annotation>
+      <xs:documentation>Contains information about the forms information </xs:documentation>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="FormedBy" type="TripIdType">
+        <xs:annotation>
+          <xs:documentation>Captures the ids of trips that this trip is formed by. If its formed by two trip those two trips will merge to give us this trip</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="WillForm" type="TripIdType">
+        <xs:annotation>
+          <xs:documentation>Captures the ids of trips that this trip will form. If it will form two trips those two trips will be created by a split of this trip.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute name="Id" type="TripIdType" use="required" />
+  </xs:complexType>
+  <xs:complexType name="RunType">
+    <xs:annotation>
+      <xs:documentation>Contains information about one train run</xs:documentation>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Train" type="TrainType" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Trip" type="TripFormType" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="NoteTripAssociation">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="Note" type="Note" />
+            <xs:element maxOccurs="unbounded" ref="TripId" />
+          </xs:sequence>
+          <xs:attribute name="ValidFrom" type="TripIdType" use="required" />
+          <xs:attribute name="ValidTo" type="TripIdType" />
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute name="Id" type="xs:string" use="required" />
+    <xs:attribute name="DaysCode" use="optional">
+      <xs:annotation>
+        <xs:documentation>if Day code does not exists, it applys DayCode of Header </xs:documentation>
+      </xs:annotation>
+      <xs:simpleType>
+        <xs:restriction base="xs:string">
+          <xs:pattern value="MO|TO|WO|HO|FO|ME|TE|WE|HE|FE|SA|SU|MF" />
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+  </xs:complexType>
+  <xs:complexType name="FleetRunType">
+    <xs:annotation>
+      <xs:documentation>Contains information about each planned train run in timetable</xs:documentation>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" name="Run" type="RunType" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="PassengerInfoType">
+    <xs:annotation>
+      <xs:documentation>Stores passenger information</xs:documentation>
+    </xs:annotation>
+    <xs:attribute name="LineCode" type="NumberType" use="required" />
+    <xs:attribute name="BitNumber" type="NumberType" use="required" />
+    <xs:attribute default="true" name="Enable" type="xs:boolean" />
+  </xs:complexType>
+  <xs:complexType name="ConnectionType">
+    <xs:annotation>
+      <xs:documentation>Connection information</xs:documentation>
+    </xs:annotation>
+    <xs:attribute name="Station" type="xs:string" use="required" />
+    <xs:attribute default="Service" name="Type">
+      <xs:simpleType>
+        <xs:restriction base="xs:string">
+          <xs:pattern value="Service|Train|Bus|Tram" />
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+    <xs:attribute name="Line" type="xs:string" use="required" />
+    <xs:attribute name="Destination" type="xs:string" use="required" />
+    <xs:attribute name="TripID" type="xs:string" use="optional" />
+  </xs:complexType>
+</xs:schema>

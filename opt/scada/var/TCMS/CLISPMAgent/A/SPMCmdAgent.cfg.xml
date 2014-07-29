@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Config>
+
+<CmdAgentMain xml_id="CmdAgentSPMMain">
+	<thisServiceCommandPath>/coreCommand</thisServiceCommandPath>
+	<targetAppHostname>oil://ServicePlanManager.TCMS</targetAppHostname>
+	<thisServiceName>CLISPMAgent</thisServiceName>
+	<thisServiceHostname>oil://CLISPMAgent.TCMS</thisServiceHostname>
+	<commandsInfo>
+
+		<!-- Cancel a Trip -->
+		<commandInfo registration="^TCT\s.*">
+			<data><syntaxOptions>
+				<description>
+					<syntax mnemonic="TCT">NUMBER:train</syntax>
+					<urlPathTemplateSet>
+						<urlPathTemplate content="TCT %1">/commandServer</urlPathTemplate>
+					</urlPathTemplateSet>
+				</description>
+			</syntaxOptions></data>
+		</commandInfo>
+
+		<!-- Restore a Cancelled Trip -->
+		<commandInfo registration="^TDC\s.*">
+			<data><syntaxOptions>
+				<description>
+					<syntax mnemonic="TDC">NUMBER:train</syntax>
+					<urlPathTemplateSet>
+						<urlPathTemplate content="TDC %1">/commandServer</urlPathTemplate>
+					</urlPathTemplateSet>
+				</description>
+			</syntaxOptions></data>
+		</commandInfo>
+
+		<!-- Bypass the city loop -->
+		<commandInfo registration="^TDF\s.*">
+			<data><syntaxOptions>
+				<description>
+					<syntax mnemonic="TDF">NUMBER:train</syntax>
+					<urlPathTemplateSet>
+						<urlPathTemplate content="TDF %1">/commandServer</urlPathTemplate>
+					</urlPathTemplateSet>
+				</description>
+			</syntaxOptions></data>
+		</commandInfo>
+
+		<!-- Go through city loop -->
+		<commandInfo registration="^TLP\s.*">
+			<data><syntaxOptions>
+				<description>
+					<syntax mnemonic="TLP">NUMBER:train</syntax>
+					<urlPathTemplateSet>
+						<urlPathTemplate content="TLP %1">/commandServer</urlPathTemplate>
+					</urlPathTemplateSet>
+				</description>
+			</syntaxOptions></data>
+		</commandInfo>
+
+		<!-- Cancel a trip from tomorrow's timetable -->
+		<commandInfo registration="^TCM\s.*">
+			<data><syntaxOptions>
+				<description>
+					<syntax mnemonic="TCM">NUMBER:train</syntax>
+					<urlPathTemplateSet>
+						<urlPathTemplate content="TCM %1">/commandServer</urlPathTemplate>
+					</urlPathTemplateSet>
+				</description>
+			</syntaxOptions></data>
+		</commandInfo>
+
+		<!-- Alter PIDS point -->
+		<commandInfo registration="^APP\s.*">
+			<data><syntaxOptions>
+				<description>
+					<syntax mnemonic="APP">NUMBER:train STRING:tla</syntax>
+					<urlPathTemplateSet>
+						<urlPathTemplate content="APP %1 %2">/commandServer</urlPathTemplate>
+					</urlPathTemplateSet>
+				</description>
+			</syntaxOptions></data>
+		</commandInfo>
+
+		<!-- Attach trips -->
+		<commandInfo registration="^ATT\s.*">
+			<data><syntaxOptions>
+				<description>
+					<syntax mnemonic="ATT">NUMBER:train NUMBER:train NUMBER:train</syntax>
+					<urlPathTemplateSet>
+						<urlPathTemplate content="ATT %1 %2 %3">/commandServer</urlPathTemplate>
+					</urlPathTemplateSet>
+				</description>
+			</syntaxOptions></data>
+		</commandInfo>
+
+		<!-- Acknowledge changes made to a trip -->
+		<commandInfo registration="^ACK\s.*">
+			<data><syntaxOptions>
+				<description>
+					<syntax mnemonic="ACK">NUMBER:train+</syntax>
+					<urlPathTemplateSet>
+						<urlPathTemplate content=" %1">/commandServer</urlPathTemplate>
+					</urlPathTemplateSet>
+				</description>
+			</syntaxOptions></data>
+		</commandInfo>
+
+		<!-- Change trip destination-->
+		<commandInfo registration="^CDS\s.*">
+			<data><syntaxOptions>
+				<description>
+					<syntax mnemonic="CDS">NUMBER:train STRING:tla</syntax>
+					<urlPathTemplateSet>
+						<urlPathTemplate content="CDS %1 %2">/commandServer</urlPathTemplate>
+					</urlPathTemplateSet>
+				</description>
+			</syntaxOptions></data>
+		</commandInfo>
+
+		<!-- Change trip origin -->
+		<commandInfo registration="^COS\s.*">
+			<data><syntaxOptions>
+				<description>
+					<syntax mnemonic="COS">NUMBER:train STRING:tla</syntax>
+					<urlPathTemplateSet>
+						<urlPathTemplate content="COS %1 %2">/commandServer</urlPathTemplate>
+					</urlPathTemplateSet>
+				</description>
+			</syntaxOptions></data>
+		</commandInfo>
+
+		<!-- Express train -->
+		<commandInfo registration="^EXP\s.*">
+			<data><syntaxOptions>
+				<description>
+					<syntax mnemonic="EXP">NUMBER:train STRING:tla+?</syntax>
+					<urlPathTemplateSet>
+						<urlPathTemplate content="EXP %1 %2">/commandServer</urlPathTemplate>
+					</urlPathTemplateSet>
+				</description>
+			</syntaxOptions></data>
+		</commandInfo>
+
+		<!-- Add a fault to a trip -->
+		<commandInfo registration="^FLT\s.*">
+			<data><syntaxOptions>
+				<description>
+					<syntax mnemonic="FLT">NUMBER:train STRING:forms STRING:word STRING:word+</syntax>
+					<urlPathTemplateSet>
+						<urlPathTemplate content="FLT %1 %2 %3 %4">/commandServer</urlPathTemplate>
+					</urlPathTemplateSet>
+				</description>
+			</syntaxOptions></data>
+		</commandInfo>
+
+		<!-- Restore a cancelled trip in tomorrow's timetable -->
+		<commandInfo registration="^RTC\s.*">
+			<data><syntaxOptions>
+				<description>
+					<syntax mnemonic="RTC">NUMBER:train</syntax>
+					<urlPathTemplateSet>
+						<urlPathTemplate content="RTC %1">/commandServer</urlPathTemplate>
+					</urlPathTemplateSet>
+				</description>
+			</syntaxOptions></data>
+		</commandInfo>
+
+		<!-- Split trips -->
+		<commandInfo registration="^SAP\s.*">
+			<data><syntaxOptions>
+				<description>
+					<syntax mnemonic="SAP">NUMBER:train NUMBER:train NUMBER:train</syntax>
+					<urlPathTemplateSet>
+						<urlPathTemplate content="SAP %1 %2 %3">/commandServer</urlPathTemplate>
+					</urlPathTemplateSet>
+				</description>
+			</syntaxOptions></data>
+		</commandInfo>
+
+		<!-- Stop at station or apply stop code -->
+		<commandInfo registration="^STS\s.*">
+			<data><syntaxOptions>
+				<description>
+					<syntax mnemonic="STS">NUMBER:train STRING:tla+? NUMBER:integer</syntax>
+					<urlPathTemplateSet>
+						<urlPathTemplate content="STS %1 %2 %3">/commandServer</urlPathTemplate>
+					</urlPathTemplateSet>
+				</description>
+			</syntaxOptions></data>
+		</commandInfo>
+
+		<!-- Add a note -->
+		<commandInfo registration="^TNT\s.*">
+			<data><syntaxOptions>
+				<description>
+					<syntax mnemonic="TNT">NUMBER:train STRING:word+</syntax>
+					<urlPathTemplateSet>
+						<urlPathTemplate content="TNT %1 %2">/commandServer</urlPathTemplate>
+					</urlPathTemplateSet>
+				</description>
+			</syntaxOptions></data>
+		</commandInfo>
+
+		<!-- Trip Form Change -->
+		<commandInfo registration="^TFC\s.*">
+			<data><syntaxOptions>
+				<description>
+					<syntax mnemonic="TFC">NUMBER:train STRING:forms?</syntax>
+					<urlPathTemplateSet>
+						<urlPathTemplate content="TFC %1 %2">/commandServer</urlPathTemplate>
+					</urlPathTemplateSet>
+				</description>
+			</syntaxOptions></data>
+		</commandInfo>
+
+		<!-- Change trip platform -->
+		<commandInfo registration="^TPC\s.*">
+			<data><syntaxOptions>
+				<description>
+					<syntax mnemonic="TPC">NUMBER:train STRING:tla NUMBER:platform</syntax>
+					<urlPathTemplateSet>
+						<urlPathTemplate content="TPC %1 %2 %3">/commandServer</urlPathTemplate>
+					</urlPathTemplateSet>
+				</description>
+			</syntaxOptions></data>
+		</commandInfo>
+
+		<!-- Add a new trip to tomorrow's timetable -->
+		<commandInfo registration="^TTM\s.*">
+			<data><syntaxOptions>
+				<description>
+					<syntax mnemonic="TTM">NUMBER:train STRING:tla STRING:tla TIME:time</syntax>
+					<urlPathTemplateSet>
+						<urlPathTemplate content="TTM %1 %2 %3 %4">/commandServer</urlPathTemplate>
+					</urlPathTemplateSet>
+				</description>
+			</syntaxOptions></data>
+		</commandInfo>
+
+		<!-- Add a new trip to today's timetable -->
+		<commandInfo registration="^TTT\s.*">
+			<data><syntaxOptions>
+				<description>
+					<syntax mnemonic="TTT">NUMBER:train STRING:tla STRING:tla TIME:time</syntax>
+					<urlPathTemplateSet>
+						<urlPathTemplate content="TTT %1 %2 %3 %4">/commandServer</urlPathTemplate>
+					</urlPathTemplateSet>
+				</description>
+			</syntaxOptions></data>
+		</commandInfo>
+
+		<!-- Set the variance of a trip -->
+		<commandInfo registration="^TVC\s.*">
+			<data><syntaxOptions>
+				<description>
+					<syntax mnemonic="TVC">NUMBER:train TIME:variance</syntax>
+					<urlPathTemplateSet>
+						<urlPathTemplate content="TVC %1 %2">/commandServer</urlPathTemplate>
+					</urlPathTemplateSet>
+				</description>
+			</syntaxOptions></data>
+		</commandInfo>
+
+	</commandsInfo>
+</CmdAgentMain>
+</Config>
+

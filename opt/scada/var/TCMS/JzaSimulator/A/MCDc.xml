@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configs>
+	<SignallingControl xml:id="P004.NLPR">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<offset>6</offset>
+		<word>4</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P004.RLPR">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<offset>7</offset>
+		<word>4</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P006.NLPR">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<offset>4</offset>
+		<word>4</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P006.RLPR">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<offset>5</offset>
+		<word>4</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P007.NLPR">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<offset>2</offset>
+		<word>4</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P007.RLPR">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<offset>3</offset>
+		<word>4</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P009.NLPR">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<offset>0</offset>
+		<word>4</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P009.RLPR">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<offset>1</offset>
+		<word>4</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P011.NLPR">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<offset>14</offset>
+		<word>5</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P011.RLPR">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<offset>15</offset>
+		<word>5</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S101.AORPN">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<offset>8</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S101.AORPR">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<offset>9</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S101.RLPR">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<offset>10</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S101.NLPR">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<offset>11</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S102.AORPN">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<offset>4</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S102.AORPR">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<offset>5</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S102.RLPR">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<offset>6</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S102.NLPR">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<offset>7</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S104.CPBPR">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<offset>11</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S104.AORPN">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<offset>12</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S104.AORPR">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<offset>13</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S104.RLPR">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<offset>14</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S104.NLPR">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<offset>15</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S106.RLPR">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<offset>10</offset>
+		<word>4</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S106.NLPR">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<offset>11</offset>
+		<word>4</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S107.CPBPR">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<offset>6</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S107.AORPN">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<offset>7</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S107.AORPR">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<offset>8</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S107.RLPR">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<offset>9</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S107.NLPR">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<offset>10</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S108.RLPR">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<offset>8</offset>
+		<word>4</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S108.NLPR">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<offset>9</offset>
+		<word>4</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S109.CPBPR">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<offset>1</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S109.AORPN">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<offset>2</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S109.AORPR">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<offset>3</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S109.RLPR">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<offset>4</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S109.NLPR">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<offset>5</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S110.AORPN">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<offset>0</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S110.AORPR">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<offset>1</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S110.RLPR">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<offset>2</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S110.NLPR">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<offset>3</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S111.NLPR">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<offset>0</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S111.CPBPR">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<offset>12</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S111.AORPN">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<offset>13</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S111.AORPR">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<offset>14</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S111.RLPR">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<offset>15</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S113.AORPN">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<offset>12</offset>
+		<word>4</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S113.AORPR">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<offset>13</offset>
+		<word>4</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S113.RLPR">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<offset>14</offset>
+		<word>4</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S113.NLPR">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<offset>15</offset>
+		<word>4</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+</Configs>

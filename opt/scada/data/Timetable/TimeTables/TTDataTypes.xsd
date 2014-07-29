@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:complexType name="Note">
+		<xs:attribute name="Id" type="xs:string" use="required">
+			<xs:annotation>
+				<xs:documentation>Not an xs:ID because the note ID is allowed to be shared.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="CreationTime" type="xs:dateTime" use="required"/>
+		<xs:attribute name="ModificationTime" type="xs:dateTime"/>
+		<xs:attribute name="Text" type="xs:string" use="required"/>
+	</xs:complexType>
+	<xs:element name="PlatformNumber">
+		<xs:annotation>
+			<xs:documentation>01 - 99</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:positiveInteger">
+				<xs:minInclusive value="1"/>
+				<xs:maxInclusive value="99"/>
+				<xs:pattern value="[0-9][0-9]"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:simpleType name="FileName">
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+	<xs:simpleType name="FourDigitID">
+		<xs:restriction base="xs:positiveInteger">
+			<xs:minInclusive value="1"/>
+			<xs:maxInclusive value="9999"/>
+			<xs:pattern value="[0-9][0-9][0-9][0-9]"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="StopCode">
+		<xs:restriction base="xs:nonNegativeInteger">
+			<xs:minInclusive value="0"/>
+			<xs:maxInclusive value="9999"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="StationCode">
+<!--
+		<xs:annotation>
+			<xs:documentation>Three letter station code.</xs:documentation>
+		</xs:annotation>
+-->
+		<xs:restriction base="xs:string">
+<!-- for CoreTCMS
+			<xs:pattern value="[A-Za-z]{3,3}"/>
+-->
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:complexType name="Platform">
+		<xs:attribute name="Station" type="StationCode" use="required"/>
+		<xs:attribute name="Platform" type="xs:positiveInteger" use="required"/>
+		<xs:attribute name="IsStationRoad" type="xs:boolean" use="required"/>
+	</xs:complexType>
+	<xs:element name="Platform">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="Station"/>
+				<xs:element ref="PlatformNumber"/>
+				<xs:element name="IsStationRoad" type="xs:boolean" default="false"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Signal">
+		<xs:complexType>
+			<xs:sequence>
+				<!--
+				<xs:element name="SignalNumber">
+					<xs:annotation>
+						<xs:documentation>E.g. S999DF</xs:documentation>
+					</xs:annotation>
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="[A-MO-Z][0-9A-Z]{5}"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				-->
+				<xs:element name="SignalNumber" type="xs:string"/>
+				<xs:element name="IsRouteSignal" type="xs:boolean">
+					<xs:annotation>
+						<xs:documentation>True or false value that identifies siganls that are associated with route buttons.</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType name="GEOObjType">
+		<xs:sequence>
+			<xs:element ref="GeoObjectId"/>
+			<xs:element name="GeoObject">
+				<xs:complexType>
+					<xs:choice>
+						<xs:element ref="Platform"/>
+						<xs:element ref="Signal"/>
+					</xs:choice>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="Arrives" type="TimeType">
+		<xs:annotation>
+			<xs:documentation>The time that the service is due to arrive at this object</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="Departs" type="TimeType">
+		<xs:annotation>
+			<xs:documentation>The time that this service should depart from the identified station or geo object</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:complexType name="TimeType">
+		<xs:sequence>
+			<xs:element name="time">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="[0-2][0-9]:[0-5][0-9]:[0-5][0-9]"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="Station">
+<!--
+		<xs:annotation>
+			<xs:documentation>Three letter code of the station</xs:documentation>
+		</xs:annotation>
+-->
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+			<!-- for CoreTCMS
+				<xs:pattern value="ABD|ABJ|ABL|ACF|ACI|ACR|ADE|ADJ|ADZ|AGS|AGT|ALA|ALB|ALD|ALI|ALJ|ALM|ALP|ALS|ALT|ALY|AMN|ANO|ANP|ANZ|APA|APD|APK|ARA|ARD|ARM|ARR|ART|ARZ|ASB|ASC|ASD|ASH|ASP|AST|ASV|ASY|ATO|AUB|AVA|AVE|AVL|AVN|AXW|AZS|BAE|BAH|BAL|BAM|BAR|BAT|BAY|BBG|BBH|BBI|BBK|BBL|BBN|BCH|BCV|BDE|BDG|BEA|BEB|BEG|BEH|BEK|BEL|BEN|BEP|BER|BET|BEU|BEW|BFD|BGA|BGB|BGE|BGG|BGL|BGO|BGR|BGT|BHP|BIA|BIT|BKL|BLK|BLN|BLS|BLY|BMH|BMS|BNB|BND|BNE|BNG|BNH|BNL|BNO|BNS|BON|BOR|BOX|BPT|BRD|BRF|BRK|BRM|BRN|BRQ|BRS|BRT|BRZ|BSA|BSG|BSP|BSR|BTC|BTG|BTN|BUL|BUN|BVR|BVT|BWD|BWK|BWZ|BXL|BXM|BXR|BYN|BYP|CAD|CAL|CAM|CAR|CBE|CBG|CBY|CCL|CDN|CDS|CFD|CGB|CGY|CHI|CHL|CHM|CHN|CIE|CKF|CLA|CLC|CLH|CLO|CLT|CLY|CME|CML|CNA|CNS|CNE|CNK|CNL|COB|COC|COE|COL|COQ|COR|COW|COY|CPD|CPE|CPK|CPT|CQR|CRA|CRD|CRM|CRO|CRT|CRU|CSA|CSG|CTB|CTM|CTO|CUL|CUM|CUR|CUZ|CWB|CWD|CWL|CWP|CXT|DAK|DAP|DBK|DBN|DCK|DDS|DEK|DEN|DGB|DGC|DGE|DGN|DIL|DIM|DIT|DKE|DLG|DLM|DLL|DLY|DNG|DNI|DNU|DOA|DON|DPK|DPW|DQN|DQR|DRL|DRN|DRO|DRP|DRT|DSG|DUK|DVS|DWJ|DYS|DYT|EAG|ECH|ECM|EDI|EGT|EHK|ELM|ELS|ELT|EME|EMU|EMV|EOA|EPH|EPP|EPS|ERM|ERZ|ESD|ESS|EUR|EXL|FAK|FBD|FCZ|FEX|FFD|FGS|FKN|FLD|FLG|FLX|FSN|FSS|FSY|FTG|GAH|GAL|GAM|GAR|GAZ|GBT|GBV|GCY|GDE|GEL|GEY|GFD|GFE|GHA|GHP|GHY|GIN|GIR|GIS|GLG|GLM|GLN|GLR|GMH|GML|GNA|GNG|GON|GOW|GRA|GRB|GRE|GRN|GRY|GRZ|GSB|GSG|GSQ|GTN|GVE|GWT|GWV|GWY|GYA|HAM|HAT|HAW|HBE|HCG|HCJ|HDB|HEG|HEV|HEY|HEZ|HGN|HIG|HIL|HKN|HLM|HMT|HNE|HNR|HOK|HOL|HON|HOT|HPN|HRM|HST|HTD|HUE|HUG|HUN|HUZ|HWD|HWL|HYN|ING|IRY|IUH|IUZ|IVA|JAC|JAZ|JCL|JEL|JLI|JOR|JPT|JUG|JWL|KAG|KAN|KAV|KAX|KBR|KEN|KER|KET|KFT|KIA|KIL|KIN|KLM|KME|KNN|KNT|KPK|KPL|KRG|KUL|KUR|KVE|KVL|KWR|KYB|KYG|KYN|LAB|LAH|LAL|LAR|LAS|LAV|LAZ|LBG|LBK|LBL|LBS|LBT|LBY|LDE|LEL|LFD|LGW|LIG|LIL|LIS|LJC|LKT|LGA|LLG|LLR|LNY|LOH|LOZ|LRA|LRR|LSG|LTH|LTR|LTZ|LUK|LVL|LWA|LWY|LYB|LYN|MAB|MAC|MAL|MAR|MAS|MAV|MAZ|MBN|MBS|MBY|MCD|MCE|MCH|MCK|MCY|MDA|MDC|MDE|MDN|MEH|MEL|MEN|MEO|MEP|MER|MET|MFY|MIR|MIS|MIT|MKI|MLD|MLE|MLK|MLRC|MLS|MML|MMN|MMY|MNG|MNP|MNZ|MOE|MON|MOM|MOR|MOS|MOZ|MPA|MPD|MPK|MPM|MRA|MRB|MRD|MRE|MRG|MRH|MRI|MRN|MRO|MRP|MRS|MRT|MSG|MSE|MSL|MSS|MST|MSY|MTH|MTL|MTY|MUA|MUE|MUL|MVL|MVN|MWL|MWY|MYC|MYD|MYK|MYN|MYP|MYR|MYZ|NAN|NAS|NAW|NBN|NBT|NCE|NEW|NGA|NGB|NGC|NGE|NGL|NGM|NGZ|NHL|NIL|NKT|NLJ|NME|NMK|NMS|NNA|NNG|NOG|NPH|NPK|NPO|NPS|NPT|NRM|NSH|NUH|NUL|NUN|NWA|NWG|NWN|NWS|NYN|NYR|NYT|OAE|OAH|OAK|OFC|OFR|OKP|OMD|OPK|OUN|P15|PAM|PAN|PAR|PAT|PCL|PIE|PIT|PKD|PKM|PNG|POD|POG|POK|POP|PRA|PRE|PRH|PRN|PSN|PTM|PTY|PUL|PVE|PVL|PWN|PYD|PYL|PYM|QUK|QUZ|RAD|RBK|RBW|RCE|RCK|RCL|RDC|RDL|RED|REG|REN|RES|RIK|RIP|RIV|RMD|RKB|RMS|RNI|ROB|ROC|ROD|ROE|ROR|ROS|ROY|RPK|RPW|RUS|RUT|RVA|RVW|RWD|RWE|RXP|SAB|SAE|SAG|SAL|SBY|SCT|SDG|SDK|SDL|SDM|SDR|SDY|SEA|SED|SEL|SEN|SEO|SEP|SER|SEY|SEZ|SFD|SGG|SGL|SGS|SHE|SHL|SHM|SHP|SIS|SKE|SKN|SLD|SLE|SLL|SLO|SMB|SME|SMS|SNG|SNH|SNP|SOC|SOE|SOG|SOM|SON|SOS|SPD|SPE|SPG|SPH|SPK|SPT|SPV|SPW|SRR|SSK|SSS|STA|STD|STK|STL|STN|STP|STS|STY|SUD|SUE|SUN|SUP|SUY|SVE|SWC|SWH|SWL|SWR|SYD|SYM|SYN|SYR|TAA|TAB|TAE|TAN|TAR|TAT|TBY|TCA|TCL|TCM|TDE|TED|TER|TEY|TFG|TGA|TGH|TGL|THY|TLA|TLS|TMY|TNA|TNH|TOA|TOK|TOL|TOR|TOT|TOZ|TRD|TRF|TRG|TRK|TRN|TSG|TSN|TSS|TTA|TUE|TUH|TVK|TWA|TYD|TYN|TYP|UBS|UFD|UFG|ULA|ULZ|UNL|UPW|VDJ|VPG|VPK|VSG|VTN|VVE|WAB|WAE|WAG|WAI|WAK|WAN|WAP|WAR|WAT|WBH|WBL|WCB|WCH|WCS|WDG|WED|WER|WEZ|WFG|WFY|WGD|WGG|WGI|WGL|WGR|WHA|WHP|WIA|WIE|WIL|WIN|WLN|WLP|WLS|WLY|WMO|WNB|WND|WNG|WNO|WNS|WNU|WOD|WON|WPD|WPK|WPR|WRC|WRE|WRG|WRM|WRN|WSG|WSM|WSN|WST|WTA|WTG|WTL|WTO|WTP|WTR|WTS|WTT|WTW|WVC|WYA|WYF|WYZ|YAG|YAN|YAT|YEL|YGA|YGN|YMN|YRM|YON|YPZ|YRG|YVE" />
+	-->
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="StopPatternTimes">
+		<xs:annotation>
+			<xs:documentation>This data captures the default timings across objects for all possible stop patterns.</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="ESTime" type="xs:time" default="00:00:00">
+					<xs:annotation>
+						<xs:documentation>Express - Stop</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="EETime" type="xs:time" default="00:00:00">
+					<xs:annotation>
+						<xs:documentation>Express - Express</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="SETime" type="xs:time" default="00:00:00">
+					<xs:annotation>
+						<xs:documentation>Stop - Express</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="SSTime" type="xs:time" default="00:00:00">
+					<xs:annotation>
+						<xs:documentation>Stop - Stop</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Direction">
+		<xs:annotation>
+			<xs:documentation>UP or DOWN, just identfies if the service is intended to be running in the up or down.</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:pattern value="UP|DOWN|UNKNOWNDIR"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="ServiceId">
+		<xs:annotation>
+			<xs:documentation>A number that identifies the Services. The number is meaninful, the number will identify the types of service, the line/groups in runs on etc...</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:pattern value="[0-9A-Z][0-9]{3}"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:simpleType name="GeoObjectIdType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="([A-Z][0-9A-Z]{5})"/>
+			<xs:pattern value="([0-9])*"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<!--
+	<xs:element name="GeoObjectId" type="GeoObjectIdType"/>
+	-->
+	<xs:element name="GeoObjectId" type="xs:string"/>
+	<xs:complexType name="GeoObjectSPTimes">
+		<xs:sequence>
+			<xs:element ref="GeoObjectId"/>
+			<xs:element ref="StopPatternTimes"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="TrackBlock">
+		<xs:sequence>
+			<xs:element name="Start" type="Platform"/>
+			<xs:element name="End" type="Platform"/>
+			<xs:element name="Note" type="Note"/>
+		</xs:sequence>
+		<xs:attribute name="Id" type="xs:string" use="required"/>
+		<xs:attribute name="Direction" type="Direction" use="required"/>
+		<xs:attribute name="Cancelled" type="xs:boolean" default="false"/>
+		<xs:attribute name="StartTime" type="xs:dateTime" use="required"/>
+		<xs:attribute name="EndTime" type="xs:dateTime" use="required"/>
+		<xs:attribute name="isLoop" type="xs:boolean" default="false" use="optional"/>
+	</xs:complexType>
+	<xs:simpleType name="DayCodeType">
+		<xs:annotation>
+			<xs:documentation>Can be MF - Monday to friday, SA - Saturday or SU Sunday. Identifies which day/s this timetable is to be used for.</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:pattern value="MO|TO|WO|HO|FO|ME|TE|WE|HE|FE|SA|SU|MF|[S][0-9]"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="NumberType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[0-9]*"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="TripIdType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[0-9A-Z][0-9A-Z][0-9A-Z][0-9A-Z]|[0-9A-Z][0-9A-Z][0-9A-Z][0-9A-Z][0-9A-Z]|[0-9A-Z][0-9A-Z][0-9A-Z][0-9A-Z][0-9A-Z][0-9A-Z] "/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="FaultCodeType">
+		<xs:annotation>
+			<xs:documentation>Three character synonym representing various faults: BDR=Broken Door, BWN=Broken Window, WFO=Wheels Fallen Off, BEN=Broken Engine, NBR=No Brakes</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="BDR"/>
+			<xs:enumeration value="BWN"/>
+			<xs:enumeration value="WFO"/>
+			<xs:enumeration value="BEN"/>
+			<xs:enumeration value="NBR"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:complexType name="FaultType">
+		<xs:annotation>
+			<xs:documentation>A fault is defined by a description and a code</xs:documentation>
+		</xs:annotation>
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+				<xs:attribute name="Code" type="FaultCodeType" use="required"/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	<xs:simpleType name="ChangeStageType">
+		<xs:annotation>
+			<xs:documentation>This captures the various change stages that a trip can be in during its lifecycle on line. PLANNED this trip has never been changed since it was loaded, CHANGED trip has been modified since it was loaded. ADVISED since that changed occured the change has now been advised to the relevant people. Once the trip has changed once its only possible states are changed or advised.</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:pattern value="PLANNED|CHANGED|ADVISED"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="Direction">
+		<xs:annotation>
+			<xs:documentation>UP,  DOWN or UNINITIALISED identifies direction relative to a station e.g) FSSin case of TCMS.</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="UP"/>
+			<xs:enumeration value="DOWN"/>
+			<xs:enumeration value="UNINITIALISED"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:complexType name="ChangeStatusType">
+		<xs:annotation>
+			<xs:documentation>This captures the change stage of the trip and if any, the advised roles when the trip is in the ADVISED stage. The advised roles are irrelevant if the stage is not ADVISED.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="Stage" type="ChangeStageType" default="PLANNED"/>
+			<xs:element name="AdvisedRole" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

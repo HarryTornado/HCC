@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ServicePlanManager xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ServicePlanManagerConfig.xsd">
+        <Timetable URL="oil://timetablemanager.tcms/config"/>
+        <COMMANDS PATH="/commandServer"/>
+        <COMMANDC PATH="/commandClient"/>
+        <HistoryDB URL="oil://history.tcms/config"/>
+        <RuleFile FileName="ServicePlanManagerRules.clp" Enable="false"/>
+        <PathBook FileName="PathBook02A.xml"/>
+        <GeoObjects FileName="GeneratedGeoObjects.xml"/>
+        <CommonConfiguration FileName="TTConfigData.xml"/>
+        <Log level="ERROR"/>
+</ServicePlanManager>

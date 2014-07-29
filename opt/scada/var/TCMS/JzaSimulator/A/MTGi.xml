@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configs>
+	<SignallingIndication xml:id="E586.TELER">
+		<interlockingName>FSB</interlockingName>
+		<deviceName>config:/JzaSimulator#MTG</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSB/E586.TELER/value</sourceURL>
+		<offset>2</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E586.TELCR">
+		<interlockingName>FSB</interlockingName>
+		<deviceName>config:/JzaSimulator#MTG</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSB/E586.TELCR/value</sourceURL>
+		<offset>3</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E702.TELER">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#MTG</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSN/mnem/E702.TELER</sourceURL>
+		<offset>0</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E702.TELCR">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#MTG</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSN/mnem/E702.TELCR</sourceURL>
+		<offset>1</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E703.TELER">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#MTG</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSN/mnem/E703.TELER</sourceURL>
+		<offset>14</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E703.TELCR">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#MTG</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSN/mnem/E703.TELCR</sourceURL>
+		<offset>15</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E704.TELER">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#MTG</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSN/mnem/E704.TELER</sourceURL>
+		<offset>12</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E704.TELCR">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#MTG</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSN/mnem/E704.TELCR</sourceURL>
+		<offset>13</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E706.TELER">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#MTG</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSN/mnem/E706.TELER</sourceURL>
+		<offset>10</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E706.TELCR">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#MTG</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSN/mnem/E706.TELCR</sourceURL>
+		<offset>11</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E708.TELER">
+		<interlockingName>FKS</interlockingName>
+		<deviceName>config:/JzaSimulator#MTG</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FKS/mnem/E708.TELER</sourceURL>
+		<offset>6</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E708.TELCR">
+		<interlockingName>FKS</interlockingName>
+		<deviceName>config:/JzaSimulator#MTG</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FKS/mnem/E708.TELCR</sourceURL>
+		<offset>7</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E710.TELER">
+		<interlockingName>FKS</interlockingName>
+		<deviceName>config:/JzaSimulator#MTG</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FKS/mnem/E710.TELER</sourceURL>
+		<offset>4</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E710.TELCR">
+		<interlockingName>FKS</interlockingName>
+		<deviceName>config:/JzaSimulator#MTG</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FKS/mnem/E710.TELCR</sourceURL>
+		<offset>5</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E711.TELER">
+		<interlockingName>FKS</interlockingName>
+		<deviceName>config:/JzaSimulator#MTG</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FKS/mnem/E711.TELER</sourceURL>
+		<offset>2</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E711.TELCR">
+		<interlockingName>FKS</interlockingName>
+		<deviceName>config:/JzaSimulator#MTG</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FKS/mnem/E711.TELCR</sourceURL>
+		<offset>3</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E713.TELER">
+		<interlockingName>FKS</interlockingName>
+		<deviceName>config:/JzaSimulator#MTG</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FKS/mnem/E713.TELER</sourceURL>
+		<offset>8</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E713.TELCR">
+		<interlockingName>FKS</interlockingName>
+		<deviceName>config:/JzaSimulator#MTG</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FKS/mnem/E713.TELCR</sourceURL>
+		<offset>9</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E714.TELER">
+		<interlockingName>FKS</interlockingName>
+		<deviceName>config:/JzaSimulator#MTG</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FKS/mnem/E714.TELER</sourceURL>
+		<offset>10</offset>
+		<word>16</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E714.TELCR">
+		<interlockingName>FKS</interlockingName>
+		<deviceName>config:/JzaSimulator#MTG</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FKS/mnem/E714.TELCR</sourceURL>
+		<offset>11</offset>
+		<word>16</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E716.TELER">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#MTG</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSN/mnem/E716.TELER</sourceURL>
+		<offset>6</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E716.TELCR">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#MTG</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSN/mnem/E716.TELCR</sourceURL>
+		<offset>7</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E718.TELER">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#MTG</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSN/mnem/E718.TELER</sourceURL>
+		<offset>4</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E718.TELCR">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#MTG</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSN/mnem/E718.TELCR</sourceURL>
+		<offset>5</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E721.TELER">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#MTG</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSN/mnem/E721.TELER</sourceURL>
+		<offset>2</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E721.TELCR">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#MTG</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSN/mnem/E721.TELCR</sourceURL>
+		<offset>3</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E722.TELER">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#MTG</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSN/mnem/E722.TELER</sourceURL>
+		<offset>0</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E722.TELCR">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#MTG</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSN/mnem/E722.TELCR</sourceURL>
+		<offset>1</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E723.TELER">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#MTG</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSN/mnem/E723.TELER</sourceURL>
+		<offset>14</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E723.TELCR">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#MTG</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSN/mnem/E723.TELCR</sourceURL>
+		<offset>15</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E725.TELER">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#MTG</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSN/mnem/E725.TELER</sourceURL>
+		<offset>12</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E725.TELCR">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#MTG</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSN/mnem/E725.TELCR</sourceURL>
+		<offset>13</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E726.TELER">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#MTG</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSN/mnem/E726.TELER</sourceURL>
+		<offset>10</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E726.TELCR">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#MTG</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SSN/mnem/E726.TELCR</sourceURL>
+		<offset>11</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E735.TELER">
+		<interlockingName>FSB</interlockingName>
+		<deviceName>config:/JzaSimulator#MTG</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSB/E735.TELER/value</sourceURL>
+		<offset>2</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E735.TELCR">
+		<interlockingName>FSB</interlockingName>
+		<deviceName>config:/JzaSimulator#MTG</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSB/E735.TELCR/value</sourceURL>
+		<offset>3</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E736.TELER">
+		<interlockingName>FSB</interlockingName>
+		<deviceName>config:/JzaSimulator#MTG</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSB/E736.TELER/value</sourceURL>
+		<offset>0</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E736.TELCR">
+		<interlockingName>FSB</interlockingName>
+		<deviceName>config:/JzaSimulator#MTG</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSB/E736.TELCR/value</sourceURL>
+		<offset>1</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E737.TELER">
+		<interlockingName>FSB</interlockingName>
+		<deviceName>config:/JzaSimulator#MTG</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSB/E737.TELER/value</sourceURL>
+		<offset>14</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E737.TELCR">
+		<interlockingName>FSB</interlockingName>
+		<deviceName>config:/JzaSimulator#MTG</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSB/E737.TELCR/value</sourceURL>
+		<offset>15</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E741.TELER">
+		<interlockingName>FSB</interlockingName>
+		<deviceName>config:/JzaSimulator#MTG</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSB/E741.TELER/value</sourceURL>
+		<offset>10</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E741.TELCR">
+		<interlockingName>FSB</interlockingName>
+		<deviceName>config:/JzaSimulator#MTG</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSB/E741.TELCR/value</sourceURL>
+		<offset>11</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E743.TELER">
+		<interlockingName>FSB</interlockingName>
+		<deviceName>config:/JzaSimulator#MTG</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSB/E743.TELER/value</sourceURL>
+		<offset>6</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E743.TELCR">
+		<interlockingName>FSB</interlockingName>
+		<deviceName>config:/JzaSimulator#MTG</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSB/E743.TELCR/value</sourceURL>
+		<offset>7</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E755.TELER">
+		<interlockingName>FSB</interlockingName>
+		<deviceName>config:/JzaSimulator#MTG</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSB/E755.TELER/value</sourceURL>
+		<offset>6</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E755.TELCR">
+		<interlockingName>FSB</interlockingName>
+		<deviceName>config:/JzaSimulator#MTG</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSB/E755.TELCR/value</sourceURL>
+		<offset>7</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E756.TELER">
+		<interlockingName>FSB</interlockingName>
+		<deviceName>config:/JzaSimulator#MTG</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSB/E756.TELER/value</sourceURL>
+		<offset>0</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E756.TELCR">
+		<interlockingName>FSB</interlockingName>
+		<deviceName>config:/JzaSimulator#MTG</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSB/E756.TELCR/value</sourceURL>
+		<offset>1</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E765.TELER">
+		<interlockingName>FSB</interlockingName>
+		<deviceName>config:/JzaSimulator#MTG</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSB/E765.TELER/value</sourceURL>
+		<offset>8</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E765.TELCR">
+		<interlockingName>FSB</interlockingName>
+		<deviceName>config:/JzaSimulator#MTG</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSB/E765.TELCR/value</sourceURL>
+		<offset>9</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E767.TELER">
+		<interlockingName>FSB</interlockingName>
+		<deviceName>config:/JzaSimulator#MTG</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSB/E767.TELER/value</sourceURL>
+		<offset>2</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E767.TELCR">
+		<interlockingName>FSB</interlockingName>
+		<deviceName>config:/JzaSimulator#MTG</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSB/E767.TELCR/value</sourceURL>
+		<offset>3</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E769.TELER">
+		<interlockingName>FSB</interlockingName>
+		<deviceName>config:/JzaSimulator#MTG</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSB/E769.TELER/value</sourceURL>
+		<offset>8</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E769.TELCR">
+		<interlockingName>FSB</interlockingName>
+		<deviceName>config:/JzaSimulator#MTG</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSB/E769.TELCR/value</sourceURL>
+		<offset>9</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E933.TELER">
+		<interlockingName>FSB</interlockingName>
+		<deviceName>config:/JzaSimulator#MTG</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSB/E933.TELER/value</sourceURL>
+		<offset>2</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E933.TELCR">
+		<interlockingName>FSB</interlockingName>
+		<deviceName>config:/JzaSimulator#MTG</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSB/E933.TELCR/value</sourceURL>
+		<offset>3</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E936.TELER">
+		<interlockingName>FSB</interlockingName>
+		<deviceName>config:/JzaSimulator#MTG</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSB/E936.TELER/value</sourceURL>
+		<offset>14</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E936.TELCR">
+		<interlockingName>FSB</interlockingName>
+		<deviceName>config:/JzaSimulator#MTG</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSB/E936.TELCR/value</sourceURL>
+		<offset>15</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E943.TELER">
+		<interlockingName>FSB</interlockingName>
+		<deviceName>config:/JzaSimulator#MTG</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSB/E943.TELER/value</sourceURL>
+		<offset>14</offset>
+		<word>12</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E943.TELCR">
+		<interlockingName>FSB</interlockingName>
+		<deviceName>config:/JzaSimulator#MTG</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSB/E943.TELCR/value</sourceURL>
+		<offset>15</offset>
+		<word>12</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E948.TELER">
+		<interlockingName>FSB</interlockingName>
+		<deviceName>config:/JzaSimulator#MTG</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSB/E948.TELER/value</sourceURL>
+		<offset>8</offset>
+		<word>12</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E948.TELCR">
+		<interlockingName>FSB</interlockingName>
+		<deviceName>config:/JzaSimulator#MTG</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSB/E948.TELCR/value</sourceURL>
+		<offset>9</offset>
+		<word>12</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E950.TELER">
+		<interlockingName>FSB</interlockingName>
+		<deviceName>config:/JzaSimulator#MTG</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSB/E950.TELER/value</sourceURL>
+		<offset>6</offset>
+		<word>12</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E950.TELCR">
+		<interlockingName>FSB</interlockingName>
+		<deviceName>config:/JzaSimulator#MTG</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSB/E950.TELCR/value</sourceURL>
+		<offset>7</offset>
+		<word>12</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E957.TELER">
+		<interlockingName>FSB</interlockingName>
+		<deviceName>config:/JzaSimulator#MTG</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSB/E957.TELER/value</sourceURL>
+		<offset>2</offset>
+		<word>12</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E957.TELCR">
+		<interlockingName>FSB</interlockingName>
+		<deviceName>config:/JzaSimulator#MTG</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSB/E957.TELCR/value</sourceURL>
+		<offset>3</offset>
+		<word>12</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E960.TELER">
+		<interlockingName>FSB</interlockingName>
+		<deviceName>config:/JzaSimulator#MTG</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSB/E960.TELER/value</sourceURL>
+		<offset>12</offset>
+		<word>13</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E960.TELCR">
+		<interlockingName>FSB</interlockingName>
+		<deviceName>config:/JzaSimulator#MTG</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSB/E960.TELCR/value</sourceURL>
+		<offset>13</offset>
+		<word>13</word>
+	</SignallingIndication>
+</Configs>

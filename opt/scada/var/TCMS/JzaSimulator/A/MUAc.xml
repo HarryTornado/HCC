@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configs>
+	<SignallingControl xml:id="S190.AORPR">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#MUA</deviceName>
+		<offset>13</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S190.NLPR">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#MUA</deviceName>
+		<offset>15</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S191.AORPR">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#MUA</deviceName>
+		<offset>8</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S191.NLPR">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#MUA</deviceName>
+		<offset>10</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S390.AORPR">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#MUA</deviceName>
+		<offset>3</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S390.NLPR">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#MUA</deviceName>
+		<offset>5</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S391.NLPR">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#MUA</deviceName>
+		<offset>0</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S391.AORPR">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#MUA</deviceName>
+		<offset>14</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S590.AORPR">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#MUA</deviceName>
+		<offset>9</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S590.NLPR">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#MUA</deviceName>
+		<offset>11</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S591.AORPR">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#MUA</deviceName>
+		<offset>4</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S591.NLPR">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#MUA</deviceName>
+		<offset>6</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+</Configs>

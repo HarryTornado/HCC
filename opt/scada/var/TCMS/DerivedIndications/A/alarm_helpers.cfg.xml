@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Config xmlns="http://www.invensysrail.com.au/schema/dic" xsi:schemaLocation="http://www.invensysrail.com.au/schema/dic DIC.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"-->
+<Configuration>
+	<app_alarm_config>
+		<id>input_source_failed</id>
+		<alarm><document>
+			<actions>
+				<a1>0</a1>
+				<a2>1</a2>
+			</actions>
+			<stateAlarmOnDisinhibit>0</stateAlarmOnDisinhibit>
+			<eraseOnAcknowledge>1</eraseOnAcknowledge>
+			<eraseOnAcknowledgeAndNormal>0</eraseOnAcknowledgeAndNormal>
+			<neverAnnunciateReturn>0</neverAnnunciateReturn>
+			<acknowledgeOnReturn>0</acknowledgeOnReturn>
+			<eraseOnInhibit>0</eraseOnInhibit>
+		</document></alarm>
+		<event_context>
+			<traits><document>
+				<priority>1</priority>
+				<group>1</group>
+				<region>0</region>
+				<category>0</category>
+				<rapGroup>1</rapGroup>
+				<Description><C>Traits Component For input_source_failed Alarm.</C></Description>
+				<name>input_source_failed</name>
+			</document></traits>
+			<event_type>digitalWarn</event_type>
+		</event_context>
+		<state_description>Sourced mnemonic inputs OKL</state_description>
+		<alarm_state_description>Failed to source mnemonic inputs</alarm_state_description>
+	</app_alarm_config>
+	<app_alarm_config>
+		<id>propagate_failed</id>
+		<alarm><document>
+			<actions>
+				<a1>0</a1>
+				<a2>1</a2>
+			</actions>
+			<stateAlarmOnDisinhibit>0</stateAlarmOnDisinhibit>
+			<eraseOnAcknowledge>1</eraseOnAcknowledge>
+			<eraseOnAcknowledgeAndNormal>0</eraseOnAcknowledgeAndNormal>
+			<neverAnnunciateReturn>0</neverAnnunciateReturn>
+			<acknowledgeOnReturn>0</acknowledgeOnReturn>
+			<eraseOnInhibit>0</eraseOnInhibit>
+		</document></alarm>
+		<event_context>
+			<traits><document>
+					<priority>1</priority>
+					<group>1</group>
+					<region>0</region>
+					<category>0</category>
+					<rapGroup>1</rapGroup>
+					<Description><C>Traits Component For propagate_failed Alarm.</C></Description>
+					<name>propagate_failed</name>
+			</document></traits>
+			<event_type>digitalWarn</event_type>
+		</event_context>
+	    <state_description>Mnemonic propagation OK</state_description>
+	    <alarm_state_description>Failed to propagate mnemonics</alarm_state_description>
+	</app_alarm_config>
+</Configuration>
+<!--/Config-->

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xml="http://www.w3.org/XML/1998/namespace">
+	<xs:import namespace="http://www.w3.org/XML/1998/namespace"/>
+	<xs:element name="ServicePlanManager">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="RuleFiles">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="RuleFile" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="FileName" type="xs:string" use="required"/>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Timetable">
+					<xs:complexType>
+						<xs:attribute name="URL" type="xs:string" use="required"/>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="CLI">
+					<xs:complexType>
+						<xs:attribute name="URL" type="xs:string" use="required"/>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="HistoryDB">
+					<xs:complexType>
+						<xs:attribute name="URL" type="xs:string" use="required"/>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="PathBook">
+					<xs:complexType>
+						<xs:attribute name="FileName" type="xs:string" use="required"/>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="GeoObjects">
+					<xs:complexType>
+						<xs:attribute name="FileName" type="xs:string" use="required"/>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="CommonConfiguration">
+					<xs:complexType>
+						<xs:attribute name="FileName" type="xs:string" use="required"/>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Log">
+					<xs:complexType>
+						<xs:attribute name="level" use="required">
+							<xs:simpleType>
+							  <xs:restriction base="xs:string">
+								<xs:enumeration value="TRACE" />
+								<xs:enumeration value="DEBUG" />
+								<xs:enumeration value="INFO" />
+								<xs:enumeration value="WARN" />
+								<xs:enumeration value="ERROR" />
+								<xs:enumeration value="FATAL" />
+							  </xs:restriction>
+							</xs:simpleType>
+						</xs:attribute>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

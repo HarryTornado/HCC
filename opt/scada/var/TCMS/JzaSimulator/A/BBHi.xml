@@ -1,0 +1,773 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configs>
+	<SignallingIndication xml:id="L478.DTOP">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/478.DTOP</sourceURL>
+		<offset>5</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L478.BPOK">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/478.BPOK</sourceURL>
+		<offset>6</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L478.FGNP">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/478.FGNP</sourceURL>
+		<offset>7</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L478.FCP">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/478.FCP</sourceURL>
+		<offset>8</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L494.DTOP">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/494.DTOP</sourceURL>
+		<offset>0</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L494.BPOK">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/494.BPOK</sourceURL>
+		<offset>1</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L494.FGNP">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/494.FGNP</sourceURL>
+		<offset>2</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L494.FCP">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/494.FCP</sourceURL>
+		<offset>3</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P803.NWCR">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/803.NWCR</sourceURL>
+		<offset>0</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P803.LRP">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/803.LRP</sourceURL>
+		<offset>14</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P803.RWCR">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/803.RWCR</sourceURL>
+		<offset>15</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P809.LRP">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/809.LRP</sourceURL>
+		<offset>11</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P809.RWCR">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/809.RWCR</sourceURL>
+		<offset>12</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P809.NWCR">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/809.NWCR</sourceURL>
+		<offset>13</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P811.NWCR">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/811.NWCR</sourceURL>
+		<offset>10</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P811.LRP">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/811.LRP</sourceURL>
+		<offset>8</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P811.RWCR">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/811.RWCR</sourceURL>
+		<offset>9</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P812.LRP">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/812.LRP</sourceURL>
+		<offset>5</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P812.RWCR">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/812.RWCR</sourceURL>
+		<offset>6</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P812.NWCR">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/812.NWCR</sourceURL>
+		<offset>7</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S497.RGP">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/497.RGP</sourceURL>
+		<offset>15</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S497.RIP">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/497.RIP</sourceURL>
+		<offset>10</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S497.CPBS">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/497.CPBS</sourceURL>
+		<offset>11</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S497.AOR">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/497.AOR</sourceURL>
+		<offset>12</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S497.ASP">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/497.ASP</sourceURL>
+		<offset>13</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S497.NGP">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/497.NGP</sourceURL>
+		<offset>14</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S498.RGP">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/498.RGP</sourceURL>
+		<offset>13</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S498.RIP">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/498.RIP</sourceURL>
+		<offset>5</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S498.CPBS">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/498.CPBS</sourceURL>
+		<offset>6</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S498.AOR">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/498.AOR</sourceURL>
+		<offset>7</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S498.ASP">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/498.ASP</sourceURL>
+		<offset>8</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S498.NGP">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/498.NGP</sourceURL>
+		<offset>9</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S901.RIP">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/901.RIP</sourceURL>
+		<offset>4</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S901.CPBS">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/901.CPBS</sourceURL>
+		<offset>5</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S901.AOR">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/901.AOR</sourceURL>
+		<offset>6</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S901.ASP">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/901.ASP</sourceURL>
+		<offset>7</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S901.RGP">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/901.RGP</sourceURL>
+		<offset>8</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S901.NGP">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/901.NGP</sourceURL>
+		<offset>9</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S902.AOR">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/902.AOR</sourceURL>
+		<offset>0</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S902.ASP">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/902.ASP</sourceURL>
+		<offset>1</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S902.RGP">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/902.RGP</sourceURL>
+		<offset>2</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S902.NGP">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/902.NGP</sourceURL>
+		<offset>3</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S902.RIP">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/902.RIP</sourceURL>
+		<offset>14</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S902.CPBS">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/902.CPBS</sourceURL>
+		<offset>15</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S904.ASP">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/904.ASP</sourceURL>
+		<offset>10</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S904.RGP">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/904.RGP</sourceURL>
+		<offset>11</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S904.CGR">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/904.CGR</sourceURL>
+		<offset>12</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S904.NGP">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/904.NGP</sourceURL>
+		<offset>13</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S904.RIP">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/904.RIP</sourceURL>
+		<offset>7</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S904.CPBS">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/904.CPBS</sourceURL>
+		<offset>8</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S904.AOR">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/904.AOR</sourceURL>
+		<offset>9</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S905.RIP">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/905.RIP</sourceURL>
+		<offset>3</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S905.ASP">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/905.ASP</sourceURL>
+		<offset>4</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S905.RGP">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/905.RGP</sourceURL>
+		<offset>5</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S905.NGP">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/905.NGP</sourceURL>
+		<offset>6</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S907.ASP">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/907.ASP</sourceURL>
+		<offset>0</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S907.RGP">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/907.RGP</sourceURL>
+		<offset>1</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S907.NGP">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/907.NGP</sourceURL>
+		<offset>2</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S907.RIP">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/907.RIP</sourceURL>
+		<offset>15</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S908.CPBS">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/908.CPBS</sourceURL>
+		<offset>10</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S908.AOR">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/908.AOR</sourceURL>
+		<offset>11</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S908.ASP">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/908.ASP</sourceURL>
+		<offset>12</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S908.RGP">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/908.RGP</sourceURL>
+		<offset>13</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S908.NGP">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/908.NGP</sourceURL>
+		<offset>14</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S908.RIP">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/908.RIP</sourceURL>
+		<offset>9</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S909.RIP">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/909.RIP</sourceURL>
+		<offset>2</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S909.CPBS">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/909.CPBS</sourceURL>
+		<offset>3</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S909.AOR">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/909.AOR</sourceURL>
+		<offset>4</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S909.ASP">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/909.ASP</sourceURL>
+		<offset>5</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S909.RGP">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/909.RGP</sourceURL>
+		<offset>6</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S909.CGR">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/909.CGR</sourceURL>
+		<offset>7</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S909.NGP">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/909.NGP</sourceURL>
+		<offset>8</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S911.CGR">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/911.CGR</sourceURL>
+		<offset>0</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S911.NGP">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/911.NGP</sourceURL>
+		<offset>1</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S911.RIP">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/911.RIP</sourceURL>
+		<offset>11</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S911.CPBS">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/911.CPBS</sourceURL>
+		<offset>12</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S911.AOR">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/911.AOR</sourceURL>
+		<offset>13</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S911.ASP">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/911.ASP</sourceURL>
+		<offset>14</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S911.RGP">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/911.RGP</sourceURL>
+		<offset>15</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S912.NGP">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/912.NGP</sourceURL>
+		<offset>10</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S912.RIP">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/912.RIP</sourceURL>
+		<offset>7</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S912.ASP">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/912.ASP</sourceURL>
+		<offset>8</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S912.RGP">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/912.RGP</sourceURL>
+		<offset>9</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S915.RIP">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/915.RIP</sourceURL>
+		<offset>1</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S915.CPBS">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/915.CPBS</sourceURL>
+		<offset>2</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S915.AOR">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/915.AOR</sourceURL>
+		<offset>3</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S915.ASP">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/915.ASP</sourceURL>
+		<offset>4</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S915.RGP">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/915.RGP</sourceURL>
+		<offset>5</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S915.NGP">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/915.NGP</sourceURL>
+		<offset>6</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T305.ARP">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/305.ARP</sourceURL>
+		<offset>3</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T305.TPK">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/305.TPK</sourceURL>
+		<offset>4</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T477.TPK">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/477.TPK</sourceURL>
+		<offset>9</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T494.TPK">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/498.TPK</sourceURL>
+		<offset>4</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T497.TPK">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/497.TPK</sourceURL>
+		<offset>14</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T498.TPK">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/498.TPK</sourceURL>
+		<offset>12</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T499.TPK">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/499.TPK</sourceURL>
+		<offset>11</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T500.TPK">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/500.TPK</sourceURL>
+		<offset>10</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T510.TPK">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/510.TPK</sourceURL>
+		<offset>0</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T901.TPK">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/901.TPK</sourceURL>
+		<offset>2</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T902.TPK">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/902.TPK</sourceURL>
+		<offset>1</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T903.TPK">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/903.TPK</sourceURL>
+		<offset>0</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T904.TPK">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/904.TPK</sourceURL>
+		<offset>15</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T905.TPK">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/905.TPK</sourceURL>
+		<offset>14</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T906.TPK">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/906.TPK</sourceURL>
+		<offset>13</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T907.TPK">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/907.TPK</sourceURL>
+		<offset>12</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T908.TPK">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/908.TPK</sourceURL>
+		<offset>11</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T911.TPK">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/911.TPK</sourceURL>
+		<offset>10</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T912.TPK">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/912.TPK</sourceURL>
+		<offset>9</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T913.TPK">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/913.TPK</sourceURL>
+		<offset>8</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T915.TPK">
+		<interlockingName>BBH</interlockingName>
+		<deviceName>config:/JzaSimulator#BBH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BBH/mnem/915.TPK</sourceURL>
+		<offset>7</offset>
+		<word>7</word>
+	</SignallingIndication>
+</Configs>

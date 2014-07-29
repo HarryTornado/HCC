@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configs>
+	<SignallingIndication xml:id="C435.CRP">
+		<interlockingName>STN</interlockingName>
+		<deviceName>config:/JzaSimulator#SST</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/STN/LIMC435A/value</sourceURL>
+		<offset>7</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="C443.CRP">
+		<interlockingName>STN</interlockingName>
+		<deviceName>config:/JzaSimulator#SST</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/STN/LIMC443A/value</sourceURL>
+		<offset>6</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="C511.CRP">
+		<interlockingName>STN</interlockingName>
+		<deviceName>config:/JzaSimulator#SST</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/STN/LIMC511A/value</sourceURL>
+		<offset>5</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E002.ECP">
+		<interlockingName>STN</interlockingName>
+		<deviceName>config:/JzaSimulator#SST</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/STN/LE002ECP/value</sourceURL>
+		<offset>4</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E241.AREA">
+		<interlockingName>STN</interlockingName>
+		<deviceName>config:/JzaSimulator#SST</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/STN/LE241AREA/value</sourceURL>
+		<offset>3</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E242.AREA">
+		<interlockingName>STN</interlockingName>
+		<deviceName>config:/JzaSimulator#SST</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/STN/LE242AREA/value</sourceURL>
+		<offset>2</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E243.AREA">
+		<interlockingName>STN</interlockingName>
+		<deviceName>config:/JzaSimulator#SST</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/STN/LE243AREA/value</sourceURL>
+		<offset>1</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S184.RGP">
+		<interlockingName>STN</interlockingName>
+		<deviceName>config:/JzaSimulator#SST</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/STN/LIMS502C/value</sourceURL>
+		<offset>0</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S184.NGP">
+		<interlockingName>STN</interlockingName>
+		<deviceName>config:/JzaSimulator#SST</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/STN/LIMS502A/value</sourceURL>
+		<offset>1</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S501.RGP">
+		<interlockingName>STN</interlockingName>
+		<deviceName>config:/JzaSimulator#SST</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/STN/LIMS501C/value</sourceURL>
+		<offset>2</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S501.NGP">
+		<interlockingName>STN</interlockingName>
+		<deviceName>config:/JzaSimulator#SST</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/STN/LIMS501A/value</sourceURL>
+		<offset>3</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S527.CGR">
+		<interlockingName>STN</interlockingName>
+		<deviceName>config:/JzaSimulator#SST</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/STN/LIMS527B/value</sourceURL>
+		<offset>10</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S527.NGP">
+		<interlockingName>STN</interlockingName>
+		<deviceName>config:/JzaSimulator#SST</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/STN/LIMS527A/value</sourceURL>
+		<offset>11</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S527.RIP">
+		<interlockingName>STN</interlockingName>
+		<deviceName>config:/JzaSimulator#SST</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/STN/LIMS527G/value</sourceURL>
+		<offset>5</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S527.ASP">
+		<interlockingName>STN</interlockingName>
+		<deviceName>config:/JzaSimulator#SST</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/STN/LIMS527D/value</sourceURL>
+		<offset>8</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S527.RGP">
+		<interlockingName>STN</interlockingName>
+		<deviceName>config:/JzaSimulator#SST</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/STN/LIMS527C/value</sourceURL>
+		<offset>9</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S530.CPBS">
+		<interlockingName>STN</interlockingName>
+		<deviceName>config:/JzaSimulator#SST</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/STN/LIMS530F/value</sourceURL>
+		<offset>10</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S530.ASP">
+		<interlockingName>STN</interlockingName>
+		<deviceName>config:/JzaSimulator#SST</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/STN/LIMS530D/value</sourceURL>
+		<offset>12</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S530.RGP">
+		<interlockingName>STN</interlockingName>
+		<deviceName>config:/JzaSimulator#SST</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/STN/LIMS530C/value</sourceURL>
+		<offset>13</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S530.CGR">
+		<interlockingName>STN</interlockingName>
+		<deviceName>config:/JzaSimulator#SST</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/STN/LIMS530B/value</sourceURL>
+		<offset>14</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S530.NGP">
+		<interlockingName>STN</interlockingName>
+		<deviceName>config:/JzaSimulator#SST</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/STN/LIMS530A/value</sourceURL>
+		<offset>15</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S530.RIP">
+		<interlockingName>STN</interlockingName>
+		<deviceName>config:/JzaSimulator#SST</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/STN/LIMS530G/value</sourceURL>
+		<offset>9</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S540.RIP">
+		<interlockingName>STN</interlockingName>
+		<deviceName>config:/JzaSimulator#SST</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/STN/LIMS540G/value</sourceURL>
+		<offset>10</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S540.CPBS">
+		<interlockingName>STN</interlockingName>
+		<deviceName>config:/JzaSimulator#SST</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/STN/LIMS540F/value</sourceURL>
+		<offset>11</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S540.ASP">
+		<interlockingName>STN</interlockingName>
+		<deviceName>config:/JzaSimulator#SST</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/STN/LIMS540D/value</sourceURL>
+		<offset>13</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S540.RGP">
+		<interlockingName>STN</interlockingName>
+		<deviceName>config:/JzaSimulator#SST</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/STN/LIMS540C/value</sourceURL>
+		<offset>14</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S540.NGP">
+		<interlockingName>STN</interlockingName>
+		<deviceName>config:/JzaSimulator#SST</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/STN/LIMS540A/value</sourceURL>
+		<offset>15</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S542.RIP">
+		<interlockingName>STN</interlockingName>
+		<deviceName>config:/JzaSimulator#SST</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/STN/LIMS542G/value</sourceURL>
+		<offset>1</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S542.CPBS">
+		<interlockingName>STN</interlockingName>
+		<deviceName>config:/JzaSimulator#SST</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/STN/LIMS542F/value</sourceURL>
+		<offset>2</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S542.ASP">
+		<interlockingName>STN</interlockingName>
+		<deviceName>config:/JzaSimulator#SST</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/STN/LIMS542D/value</sourceURL>
+		<offset>4</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S542.RGP">
+		<interlockingName>STN</interlockingName>
+		<deviceName>config:/JzaSimulator#SST</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/STN/LIMS542C/value</sourceURL>
+		<offset>5</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S542.CGR">
+		<interlockingName>STN</interlockingName>
+		<deviceName>config:/JzaSimulator#SST</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/STN/LIMS542B/value</sourceURL>
+		<offset>6</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S542.NGP">
+		<interlockingName>STN</interlockingName>
+		<deviceName>config:/JzaSimulator#SST</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/STN/LIMS542A/value</sourceURL>
+		<offset>7</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S544.RIP">
+		<interlockingName>STN</interlockingName>
+		<deviceName>config:/JzaSimulator#SST</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/STN/LIMS544G/value</sourceURL>
+		<offset>0</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S544.ASP">
+		<interlockingName>STN</interlockingName>
+		<deviceName>config:/JzaSimulator#SST</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/STN/LIMS544D/value</sourceURL>
+		<offset>1</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S544.RGP">
+		<interlockingName>STN</interlockingName>
+		<deviceName>config:/JzaSimulator#SST</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/STN/LIMS544C/value</sourceURL>
+		<offset>2</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S544.NGP">
+		<interlockingName>STN</interlockingName>
+		<deviceName>config:/JzaSimulator#SST</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/STN/LIMS544A/value</sourceURL>
+		<offset>3</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S548.CPBS">
+		<interlockingName>STN</interlockingName>
+		<deviceName>config:/JzaSimulator#SST</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/STN/LIMS548F/value</sourceURL>
+		<offset>10</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S548.ASP">
+		<interlockingName>STN</interlockingName>
+		<deviceName>config:/JzaSimulator#SST</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/STN/LIMS548D/value</sourceURL>
+		<offset>12</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S548.RGP">
+		<interlockingName>STN</interlockingName>
+		<deviceName>config:/JzaSimulator#SST</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/STN/LIMS548C/value</sourceURL>
+		<offset>13</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S548.CGR">
+		<interlockingName>STN</interlockingName>
+		<deviceName>config:/JzaSimulator#SST</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/STN/LIMS548B/value</sourceURL>
+		<offset>14</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S548.NGP">
+		<interlockingName>STN</interlockingName>
+		<deviceName>config:/JzaSimulator#SST</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/STN/LIMS548A/value</sourceURL>
+		<offset>15</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S548.RIP">
+		<interlockingName>STN</interlockingName>
+		<deviceName>config:/JzaSimulator#SST</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/STN/LIMS548G/value</sourceURL>
+		<offset>9</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S580.RIP">
+		<interlockingName>STN</interlockingName>
+		<deviceName>config:/JzaSimulator#SST</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/STN/LIMS580G/value</sourceURL>
+		<offset>4</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S580.CPBS">
+		<interlockingName>STN</interlockingName>
+		<deviceName>config:/JzaSimulator#SST</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/STN/LIMS580F/value</sourceURL>
+		<offset>5</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S580.AOR">
+		<interlockingName>STN</interlockingName>
+		<deviceName>config:/JzaSimulator#SST</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/STN/LIMS580E/value</sourceURL>
+		<offset>6</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S580.ASP">
+		<interlockingName>STN</interlockingName>
+		<deviceName>config:/JzaSimulator#SST</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/STN/LIMS580D/value</sourceURL>
+		<offset>7</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S580.RGP">
+		<interlockingName>STN</interlockingName>
+		<deviceName>config:/JzaSimulator#SST</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/STN/LIMS580C/value</sourceURL>
+		<offset>8</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S580.NGP">
+		<interlockingName>STN</interlockingName>
+		<deviceName>config:/JzaSimulator#SST</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/STN/LIMS580A/value</sourceURL>
+		<offset>9</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S586.RIP">
+		<interlockingName>STN</interlockingName>
+		<deviceName>config:/JzaSimulator#SST</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/STN/LIMS586G/value</sourceURL>
+		<offset>1</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S586.CPBS">
+		<interlockingName>STN</interlockingName>
+		<deviceName>config:/JzaSimulator#SST</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/STN/LIMS586F/value</sourceURL>
+		<offset>2</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S586.ASP">
+		<interlockingName>STN</interlockingName>
+		<deviceName>config:/JzaSimulator#SST</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/STN/LIMS586D/value</sourceURL>
+		<offset>4</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S586.RGP">
+		<interlockingName>STN</interlockingName>
+		<deviceName>config:/JzaSimulator#SST</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/STN/LIMS586C/value</sourceURL>
+		<offset>5</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S586.CGR">
+		<interlockingName>STN</interlockingName>
+		<deviceName>config:/JzaSimulator#SST</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/STN/LIMS586B/value</sourceURL>
+		<offset>6</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S586.NGP">
+		<interlockingName>STN</interlockingName>
+		<deviceName>config:/JzaSimulator#SST</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/STN/LIMS586A/value</sourceURL>
+		<offset>7</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T010.TPK">
+		<interlockingName>STN</interlockingName>
+		<deviceName>config:/JzaSimulator#SST</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/STN/LIMT010A/value</sourceURL>
+		<offset>15</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T182.TPK">
+		<interlockingName>STN</interlockingName>
+		<deviceName>config:/JzaSimulator#SST</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/STN/LIMT182A/value</sourceURL>
+		<offset>13</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T183.TPK">
+		<interlockingName>STN</interlockingName>
+		<deviceName>config:/JzaSimulator#SST</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/STN/LIMT183A/value</sourceURL>
+		<offset>12</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T184.TPK">
+		<interlockingName>STN</interlockingName>
+		<deviceName>config:/JzaSimulator#SST</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/STN/LIMT184A/value</sourceURL>
+		<offset>11</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T202.TPK">
+		<interlockingName>STN</interlockingName>
+		<deviceName>config:/JzaSimulator#SST</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/STN/LIMT202A/value</sourceURL>
+		<offset>10</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T214.TPK">
+		<interlockingName>STN</interlockingName>
+		<deviceName>config:/JzaSimulator#SST</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/STN/LIMT214A/value</sourceURL>
+		<offset>9</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T418.TPK">
+		<interlockingName>STN</interlockingName>
+		<deviceName>config:/JzaSimulator#SST</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/STN/LIMT418A/value</sourceURL>
+		<offset>7</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T440.TPK">
+		<interlockingName>STN</interlockingName>
+		<deviceName>config:/JzaSimulator#SST</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/STN/LIMT440A/value</sourceURL>
+		<offset>6</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T442.TPK">
+		<interlockingName>STN</interlockingName>
+		<deviceName>config:/JzaSimulator#SST</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/STN/LIMT442A/value</sourceURL>
+		<offset>5</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T462.TPK">
+		<interlockingName>STN</interlockingName>
+		<deviceName>config:/JzaSimulator#SST</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/STN/LIMT462A/value</sourceURL>
+		<offset>4</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T506.TPK">
+		<interlockingName>STN</interlockingName>
+		<deviceName>config:/JzaSimulator#SST</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/STN/LIMT506A/value</sourceURL>
+		<offset>3</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T530.TPK">
+		<interlockingName>STN</interlockingName>
+		<deviceName>config:/JzaSimulator#SST</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/STN/LIMT530A/value</sourceURL>
+		<offset>1</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T540.TPK">
+		<interlockingName>STN</interlockingName>
+		<deviceName>config:/JzaSimulator#SST</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/STN/LIMT540A/value</sourceURL>
+		<offset>15</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T546.TPK">
+		<interlockingName>STN</interlockingName>
+		<deviceName>config:/JzaSimulator#SST</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/STN/LIMT546A/value</sourceURL>
+		<offset>14</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T562.TPK">
+		<interlockingName>STN</interlockingName>
+		<deviceName>config:/JzaSimulator#SST</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/STN/LIMT562A/value</sourceURL>
+		<offset>13</offset>
+		<word>6</word>
+	</SignallingIndication>
+</Configs>

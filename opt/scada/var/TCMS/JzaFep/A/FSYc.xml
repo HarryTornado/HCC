@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configs>
+	<JzaControl xml:id="SW235.RLPR">
+		<interlockingName>WFY</interlockingName>
+		<deviceName>config:/FSY#FSY</deviceName>
+		<length>1</length>
+		<offset>14</offset>
+		<word>2</word>
+	</JzaControl>
+	<JzaControl xml:id="SW235.NLPR">
+		<interlockingName>WFY</interlockingName>
+		<deviceName>config:/FSY#FSY</deviceName>
+		<length>1</length>
+		<offset>15</offset>
+		<word>2</word>
+	</JzaControl>
+	<JzaControl xml:id="S238.RLPR">
+		<interlockingName>WFY</interlockingName>
+		<deviceName>config:/FSY#FSY</deviceName>
+		<length>1</length>
+		<offset>9</offset>
+		<word>2</word>
+	</JzaControl>
+	<JzaControl xml:id="S238.NLPR">
+		<interlockingName>WFY</interlockingName>
+		<deviceName>config:/FSY#FSY</deviceName>
+		<length>1</length>
+		<offset>10</offset>
+		<word>2</word>
+	</JzaControl>
+</Configs>

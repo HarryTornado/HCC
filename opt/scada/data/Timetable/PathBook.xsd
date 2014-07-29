@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2008 rel. 2 sp1 (http://www.altova.com) by Steven Baker (private) -->
+<!-- edited with XMLSPY v5 rel. 4 U (http://www.xmlspy.com) by Sebastian Luehr (Westinghouse Signals Australia) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:include schemaLocation="TTDataTypes.xsd"/>
+	<xs:element name="Paths">
+		<xs:annotation>
+			<xs:documentation>A collection of all possible paths, their objects, default stopping times, and their associted stopping patterns </xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Header">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="GeoObjectDataVersion"/>
+							<xs:element name="PathBookDataVersion"/>
+							<xs:element name="XMLFilename"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Path" maxOccurs="unbounded">
+					<xs:annotation>
+						<xs:documentation>This data shall have at least one path.</xs:documentation>
+					</xs:annotation>
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="PathId" type="xs:nonNegativeInteger">
+								<xs:annotation>
+									<xs:documentation>Unique across all 'Paths'</xs:documentation>
+								</xs:annotation>
+							</xs:element>
+							<xs:element name="Group">
+								<xs:simpleType>
+									<xs:restriction base="xs:string">
+										<xs:pattern value="BLY|CFD|CHL|NOR|SHM"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element ref="Direction"/>
+							<xs:element name="Note" type="xs:string" minOccurs="0">
+								<xs:annotation>
+									<xs:documentation>eg. via THRU and N03BLY</xs:documentation>
+								</xs:annotation>
+							</xs:element>
+							<xs:element name="IsPreferredPath" type="xs:boolean" default="false" minOccurs="0">
+								<xs:annotation>
+									<xs:documentation>True if the path is a preferred path for the given start object</xs:documentation>
+								</xs:annotation>
+							</xs:element>
+							<xs:element name="PathObjects">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="PathObject" maxOccurs="unbounded">
+											<xs:annotation>
+												<xs:documentation>The order of these objects are important, it mirrors the order that they are in the path.</xs:documentation>
+											</xs:annotation>
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="Object" type="GEOObjType"/>
+													<xs:element name="TimesFromPreviousObject">
+														<xs:annotation>
+															<xs:documentation>This captures the defaults timings for this object from the previous object.</xs:documentation>
+														</xs:annotation>
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element ref="StopPatternTimes"/>
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="StoppingPatterns">
+								<xs:annotation>
+									<xs:documentation>All possible stopping patterns for this path</xs:documentation>
+								</xs:annotation>
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="StoppingPattern" minOccurs="2" maxOccurs="unbounded">
+											<xs:annotation>
+												<xs:documentation>There is a minmum of two stopping patterns that must exist for a path. The first has a stop code of '0' which means express al except the first and last object, and '1' which means stop all stations</xs:documentation>
+											</xs:annotation>
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="StopCode" type="StopCode">
+														<xs:annotation>
+															<xs:documentation>This is the ID given to the stop code. It is scoped to this route. I.e. stop code are not shared</xs:documentation>
+														</xs:annotation>
+													</xs:element>
+													<xs:element name="Stops" maxOccurs="unbounded">
+														<xs:annotation>
+															<xs:documentation>The number of 'Stops' will equal the number of Objects in this route.</xs:documentation>
+														</xs:annotation>
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="StopAtObject" type="xs:boolean">
+																	<xs:annotation>
+																		<xs:documentation>This is true or false. True = stop, false = Express</xs:documentation>
+																	</xs:annotation>
+																</xs:element>
+																<xs:element name="StopTime" type="xs:time" default="00:00:20" minOccurs="0">
+																	<xs:annotation>
+																		<xs:documentation>If there is no stop at object  this value is ignored. If there is a stop at object, but this element is not present, 20s is assumed.</xs:documentation>
+																	</xs:annotation>
+																</xs:element>
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="Note" type="xs:string" minOccurs="0">
+														<xs:annotation>
+															<xs:documentation>e.g. 7 min X UFG</xs:documentation>
+														</xs:annotation>
+													</xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+					<xs:unique name="UniqueSignalNumberWithinPath">
+						<xs:selector xpath="PathObjects/PathObject/Object/GeoObject/Signal"/>
+						<xs:field xpath="SignalNumber"/>
+					</xs:unique>
+					<xs:unique name="UniqueStationPlatformWithinPath">
+						<xs:selector xpath="PathObjects/PathObject/Object/GeoObject/Platform"/>
+						<xs:field xpath="Station"/>
+						<xs:field xpath="PlatformNumber"/>
+					</xs:unique>
+					<xs:unique name="UniqueStopCodeWithinPath">
+						<xs:selector xpath="StoppingPatterns/StoppingPattern"/>
+						<xs:field xpath="StopCode"/>
+					</xs:unique>
+					<xs:unique name="GeoObjectId">
+						<xs:selector xpath="PathObjects/PathObject/Object"/>
+						<xs:field xpath="GeoObjectId"/>
+					</xs:unique>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+		<xs:unique name="UniquePathIdGroup">
+			<xs:selector xpath="Path"/>
+			<xs:field xpath="PathId"/>
+			<xs:field xpath="Group"/>
+		</xs:unique>
+	</xs:element>
+</xs:schema>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configs>
+	<SignallingControl xml:id="S527.CPBPR">
+		<interlockingName>STN</interlockingName>
+		<deviceName>config:/JzaSimulator#SST</deviceName>
+		<offset>11</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S527.RLPR">
+		<interlockingName>STN</interlockingName>
+		<deviceName>config:/JzaSimulator#SST</deviceName>
+		<offset>14</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S527.NLPR">
+		<interlockingName>STN</interlockingName>
+		<deviceName>config:/JzaSimulator#SST</deviceName>
+		<offset>15</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+</Configs>

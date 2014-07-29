@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configs>
+	<SignallingIndication xml:id="E001.EFP">
+		<interlockingName>SKN</interlockingName>
+		<deviceName>config:/JzaSimulator#SKF</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/SKN/001EFP/value</sourceURL>
+		<offset>4</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E002.ECP">
+		<interlockingName>SKN</interlockingName>
+		<deviceName>config:/JzaSimulator#SKF</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/SKN/002ECP/value</sourceURL>
+		<offset>3</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E003.ACPOR">
+		<interlockingName>SKN</interlockingName>
+		<deviceName>config:/JzaSimulator#SKF</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/SKN/003ACPOR/value</sourceURL>
+		<offset>2</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E004.BATTLR">
+		<interlockingName>SKN</interlockingName>
+		<deviceName>config:/JzaSimulator#SKF</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/SKN/004BATTLR/value</sourceURL>
+		<offset>1</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E005.BF">
+		<interlockingName>SKN</interlockingName>
+		<deviceName>config:/JzaSimulator#SKF</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/SKN/005BF/value</sourceURL>
+		<offset>0</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E006.SCREP">
+		<interlockingName>SKN</interlockingName>
+		<deviceName>config:/JzaSimulator#SKF</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/SKN/006SCREP/value</sourceURL>
+		<offset>7</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E011.PWRONR">
+		<interlockingName>SKN</interlockingName>
+		<deviceName>config:/JzaSimulator#SKF</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/SKN/011.PWRONR/value</sourceURL>
+		<offset>9</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E012.PWROFFR">
+		<interlockingName>SKN</interlockingName>
+		<deviceName>config:/JzaSimulator#SKF</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/SKN/012.PWROFFR/value</sourceURL>
+		<offset>8</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E021.APLP">
+		<interlockingName>SKN</interlockingName>
+		<deviceName>config:/JzaSimulator#SKF</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/SKN/021APLP/value</sourceURL>
+		<offset>12</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E022.CF">
+		<interlockingName>SKN</interlockingName>
+		<deviceName>config:/JzaSimulator#SKF</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/SKN/022CF/value</sourceURL>
+		<offset>11</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E023.CPFR">
+		<interlockingName>SKN</interlockingName>
+		<deviceName>config:/JzaSimulator#SKF</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/SKN/023CPFR/value</sourceURL>
+		<offset>10</offset>
+		<word>2</word>
+	</SignallingIndication>
+</Configs>

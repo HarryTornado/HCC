@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Config>
+
+<CmdAgentMain xml_id="CmdAgentSRDMain">
+	<thisServiceCommandPath>/coreCommand</thisServiceCommandPath>
+	<targetAppHostname>oil://StoredRoutes.TCMS</targetAppHostname>
+	<thisServiceName>CLISRDAgent</thisServiceName>
+	<thisServiceHostname>oil://CLISRDAgent.TCMS</thisServiceHostname>
+	<commandsInfo>
+
+		<!-- Display Stored Routes -->
+		<commandInfo registration="^DPQ\s.*">
+			<data><syntaxOptions>
+				<description>
+					<syntax mnemonic="DPQ">NUMBER:const=0</syntax>
+					<urlPathTemplateSet>
+						<urlPathTemplate action="EXEC">gnome-terminal --geometry=90x30+0+0</urlPathTemplate>
+					</urlPathTemplateSet>
+				</description>
+
+				<description>
+					<syntax mnemonic="DPQ">NUMBER:const=1</syntax>
+					<urlPathTemplateSet>
+						<urlPathTemplate action="EXEC">gnome-terminal --geometry=60x20+100+100</urlPathTemplate>
+					</urlPathTemplateSet>
+				</description>
+			</syntaxOptions></data>
+		</commandInfo>
+
+	</commandsInfo>
+</CmdAgentMain>
+
+</Config>

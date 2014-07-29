@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Config>
+
+<CmdAgentMain xml_id="CmdAgentRSVMain">
+	<thisServiceCommandPath>/coreCommand</thisServiceCommandPath>
+	<!-- This target name is bogus: nothing in this agent should issue
+		commands to anything but a script via EXEC. -->
+	<targetAppHostname>oil://CLIRSVAgent.TCMS</targetAppHostname>
+	<thisServiceHostname>oil://CLIRSVAgent.TCMS</thisServiceHostname>
+	<thisServiceName>CLIRSVAgent</thisServiceName>
+	<commandsInfo>
+
+		<commandInfo registration="^RSV\s.*">
+			<data><syntaxOptions>
+				<!-- View Ground-Frame -->
+				<description>
+					<syntax mnemonic="RSV" authoriseArgs="NONE">STRING:word[GF] RAILOBJ:gndframe NUMBER:vdu?0</syntax>
+					<urlPathTemplateSet>
+						<urlPathTemplate action="EXEC">rsv_script --type ground-frame --object %2 %3</urlPathTemplate>
+					</urlPathTemplateSet>
+				</description>
+
+				<!-- View Level-Crossing -->
+				<description>
+					<syntax mnemonic="RSV" authoriseArgs="NONE">STRING:word[LX] RAILOBJ:levelcrossing NUMBER:vdu?0</syntax>
+					<urlPathTemplateSet>
+						<urlPathTemplate action="EXEC">rsv_script --type level-crossing --object %2 %3</urlPathTemplate>
+					</urlPathTemplateSet>
+				</description>
+
+				<!-- View Point -->
+				<description>
+					<syntax mnemonic="RSV" authoriseArgs="NONE">STRING:word[P] RAILOBJ:point NUMBER:vdu?0</syntax>
+					<urlPathTemplateSet>
+						<urlPathTemplate action="EXEC">rsv_script --type point --object %2 %3</urlPathTemplate>
+					</urlPathTemplateSet>
+				</description>
+
+				<!-- View Route -->
+				<description>
+					<syntax mnemonic="RSV" authoriseArgs="NONE">STRING:word[R] RAILOBJ:route NUMBER:vdu?0</syntax>
+					<urlPathTemplateSet>
+						<urlPathTemplate action="EXEC">rsv_script --type route --object %2 %3</urlPathTemplate>
+					</urlPathTemplateSet>
+				</description>
+
+				<!-- View Remote-Field-Station -->
+				<description>
+					<syntax mnemonic="RSV" authoriseArgs="NONE">STRING:word[RFS] RAILOBJ:rfs NUMBER:vdu?0</syntax>
+					<urlPathTemplateSet>
+						<urlPathTemplate action="EXEC">rsv_script --type remote-field-station --object %2 %3</urlPathTemplate>
+					</urlPathTemplateSet>
+				</description>
+
+				<!-- View Signal -->
+				<description>
+					<syntax mnemonic="RSV" authoriseArgs="NONE">STRING:word[S] RAILOBJ:signal NUMBER:vdu?2</syntax>
+					<urlPathTemplateSet>
+						<urlPathTemplate action="EXEC">rsv_script --type signal --object %2 %3</urlPathTemplate>
+					</urlPathTemplateSet>
+				</description>
+
+				<!-- View Single-Line-Control -->
+				<description>
+					<syntax mnemonic="RSV" authoriseArgs="NONE">STRING:word[SLC] RAILOBJ:slcontrol NUMBER:vdu?0</syntax>
+					<urlPathTemplateSet>
+						<urlPathTemplate action="EXEC">rsv_script --type single-line-control --object %2 %3</urlPathTemplate>
+					</urlPathTemplateSet>
+				</description>
+
+				<!-- View Track -->
+				<description>
+					<syntax mnemonic="RSV" authoriseArgs="NONE">STRING:word[T] RAILOBJ:track NUMBER:vdu?0</syntax>
+					<urlPathTemplateSet>
+						<urlPathTemplate action="EXEC">rsv_script --type track --object %2 %3</urlPathTemplate>
+					</urlPathTemplateSet>
+				</description>
+
+				<!-- View Track-Circuit -->
+				<description>
+					<syntax mnemonic="RSV" authoriseArgs="NONE">STRING:word[TC] RAILOBJ:trackcct NUMBER:vdu?0</syntax>
+					<urlPathTemplateSet>
+						<urlPathTemplate action="EXEC">rsv_script --type tc --object %2 %3</urlPathTemplate>
+					</urlPathTemplateSet>
+				</description>
+
+			</syntaxOptions></data>
+		</commandInfo>
+
+	</commandsInfo>
+</CmdAgentMain>
+
+</Config>
+

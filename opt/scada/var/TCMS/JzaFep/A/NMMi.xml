@@ -1,0 +1,765 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configs>
+	<JzaIndication xml:id="E001NM.EFP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>4</offset>
+		<word>10</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E002NM.ECP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>3</offset>
+		<word>10</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E003NM.ACPOR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>2</offset>
+		<word>10</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E004NM.BATTLR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>1</offset>
+		<word>10</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E005NM.BF">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>0</offset>
+		<word>10</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P460.LRP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>13</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P460.RWCR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>14</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P460.NWCR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>15</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P461.LRP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>10</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P461.RWCR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>11</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P461.NWCR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>12</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P462.LRP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>7</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P462.RWCR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>8</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P462.NWCR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>9</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P463.LRP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>4</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P463.RWCR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>5</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P463.NWCR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>6</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P465.LRP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>1</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P465.RWCR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>2</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P465.NWCR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>3</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P470.NWCR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>0</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P470.LRP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>14</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P470.RWCR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>15</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P471.LRP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>11</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P471.RWCR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>12</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P471.NWCR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>13</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P472.LRP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>5</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P472.RWCR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>6</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P472.NWCR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>7</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P473.LRP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>2</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P473.RWCR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>3</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P473.NWCR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>4</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="SK456.RGP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>15</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S461.RGP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>14</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S474.RGP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>13</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S561.RGP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>10</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S561.CGR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>11</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S561.NGP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>12</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S561.RIP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>6</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S561.CPBS">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>7</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S561.AOR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>8</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S561.ASP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>9</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S562.CPBS">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>0</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S562.AOR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>1</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S562.ASP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>2</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S562.RGP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>3</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S562.CGR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>4</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S562.NGP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>5</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S562.RIP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>15</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S563.AOR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>10</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S563.ASP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>11</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S563.RGP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>12</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S563.NGP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>14</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S563.RIP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>8</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S564.RIP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>1</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S564.AOR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>3</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S564.ASP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>4</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S564.RGP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>5</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S564.NGP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>7</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S566.NGP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>0</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S566.RIP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>10</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S566.CPBS">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>11</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S566.AOR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>12</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S566.ASP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>13</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S566.RGP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>14</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S566.CGR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>15</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S571.RIP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>3</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S571.CPBS">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>4</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S571.AOR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>5</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S571.ASP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>6</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S571.RGP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>7</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S571.CGR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>8</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S571.NGP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>9</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S572.RGP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>0</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S572.CGR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>1</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S572.NGP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>2</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S572.RIP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>12</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S572.CPBS">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>13</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S572.AOR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>14</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S572.ASP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>15</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S573.NGP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>11</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S573.RIP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>5</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S573.AOR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>7</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S573.ASP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>8</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S573.RGP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>9</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S576.AOR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>0</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S576.ASP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>1</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S576.RGP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>2</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S576.CGR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>3</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S576.NGP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>4</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S576.RIP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>14</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S576.CPBS">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>15</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T261.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>11</offset>
+		<word>8</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T263.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>10</offset>
+		<word>8</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T270.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>9</offset>
+		<word>8</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T273.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>8</offset>
+		<word>8</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T277.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>7</offset>
+		<word>8</word>
+	</JzaIndication>
+	<JzaIndication xml:id="TK456.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>6</offset>
+		<word>8</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T457.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>5</offset>
+		<word>8</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T459.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>4</offset>
+		<word>8</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T460.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>3</offset>
+		<word>8</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T461.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>2</offset>
+		<word>8</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T462.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>1</offset>
+		<word>8</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T463.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>0</offset>
+		<word>8</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T465.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>15</offset>
+		<word>9</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T469.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>14</offset>
+		<word>9</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T470.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>13</offset>
+		<word>9</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T471.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>12</offset>
+		<word>9</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T472.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>11</offset>
+		<word>9</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T473.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>10</offset>
+		<word>9</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T474.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>9</offset>
+		<word>9</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T475.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>8</offset>
+		<word>9</word>
+	</JzaIndication>
+	<JzaIndication xml:id="TK556.ARP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>6</offset>
+		<word>9</word>
+	</JzaIndication>
+	<JzaIndication xml:id="TK556.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>7</offset>
+		<word>9</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T560.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>5</offset>
+		<word>9</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T561.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>4</offset>
+		<word>9</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T562.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>3</offset>
+		<word>9</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T563.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>2</offset>
+		<word>9</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T564.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>1</offset>
+		<word>9</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T565.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>0</offset>
+		<word>9</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T566.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>15</offset>
+		<word>10</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T571.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>14</offset>
+		<word>10</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T572.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>13</offset>
+		<word>10</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T573.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>12</offset>
+		<word>10</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T574.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>11</offset>
+		<word>10</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T575.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>10</offset>
+		<word>10</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T576.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/NMM#NMM</deviceName>
+		<offset>9</offset>
+		<word>10</word>
+	</JzaIndication>
+</Configs>

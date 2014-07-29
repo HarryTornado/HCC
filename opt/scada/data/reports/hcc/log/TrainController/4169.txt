@@ -1,0 +1,1021 @@
+Sun 30/Oct/2011 22:10:00.102 TrainController/4169 train restarted. tdn 4169
+Sun 30/Oct/2011 22:10:00.103 TrainController/4169 train status changed. 
+Sun 30/Oct/2011 22:10:00.103 TrainController/4169 head track FSB/T945 is on new platform FSS012
+Sun 30/Oct/2011 22:10:00.103 TrainController/4169 inPlatform: false
+Sun 30/Oct/2011 22:10:00.103 TrainController/4169 exiting trainStateChanged
+Sun 30/Oct/2011 22:10:00.495 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:10:00.495 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:10:01.498 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:10:01.498 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:10:02.502 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:10:02.502 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:10:03.164 TrainController/4169 reading trip
+Sun 30/Oct/2011 22:10:03.165 TrainController/4169 creating train plan
+Sun 30/Oct/2011 22:10:03.170 TrainController/4169 update train plan time
+Sun 30/Oct/2011 22:10:03.171 TrainController/4169 request Schedule
+Sun 30/Oct/2011 22:10:03.171 TrainController/4169 train status changed. 
+Sun 30/Oct/2011 22:10:03.171 TrainController/4169 head track FSB/T945 is on new platform FSS012
+Sun 30/Oct/2011 22:10:03.172 TrainController/4169 inPlatform: true
+Sun 30/Oct/2011 22:10:03.173 TrainController/4169 exiting trainStateChanged
+Sun 30/Oct/2011 22:10:03.504 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:10:03.507 TrainController/4169 checking FSB/R950A
+Sun 30/Oct/2011 22:10:03.508 TrainController/4169 now starting FSB/R950A
+Sun 30/Oct/2011 22:10:03.508 TrainController2/4169/SignalController/FSB/R950A created
+Sun 30/Oct/2011 22:10:03.509 TrainController/4169 checking FSB/R860A
+Sun 30/Oct/2011 22:10:03.509 TrainController/4169 checking FSE/R864A-FSE/R992B
+Sun 30/Oct/2011 22:10:03.509 TrainController/4169 FSE/R864A-FSE/R992B not available
+Sun 30/Oct/2011 22:10:03.510 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:10:03.513 TrainController2/4169/SignalController/FSB/R950A successfully claimed
+Sun 30/Oct/2011 22:10:03.519 TrainController2/4169/SignalController/FSB/R950A RouteStateChange Event. RouteModel:FSB/R950A, oldState: Turning, newState: Locked
+Sun 30/Oct/2011 22:10:03.531 TrainController2/4169/SignalController/FSB/R950A RouteStateChange Event. RouteModel:FSB/R950A, oldState: Dormant, newState: Locked
+Sun 30/Oct/2011 22:10:04.380 TrainController2/4169/SignalController/FSB/R950A RouteStateChange Event. RouteModel:FSB/R950A, oldState: Locked, newState: Clear
+Sun 30/Oct/2011 22:10:04.380 TrainController2/4169/SignalController/FSB/R950A checking for next route...
+Sun 30/Oct/2011 22:10:04.380 TrainController2/4169/SignalController/FSB/R950A no more route. SignalController OK sent to Traincontroller
+Sun 30/Oct/2011 22:10:04.380 TrainController/4169  signal controller FSB/R950A ok
+Sun 30/Oct/2011 22:10:04.511 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:10:04.512 TrainController/4169 checking FSE/R864A-FSE/R992B
+Sun 30/Oct/2011 22:10:04.512 TrainController/4169 FSE/R864A-FSE/R992B not available
+Sun 30/Oct/2011 22:10:04.513 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:10:05.126 TrainController/4169 train status changed. 
+Sun 30/Oct/2011 22:10:05.126 TrainController/4169 head track FSB/T945 is on new platform FSS012
+Sun 30/Oct/2011 22:10:05.126 TrainController/4169 inPlatform: true
+Sun 30/Oct/2011 22:10:05.127 TrainController/4169 exiting trainStateChanged
+Sun 30/Oct/2011 22:10:05.387 TrainController2/4169/SignalController/FSB/R950A RouteStateChange Event. RouteModel:FSB/R950A, oldState: Clear, newState: TrainIn
+Sun 30/Oct/2011 22:10:05.399 TrainController2/4169/SignalController/FSB/R950A Clearing up
+Sun 30/Oct/2011 22:10:05.575 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:10:05.589 TrainController/4169 checking FSE/R864A-FSE/R992B
+Sun 30/Oct/2011 22:10:05.596 TrainController/4169 FSE/R864A-FSE/R992B not available
+Sun 30/Oct/2011 22:10:05.597 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:10:06.752 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:10:06.766 TrainController/4169 checking FSE/R864A-FSE/R992B
+Sun 30/Oct/2011 22:10:06.782 TrainController/4169 FSE/R864A-FSE/R992B not available
+Sun 30/Oct/2011 22:10:06.782 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:10:07.783 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:10:07.784 TrainController/4169 checking FSE/R864A-FSE/R992B
+Sun 30/Oct/2011 22:10:07.785 TrainController/4169 FSE/R864A-FSE/R992B not available
+Sun 30/Oct/2011 22:10:07.785 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:10:08.787 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:10:08.787 TrainController/4169 checking FSE/R864A-FSE/R992B
+Sun 30/Oct/2011 22:10:08.787 TrainController/4169 FSE/R864A-FSE/R992B not available
+Sun 30/Oct/2011 22:10:08.788 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:10:09.788 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:10:09.789 TrainController/4169 checking FSE/R864A-FSE/R992B
+Sun 30/Oct/2011 22:10:09.789 TrainController/4169 FSE/R864A-FSE/R992B not available
+Sun 30/Oct/2011 22:10:09.790 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:10:10.430 TrainController/4169 train status changed. 
+Sun 30/Oct/2011 22:10:10.430 TrainController/4169 exiting trainStateChanged
+Sun 30/Oct/2011 22:10:10.791 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:10:10.792 TrainController/4169 checking FSE/R864A-FSE/R992B
+Sun 30/Oct/2011 22:10:10.793 TrainController/4169 FSE/R864A-FSE/R992B not available
+Sun 30/Oct/2011 22:10:10.793 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:10:11.794 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:10:11.795 TrainController/4169 checking FSE/R864A-FSE/R992B
+Sun 30/Oct/2011 22:10:11.795 TrainController/4169 FSE/R864A-FSE/R992B not available
+Sun 30/Oct/2011 22:10:11.795 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:10:12.443 TrainController/4169 train status changed. 
+Sun 30/Oct/2011 22:10:12.443 TrainController/4169 exiting trainStateChanged
+Sun 30/Oct/2011 22:10:12.797 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:10:12.798 TrainController/4169 checking FSE/R864A-FSE/R992B
+Sun 30/Oct/2011 22:10:12.798 TrainController/4169 FSE/R864A-FSE/R992B not available
+Sun 30/Oct/2011 22:10:12.798 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:10:13.802 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:10:13.811 TrainController/4169 checking FSE/R864A-FSE/R992B
+Sun 30/Oct/2011 22:10:13.817 TrainController/4169 FSE/R864A-FSE/R992B not available
+Sun 30/Oct/2011 22:10:13.817 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:10:14.420 TrainController/4169 train status changed. 
+Sun 30/Oct/2011 22:10:14.421 TrainController/4169 exiting trainStateChanged
+Sun 30/Oct/2011 22:10:14.824 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:10:14.829 TrainController/4169 checking FSE/R864A-FSE/R992B
+Sun 30/Oct/2011 22:10:14.833 TrainController/4169 FSE/R864A-FSE/R992B not available
+Sun 30/Oct/2011 22:10:14.833 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:10:15.836 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:10:15.839 TrainController/4169 checking FSE/R864A-FSE/R992B
+Sun 30/Oct/2011 22:10:15.842 TrainController/4169 FSE/R864A-FSE/R992B not available
+Sun 30/Oct/2011 22:10:15.842 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:10:16.426 TrainController/4169 train status changed. 
+Sun 30/Oct/2011 22:10:16.426 TrainController/4169 exiting trainStateChanged
+Sun 30/Oct/2011 22:10:16.884 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:10:16.906 TrainController/4169 checking FSE/R864A-FSE/R992B
+Sun 30/Oct/2011 22:10:16.906 TrainController/4169 FSE/R864A-FSE/R992B not available
+Sun 30/Oct/2011 22:10:16.909 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:10:17.933 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:10:17.999 TrainController/4169 checking FSE/R864A-FSE/R992B
+Sun 30/Oct/2011 22:10:18.057 TrainController/4169 FSE/R864A-FSE/R992B not available
+Sun 30/Oct/2011 22:10:18.057 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:10:18.470 TrainController/4169 train status changed. 
+Sun 30/Oct/2011 22:10:18.471 TrainController/4169 exiting trainStateChanged
+Sun 30/Oct/2011 22:10:19.210 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:10:19.218 TrainController/4169 checking FSE/R864A-FSE/R992B
+Sun 30/Oct/2011 22:10:19.393 TrainController/4169 now starting FSE/R864A-FSE/R992B
+Sun 30/Oct/2011 22:10:19.397 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B created
+Sun 30/Oct/2011 22:10:19.399 TrainController/4169 checking FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 22:10:19.399 TrainController/4169 previous sr FSE/R864A-FSE/R992B status: waiting
+Sun 30/Oct/2011 22:10:19.400 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:10:19.400 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/T884X locked by RouteModel/FSE/R983B
+Sun 30/Oct/2011 22:10:19.501 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/T884X locked by RouteModel/FSE/R983B
+Sun 30/Oct/2011 22:10:19.602 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/T884X locked by RouteModel/FSE/R983B
+Sun 30/Oct/2011 22:10:19.703 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/T884X locked by RouteModel/FSE/R983B
+Sun 30/Oct/2011 22:10:19.804 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/T884X locked by RouteModel/FSE/R983B
+Sun 30/Oct/2011 22:10:19.906 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/T884X locked by RouteModel/FSE/R983B
+Sun 30/Oct/2011 22:10:20.006 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/T884X locked by RouteModel/FSE/R983B
+Sun 30/Oct/2011 22:10:20.107 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/T884X locked by RouteModel/FSE/R983B
+Sun 30/Oct/2011 22:10:20.208 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/T884X locked by RouteModel/FSE/R983B
+Sun 30/Oct/2011 22:10:20.309 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/T884X locked by RouteModel/FSE/R983B
+Sun 30/Oct/2011 22:10:20.405 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:10:20.409 TrainController/4169 checking FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 22:10:20.410 TrainController/4169 previous sr FSE/R864A-FSE/R992B status: waiting
+Sun 30/Oct/2011 22:10:20.410 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:10:20.413 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/T884X locked by RouteModel/FSE/R983B
+Sun 30/Oct/2011 22:10:20.659 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/T884X locked by RouteModel/FSE/R983B
+Sun 30/Oct/2011 22:10:20.837 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/T884X locked by RouteModel/FSE/R983B
+Sun 30/Oct/2011 22:10:20.867 TrainController/4169 train status changed. 
+Sun 30/Oct/2011 22:10:20.867 TrainController/4169 exiting trainStateChanged
+Sun 30/Oct/2011 22:10:20.951 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/T884X locked by RouteModel/FSE/R983B
+Sun 30/Oct/2011 22:10:21.092 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/T884X locked by RouteModel/FSE/R983B
+Sun 30/Oct/2011 22:10:21.312 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/T884X locked by RouteModel/FSE/R983B
+Sun 30/Oct/2011 22:10:21.412 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:10:21.413 TrainController/4169 checking FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 22:10:21.413 TrainController/4169 previous sr FSE/R864A-FSE/R992B status: waiting
+Sun 30/Oct/2011 22:10:21.413 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:10:21.415 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/T884X locked by RouteModel/FSE/R983B
+Sun 30/Oct/2011 22:10:21.515 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/T884X locked by RouteModel/FSE/R983B
+Sun 30/Oct/2011 22:10:21.685 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/T884X locked by RouteModel/FSE/R983B
+Sun 30/Oct/2011 22:10:21.787 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/T884X locked by RouteModel/FSE/R983B
+Sun 30/Oct/2011 22:10:21.888 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/T884X locked by RouteModel/FSE/R983B
+Sun 30/Oct/2011 22:10:21.989 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/T884X locked by RouteModel/FSE/R983B
+Sun 30/Oct/2011 22:10:22.091 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/T884X locked by RouteModel/FSE/R983B
+Sun 30/Oct/2011 22:10:22.192 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/T884X locked by RouteModel/FSE/R983B
+Sun 30/Oct/2011 22:10:22.294 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/T884X locked by RouteModel/FSE/R983B
+Sun 30/Oct/2011 22:10:22.395 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/T884X locked by RouteModel/FSE/R983B
+Sun 30/Oct/2011 22:10:22.416 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:10:22.417 TrainController/4169 checking FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 22:10:22.417 TrainController/4169 previous sr FSE/R864A-FSE/R992B status: waiting
+Sun 30/Oct/2011 22:10:22.417 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:10:22.496 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/T884X locked by RouteModel/FSE/R983B
+Sun 30/Oct/2011 22:10:22.597 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/T884X locked by RouteModel/FSE/R983B
+Sun 30/Oct/2011 22:10:22.698 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/T884X locked by RouteModel/FSE/R983B
+Sun 30/Oct/2011 22:10:22.867 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/T884X locked by RouteModel/FSE/R983B
+Sun 30/Oct/2011 22:10:23.044 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/T884X locked by RouteModel/FSE/R983B
+Sun 30/Oct/2011 22:10:23.200 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 claimed by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:23.432 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:10:23.441 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 claimed by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:23.443 TrainController/4169 checking FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 22:10:23.443 TrainController/4169 previous sr FSE/R864A-FSE/R992B status: waiting
+Sun 30/Oct/2011 22:10:23.444 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:10:23.543 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 claimed by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:23.644 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 claimed by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:23.745 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 claimed by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:23.847 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 claimed by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:23.948 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 claimed by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:24.050 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 claimed by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:24.151 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 claimed by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:24.253 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 claimed by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:24.354 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 claimed by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:24.445 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:10:24.448 TrainController/4169 checking FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 22:10:24.449 TrainController/4169 previous sr FSE/R864A-FSE/R992B status: waiting
+Sun 30/Oct/2011 22:10:24.450 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:10:24.455 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 claimed by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:24.556 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 claimed by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:24.656 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 claimed by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:24.758 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 claimed by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:24.859 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 claimed by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:24.960 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 claimed by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:25.061 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 claimed by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:25.323 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 claimed by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:25.535 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:10:25.538 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 claimed by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:25.551 TrainController/4169 checking FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 22:10:25.552 TrainController/4169 previous sr FSE/R864A-FSE/R992B status: waiting
+Sun 30/Oct/2011 22:10:25.552 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:10:25.734 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 claimed by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:25.835 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 claimed by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:25.937 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 claimed by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:26.037 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 claimed by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:26.143 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 claimed by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:26.320 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 claimed by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:26.421 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 claimed by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:26.521 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 claimed by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:26.555 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:10:26.556 TrainController/4169 checking FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 22:10:26.556 TrainController/4169 previous sr FSE/R864A-FSE/R992B status: waiting
+Sun 30/Oct/2011 22:10:26.557 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:10:26.622 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 claimed by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:26.723 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 claimed by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:26.824 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 claimed by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:26.925 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 claimed by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:27.027 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 claimed by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:27.129 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 claimed by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:27.232 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 claimed by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:27.336 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 claimed by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:27.437 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 claimed by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:27.540 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 claimed by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:27.558 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:10:27.560 TrainController/4169 checking FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 22:10:27.560 TrainController/4169 previous sr FSE/R864A-FSE/R992B status: waiting
+Sun 30/Oct/2011 22:10:27.560 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:10:27.641 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 claimed by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:27.742 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 claimed by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:27.843 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 claimed by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:27.943 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 claimed by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:28.044 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 claimed by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:28.318 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 claimed by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:28.492 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 claimed by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:28.564 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:10:28.569 TrainController/4169 checking FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 22:10:28.569 TrainController/4169 previous sr FSE/R864A-FSE/R992B status: waiting
+Sun 30/Oct/2011 22:10:28.574 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:10:28.603 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:28.709 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:28.810 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:28.910 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:29.011 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:29.116 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:29.217 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:29.465 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:29.709 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:10:29.711 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:29.729 TrainController/4169 checking FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 22:10:29.729 TrainController/4169 previous sr FSE/R864A-FSE/R992B status: waiting
+Sun 30/Oct/2011 22:10:29.730 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:10:29.942 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:30.043 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:30.152 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:30.253 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:30.511 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:30.613 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:30.787 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:10:30.788 TrainController/4169 checking FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 22:10:30.788 TrainController/4169 previous sr FSE/R864A-FSE/R992B status: waiting
+Sun 30/Oct/2011 22:10:30.789 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:10:30.794 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:30.895 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:30.997 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:31.097 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:31.199 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:31.301 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:31.401 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:31.503 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:31.604 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:31.705 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:31.789 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:10:31.791 TrainController/4169 checking FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 22:10:31.791 TrainController/4169 previous sr FSE/R864A-FSE/R992B status: waiting
+Sun 30/Oct/2011 22:10:31.791 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:10:31.809 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:31.910 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:32.011 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:32.114 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:32.215 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:32.315 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:32.417 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:32.521 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:32.930 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:32.940 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:10:32.959 TrainController/4169 checking FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 22:10:32.959 TrainController/4169 previous sr FSE/R864A-FSE/R992B status: waiting
+Sun 30/Oct/2011 22:10:32.959 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:10:33.042 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:33.150 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:33.255 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:33.356 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:33.457 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:33.558 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:33.659 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:33.760 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:33.861 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:33.960 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:10:33.961 TrainController/4169 checking FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 22:10:33.961 TrainController/4169 previous sr FSE/R864A-FSE/R992B status: waiting
+Sun 30/Oct/2011 22:10:33.961 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:10:33.962 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:34.063 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:34.165 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:34.266 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:34.368 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:34.468 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:34.569 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:34.819 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:34.920 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:34.963 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:10:34.963 TrainController/4169 checking FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 22:10:34.963 TrainController/4169 previous sr FSE/R864A-FSE/R992B status: waiting
+Sun 30/Oct/2011 22:10:34.966 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:10:35.030 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:35.276 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:35.493 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:35.593 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:35.694 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:35.795 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:35.896 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:35.966 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:10:35.967 TrainController/4169 checking FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 22:10:35.967 TrainController/4169 previous sr FSE/R864A-FSE/R992B status: waiting
+Sun 30/Oct/2011 22:10:35.968 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:10:35.998 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:36.101 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:36.356 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:36.458 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:36.560 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:36.661 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:36.762 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:36.863 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:36.966 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:36.970 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:10:36.972 TrainController/4169 checking FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 22:10:36.972 TrainController/4169 previous sr FSE/R864A-FSE/R992B status: waiting
+Sun 30/Oct/2011 22:10:36.972 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:10:37.068 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:37.169 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:37.270 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:37.372 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:37.473 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:37.574 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:37.675 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:37.775 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:37.876 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:37.973 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:10:37.975 TrainController/4169 checking FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 22:10:37.975 TrainController/4169 previous sr FSE/R864A-FSE/R992B status: waiting
+Sun 30/Oct/2011 22:10:37.976 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:10:37.978 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:38.224 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:38.325 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:38.430 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:38.532 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:38.634 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:38.734 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:38.835 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:38.937 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:38.979 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:10:38.980 TrainController/4169 checking FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 22:10:38.980 TrainController/4169 previous sr FSE/R864A-FSE/R992B status: waiting
+Sun 30/Oct/2011 22:10:38.980 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:10:39.040 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:39.142 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:39.246 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:39.436 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:39.537 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:39.639 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:39.739 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:39.841 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:39.942 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:39.981 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:10:39.982 TrainController/4169 checking FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 22:10:39.982 TrainController/4169 previous sr FSE/R864A-FSE/R992B status: waiting
+Sun 30/Oct/2011 22:10:39.982 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:10:40.198 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:40.299 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:40.400 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:40.500 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:40.602 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:40.703 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:40.884 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:40.985 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:10:40.986 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:40.987 TrainController/4169 checking FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 22:10:40.987 TrainController/4169 previous sr FSE/R864A-FSE/R992B status: waiting
+Sun 30/Oct/2011 22:10:40.988 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:10:41.087 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:41.188 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:41.431 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:41.532 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:41.634 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:41.734 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:41.835 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:41.935 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:41.990 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:10:41.991 TrainController/4169 checking FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 22:10:41.991 TrainController/4169 previous sr FSE/R864A-FSE/R992B status: waiting
+Sun 30/Oct/2011 22:10:41.991 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:10:42.037 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:42.137 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:42.239 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:42.411 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:42.588 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:42.808 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:43.024 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:10:43.030 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:43.040 TrainController/4169 checking FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 22:10:43.040 TrainController/4169 previous sr FSE/R864A-FSE/R992B status: waiting
+Sun 30/Oct/2011 22:10:43.041 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:10:43.227 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:43.400 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:43.501 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:43.602 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:43.703 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:43.808 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:43.909 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:44.009 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:44.048 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:10:44.051 TrainController/4169 checking FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 22:10:44.051 TrainController/4169 previous sr FSE/R864A-FSE/R992B status: waiting
+Sun 30/Oct/2011 22:10:44.052 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:10:44.110 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:44.212 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:44.314 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:44.415 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:44.607 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:44.709 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:44.811 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:44.912 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:45.014 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:45.054 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:10:45.054 TrainController/4169 checking FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 22:10:45.054 TrainController/4169 previous sr FSE/R864A-FSE/R992B status: waiting
+Sun 30/Oct/2011 22:10:45.055 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:10:45.115 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:45.216 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:45.317 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:45.588 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:45.690 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:45.878 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:45.979 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:46.057 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:10:46.058 TrainController/4169 checking FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 22:10:46.058 TrainController/4169 previous sr FSE/R864A-FSE/R992B status: waiting
+Sun 30/Oct/2011 22:10:46.058 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:10:46.081 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:46.181 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:46.282 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:46.546 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:46.791 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:46.893 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:46.994 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:47.059 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:10:47.060 TrainController/4169 checking FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 22:10:47.060 TrainController/4169 previous sr FSE/R864A-FSE/R992B status: waiting
+Sun 30/Oct/2011 22:10:47.061 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:10:47.095 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:47.276 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:47.377 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:47.479 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:47.580 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:47.681 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:47.782 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:47.883 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:48.014 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:48.146 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:10:48.172 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:48.179 TrainController/4169 checking FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 22:10:48.179 TrainController/4169 previous sr FSE/R864A-FSE/R992B status: waiting
+Sun 30/Oct/2011 22:10:48.181 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:10:48.281 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:48.416 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:48.518 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:48.619 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:48.720 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:48.821 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:49.072 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:49.184 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:49.184 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:10:49.185 TrainController/4169 checking FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 22:10:49.185 TrainController/4169 previous sr FSE/R864A-FSE/R992B status: waiting
+Sun 30/Oct/2011 22:10:49.187 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:10:49.285 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:49.385 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:49.487 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:49.743 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:49.844 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:49.945 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:50.047 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:50.176 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:50.259 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:10:50.276 TrainController/4169 checking FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 22:10:50.277 TrainController/4169 previous sr FSE/R864A-FSE/R992B status: waiting
+Sun 30/Oct/2011 22:10:50.278 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:10:50.293 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:50.486 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:50.587 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:50.687 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:50.788 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:50.889 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:50.990 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:51.091 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:51.224 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:51.279 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:10:51.280 TrainController/4169 checking FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 22:10:51.280 TrainController/4169 previous sr FSE/R864A-FSE/R992B status: waiting
+Sun 30/Oct/2011 22:10:51.281 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:10:51.327 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:51.504 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:51.680 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:51.781 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:51.882 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:51.984 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:52.085 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:52.186 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/P881 locked by RouteModel/FSE/R982D
+Sun 30/Oct/2011 22:10:52.282 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:10:52.283 TrainController/4169 checking FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 22:10:52.283 TrainController/4169 previous sr FSE/R864A-FSE/R992B status: waiting
+Sun 30/Oct/2011 22:10:52.284 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:10:52.289 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B successfully claimed
+Sun 30/Oct/2011 22:10:52.296 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B RouteStateChange Event. RouteModel:FSE/R992B, oldState: Dormant, newState: Turning
+Sun 30/Oct/2011 22:10:53.301 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:10:53.320 TrainController/4169 checking FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 22:10:53.352 TrainController/4169 waiting 89 seconds  to start FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 22:10:53.352 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:10:54.356 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:10:54.357 TrainController/4169 checking FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 22:10:54.357 TrainController/4169 waiting 89 seconds  to start FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 22:10:54.358 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:10:55.359 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:10:55.360 TrainController/4169 checking FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 22:10:55.360 TrainController/4169 waiting 89 seconds  to start FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 22:10:55.360 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:10:56.364 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:10:56.365 TrainController/4169 checking FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 22:10:56.371 TrainController/4169 waiting 89 seconds  to start FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 22:10:56.371 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:10:57.375 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:10:57.378 TrainController/4169 checking FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 22:10:57.379 TrainController/4169 waiting 89 seconds  to start FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 22:10:57.379 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:10:57.880 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B RouteStateChange Event. RouteModel:FSE/R992B, oldState: Turning, newState: Locked
+Sun 30/Oct/2011 22:10:58.381 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:10:58.381 TrainController/4169 checking FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 22:10:58.382 TrainController/4169 waiting 89 seconds  to start FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 22:10:58.382 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:10:58.953 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B RouteStateChange Event. RouteModel:FSE/R992B, oldState: Locked, newState: Clear
+Sun 30/Oct/2011 22:10:58.953 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B checking for next route...
+Sun 30/Oct/2011 22:10:58.954 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B new route: FSE/R864A
+Sun 30/Oct/2011 22:10:58.990 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B RouteStateChange Event. RouteModel:FSE/R864A, oldState: Turning, newState: Locked
+Sun 30/Oct/2011 22:10:59.001 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B RouteStateChange Event. RouteModel:FSE/R864A, oldState: Dormant, newState: Locked
+Sun 30/Oct/2011 22:10:59.384 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:10:59.385 TrainController/4169 checking FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 22:10:59.385 TrainController/4169 waiting 89 seconds  to start FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 22:10:59.386 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:10:59.893 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B RouteStateChange Event. RouteModel:FSE/R864A, oldState: Locked, newState: Clear
+Sun 30/Oct/2011 22:10:59.893 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B checking for next route...
+Sun 30/Oct/2011 22:10:59.894 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B no more route. SignalController OK sent to Traincontroller
+Sun 30/Oct/2011 22:10:59.894 TrainController/4169  signal controller FSE/R864A-FSE/R992B ok
+Sun 30/Oct/2011 22:11:00.394 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:11:00.395 TrainController/4169 checking FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 22:11:00.399 TrainController/4169 waiting 89 seconds  to start FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 22:11:00.399 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:11:01.182 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B RouteStateChange Event. RouteModel:FSE/R864A, oldState: Clear, newState: TrainIn
+Sun 30/Oct/2011 22:11:01.412 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:11:01.427 TrainController/4169 checking FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 22:11:01.428 TrainController/4169 waiting 81 seconds  to start FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 22:11:01.442 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:11:02.458 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:11:02.460 TrainController/4169 checking FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 22:11:02.462 TrainController/4169 waiting 81 seconds  to start FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 22:11:02.462 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:11:03.491 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:11:03.565 TrainController/4169 checking FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 22:11:03.565 TrainController/4169 waiting 21 seconds  to start FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 22:11:03.574 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:11:04.578 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:11:04.579 TrainController/4169 checking FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 22:11:04.579 TrainController/4169 waiting 21 seconds  to start FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 22:11:04.579 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:11:05.283 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B RouteStateChange Event. RouteModel:FSE/R992B, oldState: Clear, newState: TrainIn
+Sun 30/Oct/2011 22:11:05.293 TrainController2/4169/SignalController/FSE/R864A-FSE/R992B Clearing up
+Sun 30/Oct/2011 22:11:05.580 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:11:05.582 TrainController/4169 checking FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 22:11:05.582 TrainController/4169 waiting 14 seconds  to start FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 22:11:05.583 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:11:06.184 TrainController/4169 train status changed. 
+Sun 30/Oct/2011 22:11:06.185 TrainController/4169 exiting trainStateChanged
+Sun 30/Oct/2011 22:11:06.583 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:11:06.584 TrainController/4169 checking FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 22:11:06.585 TrainController/4169 waiting 14 seconds  to start FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 22:11:06.586 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:11:07.637 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:11:07.657 TrainController/4169 checking FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 22:11:07.671 TrainController/4169 waiting 14 seconds  to start FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 22:11:07.671 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:11:08.247 TrainController/4169 train status changed. 
+Sun 30/Oct/2011 22:11:08.247 TrainController/4169 exiting trainStateChanged
+Sun 30/Oct/2011 22:11:08.673 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:11:08.680 TrainController/4169 checking FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 22:11:08.684 TrainController/4169 waiting 8 seconds  to start FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 22:11:08.684 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:11:09.686 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:11:09.687 TrainController/4169 checking FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 22:11:09.687 TrainController/4169 waiting 8 seconds  to start FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 22:11:09.687 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:11:10.375 TrainController/4169 train status changed. 
+Sun 30/Oct/2011 22:11:10.375 TrainController/4169 exiting trainStateChanged
+Sun 30/Oct/2011 22:11:10.689 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:11:10.690 TrainController/4169 checking FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 22:11:10.691 TrainController/4169 waiting 3 seconds  to start FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 22:11:10.691 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:11:11.758 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:11:11.759 TrainController/4169 checking FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 22:11:11.783 TrainController/4169 waiting 3 seconds  to start FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 22:11:11.783 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:11:12.740 TrainController/4169 train status changed. 
+Sun 30/Oct/2011 22:11:12.740 TrainController/4169 exiting trainStateChanged
+Sun 30/Oct/2011 22:11:12.787 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:11:12.789 TrainController/4169 checking FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 22:11:12.789 TrainController/4169 waiting 3 seconds  to start FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 22:11:12.790 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:11:13.791 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:11:13.792 TrainController/4169 checking FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 22:11:13.792 TrainController/4169 waiting 1 seconds  to start FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 22:11:13.793 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:11:14.765 TrainController/4169 train status changed. 
+Sun 30/Oct/2011 22:11:14.765 TrainController/4169 exiting trainStateChanged
+Sun 30/Oct/2011 22:11:14.795 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:11:14.797 TrainController/4169 checking FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 22:11:14.797 TrainController/4169 now starting FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 22:11:14.798 TrainController2/4169/SignalController/FSE/R666A-FSE/R776A created
+Sun 30/Oct/2011 22:11:14.798 TrainController/4169 checking FSE/R668A
+Sun 30/Oct/2011 22:11:14.798 TrainController/4169 checking FSE/R670A
+Sun 30/Oct/2011 22:11:14.799 TrainController2/4169/SignalController/FSE/R666A-FSE/R776A successfully claimed
+Sun 30/Oct/2011 22:11:14.800 TrainController/4169 checking SYR/RD071A
+Sun 30/Oct/2011 22:11:14.800 TrainController/4169 checking SYR/RD081A
+Sun 30/Oct/2011 22:11:14.800 TrainController/4169 checking SYR/RD091A
+Sun 30/Oct/2011 22:11:14.801 TrainController2/4169/SignalController/FSE/R666A-FSE/R776A RouteStateChange Event. RouteModel:FSE/R776A, oldState: Turning, newState: Locked
+Sun 30/Oct/2011 22:11:14.801 TrainController/4169 checking SYR/RD099A
+Sun 30/Oct/2011 22:11:14.802 TrainController/4169 checking SYR/RD107A
+Sun 30/Oct/2011 22:11:14.802 TrainController/4169 checking SYR/RD117A
+Sun 30/Oct/2011 22:11:14.802 TrainController/4169 checking SYR/RD131A
+Sun 30/Oct/2011 22:11:14.803 TrainController/4169 checking SYR/RD145A
+Sun 30/Oct/2011 22:11:14.803 TrainController/4169 checking SYR/RD153A
+Sun 30/Oct/2011 22:11:14.804 TrainController/4169 checking SYR/RD161A
+Sun 30/Oct/2011 22:11:14.804 TrainController/4169 checking SYR/RD171A
+Sun 30/Oct/2011 22:11:14.804 TrainController/4169 checking SYR/RD183A
+Sun 30/Oct/2011 22:11:14.805 TrainController/4169 checking SYR/RD191A
+Sun 30/Oct/2011 22:11:14.805 TrainController/4169 checking SYR/RD201A
+Sun 30/Oct/2011 22:11:14.805 TrainController/4169 checking SYR/RD213A
+Sun 30/Oct/2011 22:11:14.806 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:11:14.813 TrainController2/4169/SignalController/FSE/R666A-FSE/R776A RouteStateChange Event. RouteModel:FSE/R776A, oldState: Dormant, newState: Locked
+Sun 30/Oct/2011 22:11:15.015 TrainController2/4169/SignalController/FSE/R666A-FSE/R776A RouteStateChange Event. RouteModel:FSE/R776A, oldState: Locked, newState: Clear
+Sun 30/Oct/2011 22:11:15.016 TrainController2/4169/SignalController/FSE/R666A-FSE/R776A checking for next route...
+Sun 30/Oct/2011 22:11:15.016 TrainController2/4169/SignalController/FSE/R666A-FSE/R776A new route: FSE/R666A
+Sun 30/Oct/2011 22:11:15.028 TrainController2/4169/SignalController/FSE/R666A-FSE/R776A RouteStateChange Event. RouteModel:FSE/R666A, oldState: Turning, newState: Locked
+Sun 30/Oct/2011 22:11:15.040 TrainController2/4169/SignalController/FSE/R666A-FSE/R776A RouteStateChange Event. RouteModel:FSE/R666A, oldState: Dormant, newState: Locked
+Sun 30/Oct/2011 22:11:15.815 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:11:15.830 TrainController/4169 checking SYR/RD213A
+Sun 30/Oct/2011 22:11:15.838 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:11:16.164 TrainController2/4169/SignalController/FSE/R666A-FSE/R776A RouteStateChange Event. RouteModel:FSE/R666A, oldState: Locked, newState: Clear
+Sun 30/Oct/2011 22:11:16.164 TrainController2/4169/SignalController/FSE/R666A-FSE/R776A checking for next route...
+Sun 30/Oct/2011 22:11:16.172 TrainController2/4169/SignalController/FSE/R666A-FSE/R776A no more route. SignalController OK sent to Traincontroller
+Sun 30/Oct/2011 22:11:16.172 TrainController/4169  signal controller FSE/R666A-FSE/R776A ok
+Sun 30/Oct/2011 22:11:16.843 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:11:16.844 TrainController/4169 checking SYR/RD213A
+Sun 30/Oct/2011 22:11:16.844 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:11:17.090 TrainController/4169 train status changed. 
+Sun 30/Oct/2011 22:11:17.090 TrainController/4169 exiting trainStateChanged
+Sun 30/Oct/2011 22:11:17.845 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:11:17.846 TrainController/4169 checking SYR/RD213A
+Sun 30/Oct/2011 22:11:17.846 TrainController/4169 checking SYR/RD225A
+Sun 30/Oct/2011 22:11:17.846 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:11:18.967 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:11:19.150 TrainController/4169 checking SYR/RD225A
+Sun 30/Oct/2011 22:11:19.156 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:11:19.249 TrainController/4169 train status changed. 
+Sun 30/Oct/2011 22:11:19.249 TrainController/4169 exiting trainStateChanged
+Sun 30/Oct/2011 22:11:20.161 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:11:20.162 TrainController/4169 checking SYR/RD225A
+Sun 30/Oct/2011 22:11:20.164 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:11:21.167 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:11:21.170 TrainController/4169 checking SYR/RD225A
+Sun 30/Oct/2011 22:11:21.172 TrainController/4169 checking SYR/RD237A
+Sun 30/Oct/2011 22:11:21.174 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:11:22.175 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:11:22.177 TrainController/4169 checking SYR/RD237A
+Sun 30/Oct/2011 22:11:22.177 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:11:22.655 TrainController/4169 train status changed. 
+Sun 30/Oct/2011 22:11:22.655 TrainController/4169 exiting trainStateChanged
+Sun 30/Oct/2011 22:11:23.178 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:11:23.180 TrainController/4169 checking SYR/RD237A
+Sun 30/Oct/2011 22:11:23.180 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:11:24.321 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:11:24.328 TrainController/4169 checking SYR/RD237A
+Sun 30/Oct/2011 22:11:24.336 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:11:24.847 TrainController/4169 train status changed. 
+Sun 30/Oct/2011 22:11:24.847 TrainController/4169 exiting trainStateChanged
+Sun 30/Oct/2011 22:11:25.339 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:11:25.342 TrainController/4169 checking SYR/RD237A
+Sun 30/Oct/2011 22:11:25.343 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:11:26.344 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:11:26.346 TrainController/4169 checking SYR/RD237A
+Sun 30/Oct/2011 22:11:26.346 TrainController/4169 checking SYR/RD249A
+Sun 30/Oct/2011 22:11:26.347 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:11:26.953 TrainController/4169 train status changed. 
+Sun 30/Oct/2011 22:11:26.953 TrainController/4169 exiting trainStateChanged
+Sun 30/Oct/2011 22:11:27.350 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:11:27.351 TrainController/4169 checking SYR/RD249A
+Sun 30/Oct/2011 22:11:27.351 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:11:28.013 TrainController2/4169/SignalController/FSE/R666A-FSE/R776A RouteStateChange Event. RouteModel:FSE/R666A, oldState: Clear, newState: TrainIn
+Sun 30/Oct/2011 22:11:28.408 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:11:28.416 TrainController/4169 checking SYR/RD249A
+Sun 30/Oct/2011 22:11:28.426 TrainController/4169 checking SYR/RD259A
+Sun 30/Oct/2011 22:11:28.431 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:11:29.249 TrainController/4169 train status changed. 
+Sun 30/Oct/2011 22:11:29.249 TrainController/4169 exiting trainStateChanged
+Sun 30/Oct/2011 22:11:29.433 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:11:29.435 TrainController/4169 checking SYR/RD259A
+Sun 30/Oct/2011 22:11:29.437 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:11:30.435 TrainController2/4169/SignalController/FSE/R666A-FSE/R776A RouteStateChange Event. RouteModel:FSE/R776A, oldState: Clear, newState: TrainIn
+Sun 30/Oct/2011 22:11:30.447 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:11:30.456 TrainController2/4169/SignalController/FSE/R666A-FSE/R776A Clearing up
+Sun 30/Oct/2011 22:11:30.456 TrainController/4169 checking SYR/RD259A
+Sun 30/Oct/2011 22:11:30.462 TrainController/4169 checking SYR/RD271A
+Sun 30/Oct/2011 22:11:30.636 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:11:31.202 TrainController/4169 train status changed. 
+Sun 30/Oct/2011 22:11:31.202 TrainController/4169 exiting trainStateChanged
+Sun 30/Oct/2011 22:11:31.637 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:11:31.638 TrainController/4169 checking SYR/RD271A
+Sun 30/Oct/2011 22:11:31.639 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:11:32.724 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:11:32.746 TrainController/4169 checking SYR/RD271A
+Sun 30/Oct/2011 22:11:32.754 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:11:33.044 TrainController/4169 train status changed. 
+Sun 30/Oct/2011 22:11:33.044 TrainController/4169 exiting trainStateChanged
+Sun 30/Oct/2011 22:11:33.772 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:11:33.950 TrainController/4169 checking SYR/RD271A
+Sun 30/Oct/2011 22:11:33.956 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:11:34.956 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:11:34.958 TrainController/4169 checking SYR/RD271A
+Sun 30/Oct/2011 22:11:34.959 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:11:35.521 TrainController/4169 train status changed. 
+Sun 30/Oct/2011 22:11:35.521 TrainController/4169 exiting trainStateChanged
+Sun 30/Oct/2011 22:11:35.960 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:11:35.961 TrainController/4169 checking SYR/RD271A
+Sun 30/Oct/2011 22:11:35.961 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:11:36.964 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:11:36.965 TrainController/4169 checking SYR/RD271A
+Sun 30/Oct/2011 22:11:36.969 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:11:37.861 TrainController/4169 train status changed. 
+Sun 30/Oct/2011 22:11:37.861 TrainController/4169 head track SYR/TD069 is on new platform RMD006
+Sun 30/Oct/2011 22:11:37.882 TrainController/4169 inPlatform: true
+Sun 30/Oct/2011 22:11:37.887 TrainController/4169 dwell time: 5
+Sun 30/Oct/2011 22:11:37.888 TrainController/4169 train stopped
+Sun 30/Oct/2011 22:11:37.894 TrainController/4169 exiting trainStateChanged
+Sun 30/Oct/2011 22:11:37.895 TrainController/4169 train status changed. 
+Sun 30/Oct/2011 22:11:37.896 TrainController/4169 head track SYR/TD069 is on new platform RMD006
+Sun 30/Oct/2011 22:11:37.899 TrainController/4169 inPlatform: true
+Sun 30/Oct/2011 22:11:37.899 TrainController/4169 exiting trainStateChanged
+Sun 30/Oct/2011 22:11:37.983 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:11:37.992 TrainController/4169 checking SYR/RD271A
+Sun 30/Oct/2011 22:11:38.019 TrainController/4169 checking SYR/RD285A
+Sun 30/Oct/2011 22:11:38.026 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:11:38.873 TrainController/4169 train status changed. 
+Sun 30/Oct/2011 22:11:38.873 TrainController/4169 head track SYR/TD069 is on new platform RMD006
+Sun 30/Oct/2011 22:11:38.874 TrainController/4169 inPlatform: true
+Sun 30/Oct/2011 22:11:38.874 TrainController/4169 exiting trainStateChanged
+Sun 30/Oct/2011 22:11:39.027 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:11:39.045 TrainController/4169 checking SYR/RD285A
+Sun 30/Oct/2011 22:11:39.071 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:11:40.082 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:11:40.145 TrainController/4169 checking SYR/RD285A
+Sun 30/Oct/2011 22:11:40.230 TrainController/4169 checking SYR/RD295A
+Sun 30/Oct/2011 22:11:40.235 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:11:41.263 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:11:41.346 TrainController/4169 checking SYR/RD295A
+Sun 30/Oct/2011 22:11:41.381 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:11:41.588 TrainController/4169 train status changed. 
+Sun 30/Oct/2011 22:11:41.588 TrainController/4169 head track SYR/TD069 is on new platform RMD006
+Sun 30/Oct/2011 22:11:41.589 TrainController/4169 inPlatform: true
+Sun 30/Oct/2011 22:11:41.589 TrainController/4169 exiting trainStateChanged
+Sun 30/Oct/2011 22:11:42.386 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:11:42.387 TrainController/4169 checking SYR/RD295A
+Sun 30/Oct/2011 22:11:42.389 TrainController/4169 checking SYR/RD307A
+Sun 30/Oct/2011 22:11:42.390 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:11:42.942 TrainController/4169 restarting the train
+Sun 30/Oct/2011 22:11:43.118 TrainController/4169 train status changed. 
+Sun 30/Oct/2011 22:11:43.118 TrainController/4169 head track SYR/TD069 is on new platform RMD006
+Sun 30/Oct/2011 22:11:43.118 TrainController/4169 inPlatform: true
+Sun 30/Oct/2011 22:11:43.119 TrainController/4169 exiting trainStateChanged
+Sun 30/Oct/2011 22:11:43.163 TrainController/4169 train status changed. 
+Sun 30/Oct/2011 22:11:43.163 TrainController/4169 head track SYR/TD069 is on new platform RMD006
+Sun 30/Oct/2011 22:11:43.163 TrainController/4169 inPlatform: true
+Sun 30/Oct/2011 22:11:43.174 TrainController/4169 exiting trainStateChanged
+Sun 30/Oct/2011 22:11:43.393 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:11:43.398 TrainController/4169 checking SYR/RD307A
+Sun 30/Oct/2011 22:11:43.400 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:11:44.481 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:11:44.493 TrainController/4169 checking SYR/RD307A
+Sun 30/Oct/2011 22:11:44.503 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:11:45.506 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:11:45.510 TrainController/4169 checking SYR/RD307A
+Sun 30/Oct/2011 22:11:45.515 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:11:46.515 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:11:46.516 TrainController/4169 checking SYR/RD307A
+Sun 30/Oct/2011 22:11:46.517 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:11:47.517 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:11:47.519 TrainController/4169 checking SYR/RD307A
+Sun 30/Oct/2011 22:11:47.519 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:11:48.841 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:11:48.943 TrainController/4169 checking SYR/RD307A
+Sun 30/Oct/2011 22:11:49.008 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:11:49.552 TrainController/4169 train status changed. 
+Sun 30/Oct/2011 22:11:49.552 TrainController/4169 exiting trainStateChanged
+Sun 30/Oct/2011 22:11:50.010 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:11:50.012 TrainController/4169 checking SYR/RD307A
+Sun 30/Oct/2011 22:11:50.012 TrainController/4169 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:11:50.028 TrainController/4169 CFD/R702A-CFD/R704D not available
+Sun 30/Oct/2011 22:11:50.028 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:11:51.032 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:11:51.033 TrainController/4169 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:11:51.033 TrainController/4169 CFD/R702A-CFD/R704D not available
+Sun 30/Oct/2011 22:11:51.034 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:11:51.372 TrainController/4169 train status changed. 
+Sun 30/Oct/2011 22:11:51.372 TrainController/4169 exiting trainStateChanged
+Sun 30/Oct/2011 22:11:52.036 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:11:52.039 TrainController/4169 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:11:52.039 TrainController/4169 CFD/R702A-CFD/R704D not available
+Sun 30/Oct/2011 22:11:52.046 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:11:53.051 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:11:53.053 TrainController/4169 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:11:53.054 TrainController/4169 CFD/R702A-CFD/R704D not available
+Sun 30/Oct/2011 22:11:53.054 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:11:54.055 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:11:54.056 TrainController/4169 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:11:54.056 TrainController/4169 CFD/R702A-CFD/R704D not available
+Sun 30/Oct/2011 22:11:54.057 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:11:54.332 TrainController/4169 train status changed. 
+Sun 30/Oct/2011 22:11:54.332 TrainController/4169 exiting trainStateChanged
+Sun 30/Oct/2011 22:11:55.145 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:11:55.169 TrainController/4169 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:11:55.183 TrainController/4169 CFD/R702A-CFD/R704D not available
+Sun 30/Oct/2011 22:11:55.183 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:11:57.233 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:11:57.596 TrainController/4169 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:11:58.274 TrainController/4169 CFD/R702A-CFD/R704D not available
+Sun 30/Oct/2011 22:11:58.275 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:11:58.892 TrainController/4169 train status changed. 
+Sun 30/Oct/2011 22:11:58.892 TrainController/4169 exiting trainStateChanged
+Sun 30/Oct/2011 22:11:59.203 TrainController/4169 train status changed. 
+Sun 30/Oct/2011 22:11:59.203 TrainController/4169 exiting trainStateChanged
+Sun 30/Oct/2011 22:11:59.282 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:11:59.291 TrainController/4169 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:11:59.291 TrainController/4169 CFD/R702A-CFD/R704D not available
+Sun 30/Oct/2011 22:11:59.294 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:12:00.296 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:12:00.298 TrainController/4169 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:12:00.298 TrainController/4169 CFD/R702A-CFD/R704D not available
+Sun 30/Oct/2011 22:12:00.298 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:12:01.309 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:12:01.311 TrainController/4169 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:12:01.312 TrainController/4169 CFD/R702A-CFD/R704D not available
+Sun 30/Oct/2011 22:12:01.312 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:12:02.011 TrainController/4169 train status changed. 
+Sun 30/Oct/2011 22:12:02.011 TrainController/4169 exiting trainStateChanged
+Sun 30/Oct/2011 22:12:02.401 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:12:02.415 TrainController/4169 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:12:02.429 TrainController/4169 CFD/R702A-CFD/R704D not available
+Sun 30/Oct/2011 22:12:02.429 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:12:03.434 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:12:03.438 TrainController/4169 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:12:03.443 TrainController/4169 CFD/R702A-CFD/R704D not available
+Sun 30/Oct/2011 22:12:03.443 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:12:03.525 TrainController/4169 train status changed. 
+Sun 30/Oct/2011 22:12:03.525 TrainController/4169 exiting trainStateChanged
+Sun 30/Oct/2011 22:12:04.604 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:12:05.066 TrainController/4169 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:12:06.520 TrainController/4169 CFD/R702A-CFD/R704D not available
+Sun 30/Oct/2011 22:12:06.520 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:12:07.831 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:12:07.836 TrainController/4169 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:12:08.013 TrainController/4169 CFD/R702A-CFD/R704D not available
+Sun 30/Oct/2011 22:12:08.013 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:12:08.571 TrainController/4169 train status changed. 
+Sun 30/Oct/2011 22:12:08.571 TrainController/4169 exiting trainStateChanged
+Sun 30/Oct/2011 22:12:08.683 TrainController/4169 train status changed. 
+Sun 30/Oct/2011 22:12:08.684 TrainController/4169 exiting trainStateChanged
+Sun 30/Oct/2011 22:12:08.739 TrainController/4169 train status changed. 
+Sun 30/Oct/2011 22:12:08.739 TrainController/4169 head track SYR/TD161 is on new platform HKN004
+Sun 30/Oct/2011 22:12:08.740 TrainController/4169 inPlatform: true
+Sun 30/Oct/2011 22:12:08.740 TrainController/4169 dwell time: 5
+Sun 30/Oct/2011 22:12:08.741 TrainController/4169 train stopped
+Sun 30/Oct/2011 22:12:08.741 TrainController/4169 exiting trainStateChanged
+Sun 30/Oct/2011 22:12:08.742 TrainController/4169 train status changed. 
+Sun 30/Oct/2011 22:12:08.742 TrainController/4169 head track SYR/TD161 is on new platform HKN004
+Sun 30/Oct/2011 22:12:08.745 TrainController/4169 inPlatform: true
+Sun 30/Oct/2011 22:12:08.746 TrainController/4169 exiting trainStateChanged
+Sun 30/Oct/2011 22:12:09.078 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:12:09.079 TrainController/4169 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:12:09.094 TrainController/4169 CFD/R702A-CFD/R704D not available
+Sun 30/Oct/2011 22:12:09.094 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:12:10.095 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:12:10.097 TrainController/4169 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:12:10.097 TrainController/4169 CFD/R702A-CFD/R704D not available
+Sun 30/Oct/2011 22:12:10.097 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:12:11.099 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:12:11.099 TrainController/4169 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:12:11.100 TrainController/4169 CFD/R702A-CFD/R704D not available
+Sun 30/Oct/2011 22:12:11.100 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:12:12.102 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:12:12.104 TrainController/4169 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:12:12.104 TrainController/4169 CFD/R702A-CFD/R704D not available
+Sun 30/Oct/2011 22:12:12.104 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:12:12.615 TrainController/4169 train status changed. 
+Sun 30/Oct/2011 22:12:12.615 TrainController/4169 head track SYR/TD161 is on new platform HKN004
+Sun 30/Oct/2011 22:12:12.617 TrainController/4169 inPlatform: true
+Sun 30/Oct/2011 22:12:12.617 TrainController/4169 exiting trainStateChanged
+Sun 30/Oct/2011 22:12:13.106 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:12:13.107 TrainController/4169 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:12:13.107 TrainController/4169 CFD/R702A-CFD/R704D not available
+Sun 30/Oct/2011 22:12:13.108 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:12:13.721 TrainController/4169 train status changed. 
+Sun 30/Oct/2011 22:12:13.721 TrainController/4169 head track SYR/TD161 is on new platform HKN004
+Sun 30/Oct/2011 22:12:13.722 TrainController/4169 inPlatform: true
+Sun 30/Oct/2011 22:12:13.722 TrainController/4169 exiting trainStateChanged
+Sun 30/Oct/2011 22:12:13.805 TrainController/4169 restarting the train
+Sun 30/Oct/2011 22:12:13.806 TrainController/4169 train status changed. 
+Sun 30/Oct/2011 22:12:13.806 TrainController/4169 head track SYR/TD161 is on new platform HKN004
+Sun 30/Oct/2011 22:12:13.807 TrainController/4169 inPlatform: true
+Sun 30/Oct/2011 22:12:13.808 TrainController/4169 exiting trainStateChanged
+Sun 30/Oct/2011 22:12:14.109 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:12:14.111 TrainController/4169 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:12:14.111 TrainController/4169 CFD/R702A-CFD/R704D not available
+Sun 30/Oct/2011 22:12:14.111 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:12:15.113 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:12:15.114 TrainController/4169 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:12:15.114 TrainController/4169 CFD/R702A-CFD/R704D not available
+Sun 30/Oct/2011 22:12:15.114 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:12:16.117 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:12:16.118 TrainController/4169 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:12:16.119 TrainController/4169 CFD/R702A-CFD/R704D not available
+Sun 30/Oct/2011 22:12:16.120 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:12:17.736 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:12:18.191 TrainController/4169 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:12:20.191 TrainController/4169 CFD/R702A-CFD/R704D not available
+Sun 30/Oct/2011 22:12:20.191 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:12:21.694 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:12:21.848 TrainController/4169 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:12:21.848 TrainController/4169 CFD/R702A-CFD/R704D not available
+Sun 30/Oct/2011 22:12:21.849 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:12:23.172 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:12:23.489 TrainController/4169 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:12:24.030 TrainController/4169 CFD/R702A-CFD/R704D not available
+Sun 30/Oct/2011 22:12:24.030 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:12:24.741 TrainController/4169 train status changed. 
+Sun 30/Oct/2011 22:12:24.742 TrainController/4169 exiting trainStateChanged
+Sun 30/Oct/2011 22:12:25.245 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:12:25.277 TrainController/4169 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:12:25.418 TrainController/4169 CFD/R702A-CFD/R704D not available
+Sun 30/Oct/2011 22:12:25.418 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:12:25.947 TrainController/4169 train status changed. 
+Sun 30/Oct/2011 22:12:25.947 TrainController/4169 exiting trainStateChanged
+Sun 30/Oct/2011 22:12:26.448 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:12:26.449 TrainController/4169 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:12:26.459 TrainController/4169 CFD/R702A-CFD/R704D not available
+Sun 30/Oct/2011 22:12:26.459 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:12:26.542 TrainController/4169 train status changed. 
+Sun 30/Oct/2011 22:12:26.542 TrainController/4169 head track SYR/TD201 is on new platform TOR004
+Sun 30/Oct/2011 22:12:26.543 TrainController/4169 inPlatform: true
+Sun 30/Oct/2011 22:12:26.543 TrainController/4169 dwell time: 5
+Sun 30/Oct/2011 22:12:26.544 TrainController/4169 train stopped
+Sun 30/Oct/2011 22:12:26.544 TrainController/4169 exiting trainStateChanged
+Sun 30/Oct/2011 22:12:26.547 TrainController/4169 train status changed. 
+Sun 30/Oct/2011 22:12:26.547 TrainController/4169 head track SYR/TD201 is on new platform TOR004
+Sun 30/Oct/2011 22:12:26.548 TrainController/4169 inPlatform: true
+Sun 30/Oct/2011 22:12:26.548 TrainController/4169 exiting trainStateChanged
+Sun 30/Oct/2011 22:12:27.521 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:12:27.522 TrainController/4169 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:12:27.546 TrainController/4169 CFD/R702A-CFD/R704D not available
+Sun 30/Oct/2011 22:12:27.546 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:12:28.708 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:12:28.949 TrainController/4169 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:12:29.073 TrainController/4169 CFD/R702A-CFD/R704D not available
+Sun 30/Oct/2011 22:12:29.073 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:12:29.292 TrainController/4169 train status changed. 
+Sun 30/Oct/2011 22:12:29.293 TrainController/4169 exiting trainStateChanged
+Sun 30/Oct/2011 22:12:29.338 TrainController/4169 train status changed. 
+Sun 30/Oct/2011 22:12:29.338 TrainController/4169 exiting trainStateChanged
+Sun 30/Oct/2011 22:12:29.713 TrainController/4169 train status changed. 
+Sun 30/Oct/2011 22:12:29.713 TrainController/4169 exiting trainStateChanged
+Sun 30/Oct/2011 22:12:30.129 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:12:30.131 TrainController/4169 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:12:30.163 TrainController/4169 CFD/R702A-CFD/R704D not available
+Sun 30/Oct/2011 22:12:30.163 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:12:31.205 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:12:31.392 TrainController/4169 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:12:31.414 TrainController/4169 CFD/R702A-CFD/R704D not available
+Sun 30/Oct/2011 22:12:31.414 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:12:31.575 TrainController/4169 restarting the train
+Sun 30/Oct/2011 22:12:31.575 TrainController/4169 train status changed. 
+Sun 30/Oct/2011 22:12:31.576 TrainController/4169 exiting trainStateChanged
+Sun 30/Oct/2011 22:12:32.315 TrainController/4169 train status changed. 
+Sun 30/Oct/2011 22:12:32.315 TrainController/4169 exiting trainStateChanged
+Sun 30/Oct/2011 22:12:32.419 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:12:32.429 TrainController/4169 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:12:32.435 TrainController/4169 waiting 121 seconds  to start CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:12:32.435 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:12:33.575 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:12:33.844 TrainController/4169 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:12:33.844 TrainController/4169 waiting 111 seconds  to start CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:12:33.845 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:12:35.054 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:12:35.074 TrainController/4169 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:12:35.090 TrainController/4169 waiting 111 seconds  to start CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:12:35.090 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:12:36.474 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:12:36.495 TrainController/4169 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:12:36.511 TrainController/4169 waiting 111 seconds  to start CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:12:36.511 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:12:37.635 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:12:38.070 TrainController/4169 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:12:38.104 TrainController/4169 waiting 98 seconds  to start CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:12:38.104 TrainController/4169 requestSchedule...... completed
+Sun 30/Oct/2011 22:12:39.187 TrainController/4169 starting requestSchedule......
+Sun 30/Oct/2011 22:12:39.611 TrainController/4169 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:12:39.611 TrainController/4169 waiting 98 seconds  to start CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:12:39.612 TrainController/4169 requestSchedule...... completed

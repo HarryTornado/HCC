@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configs>
+	<JzaIndication xml:id="E001TS.EFP">
+		<interlockingName>LAL</interlockingName>
+		<deviceName>config:/TSN#TSN</deviceName>
+		<offset>4</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E002TS.ECP">
+		<interlockingName>LAL</interlockingName>
+		<deviceName>config:/TSN#TSN</deviceName>
+		<offset>3</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E003TS.ACPOR">
+		<interlockingName>LAL</interlockingName>
+		<deviceName>config:/TSN#TSN</deviceName>
+		<offset>2</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E004TS.BATTLR">
+		<interlockingName>LAL</interlockingName>
+		<deviceName>config:/TSN#TSN</deviceName>
+		<offset>1</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E005TS.BF">
+		<interlockingName>LAL</interlockingName>
+		<deviceName>config:/TSN#TSN</deviceName>
+		<offset>0</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E552.PWRF">
+		<interlockingName>LAL</interlockingName>
+		<deviceName>config:/TSN#TSN</deviceName>
+		<offset>5</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E553.PWRF">
+		<interlockingName>LAL</interlockingName>
+		<deviceName>config:/TSN#TSN</deviceName>
+		<offset>3</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E560.PGFP">
+		<interlockingName>LAL</interlockingName>
+		<deviceName>config:/TSN#TSN</deviceName>
+		<offset>13</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E562.LXACFR">
+		<interlockingName>LAL</interlockingName>
+		<deviceName>config:/TSN#TSN</deviceName>
+		<offset>5</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E570.PGFP">
+		<interlockingName>LAL</interlockingName>
+		<deviceName>config:/TSN#TSN</deviceName>
+		<offset>11</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E572.LXACFR">
+		<interlockingName>LAL</interlockingName>
+		<deviceName>config:/TSN#TSN</deviceName>
+		<offset>6</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E574.PWRF">
+		<interlockingName>LAL</interlockingName>
+		<deviceName>config:/TSN#TSN</deviceName>
+		<offset>1</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E575.PWRF">
+		<interlockingName>LAL</interlockingName>
+		<deviceName>config:/TSN#TSN</deviceName>
+		<offset>15</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="L562.BPOK">
+		<interlockingName>LAL</interlockingName>
+		<deviceName>config:/TSN#TSN</deviceName>
+		<offset>0</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="L562.FGNP">
+		<interlockingName>LAL</interlockingName>
+		<deviceName>config:/TSN#TSN</deviceName>
+		<offset>1</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="L562.FCP">
+		<interlockingName>LAL</interlockingName>
+		<deviceName>config:/TSN#TSN</deviceName>
+		<offset>2</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="L562.DTOP">
+		<interlockingName>LAL</interlockingName>
+		<deviceName>config:/TSN#TSN</deviceName>
+		<offset>15</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="L572.FCP">
+		<interlockingName>LAL</interlockingName>
+		<deviceName>config:/TSN#TSN</deviceName>
+		<offset>10</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="L572.DTOP">
+		<interlockingName>LAL</interlockingName>
+		<deviceName>config:/TSN#TSN</deviceName>
+		<offset>7</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="L572.BPOK">
+		<interlockingName>LAL</interlockingName>
+		<deviceName>config:/TSN#TSN</deviceName>
+		<offset>8</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="L572.FGNP">
+		<interlockingName>LAL</interlockingName>
+		<deviceName>config:/TSN#TSN</deviceName>
+		<offset>9</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S551.RGP">
+		<interlockingName>LAL</interlockingName>
+		<deviceName>config:/TSN#TSN</deviceName>
+		<offset>5</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S554.RGP">
+		<interlockingName>LAL</interlockingName>
+		<deviceName>config:/TSN#TSN</deviceName>
+		<offset>4</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S567.RGP">
+		<interlockingName>LAL</interlockingName>
+		<deviceName>config:/TSN#TSN</deviceName>
+		<offset>3</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S576.RGP">
+		<interlockingName>LAL</interlockingName>
+		<deviceName>config:/TSN#TSN</deviceName>
+		<offset>11</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T551.TPK">
+		<interlockingName>LAL</interlockingName>
+		<deviceName>config:/TSN#TSN</deviceName>
+		<offset>9</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T554.TPK">
+		<interlockingName>LAL</interlockingName>
+		<deviceName>config:/TSN#TSN</deviceName>
+		<offset>8</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T555.TPK">
+		<interlockingName>LAL</interlockingName>
+		<deviceName>config:/TSN#TSN</deviceName>
+		<offset>7</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T567.TPK">
+		<interlockingName>LAL</interlockingName>
+		<deviceName>config:/TSN#TSN</deviceName>
+		<offset>6</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T571.TPK">
+		<interlockingName>LAL</interlockingName>
+		<deviceName>config:/TSN#TSN</deviceName>
+		<offset>14</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T576.TPK">
+		<interlockingName>LAL</interlockingName>
+		<deviceName>config:/TSN#TSN</deviceName>
+		<offset>13</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T577.TPK">
+		<interlockingName>LAL</interlockingName>
+		<deviceName>config:/TSN#TSN</deviceName>
+		<offset>12</offset>
+		<word>2</word>
+	</JzaIndication>
+</Configs>

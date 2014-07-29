@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scenario>
+	<header>
+		<name>blockTracks</name>
+		<author>SMB</author>
+		<description>Test the blocking and unblocking of tracks</description>
+		<date>13/04/2010</date>
+	</header>
+	<actions>
+		<!-- Cycle all tracks -->
+		<cli>TKB SHM/T318</cli>
+		<sleep>1</sleep>
+		<cli>TKB SHM/T320</cli>
+		<sleep>1</sleep>
+		<cli>TKB SHM/T515</cli>
+		<sleep>1</sleep>
+		<cli>TKB SHM/T526</cli>
+		<sleep>1</sleep>
+		<cli>TKB SHM/T531</cli>
+		<sleep>1</sleep>
+		<cli>TKB SHM/T532</cli>
+		<sleep>1</sleep>
+		<cli>TKB SHM/T533</cli>
+		<sleep>1</sleep>
+		<cli>TKB SHM/T537</cli>
+		<sleep>1</sleep>
+		<cli>TKB SHM/T542</cli>
+		<sleep>1</sleep>
+		<cli>TKB SHM/T544</cli>
+		<sleep>1</sleep>
+		<cli>TKB SHM/T545</cli>
+		<sleep>1</sleep>
+		<cli>TKB SHM/T549</cli>
+		<sleep>1</sleep>
+		<cli>TKB SHM/T550</cli>
+		<sleep>1</sleep>
+		<cli>TKB SHM/T806</cli>
+		<sleep>1</sleep>
+		<cli>TKB SHM/T816</cli>
+		<sleep>1</sleep>
+		<cli>TKB SHM/T905</cli>
+		<sleep>1</sleep>
+		<cli>TKB SHM/T906</cli>
+		<sleep>1</sleep>
+		<cli>TKB SHM/T908</cli>
+		<sleep>1</sleep>
+		<cli>TKB SHM/T916</cli>
+		<sleep>1</sleep>
+		<cli>TKB SHM/T917</cli>
+		<sleep>1</sleep>
+		<cli>TKB SHM/T920</cli>
+		<sleep>1</sleep>
+		<cli>TKU SHM/T318</cli>
+		<sleep>1</sleep>
+		<cli>TKU SHM/T320</cli>
+		<sleep>1</sleep>
+		<cli>TKU SHM/T515</cli>
+		<sleep>1</sleep>
+		<cli>TKU SHM/T526</cli>
+		<sleep>1</sleep>
+		<cli>TKU SHM/T531</cli>
+		<sleep>1</sleep>
+		<cli>TKU SHM/T532</cli>
+		<sleep>1</sleep>
+		<cli>TKU SHM/T533</cli>
+		<sleep>1</sleep>
+		<cli>TKU SHM/T537</cli>
+		<sleep>1</sleep>
+		<cli>TKU SHM/T542</cli>
+		<sleep>1</sleep>
+		<cli>TKU SHM/T544</cli>
+		<sleep>1</sleep>
+		<cli>TKU SHM/T545</cli>
+		<sleep>1</sleep>
+		<cli>TKU SHM/T549</cli>
+		<sleep>1</sleep>
+		<cli>TKU SHM/T550</cli>
+		<sleep>1</sleep>
+		<cli>TKU SHM/T806</cli>
+		<sleep>1</sleep>
+		<cli>TKU SHM/T816</cli>
+		<sleep>1</sleep>
+		<cli>TKU SHM/T905</cli>
+		<sleep>1</sleep>
+		<cli>TKU SHM/T906</cli>
+		<sleep>1</sleep>
+		<cli>TKU SHM/T908</cli>
+		<sleep>1</sleep>
+		<cli>TKU SHM/T916</cli>
+		<sleep>1</sleep>
+		<cli>TKU SHM/T917</cli>
+		<sleep>1</sleep>
+		<cli>TKU SHM/T920</cli>
+	</actions>
+</scenario>

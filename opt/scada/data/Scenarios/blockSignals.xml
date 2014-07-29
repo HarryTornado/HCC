@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scenario>
+	<header>
+		<name>blockSignals</name>
+		<author>SMB</author>
+		<description>Test the blocking and unblocking of signals</description>
+		<date>13/04/2010</date>
+	</header>
+	<actions>
+		<!-- Cycle all points -->
+		<cli>SLB SHM/S905</cli>
+		<sleep>2</sleep>
+		<cli>SLB SHM/S906</cli>
+		<sleep>2</sleep>
+		<cli>SLB SHM/S912</cli>
+		<sleep>2</sleep>
+		<cli>SLB SHM/S916</cli>
+		<sleep>2</sleep>
+		<cli>SLB SHM/S917</cli>
+		<sleep>2</sleep>
+		<cli>SLB SHM/S918</cli>
+		<sleep>2</sleep>
+		<cli>SLB SHM/S920</cli>
+		<sleep>2</sleep>
+		<cli>SLU SHM/S905</cli>
+		<sleep>2</sleep>
+		<cli>SLU SHM/S906</cli>
+		<sleep>2</sleep>
+		<cli>SLU SHM/S912</cli>
+		<sleep>2</sleep>
+		<cli>SLU SHM/S916</cli>
+		<sleep>2</sleep>
+		<cli>SLU SHM/S917</cli>
+		<sleep>2</sleep>
+		<cli>SLU SHM/S918</cli>
+		<sleep>2</sleep>
+		<cli>SLU SHM/S920</cli>
+		<sleep>2</sleep>
+	</actions>
+</scenario>

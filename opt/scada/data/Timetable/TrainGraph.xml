@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TrainGraph xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TrainGraph.xsd">
+	<Timetable ConfigURL="oil://TimetableManager.TCMS/config" />
+	<ConfigurationFile FileName="TTConfigData.xml" Id="TimetableDataConfig"/>
+	<Logs>
+                <!-- level can be TRACE, DEBUG, INFO, WARN, ERROR or FATAL -->
+                <Log level="TRACE" logMode="LOG_MODE_CHANGE_DAILY" enableOption="LOG_ENABLE_ALL"/> 
+        </Logs>
+</TrainGraph>

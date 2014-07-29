@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Railway xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="C:/DOCUME~1/madhu.mulagada/Desktop/ACCESS~2/19THFI~1/Schemas/rules.xsd">
+	<Header date="29/06/2011 2:52:07 PM" source="sa" version="sa"/>
+	<Rules>
+		<Rule description="" id="1">
+			<Applicable>
+				<Time end_time="23:59:59" start_time="00:00:00"/>
+				<Days>
+					<Day day="SU"/>
+					<Day day="SA"/>
+					<Day day="FR"/>
+					<Day day="TH"/>
+					<Day day="WE"/>
+					<Day day="TU"/>
+					<Day day="MO"/>
+				</Days>
+			</Applicable>
+			<Location>
+				<Station id="FGS"/>
+				<Station id="NME"/>
+				<Station id="SSS"/>
+			</Location>
+			<Criteria>
+				<ServiceTypes>
+					<ServiceType type="Regional"/>
+					<ServiceType type="Metropolitan"/>
+					<ServiceType type="Metropolitan (regional crewfleet)"/>
+					<ServiceType type="Special"/>
+					<ServiceType type="Freight"/>
+					<ServiceType type="Historic"/>
+				</ServiceTypes>
+			</Criteria>
+		</Rule>
+		<Rule description="" id="2">
+			<Applicable>
+				<Time end_time="23:59:59" start_time="00:00:00"/>
+				<Days>
+					<Day day="SU"/>
+					<Day day="SA"/>
+					<Day day="FR"/>
+					<Day day="TH"/>
+					<Day day="WE"/>
+					<Day day="TU"/>
+					<Day day="MO"/>
+				</Days>
+			</Applicable>
+			<Location>
+				<Station id="FSS"/>
+				<Station id="SSS"/>
+			</Location>
+			<Criteria>
+				<Loop loop="loop"/>
+			</Criteria>
+		</Rule>
+		<Rule description="" id="3">
+			<Applicable>
+				<Time end_time="23:59:59" start_time="00:00:00"/>
+				<Days>
+					<Day day="MO"/>
+					<Day day="TU"/>
+					<Day day="WE"/>
+					<Day day="TH"/>
+					<Day day="FR"/>
+					<Day day="SA"/>
+					<Day day="SU"/>
+				</Days>
+			</Applicable>
+			<Location>
+				<Station id="PAR"/>
+				<Station id="RMD"/>
+				<Station id="FSS"/>
+			</Location>
+			<Criteria>
+				<Loop loop="loop"/>
+			</Criteria>
+		</Rule>
+		<Rule description="" id="4">
+			<Applicable>
+				<Time end_time="23:59:59" start_time="00:00:00"/>
+				<Days>
+					<Day day="SU"/>
+					<Day day="SA"/>
+					<Day day="FR"/>
+					<Day day="TH"/>
+					<Day day="WE"/>
+					<Day day="TU"/>
+					<Day day="MO"/>
+				</Days>
+			</Applicable>
+			<Location>
+				<Station id="VPK"/>
+				<Station id="CHL"/>
+			</Location>
+			<Criteria>
+				<Stopping_pattern stopping_pattern="express"/>
+			</Criteria>
+		</Rule>
+		<Rule description="" id="5">
+			<Applicable>
+				<Time end_time="23:59:59" start_time="00:00:00"/>
+				<Days>
+					<Day day="MO"/>
+					<Day day="TU"/>
+					<Day day="WE"/>
+					<Day day="TH"/>
+					<Day day="FR"/>
+					<Day day="SA"/>
+					<Day day="SU"/>
+				</Days>
+			</Applicable>
+			<Location>
+				<Station id="CWD"/>
+				<Station id="VPK"/>
+			</Location>
+			<Criteria>
+				<Stopping_pattern stopping_pattern="express"/>
+			</Criteria>
+		</Rule>
+		<Rule description="" id="7">
+			<Applicable>
+				<Time end_time="23:59:59" start_time="00:00:00"/>
+				<Days>
+					<Day day="SU"/>
+					<Day day="SA"/>
+					<Day day="FR"/>
+					<Day day="TH"/>
+					<Day day="WE"/>
+					<Day day="TU"/>
+					<Day day="MO"/>
+				</Days>
+			</Applicable>
+			<Location>
+				<Station id="WRM"/>
+				<Station id="NRM"/>
+			</Location>
+			<Criteria>
+				<Stopping_pattern stopping_pattern="express"/>
+			</Criteria>
+		</Rule>
+		<Rule description="" id="6">
+			<Applicable>
+				<Time end_time="23:59:59" start_time="00:00:00"/>
+				<Days>
+					<Day day="MO"/>
+					<Day day="TU"/>
+					<Day day="WE"/>
+					<Day day="TH"/>
+					<Day day="FR"/>
+					<Day day="SA"/>
+					<Day day="SU"/>
+				</Days>
+			</Applicable>
+			<Location>
+				<Station id="CWD"/>
+				<Station id="NRM"/>
+			</Location>
+			<Criteria>
+				<Stopping_pattern stopping_pattern="express"/>
+			</Criteria>
+		</Rule>
+		<Rule description="" id="8">
+			<Applicable>
+				<Time end_time="23:59:59" start_time="00:00:00"/>
+				<Days>
+					<Day day="SU"/>
+					<Day day="SA"/>
+					<Day day="FR"/>
+					<Day day="TH"/>
+					<Day day="WE"/>
+					<Day day="TU"/>
+					<Day day="MO"/>
+				</Days>
+			</Applicable>
+			<Location>
+				<Station id="JLI"/>
+				<Station id="WRM"/>
+			</Location>
+			<Criteria>
+				<Stopping_pattern stopping_pattern="express"/>
+			</Criteria>
+		</Rule>
+		<Rule description="" id="9">
+			<Applicable>
+				<Time end_time="23:59:59" start_time="00:00:00"/>
+				<Days>
+					<Day day="MO"/>
+					<Day day="TU"/>
+					<Day day="WE"/>
+					<Day day="TH"/>
+					<Day day="FR"/>
+					<Day day="SA"/>
+					<Day day="SU"/>
+				</Days>
+			</Applicable>
+			<Location>
+				<Station id="RMD"/>
+				<Station id="ERM"/>
+			</Location>
+			<Criteria>
+				<Lines>
+					<Line line="LIL"/>
+					<Line line="BEG"/>
+				</Lines>
+			</Criteria>
+		</Rule>
+		<Rule description="" id="10">
+			<Applicable>
+				<Time end_time="23:59:59" start_time="00:00:00"/>
+				<Days>
+					<Day day="SU"/>
+					<Day day="SA"/>
+					<Day day="FR"/>
+					<Day day="TH"/>
+					<Day day="WE"/>
+					<Day day="TU"/>
+					<Day day="MO"/>
+				</Days>
+			</Applicable>
+			<Location>
+				<Station id="RMD"/>
+				<Station id="PAR"/>
+			</Location>
+			<Criteria>
+				<Stopping_pattern stopping_pattern="express"/>
+			</Criteria>
+		</Rule>
+		<Rule description="" id="11">
+			<Applicable>
+				<Time end_time="23:59:59" start_time="00:00:00"/>
+				<Days>
+					<Day day="MO"/>
+					<Day day="TU"/>
+					<Day day="WE"/>
+					<Day day="TH"/>
+					<Day day="FR"/>
+					<Day day="SA"/>
+					<Day day="SU"/>
+				</Days>
+			</Applicable>
+			<Location>
+				<Station id="WTG"/>
+				<Station id="RUS"/>
+				<Station id="CHL"/>
+			</Location>
+			<Criteria>
+				<Stopping_pattern stopping_pattern="express"/>
+			</Criteria>
+		</Rule>
+		<Rule description="" id="12">
+			<Applicable>
+				<Time end_time="23:59:59" start_time="00:00:00"/>
+				<Days>
+					<Day day="SU"/>
+					<Day day="SA"/>
+					<Day day="FR"/>
+					<Day day="TH"/>
+					<Day day="WE"/>
+					<Day day="TU"/>
+					<Day day="MO"/>
+				</Days>
+			</Applicable>
+			<Location>
+				<Station id="NME"/>
+				<Station id="SKN"/>
+				<Station id="MAC"/>
+			</Location>
+			<Criteria>
+				<Lines>
+					<Line line="CBE"/>
+					<Line line="SDM"/>
+				</Lines>
+			</Criteria>
+		</Rule>
+		<Rule description="" id="13">
+			<Applicable>
+				<Time end_time="23:59:59" start_time="00:00:00"/>
+				<Days>
+					<Day day="MO"/>
+					<Day day="TU"/>
+					<Day day="WE"/>
+					<Day day="TH"/>
+					<Day day="FR"/>
+					<Day day="SA"/>
+					<Day day="SU"/>
+				</Days>
+			</Applicable>
+			<Location>
+				<Station id="SSS"/>
+				<Station id="NME"/>
+			</Location>
+			<Criteria>
+				<ServiceTypes>
+					<ServiceType type="Metropolitan"/>
+					<ServiceType type="Metropolitan (regional crewfleet)"/>
+					<ServiceType type="Regional"/>
+					<ServiceType type="Special"/>
+					<ServiceType type="Freight"/>
+					<ServiceType type="Historic"/>
+				</ServiceTypes>
+			</Criteria>
+		</Rule>
+	</Rules>
+</Railway>

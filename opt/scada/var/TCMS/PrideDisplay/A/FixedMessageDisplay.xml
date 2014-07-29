@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<FixedMessageDisplay xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="FixedMessageDisplay.xsd"> 
+    
+    <PDSI ReadyURL="oil://PDSI.TCMS/PrideDsi/ReadyForCLI" 
+          PlatformURL="oil://PDSI.TCMS/FSS/platform_face/" />
+          
+    <MessageKey PrideMsgNum="1" Id="1">
+        <msgTxt>Take Next Train to Flinders Street</msgTxt>
+    </MessageKey>
+    <MessageKey PrideMsgNum="2" Id="2">
+        <msgTxt>Take Next Train to Spencer Street</msgTxt>
+    </MessageKey>
+    <MessageKey PrideMsgNum="3" Id="3">
+        <msgTxt>Take Next Train to Richmond</msgTxt>
+    </MessageKey>
+    <MessageKey PrideMsgNum="4" Id="4">
+        <msgTxt>Take Next Tram to Flinders Street</msgTxt>
+    </MessageKey>
+    <MessageKey PrideMsgNum="5" Id="5">
+        <msgTxt>Not Taking Passengers</msgTxt>
+    </MessageKey>
+    <MessageKey PrideMsgNum="6" Id="6">
+        <msgTxt>Not Taking Suburban Passengers</msgTxt>
+    </MessageKey>
+    <MessageKey PrideMsgNum="7" Id="7">
+        <msgTxt>Listen For Announcements</msgTxt>
+    </MessageKey>
+    <MessageKey PrideMsgNum="8" Id="8">
+        <msgTxt>Special Train</msgTxt>
+    </MessageKey>
+    <MessageKey PrideMsgNum="9" Id="9">
+        <msgTxt>Race Train</msgTxt>
+    </MessageKey>
+    <MessageKey PrideMsgNum="11" Id="11">
+        <msgTxt>Take Next Train to Flagstaff</msgTxt>
+    </MessageKey>
+
+	
+    <Platform Id="1" Type="PLATFORM" />
+    <Platform Id="2" Type="PLATFORM" />
+    <Platform Id="3" Type="PLATFORM" />
+    <Platform Id="4" Type="PLATFORM" />
+    <Platform Id="5" Type="PLATFORM" />
+    <Platform Id="6" Type="PLATFORM" />
+    <Platform Id="7" Type="PLATFORM" />
+    <Platform Id="8" Type="PLATFORM" />
+    <Platform Id="9" Type="PLATFORM" />
+    <Platform Id="10" Type="PLATFORM" />
+    <Platform Id="12" Type="PLATFORM" />
+    <Platform Id="14" Type="PLATFORM" />
+	
+</FixedMessageDisplay>

@@ -1,0 +1,1760 @@
+Sun 30/Oct/2011 21:44:09.270 TrainController/7981 train restarted. tdn 7981
+Sun 30/Oct/2011 21:44:09.270 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:44:09.270 TrainController/7981 head track FSA/T744 is on new platform FSS008
+Sun 30/Oct/2011 21:44:09.271 TrainController/7981 inPlatform: false
+Sun 30/Oct/2011 21:44:09.271 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:44:09.470 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:44:09.471 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:44:10.646 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:44:10.646 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:44:11.088 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:44:11.257 TrainController/7981 head track FSA/T744 is on new platform FSS008
+Sun 30/Oct/2011 21:44:11.258 TrainController/7981 inPlatform: false
+Sun 30/Oct/2011 21:44:11.258 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:44:11.714 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:44:11.714 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:44:12.301 TrainController/7981 reading trip
+Sun 30/Oct/2011 21:44:12.302 TrainController/7981 creating train plan
+Sun 30/Oct/2011 21:44:12.307 TrainController/7981 update train plan time
+Sun 30/Oct/2011 21:44:12.309 TrainController/7981 request Schedule
+Sun 30/Oct/2011 21:44:12.309 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:44:12.310 TrainController/7981 head track FSA/T744 is on new platform FSS008
+Sun 30/Oct/2011 21:44:12.310 TrainController/7981 inPlatform: false
+Sun 30/Oct/2011 21:44:12.310 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:44:12.717 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:44:12.718 TrainController/7981 checking FSB/R746A
+Sun 30/Oct/2011 21:44:12.719 TrainController/7981 now starting FSB/R746A
+Sun 30/Oct/2011 21:44:12.719 TrainController2/7981/SignalController/FSB/R746A created
+Sun 30/Oct/2011 21:44:12.719 TrainController/7981 checking FSB/R850A
+Sun 30/Oct/2011 21:44:12.721 TrainController/7981 checking FSB/R852A
+Sun 30/Oct/2011 21:44:12.721 TrainController2/7981/SignalController/FSB/R746A successfully claimed
+Sun 30/Oct/2011 21:44:12.723 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:44:12.726 TrainController2/7981/SignalController/FSB/R746A RouteStateChange Event. RouteModel:FSB/R746A, oldState: Dormant, newState: Turning
+Sun 30/Oct/2011 21:44:13.726 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:44:13.728 TrainController/7981 checking FSB/R852A
+Sun 30/Oct/2011 21:44:13.728 TrainController/7981 checking FSE/R854A-FSE/R982D
+Sun 30/Oct/2011 21:44:13.729 TrainController/7981 FSE/R854A-FSE/R982D not available
+Sun 30/Oct/2011 21:44:13.729 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:44:14.730 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:44:14.734 TrainController/7981 checking FSE/R854A-FSE/R982D
+Sun 30/Oct/2011 21:44:14.735 TrainController/7981 FSE/R854A-FSE/R982D not available
+Sun 30/Oct/2011 21:44:14.735 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:44:15.992 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:44:16.535 TrainController/7981 checking FSE/R854A-FSE/R982D
+Sun 30/Oct/2011 21:44:16.725 TrainController/7981 FSE/R854A-FSE/R982D not available
+Sun 30/Oct/2011 21:44:16.725 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:44:17.729 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:44:17.731 TrainController/7981 checking FSE/R854A-FSE/R982D
+Sun 30/Oct/2011 21:44:17.736 TrainController/7981 FSE/R854A-FSE/R982D not available
+Sun 30/Oct/2011 21:44:17.736 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:44:18.803 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:44:18.825 TrainController/7981 checking FSE/R854A-FSE/R982D
+Sun 30/Oct/2011 21:44:18.889 TrainController/7981 FSE/R854A-FSE/R982D not available
+Sun 30/Oct/2011 21:44:18.890 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:44:19.039 TrainController2/7981/SignalController/FSB/R746A RouteStateChange Event. RouteModel:FSB/R746A, oldState: Turning, newState: Locked
+Sun 30/Oct/2011 21:44:19.833 TrainController2/7981/SignalController/FSB/R746A RouteStateChange Event. RouteModel:FSB/R746A, oldState: Locked, newState: Clear
+Sun 30/Oct/2011 21:44:19.833 TrainController2/7981/SignalController/FSB/R746A checking for next route...
+Sun 30/Oct/2011 21:44:19.835 TrainController2/7981/SignalController/FSB/R746A no more route. SignalController OK sent to Traincontroller
+Sun 30/Oct/2011 21:44:19.835 TrainController/7981  signal controller FSB/R746A ok
+Sun 30/Oct/2011 21:44:20.012 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:44:20.015 TrainController/7981 checking FSE/R854A-FSE/R982D
+Sun 30/Oct/2011 21:44:20.018 TrainController/7981 FSE/R854A-FSE/R982D not available
+Sun 30/Oct/2011 21:44:20.018 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:44:21.020 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:44:21.023 TrainController/7981 checking FSE/R854A-FSE/R982D
+Sun 30/Oct/2011 21:44:21.023 TrainController/7981 FSE/R854A-FSE/R982D not available
+Sun 30/Oct/2011 21:44:21.023 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:44:22.025 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:44:22.026 TrainController/7981 checking FSE/R854A-FSE/R982D
+Sun 30/Oct/2011 21:44:22.027 TrainController/7981 FSE/R854A-FSE/R982D not available
+Sun 30/Oct/2011 21:44:22.027 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:44:23.028 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:44:23.031 TrainController/7981 checking FSE/R854A-FSE/R982D
+Sun 30/Oct/2011 21:44:23.033 TrainController/7981 FSE/R854A-FSE/R982D not available
+Sun 30/Oct/2011 21:44:23.035 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:44:24.171 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:44:24.174 TrainController/7981 checking FSE/R854A-FSE/R982D
+Sun 30/Oct/2011 21:44:24.174 TrainController/7981 FSE/R854A-FSE/R982D not available
+Sun 30/Oct/2011 21:44:24.175 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:44:25.177 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:44:25.178 TrainController/7981 checking FSE/R854A-FSE/R982D
+Sun 30/Oct/2011 21:44:25.179 TrainController/7981 FSE/R854A-FSE/R982D not available
+Sun 30/Oct/2011 21:44:25.179 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:44:26.180 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:44:26.188 TrainController/7981 checking FSE/R854A-FSE/R982D
+Sun 30/Oct/2011 21:44:26.190 TrainController/7981 FSE/R854A-FSE/R982D not available
+Sun 30/Oct/2011 21:44:26.190 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:44:27.216 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:44:27.247 TrainController/7981 checking FSE/R854A-FSE/R982D
+Sun 30/Oct/2011 21:44:27.303 TrainController/7981 FSE/R854A-FSE/R982D not available
+Sun 30/Oct/2011 21:44:27.303 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:44:28.305 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:44:28.308 TrainController/7981 checking FSE/R854A-FSE/R982D
+Sun 30/Oct/2011 21:44:28.309 TrainController/7981 FSE/R854A-FSE/R982D not available
+Sun 30/Oct/2011 21:44:28.309 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:44:29.334 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:44:29.336 TrainController/7981 checking FSE/R854A-FSE/R982D
+Sun 30/Oct/2011 21:44:29.342 TrainController/7981 FSE/R854A-FSE/R982D not available
+Sun 30/Oct/2011 21:44:29.342 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:44:29.344 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:44:29.345 TrainController/7981 head track FSA/T744 is on new platform FSS008
+Sun 30/Oct/2011 21:44:29.350 TrainController/7981 inPlatform: false
+Sun 30/Oct/2011 21:44:29.350 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:44:30.344 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:44:30.352 TrainController/7981 checking FSE/R854A-FSE/R982D
+Sun 30/Oct/2011 21:44:30.355 TrainController/7981 FSE/R854A-FSE/R982D not available
+Sun 30/Oct/2011 21:44:30.356 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:44:31.692 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:44:31.693 TrainController/7981 checking FSE/R854A-FSE/R982D
+Sun 30/Oct/2011 21:44:31.697 TrainController/7981 FSE/R854A-FSE/R982D not available
+Sun 30/Oct/2011 21:44:31.698 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:44:31.883 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:44:31.884 TrainController/7981 head track FSA/T751 is on new platform FSS008
+Sun 30/Oct/2011 21:44:31.884 TrainController/7981 inPlatform: false
+Sun 30/Oct/2011 21:44:31.884 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:44:32.698 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:44:32.701 TrainController/7981 checking FSE/R854A-FSE/R982D
+Sun 30/Oct/2011 21:44:32.705 TrainController/7981 FSE/R854A-FSE/R982D not available
+Sun 30/Oct/2011 21:44:32.705 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:44:33.149 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:44:33.149 TrainController/7981 head track FSB/T755 is on new platform FSS008
+Sun 30/Oct/2011 21:44:33.149 TrainController/7981 inPlatform: true
+Sun 30/Oct/2011 21:44:33.149 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:44:33.707 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:44:33.709 TrainController/7981 checking FSE/R854A-FSE/R982D
+Sun 30/Oct/2011 21:44:33.710 TrainController/7981 FSE/R854A-FSE/R982D not available
+Sun 30/Oct/2011 21:44:33.711 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:44:34.712 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:44:34.714 TrainController/7981 checking FSE/R854A-FSE/R982D
+Sun 30/Oct/2011 21:44:34.715 TrainController/7981 waiting 42 seconds  to start FSE/R854A-FSE/R982D
+Sun 30/Oct/2011 21:44:34.715 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:44:35.379 TrainController2/7981/SignalController/FSB/R746A RouteStateChange Event. RouteModel:FSB/R746A, oldState: Clear, newState: TrainIn
+Sun 30/Oct/2011 21:44:35.392 TrainController2/7981/SignalController/FSB/R746A Clearing up
+Sun 30/Oct/2011 21:44:35.745 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:44:35.756 TrainController/7981 checking FSE/R854A-FSE/R982D
+Sun 30/Oct/2011 21:44:35.767 TrainController/7981 waiting 31 seconds  to start FSE/R854A-FSE/R982D
+Sun 30/Oct/2011 21:44:35.767 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:44:35.799 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:44:35.800 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:44:36.773 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:44:36.781 TrainController/7981 checking FSE/R854A-FSE/R982D
+Sun 30/Oct/2011 21:44:36.781 TrainController/7981 waiting 31 seconds  to start FSE/R854A-FSE/R982D
+Sun 30/Oct/2011 21:44:36.782 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:44:37.786 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:44:37.789 TrainController/7981 checking FSE/R854A-FSE/R982D
+Sun 30/Oct/2011 21:44:37.790 TrainController/7981 waiting 19 seconds  to start FSE/R854A-FSE/R982D
+Sun 30/Oct/2011 21:44:37.790 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:44:37.800 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:44:37.800 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:44:38.792 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:44:38.794 TrainController/7981 checking FSE/R854A-FSE/R982D
+Sun 30/Oct/2011 21:44:38.795 TrainController/7981 waiting 19 seconds  to start FSE/R854A-FSE/R982D
+Sun 30/Oct/2011 21:44:38.795 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:44:39.798 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:44:39.801 TrainController/7981 checking FSE/R854A-FSE/R982D
+Sun 30/Oct/2011 21:44:39.807 TrainController/7981 waiting 8 seconds  to start FSE/R854A-FSE/R982D
+Sun 30/Oct/2011 21:44:39.807 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:44:40.588 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:44:40.588 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:44:40.808 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:44:40.810 TrainController/7981 checking FSE/R854A-FSE/R982D
+Sun 30/Oct/2011 21:44:40.812 TrainController/7981 FSE/R854A-FSE/R982D not available
+Sun 30/Oct/2011 21:44:40.812 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:44:41.834 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:44:41.839 TrainController/7981 checking FSE/R854A-FSE/R982D
+Sun 30/Oct/2011 21:44:41.840 TrainController/7981 FSE/R854A-FSE/R982D not available
+Sun 30/Oct/2011 21:44:41.840 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:44:42.553 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:44:42.553 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:44:42.845 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:44:42.846 TrainController/7981 checking FSE/R854A-FSE/R982D
+Sun 30/Oct/2011 21:44:42.846 TrainController/7981 FSE/R854A-FSE/R982D not available
+Sun 30/Oct/2011 21:44:42.847 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:44:43.849 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:44:43.852 TrainController/7981 checking FSE/R854A-FSE/R982D
+Sun 30/Oct/2011 21:44:43.852 TrainController/7981 FSE/R854A-FSE/R982D not available
+Sun 30/Oct/2011 21:44:43.853 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:44:44.568 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:44:44.568 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:44:44.855 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:44:44.856 TrainController/7981 checking FSE/R854A-FSE/R982D
+Sun 30/Oct/2011 21:44:44.858 TrainController/7981 FSE/R854A-FSE/R982D not available
+Sun 30/Oct/2011 21:44:44.859 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:44:45.875 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:44:45.889 TrainController/7981 checking FSE/R854A-FSE/R982D
+Sun 30/Oct/2011 21:44:45.894 TrainController/7981 FSE/R854A-FSE/R982D not available
+Sun 30/Oct/2011 21:44:45.894 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:44:46.650 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:44:46.650 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:44:46.898 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:44:46.904 TrainController/7981 checking FSE/R854A-FSE/R982D
+Sun 30/Oct/2011 21:44:46.905 TrainController/7981 FSE/R854A-FSE/R982D not available
+Sun 30/Oct/2011 21:44:46.905 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:44:48.046 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:44:48.055 TrainController/7981 checking FSE/R854A-FSE/R982D
+Sun 30/Oct/2011 21:44:48.065 TrainController/7981 FSE/R854A-FSE/R982D not available
+Sun 30/Oct/2011 21:44:48.065 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:44:49.185 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:44:49.190 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:44:49.190 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:44:49.196 TrainController/7981 checking FSE/R854A-FSE/R982D
+Sun 30/Oct/2011 21:44:49.213 TrainController/7981 FSE/R854A-FSE/R982D not available
+Sun 30/Oct/2011 21:44:49.213 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:44:50.217 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:44:50.222 TrainController/7981 checking FSE/R854A-FSE/R982D
+Sun 30/Oct/2011 21:44:50.228 TrainController/7981 FSE/R854A-FSE/R982D not available
+Sun 30/Oct/2011 21:44:50.228 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:44:51.230 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:44:51.231 TrainController/7981 checking FSE/R854A-FSE/R982D
+Sun 30/Oct/2011 21:44:51.232 TrainController/7981 FSE/R854A-FSE/R982D not available
+Sun 30/Oct/2011 21:44:51.232 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:44:52.234 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:44:52.237 TrainController/7981 checking FSE/R854A-FSE/R982D
+Sun 30/Oct/2011 21:44:52.238 TrainController/7981 FSE/R854A-FSE/R982D not available
+Sun 30/Oct/2011 21:44:52.238 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:44:53.240 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:44:53.241 TrainController/7981 checking FSE/R854A-FSE/R982D
+Sun 30/Oct/2011 21:44:53.244 TrainController/7981 FSE/R854A-FSE/R982D not available
+Sun 30/Oct/2011 21:44:53.244 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:44:54.263 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:44:54.280 TrainController/7981 checking FSE/R854A-FSE/R982D
+Sun 30/Oct/2011 21:44:54.292 TrainController/7981 FSE/R854A-FSE/R982D not available
+Sun 30/Oct/2011 21:44:54.292 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:44:55.297 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:44:55.300 TrainController/7981 checking FSE/R854A-FSE/R982D
+Sun 30/Oct/2011 21:44:55.300 TrainController/7981 FSE/R854A-FSE/R982D not available
+Sun 30/Oct/2011 21:44:55.300 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:44:56.305 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:44:56.317 TrainController/7981 checking FSE/R854A-FSE/R982D
+Sun 30/Oct/2011 21:44:56.324 TrainController/7981 FSE/R854A-FSE/R982D not available
+Sun 30/Oct/2011 21:44:56.324 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:44:57.325 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:44:57.326 TrainController/7981 checking FSE/R854A-FSE/R982D
+Sun 30/Oct/2011 21:44:57.330 TrainController/7981 FSE/R854A-FSE/R982D not available
+Sun 30/Oct/2011 21:44:57.330 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:44:58.332 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:44:58.333 TrainController/7981 checking FSE/R854A-FSE/R982D
+Sun 30/Oct/2011 21:44:58.334 TrainController/7981 FSE/R854A-FSE/R982D not available
+Sun 30/Oct/2011 21:44:58.335 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:44:59.338 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:44:59.339 TrainController/7981 checking FSE/R854A-FSE/R982D
+Sun 30/Oct/2011 21:44:59.340 TrainController/7981 FSE/R854A-FSE/R982D not available
+Sun 30/Oct/2011 21:44:59.341 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:45:00.342 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:45:00.342 TrainController/7981 checking FSE/R854A-FSE/R982D
+Sun 30/Oct/2011 21:45:00.342 TrainController/7981 FSE/R854A-FSE/R982D not available
+Sun 30/Oct/2011 21:45:00.343 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:45:01.345 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:45:01.346 TrainController/7981 checking FSE/R854A-FSE/R982D
+Sun 30/Oct/2011 21:45:01.346 TrainController/7981 FSE/R854A-FSE/R982D not available
+Sun 30/Oct/2011 21:45:01.346 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:45:02.401 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:45:02.413 TrainController/7981 checking FSE/R854A-FSE/R982D
+Sun 30/Oct/2011 21:45:02.426 TrainController/7981 FSE/R854A-FSE/R982D not available
+Sun 30/Oct/2011 21:45:02.426 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:45:03.573 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:45:03.589 TrainController/7981 checking FSE/R854A-FSE/R982D
+Sun 30/Oct/2011 21:45:03.602 TrainController/7981 FSE/R854A-FSE/R982D not available
+Sun 30/Oct/2011 21:45:03.602 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:45:04.749 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:45:04.750 TrainController/7981 checking FSE/R854A-FSE/R982D
+Sun 30/Oct/2011 21:45:04.855 TrainController/7981 FSE/R854A-FSE/R982D not available
+Sun 30/Oct/2011 21:45:04.856 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:45:05.951 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:45:05.952 TrainController/7981 checking FSE/R854A-FSE/R982D
+Sun 30/Oct/2011 21:45:05.956 TrainController/7981 FSE/R854A-FSE/R982D not available
+Sun 30/Oct/2011 21:45:05.956 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:45:06.960 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:45:06.961 TrainController/7981 checking FSE/R854A-FSE/R982D
+Sun 30/Oct/2011 21:45:06.962 TrainController/7981 FSE/R854A-FSE/R982D not available
+Sun 30/Oct/2011 21:45:06.962 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:45:07.964 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:45:07.965 TrainController/7981 checking FSE/R854A-FSE/R982D
+Sun 30/Oct/2011 21:45:07.965 TrainController/7981 FSE/R854A-FSE/R982D not available
+Sun 30/Oct/2011 21:45:07.966 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:45:09.302 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:45:09.307 TrainController/7981 checking FSE/R854A-FSE/R982D
+Sun 30/Oct/2011 21:45:09.312 TrainController/7981 now starting FSE/R854A-FSE/R982D
+Sun 30/Oct/2011 21:45:09.316 TrainController2/7981/SignalController/FSE/R854A-FSE/R982D created
+Sun 30/Oct/2011 21:45:09.480 TrainController/7981 checking FSE/R870A-FSE/R986A
+Sun 30/Oct/2011 21:45:09.480 TrainController/7981 previous sr FSE/R854A-FSE/R982D status: waiting
+Sun 30/Oct/2011 21:45:09.481 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:45:09.481 TrainController2/7981/SignalController/FSE/R854A-FSE/R982D Condition check faild: route FSE/R982D rejected. reason: FSE/P882D locked physically to the wrong position
+Sun 30/Oct/2011 21:45:09.647 TrainController2/7981/SignalController/FSE/R854A-FSE/R982D Condition check faild: route FSE/R982D rejected. reason: FSE/P882D locked physically to the wrong position
+Sun 30/Oct/2011 21:45:09.748 TrainController2/7981/SignalController/FSE/R854A-FSE/R982D Condition check faild: route FSE/R982D rejected. reason: FSE/P882D locked physically to the wrong position
+Sun 30/Oct/2011 21:45:09.984 TrainController2/7981/SignalController/FSE/R854A-FSE/R982D Condition check faild: route FSE/R982D rejected. reason: FSE/P882D locked physically to the wrong position
+Sun 30/Oct/2011 21:45:10.085 TrainController2/7981/SignalController/FSE/R854A-FSE/R982D Condition check faild: route FSE/R982D rejected. reason: FSE/P882D locked physically to the wrong position
+Sun 30/Oct/2011 21:45:10.186 TrainController2/7981/SignalController/FSE/R854A-FSE/R982D Condition check faild: route FSE/R982D rejected. reason: FSE/P882D locked physically to the wrong position
+Sun 30/Oct/2011 21:45:10.286 TrainController2/7981/SignalController/FSE/R854A-FSE/R982D Condition check faild: route FSE/R982D rejected. reason: FSE/P882D locked physically to the wrong position
+Sun 30/Oct/2011 21:45:10.387 TrainController2/7981/SignalController/FSE/R854A-FSE/R982D Condition check faild: route FSE/R982D rejected. reason: FSE/P882D locked physically to the wrong position
+Sun 30/Oct/2011 21:45:10.568 TrainController2/7981/SignalController/FSE/R854A-FSE/R982D Condition check faild: route FSE/R982D rejected. reason: FSE/P882D locked physically to the wrong position
+Sun 30/Oct/2011 21:45:10.570 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:45:10.604 TrainController/7981 checking FSE/R870A-FSE/R986A
+Sun 30/Oct/2011 21:45:10.604 TrainController/7981 previous sr FSE/R854A-FSE/R982D status: waiting
+Sun 30/Oct/2011 21:45:10.604 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:45:10.746 TrainController2/7981/SignalController/FSE/R854A-FSE/R982D Condition check faild: route FSE/R982D rejected. reason: FSE/P882D locked physically to the wrong position
+Sun 30/Oct/2011 21:45:10.856 TrainController2/7981/SignalController/FSE/R854A-FSE/R982D Condition check faild: route FSE/R982D rejected. reason: FSE/P882D locked physically to the wrong position
+Sun 30/Oct/2011 21:45:10.957 TrainController2/7981/SignalController/FSE/R854A-FSE/R982D Condition check faild: route FSE/R982D rejected. reason: FSE/P882D locked physically to the wrong position
+Sun 30/Oct/2011 21:45:11.057 TrainController2/7981/SignalController/FSE/R854A-FSE/R982D Condition check faild: route FSE/R982D rejected. reason: FSE/P882D locked physically to the wrong position
+Sun 30/Oct/2011 21:45:11.158 TrainController2/7981/SignalController/FSE/R854A-FSE/R982D Condition check faild: route FSE/R982D rejected. reason: FSE/P882D locked physically to the wrong position
+Sun 30/Oct/2011 21:45:11.259 TrainController2/7981/SignalController/FSE/R854A-FSE/R982D Condition check faild: route FSE/R982D rejected. reason: FSE/P882D locked physically to the wrong position
+Sun 30/Oct/2011 21:45:11.360 TrainController2/7981/SignalController/FSE/R854A-FSE/R982D Condition check faild: route FSE/R982D rejected. reason: FSE/P882D locked physically to the wrong position
+Sun 30/Oct/2011 21:45:11.461 TrainController2/7981/SignalController/FSE/R854A-FSE/R982D Condition check faild: route FSE/R982D rejected. reason: FSE/P882D locked by RouteModel/FSE/R992B
+Sun 30/Oct/2011 21:45:11.563 TrainController2/7981/SignalController/FSE/R854A-FSE/R982D Condition check faild: route FSE/R982D rejected. reason: FSE/P882D locked by RouteModel/FSE/R992B
+Sun 30/Oct/2011 21:45:11.606 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:45:11.609 TrainController/7981 checking FSE/R870A-FSE/R986A
+Sun 30/Oct/2011 21:45:11.609 TrainController/7981 previous sr FSE/R854A-FSE/R982D status: waiting
+Sun 30/Oct/2011 21:45:11.610 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:45:11.663 TrainController2/7981/SignalController/FSE/R854A-FSE/R982D Condition check faild: route FSE/R982D rejected. reason: FSE/P882D locked by RouteModel/FSE/R992B
+Sun 30/Oct/2011 21:45:11.764 TrainController2/7981/SignalController/FSE/R854A-FSE/R982D Condition check faild: route FSE/R982D rejected. reason: FSE/P882D locked by RouteModel/FSE/R992B
+Sun 30/Oct/2011 21:45:11.893 TrainController2/7981/SignalController/FSE/R854A-FSE/R982D Condition check faild: route FSE/R982D rejected. reason: FSE/P882D locked by RouteModel/FSE/R992B
+Sun 30/Oct/2011 21:45:12.068 TrainController2/7981/SignalController/FSE/R854A-FSE/R982D Condition check faild: route FSE/R982D rejected. reason: FSE/P882D locked by RouteModel/FSE/R992B
+Sun 30/Oct/2011 21:45:12.169 TrainController2/7981/SignalController/FSE/R854A-FSE/R982D Condition check faild: route FSE/R982D rejected. reason: FSE/P882D locked by RouteModel/FSE/R992B
+Sun 30/Oct/2011 21:45:12.271 TrainController2/7981/SignalController/FSE/R854A-FSE/R982D Condition check faild: route FSE/R982D rejected. reason: FSE/P882D locked by RouteModel/FSE/R992B
+Sun 30/Oct/2011 21:45:12.372 TrainController2/7981/SignalController/FSE/R854A-FSE/R982D Condition check faild: route FSE/R982D rejected. reason: FSE/P882D locked by RouteModel/FSE/R992B
+Sun 30/Oct/2011 21:45:12.474 TrainController2/7981/SignalController/FSE/R854A-FSE/R982D Condition check faild: route FSE/R982D rejected. reason: FSE/P882D locked by RouteModel/FSE/R992B
+Sun 30/Oct/2011 21:45:12.574 TrainController2/7981/SignalController/FSE/R854A-FSE/R982D Condition check faild: route FSE/R982D rejected. reason: FSE/P882D locked by RouteModel/FSE/R992B
+Sun 30/Oct/2011 21:45:12.612 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:45:12.614 TrainController/7981 checking FSE/R870A-FSE/R986A
+Sun 30/Oct/2011 21:45:12.614 TrainController/7981 previous sr FSE/R854A-FSE/R982D status: waiting
+Sun 30/Oct/2011 21:45:12.614 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:45:12.675 TrainController2/7981/SignalController/FSE/R854A-FSE/R982D Condition check faild: route FSE/R982D rejected. reason: FSE/P882D locked by RouteModel/FSE/R992B
+Sun 30/Oct/2011 21:45:12.777 TrainController2/7981/SignalController/FSE/R854A-FSE/R982D Condition check faild: route FSE/R982D rejected. reason: FSE/P882D locked by RouteModel/FSE/R992B
+Sun 30/Oct/2011 21:45:12.878 TrainController2/7981/SignalController/FSE/R854A-FSE/R982D Condition check faild: route FSE/R982D rejected. reason: FSE/P882D locked by RouteModel/FSE/R992B
+Sun 30/Oct/2011 21:45:12.978 TrainController2/7981/SignalController/FSE/R854A-FSE/R982D Condition check faild: route FSE/R982D rejected. reason: FSE/P882D locked by RouteModel/FSE/R992B
+Sun 30/Oct/2011 21:45:13.082 TrainController2/7981/SignalController/FSE/R854A-FSE/R982D Condition check faild: route FSE/R982D rejected. reason: FSE/P882D locked by RouteModel/FSE/R992B
+Sun 30/Oct/2011 21:45:13.183 TrainController2/7981/SignalController/FSE/R854A-FSE/R982D Condition check faild: route FSE/R982D rejected. reason: FSE/P882D locked by RouteModel/FSE/R992B
+Sun 30/Oct/2011 21:45:13.284 TrainController2/7981/SignalController/FSE/R854A-FSE/R982D Condition check faild: route FSE/R982D rejected. reason: FSE/P882D locked by RouteModel/FSE/R992B
+Sun 30/Oct/2011 21:45:13.392 TrainController2/7981/SignalController/FSE/R854A-FSE/R982D successfully claimed
+Sun 30/Oct/2011 21:45:13.397 TrainController2/7981/SignalController/FSE/R854A-FSE/R982D RouteStateChange Event. RouteModel:FSE/R982D, oldState: Dormant, newState: Turning
+Sun 30/Oct/2011 21:45:13.637 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:45:13.656 TrainController/7981 checking FSE/R870A-FSE/R986A
+Sun 30/Oct/2011 21:45:13.674 TrainController/7981 waiting 19 seconds  to start FSE/R870A-FSE/R986A
+Sun 30/Oct/2011 21:45:13.674 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:45:14.675 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:45:14.678 TrainController/7981 checking FSE/R870A-FSE/R986A
+Sun 30/Oct/2011 21:45:14.680 TrainController/7981 waiting 19 seconds  to start FSE/R870A-FSE/R986A
+Sun 30/Oct/2011 21:45:14.681 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:45:15.683 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:45:15.684 TrainController/7981 checking FSE/R870A-FSE/R986A
+Sun 30/Oct/2011 21:45:15.684 TrainController/7981 waiting 19 seconds  to start FSE/R870A-FSE/R986A
+Sun 30/Oct/2011 21:45:15.685 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:45:16.685 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:45:16.687 TrainController/7981 checking FSE/R870A-FSE/R986A
+Sun 30/Oct/2011 21:45:16.687 TrainController/7981 waiting 19 seconds  to start FSE/R870A-FSE/R986A
+Sun 30/Oct/2011 21:45:16.688 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:45:17.690 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:45:17.691 TrainController/7981 checking FSE/R870A-FSE/R986A
+Sun 30/Oct/2011 21:45:17.692 TrainController/7981 waiting 19 seconds  to start FSE/R870A-FSE/R986A
+Sun 30/Oct/2011 21:45:17.692 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:45:18.746 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:45:18.747 TrainController/7981 checking FSE/R870A-FSE/R986A
+Sun 30/Oct/2011 21:45:18.773 TrainController/7981 waiting 19 seconds  to start FSE/R870A-FSE/R986A
+Sun 30/Oct/2011 21:45:18.773 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:45:18.818 TrainController2/7981/SignalController/FSE/R854A-FSE/R982D RouteStateChange Event. RouteModel:FSE/R982D, oldState: Turning, newState: Locked
+Sun 30/Oct/2011 21:45:19.774 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:45:19.776 TrainController/7981 checking FSE/R870A-FSE/R986A
+Sun 30/Oct/2011 21:45:19.776 TrainController/7981 waiting 19 seconds  to start FSE/R870A-FSE/R986A
+Sun 30/Oct/2011 21:45:19.777 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:45:19.824 TrainController2/7981/SignalController/FSE/R854A-FSE/R982D RouteStateChange Event. RouteModel:FSE/R982D, oldState: Locked, newState: Clear
+Sun 30/Oct/2011 21:45:19.824 TrainController2/7981/SignalController/FSE/R854A-FSE/R982D checking for next route...
+Sun 30/Oct/2011 21:45:19.825 TrainController2/7981/SignalController/FSE/R854A-FSE/R982D new route: FSE/R854A
+Sun 30/Oct/2011 21:45:19.837 TrainController2/7981/SignalController/FSE/R854A-FSE/R982D RouteStateChange Event. RouteModel:FSE/R854A, oldState: Turning, newState: Locked
+Sun 30/Oct/2011 21:45:19.848 TrainController2/7981/SignalController/FSE/R854A-FSE/R982D RouteStateChange Event. RouteModel:FSE/R854A, oldState: Dormant, newState: Locked
+Sun 30/Oct/2011 21:45:20.778 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:45:20.779 TrainController/7981 checking FSE/R870A-FSE/R986A
+Sun 30/Oct/2011 21:45:20.780 TrainController/7981 waiting 19 seconds  to start FSE/R870A-FSE/R986A
+Sun 30/Oct/2011 21:45:20.780 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:45:20.823 TrainController2/7981/SignalController/FSE/R854A-FSE/R982D RouteStateChange Event. RouteModel:FSE/R854A, oldState: Locked, newState: Clear
+Sun 30/Oct/2011 21:45:20.823 TrainController2/7981/SignalController/FSE/R854A-FSE/R982D checking for next route...
+Sun 30/Oct/2011 21:45:20.824 TrainController2/7981/SignalController/FSE/R854A-FSE/R982D no more route. SignalController OK sent to Traincontroller
+Sun 30/Oct/2011 21:45:20.824 TrainController/7981  signal controller FSE/R854A-FSE/R982D ok
+Sun 30/Oct/2011 21:45:21.906 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:45:21.935 TrainController/7981 checking FSE/R870A-FSE/R986A
+Sun 30/Oct/2011 21:45:22.110 TrainController/7981 waiting 19 seconds  to start FSE/R870A-FSE/R986A
+Sun 30/Oct/2011 21:45:22.110 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:45:22.126 TrainController2/7981/SignalController/FSE/R854A-FSE/R982D RouteStateChange Event. RouteModel:FSE/R854A, oldState: Clear, newState: TrainIn
+Sun 30/Oct/2011 21:45:23.115 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:45:23.119 TrainController/7981 checking FSE/R870A-FSE/R986A
+Sun 30/Oct/2011 21:45:23.123 TrainController/7981 waiting 12 seconds  to start FSE/R870A-FSE/R986A
+Sun 30/Oct/2011 21:45:23.123 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:45:24.196 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:45:24.215 TrainController/7981 checking FSE/R870A-FSE/R986A
+Sun 30/Oct/2011 21:45:24.226 TrainController/7981 waiting 12 seconds  to start FSE/R870A-FSE/R986A
+Sun 30/Oct/2011 21:45:24.226 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:45:25.229 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:45:25.230 TrainController/7981 checking FSE/R870A-FSE/R986A
+Sun 30/Oct/2011 21:45:25.235 TrainController/7981 now starting FSE/R870A-FSE/R986A
+Sun 30/Oct/2011 21:45:25.241 TrainController2/7981/SignalController/FSE/R870A-FSE/R986A created
+Sun 30/Oct/2011 21:45:25.247 TrainController/7981 checking FSE/R872A
+Sun 30/Oct/2011 21:45:25.249 TrainController/7981 checking FSE/R874A
+Sun 30/Oct/2011 21:45:25.252 TrainController/7981 checking SYR/RB071A
+Sun 30/Oct/2011 21:45:25.254 TrainController/7981 checking SYR/RB081A
+Sun 30/Oct/2011 21:45:25.256 TrainController/7981 checking SYR/RB091A
+Sun 30/Oct/2011 21:45:25.256 TrainController/7981 checking SYR/RB099A
+Sun 30/Oct/2011 21:45:25.257 TrainController/7981 checking SYR/RB107A
+Sun 30/Oct/2011 21:45:25.257 TrainController/7981 checking SYR/RB117A
+Sun 30/Oct/2011 21:45:25.257 TrainController/7981 checking SYR/RB131A
+Sun 30/Oct/2011 21:45:25.258 TrainController/7981 checking SYR/R157A
+Sun 30/Oct/2011 21:45:25.258 TrainController/7981 checking SYR/R167A
+Sun 30/Oct/2011 21:45:25.258 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:45:25.343 TrainController2/7981/SignalController/FSE/R870A-FSE/R986A successfully claimed
+Sun 30/Oct/2011 21:45:25.346 TrainController2/7981/SignalController/FSE/R870A-FSE/R986A RouteStateChange Event. RouteModel:FSE/R986A, oldState: Turning, newState: Locked
+Sun 30/Oct/2011 21:45:25.357 TrainController2/7981/SignalController/FSE/R870A-FSE/R986A RouteStateChange Event. RouteModel:FSE/R986A, oldState: Dormant, newState: Locked
+Sun 30/Oct/2011 21:45:26.261 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:45:26.263 TrainController/7981 checking SYR/R167A
+Sun 30/Oct/2011 21:45:26.263 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:45:26.270 TrainController2/7981/SignalController/FSE/R854A-FSE/R982D RouteStateChange Event. RouteModel:FSE/R982D, oldState: Clear, newState: TrainIn
+Sun 30/Oct/2011 21:45:26.271 TrainController2/7981/SignalController/FSE/R870A-FSE/R986A RouteStateChange Event. RouteModel:FSE/R986A, oldState: Locked, newState: Clear
+Sun 30/Oct/2011 21:45:26.271 TrainController2/7981/SignalController/FSE/R870A-FSE/R986A checking for next route...
+Sun 30/Oct/2011 21:45:26.271 TrainController2/7981/SignalController/FSE/R870A-FSE/R986A new route: FSE/R870A
+Sun 30/Oct/2011 21:45:26.283 TrainController2/7981/SignalController/FSE/R854A-FSE/R982D Clearing up
+Sun 30/Oct/2011 21:45:26.454 TrainController2/7981/SignalController/FSE/R870A-FSE/R986A RouteStateChange Event. RouteModel:FSE/R870A, oldState: Turning, newState: Locked
+Sun 30/Oct/2011 21:45:26.465 TrainController2/7981/SignalController/FSE/R870A-FSE/R986A RouteStateChange Event. RouteModel:FSE/R870A, oldState: Dormant, newState: Locked
+Sun 30/Oct/2011 21:45:26.963 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:45:26.963 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:45:27.427 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:45:27.432 TrainController/7981 checking SYR/R167A
+Sun 30/Oct/2011 21:45:27.433 TrainController/7981 checking SYR/R175A
+Sun 30/Oct/2011 21:45:27.436 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:45:27.455 TrainController2/7981/SignalController/FSE/R870A-FSE/R986A RouteStateChange Event. RouteModel:FSE/R870A, oldState: Locked, newState: Clear
+Sun 30/Oct/2011 21:45:27.455 TrainController2/7981/SignalController/FSE/R870A-FSE/R986A checking for next route...
+Sun 30/Oct/2011 21:45:27.456 TrainController2/7981/SignalController/FSE/R870A-FSE/R986A no more route. SignalController OK sent to Traincontroller
+Sun 30/Oct/2011 21:45:27.456 TrainController/7981  signal controller FSE/R870A-FSE/R986A ok
+Sun 30/Oct/2011 21:45:28.438 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:45:28.439 TrainController/7981 checking SYR/R175A
+Sun 30/Oct/2011 21:45:28.440 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:45:29.522 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:45:29.531 TrainController/7981 checking SYR/R175A
+Sun 30/Oct/2011 21:45:29.537 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:45:29.541 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:45:29.542 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:45:30.543 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:45:30.547 TrainController/7981 checking SYR/R175A
+Sun 30/Oct/2011 21:45:30.551 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:45:31.500 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:45:31.500 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:45:31.553 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:45:31.555 TrainController/7981 checking SYR/R175A
+Sun 30/Oct/2011 21:45:31.563 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:45:32.567 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:45:32.570 TrainController/7981 checking SYR/R175A
+Sun 30/Oct/2011 21:45:32.572 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:45:33.678 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:45:33.679 TrainController/7981 checking SYR/R175A
+Sun 30/Oct/2011 21:45:33.698 TrainController/7981 checking SYR/R187A
+Sun 30/Oct/2011 21:45:33.698 TrainController/7981 SYR/R187A not available
+Sun 30/Oct/2011 21:45:33.699 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:45:33.756 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:45:33.756 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:45:34.700 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:45:34.701 TrainController/7981 checking SYR/R187A
+Sun 30/Oct/2011 21:45:34.701 TrainController/7981 SYR/R187A not available
+Sun 30/Oct/2011 21:45:34.701 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:45:35.605 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:45:35.605 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:45:35.703 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:45:35.704 TrainController/7981 checking SYR/R187A
+Sun 30/Oct/2011 21:45:35.705 TrainController/7981 SYR/R187A not available
+Sun 30/Oct/2011 21:45:35.705 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:45:36.617 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:45:36.618 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:45:36.706 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:45:36.709 TrainController/7981 checking SYR/R187A
+Sun 30/Oct/2011 21:45:36.709 TrainController/7981 SYR/R187A not available
+Sun 30/Oct/2011 21:45:36.710 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:45:37.711 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:45:37.713 TrainController/7981 checking SYR/R187A
+Sun 30/Oct/2011 21:45:37.713 TrainController/7981 SYR/R187A not available
+Sun 30/Oct/2011 21:45:37.713 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:45:38.715 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:45:38.717 TrainController/7981 checking SYR/R187A
+Sun 30/Oct/2011 21:45:38.717 TrainController/7981 SYR/R187A not available
+Sun 30/Oct/2011 21:45:38.717 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:45:39.418 TrainController2/7981/SignalController/FSE/R870A-FSE/R986A RouteStateChange Event. RouteModel:FSE/R870A, oldState: Clear, newState: TrainIn
+Sun 30/Oct/2011 21:45:39.719 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:45:39.719 TrainController/7981 checking SYR/R187A
+Sun 30/Oct/2011 21:45:39.720 TrainController/7981 waiting 217 seconds  to start SYR/R187A
+Sun 30/Oct/2011 21:45:39.720 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:45:39.961 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:45:39.962 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:45:40.722 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:45:40.723 TrainController/7981 checking SYR/R187A
+Sun 30/Oct/2011 21:45:40.723 TrainController/7981 waiting 217 seconds  to start SYR/R187A
+Sun 30/Oct/2011 21:45:40.724 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:45:41.482 TrainController2/7981/SignalController/FSE/R870A-FSE/R986A RouteStateChange Event. RouteModel:FSE/R986A, oldState: Clear, newState: TrainIn
+Sun 30/Oct/2011 21:45:41.492 TrainController2/7981/SignalController/FSE/R870A-FSE/R986A Clearing up
+Sun 30/Oct/2011 21:45:41.834 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:45:41.855 TrainController/7981 checking SYR/R187A
+Sun 30/Oct/2011 21:45:41.861 TrainController/7981 waiting 208 seconds  to start SYR/R187A
+Sun 30/Oct/2011 21:45:41.861 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:45:42.808 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:45:42.808 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:45:42.873 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:45:42.886 TrainController/7981 checking SYR/R187A
+Sun 30/Oct/2011 21:45:42.903 TrainController/7981 waiting 208 seconds  to start SYR/R187A
+Sun 30/Oct/2011 21:45:42.904 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:45:43.906 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:45:43.911 TrainController/7981 checking SYR/R187A
+Sun 30/Oct/2011 21:45:43.912 TrainController/7981 waiting 200 seconds  to start SYR/R187A
+Sun 30/Oct/2011 21:45:43.912 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:45:44.604 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:45:44.604 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:45:44.916 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:45:44.919 TrainController/7981 checking SYR/R187A
+Sun 30/Oct/2011 21:45:44.919 TrainController/7981 waiting 200 seconds  to start SYR/R187A
+Sun 30/Oct/2011 21:45:44.919 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:45:46.043 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:45:46.064 TrainController/7981 checking SYR/R187A
+Sun 30/Oct/2011 21:45:46.067 TrainController/7981 waiting 200 seconds  to start SYR/R187A
+Sun 30/Oct/2011 21:45:46.067 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:45:46.827 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:45:46.827 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:45:47.069 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:45:47.070 TrainController/7981 checking SYR/R187A
+Sun 30/Oct/2011 21:45:47.070 TrainController/7981 waiting 197 seconds  to start SYR/R187A
+Sun 30/Oct/2011 21:45:47.071 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:45:48.093 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:45:48.141 TrainController/7981 checking SYR/R187A
+Sun 30/Oct/2011 21:45:48.147 TrainController/7981 waiting 197 seconds  to start SYR/R187A
+Sun 30/Oct/2011 21:45:48.147 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:45:49.252 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:45:49.272 TrainController/7981 checking SYR/R187A
+Sun 30/Oct/2011 21:45:49.287 TrainController/7981 waiting 197 seconds  to start SYR/R187A
+Sun 30/Oct/2011 21:45:49.288 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:45:49.295 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:45:49.295 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:45:50.295 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:45:50.296 TrainController/7981 checking SYR/R187A
+Sun 30/Oct/2011 21:45:50.300 TrainController/7981 waiting 187 seconds  to start SYR/R187A
+Sun 30/Oct/2011 21:45:50.300 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:45:51.303 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:45:51.306 TrainController/7981 checking SYR/R187A
+Sun 30/Oct/2011 21:45:51.306 TrainController/7981 waiting 187 seconds  to start SYR/R187A
+Sun 30/Oct/2011 21:45:51.307 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:45:51.967 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:45:51.967 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:45:52.317 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:45:52.319 TrainController/7981 checking SYR/R187A
+Sun 30/Oct/2011 21:45:52.325 TrainController/7981 waiting 187 seconds  to start SYR/R187A
+Sun 30/Oct/2011 21:45:52.326 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:45:53.327 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:45:53.328 TrainController/7981 checking SYR/R187A
+Sun 30/Oct/2011 21:45:53.331 TrainController/7981 waiting 187 seconds  to start SYR/R187A
+Sun 30/Oct/2011 21:45:53.332 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:45:54.337 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:45:54.341 TrainController/7981 checking SYR/R187A
+Sun 30/Oct/2011 21:45:54.357 TrainController/7981 waiting 180 seconds  to start SYR/R187A
+Sun 30/Oct/2011 21:45:54.357 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:45:54.359 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:45:54.359 TrainController/7981 head track FSE/T874 is on new platform RMD002
+Sun 30/Oct/2011 21:45:54.365 TrainController/7981 inPlatform: false
+Sun 30/Oct/2011 21:45:54.366 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:45:55.361 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:45:55.378 TrainController/7981 checking SYR/R187A
+Sun 30/Oct/2011 21:45:55.382 TrainController/7981 waiting 176 seconds  to start SYR/R187A
+Sun 30/Oct/2011 21:45:55.382 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:45:56.534 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:45:56.544 TrainController/7981 checking SYR/R187A
+Sun 30/Oct/2011 21:45:56.548 TrainController/7981 waiting 176 seconds  to start SYR/R187A
+Sun 30/Oct/2011 21:45:56.548 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:45:56.594 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:45:56.594 TrainController/7981 head track SYR/TB069 is on new platform RMD002
+Sun 30/Oct/2011 21:45:56.595 TrainController/7981 inPlatform: true
+Sun 30/Oct/2011 21:45:56.596 TrainController/7981 dwell time: 5
+Sun 30/Oct/2011 21:45:56.597 TrainController/7981 train stopped
+Sun 30/Oct/2011 21:45:56.597 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:45:56.598 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:45:56.599 TrainController/7981 head track SYR/TB069 is on new platform RMD002
+Sun 30/Oct/2011 21:45:56.599 TrainController/7981 inPlatform: true
+Sun 30/Oct/2011 21:45:56.600 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:45:57.584 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:45:57.585 TrainController/7981 checking SYR/R187A
+Sun 30/Oct/2011 21:45:57.594 TrainController/7981 waiting 171 seconds  to start SYR/R187A
+Sun 30/Oct/2011 21:45:57.594 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:45:57.613 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:45:57.613 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:45:58.597 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:45:58.600 TrainController/7981 checking SYR/R187A
+Sun 30/Oct/2011 21:45:58.602 TrainController/7981 waiting 171 seconds  to start SYR/R187A
+Sun 30/Oct/2011 21:45:58.602 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:45:59.596 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:45:59.596 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:45:59.611 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:45:59.616 TrainController/7981 checking SYR/R187A
+Sun 30/Oct/2011 21:45:59.616 TrainController/7981 waiting 171 seconds  to start SYR/R187A
+Sun 30/Oct/2011 21:45:59.618 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:46:00.664 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:46:00.666 TrainController/7981 checking SYR/R187A
+Sun 30/Oct/2011 21:46:00.666 TrainController/7981 waiting 171 seconds  to start SYR/R187A
+Sun 30/Oct/2011 21:46:00.667 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:46:01.197 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:46:01.197 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:46:01.732 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:46:01.733 TrainController/7981 restarting the train
+Sun 30/Oct/2011 21:46:01.745 TrainController/7981 checking SYR/R187A
+Sun 30/Oct/2011 21:46:01.757 TrainController/7981 waiting 171 seconds  to start SYR/R187A
+Sun 30/Oct/2011 21:46:01.757 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:46:01.763 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:46:01.763 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:46:02.761 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:46:02.768 TrainController/7981 checking SYR/R187A
+Sun 30/Oct/2011 21:46:02.774 TrainController/7981 waiting 160 seconds  to start SYR/R187A
+Sun 30/Oct/2011 21:46:02.775 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:46:03.944 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:46:03.953 TrainController/7981 checking SYR/R187A
+Sun 30/Oct/2011 21:46:03.957 TrainController/7981 waiting 160 seconds  to start SYR/R187A
+Sun 30/Oct/2011 21:46:03.957 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:46:05.181 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:46:05.183 TrainController/7981 checking SYR/R187A
+Sun 30/Oct/2011 21:46:05.184 TrainController/7981 waiting 160 seconds  to start SYR/R187A
+Sun 30/Oct/2011 21:46:05.184 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:46:06.185 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:46:06.185 TrainController/7981 checking SYR/R187A
+Sun 30/Oct/2011 21:46:06.186 TrainController/7981 waiting 145 seconds  to start SYR/R187A
+Sun 30/Oct/2011 21:46:06.186 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:46:07.187 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:46:07.189 TrainController/7981 checking SYR/R187A
+Sun 30/Oct/2011 21:46:07.189 TrainController/7981 waiting 145 seconds  to start SYR/R187A
+Sun 30/Oct/2011 21:46:07.189 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:46:07.882 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:46:07.882 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:46:08.190 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:46:08.191 TrainController/7981 checking SYR/R187A
+Sun 30/Oct/2011 21:46:08.191 TrainController/7981 waiting 130 seconds  to start SYR/R187A
+Sun 30/Oct/2011 21:46:08.192 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:46:09.193 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:46:09.194 TrainController/7981 checking SYR/R187A
+Sun 30/Oct/2011 21:46:09.195 TrainController/7981 waiting 116 seconds  to start SYR/R187A
+Sun 30/Oct/2011 21:46:09.195 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:46:10.407 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:46:10.413 TrainController/7981 checking SYR/R187A
+Sun 30/Oct/2011 21:46:10.419 TrainController/7981 waiting 116 seconds  to start SYR/R187A
+Sun 30/Oct/2011 21:46:10.420 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:46:10.727 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:46:10.727 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:46:11.423 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:46:11.427 TrainController/7981 checking SYR/R187A
+Sun 30/Oct/2011 21:46:11.431 TrainController/7981 waiting 101 seconds  to start SYR/R187A
+Sun 30/Oct/2011 21:46:11.431 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:46:12.184 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:46:12.184 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:46:12.432 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:46:12.433 TrainController/7981 checking SYR/R187A
+Sun 30/Oct/2011 21:46:12.433 TrainController/7981 waiting 101 seconds  to start SYR/R187A
+Sun 30/Oct/2011 21:46:12.434 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:46:13.439 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:46:13.498 TrainController/7981 checking SYR/R187A
+Sun 30/Oct/2011 21:46:13.560 TrainController/7981 waiting 79 seconds  to start SYR/R187A
+Sun 30/Oct/2011 21:46:13.560 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:46:13.910 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:46:13.911 TrainController/7981 head track SYR/TB117 is on new platform SYR002
+Sun 30/Oct/2011 21:46:13.911 TrainController/7981 inPlatform: true
+Sun 30/Oct/2011 21:46:13.912 TrainController/7981 dwell time: 5
+Sun 30/Oct/2011 21:46:13.913 TrainController/7981 train stopped
+Sun 30/Oct/2011 21:46:13.914 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:46:13.915 TrainController/7981 head track SYR/TB117 is on new platform SYR002
+Sun 30/Oct/2011 21:46:13.916 TrainController/7981 inPlatform: true
+Sun 30/Oct/2011 21:46:13.916 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:46:13.916 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:46:14.564 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:46:14.568 TrainController/7981 checking SYR/R187A
+Sun 30/Oct/2011 21:46:14.572 TrainController/7981 waiting 79 seconds  to start SYR/R187A
+Sun 30/Oct/2011 21:46:14.572 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:46:15.578 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:46:15.579 TrainController/7981 checking SYR/R187A
+Sun 30/Oct/2011 21:46:15.583 TrainController/7981 waiting 79 seconds  to start SYR/R187A
+Sun 30/Oct/2011 21:46:15.583 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:46:16.146 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:46:16.146 TrainController/7981 head track SYR/TB117 is on new platform SYR002
+Sun 30/Oct/2011 21:46:16.146 TrainController/7981 inPlatform: true
+Sun 30/Oct/2011 21:46:16.147 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:46:16.587 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:46:16.627 TrainController/7981 checking SYR/R187A
+Sun 30/Oct/2011 21:46:16.635 TrainController/7981 waiting 79 seconds  to start SYR/R187A
+Sun 30/Oct/2011 21:46:16.635 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:46:17.857 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:46:17.873 TrainController/7981 checking SYR/R187A
+Sun 30/Oct/2011 21:46:17.905 TrainController/7981 waiting 79 seconds  to start SYR/R187A
+Sun 30/Oct/2011 21:46:17.905 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:46:18.259 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:46:18.259 TrainController/7981 head track SYR/TB117 is on new platform SYR002
+Sun 30/Oct/2011 21:46:18.259 TrainController/7981 inPlatform: true
+Sun 30/Oct/2011 21:46:18.260 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:46:18.913 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:46:18.915 TrainController/7981 checking SYR/R187A
+Sun 30/Oct/2011 21:46:18.919 TrainController/7981 waiting 79 seconds  to start SYR/R187A
+Sun 30/Oct/2011 21:46:18.919 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:46:18.984 TrainController/7981 restarting the train
+Sun 30/Oct/2011 21:46:19.015 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:46:19.023 TrainController/7981 head track SYR/TB117 is on new platform SYR002
+Sun 30/Oct/2011 21:46:19.025 TrainController/7981 inPlatform: true
+Sun 30/Oct/2011 21:46:19.025 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:46:20.099 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:46:20.106 TrainController/7981 checking SYR/R187A
+Sun 30/Oct/2011 21:46:20.118 TrainController/7981 waiting 79 seconds  to start SYR/R187A
+Sun 30/Oct/2011 21:46:20.118 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:46:21.120 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:46:21.122 TrainController/7981 checking SYR/R187A
+Sun 30/Oct/2011 21:46:21.122 TrainController/7981 waiting 61 seconds  to start SYR/R187A
+Sun 30/Oct/2011 21:46:21.122 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:46:22.126 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:46:22.127 TrainController/7981 checking SYR/R187A
+Sun 30/Oct/2011 21:46:22.128 TrainController/7981 waiting 61 seconds  to start SYR/R187A
+Sun 30/Oct/2011 21:46:22.128 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:46:23.130 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:46:23.130 TrainController/7981 checking SYR/R187A
+Sun 30/Oct/2011 21:46:23.131 TrainController/7981 waiting 41 seconds  to start SYR/R187A
+Sun 30/Oct/2011 21:46:23.131 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:46:24.132 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:46:24.133 TrainController/7981 checking SYR/R187A
+Sun 30/Oct/2011 21:46:24.133 TrainController/7981 waiting 41 seconds  to start SYR/R187A
+Sun 30/Oct/2011 21:46:24.133 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:46:25.277 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:46:25.281 TrainController/7981 checking SYR/R187A
+Sun 30/Oct/2011 21:46:25.286 TrainController/7981 waiting 32 seconds  to start SYR/R187A
+Sun 30/Oct/2011 21:46:25.286 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:46:25.554 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:46:25.555 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:46:26.290 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:46:26.292 TrainController/7981 checking SYR/R187A
+Sun 30/Oct/2011 21:46:26.294 TrainController/7981 waiting 11 seconds  to start SYR/R187A
+Sun 30/Oct/2011 21:46:26.294 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:46:27.297 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:46:27.298 TrainController/7981 checking SYR/R187A
+Sun 30/Oct/2011 21:46:27.298 TrainController/7981 waiting 11 seconds  to start SYR/R187A
+Sun 30/Oct/2011 21:46:27.299 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:46:27.968 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:46:27.968 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:46:28.301 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:46:28.301 TrainController/7981 checking SYR/R187A
+Sun 30/Oct/2011 21:46:28.302 TrainController/7981 waiting 11 seconds  to start SYR/R187A
+Sun 30/Oct/2011 21:46:28.302 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:46:28.901 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:46:28.901 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:46:29.305 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:46:29.306 TrainController/7981 checking SYR/R187A
+Sun 30/Oct/2011 21:46:29.306 TrainController/7981 waiting 9 seconds  to start SYR/R187A
+Sun 30/Oct/2011 21:46:29.306 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:46:30.308 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:46:30.311 TrainController/7981 checking SYR/R187A
+Sun 30/Oct/2011 21:46:30.313 TrainController/7981 waiting 0 seconds  to start SYR/R187A
+Sun 30/Oct/2011 21:46:30.313 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:46:30.899 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:46:30.899 TrainController/7981 head track SYR/T169 is on new platform PRA002
+Sun 30/Oct/2011 21:46:30.900 TrainController/7981 inPlatform: false
+Sun 30/Oct/2011 21:46:30.900 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:46:31.315 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:46:31.316 TrainController/7981 checking SYR/R187A
+Sun 30/Oct/2011 21:46:31.317 TrainController/7981 waiting 0 seconds  to start SYR/R187A
+Sun 30/Oct/2011 21:46:31.318 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:46:32.319 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:46:32.320 TrainController/7981 checking SYR/R187A
+Sun 30/Oct/2011 21:46:32.321 TrainController/7981 now starting SYR/R187A
+Sun 30/Oct/2011 21:46:32.322 TrainController2/7981/SignalController/SYR/R187A created
+Sun 30/Oct/2011 21:46:32.322 TrainController/7981 checking SYR/R199A
+Sun 30/Oct/2011 21:46:32.322 TrainController/7981 checking SYR/R233A
+Sun 30/Oct/2011 21:46:32.323 TrainController2/7981/SignalController/SYR/R187A successfully claimed
+Sun 30/Oct/2011 21:46:32.323 TrainController/7981 checking SYR/R251A
+Sun 30/Oct/2011 21:46:32.326 TrainController/7981 checking SYR/R263A
+Sun 30/Oct/2011 21:46:32.326 TrainController/7981 checking SYR/R275A
+Sun 30/Oct/2011 21:46:32.328 TrainController/7981 checking SYR/R285A
+Sun 30/Oct/2011 21:46:32.329 TrainController2/7981/SignalController/SYR/R187A RouteStateChange Event. RouteModel:SYR/R187A, oldState: Turning, newState: Locked
+Sun 30/Oct/2011 21:46:32.329 TrainController/7981 checking SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:46:32.333 TrainController/7981 waiting 221 seconds  to start SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:46:32.333 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:46:32.339 TrainController2/7981/SignalController/SYR/R187A RouteStateChange Event. RouteModel:SYR/R187A, oldState: Dormant, newState: Locked
+Sun 30/Oct/2011 21:46:33.029 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:46:33.029 TrainController/7981 head track SYR/T173 is on new platform PRA002
+Sun 30/Oct/2011 21:46:33.031 TrainController/7981 inPlatform: true
+Sun 30/Oct/2011 21:46:33.035 TrainController/7981 dwell time: 5
+Sun 30/Oct/2011 21:46:33.036 TrainController/7981 train stopped
+Sun 30/Oct/2011 21:46:33.037 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:46:33.038 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:46:33.038 TrainController/7981 head track SYR/T173 is on new platform PRA002
+Sun 30/Oct/2011 21:46:33.040 TrainController/7981 inPlatform: true
+Sun 30/Oct/2011 21:46:33.040 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:46:33.183 TrainController2/7981/SignalController/SYR/R187A RouteStateChange Event. RouteModel:SYR/R187A, oldState: Locked, newState: Clear
+Sun 30/Oct/2011 21:46:33.183 TrainController2/7981/SignalController/SYR/R187A checking for next route...
+Sun 30/Oct/2011 21:46:33.184 TrainController2/7981/SignalController/SYR/R187A no more route. SignalController OK sent to Traincontroller
+Sun 30/Oct/2011 21:46:33.184 TrainController/7981  signal controller SYR/R187A ok
+Sun 30/Oct/2011 21:46:33.335 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:46:33.336 TrainController/7981 checking SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:46:33.337 TrainController/7981 waiting 191 seconds  to start SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:46:33.337 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:46:34.337 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:46:34.338 TrainController/7981 checking SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:46:34.340 TrainController/7981 waiting 191 seconds  to start SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:46:34.340 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:46:35.317 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:46:35.317 TrainController/7981 head track SYR/T173 is on new platform PRA002
+Sun 30/Oct/2011 21:46:35.318 TrainController/7981 inPlatform: true
+Sun 30/Oct/2011 21:46:35.318 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:46:35.344 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:46:35.354 TrainController/7981 checking SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:46:35.358 TrainController/7981 waiting 191 seconds  to start SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:46:35.358 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:46:36.362 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:46:36.363 TrainController/7981 checking SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:46:36.365 TrainController/7981 waiting 191 seconds  to start SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:46:36.365 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:46:37.239 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:46:37.239 TrainController/7981 head track SYR/T173 is on new platform PRA002
+Sun 30/Oct/2011 21:46:37.243 TrainController/7981 inPlatform: true
+Sun 30/Oct/2011 21:46:37.243 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:46:37.367 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:46:37.368 TrainController/7981 checking SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:46:37.368 TrainController/7981 waiting 191 seconds  to start SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:46:37.369 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:46:38.091 TrainController/7981 restarting the train
+Sun 30/Oct/2011 21:46:38.094 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:46:38.094 TrainController/7981 head track SYR/T173 is on new platform PRA002
+Sun 30/Oct/2011 21:46:38.094 TrainController/7981 inPlatform: true
+Sun 30/Oct/2011 21:46:38.095 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:46:38.385 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:46:38.399 TrainController/7981 checking SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:46:38.405 TrainController/7981 waiting 191 seconds  to start SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:46:38.406 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:46:39.413 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:46:39.420 TrainController/7981 checking SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:46:39.425 TrainController/7981 waiting 191 seconds  to start SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:46:39.426 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:46:40.427 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:46:40.437 TrainController/7981 checking SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:46:40.439 TrainController/7981 waiting 171 seconds  to start SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:46:40.439 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:46:41.441 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:46:41.442 TrainController/7981 checking SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:46:41.442 TrainController/7981 waiting 171 seconds  to start SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:46:41.442 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:46:41.484 TrainController2/7981/SignalController/SYR/R187A RouteStateChange Event. RouteModel:SYR/R187A, oldState: Clear, newState: TrainIn
+Sun 30/Oct/2011 21:46:41.495 TrainController2/7981/SignalController/SYR/R187A Clearing up
+Sun 30/Oct/2011 21:46:42.444 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:46:42.445 TrainController/7981 checking SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:46:42.445 TrainController/7981 waiting 168 seconds  to start SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:46:42.446 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:46:43.448 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:46:43.449 TrainController/7981 checking SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:46:43.449 TrainController/7981 waiting 168 seconds  to start SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:46:43.449 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:46:44.455 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:46:44.474 TrainController/7981 checking SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:46:44.489 TrainController/7981 waiting 146 seconds  to start SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:46:44.489 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:46:44.515 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:46:44.515 TrainController/7981 head track SYR/T189 is on new platform WIN002
+Sun 30/Oct/2011 21:46:44.516 TrainController/7981 inPlatform: true
+Sun 30/Oct/2011 21:46:44.517 TrainController/7981 dwell time: 5
+Sun 30/Oct/2011 21:46:44.518 TrainController/7981 train stopped
+Sun 30/Oct/2011 21:46:44.518 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:46:44.519 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:46:44.520 TrainController/7981 head track SYR/T189 is on new platform WIN002
+Sun 30/Oct/2011 21:46:44.521 TrainController/7981 inPlatform: true
+Sun 30/Oct/2011 21:46:44.521 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:46:45.492 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:46:45.494 TrainController/7981 checking SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:46:45.496 TrainController/7981 waiting 146 seconds  to start SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:46:45.496 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:46:46.498 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:46:46.499 TrainController/7981 checking SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:46:46.501 TrainController/7981 waiting 146 seconds  to start SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:46:46.501 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:46:46.545 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:46:46.545 TrainController/7981 head track SYR/T189 is on new platform WIN002
+Sun 30/Oct/2011 21:46:46.546 TrainController/7981 inPlatform: true
+Sun 30/Oct/2011 21:46:46.547 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:46:47.510 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:46:47.524 TrainController/7981 checking SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:46:47.539 TrainController/7981 waiting 146 seconds  to start SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:46:47.539 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:46:48.541 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:46:48.542 TrainController/7981 checking SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:46:48.547 TrainController/7981 waiting 146 seconds  to start SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:46:48.547 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:46:48.608 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:46:48.608 TrainController/7981 head track SYR/T189 is on new platform WIN002
+Sun 30/Oct/2011 21:46:48.609 TrainController/7981 inPlatform: true
+Sun 30/Oct/2011 21:46:48.609 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:46:49.548 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:46:49.551 TrainController/7981 checking SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:46:49.552 TrainController/7981 waiting 146 seconds  to start SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:46:49.552 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:46:49.582 TrainController/7981 restarting the train
+Sun 30/Oct/2011 21:46:49.582 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:46:49.583 TrainController/7981 head track SYR/T189 is on new platform WIN002
+Sun 30/Oct/2011 21:46:49.584 TrainController/7981 inPlatform: true
+Sun 30/Oct/2011 21:46:49.585 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:46:50.554 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:46:50.554 TrainController/7981 checking SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:46:50.555 TrainController/7981 waiting 146 seconds  to start SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:46:50.556 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:46:51.557 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:46:51.559 TrainController/7981 checking SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:46:51.560 TrainController/7981 waiting 126 seconds  to start SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:46:51.560 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:46:52.562 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:46:52.564 TrainController/7981 checking SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:46:52.566 TrainController/7981 waiting 126 seconds  to start SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:46:52.566 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:46:53.567 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:46:53.568 TrainController/7981 checking SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:46:53.569 TrainController/7981 waiting 85 seconds  to start SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:46:53.569 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:46:54.571 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:46:54.572 TrainController/7981 checking SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:46:54.573 TrainController/7981 waiting 85 seconds  to start SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:46:54.573 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:46:55.575 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:46:55.576 TrainController/7981 checking SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:46:55.577 TrainController/7981 waiting 59 seconds  to start SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:46:55.577 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:46:55.643 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:46:55.643 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:46:56.579 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:46:56.580 TrainController/7981 checking SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:46:56.580 TrainController/7981 waiting 59 seconds  to start SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:46:56.581 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:46:57.583 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:46:57.584 TrainController/7981 checking SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:46:57.585 TrainController/7981 waiting 47 seconds  to start SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:46:57.586 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:46:57.851 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:46:57.852 TrainController/7981 head track SYR/T247 is on new platform BCV002
+Sun 30/Oct/2011 21:46:57.852 TrainController/7981 inPlatform: true
+Sun 30/Oct/2011 21:46:57.853 TrainController/7981 dwell time: 5
+Sun 30/Oct/2011 21:46:57.853 TrainController/7981 train stopped
+Sun 30/Oct/2011 21:46:57.854 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:46:57.855 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:46:57.855 TrainController/7981 head track SYR/T247 is on new platform BCV002
+Sun 30/Oct/2011 21:46:57.856 TrainController/7981 inPlatform: true
+Sun 30/Oct/2011 21:46:57.856 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:46:58.586 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:46:58.589 TrainController/7981 checking SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:46:58.590 TrainController/7981 waiting 47 seconds  to start SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:46:58.590 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:46:59.591 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:46:59.592 TrainController/7981 checking SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:46:59.593 TrainController/7981 waiting 47 seconds  to start SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:46:59.593 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:46:59.823 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:46:59.823 TrainController/7981 head track SYR/T247 is on new platform BCV002
+Sun 30/Oct/2011 21:46:59.824 TrainController/7981 inPlatform: true
+Sun 30/Oct/2011 21:46:59.825 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:47:00.595 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:47:00.597 TrainController/7981 checking SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:47:00.597 TrainController/7981 waiting 47 seconds  to start SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:47:00.597 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:47:01.599 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:47:01.599 TrainController/7981 checking SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:47:01.600 TrainController/7981 waiting 47 seconds  to start SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:47:01.600 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:47:01.824 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:47:01.824 TrainController/7981 head track SYR/T247 is on new platform BCV002
+Sun 30/Oct/2011 21:47:01.824 TrainController/7981 inPlatform: true
+Sun 30/Oct/2011 21:47:01.825 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:47:02.601 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:47:02.602 TrainController/7981 checking SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:47:02.604 TrainController/7981 waiting 47 seconds  to start SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:47:02.604 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:47:02.903 TrainController/7981 restarting the train
+Sun 30/Oct/2011 21:47:02.904 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:47:02.904 TrainController/7981 head track SYR/T247 is on new platform BCV002
+Sun 30/Oct/2011 21:47:02.905 TrainController/7981 inPlatform: true
+Sun 30/Oct/2011 21:47:02.905 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:47:03.606 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:47:03.608 TrainController/7981 checking SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:47:03.608 TrainController/7981 waiting 47 seconds  to start SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:47:03.609 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:47:04.611 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:47:04.612 TrainController/7981 checking SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:47:04.613 TrainController/7981 waiting 47 seconds  to start SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:47:04.613 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:47:05.668 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:47:05.766 TrainController/7981 checking SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:47:05.787 TrainController/7981 waiting 29 seconds  to start SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:47:05.787 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:47:06.791 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:47:06.793 TrainController/7981 checking SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:47:06.799 TrainController/7981 waiting 29 seconds  to start SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:47:06.799 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:47:07.801 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:47:07.802 TrainController/7981 checking SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:47:07.803 TrainController/7981 waiting 17 seconds  to start SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:47:07.803 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:47:08.922 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:47:08.950 TrainController/7981 checking SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:47:09.003 TrainController/7981 waiting 17 seconds  to start SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:47:09.003 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:47:09.991 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:47:09.991 TrainController/7981 head track SYR/T269 is on new platform RIP002
+Sun 30/Oct/2011 21:47:09.992 TrainController/7981 inPlatform: true
+Sun 30/Oct/2011 21:47:09.993 TrainController/7981 dwell time: 5
+Sun 30/Oct/2011 21:47:10.168 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:47:10.170 TrainController/7981 train stopped
+Sun 30/Oct/2011 21:47:10.171 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:47:10.171 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:47:10.171 TrainController/7981 head track SYR/T269 is on new platform RIP002
+Sun 30/Oct/2011 21:47:10.176 TrainController/7981 checking SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:47:10.177 TrainController/7981 inPlatform: true
+Sun 30/Oct/2011 21:47:10.177 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:47:10.181 TrainController/7981 waiting 4 seconds  to start SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:47:10.181 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:47:11.184 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:47:11.185 TrainController/7981 checking SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:47:11.187 TrainController/7981 waiting 2 seconds  to start SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:47:11.187 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:47:12.053 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:47:12.054 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:47:12.189 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:47:12.192 TrainController/7981 checking SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:47:12.193 TrainController/7981 waiting 2 seconds  to start SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:47:12.193 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:47:13.311 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:47:13.364 TrainController/7981 checking SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:47:13.427 TrainController/7981 waiting 2 seconds  to start SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:47:13.427 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:47:14.281 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:47:14.281 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:47:14.429 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:47:14.485 TrainController/7981 checking SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:47:14.514 TrainController/7981 waiting 2 seconds  to start SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:47:14.514 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:47:15.183 TrainController/7981 restarting the train
+Sun 30/Oct/2011 21:47:15.184 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:47:15.184 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:47:15.293 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:47:15.293 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:47:15.556 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:47:15.733 TrainController/7981 checking SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:47:15.758 TrainController/7981 waiting 2 seconds  to start SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:47:15.759 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:47:16.760 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:47:16.764 TrainController/7981 checking SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:47:16.767 TrainController/7981 waiting 2 seconds  to start SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:47:16.767 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:47:17.768 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:47:17.770 TrainController/7981 checking SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:47:17.770 TrainController/7981 now starting SYR/R295A-SYR/R313A
+Sun 30/Oct/2011 21:47:17.771 TrainController2/7981/SignalController/SYR/R295A-SYR/R313A created
+Sun 30/Oct/2011 21:47:17.771 TrainController/7981 checking SYR/R323A
+Sun 30/Oct/2011 21:47:17.773 TrainController2/7981/SignalController/SYR/R295A-SYR/R313A successfully claimed
+Sun 30/Oct/2011 21:47:17.774 TrainController/7981 waiting 100 seconds  to start SYR/R323A
+Sun 30/Oct/2011 21:47:17.774 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:47:17.783 TrainController2/7981/SignalController/SYR/R295A-SYR/R313A RouteStateChange Event. RouteModel:SYR/R313A, oldState: Turning, newState: Locked
+Sun 30/Oct/2011 21:47:17.795 TrainController2/7981/SignalController/SYR/R295A-SYR/R313A RouteStateChange Event. RouteModel:SYR/R313A, oldState: Dormant, newState: Locked
+Sun 30/Oct/2011 21:47:18.780 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:47:18.781 TrainController/7981 checking SYR/R323A
+Sun 30/Oct/2011 21:47:18.784 TrainController/7981 waiting 90 seconds  to start SYR/R323A
+Sun 30/Oct/2011 21:47:18.784 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:47:18.885 TrainController2/7981/SignalController/SYR/R295A-SYR/R313A RouteStateChange Event. RouteModel:SYR/R313A, oldState: Locked, newState: Clear
+Sun 30/Oct/2011 21:47:18.885 TrainController2/7981/SignalController/SYR/R295A-SYR/R313A checking for next route...
+Sun 30/Oct/2011 21:47:18.886 TrainController2/7981/SignalController/SYR/R295A-SYR/R313A new route: SYR/R295A
+Sun 30/Oct/2011 21:47:18.911 TrainController2/7981/SignalController/SYR/R295A-SYR/R313A RouteStateChange Event. RouteModel:SYR/R295A, oldState: Turning, newState: Locked
+Sun 30/Oct/2011 21:47:18.922 TrainController2/7981/SignalController/SYR/R295A-SYR/R313A RouteStateChange Event. RouteModel:SYR/R295A, oldState: Dormant, newState: Locked
+Sun 30/Oct/2011 21:47:19.785 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:47:19.788 TrainController/7981 checking SYR/R323A
+Sun 30/Oct/2011 21:47:19.788 TrainController/7981 waiting 71 seconds  to start SYR/R323A
+Sun 30/Oct/2011 21:47:19.789 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:47:20.051 TrainController2/7981/SignalController/SYR/R295A-SYR/R313A RouteStateChange Event. RouteModel:SYR/R295A, oldState: Locked, newState: Clear
+Sun 30/Oct/2011 21:47:20.052 TrainController2/7981/SignalController/SYR/R295A-SYR/R313A checking for next route...
+Sun 30/Oct/2011 21:47:20.052 TrainController2/7981/SignalController/SYR/R295A-SYR/R313A no more route. SignalController OK sent to Traincontroller
+Sun 30/Oct/2011 21:47:20.053 TrainController/7981  signal controller SYR/R295A-SYR/R313A ok
+Sun 30/Oct/2011 21:47:20.801 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:47:20.982 TrainController/7981 checking SYR/R323A
+Sun 30/Oct/2011 21:47:21.159 TrainController/7981 waiting 71 seconds  to start SYR/R323A
+Sun 30/Oct/2011 21:47:21.159 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:47:21.224 TrainController2/7981/SignalController/SYR/R295A-SYR/R313A RouteStateChange Event. RouteModel:SYR/R295A, oldState: Clear, newState: TrainIn
+Sun 30/Oct/2011 21:47:21.917 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:47:21.917 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:47:22.162 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:47:22.164 TrainController/7981 checking SYR/R323A
+Sun 30/Oct/2011 21:47:22.164 TrainController/7981 waiting 50 seconds  to start SYR/R323A
+Sun 30/Oct/2011 21:47:22.164 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:47:23.216 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:47:23.231 TrainController/7981 checking SYR/R323A
+Sun 30/Oct/2011 21:47:23.240 TrainController/7981 waiting 50 seconds  to start SYR/R323A
+Sun 30/Oct/2011 21:47:23.240 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:47:24.140 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:47:24.140 TrainController/7981 head track SYR/T307 is on new platform ELS002
+Sun 30/Oct/2011 21:47:24.141 TrainController/7981 inPlatform: true
+Sun 30/Oct/2011 21:47:24.141 TrainController/7981 dwell time: 5
+Sun 30/Oct/2011 21:47:24.142 TrainController/7981 train stopped
+Sun 30/Oct/2011 21:47:24.143 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:47:24.145 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:47:24.145 TrainController/7981 head track SYR/T307 is on new platform ELS002
+Sun 30/Oct/2011 21:47:24.146 TrainController/7981 inPlatform: true
+Sun 30/Oct/2011 21:47:24.157 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:47:24.247 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:47:24.255 TrainController/7981 checking SYR/R323A
+Sun 30/Oct/2011 21:47:24.264 TrainController/7981 waiting 27 seconds  to start SYR/R323A
+Sun 30/Oct/2011 21:47:24.265 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:47:25.268 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:47:25.272 TrainController/7981 checking SYR/R323A
+Sun 30/Oct/2011 21:47:25.273 TrainController/7981 waiting 27 seconds  to start SYR/R323A
+Sun 30/Oct/2011 21:47:25.273 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:47:26.274 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:47:26.282 TrainController/7981 checking SYR/R323A
+Sun 30/Oct/2011 21:47:26.284 TrainController/7981 waiting 27 seconds  to start SYR/R323A
+Sun 30/Oct/2011 21:47:26.284 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:47:26.331 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:47:26.331 TrainController/7981 head track SYR/T307 is on new platform ELS002
+Sun 30/Oct/2011 21:47:26.332 TrainController/7981 inPlatform: true
+Sun 30/Oct/2011 21:47:26.332 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:47:27.401 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:47:27.420 TrainController/7981 checking SYR/R323A
+Sun 30/Oct/2011 21:47:27.450 TrainController/7981 waiting 27 seconds  to start SYR/R323A
+Sun 30/Oct/2011 21:47:27.450 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:47:28.416 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:47:28.417 TrainController/7981 head track SYR/T307 is on new platform ELS002
+Sun 30/Oct/2011 21:47:28.418 TrainController/7981 inPlatform: true
+Sun 30/Oct/2011 21:47:28.418 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:47:28.451 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:47:28.452 TrainController/7981 checking SYR/R323A
+Sun 30/Oct/2011 21:47:28.452 TrainController/7981 waiting 27 seconds  to start SYR/R323A
+Sun 30/Oct/2011 21:47:28.453 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:47:29.171 TrainController/7981 restarting the train
+Sun 30/Oct/2011 21:47:29.172 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:47:29.174 TrainController/7981 head track SYR/T307 is on new platform ELS002
+Sun 30/Oct/2011 21:47:29.174 TrainController/7981 inPlatform: true
+Sun 30/Oct/2011 21:47:29.175 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:47:29.454 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:47:29.461 TrainController/7981 checking SYR/R323A
+Sun 30/Oct/2011 21:47:29.467 TrainController/7981 waiting 27 seconds  to start SYR/R323A
+Sun 30/Oct/2011 21:47:29.468 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:47:29.877 TrainController2/7981/SignalController/SYR/R295A-SYR/R313A RouteStateChange Event. RouteModel:SYR/R313A, oldState: Clear, newState: TrainIn
+Sun 30/Oct/2011 21:47:30.058 TrainController2/7981/SignalController/SYR/R295A-SYR/R313A Clearing up
+Sun 30/Oct/2011 21:47:30.590 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:47:30.602 TrainController/7981 checking SYR/R323A
+Sun 30/Oct/2011 21:47:30.620 TrainController/7981 now starting SYR/R323A
+Sun 30/Oct/2011 21:47:30.625 TrainController2/7981/SignalController/SYR/R323A created
+Sun 30/Oct/2011 21:47:30.626 TrainController/7981 checking BBH/R341A
+Sun 30/Oct/2011 21:47:30.627 TrainController2/7981/SignalController/SYR/R323A successfully claimed
+Sun 30/Oct/2011 21:47:30.627 TrainController/7981 checking BBH/R357A
+Sun 30/Oct/2011 21:47:30.629 TrainController/7981 checking BBH/R369A
+Sun 30/Oct/2011 21:47:30.630 TrainController/7981 checking BBH/R387A
+Sun 30/Oct/2011 21:47:30.630 TrainController/7981 checking BBH/R401A
+Sun 30/Oct/2011 21:47:30.631 TrainController/7981 checking BBH/R419A
+Sun 30/Oct/2011 21:47:30.632 TrainController2/7981/SignalController/SYR/R323A RouteStateChange Event. RouteModel:SYR/R323A, oldState: Turning, newState: Locked
+Sun 30/Oct/2011 21:47:30.633 TrainController/7981 checking BBH/R427A
+Sun 30/Oct/2011 21:47:30.633 TrainController/7981 checking BBH/R439A
+Sun 30/Oct/2011 21:47:30.649 TrainController/7981 checking BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:47:30.650 TrainController2/7981/SignalController/SYR/R323A RouteStateChange Event. RouteModel:SYR/R323A, oldState: Dormant, newState: Locked
+Sun 30/Oct/2011 21:47:30.650 TrainController/7981 waiting 264 seconds  to start BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:47:30.650 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:47:30.887 TrainController2/7981/SignalController/SYR/R323A RouteStateChange Event. RouteModel:SYR/R323A, oldState: Locked, newState: Clear
+Sun 30/Oct/2011 21:47:30.887 TrainController2/7981/SignalController/SYR/R323A checking for next route...
+Sun 30/Oct/2011 21:47:30.887 TrainController2/7981/SignalController/SYR/R323A no more route. SignalController OK sent to Traincontroller
+Sun 30/Oct/2011 21:47:30.888 TrainController/7981  signal controller SYR/R323A ok
+Sun 30/Oct/2011 21:47:31.830 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:47:31.846 TrainController/7981 checking BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:47:31.849 TrainController/7981 waiting 234 seconds  to start BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:47:31.850 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:47:32.861 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:47:32.869 TrainController/7981 checking BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:47:32.874 TrainController/7981 waiting 234 seconds  to start BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:47:32.874 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:47:32.977 TrainController2/7981/SignalController/SYR/R323A RouteStateChange Event. RouteModel:SYR/R323A, oldState: Clear, newState: TrainIn
+Sun 30/Oct/2011 21:47:32.987 TrainController2/7981/SignalController/SYR/R323A Clearing up
+Sun 30/Oct/2011 21:47:33.897 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:47:33.914 TrainController/7981 checking BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:47:33.933 TrainController/7981 waiting 200 seconds  to start BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:47:33.933 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:47:34.907 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:47:34.907 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:47:34.950 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:47:34.952 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:47:34.952 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:47:34.953 TrainController/7981 checking BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:47:34.953 TrainController/7981 waiting 188 seconds  to start BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:47:34.954 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:47:35.960 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:47:35.985 TrainController/7981 checking BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:47:35.985 TrainController/7981 waiting 188 seconds  to start BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:47:35.986 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:47:37.156 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:47:37.163 TrainController/7981 checking BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:47:37.163 TrainController/7981 waiting 188 seconds  to start BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:47:37.164 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:47:37.508 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:47:37.508 TrainController/7981 head track BBH/T355 is on new platform GVE002
+Sun 30/Oct/2011 21:47:37.510 TrainController/7981 inPlatform: true
+Sun 30/Oct/2011 21:47:37.518 TrainController/7981 dwell time: 5
+Sun 30/Oct/2011 21:47:37.519 TrainController/7981 train stopped
+Sun 30/Oct/2011 21:47:37.520 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:47:37.524 TrainController/7981 head track BBH/T355 is on new platform GVE002
+Sun 30/Oct/2011 21:47:37.525 TrainController/7981 inPlatform: true
+Sun 30/Oct/2011 21:47:37.525 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:47:37.526 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:47:38.177 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:47:38.186 TrainController/7981 checking BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:47:38.199 TrainController/7981 waiting 165 seconds  to start BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:47:38.199 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:47:39.206 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:47:39.544 TrainController/7981 checking BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:47:39.570 TrainController/7981 waiting 165 seconds  to start BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:47:39.570 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:47:39.940 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:47:39.940 TrainController/7981 head track BBH/T355 is on new platform GVE002
+Sun 30/Oct/2011 21:47:39.941 TrainController/7981 inPlatform: true
+Sun 30/Oct/2011 21:47:39.941 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:47:40.571 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:47:40.572 TrainController/7981 checking BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:47:40.572 TrainController/7981 waiting 165 seconds  to start BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:47:40.573 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:47:41.575 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:47:41.576 TrainController/7981 checking BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:47:41.576 TrainController/7981 waiting 165 seconds  to start BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:47:41.576 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:47:42.020 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:47:42.026 TrainController/7981 head track BBH/T355 is on new platform GVE002
+Sun 30/Oct/2011 21:47:42.030 TrainController/7981 inPlatform: true
+Sun 30/Oct/2011 21:47:42.030 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:47:42.578 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:47:42.579 TrainController/7981 checking BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:47:42.579 TrainController/7981 waiting 165 seconds  to start BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:47:42.580 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:47:42.583 TrainController/7981 restarting the train
+Sun 30/Oct/2011 21:47:42.583 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:47:42.583 TrainController/7981 head track BBH/T355 is on new platform GVE002
+Sun 30/Oct/2011 21:47:42.586 TrainController/7981 inPlatform: true
+Sun 30/Oct/2011 21:47:42.586 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:47:43.582 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:47:43.583 TrainController/7981 checking BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:47:43.584 TrainController/7981 waiting 165 seconds  to start BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:47:43.584 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:47:44.586 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:47:44.587 TrainController/7981 checking BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:47:44.587 TrainController/7981 waiting 153 seconds  to start BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:47:44.587 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:47:45.594 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:47:45.596 TrainController/7981 checking BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:47:45.597 TrainController/7981 waiting 153 seconds  to start BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:47:45.597 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:47:46.598 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:47:46.600 TrainController/7981 checking BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:47:46.600 TrainController/7981 waiting 141 seconds  to start BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:47:46.601 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:47:47.602 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:47:47.606 TrainController/7981 checking BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:47:47.608 TrainController/7981 waiting 141 seconds  to start BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:47:47.608 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:47:48.610 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:47:48.611 TrainController/7981 checking BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:47:48.612 TrainController/7981 waiting 119 seconds  to start BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:47:48.612 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:47:49.504 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:47:49.504 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:47:49.639 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:47:49.712 TrainController/7981 checking BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:47:49.713 TrainController/7981 waiting 104 seconds  to start BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:47:49.713 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:47:50.150 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:47:50.150 TrainController/7981 head track BBH/T383 is on new platform NBN002
+Sun 30/Oct/2011 21:47:50.154 TrainController/7981 inPlatform: true
+Sun 30/Oct/2011 21:47:50.155 TrainController/7981 dwell time: 5
+Sun 30/Oct/2011 21:47:50.157 TrainController/7981 train stopped
+Sun 30/Oct/2011 21:47:50.157 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:47:50.159 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:47:50.159 TrainController/7981 head track BBH/T383 is on new platform NBN002
+Sun 30/Oct/2011 21:47:50.161 TrainController/7981 inPlatform: true
+Sun 30/Oct/2011 21:47:50.162 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:47:50.715 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:47:50.716 TrainController/7981 checking BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:47:50.716 TrainController/7981 BBH/R902A-BBH/R904A not available
+Sun 30/Oct/2011 21:47:50.717 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:47:51.718 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:47:51.719 TrainController/7981 checking BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:47:51.721 TrainController/7981 BBH/R902A-BBH/R904A not available
+Sun 30/Oct/2011 21:47:51.721 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:47:52.319 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:47:52.319 TrainController/7981 head track BBH/T383 is on new platform NBN002
+Sun 30/Oct/2011 21:47:52.320 TrainController/7981 inPlatform: true
+Sun 30/Oct/2011 21:47:52.320 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:47:52.722 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:47:52.723 TrainController/7981 checking BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:47:52.724 TrainController/7981 BBH/R902A-BBH/R904A not available
+Sun 30/Oct/2011 21:47:52.725 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:47:53.884 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:47:53.888 TrainController/7981 checking BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:47:53.889 TrainController/7981 BBH/R902A-BBH/R904A not available
+Sun 30/Oct/2011 21:47:53.889 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:47:54.493 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:47:54.493 TrainController/7981 head track BBH/T383 is on new platform NBN002
+Sun 30/Oct/2011 21:47:54.494 TrainController/7981 inPlatform: true
+Sun 30/Oct/2011 21:47:54.494 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:47:54.892 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:47:54.897 TrainController/7981 checking BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:47:54.899 TrainController/7981 BBH/R902A-BBH/R904A not available
+Sun 30/Oct/2011 21:47:54.899 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:47:55.341 TrainController/7981 restarting the train
+Sun 30/Oct/2011 21:47:55.343 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:47:55.343 TrainController/7981 head track BBH/T383 is on new platform NBN002
+Sun 30/Oct/2011 21:47:55.344 TrainController/7981 inPlatform: true
+Sun 30/Oct/2011 21:47:55.344 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:47:56.010 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:47:56.015 TrainController/7981 checking BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:47:56.016 TrainController/7981 BBH/R902A-BBH/R904A not available
+Sun 30/Oct/2011 21:47:56.016 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:47:57.018 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:47:57.019 TrainController/7981 checking BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:47:57.020 TrainController/7981 BBH/R902A-BBH/R904A not available
+Sun 30/Oct/2011 21:47:57.020 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:47:58.022 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:47:58.023 TrainController/7981 checking BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:47:58.023 TrainController/7981 BBH/R902A-BBH/R904A not available
+Sun 30/Oct/2011 21:47:58.023 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:47:59.137 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:47:59.147 TrainController/7981 checking BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:47:59.149 TrainController/7981 waiting 86 seconds  to start BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:47:59.149 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:48:00.151 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:48:00.152 TrainController/7981 checking BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:48:00.153 TrainController/7981 waiting 86 seconds  to start BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:48:00.153 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:48:01.154 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:48:01.155 TrainController/7981 checking BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:48:01.156 TrainController/7981 waiting 75 seconds  to start BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:48:01.156 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:48:01.693 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:48:01.694 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:48:02.158 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:48:02.159 TrainController/7981 checking BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:48:02.159 TrainController/7981 waiting 75 seconds  to start BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:48:02.160 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:48:03.161 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:48:03.162 TrainController/7981 checking BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:48:03.162 TrainController/7981 waiting 61 seconds  to start BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:48:03.163 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:48:03.721 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:48:03.721 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:48:04.166 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:48:04.168 TrainController/7981 checking BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:48:04.169 TrainController/7981 waiting 61 seconds  to start BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:48:04.169 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:48:05.171 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:48:05.172 TrainController/7981 checking BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:48:05.173 TrainController/7981 waiting 52 seconds  to start BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:48:05.173 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:48:06.071 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:48:06.071 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:48:06.254 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:48:06.255 TrainController/7981 checking BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:48:06.274 TrainController/7981 waiting 52 seconds  to start BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:48:06.274 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:48:07.295 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:48:07.313 TrainController/7981 checking BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:48:07.325 TrainController/7981 waiting 52 seconds  to start BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:48:07.325 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:48:07.789 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:48:07.789 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:48:08.468 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:48:08.470 TrainController/7981 checking BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:48:08.471 TrainController/7981 waiting 37 seconds  to start BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:48:08.471 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:48:09.531 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:48:09.542 TrainController/7981 checking BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:48:09.549 TrainController/7981 waiting 37 seconds  to start BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:48:09.549 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:48:10.039 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:48:10.039 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:48:10.552 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:48:10.553 TrainController/7981 checking BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:48:10.559 TrainController/7981 waiting 27 seconds  to start BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:48:10.559 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:48:11.561 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:48:11.563 TrainController/7981 checking BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:48:11.565 TrainController/7981 waiting 16 seconds  to start BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:48:11.566 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:48:12.607 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:48:12.616 TrainController/7981 checking BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:48:12.626 TrainController/7981 waiting 16 seconds  to start BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:48:12.626 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:48:12.633 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:48:12.633 TrainController/7981 head track BBH/T423 is on new platform MBN002
+Sun 30/Oct/2011 21:48:12.634 TrainController/7981 inPlatform: true
+Sun 30/Oct/2011 21:48:12.635 TrainController/7981 dwell time: 5
+Sun 30/Oct/2011 21:48:12.636 TrainController/7981 train stopped
+Sun 30/Oct/2011 21:48:12.636 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:48:12.638 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:48:12.639 TrainController/7981 head track BBH/T423 is on new platform MBN002
+Sun 30/Oct/2011 21:48:12.639 TrainController/7981 inPlatform: true
+Sun 30/Oct/2011 21:48:12.640 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:48:13.637 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:48:13.644 TrainController/7981 checking BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:48:13.651 TrainController/7981 waiting 14 seconds  to start BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:48:13.651 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:48:13.926 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:48:13.927 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:48:14.656 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:48:14.657 TrainController/7981 checking BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:48:14.660 TrainController/7981 waiting 14 seconds  to start BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:48:14.660 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:48:15.662 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:48:15.663 TrainController/7981 checking BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:48:15.663 TrainController/7981 waiting 14 seconds  to start BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:48:15.663 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:48:15.760 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:48:15.760 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:48:16.665 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:48:16.666 TrainController/7981 checking BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:48:16.667 TrainController/7981 waiting 14 seconds  to start BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:48:16.667 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:48:17.641 TrainController/7981 restarting the train
+Sun 30/Oct/2011 21:48:17.642 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:48:17.642 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:48:17.669 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:48:17.671 TrainController/7981 checking BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:48:17.671 TrainController/7981 waiting 14 seconds  to start BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:48:17.671 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:48:18.672 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:48:18.675 TrainController/7981 checking BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:48:18.675 TrainController/7981 waiting 14 seconds  to start BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:48:18.676 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:48:18.900 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:48:18.900 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:48:19.677 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:48:19.678 TrainController/7981 checking BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:48:19.680 TrainController/7981 now starting BBH/R902A-BBH/R904A
+Sun 30/Oct/2011 21:48:19.681 TrainController2/7981/SignalController/BBH/R902A-BBH/R904A created
+Sun 30/Oct/2011 21:48:19.681 TrainController/7981 checking BBH/R908A
+Sun 30/Oct/2011 21:48:19.681 TrainController/7981 previous sr BBH/R902A-BBH/R904A status: waiting
+Sun 30/Oct/2011 21:48:19.682 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:48:19.682 TrainController2/7981/SignalController/BBH/R902A-BBH/R904A successfully claimed
+Sun 30/Oct/2011 21:48:19.690 TrainController2/7981/SignalController/BBH/R902A-BBH/R904A RouteStateChange Event. RouteModel:BBH/R904A, oldState: Turning, newState: Locked
+Sun 30/Oct/2011 21:48:19.703 TrainController2/7981/SignalController/BBH/R902A-BBH/R904A RouteStateChange Event. RouteModel:BBH/R904A, oldState: Dormant, newState: Locked
+Sun 30/Oct/2011 21:48:20.263 TrainController2/7981/SignalController/BBH/R902A-BBH/R904A RouteStateChange Event. RouteModel:BBH/R904A, oldState: Locked, newState: Clear
+Sun 30/Oct/2011 21:48:20.263 TrainController2/7981/SignalController/BBH/R902A-BBH/R904A checking for next route...
+Sun 30/Oct/2011 21:48:20.264 TrainController2/7981/SignalController/BBH/R902A-BBH/R904A new route: BBH/R902A
+Sun 30/Oct/2011 21:48:20.283 TrainController2/7981/SignalController/BBH/R902A-BBH/R904A RouteStateChange Event. RouteModel:BBH/R902A, oldState: Turning, newState: Locked
+Sun 30/Oct/2011 21:48:20.304 TrainController2/7981/SignalController/BBH/R902A-BBH/R904A RouteStateChange Event. RouteModel:BBH/R902A, oldState: Dormant, newState: Locked
+Sun 30/Oct/2011 21:48:20.682 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:48:20.684 TrainController/7981 checking BBH/R908A
+Sun 30/Oct/2011 21:48:20.684 TrainController/7981 waiting 57 seconds  to start BBH/R908A
+Sun 30/Oct/2011 21:48:20.684 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:48:21.317 TrainController2/7981/SignalController/BBH/R902A-BBH/R904A RouteStateChange Event. RouteModel:BBH/R902A, oldState: Locked, newState: Clear
+Sun 30/Oct/2011 21:48:21.317 TrainController2/7981/SignalController/BBH/R902A-BBH/R904A checking for next route...
+Sun 30/Oct/2011 21:48:21.317 TrainController2/7981/SignalController/BBH/R902A-BBH/R904A no more route. SignalController OK sent to Traincontroller
+Sun 30/Oct/2011 21:48:21.360 TrainController/7981  signal controller BBH/R902A-BBH/R904A ok
+Sun 30/Oct/2011 21:48:21.703 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:48:21.751 TrainController/7981 checking BBH/R908A
+Sun 30/Oct/2011 21:48:21.765 TrainController/7981 waiting 57 seconds  to start BBH/R908A
+Sun 30/Oct/2011 21:48:21.765 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:48:22.767 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:48:22.800 TrainController/7981 checking BBH/R908A
+Sun 30/Oct/2011 21:48:22.861 TrainController/7981 waiting 42 seconds  to start BBH/R908A
+Sun 30/Oct/2011 21:48:22.862 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:48:23.865 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:48:23.866 TrainController/7981 checking BBH/R908A
+Sun 30/Oct/2011 21:48:23.866 TrainController/7981 waiting 31 seconds  to start BBH/R908A
+Sun 30/Oct/2011 21:48:23.866 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:48:24.467 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:48:24.467 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:48:24.901 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:48:24.934 TrainController/7981 checking BBH/R908A
+Sun 30/Oct/2011 21:48:24.963 TrainController/7981 waiting 31 seconds  to start BBH/R908A
+Sun 30/Oct/2011 21:48:24.963 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:48:25.581 TrainController2/7981/SignalController/BBH/R902A-BBH/R904A RouteStateChange Event. RouteModel:BBH/R902A, oldState: Clear, newState: TrainIn
+Sun 30/Oct/2011 21:48:25.965 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:48:25.965 TrainController/7981 checking BBH/R908A
+Sun 30/Oct/2011 21:48:25.965 TrainController/7981 waiting 9 seconds  to start BBH/R908A
+Sun 30/Oct/2011 21:48:25.966 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:48:26.525 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:48:26.525 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:48:26.967 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:48:26.968 TrainController/7981 checking BBH/R908A
+Sun 30/Oct/2011 21:48:26.968 TrainController/7981 waiting 9 seconds  to start BBH/R908A
+Sun 30/Oct/2011 21:48:26.968 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:48:27.824 TrainController2/7981/SignalController/BBH/R902A-BBH/R904A RouteStateChange Event. RouteModel:BBH/R904A, oldState: Clear, newState: TrainIn
+Sun 30/Oct/2011 21:48:27.838 TrainController2/7981/SignalController/BBH/R902A-BBH/R904A Clearing up
+Sun 30/Oct/2011 21:48:28.006 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:48:28.018 TrainController/7981 checking BBH/R908A
+Sun 30/Oct/2011 21:48:28.034 TrainController/7981 waiting 9 seconds  to start BBH/R908A
+Sun 30/Oct/2011 21:48:28.035 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:48:28.746 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:48:28.746 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:48:29.102 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:48:29.103 TrainController/7981 checking BBH/R908A
+Sun 30/Oct/2011 21:48:29.123 TrainController/7981 now starting BBH/R908A
+Sun 30/Oct/2011 21:48:29.173 TrainController2/7981/SignalController/BBH/R908A created
+Sun 30/Oct/2011 21:48:29.227 TrainController/7981 checking BBH/R497A
+Sun 30/Oct/2011 21:48:29.227 TrainController2/7981/SignalController/BBH/R908A successfully claimed
+Sun 30/Oct/2011 21:48:29.237 TrainController/7981 waiting 33 seconds  to start BBH/R497A
+Sun 30/Oct/2011 21:48:29.237 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:48:29.241 TrainController2/7981/SignalController/BBH/R908A RouteStateChange Event. RouteModel:BBH/R908A, oldState: Turning, newState: Locked
+Sun 30/Oct/2011 21:48:29.255 TrainController2/7981/SignalController/BBH/R908A RouteStateChange Event. RouteModel:BBH/R908A, oldState: Dormant, newState: Locked
+Sun 30/Oct/2011 21:48:29.801 TrainController2/7981/SignalController/BBH/R908A RouteStateChange Event. RouteModel:BBH/R908A, oldState: Locked, newState: Clear
+Sun 30/Oct/2011 21:48:29.801 TrainController2/7981/SignalController/BBH/R908A checking for next route...
+Sun 30/Oct/2011 21:48:29.802 TrainController2/7981/SignalController/BBH/R908A no more route. SignalController OK sent to Traincontroller
+Sun 30/Oct/2011 21:48:29.803 TrainController/7981  signal controller BBH/R908A ok
+Sun 30/Oct/2011 21:48:30.239 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:48:30.240 TrainController/7981 checking BBH/R497A
+Sun 30/Oct/2011 21:48:30.241 TrainController/7981 waiting 33 seconds  to start BBH/R497A
+Sun 30/Oct/2011 21:48:30.241 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:48:30.754 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:48:30.754 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:48:31.335 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:48:31.340 TrainController/7981 checking BBH/R497A
+Sun 30/Oct/2011 21:48:31.348 TrainController/7981 waiting 17 seconds  to start BBH/R497A
+Sun 30/Oct/2011 21:48:31.348 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:48:32.350 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:48:32.351 TrainController/7981 checking BBH/R497A
+Sun 30/Oct/2011 21:48:32.352 TrainController/7981 waiting 17 seconds  to start BBH/R497A
+Sun 30/Oct/2011 21:48:32.352 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:48:32.978 TrainController2/7981/SignalController/BBH/R908A RouteStateChange Event. RouteModel:BBH/R908A, oldState: Clear, newState: TrainIn
+Sun 30/Oct/2011 21:48:32.979 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:48:32.980 TrainController/7981 head track BBH/T906 is on new platform BBH003
+Sun 30/Oct/2011 21:48:32.981 TrainController/7981 inPlatform: true
+Sun 30/Oct/2011 21:48:32.981 TrainController/7981 dwell time: 5
+Sun 30/Oct/2011 21:48:32.982 TrainController/7981 train stopped
+Sun 30/Oct/2011 21:48:32.982 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:48:32.984 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:48:33.163 TrainController2/7981/SignalController/BBH/R908A Clearing up
+Sun 30/Oct/2011 21:48:33.163 TrainController/7981 head track BBH/T906 is on new platform BBH003
+Sun 30/Oct/2011 21:48:33.340 TrainController/7981 inPlatform: true
+Sun 30/Oct/2011 21:48:33.340 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:48:33.356 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:48:33.359 TrainController/7981 checking BBH/R497A
+Sun 30/Oct/2011 21:48:33.364 TrainController/7981 waiting 17 seconds  to start BBH/R497A
+Sun 30/Oct/2011 21:48:33.364 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:48:34.368 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:48:34.373 TrainController/7981 checking BBH/R497A
+Sun 30/Oct/2011 21:48:34.377 TrainController/7981 waiting 13 seconds  to start BBH/R497A
+Sun 30/Oct/2011 21:48:34.377 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:48:35.386 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:48:35.391 TrainController/7981 checking BBH/R497A
+Sun 30/Oct/2011 21:48:35.393 TrainController/7981 waiting 13 seconds  to start BBH/R497A
+Sun 30/Oct/2011 21:48:35.393 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:48:35.880 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:48:35.880 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:48:36.606 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:48:36.694 TrainController/7981 checking BBH/R497A
+Sun 30/Oct/2011 21:48:36.751 TrainController/7981 waiting 13 seconds  to start BBH/R497A
+Sun 30/Oct/2011 21:48:36.751 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:48:37.761 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:48:37.762 TrainController/7981 checking BBH/R497A
+Sun 30/Oct/2011 21:48:37.766 TrainController/7981 waiting 13 seconds  to start BBH/R497A
+Sun 30/Oct/2011 21:48:37.766 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:48:38.102 TrainController/7981 restarting the train
+Sun 30/Oct/2011 21:48:38.102 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:48:38.103 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:48:38.113 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:48:38.113 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:48:38.785 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:48:38.797 TrainController/7981 checking BBH/R497A
+Sun 30/Oct/2011 21:48:38.810 TrainController/7981 waiting 13 seconds  to start BBH/R497A
+Sun 30/Oct/2011 21:48:38.810 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:48:39.958 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:48:39.984 TrainController/7981 checking BBH/R497A
+Sun 30/Oct/2011 21:48:40.019 TrainController/7981 now starting BBH/R497A
+Sun 30/Oct/2011 21:48:40.030 TrainController2/7981/SignalController/BBH/R497A created
+Sun 30/Oct/2011 21:48:40.037 TrainController/7981 checking SHM/R515A
+Sun 30/Oct/2011 21:48:40.037 TrainController2/7981/SignalController/BBH/R497A successfully claimed
+Sun 30/Oct/2011 21:48:40.041 TrainController/7981 checking SHM/R533A
+Sun 30/Oct/2011 21:48:40.042 TrainController/7981 checking SHM/R905A-SHM/R906C
+Sun 30/Oct/2011 21:48:40.047 TrainController/7981 waiting 100 seconds  to start SHM/R905A-SHM/R906C
+Sun 30/Oct/2011 21:48:40.047 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:48:40.103 TrainController2/7981/SignalController/BBH/R497A RouteStateChange Event. RouteModel:BBH/R497A, oldState: Turning, newState: Locked
+Sun 30/Oct/2011 21:48:40.150 TrainController2/7981/SignalController/BBH/R497A RouteStateChange Event. RouteModel:BBH/R497A, oldState: Dormant, newState: Locked
+Sun 30/Oct/2011 21:48:41.041 TrainController2/7981/SignalController/BBH/R497A RouteStateChange Event. RouteModel:BBH/R497A, oldState: Locked, newState: Clear
+Sun 30/Oct/2011 21:48:41.041 TrainController2/7981/SignalController/BBH/R497A checking for next route...
+Sun 30/Oct/2011 21:48:41.042 TrainController2/7981/SignalController/BBH/R497A no more route. SignalController OK sent to Traincontroller
+Sun 30/Oct/2011 21:48:41.042 TrainController/7981  signal controller BBH/R497A ok
+Sun 30/Oct/2011 21:48:41.051 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:48:41.053 TrainController/7981 checking SHM/R905A-SHM/R906C
+Sun 30/Oct/2011 21:48:41.054 TrainController/7981 waiting 90 seconds  to start SHM/R905A-SHM/R906C
+Sun 30/Oct/2011 21:48:41.054 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:48:42.043 TrainController2/7981/SignalController/BBH/R497A RouteStateChange Event. RouteModel:BBH/R497A, oldState: Clear, newState: TrainIn
+Sun 30/Oct/2011 21:48:42.072 TrainController2/7981/SignalController/BBH/R497A Clearing up
+Sun 30/Oct/2011 21:48:42.072 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:48:42.076 TrainController/7981 checking SHM/R905A-SHM/R906C
+Sun 30/Oct/2011 21:48:42.095 TrainController/7981 waiting 77 seconds  to start SHM/R905A-SHM/R906C
+Sun 30/Oct/2011 21:48:42.095 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:48:43.262 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:48:43.263 TrainController/7981 checking SHM/R905A-SHM/R906C
+Sun 30/Oct/2011 21:48:43.263 TrainController/7981 waiting 77 seconds  to start SHM/R905A-SHM/R906C
+Sun 30/Oct/2011 21:48:43.263 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:48:44.036 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:48:44.037 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:48:44.265 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:48:44.265 TrainController/7981 checking SHM/R905A-SHM/R906C
+Sun 30/Oct/2011 21:48:44.266 TrainController/7981 waiting 50 seconds  to start SHM/R905A-SHM/R906C
+Sun 30/Oct/2011 21:48:44.267 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:48:45.267 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:48:45.268 TrainController/7981 checking SHM/R905A-SHM/R906C
+Sun 30/Oct/2011 21:48:45.269 TrainController/7981 waiting 50 seconds  to start SHM/R905A-SHM/R906C
+Sun 30/Oct/2011 21:48:45.269 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:48:46.271 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:48:46.271 TrainController/7981 checking SHM/R905A-SHM/R906C
+Sun 30/Oct/2011 21:48:46.272 TrainController/7981 waiting 26 seconds  to start SHM/R905A-SHM/R906C
+Sun 30/Oct/2011 21:48:46.272 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:48:47.041 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:48:47.041 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:48:47.273 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:48:47.275 TrainController/7981 checking SHM/R905A-SHM/R906C
+Sun 30/Oct/2011 21:48:47.275 TrainController/7981 waiting 26 seconds  to start SHM/R905A-SHM/R906C
+Sun 30/Oct/2011 21:48:47.275 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:48:48.295 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:48:48.304 TrainController/7981 checking SHM/R905A-SHM/R906C
+Sun 30/Oct/2011 21:48:48.314 TrainController/7981 waiting 26 seconds  to start SHM/R905A-SHM/R906C
+Sun 30/Oct/2011 21:48:48.314 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:48:49.315 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:48:49.318 TrainController/7981 checking SHM/R905A-SHM/R906C
+Sun 30/Oct/2011 21:48:49.319 TrainController/7981 waiting 16 seconds  to start SHM/R905A-SHM/R906C
+Sun 30/Oct/2011 21:48:49.319 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:48:49.347 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:48:49.347 TrainController/7981 head track SHM/T531 is on new platform HAM002
+Sun 30/Oct/2011 21:48:49.353 TrainController/7981 inPlatform: true
+Sun 30/Oct/2011 21:48:49.362 TrainController/7981 dwell time: 5
+Sun 30/Oct/2011 21:48:49.369 TrainController/7981 train stopped
+Sun 30/Oct/2011 21:48:49.369 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:48:49.379 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:48:49.380 TrainController/7981 head track SHM/T531 is on new platform HAM002
+Sun 30/Oct/2011 21:48:49.393 TrainController/7981 inPlatform: true
+Sun 30/Oct/2011 21:48:49.393 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:48:50.325 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:48:50.331 TrainController/7981 checking SHM/R905A-SHM/R906C
+Sun 30/Oct/2011 21:48:50.335 TrainController/7981 waiting 16 seconds  to start SHM/R905A-SHM/R906C
+Sun 30/Oct/2011 21:48:50.335 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:48:51.309 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:48:51.309 TrainController/7981 head track SHM/T531 is on new platform HAM002
+Sun 30/Oct/2011 21:48:51.310 TrainController/7981 inPlatform: true
+Sun 30/Oct/2011 21:48:51.310 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:48:51.338 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:48:51.338 TrainController/7981 checking SHM/R905A-SHM/R906C
+Sun 30/Oct/2011 21:48:51.339 TrainController/7981 waiting 16 seconds  to start SHM/R905A-SHM/R906C
+Sun 30/Oct/2011 21:48:51.339 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:48:52.340 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:48:52.341 TrainController/7981 checking SHM/R905A-SHM/R906C
+Sun 30/Oct/2011 21:48:52.341 TrainController/7981 waiting 16 seconds  to start SHM/R905A-SHM/R906C
+Sun 30/Oct/2011 21:48:52.341 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:48:53.464 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:48:53.465 TrainController/7981 checking SHM/R905A-SHM/R906C
+Sun 30/Oct/2011 21:48:53.475 TrainController/7981 waiting 16 seconds  to start SHM/R905A-SHM/R906C
+Sun 30/Oct/2011 21:48:53.475 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:48:53.480 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:48:53.481 TrainController/7981 head track SHM/T531 is on new platform HAM002
+Sun 30/Oct/2011 21:48:53.481 TrainController/7981 inPlatform: true
+Sun 30/Oct/2011 21:48:53.481 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:48:54.481 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:48:54.492 TrainController/7981 checking SHM/R905A-SHM/R906C
+Sun 30/Oct/2011 21:48:54.493 TrainController/7981 restarting the train
+Sun 30/Oct/2011 21:48:54.496 TrainController/7981 waiting 16 seconds  to start SHM/R905A-SHM/R906C
+Sun 30/Oct/2011 21:48:54.496 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:48:54.498 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:48:54.499 TrainController/7981 head track SHM/T531 is on new platform HAM002
+Sun 30/Oct/2011 21:48:54.499 TrainController/7981 inPlatform: true
+Sun 30/Oct/2011 21:48:54.499 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:48:55.501 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:48:55.502 TrainController/7981 checking SHM/R905A-SHM/R906C
+Sun 30/Oct/2011 21:48:55.505 TrainController/7981 waiting 13 seconds  to start SHM/R905A-SHM/R906C
+Sun 30/Oct/2011 21:48:55.506 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:48:56.507 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:48:56.508 TrainController/7981 checking SHM/R905A-SHM/R906C
+Sun 30/Oct/2011 21:48:56.509 TrainController/7981 waiting 13 seconds  to start SHM/R905A-SHM/R906C
+Sun 30/Oct/2011 21:48:56.509 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:48:57.625 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:48:57.640 TrainController/7981 checking SHM/R905A-SHM/R906C
+Sun 30/Oct/2011 21:48:57.649 TrainController/7981 waiting 13 seconds  to start SHM/R905A-SHM/R906C
+Sun 30/Oct/2011 21:48:57.649 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:48:58.838 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:48:58.871 TrainController/7981 checking SHM/R905A-SHM/R906C
+Sun 30/Oct/2011 21:48:58.966 TrainController/7981 now starting SHM/R905A-SHM/R906C
+Sun 30/Oct/2011 21:48:59.140 TrainController2/7981/SignalController/SHM/R905A-SHM/R906C created
+Sun 30/Oct/2011 21:48:59.142 TrainController2/7981/SignalController/SHM/R905A-SHM/R906C successfully claimed
+Sun 30/Oct/2011 21:48:59.145 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:48:59.156 TrainController2/7981/SignalController/SHM/R905A-SHM/R906C RouteStateChange Event. RouteModel:SHM/R906C, oldState: Dormant, newState: Turning
+Sun 30/Oct/2011 21:49:00.147 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:49:00.147 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:49:00.551 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:49:00.552 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:49:01.149 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:49:01.149 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:49:02.151 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:49:02.151 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:49:02.871 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:49:02.871 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:49:03.265 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:49:03.265 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:49:04.267 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:49:04.267 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:49:04.992 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:49:04.992 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:49:05.118 TrainController2/7981/SignalController/SHM/R905A-SHM/R906C RouteStateChange Event. RouteModel:SHM/R906C, oldState: Turning, newState: Locked
+Sun 30/Oct/2011 21:49:05.268 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:49:05.269 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:49:06.109 TrainController2/7981/SignalController/SHM/R905A-SHM/R906C RouteStateChange Event. RouteModel:SHM/R906C, oldState: Locked, newState: Clear
+Sun 30/Oct/2011 21:49:06.109 TrainController2/7981/SignalController/SHM/R905A-SHM/R906C checking for next route...
+Sun 30/Oct/2011 21:49:06.110 TrainController2/7981/SignalController/SHM/R905A-SHM/R906C new route: SHM/R905A
+Sun 30/Oct/2011 21:49:06.414 TrainController2/7981/SignalController/SHM/R905A-SHM/R906C RouteStateChange Event. RouteModel:SHM/R905A, oldState: Turning, newState: Locked
+Sun 30/Oct/2011 21:49:06.415 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:49:06.416 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:49:06.504 TrainController2/7981/SignalController/SHM/R905A-SHM/R906C RouteStateChange Event. RouteModel:SHM/R905A, oldState: Dormant, newState: Locked
+Sun 30/Oct/2011 21:49:07.115 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:49:07.115 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:49:07.123 TrainController2/7981/SignalController/SHM/R905A-SHM/R906C RouteStateChange Event. RouteModel:SHM/R905A, oldState: Locked, newState: Clear
+Sun 30/Oct/2011 21:49:07.123 TrainController2/7981/SignalController/SHM/R905A-SHM/R906C checking for next route...
+Sun 30/Oct/2011 21:49:07.123 TrainController2/7981/SignalController/SHM/R905A-SHM/R906C no more route. SignalController OK sent to Traincontroller
+Sun 30/Oct/2011 21:49:07.123 TrainController/7981  signal controller SHM/R905A-SHM/R906C ok
+Sun 30/Oct/2011 21:49:07.455 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:49:07.455 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:49:08.456 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:49:08.456 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:49:09.128 TrainController2/7981/SignalController/SHM/R905A-SHM/R906C RouteStateChange Event. RouteModel:SHM/R905A, oldState: Clear, newState: TrainIn
+Sun 30/Oct/2011 21:49:09.547 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:49:09.548 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:49:10.549 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:49:10.549 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:49:11.140 TrainController2/7981/SignalController/SHM/R905A-SHM/R906C RouteStateChange Event. RouteModel:SHM/R906C, oldState: Clear, newState: TrainIn
+Sun 30/Oct/2011 21:49:11.152 TrainController2/7981/SignalController/SHM/R905A-SHM/R906C Clearing up
+Sun 30/Oct/2011 21:49:11.550 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:49:11.551 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:49:12.552 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:49:12.552 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:49:13.554 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:49:13.554 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:49:14.555 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:49:14.555 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:49:14.557 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:49:14.557 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:49:15.559 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:49:15.560 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:49:16.232 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:49:16.232 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:49:16.562 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:49:16.562 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:49:17.564 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:49:17.564 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:49:18.686 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:49:18.686 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:49:18.941 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:49:18.941 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:49:19.690 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:49:19.691 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:49:20.427 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:49:20.428 TrainController/7981 head track SHM/T906 is on new platform SHM001
+Sun 30/Oct/2011 21:49:20.428 TrainController/7981 inPlatform: false
+Sun 30/Oct/2011 21:49:20.428 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:49:20.873 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:49:20.874 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:49:21.875 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:49:21.875 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:49:22.478 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:49:22.478 TrainController/7981 head track SHM/T806 is on new platform SHM001
+Sun 30/Oct/2011 21:49:22.479 TrainController/7981 inPlatform: true
+Sun 30/Oct/2011 21:49:22.481 TrainController/7981 At the last platform SHM001, forming [7992]
+Sun 30/Oct/2011 21:49:22.491 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:49:22.491 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:49:22.494 TrainController/7981 head track SHM/T806 is on new platform SHM001
+Sun 30/Oct/2011 21:49:22.496 TrainController/7981 inPlatform: true
+Sun 30/Oct/2011 21:49:22.496 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:49:22.877 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:49:22.877 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:49:23.616 TrainController/7981 train status changed. 
+Sun 30/Oct/2011 21:49:23.616 TrainController/7981 head track SHM/T806 is on new platform SHM001
+Sun 30/Oct/2011 21:49:23.619 TrainController/7981 inPlatform: true
+Sun 30/Oct/2011 21:49:23.620 TrainController/7981 exiting trainStateChanged
+Sun 30/Oct/2011 21:49:23.879 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:49:23.879 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:49:24.880 TrainController/7981 starting requestSchedule......
+Sun 30/Oct/2011 21:49:24.881 TrainController/7981 requestSchedule...... completed
+Sun 30/Oct/2011 21:49:25.496 TrainController/7981 trip 7981 finished. Train stopped. dwell time: 20 seconds

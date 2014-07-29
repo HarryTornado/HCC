@@ -1,0 +1,983 @@
+Sun 30/Oct/2011 21:59:04.976 TrainController/4151 train restarted. tdn 4151
+Sun 30/Oct/2011 21:59:04.976 TrainController/4151 train status changed. 
+Sun 30/Oct/2011 21:59:04.977 TrainController/4151 head track FSB/T945 is on new platform FSS012
+Sun 30/Oct/2011 21:59:04.977 TrainController/4151 inPlatform: false
+Sun 30/Oct/2011 21:59:04.977 TrainController/4151 exiting trainStateChanged
+Sun 30/Oct/2011 21:59:05.243 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 21:59:05.243 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 21:59:06.253 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 21:59:06.253 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 21:59:07.254 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 21:59:07.255 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 21:59:07.994 TrainController/4151 reading trip
+Sun 30/Oct/2011 21:59:07.994 TrainController/4151 creating train plan
+Sun 30/Oct/2011 21:59:07.999 TrainController/4151 update train plan time
+Sun 30/Oct/2011 21:59:08.000 TrainController/4151 request Schedule
+Sun 30/Oct/2011 21:59:08.000 TrainController/4151 train status changed. 
+Sun 30/Oct/2011 21:59:08.002 TrainController/4151 head track FSB/T945 is on new platform FSS012
+Sun 30/Oct/2011 21:59:08.003 TrainController/4151 inPlatform: true
+Sun 30/Oct/2011 21:59:08.003 TrainController/4151 exiting trainStateChanged
+Sun 30/Oct/2011 21:59:08.255 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 21:59:08.257 TrainController/4151 checking FSB/R950A
+Sun 30/Oct/2011 21:59:08.257 TrainController/4151 now starting FSB/R950A
+Sun 30/Oct/2011 21:59:08.258 TrainController2/4151/SignalController/FSB/R950A created
+Sun 30/Oct/2011 21:59:08.258 TrainController/4151 checking FSB/R860A
+Sun 30/Oct/2011 21:59:08.258 TrainController/4151 checking FSE/R864A-FSE/R992B
+Sun 30/Oct/2011 21:59:08.260 TrainController2/4151/SignalController/FSB/R950A successfully claimed
+Sun 30/Oct/2011 21:59:08.260 TrainController/4151 FSE/R864A-FSE/R992B not available
+Sun 30/Oct/2011 21:59:08.260 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 21:59:08.263 TrainController2/4151/SignalController/FSB/R950A RouteStateChange Event. RouteModel:FSB/R950A, oldState: Turning, newState: Locked
+Sun 30/Oct/2011 21:59:08.277 TrainController2/4151/SignalController/FSB/R950A RouteStateChange Event. RouteModel:FSB/R950A, oldState: Dormant, newState: Locked
+Sun 30/Oct/2011 21:59:09.268 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 21:59:09.269 TrainController/4151 checking FSE/R864A-FSE/R992B
+Sun 30/Oct/2011 21:59:09.270 TrainController/4151 FSE/R864A-FSE/R992B not available
+Sun 30/Oct/2011 21:59:09.270 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 21:59:09.404 TrainController2/4151/SignalController/FSB/R950A RouteStateChange Event. RouteModel:FSB/R950A, oldState: Locked, newState: Clear
+Sun 30/Oct/2011 21:59:09.404 TrainController2/4151/SignalController/FSB/R950A checking for next route...
+Sun 30/Oct/2011 21:59:09.404 TrainController2/4151/SignalController/FSB/R950A no more route. SignalController OK sent to Traincontroller
+Sun 30/Oct/2011 21:59:09.404 TrainController/4151  signal controller FSB/R950A ok
+Sun 30/Oct/2011 21:59:10.052 TrainController/4151 train status changed. 
+Sun 30/Oct/2011 21:59:10.057 TrainController/4151 head track FSB/T945 is on new platform FSS012
+Sun 30/Oct/2011 21:59:10.057 TrainController/4151 inPlatform: true
+Sun 30/Oct/2011 21:59:10.057 TrainController/4151 exiting trainStateChanged
+Sun 30/Oct/2011 21:59:10.271 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 21:59:10.272 TrainController/4151 checking FSE/R864A-FSE/R992B
+Sun 30/Oct/2011 21:59:10.273 TrainController/4151 FSE/R864A-FSE/R992B not available
+Sun 30/Oct/2011 21:59:10.273 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 21:59:10.413 TrainController2/4151/SignalController/FSB/R950A RouteStateChange Event. RouteModel:FSB/R950A, oldState: Clear, newState: TrainIn
+Sun 30/Oct/2011 21:59:10.424 TrainController2/4151/SignalController/FSB/R950A Clearing up
+Sun 30/Oct/2011 21:59:11.274 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 21:59:11.275 TrainController/4151 checking FSE/R864A-FSE/R992B
+Sun 30/Oct/2011 21:59:11.276 TrainController/4151 FSE/R864A-FSE/R992B not available
+Sun 30/Oct/2011 21:59:11.276 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 21:59:12.350 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 21:59:12.367 TrainController/4151 checking FSE/R864A-FSE/R992B
+Sun 30/Oct/2011 21:59:12.376 TrainController/4151 FSE/R864A-FSE/R992B not available
+Sun 30/Oct/2011 21:59:12.376 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 21:59:13.377 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 21:59:13.379 TrainController/4151 checking FSE/R864A-FSE/R992B
+Sun 30/Oct/2011 21:59:13.384 TrainController/4151 FSE/R864A-FSE/R992B not available
+Sun 30/Oct/2011 21:59:13.384 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 21:59:14.535 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 21:59:14.554 TrainController/4151 checking FSE/R864A-FSE/R992B
+Sun 30/Oct/2011 21:59:14.564 TrainController/4151 FSE/R864A-FSE/R992B not available
+Sun 30/Oct/2011 21:59:14.564 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 21:59:15.437 TrainController/4151 train status changed. 
+Sun 30/Oct/2011 21:59:15.437 TrainController/4151 exiting trainStateChanged
+Sun 30/Oct/2011 21:59:15.567 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 21:59:15.571 TrainController/4151 checking FSE/R864A-FSE/R992B
+Sun 30/Oct/2011 21:59:15.578 TrainController/4151 FSE/R864A-FSE/R992B not available
+Sun 30/Oct/2011 21:59:15.578 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 21:59:16.582 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 21:59:16.583 TrainController/4151 checking FSE/R864A-FSE/R992B
+Sun 30/Oct/2011 21:59:16.587 TrainController/4151 FSE/R864A-FSE/R992B not available
+Sun 30/Oct/2011 21:59:16.587 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 21:59:17.588 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 21:59:17.589 TrainController/4151 checking FSE/R864A-FSE/R992B
+Sun 30/Oct/2011 21:59:17.589 TrainController/4151 FSE/R864A-FSE/R992B not available
+Sun 30/Oct/2011 21:59:17.590 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 21:59:18.592 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 21:59:18.593 TrainController/4151 checking FSE/R864A-FSE/R992B
+Sun 30/Oct/2011 21:59:18.595 TrainController/4151 FSE/R864A-FSE/R992B not available
+Sun 30/Oct/2011 21:59:18.595 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 21:59:18.600 TrainController/4151 train status changed. 
+Sun 30/Oct/2011 21:59:18.600 TrainController/4151 exiting trainStateChanged
+Sun 30/Oct/2011 21:59:19.597 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 21:59:19.598 TrainController/4151 checking FSE/R864A-FSE/R992B
+Sun 30/Oct/2011 21:59:19.598 TrainController/4151 FSE/R864A-FSE/R992B not available
+Sun 30/Oct/2011 21:59:19.598 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 21:59:19.698 TrainController/4151 train status changed. 
+Sun 30/Oct/2011 21:59:19.698 TrainController/4151 exiting trainStateChanged
+Sun 30/Oct/2011 21:59:20.727 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 21:59:20.744 TrainController/4151 checking FSE/R864A-FSE/R992B
+Sun 30/Oct/2011 21:59:20.764 TrainController/4151 FSE/R864A-FSE/R992B not available
+Sun 30/Oct/2011 21:59:20.764 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 21:59:21.672 TrainController/4151 train status changed. 
+Sun 30/Oct/2011 21:59:21.672 TrainController/4151 exiting trainStateChanged
+Sun 30/Oct/2011 21:59:21.774 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 21:59:21.780 TrainController/4151 checking FSE/R864A-FSE/R992B
+Sun 30/Oct/2011 21:59:21.785 TrainController/4151 FSE/R864A-FSE/R992B not available
+Sun 30/Oct/2011 21:59:21.785 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 21:59:22.797 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 21:59:22.798 TrainController/4151 checking FSE/R864A-FSE/R992B
+Sun 30/Oct/2011 21:59:22.802 TrainController/4151 FSE/R864A-FSE/R992B not available
+Sun 30/Oct/2011 21:59:22.803 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 21:59:23.864 TrainController/4151 train status changed. 
+Sun 30/Oct/2011 21:59:23.894 TrainController/4151 exiting trainStateChanged
+Sun 30/Oct/2011 21:59:23.934 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 21:59:24.192 TrainController/4151 checking FSE/R864A-FSE/R992B
+Sun 30/Oct/2011 21:59:24.365 TrainController/4151 FSE/R864A-FSE/R992B not available
+Sun 30/Oct/2011 21:59:24.365 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 21:59:25.367 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 21:59:25.369 TrainController/4151 checking FSE/R864A-FSE/R992B
+Sun 30/Oct/2011 21:59:25.373 TrainController/4151 FSE/R864A-FSE/R992B not available
+Sun 30/Oct/2011 21:59:25.373 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 21:59:26.013 TrainController/4151 train status changed. 
+Sun 30/Oct/2011 21:59:26.013 TrainController/4151 exiting trainStateChanged
+Sun 30/Oct/2011 21:59:26.378 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 21:59:26.386 TrainController/4151 checking FSE/R864A-FSE/R992B
+Sun 30/Oct/2011 21:59:26.386 TrainController/4151 FSE/R864A-FSE/R992B not available
+Sun 30/Oct/2011 21:59:26.386 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 21:59:27.440 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 21:59:27.450 TrainController/4151 checking FSE/R864A-FSE/R992B
+Sun 30/Oct/2011 21:59:27.465 TrainController/4151 FSE/R864A-FSE/R992B not available
+Sun 30/Oct/2011 21:59:27.465 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 21:59:28.470 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 21:59:28.471 TrainController/4151 checking FSE/R864A-FSE/R992B
+Sun 30/Oct/2011 21:59:28.471 TrainController/4151 FSE/R864A-FSE/R992B not available
+Sun 30/Oct/2011 21:59:28.471 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 21:59:29.566 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 21:59:29.567 TrainController/4151 checking FSE/R864A-FSE/R992B
+Sun 30/Oct/2011 21:59:29.587 TrainController/4151 FSE/R864A-FSE/R992B not available
+Sun 30/Oct/2011 21:59:29.588 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 21:59:30.589 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 21:59:30.590 TrainController/4151 checking FSE/R864A-FSE/R992B
+Sun 30/Oct/2011 21:59:30.590 TrainController/4151 FSE/R864A-FSE/R992B not available
+Sun 30/Oct/2011 21:59:30.591 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 21:59:31.591 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 21:59:31.594 TrainController/4151 checking FSE/R864A-FSE/R992B
+Sun 30/Oct/2011 21:59:31.594 TrainController/4151 FSE/R864A-FSE/R992B not available
+Sun 30/Oct/2011 21:59:31.595 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 21:59:32.597 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 21:59:32.599 TrainController/4151 checking FSE/R864A-FSE/R992B
+Sun 30/Oct/2011 21:59:32.599 TrainController/4151 FSE/R864A-FSE/R992B not available
+Sun 30/Oct/2011 21:59:32.599 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 21:59:33.601 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 21:59:33.602 TrainController/4151 checking FSE/R864A-FSE/R992B
+Sun 30/Oct/2011 21:59:33.604 TrainController/4151 FSE/R864A-FSE/R992B not available
+Sun 30/Oct/2011 21:59:33.605 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 21:59:34.762 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 21:59:34.778 TrainController/4151 checking FSE/R864A-FSE/R992B
+Sun 30/Oct/2011 21:59:34.794 TrainController/4151 FSE/R864A-FSE/R992B not available
+Sun 30/Oct/2011 21:59:34.794 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 21:59:35.796 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 21:59:35.797 TrainController/4151 checking FSE/R864A-FSE/R992B
+Sun 30/Oct/2011 21:59:35.799 TrainController/4151 FSE/R864A-FSE/R992B not available
+Sun 30/Oct/2011 21:59:35.799 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 21:59:36.802 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 21:59:36.804 TrainController/4151 checking FSE/R864A-FSE/R992B
+Sun 30/Oct/2011 21:59:36.804 TrainController/4151 FSE/R864A-FSE/R992B not available
+Sun 30/Oct/2011 21:59:36.805 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 21:59:37.866 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 21:59:37.887 TrainController/4151 checking FSE/R864A-FSE/R992B
+Sun 30/Oct/2011 21:59:37.889 TrainController/4151 now starting FSE/R864A-FSE/R992B
+Sun 30/Oct/2011 21:59:37.899 TrainController2/4151/SignalController/FSE/R864A-FSE/R992B created
+Sun 30/Oct/2011 21:59:37.899 TrainController/4151 checking FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 21:59:37.900 TrainController/4151 previous sr FSE/R864A-FSE/R992B status: waiting
+Sun 30/Oct/2011 21:59:37.901 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 21:59:38.001 TrainController2/4151/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/T884X locked by RouteModel/FSE/R983B
+Sun 30/Oct/2011 21:59:38.102 TrainController2/4151/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/T884X locked by RouteModel/FSE/R983B
+Sun 30/Oct/2011 21:59:38.202 TrainController2/4151/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/T884X locked by RouteModel/FSE/R983B
+Sun 30/Oct/2011 21:59:38.303 TrainController2/4151/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/T884X locked by RouteModel/FSE/R983B
+Sun 30/Oct/2011 21:59:38.405 TrainController2/4151/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/T884X locked by RouteModel/FSE/R983B
+Sun 30/Oct/2011 21:59:38.506 TrainController2/4151/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/T884X locked by RouteModel/FSE/R983B
+Sun 30/Oct/2011 21:59:38.611 TrainController2/4151/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/T884X locked by RouteModel/FSE/R983B
+Sun 30/Oct/2011 21:59:38.712 TrainController2/4151/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/T884X locked by RouteModel/FSE/R983B
+Sun 30/Oct/2011 21:59:38.813 TrainController2/4151/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/T884X locked by RouteModel/FSE/R983B
+Sun 30/Oct/2011 21:59:38.902 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 21:59:38.903 TrainController/4151 checking FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 21:59:38.903 TrainController/4151 previous sr FSE/R864A-FSE/R992B status: waiting
+Sun 30/Oct/2011 21:59:38.904 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 21:59:38.914 TrainController2/4151/SignalController/FSE/R864A-FSE/R992B Condition check faild: route FSE/R992B rejected. reason: FSE/T884X locked by RouteModel/FSE/R983B
+Sun 30/Oct/2011 21:59:39.018 TrainController2/4151/SignalController/FSE/R864A-FSE/R992B successfully claimed
+Sun 30/Oct/2011 21:59:39.021 TrainController2/4151/SignalController/FSE/R864A-FSE/R992B RouteStateChange Event. RouteModel:FSE/R992B, oldState: Dormant, newState: Turning
+Sun 30/Oct/2011 21:59:39.906 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 21:59:39.908 TrainController/4151 checking FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 21:59:39.908 TrainController/4151 waiting 89 seconds  to start FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 21:59:39.909 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 21:59:41.010 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 21:59:41.024 TrainController/4151 checking FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 21:59:41.039 TrainController/4151 waiting 89 seconds  to start FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 21:59:41.039 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 21:59:42.451 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 21:59:42.490 TrainController/4151 checking FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 21:59:42.722 TrainController/4151 waiting 89 seconds  to start FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 21:59:42.722 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 21:59:43.726 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 21:59:43.726 TrainController/4151 checking FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 21:59:43.727 TrainController/4151 waiting 89 seconds  to start FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 21:59:43.727 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 21:59:44.728 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 21:59:44.729 TrainController/4151 checking FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 21:59:44.729 TrainController/4151 waiting 89 seconds  to start FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 21:59:44.730 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 21:59:45.173 TrainController2/4151/SignalController/FSE/R864A-FSE/R992B RouteStateChange Event. RouteModel:FSE/R992B, oldState: Turning, newState: Locked
+Sun 30/Oct/2011 21:59:45.730 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 21:59:45.731 TrainController/4151 checking FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 21:59:45.731 TrainController/4151 waiting 89 seconds  to start FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 21:59:45.732 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 21:59:46.198 TrainController2/4151/SignalController/FSE/R864A-FSE/R992B RouteStateChange Event. RouteModel:FSE/R992B, oldState: Locked, newState: Clear
+Sun 30/Oct/2011 21:59:46.198 TrainController2/4151/SignalController/FSE/R864A-FSE/R992B checking for next route...
+Sun 30/Oct/2011 21:59:46.199 TrainController2/4151/SignalController/FSE/R864A-FSE/R992B new route: FSE/R864A
+Sun 30/Oct/2011 21:59:46.212 TrainController2/4151/SignalController/FSE/R864A-FSE/R992B RouteStateChange Event. RouteModel:FSE/R864A, oldState: Turning, newState: Locked
+Sun 30/Oct/2011 21:59:46.223 TrainController2/4151/SignalController/FSE/R864A-FSE/R992B RouteStateChange Event. RouteModel:FSE/R864A, oldState: Dormant, newState: Locked
+Sun 30/Oct/2011 21:59:46.734 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 21:59:46.734 TrainController/4151 checking FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 21:59:46.735 TrainController/4151 waiting 89 seconds  to start FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 21:59:46.736 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 21:59:47.242 TrainController2/4151/SignalController/FSE/R864A-FSE/R992B RouteStateChange Event. RouteModel:FSE/R864A, oldState: Locked, newState: Clear
+Sun 30/Oct/2011 21:59:47.244 TrainController2/4151/SignalController/FSE/R864A-FSE/R992B checking for next route...
+Sun 30/Oct/2011 21:59:47.244 TrainController2/4151/SignalController/FSE/R864A-FSE/R992B no more route. SignalController OK sent to Traincontroller
+Sun 30/Oct/2011 21:59:47.245 TrainController/4151  signal controller FSE/R864A-FSE/R992B ok
+Sun 30/Oct/2011 21:59:47.738 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 21:59:47.739 TrainController/4151 checking FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 21:59:47.740 TrainController/4151 waiting 89 seconds  to start FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 21:59:47.740 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 21:59:48.741 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 21:59:48.742 TrainController/4151 checking FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 21:59:48.743 TrainController/4151 waiting 89 seconds  to start FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 21:59:48.743 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 21:59:49.288 TrainController2/4151/SignalController/FSE/R864A-FSE/R992B RouteStateChange Event. RouteModel:FSE/R864A, oldState: Clear, newState: TrainIn
+Sun 30/Oct/2011 21:59:49.745 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 21:59:49.746 TrainController/4151 checking FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 21:59:49.747 TrainController/4151 waiting 81 seconds  to start FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 21:59:49.747 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 21:59:50.753 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 21:59:50.757 TrainController/4151 checking FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 21:59:50.757 TrainController/4151 waiting 21 seconds  to start FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 21:59:50.758 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 21:59:51.759 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 21:59:51.761 TrainController/4151 checking FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 21:59:51.761 TrainController/4151 waiting 21 seconds  to start FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 21:59:51.761 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 21:59:52.763 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 21:59:52.765 TrainController/4151 checking FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 21:59:52.766 TrainController/4151 waiting 21 seconds  to start FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 21:59:52.766 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 21:59:53.687 TrainController2/4151/SignalController/FSE/R864A-FSE/R992B RouteStateChange Event. RouteModel:FSE/R992B, oldState: Clear, newState: TrainIn
+Sun 30/Oct/2011 21:59:53.859 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 21:59:53.864 TrainController2/4151/SignalController/FSE/R864A-FSE/R992B Clearing up
+Sun 30/Oct/2011 21:59:53.870 TrainController/4151 checking FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 21:59:53.875 TrainController/4151 waiting 14 seconds  to start FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 21:59:53.875 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 21:59:54.532 TrainController/4151 train status changed. 
+Sun 30/Oct/2011 21:59:54.532 TrainController/4151 exiting trainStateChanged
+Sun 30/Oct/2011 21:59:55.041 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 21:59:55.042 TrainController/4151 checking FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 21:59:55.042 TrainController/4151 waiting 8 seconds  to start FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 21:59:55.044 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 21:59:56.046 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 21:59:56.047 TrainController/4151 checking FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 21:59:56.047 TrainController/4151 waiting 8 seconds  to start FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 21:59:56.047 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 21:59:56.549 TrainController/4151 train status changed. 
+Sun 30/Oct/2011 21:59:56.549 TrainController/4151 exiting trainStateChanged
+Sun 30/Oct/2011 21:59:57.048 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 21:59:57.050 TrainController/4151 checking FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 21:59:57.051 TrainController/4151 waiting 3 seconds  to start FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 21:59:57.051 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 21:59:58.057 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 21:59:58.062 TrainController/4151 checking FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 21:59:58.070 TrainController/4151 waiting 3 seconds  to start FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 21:59:58.070 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 21:59:58.275 TrainController/4151 train status changed. 
+Sun 30/Oct/2011 21:59:58.276 TrainController/4151 exiting trainStateChanged
+Sun 30/Oct/2011 21:59:59.234 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 21:59:59.235 TrainController/4151 checking FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 21:59:59.236 TrainController/4151 waiting 3 seconds  to start FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 21:59:59.236 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 21:59:59.768 TrainController/4151 train status changed. 
+Sun 30/Oct/2011 21:59:59.768 TrainController/4151 exiting trainStateChanged
+Sun 30/Oct/2011 22:00:00.237 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:00:00.239 TrainController/4151 checking FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 22:00:00.239 TrainController/4151 waiting 1 seconds  to start FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 22:00:00.239 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:00:01.241 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:00:01.242 TrainController/4151 checking FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 22:00:01.242 TrainController/4151 waiting 1 seconds  to start FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 22:00:01.242 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:00:02.244 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:00:02.245 TrainController/4151 checking FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 22:00:02.245 TrainController/4151 now starting FSE/R666A-FSE/R776A
+Sun 30/Oct/2011 22:00:02.246 TrainController2/4151/SignalController/FSE/R666A-FSE/R776A created
+Sun 30/Oct/2011 22:00:02.246 TrainController/4151 checking FSE/R668A
+Sun 30/Oct/2011 22:00:02.247 TrainController/4151 checking FSE/R670A
+Sun 30/Oct/2011 22:00:02.247 TrainController/4151 checking SYR/RD071A
+Sun 30/Oct/2011 22:00:02.247 TrainController2/4151/SignalController/FSE/R666A-FSE/R776A successfully claimed
+Sun 30/Oct/2011 22:00:02.247 TrainController/4151 checking SYR/RD081A
+Sun 30/Oct/2011 22:00:02.249 TrainController/4151 checking SYR/RD091A
+Sun 30/Oct/2011 22:00:02.249 TrainController/4151 checking SYR/RD099A
+Sun 30/Oct/2011 22:00:02.250 TrainController/4151 checking SYR/RD107A
+Sun 30/Oct/2011 22:00:02.251 TrainController/4151 checking SYR/RD117A
+Sun 30/Oct/2011 22:00:02.254 TrainController2/4151/SignalController/FSE/R666A-FSE/R776A RouteStateChange Event. RouteModel:FSE/R776A, oldState: Turning, newState: Locked
+Sun 30/Oct/2011 22:00:02.254 TrainController/4151 checking SYR/RD131A
+Sun 30/Oct/2011 22:00:02.255 TrainController/4151 checking SYR/RD145A
+Sun 30/Oct/2011 22:00:02.256 TrainController/4151 checking SYR/RD153A
+Sun 30/Oct/2011 22:00:02.256 TrainController/4151 checking SYR/RD161A
+Sun 30/Oct/2011 22:00:02.256 TrainController/4151 checking SYR/RD171A
+Sun 30/Oct/2011 22:00:02.258 TrainController/4151 checking SYR/RD183A
+Sun 30/Oct/2011 22:00:02.259 TrainController/4151 checking SYR/RD191A
+Sun 30/Oct/2011 22:00:02.262 TrainController/4151 checking SYR/RD201A
+Sun 30/Oct/2011 22:00:02.263 TrainController/4151 checking SYR/RD213A
+Sun 30/Oct/2011 22:00:02.263 TrainController/4151 checking SYR/RD225A
+Sun 30/Oct/2011 22:00:02.263 TrainController/4151 checking SYR/RD237A
+Sun 30/Oct/2011 22:00:02.264 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:00:02.266 TrainController2/4151/SignalController/FSE/R666A-FSE/R776A RouteStateChange Event. RouteModel:FSE/R776A, oldState: Dormant, newState: Locked
+Sun 30/Oct/2011 22:00:02.996 TrainController/4151 train status changed. 
+Sun 30/Oct/2011 22:00:02.996 TrainController/4151 exiting trainStateChanged
+Sun 30/Oct/2011 22:00:03.254 TrainController2/4151/SignalController/FSE/R666A-FSE/R776A RouteStateChange Event. RouteModel:FSE/R776A, oldState: Locked, newState: Clear
+Sun 30/Oct/2011 22:00:03.254 TrainController2/4151/SignalController/FSE/R666A-FSE/R776A checking for next route...
+Sun 30/Oct/2011 22:00:03.254 TrainController2/4151/SignalController/FSE/R666A-FSE/R776A new route: FSE/R666A
+Sun 30/Oct/2011 22:00:03.273 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:00:03.280 TrainController/4151 checking SYR/RD237A
+Sun 30/Oct/2011 22:00:03.343 TrainController/4151 checking SYR/RD249A
+Sun 30/Oct/2011 22:00:03.346 TrainController2/4151/SignalController/FSE/R666A-FSE/R776A RouteStateChange Event. RouteModel:FSE/R666A, oldState: Turning, newState: Locked
+Sun 30/Oct/2011 22:00:03.414 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:00:03.440 TrainController2/4151/SignalController/FSE/R666A-FSE/R776A RouteStateChange Event. RouteModel:FSE/R666A, oldState: Dormant, newState: Locked
+Sun 30/Oct/2011 22:00:04.261 TrainController2/4151/SignalController/FSE/R666A-FSE/R776A RouteStateChange Event. RouteModel:FSE/R666A, oldState: Locked, newState: Clear
+Sun 30/Oct/2011 22:00:04.261 TrainController2/4151/SignalController/FSE/R666A-FSE/R776A checking for next route...
+Sun 30/Oct/2011 22:00:04.262 TrainController2/4151/SignalController/FSE/R666A-FSE/R776A no more route. SignalController OK sent to Traincontroller
+Sun 30/Oct/2011 22:00:04.262 TrainController/4151  signal controller FSE/R666A-FSE/R776A ok
+Sun 30/Oct/2011 22:00:04.416 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:00:04.416 TrainController/4151 checking SYR/RD249A
+Sun 30/Oct/2011 22:00:04.417 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:00:05.552 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:00:05.565 TrainController/4151 checking SYR/RD249A
+Sun 30/Oct/2011 22:00:05.746 TrainController/4151 checking SYR/RD259A
+Sun 30/Oct/2011 22:00:05.756 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:00:06.068 TrainController/4151 train status changed. 
+Sun 30/Oct/2011 22:00:06.068 TrainController/4151 exiting trainStateChanged
+Sun 30/Oct/2011 22:00:06.760 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:00:06.762 TrainController/4151 checking SYR/RD259A
+Sun 30/Oct/2011 22:00:06.762 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:00:07.295 TrainController/4151 train status changed. 
+Sun 30/Oct/2011 22:00:07.295 TrainController/4151 exiting trainStateChanged
+Sun 30/Oct/2011 22:00:07.764 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:00:07.765 TrainController/4151 checking SYR/RD259A
+Sun 30/Oct/2011 22:00:07.766 TrainController/4151 checking SYR/RD271A
+Sun 30/Oct/2011 22:00:07.766 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:00:08.767 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:00:08.770 TrainController/4151 checking SYR/RD271A
+Sun 30/Oct/2011 22:00:08.774 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:00:09.775 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:00:09.778 TrainController/4151 checking SYR/RD271A
+Sun 30/Oct/2011 22:00:09.778 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:00:10.779 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:00:10.781 TrainController/4151 checking SYR/RD271A
+Sun 30/Oct/2011 22:00:10.781 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:00:11.043 TrainController/4151 train status changed. 
+Sun 30/Oct/2011 22:00:11.043 TrainController/4151 exiting trainStateChanged
+Sun 30/Oct/2011 22:00:11.786 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:00:11.787 TrainController/4151 checking SYR/RD271A
+Sun 30/Oct/2011 22:00:11.788 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:00:12.809 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:00:12.885 TrainController/4151 checking SYR/RD271A
+Sun 30/Oct/2011 22:00:12.902 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:00:13.346 TrainController/4151 train status changed. 
+Sun 30/Oct/2011 22:00:13.346 TrainController/4151 exiting trainStateChanged
+Sun 30/Oct/2011 22:00:13.903 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:00:13.911 TrainController/4151 checking SYR/RD271A
+Sun 30/Oct/2011 22:00:13.914 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:00:15.045 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:00:15.098 TrainController/4151 checking SYR/RD271A
+Sun 30/Oct/2011 22:00:15.125 TrainController/4151 checking SYR/RD285A
+Sun 30/Oct/2011 22:00:15.143 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:00:15.441 TrainController/4151 train status changed. 
+Sun 30/Oct/2011 22:00:15.441 TrainController/4151 exiting trainStateChanged
+Sun 30/Oct/2011 22:00:16.111 TrainController2/4151/SignalController/FSE/R666A-FSE/R776A RouteStateChange Event. RouteModel:FSE/R666A, oldState: Clear, newState: TrainIn
+Sun 30/Oct/2011 22:00:16.347 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:00:16.362 TrainController/4151 checking SYR/RD285A
+Sun 30/Oct/2011 22:00:16.541 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:00:16.951 TrainController/4151 train status changed. 
+Sun 30/Oct/2011 22:00:16.951 TrainController/4151 exiting trainStateChanged
+Sun 30/Oct/2011 22:00:17.545 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:00:17.552 TrainController/4151 checking SYR/RD285A
+Sun 30/Oct/2011 22:00:17.554 TrainController/4151 checking SYR/RD295A
+Sun 30/Oct/2011 22:00:17.559 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:00:18.023 TrainController/4151 train status changed. 
+Sun 30/Oct/2011 22:00:18.023 TrainController/4151 exiting trainStateChanged
+Sun 30/Oct/2011 22:00:18.289 TrainController2/4151/SignalController/FSE/R666A-FSE/R776A RouteStateChange Event. RouteModel:FSE/R776A, oldState: Clear, newState: TrainIn
+Sun 30/Oct/2011 22:00:18.300 TrainController2/4151/SignalController/FSE/R666A-FSE/R776A Clearing up
+Sun 30/Oct/2011 22:00:18.560 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:00:18.561 TrainController/4151 checking SYR/RD295A
+Sun 30/Oct/2011 22:00:18.561 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:00:19.563 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:00:19.565 TrainController/4151 checking SYR/RD295A
+Sun 30/Oct/2011 22:00:19.565 TrainController/4151 checking SYR/RD307A
+Sun 30/Oct/2011 22:00:19.566 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:00:20.570 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:00:20.573 TrainController/4151 checking SYR/RD307A
+Sun 30/Oct/2011 22:00:20.578 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:00:21.186 TrainController/4151 train status changed. 
+Sun 30/Oct/2011 22:00:21.186 TrainController/4151 exiting trainStateChanged
+Sun 30/Oct/2011 22:00:21.580 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:00:21.582 TrainController/4151 checking SYR/RD307A
+Sun 30/Oct/2011 22:00:21.582 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:00:22.584 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:00:22.586 TrainController/4151 checking SYR/RD307A
+Sun 30/Oct/2011 22:00:22.587 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:00:23.526 TrainController/4151 train status changed. 
+Sun 30/Oct/2011 22:00:23.526 TrainController/4151 exiting trainStateChanged
+Sun 30/Oct/2011 22:00:23.590 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:00:23.591 TrainController/4151 checking SYR/RD307A
+Sun 30/Oct/2011 22:00:23.591 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:00:24.629 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:00:24.645 TrainController/4151 checking SYR/RD307A
+Sun 30/Oct/2011 22:00:24.715 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:00:24.726 TrainController/4151 train status changed. 
+Sun 30/Oct/2011 22:00:24.726 TrainController/4151 head track FSE/T670 is on new platform RMD006
+Sun 30/Oct/2011 22:00:24.726 TrainController/4151 inPlatform: false
+Sun 30/Oct/2011 22:00:24.727 TrainController/4151 exiting trainStateChanged
+Sun 30/Oct/2011 22:00:25.718 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:00:25.722 TrainController/4151 checking SYR/RD307A
+Sun 30/Oct/2011 22:00:25.724 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:00:26.566 TrainController/4151 train status changed. 
+Sun 30/Oct/2011 22:00:26.566 TrainController/4151 head track SYR/TD069 is on new platform RMD006
+Sun 30/Oct/2011 22:00:26.566 TrainController/4151 inPlatform: true
+Sun 30/Oct/2011 22:00:26.567 TrainController/4151 dwell time: 5
+Sun 30/Oct/2011 22:00:26.568 TrainController/4151 train stopped
+Sun 30/Oct/2011 22:00:26.568 TrainController/4151 exiting trainStateChanged
+Sun 30/Oct/2011 22:00:26.568 TrainController/4151 train status changed. 
+Sun 30/Oct/2011 22:00:26.569 TrainController/4151 head track SYR/TD069 is on new platform RMD006
+Sun 30/Oct/2011 22:00:26.569 TrainController/4151 inPlatform: true
+Sun 30/Oct/2011 22:00:26.569 TrainController/4151 exiting trainStateChanged
+Sun 30/Oct/2011 22:00:26.837 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:00:26.853 TrainController/4151 checking SYR/RD307A
+Sun 30/Oct/2011 22:00:26.869 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:00:27.872 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:00:27.874 TrainController/4151 checking SYR/RD307A
+Sun 30/Oct/2011 22:00:27.874 TrainController/4151 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:00:27.877 TrainController/4151 CFD/R702A-CFD/R704D not available
+Sun 30/Oct/2011 22:00:27.877 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:00:28.962 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:00:28.988 TrainController/4151 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:00:28.989 TrainController/4151 CFD/R702A-CFD/R704D not available
+Sun 30/Oct/2011 22:00:28.990 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:00:29.055 TrainController/4151 train status changed. 
+Sun 30/Oct/2011 22:00:29.055 TrainController/4151 head track SYR/TD069 is on new platform RMD006
+Sun 30/Oct/2011 22:00:29.073 TrainController/4151 inPlatform: true
+Sun 30/Oct/2011 22:00:29.074 TrainController/4151 exiting trainStateChanged
+Sun 30/Oct/2011 22:00:29.997 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:00:30.006 TrainController/4151 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:00:30.006 TrainController/4151 CFD/R702A-CFD/R704D not available
+Sun 30/Oct/2011 22:00:30.007 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:00:30.954 TrainController/4151 train status changed. 
+Sun 30/Oct/2011 22:00:30.954 TrainController/4151 head track SYR/TD069 is on new platform RMD006
+Sun 30/Oct/2011 22:00:30.955 TrainController/4151 inPlatform: true
+Sun 30/Oct/2011 22:00:30.955 TrainController/4151 exiting trainStateChanged
+Sun 30/Oct/2011 22:00:31.007 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:00:31.008 TrainController/4151 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:00:31.008 TrainController/4151 CFD/R702A-CFD/R704D not available
+Sun 30/Oct/2011 22:00:31.009 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:00:31.613 TrainController/4151 restarting the train
+Sun 30/Oct/2011 22:00:31.614 TrainController/4151 train status changed. 
+Sun 30/Oct/2011 22:00:31.614 TrainController/4151 head track SYR/TD069 is on new platform RMD006
+Sun 30/Oct/2011 22:00:31.614 TrainController/4151 inPlatform: true
+Sun 30/Oct/2011 22:00:31.615 TrainController/4151 exiting trainStateChanged
+Sun 30/Oct/2011 22:00:32.186 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:00:32.225 TrainController/4151 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:00:32.330 TrainController/4151 CFD/R702A-CFD/R704D not available
+Sun 30/Oct/2011 22:00:32.330 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:00:33.427 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:00:33.469 TrainController/4151 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:00:33.490 TrainController/4151 CFD/R702A-CFD/R704D not available
+Sun 30/Oct/2011 22:00:33.490 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:00:34.792 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:00:34.803 TrainController/4151 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:00:34.821 TrainController/4151 CFD/R702A-CFD/R704D not available
+Sun 30/Oct/2011 22:00:34.821 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:00:35.989 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:00:36.009 TrainController/4151 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:00:36.022 TrainController/4151 CFD/R702A-CFD/R704D not available
+Sun 30/Oct/2011 22:00:36.022 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:00:37.031 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:00:37.032 TrainController/4151 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:00:37.036 TrainController/4151 CFD/R702A-CFD/R704D not available
+Sun 30/Oct/2011 22:00:37.036 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:00:38.038 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:00:38.039 TrainController/4151 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:00:38.040 TrainController/4151 CFD/R702A-CFD/R704D not available
+Sun 30/Oct/2011 22:00:38.040 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:00:39.041 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:00:39.046 TrainController/4151 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:00:39.046 TrainController/4151 CFD/R702A-CFD/R704D not available
+Sun 30/Oct/2011 22:00:39.047 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:00:39.149 TrainController/4151 train status changed. 
+Sun 30/Oct/2011 22:00:39.149 TrainController/4151 exiting trainStateChanged
+Sun 30/Oct/2011 22:00:40.049 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:00:40.054 TrainController/4151 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:00:40.054 TrainController/4151 CFD/R702A-CFD/R704D not available
+Sun 30/Oct/2011 22:00:40.055 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:00:40.242 TrainController/4151 train status changed. 
+Sun 30/Oct/2011 22:00:40.242 TrainController/4151 exiting trainStateChanged
+Sun 30/Oct/2011 22:00:41.060 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:00:41.062 TrainController/4151 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:00:41.064 TrainController/4151 CFD/R702A-CFD/R704D not available
+Sun 30/Oct/2011 22:00:41.064 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:00:42.066 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:00:42.069 TrainController/4151 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:00:42.069 TrainController/4151 CFD/R702A-CFD/R704D not available
+Sun 30/Oct/2011 22:00:42.070 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:00:43.355 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:00:43.535 TrainController/4151 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:00:43.585 TrainController/4151 CFD/R702A-CFD/R704D not available
+Sun 30/Oct/2011 22:00:43.585 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:00:43.759 TrainController/4151 train status changed. 
+Sun 30/Oct/2011 22:00:43.760 TrainController/4151 exiting trainStateChanged
+Sun 30/Oct/2011 22:00:44.541 TrainController/4151 train status changed. 
+Sun 30/Oct/2011 22:00:44.542 TrainController/4151 exiting trainStateChanged
+Sun 30/Oct/2011 22:00:44.590 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:00:44.598 TrainController/4151 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:00:44.601 TrainController/4151 CFD/R702A-CFD/R704D not available
+Sun 30/Oct/2011 22:00:44.601 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:00:45.761 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:00:45.768 TrainController/4151 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:00:45.779 TrainController/4151 CFD/R702A-CFD/R704D not available
+Sun 30/Oct/2011 22:00:45.779 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:00:46.781 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:00:46.784 TrainController/4151 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:00:46.786 TrainController/4151 CFD/R702A-CFD/R704D not available
+Sun 30/Oct/2011 22:00:46.786 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:00:47.788 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:00:47.789 TrainController/4151 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:00:47.789 TrainController/4151 CFD/R702A-CFD/R704D not available
+Sun 30/Oct/2011 22:00:47.789 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:00:48.668 TrainController/4151 train status changed. 
+Sun 30/Oct/2011 22:00:48.668 TrainController/4151 head track SYR/TD117 is on new platform SYR006
+Sun 30/Oct/2011 22:00:48.669 TrainController/4151 inPlatform: true
+Sun 30/Oct/2011 22:00:48.670 TrainController/4151 dwell time: 5
+Sun 30/Oct/2011 22:00:48.671 TrainController/4151 train stopped
+Sun 30/Oct/2011 22:00:48.672 TrainController/4151 exiting trainStateChanged
+Sun 30/Oct/2011 22:00:48.673 TrainController/4151 train status changed. 
+Sun 30/Oct/2011 22:00:48.673 TrainController/4151 head track SYR/TD117 is on new platform SYR006
+Sun 30/Oct/2011 22:00:48.675 TrainController/4151 inPlatform: true
+Sun 30/Oct/2011 22:00:48.675 TrainController/4151 exiting trainStateChanged
+Sun 30/Oct/2011 22:00:48.793 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:00:48.794 TrainController/4151 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:00:48.795 TrainController/4151 CFD/R702A-CFD/R704D not available
+Sun 30/Oct/2011 22:00:48.795 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:00:49.796 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:00:49.798 TrainController/4151 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:00:49.798 TrainController/4151 CFD/R702A-CFD/R704D not available
+Sun 30/Oct/2011 22:00:49.798 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:00:49.853 TrainController/4151 train status changed. 
+Sun 30/Oct/2011 22:00:49.856 TrainController/4151 exiting trainStateChanged
+Sun 30/Oct/2011 22:00:50.800 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:00:50.802 TrainController/4151 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:00:50.802 TrainController/4151 CFD/R702A-CFD/R704D not available
+Sun 30/Oct/2011 22:00:50.802 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:00:51.804 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:00:51.805 TrainController/4151 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:00:51.805 TrainController/4151 CFD/R702A-CFD/R704D not available
+Sun 30/Oct/2011 22:00:51.806 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:00:51.869 TrainController/4151 train status changed. 
+Sun 30/Oct/2011 22:00:51.869 TrainController/4151 exiting trainStateChanged
+Sun 30/Oct/2011 22:00:52.807 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:00:52.808 TrainController/4151 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:00:52.808 TrainController/4151 CFD/R702A-CFD/R704D not available
+Sun 30/Oct/2011 22:00:52.808 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:00:53.723 TrainController/4151 restarting the train
+Sun 30/Oct/2011 22:00:53.724 TrainController/4151 train status changed. 
+Sun 30/Oct/2011 22:00:53.724 TrainController/4151 exiting trainStateChanged
+Sun 30/Oct/2011 22:00:53.810 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:00:53.811 TrainController/4151 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:00:53.812 TrainController/4151 CFD/R702A-CFD/R704D not available
+Sun 30/Oct/2011 22:00:53.812 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:00:53.940 TrainController/4151 train status changed. 
+Sun 30/Oct/2011 22:00:53.940 TrainController/4151 exiting trainStateChanged
+Sun 30/Oct/2011 22:00:54.813 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:00:54.815 TrainController/4151 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:00:54.815 TrainController/4151 CFD/R702A-CFD/R704D not available
+Sun 30/Oct/2011 22:00:54.816 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:00:55.818 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:00:55.819 TrainController/4151 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:00:55.819 TrainController/4151 CFD/R702A-CFD/R704D not available
+Sun 30/Oct/2011 22:00:55.819 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:00:56.823 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:00:56.825 TrainController/4151 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:00:56.826 TrainController/4151 CFD/R702A-CFD/R704D not available
+Sun 30/Oct/2011 22:00:56.826 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:00:57.863 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:00:57.874 TrainController/4151 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:00:57.893 TrainController/4151 CFD/R702A-CFD/R704D not available
+Sun 30/Oct/2011 22:00:57.893 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:00:58.896 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:00:58.902 TrainController/4151 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:00:58.908 TrainController/4151 CFD/R702A-CFD/R704D not available
+Sun 30/Oct/2011 22:00:58.908 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:00:59.911 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:00:59.912 TrainController/4151 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:00:59.913 TrainController/4151 CFD/R702A-CFD/R704D not available
+Sun 30/Oct/2011 22:00:59.913 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:01:00.323 TrainController/4151 train status changed. 
+Sun 30/Oct/2011 22:01:00.324 TrainController/4151 head track SYR/TD161 is on new platform HKN004
+Sun 30/Oct/2011 22:01:00.325 TrainController/4151 inPlatform: true
+Sun 30/Oct/2011 22:01:00.325 TrainController/4151 dwell time: 5
+Sun 30/Oct/2011 22:01:00.326 TrainController/4151 train stopped
+Sun 30/Oct/2011 22:01:00.326 TrainController/4151 exiting trainStateChanged
+Sun 30/Oct/2011 22:01:00.329 TrainController/4151 train status changed. 
+Sun 30/Oct/2011 22:01:00.329 TrainController/4151 head track SYR/TD161 is on new platform HKN004
+Sun 30/Oct/2011 22:01:00.331 TrainController/4151 inPlatform: true
+Sun 30/Oct/2011 22:01:00.331 TrainController/4151 exiting trainStateChanged
+Sun 30/Oct/2011 22:01:00.913 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:01:00.915 TrainController/4151 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:00.915 TrainController/4151 CFD/R702A-CFD/R704D not available
+Sun 30/Oct/2011 22:01:00.915 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:01:01.917 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:01:01.920 TrainController/4151 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:01.921 TrainController/4151 CFD/R702A-CFD/R704D not available
+Sun 30/Oct/2011 22:01:01.921 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:01:02.360 TrainController/4151 train status changed. 
+Sun 30/Oct/2011 22:01:02.360 TrainController/4151 exiting trainStateChanged
+Sun 30/Oct/2011 22:01:02.924 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:01:02.925 TrainController/4151 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:02.925 TrainController/4151 CFD/R702A-CFD/R704D not available
+Sun 30/Oct/2011 22:01:02.925 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:01:03.929 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:01:03.930 TrainController/4151 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:03.930 TrainController/4151 CFD/R702A-CFD/R704D not available
+Sun 30/Oct/2011 22:01:03.931 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:01:04.378 TrainController/4151 train status changed. 
+Sun 30/Oct/2011 22:01:04.378 TrainController/4151 exiting trainStateChanged
+Sun 30/Oct/2011 22:01:04.932 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:01:04.933 TrainController/4151 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:04.934 TrainController/4151 CFD/R702A-CFD/R704D not available
+Sun 30/Oct/2011 22:01:04.934 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:01:05.354 TrainController/4151 restarting the train
+Sun 30/Oct/2011 22:01:05.356 TrainController/4151 train status changed. 
+Sun 30/Oct/2011 22:01:05.357 TrainController/4151 exiting trainStateChanged
+Sun 30/Oct/2011 22:01:05.542 TrainController/4151 train status changed. 
+Sun 30/Oct/2011 22:01:05.542 TrainController/4151 exiting trainStateChanged
+Sun 30/Oct/2011 22:01:05.939 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:01:05.942 TrainController/4151 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:05.944 TrainController/4151 CFD/R702A-CFD/R704D not available
+Sun 30/Oct/2011 22:01:05.944 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:01:06.946 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:01:06.948 TrainController/4151 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:06.950 TrainController/4151 waiting 176 seconds  to start CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:06.950 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:01:07.951 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:01:07.952 TrainController/4151 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:07.953 TrainController/4151 waiting 176 seconds  to start CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:07.953 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:01:08.956 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:01:08.958 TrainController/4151 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:08.961 TrainController/4151 waiting 160 seconds  to start CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:08.961 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:01:10.034 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:01:10.101 TrainController/4151 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:10.280 TrainController/4151 waiting 160 seconds  to start CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:10.280 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:01:11.282 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:01:11.283 TrainController/4151 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:11.285 TrainController/4151 waiting 140 seconds  to start CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:11.285 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:01:11.678 TrainController/4151 train status changed. 
+Sun 30/Oct/2011 22:01:11.678 TrainController/4151 head track SYR/TD201 is on new platform TOR004
+Sun 30/Oct/2011 22:01:11.678 TrainController/4151 inPlatform: true
+Sun 30/Oct/2011 22:01:11.679 TrainController/4151 dwell time: 5
+Sun 30/Oct/2011 22:01:11.679 TrainController/4151 train stopped
+Sun 30/Oct/2011 22:01:11.680 TrainController/4151 exiting trainStateChanged
+Sun 30/Oct/2011 22:01:11.680 TrainController/4151 train status changed. 
+Sun 30/Oct/2011 22:01:11.681 TrainController/4151 head track SYR/TD201 is on new platform TOR004
+Sun 30/Oct/2011 22:01:11.681 TrainController/4151 inPlatform: true
+Sun 30/Oct/2011 22:01:11.681 TrainController/4151 exiting trainStateChanged
+Sun 30/Oct/2011 22:01:12.287 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:01:12.289 TrainController/4151 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:12.290 TrainController/4151 waiting 140 seconds  to start CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:12.290 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:01:13.305 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:01:13.482 TrainController/4151 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:13.499 TrainController/4151 waiting 140 seconds  to start CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:13.500 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:01:13.887 TrainController/4151 train status changed. 
+Sun 30/Oct/2011 22:01:13.887 TrainController/4151 head track SYR/TD201 is on new platform TOR004
+Sun 30/Oct/2011 22:01:13.887 TrainController/4151 inPlatform: true
+Sun 30/Oct/2011 22:01:13.888 TrainController/4151 exiting trainStateChanged
+Sun 30/Oct/2011 22:01:14.636 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:01:14.665 TrainController/4151 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:14.686 TrainController/4151 waiting 140 seconds  to start CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:14.686 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:01:15.845 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:01:15.858 TrainController/4151 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:15.877 TrainController/4151 waiting 140 seconds  to start CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:15.877 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:01:15.948 TrainController/4151 train status changed. 
+Sun 30/Oct/2011 22:01:15.948 TrainController/4151 head track SYR/TD201 is on new platform TOR004
+Sun 30/Oct/2011 22:01:15.949 TrainController/4151 inPlatform: true
+Sun 30/Oct/2011 22:01:15.949 TrainController/4151 exiting trainStateChanged
+Sun 30/Oct/2011 22:01:16.718 TrainController/4151 restarting the train
+Sun 30/Oct/2011 22:01:16.719 TrainController/4151 train status changed. 
+Sun 30/Oct/2011 22:01:16.719 TrainController/4151 head track SYR/TD201 is on new platform TOR004
+Sun 30/Oct/2011 22:01:16.719 TrainController/4151 inPlatform: true
+Sun 30/Oct/2011 22:01:16.720 TrainController/4151 exiting trainStateChanged
+Sun 30/Oct/2011 22:01:16.882 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:01:16.883 TrainController/4151 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:16.886 TrainController/4151 waiting 140 seconds  to start CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:16.886 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:01:17.891 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:01:17.893 TrainController/4151 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:17.894 TrainController/4151 waiting 140 seconds  to start CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:17.894 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:01:18.900 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:01:18.902 TrainController/4151 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:18.903 TrainController/4151 waiting 121 seconds  to start CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:18.903 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:01:19.906 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:01:19.907 TrainController/4151 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:19.909 TrainController/4151 waiting 121 seconds  to start CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:19.909 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:01:20.910 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:01:20.911 TrainController/4151 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:20.912 TrainController/4151 waiting 111 seconds  to start CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:20.912 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:01:22.016 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:01:22.027 TrainController/4151 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:22.041 TrainController/4151 waiting 111 seconds  to start CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:22.041 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:01:23.050 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:01:23.057 TrainController/4151 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:23.070 TrainController/4151 waiting 98 seconds  to start CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:23.070 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:01:23.446 TrainController/4151 train status changed. 
+Sun 30/Oct/2011 22:01:23.446 TrainController/4151 head track SYR/TD231 is on new platform ARM004
+Sun 30/Oct/2011 22:01:23.447 TrainController/4151 inPlatform: true
+Sun 30/Oct/2011 22:01:23.447 TrainController/4151 dwell time: 5
+Sun 30/Oct/2011 22:01:23.448 TrainController/4151 train stopped
+Sun 30/Oct/2011 22:01:23.448 TrainController/4151 exiting trainStateChanged
+Sun 30/Oct/2011 22:01:23.449 TrainController/4151 train status changed. 
+Sun 30/Oct/2011 22:01:23.449 TrainController/4151 head track SYR/TD231 is on new platform ARM004
+Sun 30/Oct/2011 22:01:23.449 TrainController/4151 inPlatform: true
+Sun 30/Oct/2011 22:01:23.450 TrainController/4151 exiting trainStateChanged
+Sun 30/Oct/2011 22:01:24.115 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:01:24.143 TrainController/4151 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:24.335 TrainController/4151 waiting 98 seconds  to start CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:24.335 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:01:25.134 TrainController/4151 train status changed. 
+Sun 30/Oct/2011 22:01:25.134 TrainController/4151 head track SYR/TD231 is on new platform ARM004
+Sun 30/Oct/2011 22:01:25.135 TrainController/4151 inPlatform: true
+Sun 30/Oct/2011 22:01:25.136 TrainController/4151 exiting trainStateChanged
+Sun 30/Oct/2011 22:01:25.342 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:01:25.349 TrainController/4151 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:25.365 TrainController/4151 waiting 98 seconds  to start CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:25.365 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:01:26.404 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:01:26.421 TrainController/4151 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:26.439 TrainController/4151 waiting 98 seconds  to start CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:26.439 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:01:27.148 TrainController/4151 train status changed. 
+Sun 30/Oct/2011 22:01:27.148 TrainController/4151 head track SYR/TD231 is on new platform ARM004
+Sun 30/Oct/2011 22:01:27.150 TrainController/4151 inPlatform: true
+Sun 30/Oct/2011 22:01:27.150 TrainController/4151 exiting trainStateChanged
+Sun 30/Oct/2011 22:01:27.443 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:01:27.448 TrainController/4151 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:27.451 TrainController/4151 waiting 98 seconds  to start CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:27.451 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:01:28.458 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:01:28.468 TrainController/4151 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:28.687 TrainController/4151 waiting 98 seconds  to start CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:28.687 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:01:28.689 TrainController/4151 restarting the train
+Sun 30/Oct/2011 22:01:28.720 TrainController/4151 train status changed. 
+Sun 30/Oct/2011 22:01:28.720 TrainController/4151 head track SYR/TD231 is on new platform ARM004
+Sun 30/Oct/2011 22:01:28.721 TrainController/4151 inPlatform: true
+Sun 30/Oct/2011 22:01:28.721 TrainController/4151 exiting trainStateChanged
+Sun 30/Oct/2011 22:01:29.689 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:01:29.690 TrainController/4151 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:29.691 TrainController/4151 waiting 98 seconds  to start CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:29.691 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:01:30.693 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:01:30.703 TrainController/4151 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:30.707 TrainController/4151 waiting 92 seconds  to start CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:30.707 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:01:31.711 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:01:31.716 TrainController/4151 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:31.718 TrainController/4151 waiting 92 seconds  to start CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:31.718 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:01:32.720 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:01:32.721 TrainController/4151 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:32.721 TrainController/4151 waiting 80 seconds  to start CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:32.721 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:01:33.723 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:01:33.726 TrainController/4151 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:33.726 TrainController/4151 waiting 80 seconds  to start CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:33.727 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:01:34.729 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:01:34.730 TrainController/4151 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:34.731 TrainController/4151 waiting 65 seconds  to start CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:34.731 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:01:35.629 TrainController/4151 train status changed. 
+Sun 30/Oct/2011 22:01:35.632 TrainController/4151 exiting trainStateChanged
+Sun 30/Oct/2011 22:01:35.733 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:01:35.748 TrainController/4151 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:35.765 TrainController/4151 waiting 65 seconds  to start CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:35.765 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:01:36.767 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:01:36.767 TrainController/4151 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:36.768 TrainController/4151 waiting 45 seconds  to start CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:36.768 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:01:36.963 TrainController/4151 train status changed. 
+Sun 30/Oct/2011 22:01:36.963 TrainController/4151 exiting trainStateChanged
+Sun 30/Oct/2011 22:01:37.783 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:01:37.789 TrainController/4151 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:37.790 TrainController/4151 waiting 45 seconds  to start CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:37.790 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:01:38.879 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:01:38.887 TrainController/4151 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:38.958 TrainController/4151 waiting 45 seconds  to start CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:38.958 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:01:39.473 TrainController/4151 train status changed. 
+Sun 30/Oct/2011 22:01:39.473 TrainController/4151 head track SYR/TD271 is on new platform MAL004
+Sun 30/Oct/2011 22:01:39.474 TrainController/4151 inPlatform: true
+Sun 30/Oct/2011 22:01:39.474 TrainController/4151 dwell time: 5
+Sun 30/Oct/2011 22:01:39.475 TrainController/4151 train stopped
+Sun 30/Oct/2011 22:01:39.475 TrainController/4151 exiting trainStateChanged
+Sun 30/Oct/2011 22:01:39.476 TrainController/4151 train status changed. 
+Sun 30/Oct/2011 22:01:39.477 TrainController/4151 head track SYR/TD271 is on new platform MAL004
+Sun 30/Oct/2011 22:01:39.478 TrainController/4151 inPlatform: true
+Sun 30/Oct/2011 22:01:39.478 TrainController/4151 exiting trainStateChanged
+Sun 30/Oct/2011 22:01:39.962 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:01:39.964 TrainController/4151 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:39.965 TrainController/4151 waiting 21 seconds  to start CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:39.965 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:01:40.966 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:01:40.967 TrainController/4151 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:40.967 TrainController/4151 waiting 21 seconds  to start CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:40.968 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:01:41.491 TrainController/4151 train status changed. 
+Sun 30/Oct/2011 22:01:41.491 TrainController/4151 head track SYR/TD271 is on new platform MAL004
+Sun 30/Oct/2011 22:01:41.491 TrainController/4151 inPlatform: true
+Sun 30/Oct/2011 22:01:41.492 TrainController/4151 exiting trainStateChanged
+Sun 30/Oct/2011 22:01:41.970 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:01:41.971 TrainController/4151 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:41.971 TrainController/4151 waiting 21 seconds  to start CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:41.972 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:01:42.995 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:01:43.459 TrainController/4151 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:43.499 TrainController/4151 waiting 20 seconds  to start CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:43.499 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:01:43.957 TrainController/4151 train status changed. 
+Sun 30/Oct/2011 22:01:43.957 TrainController/4151 head track SYR/TD271 is on new platform MAL004
+Sun 30/Oct/2011 22:01:43.961 TrainController/4151 inPlatform: true
+Sun 30/Oct/2011 22:01:43.963 TrainController/4151 exiting trainStateChanged
+Sun 30/Oct/2011 22:01:44.495 TrainController/4151 restarting the train
+Sun 30/Oct/2011 22:01:44.496 TrainController/4151 train status changed. 
+Sun 30/Oct/2011 22:01:44.496 TrainController/4151 head track SYR/TD271 is on new platform MAL004
+Sun 30/Oct/2011 22:01:44.496 TrainController/4151 inPlatform: true
+Sun 30/Oct/2011 22:01:44.497 TrainController/4151 exiting trainStateChanged
+Sun 30/Oct/2011 22:01:44.503 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:01:44.504 TrainController/4151 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:44.505 TrainController/4151 waiting 21 seconds  to start CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:44.505 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:01:45.560 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:01:45.564 TrainController/4151 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:45.579 TrainController/4151 waiting 21 seconds  to start CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:45.579 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:01:46.582 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:01:46.583 TrainController/4151 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:46.584 TrainController/4151 waiting 4 seconds  to start CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:46.584 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:01:47.585 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:01:47.588 TrainController/4151 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:47.590 TrainController/4151 waiting 4 seconds  to start CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:47.590 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:01:48.592 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:01:48.594 TrainController/4151 checking CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:48.595 TrainController/4151 now starting CFD/R702A-CFD/R704D
+Sun 30/Oct/2011 22:01:48.596 TrainController2/4151/SignalController/CFD/R702A-CFD/R704D created
+Sun 30/Oct/2011 22:01:48.597 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:01:48.600 TrainController2/4151/SignalController/CFD/R702A-CFD/R704D successfully claimed
+Sun 30/Oct/2011 22:01:48.605 TrainController2/4151/SignalController/CFD/R702A-CFD/R704D RouteStateChange Event. RouteModel:CFD/R704D, oldState: Dormant, newState: Turning
+Sun 30/Oct/2011 22:01:49.598 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:01:49.598 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:01:50.331 TrainController/4151 train status changed. 
+Sun 30/Oct/2011 22:01:50.331 TrainController/4151 exiting trainStateChanged
+Sun 30/Oct/2011 22:01:50.600 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:01:50.601 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:01:51.602 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:01:51.603 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:01:52.312 TrainController/4151 train status changed. 
+Sun 30/Oct/2011 22:01:52.317 TrainController/4151 exiting trainStateChanged
+Sun 30/Oct/2011 22:01:52.604 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:01:52.604 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:01:53.620 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:01:53.620 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:01:54.339 TrainController2/4151/SignalController/CFD/R702A-CFD/R704D RouteStateChange Event. RouteModel:CFD/R704D, oldState: Turning, newState: Locked
+Sun 30/Oct/2011 22:01:54.621 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:01:54.621 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:01:55.346 TrainController2/4151/SignalController/CFD/R702A-CFD/R704D RouteStateChange Event. RouteModel:CFD/R704D, oldState: Locked, newState: Clear
+Sun 30/Oct/2011 22:01:55.346 TrainController2/4151/SignalController/CFD/R702A-CFD/R704D checking for next route...
+Sun 30/Oct/2011 22:01:55.346 TrainController2/4151/SignalController/CFD/R702A-CFD/R704D new route: CFD/R702A
+Sun 30/Oct/2011 22:01:55.359 TrainController2/4151/SignalController/CFD/R702A-CFD/R704D RouteStateChange Event. RouteModel:CFD/R702A, oldState: Turning, newState: Locked
+Sun 30/Oct/2011 22:01:55.370 TrainController2/4151/SignalController/CFD/R702A-CFD/R704D RouteStateChange Event. RouteModel:CFD/R702A, oldState: Dormant, newState: Locked
+Sun 30/Oct/2011 22:01:55.370 TrainController/4151 train status changed. 
+Sun 30/Oct/2011 22:01:55.371 TrainController/4151 exiting trainStateChanged
+Sun 30/Oct/2011 22:01:55.623 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:01:55.623 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:01:56.338 TrainController2/4151/SignalController/CFD/R702A-CFD/R704D RouteStateChange Event. RouteModel:CFD/R702A, oldState: Locked, newState: Clear
+Sun 30/Oct/2011 22:01:56.338 TrainController2/4151/SignalController/CFD/R702A-CFD/R704D checking for next route...
+Sun 30/Oct/2011 22:01:56.338 TrainController2/4151/SignalController/CFD/R702A-CFD/R704D no more route. SignalController OK sent to Traincontroller
+Sun 30/Oct/2011 22:01:56.339 TrainController/4151  signal controller CFD/R702A-CFD/R704D ok
+Sun 30/Oct/2011 22:01:56.624 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:01:56.625 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:01:57.345 TrainController2/4151/SignalController/CFD/R702A-CFD/R704D RouteStateChange Event. RouteModel:CFD/R702A, oldState: Clear, newState: TrainIn
+Sun 30/Oct/2011 22:01:57.639 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:01:57.639 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:01:58.640 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:01:58.640 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:01:59.362 TrainController2/4151/SignalController/CFD/R702A-CFD/R704D RouteStateChange Event. RouteModel:CFD/R704D, oldState: Clear, newState: TrainIn
+Sun 30/Oct/2011 22:01:59.374 TrainController2/4151/SignalController/CFD/R702A-CFD/R704D Clearing up
+Sun 30/Oct/2011 22:01:59.642 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:01:59.642 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:02:00.643 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:02:00.643 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:02:01.772 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:02:01.772 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:02:02.404 TrainController/4151 train status changed. 
+Sun 30/Oct/2011 22:02:02.405 TrainController/4151 exiting trainStateChanged
+Sun 30/Oct/2011 22:02:02.774 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:02:02.774 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:02:03.776 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:02:03.776 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:02:04.356 TrainController/4151 train status changed. 
+Sun 30/Oct/2011 22:02:04.356 TrainController/4151 exiting trainStateChanged
+Sun 30/Oct/2011 22:02:04.777 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:02:04.777 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:02:05.779 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:02:05.779 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:02:06.780 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:02:06.780 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:02:07.781 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:02:07.782 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:02:07.890 TrainController/4151 train status changed. 
+Sun 30/Oct/2011 22:02:07.890 TrainController/4151 exiting trainStateChanged
+Sun 30/Oct/2011 22:02:08.908 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:02:08.908 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:02:09.910 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:02:09.910 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:02:10.912 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:02:10.912 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:02:11.664 TrainController/4151 train status changed. 
+Sun 30/Oct/2011 22:02:11.665 TrainController/4151 exiting trainStateChanged
+Sun 30/Oct/2011 22:02:11.914 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:02:11.914 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:02:12.915 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:02:12.915 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:02:13.955 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:02:13.955 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:02:14.729 TrainController/4151 train status changed. 
+Sun 30/Oct/2011 22:02:14.730 TrainController/4151 exiting trainStateChanged
+Sun 30/Oct/2011 22:02:14.959 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:02:14.959 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:02:16.124 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:02:16.125 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:02:16.921 TrainController/4151 train status changed. 
+Sun 30/Oct/2011 22:02:16.921 TrainController/4151 head track CFD/T769 is on new platform CFD001
+Sun 30/Oct/2011 22:02:16.922 TrainController/4151 inPlatform: true
+Sun 30/Oct/2011 22:02:16.922 TrainController/4151 At the last platform CFD001, forming [4162]
+Sun 30/Oct/2011 22:02:16.923 TrainController/4151 exiting trainStateChanged
+Sun 30/Oct/2011 22:02:16.924 TrainController/4151 train status changed. 
+Sun 30/Oct/2011 22:02:16.925 TrainController/4151 head track CFD/T769 is on new platform CFD001
+Sun 30/Oct/2011 22:02:16.926 TrainController/4151 inPlatform: true
+Sun 30/Oct/2011 22:02:16.926 TrainController/4151 exiting trainStateChanged
+Sun 30/Oct/2011 22:02:17.147 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:02:17.148 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:02:18.149 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:02:18.149 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:02:19.151 TrainController/4151 starting requestSchedule......
+Sun 30/Oct/2011 22:02:19.152 TrainController/4151 requestSchedule...... completed
+Sun 30/Oct/2011 22:02:19.361 TrainController/4151 train status changed. 
+Sun 30/Oct/2011 22:02:19.361 TrainController/4151 head track CFD/T769 is on new platform CFD001
+Sun 30/Oct/2011 22:02:19.362 TrainController/4151 inPlatform: true
+Sun 30/Oct/2011 22:02:19.362 TrainController/4151 exiting trainStateChanged
+Sun 30/Oct/2011 22:02:19.958 TrainController/4151 trip 4151 finished. Train stopped. dwell time: 5 seconds

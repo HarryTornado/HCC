@@ -1,0 +1,1949 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configs>
+	<SignallingIndication xml:id="C404.CRP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMC404A/value</sourceURL>
+		<offset>15</offset>
+		<word>16</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E002.ECP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LE002ECP/value</sourceURL>
+		<offset>6</offset>
+		<word>21</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E060.JR">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMP060D/value</sourceURL>
+		<offset>12</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E083.JR">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMP083D/value</sourceURL>
+		<offset>8</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E215.JR">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMP215D/value</sourceURL>
+		<offset>4</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E217.JR">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMP217D/value</sourceURL>
+		<offset>0</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E218.JR">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMP218D/value</sourceURL>
+		<offset>12</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E235.JR">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMP235D/value</sourceURL>
+		<offset>8</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E236.JR">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMP236D/value</sourceURL>
+		<offset>4</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E245.JR">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMP245D/value</sourceURL>
+		<offset>0</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E246.JR">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMP246D/value</sourceURL>
+		<offset>12</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P046.LRP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMP046C/value</sourceURL>
+		<offset>5</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P046.RWCR">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMP046B/value</sourceURL>
+		<offset>6</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P046.NWCR">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMP046A/value</sourceURL>
+		<offset>7</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P055.LRP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMP055C/value</sourceURL>
+		<offset>1</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P055.RWCR">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMP055B/value</sourceURL>
+		<offset>2</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P055.NWCR">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMP055A/value</sourceURL>
+		<offset>3</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P060.LRP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMP060C/value</sourceURL>
+		<offset>13</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P060.RWCR">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMP060B/value</sourceURL>
+		<offset>14</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P060.NWCR">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMP060A/value</sourceURL>
+		<offset>15</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P083.RWCR">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMP083B/value</sourceURL>
+		<offset>10</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P083.NWCR">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMP083A/value</sourceURL>
+		<offset>11</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P083.LRP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMP083C/value</sourceURL>
+		<offset>9</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P215.LRP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMP215C/value</sourceURL>
+		<offset>5</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P215.RWCR">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMP215B/value</sourceURL>
+		<offset>6</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P215.NWCR">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMP215A/value</sourceURL>
+		<offset>7</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P217.LRP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMP217C/value</sourceURL>
+		<offset>1</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P217.RWCR">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMP217B/value</sourceURL>
+		<offset>2</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P217.NWCR">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMP217A/value</sourceURL>
+		<offset>3</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P218.LRP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMP218C/value</sourceURL>
+		<offset>13</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P218.RWCR">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMP218B/value</sourceURL>
+		<offset>14</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P218.NWCR">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMP218A/value</sourceURL>
+		<offset>15</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P235.RWCR">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMP235B/value</sourceURL>
+		<offset>10</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P235.NWCR">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMP235A/value</sourceURL>
+		<offset>11</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P235.LRP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMP235C/value</sourceURL>
+		<offset>9</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P236.LRP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMP236C/value</sourceURL>
+		<offset>5</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P236.RWCR">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMP236B/value</sourceURL>
+		<offset>6</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P236.NWCR">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMP236A/value</sourceURL>
+		<offset>7</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P245.LRP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMP245C/value</sourceURL>
+		<offset>1</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P245.RWCR">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMP245B/value</sourceURL>
+		<offset>2</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P245.NWCR">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMP245A/value</sourceURL>
+		<offset>3</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P246.LRP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMP246C/value</sourceURL>
+		<offset>13</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P246.RWCR">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMP246B/value</sourceURL>
+		<offset>14</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P246.NWCR">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMP246A/value</sourceURL>
+		<offset>15</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S090.RGP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS090C/value</sourceURL>
+		<offset>7</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S092.RGP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS092C/value</sourceURL>
+		<offset>0</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S146.CPBS">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS146F/value</sourceURL>
+		<offset>10</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S146.AOR">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS146E/value</sourceURL>
+		<offset>11</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S146.ASP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS146D/value</sourceURL>
+		<offset>12</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S146.RGP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS146C/value</sourceURL>
+		<offset>13</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S146.CGR">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS146B/value</sourceURL>
+		<offset>14</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S146.NGP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS146A/value</sourceURL>
+		<offset>15</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S146.RIP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS146G/value</sourceURL>
+		<offset>9</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S147.RIP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS147G/value</sourceURL>
+		<offset>1</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S147.CPBS">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS147F/value</sourceURL>
+		<offset>2</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S147.AOR">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS147E/value</sourceURL>
+		<offset>3</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S147.ASP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS147D/value</sourceURL>
+		<offset>4</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S147.RGP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS147C/value</sourceURL>
+		<offset>5</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S147.CGR">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS147B/value</sourceURL>
+		<offset>6</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S147.NGP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS147A/value</sourceURL>
+		<offset>7</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S155.CPBS">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS155F/value</sourceURL>
+		<offset>10</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S155.AOR">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS155E/value</sourceURL>
+		<offset>11</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S155.ASP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS155D/value</sourceURL>
+		<offset>12</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S155.RGP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS155C/value</sourceURL>
+		<offset>13</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S155.CGR">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS155B/value</sourceURL>
+		<offset>14</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S155.NGP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS155A/value</sourceURL>
+		<offset>15</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S155.RIP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS155G/value</sourceURL>
+		<offset>9</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S156.RIP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS156G/value</sourceURL>
+		<offset>1</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S156.CPBS">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS156F/value</sourceURL>
+		<offset>2</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S156.AOR">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS156E/value</sourceURL>
+		<offset>3</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S156.ASP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS156D/value</sourceURL>
+		<offset>4</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S156.RGP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS156C/value</sourceURL>
+		<offset>5</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S156.CGR">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS156B/value</sourceURL>
+		<offset>6</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S156.NGP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS156A/value</sourceURL>
+		<offset>7</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S157.CPBS">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS157F/value</sourceURL>
+		<offset>10</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S157.AOR">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS157E/value</sourceURL>
+		<offset>11</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S157.ASP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS157D/value</sourceURL>
+		<offset>12</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S157.RGP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS157C/value</sourceURL>
+		<offset>13</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S157.CGR">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS157B/value</sourceURL>
+		<offset>14</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S157.NGP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS157A/value</sourceURL>
+		<offset>15</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S157.RIP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS157G/value</sourceURL>
+		<offset>9</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S159.RIP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS159G/value</sourceURL>
+		<offset>1</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S159.CPBS">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS159F/value</sourceURL>
+		<offset>2</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S159.AOR">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS159E/value</sourceURL>
+		<offset>3</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S159.ASP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS159D/value</sourceURL>
+		<offset>4</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S159.RGP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS159C/value</sourceURL>
+		<offset>5</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S159.CGR">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS159B/value</sourceURL>
+		<offset>6</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S159.NGP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS159A/value</sourceURL>
+		<offset>7</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S160.CPBS">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS160F/value</sourceURL>
+		<offset>10</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S160.AOR">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS160E/value</sourceURL>
+		<offset>11</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S160.ASP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS160D/value</sourceURL>
+		<offset>12</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S160.RGP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS160C/value</sourceURL>
+		<offset>13</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S160.CGR">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS160B/value</sourceURL>
+		<offset>14</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S160.NGP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS160A/value</sourceURL>
+		<offset>15</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S160.RIP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS160G/value</sourceURL>
+		<offset>9</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S181.RIP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS181G/value</sourceURL>
+		<offset>1</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S181.CPBS">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS181F/value</sourceURL>
+		<offset>2</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S181.AOR">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS181E/value</sourceURL>
+		<offset>3</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S181.ASP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS181D/value</sourceURL>
+		<offset>4</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S181.RGP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS181C/value</sourceURL>
+		<offset>5</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S181.CGR">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS181B/value</sourceURL>
+		<offset>6</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S181.NGP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS181A/value</sourceURL>
+		<offset>7</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S183.AOR">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS183E/value</sourceURL>
+		<offset>11</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S183.ASP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS183D/value</sourceURL>
+		<offset>12</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S183.RGP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS183C/value</sourceURL>
+		<offset>13</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S183.NGP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS183A/value</sourceURL>
+		<offset>15</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S183.RIP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS183G/value</sourceURL>
+		<offset>9</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S262.RGP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS262C/value</sourceURL>
+		<offset>6</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S267.RGP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS267C/value</sourceURL>
+		<offset>5</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S270.RGP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS270C/value</sourceURL>
+		<offset>4</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S271.RGP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS271C/value</sourceURL>
+		<offset>3</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S282.RGP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS282C/value</sourceURL>
+		<offset>2</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S290.RGP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS290C/value</sourceURL>
+		<offset>1</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S315.RIP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS315G/value</sourceURL>
+		<offset>1</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S315.CPBS">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS315F/value</sourceURL>
+		<offset>2</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S315.AOR">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS315E/value</sourceURL>
+		<offset>3</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S315.ASP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS315D/value</sourceURL>
+		<offset>4</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S315.RGP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS315C/value</sourceURL>
+		<offset>5</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S315.CGR">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS315B/value</sourceURL>
+		<offset>6</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S315.NGP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS315A/value</sourceURL>
+		<offset>7</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S316.CPBS">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS316F/value</sourceURL>
+		<offset>10</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S316.AOR">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS316E/value</sourceURL>
+		<offset>11</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S316.ASP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS316D/value</sourceURL>
+		<offset>12</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S316.RGP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS316C/value</sourceURL>
+		<offset>13</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S316.CGR">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS316B/value</sourceURL>
+		<offset>14</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S316.NGP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS316A/value</sourceURL>
+		<offset>15</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S316.RIP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS316G/value</sourceURL>
+		<offset>9</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S317.RIP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS317G/value</sourceURL>
+		<offset>1</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S317.CPBS">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS317F/value</sourceURL>
+		<offset>2</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S317.AOR">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS317E/value</sourceURL>
+		<offset>3</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S317.ASP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS317D/value</sourceURL>
+		<offset>4</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S317.RGP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS317C/value</sourceURL>
+		<offset>5</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S317.CGR">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS317B/value</sourceURL>
+		<offset>6</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S317.NGP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS317A/value</sourceURL>
+		<offset>7</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S318.CPBS">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS318F/value</sourceURL>
+		<offset>10</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S318.AOR">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS318E/value</sourceURL>
+		<offset>11</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S318.ASP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS318D/value</sourceURL>
+		<offset>12</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S318.RGP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS318C/value</sourceURL>
+		<offset>13</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S318.CGR">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS318B/value</sourceURL>
+		<offset>14</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S318.NGP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS318A/value</sourceURL>
+		<offset>15</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S318.RIP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS318G/value</sourceURL>
+		<offset>9</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S331.RIP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS331G/value</sourceURL>
+		<offset>1</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S331.CPBS">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS331F/value</sourceURL>
+		<offset>2</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S331.AOR">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS331E/value</sourceURL>
+		<offset>3</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S331.ASP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS331D/value</sourceURL>
+		<offset>4</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S331.RGP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS331C/value</sourceURL>
+		<offset>5</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S331.CGR">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS331B/value</sourceURL>
+		<offset>6</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S331.NGP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS331A/value</sourceURL>
+		<offset>7</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S333.CPBS">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS333F/value</sourceURL>
+		<offset>10</offset>
+		<word>12</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S333.AOR">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS333E/value</sourceURL>
+		<offset>11</offset>
+		<word>12</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S333.ASP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS333D/value</sourceURL>
+		<offset>12</offset>
+		<word>12</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S333.RGP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS333C/value</sourceURL>
+		<offset>13</offset>
+		<word>12</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S333.CGR">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS333B/value</sourceURL>
+		<offset>14</offset>
+		<word>12</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S333.NGP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS333A/value</sourceURL>
+		<offset>15</offset>
+		<word>12</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S333.RIP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS333G/value</sourceURL>
+		<offset>9</offset>
+		<word>12</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S335.RIP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS335G/value</sourceURL>
+		<offset>1</offset>
+		<word>12</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S335.CPBS">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS335F/value</sourceURL>
+		<offset>2</offset>
+		<word>12</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S335.AOR">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS335E/value</sourceURL>
+		<offset>3</offset>
+		<word>12</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S335.ASP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS335D/value</sourceURL>
+		<offset>4</offset>
+		<word>12</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S335.RGP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS335C/value</sourceURL>
+		<offset>5</offset>
+		<word>12</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S335.CGR">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS335B/value</sourceURL>
+		<offset>6</offset>
+		<word>12</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S335.NGP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS335A/value</sourceURL>
+		<offset>7</offset>
+		<word>12</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S336.CPBS">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS336F/value</sourceURL>
+		<offset>10</offset>
+		<word>13</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S336.AOR">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS336E/value</sourceURL>
+		<offset>11</offset>
+		<word>13</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S336.ASP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS336D/value</sourceURL>
+		<offset>12</offset>
+		<word>13</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S336.RGP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS336C/value</sourceURL>
+		<offset>13</offset>
+		<word>13</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S336.CGR">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS336B/value</sourceURL>
+		<offset>14</offset>
+		<word>13</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S336.NGP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS336A/value</sourceURL>
+		<offset>15</offset>
+		<word>13</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S336.RIP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS336G/value</sourceURL>
+		<offset>9</offset>
+		<word>13</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S341.RIP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS341G/value</sourceURL>
+		<offset>1</offset>
+		<word>13</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S341.CPBS">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS341F/value</sourceURL>
+		<offset>2</offset>
+		<word>13</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S341.AOR">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS341E/value</sourceURL>
+		<offset>3</offset>
+		<word>13</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S341.ASP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS341D/value</sourceURL>
+		<offset>4</offset>
+		<word>13</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S341.RGP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS341C/value</sourceURL>
+		<offset>5</offset>
+		<word>13</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S341.CGR">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS341B/value</sourceURL>
+		<offset>6</offset>
+		<word>13</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S341.NGP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS341A/value</sourceURL>
+		<offset>7</offset>
+		<word>13</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S343.CPBS">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS343F/value</sourceURL>
+		<offset>10</offset>
+		<word>14</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S343.AOR">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS343E/value</sourceURL>
+		<offset>11</offset>
+		<word>14</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S343.ASP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS343D/value</sourceURL>
+		<offset>12</offset>
+		<word>14</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S343.RGP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS343C/value</sourceURL>
+		<offset>13</offset>
+		<word>14</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S343.CGR">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS343B/value</sourceURL>
+		<offset>14</offset>
+		<word>14</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S343.NGP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS343A/value</sourceURL>
+		<offset>15</offset>
+		<word>14</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S343.RIP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS343G/value</sourceURL>
+		<offset>9</offset>
+		<word>14</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S345.RIP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS345G/value</sourceURL>
+		<offset>1</offset>
+		<word>14</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S345.CPBS">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS345F/value</sourceURL>
+		<offset>2</offset>
+		<word>14</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S345.AOR">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS345E/value</sourceURL>
+		<offset>3</offset>
+		<word>14</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S345.ASP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS345D/value</sourceURL>
+		<offset>4</offset>
+		<word>14</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S345.RGP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS345C/value</sourceURL>
+		<offset>5</offset>
+		<word>14</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S345.CGR">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS345B/value</sourceURL>
+		<offset>6</offset>
+		<word>14</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S345.NGP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS345A/value</sourceURL>
+		<offset>7</offset>
+		<word>14</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S346.CPBS">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS346F/value</sourceURL>
+		<offset>10</offset>
+		<word>15</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S346.AOR">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS346E/value</sourceURL>
+		<offset>11</offset>
+		<word>15</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S346.ASP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS346D/value</sourceURL>
+		<offset>12</offset>
+		<word>15</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S346.RGP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS346C/value</sourceURL>
+		<offset>13</offset>
+		<word>15</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S346.CGR">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS346B/value</sourceURL>
+		<offset>14</offset>
+		<word>15</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S346.NGP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS346A/value</sourceURL>
+		<offset>15</offset>
+		<word>15</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S346.RIP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS346G/value</sourceURL>
+		<offset>9</offset>
+		<word>15</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S347.RIP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS347G/value</sourceURL>
+		<offset>1</offset>
+		<word>15</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S347.AOR">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS347E/value</sourceURL>
+		<offset>3</offset>
+		<word>15</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S347.ASP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS347D/value</sourceURL>
+		<offset>4</offset>
+		<word>15</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S347.RGP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS347C/value</sourceURL>
+		<offset>5</offset>
+		<word>15</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S347.NGP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS347A/value</sourceURL>
+		<offset>7</offset>
+		<word>15</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S463.RGP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS463B/value</sourceURL>
+		<offset>13</offset>
+		<word>16</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S463.NGP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS463A/value</sourceURL>
+		<offset>14</offset>
+		<word>16</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S466.RGP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS466B/value</sourceURL>
+		<offset>11</offset>
+		<word>16</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S466.NGP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS466A/value</sourceURL>
+		<offset>12</offset>
+		<word>16</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S575.RIP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS575G/value</sourceURL>
+		<offset>1</offset>
+		<word>16</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S575.CPBS">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS575F/value</sourceURL>
+		<offset>2</offset>
+		<word>16</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S575.AOR">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS575E/value</sourceURL>
+		<offset>3</offset>
+		<word>16</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S575.ASP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS575D/value</sourceURL>
+		<offset>4</offset>
+		<word>16</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S575.RGP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS575C/value</sourceURL>
+		<offset>5</offset>
+		<word>16</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S575.CGR">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS575B/value</sourceURL>
+		<offset>6</offset>
+		<word>16</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S575.NGP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS575A/value</sourceURL>
+		<offset>7</offset>
+		<word>16</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S576.CPBS">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS576F/value</sourceURL>
+		<offset>10</offset>
+		<word>17</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S576.AOR">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS576E/value</sourceURL>
+		<offset>11</offset>
+		<word>17</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S576.ASP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS576D/value</sourceURL>
+		<offset>12</offset>
+		<word>17</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S576.RGP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS576C/value</sourceURL>
+		<offset>13</offset>
+		<word>17</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S576.NGP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS576A/value</sourceURL>
+		<offset>15</offset>
+		<word>17</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S576.RIP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS576G/value</sourceURL>
+		<offset>9</offset>
+		<word>17</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S587.RIP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS587G/value</sourceURL>
+		<offset>1</offset>
+		<word>17</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S587.CPBS">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS587F/value</sourceURL>
+		<offset>2</offset>
+		<word>17</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S587.AOR">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS587E/value</sourceURL>
+		<offset>3</offset>
+		<word>17</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S587.ASP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS587D/value</sourceURL>
+		<offset>4</offset>
+		<word>17</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S587.RGP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS587C/value</sourceURL>
+		<offset>5</offset>
+		<word>17</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S587.CGR">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS587B/value</sourceURL>
+		<offset>6</offset>
+		<word>17</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S587.NGP">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMS587A/value</sourceURL>
+		<offset>7</offset>
+		<word>17</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T055.TPK">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMT055A/value</sourceURL>
+		<offset>15</offset>
+		<word>18</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T059.TPK">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMT059A/value</sourceURL>
+		<offset>14</offset>
+		<word>18</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T090.TPK">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMT090A/value</sourceURL>
+		<offset>12</offset>
+		<word>18</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T092.TPK">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMT092A/value</sourceURL>
+		<offset>13</offset>
+		<word>18</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T142.TPK">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMT142A/value</sourceURL>
+		<offset>11</offset>
+		<word>18</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T144.TPK">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMT144A/value</sourceURL>
+		<offset>10</offset>
+		<word>18</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T146.TPK">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMT146A/value</sourceURL>
+		<offset>9</offset>
+		<word>18</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T155.TPK">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMT155A/value</sourceURL>
+		<offset>8</offset>
+		<word>18</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T156.TPK">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMT156A/value</sourceURL>
+		<offset>7</offset>
+		<word>18</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T157.TPK">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMT157A/value</sourceURL>
+		<offset>6</offset>
+		<word>18</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T159.TPK">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMT159A/value</sourceURL>
+		<offset>5</offset>
+		<word>18</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T160.TPK">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMT160A/value</sourceURL>
+		<offset>4</offset>
+		<word>18</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T162.TPK">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMT162A/value</sourceURL>
+		<offset>3</offset>
+		<word>18</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T181.TPK">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMT181A/value</sourceURL>
+		<offset>2</offset>
+		<word>18</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T183.TPK">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMT183A/value</sourceURL>
+		<offset>1</offset>
+		<word>18</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T234.TPK">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMT234A/value</sourceURL>
+		<offset>0</offset>
+		<word>18</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T236.TPK">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMT236A/value</sourceURL>
+		<offset>15</offset>
+		<word>19</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T246.TPK">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMT246A/value</sourceURL>
+		<offset>14</offset>
+		<word>19</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T247.TPK">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMT247A/value</sourceURL>
+		<offset>13</offset>
+		<word>19</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T262.TPK">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMT262A/value</sourceURL>
+		<offset>12</offset>
+		<word>19</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T267.TPK">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMT267A/value</sourceURL>
+		<offset>11</offset>
+		<word>19</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T270.TPK">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMT270A/value</sourceURL>
+		<offset>10</offset>
+		<word>19</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T271.TPK">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMT271A/value</sourceURL>
+		<offset>9</offset>
+		<word>19</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T282.TPK">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMT282A/value</sourceURL>
+		<offset>8</offset>
+		<word>19</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T290.TPK">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMT290A/value</sourceURL>
+		<offset>7</offset>
+		<word>19</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T291.TPK">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMT291A/value</sourceURL>
+		<offset>6</offset>
+		<word>19</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T313.TPK">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMT313A/value</sourceURL>
+		<offset>5</offset>
+		<word>19</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T316.TPK">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMT316A/value</sourceURL>
+		<offset>4</offset>
+		<word>19</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T317.TPK">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMT317A/value</sourceURL>
+		<offset>3</offset>
+		<word>19</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T318.TPK">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMT318A/value</sourceURL>
+		<offset>2</offset>
+		<word>19</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T320.TPK">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMT320A/value</sourceURL>
+		<offset>1</offset>
+		<word>19</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T326.TPK">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMT326A/value</sourceURL>
+		<offset>0</offset>
+		<word>19</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T331.TPK">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMT331A/value</sourceURL>
+		<offset>15</offset>
+		<word>20</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T333.TPK">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMT333A/value</sourceURL>
+		<offset>14</offset>
+		<word>20</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T335.TPK">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMT335A/value</sourceURL>
+		<offset>13</offset>
+		<word>20</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T336.TPK">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMT336A/value</sourceURL>
+		<offset>12</offset>
+		<word>20</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T341.TPK">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMT341A/value</sourceURL>
+		<offset>11</offset>
+		<word>20</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T343.TPK">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMT343A/value</sourceURL>
+		<offset>10</offset>
+		<word>20</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T345.TPK">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMT345A/value</sourceURL>
+		<offset>9</offset>
+		<word>20</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T346.TPK">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMT346A/value</sourceURL>
+		<offset>8</offset>
+		<word>20</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T347.TPK">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMT347A/value</sourceURL>
+		<offset>7</offset>
+		<word>20</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T367.TPK">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMT367A/value</sourceURL>
+		<offset>6</offset>
+		<word>20</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T368.TPK">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMT368A/value</sourceURL>
+		<offset>5</offset>
+		<word>20</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T371.TPK">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMT371A/value</sourceURL>
+		<offset>4</offset>
+		<word>20</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T382.TPK">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMT382A/value</sourceURL>
+		<offset>3</offset>
+		<word>20</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T384.TPK">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMT384A/value</sourceURL>
+		<offset>2</offset>
+		<word>20</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T463.TPK">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMT463A/value</sourceURL>
+		<offset>1</offset>
+		<word>20</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T466.TPK">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMT466A/value</sourceURL>
+		<offset>0</offset>
+		<word>20</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T478.TPK">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMT478A/value</sourceURL>
+		<offset>15</offset>
+		<word>21</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T575.TPK">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMT575A/value</sourceURL>
+		<offset>14</offset>
+		<word>21</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T576.TPK">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMT576A/value</sourceURL>
+		<offset>13</offset>
+		<word>21</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T587.TPK">
+		<interlockingName>FSD</interlockingName>
+		<deviceName>config:/JzaSimulator#MAA</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/FSD/LIMT587A/value</sourceURL>
+		<offset>12</offset>
+		<word>21</word>
+	</SignallingIndication>
+</Configs>

@@ -1,0 +1,12 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xml="http://www.w3.org/XML/1998/namespace">
+	<xs:import namespace="http://www.w3.org/XML/1998/namespace"/>
+	<xs:element name="CheckSums">
+        <xs:element name="CheckSum"  minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+    		<xs:attribute name="FileName" use="required" type="xs:string" />
+    		<xs:attribute name="Value" use="required" type="xs:string" />
+			<xs:attribute name="Enable" type="xs:string" />
+		  </xs:complexType>
+        </xs:element>
+	</xs:element>
+</xs:schema>

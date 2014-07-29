@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="TrainGraph">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Timetable" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:attribute name="ConfigURL" type="xs:anyURL" use="required"/>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="ConfigurationFile" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:attribute name="Id" use="required">
+							<xs:simpleType>
+								<xs:restriction base="xs:string">
+									<xs:enumeration value="TimetableDataConfig"/>
+								</xs:restriction>
+							</xs:simpleType>
+						</xs:attribute>
+						<xs:attribute name="FileName" type="xs:string" use="required"/>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Logs" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Log" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="level" type="xs:byte" use="required"/>
+									<xs:attribute name="maxFileSizeMB" type="xs:byteg" use="required"/>
+									<xs:attribute name="maxBackupIndex" type="xs:string" use="required"/>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

@@ -1,0 +1,1577 @@
+Wed 02/Nov/2011 18:49:10.768 TrainController/4311 reading trip
+Wed 02/Nov/2011 18:49:10.768 TrainController/4311 train restarted. tdn 4311
+Wed 02/Nov/2011 18:49:10.769 TrainController/4311 creating train plan
+Wed 02/Nov/2011 18:49:10.772 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 18:49:10.772 TrainController/4311 head track FSB/T733 is on new platform FSS007
+Wed 02/Nov/2011 18:49:10.773 TrainController/4311 inPlatform: true
+Wed 02/Nov/2011 18:49:10.773 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 18:49:10.779 TrainController/4311 update train plan time
+Wed 02/Nov/2011 18:49:10.781 TrainController/4311 request Schedule
+Wed 02/Nov/2011 18:49:10.781 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 18:49:10.782 TrainController/4311 head track FSB/T733 is on new platform FSS007
+Wed 02/Nov/2011 18:49:10.785 TrainController/4311 inPlatform: true
+Wed 02/Nov/2011 18:49:10.785 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 18:49:11.495 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 18:49:11.496 TrainController/4311 head track FSB/T733 is on new platform FSS007
+Wed 02/Nov/2011 18:49:11.498 TrainController/4311 inPlatform: true
+Wed 02/Nov/2011 18:49:11.498 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 18:49:11.576 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:49:11.578 TrainController/4311 checking FSB/R736B
+Wed 02/Nov/2011 18:49:11.578 TrainController/4311 now starting FSB/R736B
+Wed 02/Nov/2011 18:49:11.580 TrainController2/4311/SignalController/FSB/R736B created
+Wed 02/Nov/2011 18:49:11.580 TrainController/4311 checking FSB/R694A
+Wed 02/Nov/2011 18:49:11.581 TrainController/4311 checking FSB/R696A
+Wed 02/Nov/2011 18:49:11.581 TrainController2/4311/SignalController/FSB/R736B successfully claimed
+Wed 02/Nov/2011 18:49:11.582 TrainController/4311 checking FSE/R698A-FSE/R782C-FSE/R786A
+Wed 02/Nov/2011 18:49:11.584 TrainController/4311 FSE/R698A-FSE/R782C-FSE/R786A not available
+Wed 02/Nov/2011 18:49:11.584 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:49:11.592 TrainController2/4311/SignalController/FSB/R736B RouteStateChange Event. RouteModel:FSB/R736B, oldState: Turning, newState: Locked
+Wed 02/Nov/2011 18:49:11.617 TrainController2/4311/SignalController/FSB/R736B RouteStateChange Event. RouteModel:FSB/R736B, oldState: Dormant, newState: Locked
+Wed 02/Nov/2011 18:49:12.620 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:49:12.636 TrainController/4311 checking FSE/R698A-FSE/R782C-FSE/R786A
+Wed 02/Nov/2011 18:49:12.652 TrainController/4311 FSE/R698A-FSE/R782C-FSE/R786A not available
+Wed 02/Nov/2011 18:49:12.652 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:49:12.918 TrainController2/4311/SignalController/FSB/R736B RouteStateChange Event. RouteModel:FSB/R736B, oldState: Locked, newState: Clear
+Wed 02/Nov/2011 18:49:12.919 TrainController2/4311/SignalController/FSB/R736B checking for next route...
+Wed 02/Nov/2011 18:49:12.919 TrainController2/4311/SignalController/FSB/R736B no more route. SignalController OK sent to Traincontroller
+Wed 02/Nov/2011 18:49:12.919 TrainController/4311  signal controller FSB/R736B ok
+Wed 02/Nov/2011 18:49:13.704 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:49:13.753 TrainController/4311 checking FSE/R698A-FSE/R782C-FSE/R786A
+Wed 02/Nov/2011 18:49:13.782 TrainController/4311 FSE/R698A-FSE/R782C-FSE/R786A not available
+Wed 02/Nov/2011 18:49:13.783 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:49:14.846 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:49:14.956 TrainController/4311 checking FSE/R698A-FSE/R782C-FSE/R786A
+Wed 02/Nov/2011 18:49:14.999 TrainController/4311 FSE/R698A-FSE/R782C-FSE/R786A not available
+Wed 02/Nov/2011 18:49:14.999 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:49:16.071 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:49:16.239 TrainController/4311 checking FSE/R698A-FSE/R782C-FSE/R786A
+Wed 02/Nov/2011 18:49:16.240 TrainController/4311 FSE/R698A-FSE/R782C-FSE/R786A not available
+Wed 02/Nov/2011 18:49:16.240 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:49:17.243 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:49:17.250 TrainController/4311 checking FSE/R698A-FSE/R782C-FSE/R786A
+Wed 02/Nov/2011 18:49:17.255 TrainController/4311 FSE/R698A-FSE/R782C-FSE/R786A not available
+Wed 02/Nov/2011 18:49:17.255 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:49:18.896 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:49:19.178 TrainController/4311 checking FSE/R698A-FSE/R782C-FSE/R786A
+Wed 02/Nov/2011 18:49:19.729 TrainController/4311 waiting 32 seconds  to start FSE/R698A-FSE/R782C-FSE/R786A
+Wed 02/Nov/2011 18:49:19.729 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:49:20.894 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:49:20.895 TrainController/4311 checking FSE/R698A-FSE/R782C-FSE/R786A
+Wed 02/Nov/2011 18:49:21.113 TrainController/4311 waiting 32 seconds  to start FSE/R698A-FSE/R782C-FSE/R786A
+Wed 02/Nov/2011 18:49:21.113 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:49:22.216 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:49:22.233 TrainController/4311 checking FSE/R698A-FSE/R782C-FSE/R786A
+Wed 02/Nov/2011 18:49:22.456 TrainController/4311 waiting 32 seconds  to start FSE/R698A-FSE/R782C-FSE/R786A
+Wed 02/Nov/2011 18:49:22.456 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:49:23.563 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:49:23.568 TrainController/4311 checking FSE/R698A-FSE/R782C-FSE/R786A
+Wed 02/Nov/2011 18:49:23.671 TrainController/4311 waiting 32 seconds  to start FSE/R698A-FSE/R782C-FSE/R786A
+Wed 02/Nov/2011 18:49:23.672 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:49:24.166 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 18:49:24.166 TrainController/4311 head track FSB/T733 is on new platform FSS007
+Wed 02/Nov/2011 18:49:24.355 TrainController/4311 inPlatform: true
+Wed 02/Nov/2011 18:49:24.563 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 18:49:24.729 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:49:24.769 TrainController/4311 checking FSE/R698A-FSE/R782C-FSE/R786A
+Wed 02/Nov/2011 18:49:24.769 TrainController/4311 waiting 32 seconds  to start FSE/R698A-FSE/R782C-FSE/R786A
+Wed 02/Nov/2011 18:49:24.770 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:49:25.936 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:49:26.019 TrainController/4311 checking FSE/R698A-FSE/R782C-FSE/R786A
+Wed 02/Nov/2011 18:49:26.252 TrainController/4311 waiting 32 seconds  to start FSE/R698A-FSE/R782C-FSE/R786A
+Wed 02/Nov/2011 18:49:26.252 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:49:26.255 TrainController2/4311/SignalController/FSB/R736B RouteStateChange Event. RouteModel:FSB/R736B, oldState: Clear, newState: TrainIn
+Wed 02/Nov/2011 18:49:26.330 TrainController2/4311/SignalController/FSB/R736B Clearing up
+Wed 02/Nov/2011 18:49:27.264 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:49:27.311 TrainController/4311 checking FSE/R698A-FSE/R782C-FSE/R786A
+Wed 02/Nov/2011 18:49:27.324 TrainController/4311 waiting 22 seconds  to start FSE/R698A-FSE/R782C-FSE/R786A
+Wed 02/Nov/2011 18:49:27.324 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:49:28.334 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:49:28.352 TrainController/4311 checking FSE/R698A-FSE/R782C-FSE/R786A
+Wed 02/Nov/2011 18:49:28.364 TrainController/4311 waiting 9 seconds  to start FSE/R698A-FSE/R782C-FSE/R786A
+Wed 02/Nov/2011 18:49:28.364 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:49:29.404 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:49:29.728 TrainController/4311 checking FSE/R698A-FSE/R782C-FSE/R786A
+Wed 02/Nov/2011 18:49:29.745 TrainController/4311 waiting 9 seconds  to start FSE/R698A-FSE/R782C-FSE/R786A
+Wed 02/Nov/2011 18:49:29.745 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:49:29.847 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 18:49:29.847 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 18:49:30.748 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:49:30.750 TrainController/4311 checking FSE/R698A-FSE/R782C-FSE/R786A
+Wed 02/Nov/2011 18:49:30.752 TrainController/4311 waiting 1 seconds  to start FSE/R698A-FSE/R782C-FSE/R786A
+Wed 02/Nov/2011 18:49:30.752 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:49:31.754 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:49:31.755 TrainController/4311 checking FSE/R698A-FSE/R782C-FSE/R786A
+Wed 02/Nov/2011 18:49:31.757 TrainController/4311 waiting 1 seconds  to start FSE/R698A-FSE/R782C-FSE/R786A
+Wed 02/Nov/2011 18:49:31.757 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:49:32.566 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 18:49:32.567 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 18:49:32.759 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:49:32.763 TrainController/4311 checking FSE/R698A-FSE/R782C-FSE/R786A
+Wed 02/Nov/2011 18:49:32.765 TrainController/4311 waiting 1 seconds  to start FSE/R698A-FSE/R782C-FSE/R786A
+Wed 02/Nov/2011 18:49:32.765 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:49:33.771 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:49:33.793 TrainController/4311 checking FSE/R698A-FSE/R782C-FSE/R786A
+Wed 02/Nov/2011 18:49:33.848 TrainController/4311 now starting FSE/R698A-FSE/R782C-FSE/R786A
+Wed 02/Nov/2011 18:49:34.045 TrainController2/4311/SignalController/FSE/R698A-FSE/R782C-FSE/R786A created
+Wed 02/Nov/2011 18:49:34.055 TrainController/4311 checking FSE/R674A
+Wed 02/Nov/2011 18:49:34.058 TrainController2/4311/SignalController/FSE/R698A-FSE/R782C-FSE/R786A successfully claimed
+Wed 02/Nov/2011 18:49:34.155 TrainController/4311 checking FSE/R676A
+Wed 02/Nov/2011 18:49:34.171 TrainController/4311 checking FSE/R678A
+Wed 02/Nov/2011 18:49:34.234 TrainController/4311 checking SYR/RF071A
+Wed 02/Nov/2011 18:49:34.306 TrainController/4311 checking SYR/RF081A
+Wed 02/Nov/2011 18:49:34.329 TrainController2/4311/SignalController/FSE/R698A-FSE/R782C-FSE/R786A RouteStateChange Event. RouteModel:FSE/R786A, oldState: Turning, newState: Locked
+Wed 02/Nov/2011 18:49:34.330 TrainController/4311 checking SYR/RF091A
+Wed 02/Nov/2011 18:49:34.366 TrainController/4311 checking SYR/RF099A
+Wed 02/Nov/2011 18:49:34.367 TrainController2/4311/SignalController/FSE/R698A-FSE/R782C-FSE/R786A RouteStateChange Event. RouteModel:FSE/R786A, oldState: Dormant, newState: Locked
+Wed 02/Nov/2011 18:49:34.368 TrainController/4311 checking SYR/RF107A
+Wed 02/Nov/2011 18:49:34.368 TrainController/4311 checking SYR/RF117A
+Wed 02/Nov/2011 18:49:34.370 TrainController/4311 checking SYR/RF131A
+Wed 02/Nov/2011 18:49:34.385 TrainController/4311 checking SYR/RF145A
+Wed 02/Nov/2011 18:49:34.397 TrainController/4311 checking SYR/RF153A
+Wed 02/Nov/2011 18:49:34.399 TrainController/4311 checking SYR/RF161A
+Wed 02/Nov/2011 18:49:34.399 TrainController/4311 checking SYR/RF171A
+Wed 02/Nov/2011 18:49:34.402 TrainController/4311 checking SYR/RF183A
+Wed 02/Nov/2011 18:49:34.402 TrainController/4311 checking SYR/RF191A
+Wed 02/Nov/2011 18:49:34.410 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:49:35.224 TrainController2/4311/SignalController/FSE/R698A-FSE/R782C-FSE/R786A RouteStateChange Event. RouteModel:FSE/R786A, oldState: Locked, newState: Clear
+Wed 02/Nov/2011 18:49:35.224 TrainController2/4311/SignalController/FSE/R698A-FSE/R782C-FSE/R786A checking for next route...
+Wed 02/Nov/2011 18:49:35.225 TrainController2/4311/SignalController/FSE/R698A-FSE/R782C-FSE/R786A new route: FSE/R782C
+Wed 02/Nov/2011 18:49:35.412 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:49:35.413 TrainController/4311 checking SYR/RF191A
+Wed 02/Nov/2011 18:49:35.413 TrainController/4311 checking SYR/RF201A
+Wed 02/Nov/2011 18:49:35.415 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:49:35.423 TrainController2/4311/SignalController/FSE/R698A-FSE/R782C-FSE/R786A RouteStateChange Event. RouteModel:FSE/R782C, oldState: Dormant, newState: Turning
+Wed 02/Nov/2011 18:49:35.611 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 18:49:35.611 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 18:49:36.561 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:49:36.612 TrainController/4311 checking SYR/RF201A
+Wed 02/Nov/2011 18:49:36.613 TrainController/4311 checking SYR/RF213A
+Wed 02/Nov/2011 18:49:36.742 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:49:37.825 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:49:38.115 TrainController/4311 checking SYR/RF213A
+Wed 02/Nov/2011 18:49:38.419 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:49:38.854 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 18:49:38.854 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 18:49:39.546 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:49:39.559 TrainController/4311 checking SYR/RF213A
+Wed 02/Nov/2011 18:49:39.564 TrainController/4311 checking SYR/RF225A
+Wed 02/Nov/2011 18:49:39.568 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:49:40.639 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:49:40.714 TrainController/4311 checking SYR/RF225A
+Wed 02/Nov/2011 18:49:40.738 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:49:41.284 TrainController2/4311/SignalController/FSE/R698A-FSE/R782C-FSE/R786A RouteStateChange Event. RouteModel:FSE/R782C, oldState: Turning, newState: Locked
+Wed 02/Nov/2011 18:49:41.762 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:49:41.793 TrainController/4311 checking SYR/RF225A
+Wed 02/Nov/2011 18:49:41.799 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:49:41.869 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 18:49:41.869 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 18:49:42.833 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:49:43.044 TrainController/4311 checking SYR/RF225A
+Wed 02/Nov/2011 18:49:43.048 TrainController2/4311/SignalController/FSE/R698A-FSE/R782C-FSE/R786A RouteStateChange Event. RouteModel:FSE/R782C, oldState: Locked, newState: Clear
+Wed 02/Nov/2011 18:49:43.048 TrainController2/4311/SignalController/FSE/R698A-FSE/R782C-FSE/R786A checking for next route...
+Wed 02/Nov/2011 18:49:43.048 TrainController2/4311/SignalController/FSE/R698A-FSE/R782C-FSE/R786A new route: FSE/R698A
+Wed 02/Nov/2011 18:49:43.144 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:49:43.630 TrainController2/4311/SignalController/FSE/R698A-FSE/R782C-FSE/R786A RouteStateChange Event. RouteModel:FSE/R698A, oldState: Turning, newState: Locked
+Wed 02/Nov/2011 18:49:43.708 TrainController2/4311/SignalController/FSE/R698A-FSE/R782C-FSE/R786A RouteStateChange Event. RouteModel:FSE/R698A, oldState: Dormant, newState: Locked
+Wed 02/Nov/2011 18:49:43.962 TrainController2/4311/SignalController/FSE/R698A-FSE/R782C-FSE/R786A RouteStateChange Event. RouteModel:FSE/R698A, oldState: Locked, newState: Clear
+Wed 02/Nov/2011 18:49:43.963 TrainController2/4311/SignalController/FSE/R698A-FSE/R782C-FSE/R786A checking for next route...
+Wed 02/Nov/2011 18:49:43.978 TrainController2/4311/SignalController/FSE/R698A-FSE/R782C-FSE/R786A no more route. SignalController OK sent to Traincontroller
+Wed 02/Nov/2011 18:49:43.984 TrainController/4311  signal controller FSE/R698A-FSE/R782C-FSE/R786A ok
+Wed 02/Nov/2011 18:49:44.258 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:49:44.306 TrainController/4311 checking SYR/RF225A
+Wed 02/Nov/2011 18:49:44.314 TrainController/4311 checking SYR/RF237A
+Wed 02/Nov/2011 18:49:44.332 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:49:44.520 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 18:49:44.520 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 18:49:45.138 TrainController2/4311/SignalController/FSE/R698A-FSE/R782C-FSE/R786A RouteStateChange Event. RouteModel:FSE/R698A, oldState: Clear, newState: TrainIn
+Wed 02/Nov/2011 18:49:45.401 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:49:45.431 TrainController/4311 checking SYR/RF237A
+Wed 02/Nov/2011 18:49:45.438 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:49:46.465 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:49:46.477 TrainController/4311 checking SYR/RF237A
+Wed 02/Nov/2011 18:49:46.487 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:49:47.487 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:49:47.489 TrainController/4311 checking SYR/RF237A
+Wed 02/Nov/2011 18:49:47.489 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:49:48.581 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:49:48.650 TrainController/4311 checking SYR/RF237A
+Wed 02/Nov/2011 18:49:48.677 TrainController/4311 checking SYR/RF249A
+Wed 02/Nov/2011 18:49:48.723 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:49:50.037 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:49:50.222 TrainController/4311 checking SYR/RF249A
+Wed 02/Nov/2011 18:49:50.571 TrainController/4311 checking SYR/RF259A
+Wed 02/Nov/2011 18:49:50.590 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:49:50.596 TrainController2/4311/SignalController/FSE/R698A-FSE/R782C-FSE/R786A RouteStateChange Event. RouteModel:FSE/R782C, oldState: Clear, newState: TrainIn
+Wed 02/Nov/2011 18:49:50.697 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 18:49:50.697 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 18:49:51.618 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:49:51.693 TrainController/4311 checking SYR/RF259A
+Wed 02/Nov/2011 18:49:51.799 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:49:52.642 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 18:49:52.642 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 18:49:52.821 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:49:52.827 TrainController/4311 checking SYR/RF259A
+Wed 02/Nov/2011 18:49:52.827 TrainController/4311 checking SYR/RF271A
+Wed 02/Nov/2011 18:49:52.874 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:49:53.277 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 18:49:53.278 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 18:49:53.875 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:49:53.876 TrainController/4311 checking SYR/RF271A
+Wed 02/Nov/2011 18:49:53.877 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:49:54.953 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:49:55.002 TrainController/4311 checking SYR/RF271A
+Wed 02/Nov/2011 18:49:55.046 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:49:55.773 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 18:49:55.773 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 18:49:56.063 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:49:56.110 TrainController/4311 checking SYR/RF271A
+Wed 02/Nov/2011 18:49:56.111 TrainController/4311 checking SYR/RF285A
+Wed 02/Nov/2011 18:49:56.151 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:49:56.459 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 18:49:56.460 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 18:49:57.153 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:49:57.156 TrainController/4311 checking SYR/RF285A
+Wed 02/Nov/2011 18:49:57.156 TrainController/4311 checking SYR/RF295A
+Wed 02/Nov/2011 18:49:57.159 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:49:57.278 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 18:49:57.278 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 18:49:58.251 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:49:58.467 TrainController/4311 checking SYR/RF295A
+Wed 02/Nov/2011 18:49:58.594 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:49:59.441 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 18:49:59.441 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 18:49:59.595 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:49:59.617 TrainController/4311 checking SYR/RF295A
+Wed 02/Nov/2011 18:49:59.630 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:49:59.632 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:50:00.633 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:50:00.634 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:50:00.634 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:50:01.606 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 18:50:01.606 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 18:50:01.635 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:50:01.650 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:50:01.692 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:50:02.756 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:50:02.938 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:50:03.016 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:50:04.020 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:50:04.023 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:50:04.024 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:50:05.082 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:50:05.097 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 18:50:05.097 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 18:50:05.112 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:50:05.159 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:50:06.281 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:50:06.354 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:50:06.518 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:50:06.585 TrainController2/4311/SignalController/FSE/R698A-FSE/R782C-FSE/R786A RouteStateChange Event. RouteModel:FSE/R786A, oldState: Clear, newState: TrainIn
+Wed 02/Nov/2011 18:50:06.596 TrainController2/4311/SignalController/FSE/R698A-FSE/R782C-FSE/R786A Clearing up
+Wed 02/Nov/2011 18:50:07.478 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 18:50:07.478 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 18:50:07.666 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:50:07.704 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:50:07.704 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:50:08.709 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:50:08.710 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:50:08.710 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:50:09.548 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 18:50:09.548 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 18:50:09.726 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:50:09.772 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:50:09.825 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:50:10.828 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:50:10.830 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:50:10.830 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:50:11.852 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:50:11.857 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:50:11.861 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:50:11.864 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 18:50:11.865 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 18:50:11.874 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 18:50:11.874 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 18:50:12.896 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:50:12.942 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:50:12.944 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:50:13.899 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 18:50:13.899 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 18:50:14.086 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:50:14.095 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:50:14.100 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:50:15.079 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 18:50:15.079 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 18:50:15.101 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:50:15.113 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:50:15.245 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:50:16.193 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 18:50:16.193 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 18:50:16.246 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:50:16.247 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:50:16.247 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:50:17.248 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:50:17.249 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:50:17.249 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:50:18.295 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:50:18.359 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:50:18.390 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:50:18.790 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 18:50:18.870 TrainController/4311 head track FSE/T678 is on new platform RMD004
+Wed 02/Nov/2011 18:50:18.950 TrainController/4311 inPlatform: false
+Wed 02/Nov/2011 18:50:18.950 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 18:50:19.411 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:50:19.493 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:50:20.216 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:50:21.528 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:50:21.540 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:50:21.549 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:50:21.826 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 18:50:21.826 TrainController/4311 head track FSE/T678 is on new platform RMD004
+Wed 02/Nov/2011 18:50:21.827 TrainController/4311 inPlatform: false
+Wed 02/Nov/2011 18:50:21.828 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 18:50:22.593 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:50:22.602 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:50:22.618 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:50:23.293 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 18:50:23.293 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 18:50:23.620 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:50:23.624 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:50:23.625 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:50:24.639 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:50:24.642 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:50:24.647 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:50:25.651 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:50:25.654 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:50:25.657 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:50:26.659 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:50:26.662 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:50:26.662 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:50:26.702 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 18:50:26.702 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 18:50:27.663 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:50:27.664 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:50:27.664 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:50:27.993 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 18:50:27.993 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 18:50:28.721 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:50:28.728 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:50:29.051 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:50:30.053 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:50:30.054 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:50:30.054 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:50:30.497 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 18:50:30.497 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 18:50:31.055 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:50:31.057 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:50:31.059 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:50:32.067 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:50:32.075 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:50:32.079 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:50:32.367 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 18:50:32.368 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 18:50:33.082 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:50:33.083 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:50:33.246 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:50:34.124 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 18:50:34.125 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 18:50:34.246 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:50:34.248 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:50:34.248 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:50:35.249 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:50:35.250 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:50:35.251 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:50:36.251 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:50:36.253 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:50:36.253 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:50:36.281 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 18:50:36.281 TrainController/4311 head track SYR/TF117 is on new platform SYR004
+Wed 02/Nov/2011 18:50:36.282 TrainController/4311 inPlatform: true
+Wed 02/Nov/2011 18:50:36.282 TrainController/4311 dwell time: 0
+Wed 02/Nov/2011 18:50:36.282 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 18:50:37.271 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:50:37.442 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:50:37.453 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:50:38.485 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:50:38.498 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:50:38.508 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:50:38.611 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 18:50:38.612 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 18:50:39.512 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:50:39.512 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:50:39.518 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:50:40.565 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:50:40.614 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:50:40.650 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:50:40.878 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 18:50:40.878 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 18:50:41.660 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:50:41.672 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:50:41.711 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:50:42.674 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 18:50:42.674 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 18:50:42.725 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:50:42.768 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:50:42.769 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:50:43.774 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:50:43.776 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:50:43.779 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:50:44.785 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:50:44.786 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:50:44.787 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:50:45.133 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 18:50:45.134 TrainController/4311 head track SYR/TF161 is on new platform HKN002
+Wed 02/Nov/2011 18:50:45.135 TrainController/4311 inPlatform: true
+Wed 02/Nov/2011 18:50:45.135 TrainController/4311 dwell time: 0
+Wed 02/Nov/2011 18:50:45.136 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 18:50:45.788 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:50:45.789 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:50:45.789 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:50:46.793 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:50:46.794 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:50:46.796 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:50:47.242 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 18:50:47.243 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 18:50:47.798 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:50:47.904 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:50:47.913 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:50:48.524 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 18:50:48.524 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 18:50:48.984 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:50:49.044 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:50:49.044 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:50:50.342 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:50:51.397 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:50:51.593 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:50:52.256 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 18:50:52.256 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 18:50:52.596 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:50:52.597 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:50:52.599 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:50:53.483 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 18:50:53.483 TrainController/4311 head track SYR/TF201 is on new platform TOR002
+Wed 02/Nov/2011 18:50:53.484 TrainController/4311 inPlatform: true
+Wed 02/Nov/2011 18:50:53.484 TrainController/4311 dwell time: 0
+Wed 02/Nov/2011 18:50:53.486 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 18:50:53.600 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:50:53.603 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:50:53.603 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:50:54.605 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:50:54.608 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:50:54.608 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:50:55.610 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:50:55.646 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:50:55.672 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:50:56.674 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:50:56.677 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:50:56.681 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:50:57.191 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 18:50:57.192 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 18:50:57.682 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:50:57.684 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:50:57.685 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:50:58.262 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 18:50:58.262 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 18:50:58.880 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:50:58.896 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:50:59.596 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:51:00.756 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:51:00.764 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:51:00.772 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:51:01.835 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:51:02.077 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:51:02.096 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:51:02.620 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 18:51:02.620 TrainController/4311 head track SYR/TF231 is on new platform ARM002
+Wed 02/Nov/2011 18:51:02.789 TrainController/4311 inPlatform: true
+Wed 02/Nov/2011 18:51:02.803 TrainController/4311 dwell time: 0
+Wed 02/Nov/2011 18:51:02.803 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 18:51:03.233 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:51:03.264 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:51:03.452 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:51:04.150 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 18:51:04.154 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 18:51:04.435 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 18:51:04.435 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 18:51:04.466 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:51:04.498 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:51:04.516 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:51:05.649 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:51:05.675 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:51:05.734 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:51:06.176 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 18:51:06.177 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 18:51:06.317 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 18:51:06.317 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 18:51:06.786 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:51:06.903 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:51:07.032 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:51:07.105 TrainController/4311 reading trip
+Wed 02/Nov/2011 18:51:07.706 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 18:51:07.706 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 18:51:08.086 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:51:08.087 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:51:08.102 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:51:09.139 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:51:09.326 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:51:09.341 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:51:10.461 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:51:10.478 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:51:10.491 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:51:10.503 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 18:51:10.504 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 18:51:10.977 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 18:51:10.977 TrainController/4311 head track SYR/TF271 is on new platform MAL002
+Wed 02/Nov/2011 18:51:10.979 TrainController/4311 inPlatform: true
+Wed 02/Nov/2011 18:51:10.982 TrainController/4311 dwell time: 0
+Wed 02/Nov/2011 18:51:10.983 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 18:51:11.618 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:51:11.660 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:51:11.724 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:51:12.953 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:51:12.980 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:51:13.032 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:51:13.877 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 18:51:13.877 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 18:51:14.144 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:51:14.163 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:51:14.388 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:51:15.389 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:51:15.401 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:51:15.418 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:51:15.787 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 18:51:15.787 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 18:51:16.420 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:51:16.421 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:51:16.423 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:51:17.715 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:51:17.730 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:51:17.745 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:51:18.422 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 18:51:18.422 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 18:51:18.747 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:51:18.748 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:51:18.752 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:51:19.752 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:51:19.792 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:51:19.829 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:51:20.830 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:51:20.848 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:51:20.848 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:51:22.018 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:51:22.185 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:51:22.345 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:51:23.348 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:51:23.354 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:51:23.355 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:51:24.645 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:51:24.660 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:51:24.687 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:51:25.736 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:51:25.846 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:51:25.980 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:51:27.071 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:51:27.082 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:51:27.146 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:51:28.147 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:51:28.149 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:51:28.150 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:51:29.151 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:51:29.151 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:51:29.172 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:51:30.235 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:51:30.247 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:51:30.265 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:51:31.268 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:51:31.269 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:51:31.270 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:51:32.275 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:51:32.289 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:51:32.331 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:51:33.333 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:51:33.344 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:51:33.368 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:51:34.444 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:51:34.615 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:51:34.622 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:51:35.624 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:51:35.626 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:51:35.628 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:51:36.807 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:51:36.814 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:51:36.822 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:51:37.901 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:51:37.919 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:51:38.071 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:51:39.163 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:51:39.168 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:51:39.169 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:51:40.263 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:51:40.283 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:51:40.290 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:51:41.361 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:51:41.370 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:51:41.376 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:51:42.380 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:51:42.381 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:51:42.386 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:51:43.389 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:51:43.390 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:51:43.390 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:51:44.419 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:51:44.443 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:51:44.513 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:51:45.532 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:51:45.558 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:51:45.565 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:51:46.566 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:51:46.568 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:51:46.569 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:51:47.576 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:51:47.614 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:51:47.632 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:51:48.634 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:51:48.636 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:51:48.637 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:51:49.809 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:51:49.961 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:51:50.217 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:51:51.219 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:51:51.222 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:51:51.223 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:51:52.651 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:51:52.689 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:51:52.855 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:51:53.924 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:51:53.936 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:51:53.948 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:51:54.951 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:51:54.954 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:51:54.957 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:51:55.959 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:51:55.961 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:51:55.961 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:51:57.110 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:51:57.244 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:51:57.289 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:51:58.294 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:51:58.300 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:51:58.300 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:51:59.662 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:52:00.004 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:52:00.244 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:52:01.337 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:52:01.350 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:52:01.415 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:52:02.416 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:52:02.416 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:52:02.417 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:52:03.417 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:52:03.418 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:52:03.418 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:52:04.484 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:52:04.516 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:52:04.557 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:52:05.648 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:52:05.817 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:52:05.826 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:52:06.889 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:52:07.187 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:52:07.354 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:52:08.356 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:52:08.358 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:52:08.360 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:52:09.362 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:52:09.363 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:52:09.375 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:52:10.390 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:52:10.399 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:52:10.406 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:52:11.575 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:52:11.583 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:52:11.593 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:52:12.594 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:52:12.597 TrainController/4311 checking SYR/RF307A
+Wed 02/Nov/2011 18:52:12.597 TrainController/4311 checking CFD/R742A-CFD/R744D
+Wed 02/Nov/2011 18:52:12.597 TrainController/4311 CFD/R742A-CFD/R744D not available
+Wed 02/Nov/2011 18:52:12.598 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:52:13.723 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:52:13.732 TrainController/4311 checking CFD/R742A-CFD/R744D
+Wed 02/Nov/2011 18:52:13.732 TrainController/4311 CFD/R742A-CFD/R744D not available
+Wed 02/Nov/2011 18:52:13.732 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:52:14.734 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:52:14.734 TrainController/4311 checking CFD/R742A-CFD/R744D
+Wed 02/Nov/2011 18:52:14.734 TrainController/4311 CFD/R742A-CFD/R744D not available
+Wed 02/Nov/2011 18:52:14.735 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:52:15.747 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:52:15.780 TrainController/4311 checking CFD/R742A-CFD/R744D
+Wed 02/Nov/2011 18:52:15.833 TrainController/4311 CFD/R742A-CFD/R744D not available
+Wed 02/Nov/2011 18:52:15.833 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:52:16.581 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 18:52:16.582 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 18:52:16.887 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:52:16.932 TrainController/4311 checking CFD/R742A-CFD/R744D
+Wed 02/Nov/2011 18:52:16.954 TrainController/4311 CFD/R742A-CFD/R744D not available
+Wed 02/Nov/2011 18:52:16.954 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:52:17.973 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:52:17.993 TrainController/4311 checking CFD/R742A-CFD/R744D
+Wed 02/Nov/2011 18:52:18.008 TrainController/4311 CFD/R742A-CFD/R744D not available
+Wed 02/Nov/2011 18:52:18.008 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:52:18.401 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 18:52:18.401 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 18:52:19.014 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:52:19.014 TrainController/4311 checking CFD/R742A-CFD/R744D
+Wed 02/Nov/2011 18:52:19.015 TrainController/4311 CFD/R742A-CFD/R744D not available
+Wed 02/Nov/2011 18:52:19.015 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:52:20.079 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:52:20.090 TrainController/4311 checking CFD/R742A-CFD/R744D
+Wed 02/Nov/2011 18:52:20.150 TrainController/4311 CFD/R742A-CFD/R744D not available
+Wed 02/Nov/2011 18:52:20.150 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:52:21.190 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:52:21.200 TrainController/4311 checking CFD/R742A-CFD/R744D
+Wed 02/Nov/2011 18:52:21.258 TrainController/4311 CFD/R742A-CFD/R744D not available
+Wed 02/Nov/2011 18:52:21.258 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:52:21.673 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 18:52:21.673 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 18:52:22.269 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:52:22.270 TrainController/4311 checking CFD/R742A-CFD/R744D
+Wed 02/Nov/2011 18:52:22.270 TrainController/4311 CFD/R742A-CFD/R744D not available
+Wed 02/Nov/2011 18:52:22.274 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:52:23.532 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:52:23.742 TrainController/4311 checking CFD/R742A-CFD/R744D
+Wed 02/Nov/2011 18:52:23.864 TrainController/4311 CFD/R742A-CFD/R744D not available
+Wed 02/Nov/2011 18:52:23.864 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:52:24.957 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:52:24.974 TrainController/4311 checking CFD/R742A-CFD/R744D
+Wed 02/Nov/2011 18:52:24.975 TrainController/4311 CFD/R742A-CFD/R744D not available
+Wed 02/Nov/2011 18:52:25.036 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:52:26.046 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:52:26.046 TrainController/4311 checking CFD/R742A-CFD/R744D
+Wed 02/Nov/2011 18:52:26.047 TrainController/4311 CFD/R742A-CFD/R744D not available
+Wed 02/Nov/2011 18:52:26.047 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:52:27.048 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:52:27.050 TrainController/4311 checking CFD/R742A-CFD/R744D
+Wed 02/Nov/2011 18:52:27.050 TrainController/4311 CFD/R742A-CFD/R744D not available
+Wed 02/Nov/2011 18:52:27.050 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:52:28.052 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:52:28.053 TrainController/4311 checking CFD/R742A-CFD/R744D
+Wed 02/Nov/2011 18:52:28.053 TrainController/4311 CFD/R742A-CFD/R744D not available
+Wed 02/Nov/2011 18:52:28.054 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:52:29.054 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:52:29.056 TrainController/4311 checking CFD/R742A-CFD/R744D
+Wed 02/Nov/2011 18:52:29.056 TrainController/4311 CFD/R742A-CFD/R744D not available
+Wed 02/Nov/2011 18:52:29.056 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:52:30.214 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:52:30.215 TrainController/4311 checking CFD/R742A-CFD/R744D
+Wed 02/Nov/2011 18:52:30.292 TrainController/4311 CFD/R742A-CFD/R744D not available
+Wed 02/Nov/2011 18:52:30.292 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:52:31.327 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:52:31.328 TrainController/4311 checking CFD/R742A-CFD/R744D
+Wed 02/Nov/2011 18:52:31.513 TrainController/4311 CFD/R742A-CFD/R744D not available
+Wed 02/Nov/2011 18:52:31.513 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:52:32.517 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:52:32.518 TrainController/4311 checking CFD/R742A-CFD/R744D
+Wed 02/Nov/2011 18:52:32.522 TrainController/4311 CFD/R742A-CFD/R744D not available
+Wed 02/Nov/2011 18:52:32.522 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:52:33.524 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:52:33.526 TrainController/4311 checking CFD/R742A-CFD/R744D
+Wed 02/Nov/2011 18:52:33.527 TrainController/4311 CFD/R742A-CFD/R744D not available
+Wed 02/Nov/2011 18:52:33.527 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:52:34.530 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:52:34.531 TrainController/4311 checking CFD/R742A-CFD/R744D
+Wed 02/Nov/2011 18:52:34.532 TrainController/4311 CFD/R742A-CFD/R744D not available
+Wed 02/Nov/2011 18:52:34.532 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:52:35.534 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:52:35.535 TrainController/4311 checking CFD/R742A-CFD/R744D
+Wed 02/Nov/2011 18:52:35.536 TrainController/4311 CFD/R742A-CFD/R744D not available
+Wed 02/Nov/2011 18:52:35.536 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:52:36.539 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:52:36.540 TrainController/4311 checking CFD/R742A-CFD/R744D
+Wed 02/Nov/2011 18:52:36.540 TrainController/4311 CFD/R742A-CFD/R744D not available
+Wed 02/Nov/2011 18:52:36.540 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:52:37.542 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:52:37.543 TrainController/4311 checking CFD/R742A-CFD/R744D
+Wed 02/Nov/2011 18:52:37.546 TrainController/4311 CFD/R742A-CFD/R744D not available
+Wed 02/Nov/2011 18:52:37.546 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:52:38.579 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:52:38.625 TrainController/4311 checking CFD/R742A-CFD/R744D
+Wed 02/Nov/2011 18:52:38.679 TrainController/4311 CFD/R742A-CFD/R744D not available
+Wed 02/Nov/2011 18:52:38.679 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:52:39.743 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:52:39.857 TrainController/4311 checking CFD/R742A-CFD/R744D
+Wed 02/Nov/2011 18:52:39.863 TrainController/4311 CFD/R742A-CFD/R744D not available
+Wed 02/Nov/2011 18:52:39.863 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:52:40.874 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:52:40.876 TrainController/4311 checking CFD/R742A-CFD/R744D
+Wed 02/Nov/2011 18:52:40.877 TrainController/4311 CFD/R742A-CFD/R744D not available
+Wed 02/Nov/2011 18:52:40.877 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:52:41.879 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:52:41.885 TrainController/4311 checking CFD/R742A-CFD/R744D
+Wed 02/Nov/2011 18:52:41.885 TrainController/4311 CFD/R742A-CFD/R744D not available
+Wed 02/Nov/2011 18:52:41.890 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:52:42.896 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:52:42.897 TrainController/4311 checking CFD/R742A-CFD/R744D
+Wed 02/Nov/2011 18:52:42.897 TrainController/4311 CFD/R742A-CFD/R744D not available
+Wed 02/Nov/2011 18:52:42.898 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:52:43.900 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:52:43.901 TrainController/4311 checking CFD/R742A-CFD/R744D
+Wed 02/Nov/2011 18:52:43.901 TrainController/4311 CFD/R742A-CFD/R744D not available
+Wed 02/Nov/2011 18:52:43.901 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:52:44.935 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:52:44.950 TrainController/4311 checking CFD/R742A-CFD/R744D
+Wed 02/Nov/2011 18:52:44.959 TrainController/4311 CFD/R742A-CFD/R744D not available
+Wed 02/Nov/2011 18:52:44.959 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:52:45.966 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:52:45.970 TrainController/4311 checking CFD/R742A-CFD/R744D
+Wed 02/Nov/2011 18:52:45.982 TrainController/4311 CFD/R742A-CFD/R744D not available
+Wed 02/Nov/2011 18:52:45.982 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:52:47.030 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:52:47.031 TrainController/4311 checking CFD/R742A-CFD/R744D
+Wed 02/Nov/2011 18:52:47.134 TrainController/4311 CFD/R742A-CFD/R744D not available
+Wed 02/Nov/2011 18:52:47.134 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:52:48.141 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:52:48.141 TrainController/4311 checking CFD/R742A-CFD/R744D
+Wed 02/Nov/2011 18:52:48.142 TrainController/4311 CFD/R742A-CFD/R744D not available
+Wed 02/Nov/2011 18:52:48.142 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:52:49.143 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:52:49.144 TrainController/4311 checking CFD/R742A-CFD/R744D
+Wed 02/Nov/2011 18:52:49.145 TrainController/4311 CFD/R742A-CFD/R744D not available
+Wed 02/Nov/2011 18:52:49.145 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:52:50.147 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:52:50.147 TrainController/4311 checking CFD/R742A-CFD/R744D
+Wed 02/Nov/2011 18:52:50.147 TrainController/4311 CFD/R742A-CFD/R744D not available
+Wed 02/Nov/2011 18:52:50.148 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:52:51.149 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:52:51.150 TrainController/4311 checking CFD/R742A-CFD/R744D
+Wed 02/Nov/2011 18:52:51.150 TrainController/4311 CFD/R742A-CFD/R744D not available
+Wed 02/Nov/2011 18:52:51.180 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:52:52.182 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:52:52.183 TrainController/4311 checking CFD/R742A-CFD/R744D
+Wed 02/Nov/2011 18:52:52.183 TrainController/4311 CFD/R742A-CFD/R744D not available
+Wed 02/Nov/2011 18:52:52.183 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:52:53.185 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:52:53.186 TrainController/4311 checking CFD/R742A-CFD/R744D
+Wed 02/Nov/2011 18:52:53.186 TrainController/4311 CFD/R742A-CFD/R744D not available
+Wed 02/Nov/2011 18:52:53.186 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:52:54.415 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:52:54.552 TrainController/4311 checking CFD/R742A-CFD/R744D
+Wed 02/Nov/2011 18:52:54.552 TrainController/4311 CFD/R742A-CFD/R744D not available
+Wed 02/Nov/2011 18:52:54.554 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:52:55.557 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:52:55.558 TrainController/4311 checking CFD/R742A-CFD/R744D
+Wed 02/Nov/2011 18:52:55.558 TrainController/4311 CFD/R742A-CFD/R744D not available
+Wed 02/Nov/2011 18:52:55.559 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:52:56.626 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:52:56.721 TrainController/4311 checking CFD/R742A-CFD/R744D
+Wed 02/Nov/2011 18:52:56.825 TrainController/4311 CFD/R742A-CFD/R744D not available
+Wed 02/Nov/2011 18:52:56.825 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:52:57.828 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:52:57.830 TrainController/4311 checking CFD/R742A-CFD/R744D
+Wed 02/Nov/2011 18:52:57.831 TrainController/4311 CFD/R742A-CFD/R744D not available
+Wed 02/Nov/2011 18:52:57.831 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:52:58.833 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:52:58.834 TrainController/4311 checking CFD/R742A-CFD/R744D
+Wed 02/Nov/2011 18:52:58.834 TrainController/4311 CFD/R742A-CFD/R744D not available
+Wed 02/Nov/2011 18:52:58.834 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:52:59.837 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:52:59.839 TrainController/4311 checking CFD/R742A-CFD/R744D
+Wed 02/Nov/2011 18:52:59.842 TrainController/4311 CFD/R742A-CFD/R744D not available
+Wed 02/Nov/2011 18:52:59.842 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:53:00.845 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:53:00.847 TrainController/4311 checking CFD/R742A-CFD/R744D
+Wed 02/Nov/2011 18:53:00.847 TrainController/4311 CFD/R742A-CFD/R744D not available
+Wed 02/Nov/2011 18:53:00.847 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:53:01.859 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:53:01.895 TrainController/4311 checking CFD/R742A-CFD/R744D
+Wed 02/Nov/2011 18:53:02.083 TrainController/4311 CFD/R742A-CFD/R744D not available
+Wed 02/Nov/2011 18:53:02.083 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:53:03.085 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:53:03.088 TrainController/4311 checking CFD/R742A-CFD/R744D
+Wed 02/Nov/2011 18:53:03.089 TrainController/4311 CFD/R742A-CFD/R744D not available
+Wed 02/Nov/2011 18:53:03.089 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:53:04.194 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:53:04.205 TrainController/4311 checking CFD/R742A-CFD/R744D
+Wed 02/Nov/2011 18:53:04.286 TrainController/4311 CFD/R742A-CFD/R744D not available
+Wed 02/Nov/2011 18:53:04.287 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:53:05.593 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:53:05.815 TrainController/4311 checking CFD/R742A-CFD/R744D
+Wed 02/Nov/2011 18:53:05.815 TrainController/4311 CFD/R742A-CFD/R744D not available
+Wed 02/Nov/2011 18:53:05.877 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:53:07.111 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:53:07.127 TrainController/4311 checking CFD/R742A-CFD/R744D
+Wed 02/Nov/2011 18:53:07.127 TrainController/4311 CFD/R742A-CFD/R744D not available
+Wed 02/Nov/2011 18:53:07.134 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:53:08.147 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:53:08.148 TrainController/4311 checking CFD/R742A-CFD/R744D
+Wed 02/Nov/2011 18:53:08.148 TrainController/4311 CFD/R742A-CFD/R744D not available
+Wed 02/Nov/2011 18:53:08.148 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:53:09.149 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:53:09.152 TrainController/4311 checking CFD/R742A-CFD/R744D
+Wed 02/Nov/2011 18:53:09.152 TrainController/4311 CFD/R742A-CFD/R744D not available
+Wed 02/Nov/2011 18:53:09.152 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:53:10.153 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:53:10.154 TrainController/4311 checking CFD/R742A-CFD/R744D
+Wed 02/Nov/2011 18:53:10.155 TrainController/4311 CFD/R742A-CFD/R744D not available
+Wed 02/Nov/2011 18:53:10.155 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:53:11.156 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:53:11.157 TrainController/4311 checking CFD/R742A-CFD/R744D
+Wed 02/Nov/2011 18:53:11.157 TrainController/4311 CFD/R742A-CFD/R744D not available
+Wed 02/Nov/2011 18:53:11.157 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:53:12.206 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:53:12.210 TrainController/4311 checking CFD/R742A-CFD/R744D
+Wed 02/Nov/2011 18:53:12.258 TrainController/4311 CFD/R742A-CFD/R744D not available
+Wed 02/Nov/2011 18:53:12.258 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:53:13.259 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:53:13.260 TrainController/4311 checking CFD/R742A-CFD/R744D
+Wed 02/Nov/2011 18:53:13.261 TrainController/4311 CFD/R742A-CFD/R744D not available
+Wed 02/Nov/2011 18:53:13.261 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:53:14.261 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:53:14.262 TrainController/4311 checking CFD/R742A-CFD/R744D
+Wed 02/Nov/2011 18:53:14.263 TrainController/4311 CFD/R742A-CFD/R744D not available
+Wed 02/Nov/2011 18:53:14.263 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:53:15.264 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:53:15.265 TrainController/4311 checking CFD/R742A-CFD/R744D
+Wed 02/Nov/2011 18:53:15.266 TrainController/4311 CFD/R742A-CFD/R744D not available
+Wed 02/Nov/2011 18:53:15.266 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:53:16.267 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:53:16.268 TrainController/4311 checking CFD/R742A-CFD/R744D
+Wed 02/Nov/2011 18:53:16.269 TrainController/4311 CFD/R742A-CFD/R744D not available
+Wed 02/Nov/2011 18:53:16.269 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:53:17.270 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:53:17.272 TrainController/4311 checking CFD/R742A-CFD/R744D
+Wed 02/Nov/2011 18:53:17.272 TrainController/4311 CFD/R742A-CFD/R744D not available
+Wed 02/Nov/2011 18:53:17.272 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:53:18.274 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:53:18.275 TrainController/4311 checking CFD/R742A-CFD/R744D
+Wed 02/Nov/2011 18:53:18.275 TrainController/4311 CFD/R742A-CFD/R744D not available
+Wed 02/Nov/2011 18:53:18.276 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:53:19.277 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:53:19.278 TrainController/4311 checking CFD/R742A-CFD/R744D
+Wed 02/Nov/2011 18:53:19.278 TrainController/4311 CFD/R742A-CFD/R744D not available
+Wed 02/Nov/2011 18:53:19.284 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:53:20.471 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:53:20.726 TrainController/4311 checking CFD/R742A-CFD/R744D
+Wed 02/Nov/2011 18:53:20.773 TrainController/4311 CFD/R742A-CFD/R744D not available
+Wed 02/Nov/2011 18:53:20.773 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:53:21.805 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:53:21.817 TrainController/4311 checking CFD/R742A-CFD/R744D
+Wed 02/Nov/2011 18:53:21.818 TrainController/4311 CFD/R742A-CFD/R744D not available
+Wed 02/Nov/2011 18:53:21.824 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:53:22.837 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:53:22.838 TrainController/4311 checking CFD/R742A-CFD/R744D
+Wed 02/Nov/2011 18:53:22.838 TrainController/4311 CFD/R742A-CFD/R744D not available
+Wed 02/Nov/2011 18:53:22.839 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:53:23.844 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:53:23.845 TrainController/4311 checking CFD/R742A-CFD/R744D
+Wed 02/Nov/2011 18:53:23.845 TrainController/4311 CFD/R742A-CFD/R744D not available
+Wed 02/Nov/2011 18:53:23.846 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:53:25.087 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:53:25.203 TrainController/4311 checking CFD/R742A-CFD/R744D
+Wed 02/Nov/2011 18:53:25.315 TrainController/4311 CFD/R742A-CFD/R744D not available
+Wed 02/Nov/2011 18:53:25.315 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:53:26.347 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:53:26.363 TrainController/4311 checking CFD/R742A-CFD/R744D
+Wed 02/Nov/2011 18:53:26.420 TrainController/4311 CFD/R742A-CFD/R744D not available
+Wed 02/Nov/2011 18:53:26.420 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:53:27.435 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:53:27.436 TrainController/4311 checking CFD/R742A-CFD/R744D
+Wed 02/Nov/2011 18:53:27.436 TrainController/4311 CFD/R742A-CFD/R744D not available
+Wed 02/Nov/2011 18:53:27.437 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:53:28.439 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:53:28.440 TrainController/4311 checking CFD/R742A-CFD/R744D
+Wed 02/Nov/2011 18:53:28.441 TrainController/4311 CFD/R742A-CFD/R744D not available
+Wed 02/Nov/2011 18:53:28.441 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:53:29.442 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:53:29.443 TrainController/4311 checking CFD/R742A-CFD/R744D
+Wed 02/Nov/2011 18:53:29.444 TrainController/4311 CFD/R742A-CFD/R744D not available
+Wed 02/Nov/2011 18:53:29.444 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:53:30.446 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:53:30.447 TrainController/4311 checking CFD/R742A-CFD/R744D
+Wed 02/Nov/2011 18:53:30.447 TrainController/4311 CFD/R742A-CFD/R744D not available
+Wed 02/Nov/2011 18:53:30.448 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:53:31.450 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:53:31.451 TrainController/4311 checking CFD/R742A-CFD/R744D
+Wed 02/Nov/2011 18:53:31.452 TrainController/4311 CFD/R742A-CFD/R744D not available
+Wed 02/Nov/2011 18:53:31.452 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:53:32.453 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:53:32.454 TrainController/4311 checking CFD/R742A-CFD/R744D
+Wed 02/Nov/2011 18:53:32.457 TrainController/4311 now starting CFD/R742A-CFD/R744D
+Wed 02/Nov/2011 18:53:32.458 TrainController2/4311/SignalController/CFD/R742A-CFD/R744D created
+Wed 02/Nov/2011 18:53:32.458 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:53:32.460 TrainController2/4311/SignalController/CFD/R742A-CFD/R744D successfully claimed
+Wed 02/Nov/2011 18:53:32.465 TrainController2/4311/SignalController/CFD/R742A-CFD/R744D RouteStateChange Event. RouteModel:CFD/R744D, oldState: Turning, newState: Locked
+Wed 02/Nov/2011 18:53:32.478 TrainController2/4311/SignalController/CFD/R742A-CFD/R744D RouteStateChange Event. RouteModel:CFD/R744D, oldState: Dormant, newState: Locked
+Wed 02/Nov/2011 18:53:33.432 TrainController2/4311/SignalController/CFD/R742A-CFD/R744D RouteStateChange Event. RouteModel:CFD/R744D, oldState: Locked, newState: Clear
+Wed 02/Nov/2011 18:53:33.432 TrainController2/4311/SignalController/CFD/R742A-CFD/R744D checking for next route...
+Wed 02/Nov/2011 18:53:33.433 TrainController2/4311/SignalController/CFD/R742A-CFD/R744D new route: CFD/R742A
+Wed 02/Nov/2011 18:53:33.449 TrainController2/4311/SignalController/CFD/R742A-CFD/R744D RouteStateChange Event. RouteModel:CFD/R742A, oldState: Turning, newState: Locked
+Wed 02/Nov/2011 18:53:33.460 TrainController2/4311/SignalController/CFD/R742A-CFD/R744D RouteStateChange Event. RouteModel:CFD/R742A, oldState: Dormant, newState: Locked
+Wed 02/Nov/2011 18:53:33.461 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:53:33.462 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:53:34.504 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:53:34.505 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:53:34.833 TrainController2/4311/SignalController/CFD/R742A-CFD/R744D RouteStateChange Event. RouteModel:CFD/R742A, oldState: Locked, newState: Clear
+Wed 02/Nov/2011 18:53:34.833 TrainController2/4311/SignalController/CFD/R742A-CFD/R744D checking for next route...
+Wed 02/Nov/2011 18:53:34.840 TrainController2/4311/SignalController/CFD/R742A-CFD/R744D no more route. SignalController OK sent to Traincontroller
+Wed 02/Nov/2011 18:53:34.844 TrainController/4311  signal controller CFD/R742A-CFD/R744D ok
+Wed 02/Nov/2011 18:53:35.543 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:53:35.544 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:53:35.786 TrainController2/4311/SignalController/CFD/R742A-CFD/R744D RouteStateChange Event. RouteModel:CFD/R742A, oldState: Clear, newState: TrainIn
+Wed 02/Nov/2011 18:53:36.545 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:53:36.545 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:53:37.546 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:53:37.546 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:53:37.861 TrainController2/4311/SignalController/CFD/R742A-CFD/R744D RouteStateChange Event. RouteModel:CFD/R744D, oldState: Clear, newState: TrainIn
+Wed 02/Nov/2011 18:53:37.890 TrainController2/4311/SignalController/CFD/R742A-CFD/R744D Clearing up
+Wed 02/Nov/2011 18:53:38.547 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:53:38.547 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:53:39.548 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:53:39.549 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:53:40.550 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:53:40.550 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:53:41.151 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 18:53:41.151 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 18:53:41.551 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:53:41.551 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:53:42.564 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:53:42.565 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:53:42.893 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 18:53:42.893 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 18:53:43.568 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:53:43.571 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:53:44.573 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:53:44.573 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:53:45.599 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:53:45.599 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:53:46.612 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:53:46.613 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:53:46.887 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 18:53:46.887 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 18:53:47.615 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:53:47.615 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:53:48.616 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:53:48.617 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:53:49.618 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:53:49.618 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:53:50.563 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 18:53:50.563 TrainController/4311 head track CFD/T769 is on new platform CFD001
+Wed 02/Nov/2011 18:53:50.564 TrainController/4311 inPlatform: true
+Wed 02/Nov/2011 18:53:50.564 TrainController/4311 At the last platform CFD001, forming [4318]
+Wed 02/Nov/2011 18:53:50.566 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 18:53:50.566 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 18:53:50.567 TrainController/4311 head track CFD/T769 is on new platform CFD001
+Wed 02/Nov/2011 18:53:50.567 TrainController/4311 inPlatform: true
+Wed 02/Nov/2011 18:53:50.567 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 18:53:50.618 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:53:50.619 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:53:51.623 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:53:51.623 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:53:52.331 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 18:53:52.331 TrainController/4311 head track CFD/T769 is on new platform CFD001
+Wed 02/Nov/2011 18:53:52.332 TrainController/4311 inPlatform: true
+Wed 02/Nov/2011 18:53:52.332 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 18:53:52.628 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 18:53:52.628 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 18:53:53.609 TrainController/4311 trip 4311 finished. Train stopped. dwell time: 12 seconds
+Wed 02/Nov/2011 19:47:33.494 TrainController/4311 reading trip
+Wed 02/Nov/2011 19:47:33.495 TrainController/4311 train restarted. tdn 4311
+Wed 02/Nov/2011 19:47:33.668 TrainController/4311 creating train plan
+Wed 02/Nov/2011 19:47:33.672 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 19:47:33.672 TrainController/4311 head track FSB/T763 is on new platform FSS009
+Wed 02/Nov/2011 19:47:33.683 TrainController/4311 inPlatform: true
+Wed 02/Nov/2011 19:47:33.692 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 19:47:33.736 TrainController/4311 update train plan time
+Wed 02/Nov/2011 19:47:33.830 TrainController/4311 request Schedule
+Wed 02/Nov/2011 19:47:33.831 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 19:47:33.831 TrainController/4311 head track FSB/T763 is on new platform FSS009
+Wed 02/Nov/2011 19:47:34.027 TrainController/4311 inPlatform: true
+Wed 02/Nov/2011 19:47:34.027 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 19:47:34.084 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:47:34.195 TrainController/4311 checking FSB/R756A
+Wed 02/Nov/2011 19:47:34.281 TrainController/4311 now starting FSB/R756A
+Wed 02/Nov/2011 19:47:34.344 TrainController2/4311/SignalController/FSB/R756A created
+Wed 02/Nov/2011 19:47:34.378 TrainController/4311 checking FSB/R850A
+Wed 02/Nov/2011 19:47:34.379 TrainController2/4311/SignalController/FSB/R756A successfully claimed
+Wed 02/Nov/2011 19:47:34.393 TrainController/4311 checking FSB/R852A
+Wed 02/Nov/2011 19:47:34.421 TrainController/4311 checking FSE/R854A-FSE/R982C-FSE/R786A
+Wed 02/Nov/2011 19:47:34.421 TrainController/4311 FSE/R854A-FSE/R982C-FSE/R786A not available
+Wed 02/Nov/2011 19:47:34.422 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:47:34.462 TrainController2/4311/SignalController/FSB/R756A RouteStateChange Event. RouteModel:FSB/R756A, oldState: Turning, newState: Locked
+Wed 02/Nov/2011 19:47:34.479 TrainController2/4311/SignalController/FSB/R756A RouteStateChange Event. RouteModel:FSB/R756A, oldState: Dormant, newState: Locked
+Wed 02/Nov/2011 19:47:34.977 TrainController2/4311/SignalController/FSB/R756A RouteStateChange Event. RouteModel:FSB/R756A, oldState: Locked, newState: Clear
+Wed 02/Nov/2011 19:47:34.977 TrainController2/4311/SignalController/FSB/R756A checking for next route...
+Wed 02/Nov/2011 19:47:34.991 TrainController2/4311/SignalController/FSB/R756A no more route. SignalController OK sent to Traincontroller
+Wed 02/Nov/2011 19:47:35.001 TrainController/4311  signal controller FSB/R756A ok
+Wed 02/Nov/2011 19:47:35.518 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:47:35.540 TrainController/4311 checking FSE/R854A-FSE/R982C-FSE/R786A
+Wed 02/Nov/2011 19:47:35.644 TrainController/4311 FSE/R854A-FSE/R982C-FSE/R786A not available
+Wed 02/Nov/2011 19:47:35.644 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:47:37.554 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:47:37.737 TrainController/4311 checking FSE/R854A-FSE/R982C-FSE/R786A
+Wed 02/Nov/2011 19:47:37.916 TrainController2/4311/SignalController/FSB/R756A RouteStateChange Event. RouteModel:FSB/R756A, oldState: Clear, newState: TrainIn
+Wed 02/Nov/2011 19:47:37.973 TrainController/4311 FSE/R854A-FSE/R982C-FSE/R786A not available
+Wed 02/Nov/2011 19:47:37.973 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:47:38.003 TrainController2/4311/SignalController/FSB/R756A Clearing up
+Wed 02/Nov/2011 19:47:39.030 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:47:39.040 TrainController/4311 checking FSE/R854A-FSE/R982C-FSE/R786A
+Wed 02/Nov/2011 19:47:39.117 TrainController/4311 FSE/R854A-FSE/R982C-FSE/R786A not available
+Wed 02/Nov/2011 19:47:39.117 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:47:39.506 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 19:47:39.507 TrainController/4311 head track FSB/T763 is on new platform FSS009
+Wed 02/Nov/2011 19:47:39.511 TrainController/4311 inPlatform: true
+Wed 02/Nov/2011 19:47:39.512 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 19:47:39.624 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 19:47:39.625 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 19:47:40.357 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:47:40.370 TrainController/4311 checking FSE/R854A-FSE/R982C-FSE/R786A
+Wed 02/Nov/2011 19:47:40.627 TrainController/4311 FSE/R854A-FSE/R982C-FSE/R786A not available
+Wed 02/Nov/2011 19:47:40.627 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:47:41.666 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:47:41.667 TrainController/4311 checking FSE/R854A-FSE/R982C-FSE/R786A
+Wed 02/Nov/2011 19:47:41.677 TrainController/4311 FSE/R854A-FSE/R982C-FSE/R786A not available
+Wed 02/Nov/2011 19:47:41.677 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:47:42.575 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 19:47:42.575 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 19:47:42.719 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:47:42.901 TrainController/4311 checking FSE/R854A-FSE/R982C-FSE/R786A
+Wed 02/Nov/2011 19:47:42.969 TrainController/4311 FSE/R854A-FSE/R982C-FSE/R786A not available
+Wed 02/Nov/2011 19:47:42.969 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:47:44.040 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:47:44.227 TrainController/4311 checking FSE/R854A-FSE/R982C-FSE/R786A
+Wed 02/Nov/2011 19:47:44.429 TrainController/4311 FSE/R854A-FSE/R982C-FSE/R786A not available
+Wed 02/Nov/2011 19:47:44.429 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:47:45.622 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:47:45.788 TrainController/4311 checking FSE/R854A-FSE/R982C-FSE/R786A
+Wed 02/Nov/2011 19:47:45.818 TrainController/4311 FSE/R854A-FSE/R982C-FSE/R786A not available
+Wed 02/Nov/2011 19:47:45.818 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:47:46.544 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 19:47:46.544 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 19:47:46.925 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:47:46.954 TrainController/4311 checking FSE/R854A-FSE/R982C-FSE/R786A
+Wed 02/Nov/2011 19:47:47.013 TrainController/4311 FSE/R854A-FSE/R982C-FSE/R786A not available
+Wed 02/Nov/2011 19:47:47.013 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:47:47.400 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 19:47:47.400 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 19:47:47.817 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 19:47:47.818 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 19:47:48.015 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:47:48.016 TrainController/4311 checking FSE/R854A-FSE/R982C-FSE/R786A
+Wed 02/Nov/2011 19:47:48.021 TrainController/4311 FSE/R854A-FSE/R982C-FSE/R786A not available
+Wed 02/Nov/2011 19:47:48.021 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:47:49.167 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:47:49.196 TrainController/4311 checking FSE/R854A-FSE/R982C-FSE/R786A
+Wed 02/Nov/2011 19:47:49.209 TrainController/4311 FSE/R854A-FSE/R982C-FSE/R786A not available
+Wed 02/Nov/2011 19:47:49.209 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:47:49.281 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 19:47:49.281 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 19:47:49.467 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 19:47:49.468 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 19:47:50.391 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:47:50.518 TrainController/4311 checking FSE/R854A-FSE/R982C-FSE/R786A
+Wed 02/Nov/2011 19:47:50.578 TrainController/4311 FSE/R854A-FSE/R982C-FSE/R786A not available
+Wed 02/Nov/2011 19:47:50.579 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:47:51.758 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:47:52.077 TrainController/4311 checking FSE/R854A-FSE/R982C-FSE/R786A
+Wed 02/Nov/2011 19:47:52.096 TrainController/4311 now starting FSE/R854A-FSE/R982C-FSE/R786A
+Wed 02/Nov/2011 19:47:52.217 TrainController2/4311/SignalController/FSE/R854A-FSE/R982C-FSE/R786A created
+Wed 02/Nov/2011 19:47:52.543 TrainController/4311 checking FSE/R674A
+Wed 02/Nov/2011 19:47:52.543 TrainController2/4311/SignalController/FSE/R854A-FSE/R982C-FSE/R786A successfully claimed
+Wed 02/Nov/2011 19:47:52.629 TrainController/4311 checking FSE/R676A
+Wed 02/Nov/2011 19:47:52.781 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:47:52.782 TrainController2/4311/SignalController/FSE/R854A-FSE/R982C-FSE/R786A RouteStateChange Event. RouteModel:FSE/R786A, oldState: Turning, newState: Locked
+Wed 02/Nov/2011 19:47:52.977 TrainController2/4311/SignalController/FSE/R854A-FSE/R982C-FSE/R786A RouteStateChange Event. RouteModel:FSE/R786A, oldState: Dormant, newState: Locked
+Wed 02/Nov/2011 19:47:53.841 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:47:53.842 TrainController/4311 checking FSE/R676A
+Wed 02/Nov/2011 19:47:53.854 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:47:53.921 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 19:47:53.921 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 19:47:53.929 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 19:47:53.929 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 19:47:54.751 TrainController2/4311/SignalController/FSE/R854A-FSE/R982C-FSE/R786A RouteStateChange Event. RouteModel:FSE/R786A, oldState: Locked, newState: Clear
+Wed 02/Nov/2011 19:47:54.751 TrainController2/4311/SignalController/FSE/R854A-FSE/R982C-FSE/R786A checking for next route...
+Wed 02/Nov/2011 19:47:54.751 TrainController2/4311/SignalController/FSE/R854A-FSE/R982C-FSE/R786A new route: FSE/R982C
+Wed 02/Nov/2011 19:47:54.773 TrainController2/4311/SignalController/FSE/R854A-FSE/R982C-FSE/R786A RouteStateChange Event. RouteModel:FSE/R982C, oldState: Turning, newState: Locked
+Wed 02/Nov/2011 19:47:54.826 TrainController2/4311/SignalController/FSE/R854A-FSE/R982C-FSE/R786A RouteStateChange Event. RouteModel:FSE/R982C, oldState: Dormant, newState: Locked
+Wed 02/Nov/2011 19:47:54.886 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:47:55.013 TrainController/4311 checking FSE/R676A
+Wed 02/Nov/2011 19:47:55.087 TrainController/4311 checking FSE/R678A
+Wed 02/Nov/2011 19:47:55.087 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:47:56.195 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:47:56.221 TrainController2/4311/SignalController/FSE/R854A-FSE/R982C-FSE/R786A RouteStateChange Event. RouteModel:FSE/R982C, oldState: Locked, newState: Clear
+Wed 02/Nov/2011 19:47:56.221 TrainController2/4311/SignalController/FSE/R854A-FSE/R982C-FSE/R786A checking for next route...
+Wed 02/Nov/2011 19:47:56.222 TrainController2/4311/SignalController/FSE/R854A-FSE/R982C-FSE/R786A new route: FSE/R854A
+Wed 02/Nov/2011 19:47:56.389 TrainController/4311 checking FSE/R678A
+Wed 02/Nov/2011 19:47:56.587 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:47:56.750 TrainController2/4311/SignalController/FSE/R854A-FSE/R982C-FSE/R786A RouteStateChange Event. RouteModel:FSE/R854A, oldState: Turning, newState: Locked
+Wed 02/Nov/2011 19:47:56.770 TrainController2/4311/SignalController/FSE/R854A-FSE/R982C-FSE/R786A RouteStateChange Event. RouteModel:FSE/R854A, oldState: Dormant, newState: Locked
+Wed 02/Nov/2011 19:47:56.916 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 19:47:56.917 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 19:47:56.946 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 19:47:56.946 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 19:47:57.295 TrainController2/4311/SignalController/FSE/R854A-FSE/R982C-FSE/R786A RouteStateChange Event. RouteModel:FSE/R854A, oldState: Locked, newState: Clear
+Wed 02/Nov/2011 19:47:57.295 TrainController2/4311/SignalController/FSE/R854A-FSE/R982C-FSE/R786A checking for next route...
+Wed 02/Nov/2011 19:47:57.322 TrainController2/4311/SignalController/FSE/R854A-FSE/R982C-FSE/R786A no more route. SignalController OK sent to Traincontroller
+Wed 02/Nov/2011 19:47:57.327 TrainController/4311  signal controller FSE/R854A-FSE/R982C-FSE/R786A ok
+Wed 02/Nov/2011 19:47:57.599 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:47:57.619 TrainController/4311 checking FSE/R678A
+Wed 02/Nov/2011 19:47:57.622 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:47:57.695 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 19:47:57.695 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 19:47:58.516 TrainController2/4311/SignalController/FSE/R854A-FSE/R982C-FSE/R786A RouteStateChange Event. RouteModel:FSE/R854A, oldState: Clear, newState: TrainIn
+Wed 02/Nov/2011 19:47:58.749 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:47:58.754 TrainController/4311 checking FSE/R678A
+Wed 02/Nov/2011 19:47:58.768 TrainController/4311 checking SYR/RF071A
+Wed 02/Nov/2011 19:47:58.773 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:47:59.272 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 19:47:59.272 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 19:47:59.821 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:48:00.005 TrainController/4311 checking SYR/RF071A
+Wed 02/Nov/2011 19:48:00.181 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:48:01.209 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:48:01.220 TrainController/4311 checking SYR/RF071A
+Wed 02/Nov/2011 19:48:01.229 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:48:01.430 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 19:48:01.430 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 19:48:01.921 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 19:48:01.921 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 19:48:02.304 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:48:02.411 TrainController/4311 checking SYR/RF071A
+Wed 02/Nov/2011 19:48:02.629 TrainController/4311 checking SYR/RF081A
+Wed 02/Nov/2011 19:48:02.641 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:48:03.441 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 19:48:03.441 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 19:48:03.844 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:48:03.854 TrainController/4311 checking SYR/RF081A
+Wed 02/Nov/2011 19:48:04.006 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:48:04.092 TrainController2/4311/SignalController/FSE/R854A-FSE/R982C-FSE/R786A RouteStateChange Event. RouteModel:FSE/R982C, oldState: Clear, newState: TrainIn
+Wed 02/Nov/2011 19:48:05.028 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:48:05.052 TrainController/4311 checking SYR/RF081A
+Wed 02/Nov/2011 19:48:05.074 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:48:06.191 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:48:06.371 TrainController/4311 checking SYR/RF081A
+Wed 02/Nov/2011 19:48:06.439 TrainController/4311 checking SYR/RF091A
+Wed 02/Nov/2011 19:48:06.517 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:48:06.904 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 19:48:06.904 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 19:48:08.117 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:48:08.504 TrainController/4311 checking SYR/RF091A
+Wed 02/Nov/2011 19:48:08.947 TrainController/4311 checking SYR/RF099A
+Wed 02/Nov/2011 19:48:09.166 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:48:09.905 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 19:48:09.905 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 19:48:10.304 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:48:10.348 TrainController/4311 checking SYR/RF099A
+Wed 02/Nov/2011 19:48:10.539 TrainController/4311 checking SYR/RF107A
+Wed 02/Nov/2011 19:48:10.565 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:48:10.824 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 19:48:10.825 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 19:48:11.051 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 19:48:11.051 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 19:48:11.259 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 19:48:11.259 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 19:48:11.264 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 19:48:11.265 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 19:48:11.586 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:48:11.641 TrainController/4311 checking SYR/RF107A
+Wed 02/Nov/2011 19:48:11.761 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:48:12.792 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:48:12.886 TrainController/4311 checking SYR/RF107A
+Wed 02/Nov/2011 19:48:12.992 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:48:14.039 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:48:14.050 TrainController/4311 checking SYR/RF107A
+Wed 02/Nov/2011 19:48:14.055 TrainController/4311 checking SYR/RF117A
+Wed 02/Nov/2011 19:48:14.060 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:48:15.034 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 19:48:15.034 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 19:48:15.223 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:48:15.308 TrainController/4311 checking SYR/RF117A
+Wed 02/Nov/2011 19:48:15.308 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:48:16.396 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:48:16.402 TrainController/4311 checking SYR/RF117A
+Wed 02/Nov/2011 19:48:16.402 TrainController/4311 checking SYR/RF131A
+Wed 02/Nov/2011 19:48:16.418 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:48:17.438 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 19:48:17.438 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 19:48:17.454 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:48:17.493 TrainController/4311 checking SYR/RF131A
+Wed 02/Nov/2011 19:48:17.615 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:48:18.633 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:48:18.712 TrainController/4311 checking SYR/RF131A
+Wed 02/Nov/2011 19:48:18.736 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:48:19.919 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:48:20.113 TrainController/4311 checking SYR/RF131A
+Wed 02/Nov/2011 19:48:20.227 TrainController/4311 checking SYR/RF145A
+Wed 02/Nov/2011 19:48:20.335 TrainController/4311 checking SYR/RF153A
+Wed 02/Nov/2011 19:48:20.354 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:48:20.854 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 19:48:20.854 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 19:48:21.045 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 19:48:21.045 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 19:48:21.083 TrainController2/4311/SignalController/FSE/R854A-FSE/R982C-FSE/R786A RouteStateChange Event. RouteModel:FSE/R786A, oldState: Clear, newState: TrainIn
+Wed 02/Nov/2011 19:48:21.096 TrainController2/4311/SignalController/FSE/R854A-FSE/R982C-FSE/R786A Clearing up
+Wed 02/Nov/2011 19:48:21.401 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:48:21.456 TrainController/4311 checking SYR/RF153A
+Wed 02/Nov/2011 19:48:21.521 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:48:22.247 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 19:48:22.247 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 19:48:22.257 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 19:48:22.257 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 19:48:22.792 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:48:22.815 TrainController/4311 checking SYR/RF153A
+Wed 02/Nov/2011 19:48:22.878 TrainController/4311 checking SYR/RF161A
+Wed 02/Nov/2011 19:48:22.914 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:48:23.699 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 19:48:23.700 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 19:48:23.955 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:48:24.103 TrainController/4311 checking SYR/RF161A
+Wed 02/Nov/2011 19:48:24.160 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:48:25.165 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:48:25.166 TrainController/4311 checking SYR/RF161A
+Wed 02/Nov/2011 19:48:25.166 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:48:26.272 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:48:26.390 TrainController/4311 checking SYR/RF161A
+Wed 02/Nov/2011 19:48:26.440 TrainController/4311 checking SYR/RF171A
+Wed 02/Nov/2011 19:48:26.460 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:48:26.583 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 19:48:26.583 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 19:48:27.465 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:48:27.499 TrainController/4311 checking SYR/RF171A
+Wed 02/Nov/2011 19:48:27.579 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:48:28.824 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:48:29.419 TrainController/4311 checking SYR/RF171A
+Wed 02/Nov/2011 19:48:29.671 TrainController/4311 checking SYR/RF183A
+Wed 02/Nov/2011 19:48:29.672 TrainController/4311 checking SYR/RF191A
+Wed 02/Nov/2011 19:48:30.030 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:48:31.008 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 19:48:31.008 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 19:48:31.031 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:48:31.133 TrainController/4311 checking SYR/RF191A
+Wed 02/Nov/2011 19:48:31.209 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:48:32.312 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:48:32.376 TrainController/4311 checking SYR/RF191A
+Wed 02/Nov/2011 19:48:32.492 TrainController/4311 checking SYR/RF201A
+Wed 02/Nov/2011 19:48:32.575 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:48:33.050 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 19:48:33.050 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 19:48:33.144 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 19:48:33.145 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 19:48:33.681 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:48:33.759 TrainController/4311 checking SYR/RF201A
+Wed 02/Nov/2011 19:48:33.792 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:48:34.769 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 19:48:34.818 TrainController/4311 head track FSE/T678 is on new platform RMD004
+Wed 02/Nov/2011 19:48:34.876 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:48:34.879 TrainController/4311 inPlatform: false
+Wed 02/Nov/2011 19:48:34.880 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 19:48:34.910 TrainController/4311 checking SYR/RF201A
+Wed 02/Nov/2011 19:48:35.084 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:48:36.158 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:48:36.173 TrainController/4311 checking SYR/RF201A
+Wed 02/Nov/2011 19:48:36.230 TrainController/4311 checking SYR/RF213A
+Wed 02/Nov/2011 19:48:36.427 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:48:36.964 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 19:48:36.964 TrainController/4311 head track FSE/T678 is on new platform RMD004
+Wed 02/Nov/2011 19:48:36.977 TrainController/4311 inPlatform: false
+Wed 02/Nov/2011 19:48:36.977 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 19:48:37.131 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 19:48:37.131 TrainController/4311 head track SYR/TF069 is on new platform RMD004
+Wed 02/Nov/2011 19:48:37.133 TrainController/4311 inPlatform: true
+Wed 02/Nov/2011 19:48:37.134 TrainController/4311 dwell time: 0
+Wed 02/Nov/2011 19:48:37.135 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 19:48:37.454 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:48:37.456 TrainController/4311 checking SYR/RF213A
+Wed 02/Nov/2011 19:48:37.479 TrainController/4311 checking SYR/RF225A
+Wed 02/Nov/2011 19:48:37.480 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:48:39.192 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:48:39.569 TrainController/4311 checking SYR/RF225A
+Wed 02/Nov/2011 19:48:39.798 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:48:40.067 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 19:48:40.067 TrainController/4311 head track SYR/TF069 is on new platform RMD004
+Wed 02/Nov/2011 19:48:40.092 TrainController/4311 inPlatform: true
+Wed 02/Nov/2011 19:48:40.109 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 19:48:40.805 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:48:40.843 TrainController/4311 checking SYR/RF225A
+Wed 02/Nov/2011 19:48:40.844 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:48:41.383 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 19:48:41.384 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 19:48:41.907 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:48:41.913 TrainController/4311 checking SYR/RF225A
+Wed 02/Nov/2011 19:48:41.934 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:48:42.973 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:48:42.976 TrainController/4311 checking SYR/RF225A
+Wed 02/Nov/2011 19:48:42.978 TrainController/4311 checking SYR/RF237A
+Wed 02/Nov/2011 19:48:42.981 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:48:44.064 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:48:44.101 TrainController/4311 checking SYR/RF237A
+Wed 02/Nov/2011 19:48:44.109 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:48:45.173 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:48:45.234 TrainController/4311 checking SYR/RF237A
+Wed 02/Nov/2011 19:48:45.234 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:48:45.321 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 19:48:45.322 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 19:48:45.735 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 19:48:45.735 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 19:48:46.284 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:48:46.329 TrainController/4311 checking SYR/RF237A
+Wed 02/Nov/2011 19:48:46.347 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:48:47.515 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:48:47.525 TrainController/4311 checking SYR/RF237A
+Wed 02/Nov/2011 19:48:47.531 TrainController/4311 checking SYR/RF249A
+Wed 02/Nov/2011 19:48:47.559 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:48:48.622 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:48:48.687 TrainController/4311 checking SYR/RF249A
+Wed 02/Nov/2011 19:48:48.810 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:48:49.298 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 19:48:49.298 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 19:48:49.812 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:48:49.823 TrainController/4311 checking SYR/RF249A
+Wed 02/Nov/2011 19:48:49.829 TrainController/4311 checking SYR/RF259A
+Wed 02/Nov/2011 19:48:49.829 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:48:51.113 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:48:51.391 TrainController/4311 checking SYR/RF259A
+Wed 02/Nov/2011 19:48:51.684 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:48:52.708 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:48:52.808 TrainController/4311 checking SYR/RF259A
+Wed 02/Nov/2011 19:48:52.976 TrainController/4311 checking SYR/RF271A
+Wed 02/Nov/2011 19:48:53.020 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:48:53.153 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 19:48:53.153 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 19:48:53.257 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 19:48:53.257 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 19:48:54.024 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:48:54.025 TrainController/4311 checking SYR/RF271A
+Wed 02/Nov/2011 19:48:54.025 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:48:55.082 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:48:55.127 TrainController/4311 checking SYR/RF271A
+Wed 02/Nov/2011 19:48:55.369 TrainController/4311 checking SYR/RF285A
+Wed 02/Nov/2011 19:48:55.381 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:48:56.448 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:48:56.611 TrainController/4311 checking SYR/RF285A
+Wed 02/Nov/2011 19:48:56.662 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:48:56.663 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 19:48:56.676 TrainController/4311 head track SYR/TF117 is on new platform SYR004
+Wed 02/Nov/2011 19:48:56.689 TrainController/4311 inPlatform: true
+Wed 02/Nov/2011 19:48:56.788 TrainController/4311 dwell time: 0
+Wed 02/Nov/2011 19:48:56.789 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 19:48:57.727 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:48:57.743 TrainController/4311 checking SYR/RF285A
+Wed 02/Nov/2011 19:48:57.837 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:48:58.952 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:48:59.014 TrainController/4311 checking SYR/RF285A
+Wed 02/Nov/2011 19:48:59.158 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:48:59.632 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 19:48:59.632 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 19:49:00.214 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:49:00.222 TrainController/4311 checking SYR/RF285A
+Wed 02/Nov/2011 19:49:00.242 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:49:00.311 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 19:49:00.311 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 19:49:01.322 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:49:01.379 TrainController/4311 checking SYR/RF285A
+Wed 02/Nov/2011 19:49:01.440 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:49:02.470 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:49:02.530 TrainController/4311 checking SYR/RF285A
+Wed 02/Nov/2011 19:49:02.563 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:49:02.906 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 19:49:02.906 TrainController/4311 head track SYR/TF161 is on new platform HKN002
+Wed 02/Nov/2011 19:49:02.909 TrainController/4311 inPlatform: true
+Wed 02/Nov/2011 19:49:02.914 TrainController/4311 dwell time: 0
+Wed 02/Nov/2011 19:49:02.914 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 19:49:03.571 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:49:03.601 TrainController/4311 checking SYR/RF285A
+Wed 02/Nov/2011 19:49:03.630 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:49:04.643 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:49:04.693 TrainController/4311 checking SYR/RF285A
+Wed 02/Nov/2011 19:49:04.694 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:49:05.762 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 19:49:05.922 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:49:05.931 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 19:49:05.939 TrainController/4311 checking SYR/RF285A
+Wed 02/Nov/2011 19:49:05.988 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:49:07.003 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:49:07.022 TrainController/4311 checking SYR/RF285A
+Wed 02/Nov/2011 19:49:07.077 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:49:07.834 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 19:49:07.834 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 19:49:08.084 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:49:08.095 TrainController/4311 checking SYR/RF285A
+Wed 02/Nov/2011 19:49:08.105 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:49:09.822 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:49:09.950 TrainController/4311 checking SYR/RF285A
+Wed 02/Nov/2011 19:49:10.252 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:49:10.743 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 19:49:10.743 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 19:49:11.390 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:49:11.439 TrainController/4311 checking SYR/RF285A
+Wed 02/Nov/2011 19:49:11.519 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:49:12.521 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:49:12.531 TrainController/4311 checking SYR/RF285A
+Wed 02/Nov/2011 19:49:12.538 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:49:13.190 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 19:49:13.190 TrainController/4311 head track SYR/TF201 is on new platform TOR002
+Wed 02/Nov/2011 19:49:13.198 TrainController/4311 inPlatform: true
+Wed 02/Nov/2011 19:49:13.226 TrainController/4311 dwell time: 0
+Wed 02/Nov/2011 19:49:13.227 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 19:49:13.603 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:49:13.637 TrainController/4311 checking SYR/RF285A
+Wed 02/Nov/2011 19:49:13.780 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:49:14.868 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:49:14.936 TrainController/4311 checking SYR/RF285A
+Wed 02/Nov/2011 19:49:15.024 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:49:16.115 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:49:16.117 TrainController/4311 checking SYR/RF285A
+Wed 02/Nov/2011 19:49:16.117 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:49:17.021 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 19:49:17.137 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 19:49:17.182 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:49:17.246 TrainController/4311 checking SYR/RF285A
+Wed 02/Nov/2011 19:49:17.247 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:49:17.638 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 19:49:17.638 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 19:49:18.409 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:49:18.410 TrainController/4311 checking SYR/RF285A
+Wed 02/Nov/2011 19:49:18.411 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:49:18.600 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 19:49:18.600 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 19:49:19.472 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:49:19.502 TrainController/4311 checking SYR/RF285A
+Wed 02/Nov/2011 19:49:19.576 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:49:20.591 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:49:20.605 TrainController/4311 checking SYR/RF285A
+Wed 02/Nov/2011 19:49:20.606 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:49:21.934 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:49:22.005 TrainController/4311 checking SYR/RF285A
+Wed 02/Nov/2011 19:49:22.215 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:49:23.616 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:49:23.693 TrainController/4311 checking SYR/RF285A
+Wed 02/Nov/2011 19:49:23.794 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:49:24.110 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 19:49:24.110 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 19:49:24.493 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 19:49:24.494 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 19:49:25.041 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:49:25.072 TrainController/4311 checking SYR/RF285A
+Wed 02/Nov/2011 19:49:25.106 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:49:25.728 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 19:49:25.728 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 19:49:26.107 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:49:26.109 TrainController/4311 checking SYR/RF285A
+Wed 02/Nov/2011 19:49:26.109 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:49:27.111 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:49:27.119 TrainController/4311 checking SYR/RF285A
+Wed 02/Nov/2011 19:49:27.120 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:49:28.144 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:49:28.157 TrainController/4311 checking SYR/RF285A
+Wed 02/Nov/2011 19:49:28.286 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:49:28.468 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 19:49:28.468 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 19:49:29.287 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:49:29.287 TrainController/4311 checking SYR/RF285A
+Wed 02/Nov/2011 19:49:29.288 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:49:30.289 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:49:30.289 TrainController/4311 checking SYR/RF285A
+Wed 02/Nov/2011 19:49:30.289 TrainController/4311 requestSchedule...... completed
+Wed 02/Nov/2011 19:49:30.707 TrainController/4311 train status changed. 
+Wed 02/Nov/2011 19:49:30.707 TrainController/4311 exiting trainStateChanged
+Wed 02/Nov/2011 19:49:31.291 TrainController/4311 starting requestSchedule......
+Wed 02/Nov/2011 19:49:31.291 TrainController/4311 checking SYR/RF285A
+Wed 02/Nov/2011 19:49:31.292 TrainController/4311 requestSchedule...... completed

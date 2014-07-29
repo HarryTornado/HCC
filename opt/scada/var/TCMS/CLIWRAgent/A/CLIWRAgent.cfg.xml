@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Config>
+
+<CmdAgentMain xml_id="WRCmdAgentMain">
+	<thisServiceCommandPath>/command</thisServiceCommandPath>
+	<targetAppHostname>oil://WestRACESim.TCMS</targetAppHostname>
+	<thisServiceName>WestRACECmdAgent</thisServiceName>
+	<thisServiceHostname>oil://CLIWRAgent.TCMS</thisServiceHostname>
+	<commandsInfo>
+		<commandInfo mnemonic="ICLR">
+			<data><cmd><urlPathTemplateSet>
+				<urlPathTemplate>/%s/mnem/%s.RLPR/value</urlPathTemplate>
+			</urlPathTemplateSet></cmd></data></commandInfo>
+
+		<commandInfo mnemonic="IDRP">
+			<data><cmd>
+				<value>0</value>
+				<urlPathTemplateSet>
+					<urlPathTemplate>/%s/mnem/%s.TP/value</urlPathTemplate>
+				</urlPathTemplateSet>
+			</cmd></data></commandInfo>
+
+		<commandInfo mnemonic="IPIK">
+			<data><cmd>
+				<value>1</value> 
+				<urlPathTemplateSet>
+					<urlPathTemplate >/%s/mnem/%s.TP/value</urlPathTemplate>
+				</urlPathTemplateSet>
+			</cmd></data></commandInfo>
+
+
+		<commandInfo mnemonic="ICAN">
+			<data><cmd><urlPathTemplateSet>
+				<urlPathTemplate>/%s/mnem/%s.NLPR/value</urlPathTemplate>
+			</urlPathTemplateSet></cmd></data></commandInfo>
+
+		<commandInfo mnemonic="ISFO">
+			<data><cmd><urlPathTemplateSet>
+				<urlPathTemplate>/%s/mnem/%s.AORR/value</urlPathTemplate>
+			</urlPathTemplateSet></cmd></data></commandInfo>
+
+		<commandInfo mnemonic="ISMO">
+			<data><cmd><urlPathTemplateSet>
+				<urlPathTemplate>/%s/mnem/%s.AORN/value</urlPathTemplate>
+			</urlPathTemplateSet></cmd></data></commandInfo>
+
+		<commandInfo mnemonic="ISLS">
+			<data><cmd><urlPathTemplateSet>
+				<urlPathTemplate>/%s/mnem/%s.CPBR/value</urlPathTemplate>
+			</urlPathTemplateSet></cmd></data></commandInfo>
+
+		<commandInfo mnemonic="IPTN">
+			<data><cmd><urlPathTemplateSet>
+				<urlPathTemplate>/%s/mnem/%s.NLPR/value</urlPathTemplate>
+			</urlPathTemplateSet></cmd></data></commandInfo>
+
+		<commandInfo mnemonic="IPTR">
+			<data><cmd><urlPathTemplateSet>
+				<urlPathTemplate>/%s/mnem/%s.RLPR/value</urlPathTemplate>
+			</urlPathTemplateSet></cmd></data></commandInfo>
+			
+	</commandsInfo>
+</CmdAgentMain>
+
+</Config>
+

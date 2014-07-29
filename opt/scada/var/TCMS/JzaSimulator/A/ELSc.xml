@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configs>
+	<SignallingControl xml:id="S313.AORPN">
+		<interlockingName>SYR</interlockingName>
+		<deviceName>config:/JzaSimulator#ELS</deviceName>
+		<offset>12</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S313.AORPR">
+		<interlockingName>SYR</interlockingName>
+		<deviceName>config:/JzaSimulator#ELS</deviceName>
+		<offset>13</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S313.RLPR">
+		<interlockingName>SYR</interlockingName>
+		<deviceName>config:/JzaSimulator#ELS</deviceName>
+		<offset>14</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S313.NLPR">
+		<interlockingName>SYR</interlockingName>
+		<deviceName>config:/JzaSimulator#ELS</deviceName>
+		<offset>15</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S330.AORPN">
+		<interlockingName>SYR</interlockingName>
+		<deviceName>config:/JzaSimulator#ELS</deviceName>
+		<offset>8</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S330.AORPR">
+		<interlockingName>SYR</interlockingName>
+		<deviceName>config:/JzaSimulator#ELS</deviceName>
+		<offset>9</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S330.RLPR">
+		<interlockingName>SYR</interlockingName>
+		<deviceName>config:/JzaSimulator#ELS</deviceName>
+		<offset>10</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S330.NLPR">
+		<interlockingName>SYR</interlockingName>
+		<deviceName>config:/JzaSimulator#ELS</deviceName>
+		<offset>11</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+</Configs>

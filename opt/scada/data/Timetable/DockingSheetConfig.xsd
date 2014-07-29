@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema
+	xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	elementFormDefault="qualified">
+
+	<xs:simpleType name="logLevelType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="TRACE" />
+			<xs:enumeration value="DEBUG" />
+			<xs:enumeration value="INFO" />
+			<xs:enumeration value="WARN" />
+			<xs:enumeration value="ERROR" />
+			<xs:enumeration value="FATAL" />
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="logModeType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="MODE_LIMIT_SIZE" />
+			<xs:enumeration value="MODE_CHANGE_DAILY" />
+			<xs:enumeration value="MODE_STDOUT" />
+			<xs:enumeration value="MODE_CHANGE_MONTHLY" />
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="logEnableType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="ENABLE_NONE" />
+			<xs:enumeration value="ENABLE_NON_SYSTEMATICS" />
+			<xs:enumeration value="ENABLE_SYSTEMATICS" />
+			<xs:enumeration value="ENABLE_ALL" />
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:complexType name="LogType">
+		<xs:attribute name="level" type="logLevelType" use="optional"/>
+		<xs:attribute name="maxFileSizeMB" type="xs:nonNegativeInteger" use="optional"/>
+		<xs:attribute name="maxBackupIndex" type="xs:nonNegativeInteger" use="optional"/>
+		<xs:attribute name="mode" type="logModeType" use="optional"/>
+		<xs:attribute name="enable" type="logEnableType" use="optional"/>
+		<xs:attribute name="module" type="xs:string" use="optional"/>
+		<xs:attribute name="directory" type="xs:string" use="optional"/>
+	</xs:complexType>
+
+	<xs:complexType name="LogsType">
+		<xs:sequence>
+			<xs:element name="Log" type="LogType" maxOccurs="unbounded" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="DomainType">
+		<xs:attribute name="Id" type="xs:string" use="required"/>
+	</xs:complexType>
+
+	<xs:complexType name="ConfigurationFileType">
+		<xs:attribute name="Id" type="xs:string" use="required"/>
+		<xs:attribute name="FileName" type="xs:string" use="required"/>
+	</xs:complexType>
+
+	<xs:complexType name="URLType">
+		<xs:attribute name="url" type="xs:anyURI" use="required"/>
+	</xs:complexType>
+
+	<xs:complexType name="IdType">
+		<xs:attribute name="Id" type="xs:string" use="required"/>
+	</xs:complexType>
+
+	<xs:complexType name="TimeType">
+		<xs:attribute name="Start" type="xs:string" use="required"/>
+		<xs:attribute name="End" type="xs:string" use="required"/>
+	</xs:complexType>
+
+	<xs:complexType name="GroupType">
+		<xs:attribute name="Id" type="xs:string" use="required"/>
+		<xs:attribute name="dataClass" type="xs:string" use="required"/>
+		<xs:attribute name="controlled" type="xs:string" use="required"/>
+		<xs:attribute name="readOnly" type="xs:string" use="required"/>
+		<xs:attribute name="filterOut" type="xs:string" use="required"/>
+	</xs:complexType>
+
+	<xs:simpleType name="playType">
+		<xs:annotation>
+			<xs:documentation>level can be PLAY_ONCE, PLAY_INDEFINATE or PLAY_COUNT:n; where n is a number detailing the maximum play count</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="PLAY_ONCE" />
+			<xs:enumeration value="PLAY_INDEFINATE" />
+			<xs:enumeration value="PLAY_COUNT:n" />
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:complexType name="appDataType">
+		<xs:attribute name="data" type="playType" use="required"/>
+	</xs:complexType>
+
+	<xs:complexType name="HistoryType">
+		<xs:attribute name="source" type="xs:string" use="required"/>
+		<xs:attribute name="enable" type="xs:boolean" use="required"/>
+	</xs:complexType>
+
+	<xs:complexType name="AuthorisationType">
+		<xs:attribute name="enable" type="xs:boolean" use="required"/>
+		<xs:attribute name="file" type="xs:string" use="required"/>
+		<xs:attribute name="directory" type="xs:string" use="required"/>
+		<xs:attribute name="operationClass" type="xs:string" use="required"/>
+	</xs:complexType>
+
+	<!-- Root element -->
+	<xs:element name="DockingSheet">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element	name="Logs"
+							type="LogsType"
+							minOccurs="0" />
+				<xs:element	name="Domain"
+							type="DomainType"
+							minOccurs="0" />
+				<xs:element	name="ConfigurationFile"
+							type="ConfigurationFileType"
+							minOccurs="0"
+							maxOccurs="unbounded" />
+				<xs:element	name="ReadURL"
+							type="URLType"
+							minOccurs="0" />
+				<xs:element	name="SPMWriteURL"
+							type="URLType"
+							minOccurs="0" />
+				<xs:element	name="TMWriteURL"
+							type="URLType"
+							minOccurs="0" />
+				<xs:element	name="HubStation"
+							type="IdType"
+							minOccurs="0" />
+				<xs:element	name="Platform"
+							type="IdType"
+							minOccurs="0" 
+							maxOccurs="unbounded" />
+				<xs:element	name="Time"
+							type="TimeType"
+							minOccurs="0" />
+				<xs:element	name="Group"
+							type="GroupType"
+							minOccurs="0"
+							maxOccurs="unbounded" />
+				<xs:element	name="DueStation"
+							type="IdType"
+							minOccurs="0"
+							maxOccurs="4" />
+				<xs:element	name="ObsStation"
+							type="IdType"
+							minOccurs="0"
+							maxOccurs="4" />
+				<xs:element	name="AppData"
+							type="appDataType"
+							minOccurs="0" />
+				<xs:element	name="History"
+							type="HistoryType"
+							minOccurs="0" />
+				<xs:element	name="Authorisation"
+							type="AuthorisationType"
+							minOccurs="0" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+</xs:schema>

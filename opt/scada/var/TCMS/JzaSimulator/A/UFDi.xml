@@ -1,0 +1,1032 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configs>
+	<SignallingIndication xml:id="E404.JR">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMP404J</sourceURL>
+		<offset>12</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E406.JR">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMP406J</sourceURL>
+		<offset>8</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E408.JR">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMP408J</sourceURL>
+		<offset>4</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E409.JR">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMP409J</sourceURL>
+		<offset>0</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E424.JR">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMP424J</sourceURL>
+		<offset>12</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E454.PGFP">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIME(SPC)C</sourceURL>
+		<offset>0</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E538.PGFP">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIME(GPC)C</sourceURL>
+		<offset>0</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L426.DTOP">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIML(BFR)D</sourceURL>
+		<offset>4</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L426.BPOK">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIML(BFR)C</sourceURL>
+		<offset>5</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L426.FGNP">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIML(BFR)B</sourceURL>
+		<offset>6</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L426.FCP">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIML(BFR)A</sourceURL>
+		<offset>7</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L448.DTOP">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIML(BKSR)D</sourceURL>
+		<offset>4</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L448.BPOK">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIML(BKSR)C</sourceURL>
+		<offset>5</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L448.FGNP">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIML(BKSR)B</sourceURL>
+		<offset>6</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L448.FCP">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIML(BKSR)A</sourceURL>
+		<offset>7</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L478.DTOP">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIML(BDYR)D</sourceURL>
+		<offset>12</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L478.BPOK">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIML(BDYR)C</sourceURL>
+		<offset>13</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L478.FGNP">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIML(BDYR)B</sourceURL>
+		<offset>14</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L478.FCP">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIML(BDYR)A</sourceURL>
+		<offset>15</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L504.FGNP">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIML(CE)B</sourceURL>
+		<offset>10</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L504.FCP">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIML(CE)A</sourceURL>
+		<offset>11</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L504.DTOP">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIML(CE)D</sourceURL>
+		<offset>8</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L504.BPOK">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIML(CE)C</sourceURL>
+		<offset>9</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L512.FGNP">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIML(BYSR)B</sourceURL>
+		<offset>10</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L512.FCP">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIML(BYSR)A</sourceURL>
+		<offset>11</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L512.DTOP">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIML(BYSR)D</sourceURL>
+		<offset>8</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L512.BPOK">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIML(BYSR)C</sourceURL>
+		<offset>9</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L573.DTOP">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIML(CR)D</sourceURL>
+		<offset>12</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L573.BPOK">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIML(CR)C</sourceURL>
+		<offset>13</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L573.FGNP">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIML(CR)B</sourceURL>
+		<offset>14</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L573.FCP">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIML(CR)A</sourceURL>
+		<offset>15</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P404.LRP">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMP404C</sourceURL>
+		<offset>13</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P404.RWCR">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMP404B</sourceURL>
+		<offset>14</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P404.NWCR">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMP404A</sourceURL>
+		<offset>15</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P406.RWCR">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMP406B</sourceURL>
+		<offset>10</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P406.NWCR">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMP406A</sourceURL>
+		<offset>11</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P406.LRP">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMP406C</sourceURL>
+		<offset>9</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P408.LRP">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMP408C</sourceURL>
+		<offset>5</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P408.RWCR">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMP408B</sourceURL>
+		<offset>6</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P408.NWCR">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMP408A</sourceURL>
+		<offset>7</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P409.LRP">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMP409C</sourceURL>
+		<offset>1</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P409.RWCR">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMP409B</sourceURL>
+		<offset>2</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P409.NWCR">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMP409A</sourceURL>
+		<offset>3</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P412.RWCR">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMP412B</sourceURL>
+		<offset>10</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P412.NWCR">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMP412A</sourceURL>
+		<offset>11</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P412.LRP">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMP412C</sourceURL>
+		<offset>9</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P424.LRP">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMP424C</sourceURL>
+		<offset>13</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P424.RWCR">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMP424B</sourceURL>
+		<offset>14</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P424.NWCR">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMP424A</sourceURL>
+		<offset>15</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S424.RGP">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMSGOW424C</sourceURL>
+		<offset>2</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S429.RGP">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMSGOW429C</sourceURL>
+		<offset>1</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S439.RGP">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMSC439C</sourceURL>
+		<offset>7</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S454.RGP">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMSC454C</sourceURL>
+		<offset>6</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S459.RGP">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMSC459C</sourceURL>
+		<offset>5</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S478.RGP">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMSC478C</sourceURL>
+		<offset>4</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S483.RGP">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMSC483C</sourceURL>
+		<offset>3</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S504.RIP">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMSUFD504G</sourceURL>
+		<offset>12</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S504.ASP">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMSUFD504D</sourceURL>
+		<offset>13</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S504.RGP">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMSUFD504C</sourceURL>
+		<offset>14</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S504.NGP">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMSUFD504A</sourceURL>
+		<offset>15</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S506.RGP">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMSUFD506C</sourceURL>
+		<offset>10</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S506.NGP">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMSUFD506A</sourceURL>
+		<offset>11</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S506.RIP">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMSUFD506G</sourceURL>
+		<offset>8</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S506.ASP">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMSUFD506D</sourceURL>
+		<offset>9</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S508.RIP">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMSUFD508G</sourceURL>
+		<offset>4</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S508.ASP">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMSUFD508D</sourceURL>
+		<offset>5</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S508.RGP">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMSUFD508C</sourceURL>
+		<offset>6</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S508.NGP">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMSUFD508A</sourceURL>
+		<offset>7</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S509.RIP">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMSUFD509G</sourceURL>
+		<offset>0</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S509.CPBS">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMSUFD509F</sourceURL>
+		<offset>1</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S509.ASP">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMSUFD509D</sourceURL>
+		<offset>3</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S509.RGP">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMSUFD509C</sourceURL>
+		<offset>4</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S509.CGR">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMSUFD509B</sourceURL>
+		<offset>5</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S509.NGP">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMSUFD509A</sourceURL>
+		<offset>6</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S512.ASP">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMSUFD512D</sourceURL>
+		<offset>11</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S512.RGP">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMSUFD512C</sourceURL>
+		<offset>12</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S512.CGR">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMSUFD512B</sourceURL>
+		<offset>13</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S512.NGP">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMSUFD512A</sourceURL>
+		<offset>14</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S512.RIP">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMSUFD512G</sourceURL>
+		<offset>8</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S512.CPBS">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMSUFD512F</sourceURL>
+		<offset>9</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S513.RIP">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMSUFD513G</sourceURL>
+		<offset>0</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S513.CPBS">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMSUFD513F</sourceURL>
+		<offset>1</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S513.ASP">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMSUFD513D</sourceURL>
+		<offset>3</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S513.RGP">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMSUFD513C</sourceURL>
+		<offset>4</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S513.CGR">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMSUFD513B</sourceURL>
+		<offset>5</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S513.NGP">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMSUFD513A</sourceURL>
+		<offset>6</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S515.RGP">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMSC515C</sourceURL>
+		<offset>0</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S522.ASP">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMSGOW522D</sourceURL>
+		<offset>11</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S522.RGP">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMSGOW522C</sourceURL>
+		<offset>12</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S522.NGP">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMSGOW522A</sourceURL>
+		<offset>13</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S522.RIP">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMSGOW522G</sourceURL>
+		<offset>8</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S522.CPBS">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMSGOW522F</sourceURL>
+		<offset>9</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S524.RIP">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMSGOW524G</sourceURL>
+		<offset>0</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S524.CPBS">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMSGOW524F</sourceURL>
+		<offset>1</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S524.ASP">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMSGOW524D</sourceURL>
+		<offset>3</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S524.RGP">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMSGOW524C</sourceURL>
+		<offset>4</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S524.CGR">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMSGOW524B</sourceURL>
+		<offset>5</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S524.NGP">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMSGOW524A</sourceURL>
+		<offset>6</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S529.ASP">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMSGOW529D</sourceURL>
+		<offset>11</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S529.RGP">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMSGOW529C</sourceURL>
+		<offset>12</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S529.NGP">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMSGOW529A</sourceURL>
+		<offset>14</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S529.RIP">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMSGOW529G</sourceURL>
+		<offset>8</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S529.CPBS">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMSGOW529F</sourceURL>
+		<offset>9</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T404.TPK">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMT404A</sourceURL>
+		<offset>7</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T406.TPK">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMT406A</sourceURL>
+		<offset>6</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T408.TPK">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMT408A</sourceURL>
+		<offset>5</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T413.TPK">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMTC413A</sourceURL>
+		<offset>4</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T424.TPK">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMT424A</sourceURL>
+		<offset>3</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T429.TPK">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMT429A</sourceURL>
+		<offset>2</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T434.TPK">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMTC434A</sourceURL>
+		<offset>1</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T437.TPK">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMTC437A</sourceURL>
+		<offset>0</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T439.TPK">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMT439A</sourceURL>
+		<offset>15</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T448.TPK">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMTC448A</sourceURL>
+		<offset>14</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T449.TPK">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMTC449A</sourceURL>
+		<offset>13</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T453.TPK">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMTC453A</sourceURL>
+		<offset>12</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T454.TPK">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMTC454A</sourceURL>
+		<offset>11</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T459.TPK">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMTC459A</sourceURL>
+		<offset>10</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T460.TPK">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMTC460A</sourceURL>
+		<offset>9</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T466.TPK">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMTC466A</sourceURL>
+		<offset>8</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T467.TPK">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMTC467A</sourceURL>
+		<offset>7</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T477.TPK">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMTC477A</sourceURL>
+		<offset>6</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T478.TPK">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMTC478A</sourceURL>
+		<offset>5</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T482.TPK">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMTC482A</sourceURL>
+		<offset>4</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T483.TPK">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMTC483A</sourceURL>
+		<offset>3</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T484.TPK">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMTC484A</sourceURL>
+		<offset>2</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T487.TPK">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMTC487A</sourceURL>
+		<offset>1</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T501.TPK">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMTC501A</sourceURL>
+		<offset>15</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T504.TPK">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMTC504A</sourceURL>
+		<offset>14</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T509.TPK">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMT509A</sourceURL>
+		<offset>13</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T511.TPK">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMT511A</sourceURL>
+		<offset>12</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T512.TPK">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMT512A</sourceURL>
+		<offset>11</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T513.TPK">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMT513A</sourceURL>
+		<offset>10</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T515.TPK">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMTC515A</sourceURL>
+		<offset>9</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T518.TPK">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMTC518A</sourceURL>
+		<offset>8</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T519.TPK">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMTC519A</sourceURL>
+		<offset>7</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T522.TPK">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMT522A</sourceURL>
+		<offset>6</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T524.TPK">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMT524A</sourceURL>
+		<offset>5</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T527.TPK">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMTC527A</sourceURL>
+		<offset>4</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T529.TPK">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMT529A</sourceURL>
+		<offset>3</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T534.TPK">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMTC534A</sourceURL>
+		<offset>2</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T538.TPK">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMTC538A</sourceURL>
+		<offset>1</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T557.TPK">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMTC557A</sourceURL>
+		<offset>15</offset>
+		<word>12</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T573.TPK">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMTC573A</sourceURL>
+		<offset>14</offset>
+		<word>12</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T575.TPK">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMTC575A</sourceURL>
+		<offset>13</offset>
+		<word>12</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T581.TPK">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMTC581A</sourceURL>
+		<offset>12</offset>
+		<word>12</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T593.TPK">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMTC593A</sourceURL>
+		<offset>11</offset>
+		<word>12</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T621.TPK">
+		<interlockingName>UFD</interlockingName>
+		<deviceName>config:/JzaSimulator#UFD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/UFD/mnem/LIMTC621A</sourceURL>
+		<offset>8</offset>
+		<word>12</word>
+	</SignallingIndication>
+</Configs>

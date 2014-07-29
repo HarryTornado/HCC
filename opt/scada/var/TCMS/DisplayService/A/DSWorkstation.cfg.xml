@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Config>
+	<DSMain xml_id="DisplayService">
+		<serviceURL>oil://DisplayService.TCMS</serviceURL>
+		<servicePath>/dsi</servicePath>
+		<trainListURL>oil://ARS.TCMS/trainlist</trainListURL>
+		<trainTrackerURL>oil://TrainDescriber.TCMS</trainTrackerURL>
+		<asURL>oil://DisplayService.TCMS</asURL>
+
+		<!-- The visibility layers. Note that signals is the default
+			value because it comes first in this list. -->
+		<layers>
+			<layer name="signals"/>
+			<layer name="points"/>
+			<layer name="trkccts"/>
+		</layers>
+
+		<!-- The configuration for each workstation.  Note there can be
+			no more than 1..8 vdus per workstation, though not all need
+			be on any given workstation.
+		-->
+		<workstations>
+			<workstation hostname="WorkStation#1">
+				<queryLineURL>/enquiryline</queryLineURL>
+				<layerURL>/visiblelayer</layerURL>
+				<vdus>
+					<vdu id="1" width="1680" height="1050">
+						<sammi crt="1"/>
+						<xdisplay hostname="WorkStation#1" display="0" screen="0" x_offset="0" y_offset="0"/>
+					</vdu>
+					<vdu id="2" width="1680" height="1050">
+						<sammi crt="2"/>
+						<xdisplay hostname="WorkStation#1" display="0" screen="0" x_offset="1680" y_offset="0"/>
+					</vdu>
+				</vdus>
+				<defaults>
+					<command code="DAP" default_vdu="1"/>
+					<command code="DAS" default_vdu="1"/>
+					<command code="DAT" default_vdu="1"/>
+					<command code="DDS" default_vdu="1"/>
+					<command code="DPQ" default_vdu="1"/>
+					<command code="ETG" default_vdu="2"/>
+					<command code="ETP" default_vdu="2"/>
+					<command code="LTP" default_vdu="2"/>
+					<command code="RQP" default_vdu="1"/>
+					<command code="RSV" default_vdu="2"/>
+				</defaults>
+			</workstation>
+		</workstations>
+	</DSMain>
+</Config>

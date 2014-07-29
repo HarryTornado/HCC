@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scenario>
+	<header>
+		<name>sleevePoints</name>
+		<author>MCM</author>
+		<description>Test the sleeving and unsleeving of points</description>
+		<date>09/12/2010</date>
+	</header>
+	<actions>
+		<!-- Cycle all points -->
+		<cli>PTS SHM/P808D</cli>
+		<sleep>1</sleep>
+                <cli>PTS SHM/P813U</cli>
+		<sleep>1</sleep>
+                <cli>PTS SHM/P815D</cli>
+		<sleep>1</sleep>
+                <cli>PTS SHM/P814</cli>
+		<sleep>1</sleep>
+		<cli>PTU SHM/P808D</cli>
+                <sleep>1</sleep>
+                <cli>PTU SHM/P813U</cli>    
+                <sleep>1</sleep>
+                <cli>PTU SHM/P815D</cli>
+                <sleep>1</sleep>
+                <cli>PTU SHM/P814</cli>
+                <sleep>1</sleep>
+	</actions>
+</scenario>

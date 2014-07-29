@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configs>
+	<SignallingIndication xml:id="E048.JR">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/48JR</sourceURL>
+		<offset>2</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E055.JR">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/55JR</sourceURL>
+		<offset>14</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P043.LRP">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/43.LRP</sourceURL>
+		<offset>7</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P043.RWCR">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/43RWCR</sourceURL>
+		<offset>8</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P043.NWCR">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/43NWCR</sourceURL>
+		<offset>9</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P048.LRP">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/48.LRP</sourceURL>
+		<offset>3</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P048.RWCR">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/48RWCR</sourceURL>
+		<offset>4</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P048.NWCR">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/48NWCR</sourceURL>
+		<offset>5</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P055.RWCR">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/55RWCR</sourceURL>
+		<offset>0</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P055.NWCR">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/55NWCR</sourceURL>
+		<offset>1</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P055.LRP">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/55.LRP</sourceURL>
+		<offset>15</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S044.RGP">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/44RGP</sourceURL>
+		<offset>13</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S046.RGP">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/46RGP</sourceURL>
+		<offset>12</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S050.RGP">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/50RGP</sourceURL>
+		<offset>11</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S053.RGP">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/53RGP</sourceURL>
+		<offset>10</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S059.RGP">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/59RGP</sourceURL>
+		<offset>9</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S140.RIP">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/140RIP</sourceURL>
+		<offset>0</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S140.AOR">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/140AOR</sourceURL>
+		<offset>2</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S140.ASP">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/140ASP</sourceURL>
+		<offset>3</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S140.RGP">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/140RGP</sourceURL>
+		<offset>4</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S140.NGP">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/140NGP</sourceURL>
+		<offset>5</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S142.RIP">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/142RIP</sourceURL>
+		<offset>2</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S142.CPBS">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/142CPBS</sourceURL>
+		<offset>3</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S142.AOR">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/142AOR</sourceURL>
+		<offset>4</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S142.ASP">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/142ASP</sourceURL>
+		<offset>5</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S142.RGP">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/142RGP</sourceURL>
+		<offset>6</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S142.CGR">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/142CGR</sourceURL>
+		<offset>7</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S142.NGP">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/142NGP</sourceURL>
+		<offset>8</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S143.CGR">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/143CGR</sourceURL>
+		<offset>0</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S143.NGP">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/143NGP</sourceURL>
+		<offset>1</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S143.RIP">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/143RIP</sourceURL>
+		<offset>11</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S143.CPBS">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/143CPBS</sourceURL>
+		<offset>12</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S143.AOR">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/143AOR</sourceURL>
+		<offset>13</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S143.ASP">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/143ASP</sourceURL>
+		<offset>14</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S143.RGP">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/143RGP</sourceURL>
+		<offset>15</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S144.NGP">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/144NGP</sourceURL>
+		<offset>10</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S144.RIP">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/144RIP</sourceURL>
+		<offset>4</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S144.AOR">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/144AOR</sourceURL>
+		<offset>6</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S144.ASP">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/144ASP</sourceURL>
+		<offset>7</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S144.RGP">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/144RGP</sourceURL>
+		<offset>8</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S148.ASP">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/148ASP</sourceURL>
+		<offset>0</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S148.RGP">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/148RGP</sourceURL>
+		<offset>1</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S148.CGR">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/148CGR</sourceURL>
+		<offset>2</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S148.NGP">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/148NGP</sourceURL>
+		<offset>3</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S148.RIP">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/148RIP</sourceURL>
+		<offset>13</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S148.CPBS">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/148CPBS</sourceURL>
+		<offset>14</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S148.AOR">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/148AOR</sourceURL>
+		<offset>15</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S153.RGP">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/153RGP</sourceURL>
+		<offset>10</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S153.CGR">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/153CGR</sourceURL>
+		<offset>11</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S153.NGP">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/153NGP</sourceURL>
+		<offset>12</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S153.RIP">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/153RIP</sourceURL>
+		<offset>6</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S153.CPBS">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/153CPBS</sourceURL>
+		<offset>7</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S153.AOR">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/153AOR</sourceURL>
+		<offset>8</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S153.ASP">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/153ASP</sourceURL>
+		<offset>9</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S155.CPBS">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/155CPBS</sourceURL>
+		<offset>0</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S155.AOR">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/155AOR</sourceURL>
+		<offset>1</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S155.ASP">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/155ASP</sourceURL>
+		<offset>2</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S155.RGP">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/155RGP</sourceURL>
+		<offset>3</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S155.CGR">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/155CGR</sourceURL>
+		<offset>4</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S155.NGP">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/155NGP</sourceURL>
+		<offset>5</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S155.RIP">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/155RIP</sourceURL>
+		<offset>15</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S157.AOR">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/157AOR</sourceURL>
+		<offset>11</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S157.ASP">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/157ASP</sourceURL>
+		<offset>12</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S157.RGP">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/157RGP</sourceURL>
+		<offset>13</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S157.NGP">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/157NGP</sourceURL>
+		<offset>14</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S157.RIP">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/157RIP</sourceURL>
+		<offset>9</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S159.AOR">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/159AOR</sourceURL>
+		<offset>10</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S159.ASP">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/159ASP</sourceURL>
+		<offset>11</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S159.RGP">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/159RGP</sourceURL>
+		<offset>12</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S159.NGP">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/159NGP</sourceURL>
+		<offset>14</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S159.RIP">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/159RIP</sourceURL>
+		<offset>8</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T043.TPK">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/043.TPK</sourceURL>
+		<offset>6</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T044.TPK">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/044.TPK</sourceURL>
+		<offset>5</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T046.TPK">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/046.TPK</sourceURL>
+		<offset>4</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T053.TPK">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/053.TPK</sourceURL>
+		<offset>3</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T059.TPK">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/059.TPK</sourceURL>
+		<offset>2</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T140.TPK">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/140.TPK</sourceURL>
+		<offset>1</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T142.TPK">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/142.TPK</sourceURL>
+		<offset>0</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T143.TPK">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/143.TPK</sourceURL>
+		<offset>15</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T144.TPK">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/144.TPK</sourceURL>
+		<offset>14</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T148.TPK">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/148.TPK</sourceURL>
+		<offset>13</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T149.TPK">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/149.TPK</sourceURL>
+		<offset>12</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T150.TPK">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/150.TPK</sourceURL>
+		<offset>11</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T152.TPK">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/152.TPK</sourceURL>
+		<offset>10</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T153.TPK">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/153.TPK</sourceURL>
+		<offset>9</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T154.TPK">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/154.TPK</sourceURL>
+		<offset>8</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T155.TPK">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/155.TPK</sourceURL>
+		<offset>7</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T157.TPK">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/157.TPK</sourceURL>
+		<offset>6</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T159.TPK">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/159.TPK</sourceURL>
+		<offset>5</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T377.TPK">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/377.TPK</sourceURL>
+		<offset>4</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T468.TPK">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/JzaSimulator#HDB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/HDB/mnem/468.TPK</sourceURL>
+		<offset>3</offset>
+		<word>7</word>
+	</SignallingIndication>
+</Configs>

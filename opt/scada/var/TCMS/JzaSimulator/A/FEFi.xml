@@ -1,0 +1,822 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configs>
+	<SignallingIndication xml:id="P681.LRP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/681.LRP</sourceURL>
+		<offset>2</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P681.RWCR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/681.RWCR</sourceURL>
+		<offset>3</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P681.NWCR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/681.NWCR</sourceURL>
+		<offset>4</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P682.RWCR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/682.RWCR</sourceURL>
+		<offset>0</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P682.NWCR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/682.NWCR</sourceURL>
+		<offset>1</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P682.LRP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/682.LRP</sourceURL>
+		<offset>15</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P683.LRP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/683.LRP</sourceURL>
+		<offset>12</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P683.RWCR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/683.RWCR</sourceURL>
+		<offset>13</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P683.NWCR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/683.NWCR</sourceURL>
+		<offset>14</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P684.RWCR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/684.RWCR</sourceURL>
+		<offset>10</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P684.NWCR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/684.NWCR</sourceURL>
+		<offset>11</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P684.LRP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/684.LRP</sourceURL>
+		<offset>9</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P685.LRP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/685.LRP</sourceURL>
+		<offset>6</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P685.RWCR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/685.RWCR</sourceURL>
+		<offset>7</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P685.NWCR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/685.NWCR</sourceURL>
+		<offset>8</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P686.LRP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/686.LRP</sourceURL>
+		<offset>3</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P686.RWCR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/686.RWCR</sourceURL>
+		<offset>4</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P686.NWCR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/686.NWCR</sourceURL>
+		<offset>5</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P687.LRP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/687.LRP</sourceURL>
+		<offset>0</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P687.RWCR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/687.RWCR</sourceURL>
+		<offset>1</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P687.NWCR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/687.NWCR</sourceURL>
+		<offset>2</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P688.LRP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/688.LRP</sourceURL>
+		<offset>13</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P688.RWCR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/688.RWCR</sourceURL>
+		<offset>14</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P688.NWCR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/688.NWCR</sourceURL>
+		<offset>15</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P689.LRP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/689.LRP</sourceURL>
+		<offset>10</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P689.RWCR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/689.RWCR</sourceURL>
+		<offset>11</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P689.NWCR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/689.NWCR</sourceURL>
+		<offset>12</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S674.RGP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/674.RGP</sourceURL>
+		<offset>13</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S676.RGP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/676.RGP</sourceURL>
+		<offset>12</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S677.RGP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/677.RGP</sourceURL>
+		<offset>10</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S678.RGP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/678.RGP</sourceURL>
+		<offset>5</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S679.RGP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/679.RGP</sourceURL>
+		<offset>4</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S697.RGP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/697.RGP</sourceURL>
+		<offset>3</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S698.RGP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/698.RGP</sourceURL>
+		<offset>2</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S782.RIP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/782.RIP</sourceURL>
+		<offset>2</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S782.CPBS">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/782.CPBS</sourceURL>
+		<offset>3</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S782.AOR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/782.AOR</sourceURL>
+		<offset>4</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S782.ASP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/782.ASP</sourceURL>
+		<offset>5</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S782.RGP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/782.RGP</sourceURL>
+		<offset>6</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S782.CGR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/782.CGR</sourceURL>
+		<offset>7</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S782.NGP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/782.NGP</sourceURL>
+		<offset>8</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S785.CGR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/785.CGR</sourceURL>
+		<offset>0</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S785.NGP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/785.NGP</sourceURL>
+		<offset>1</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S785.RIP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/785.RIP</sourceURL>
+		<offset>11</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S785.CPBS">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/785.CPBS</sourceURL>
+		<offset>12</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S785.AOR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/785.AOR</sourceURL>
+		<offset>13</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S785.ASP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/785.ASP</sourceURL>
+		<offset>14</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S785.RGP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/785.RGP</sourceURL>
+		<offset>15</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S786.NGP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/786.NGP</sourceURL>
+		<offset>10</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S786.RIP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/786.RIP</sourceURL>
+		<offset>4</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S786.CPBS">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/786.CPBS</sourceURL>
+		<offset>5</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S786.AOR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/786.AOR</sourceURL>
+		<offset>6</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S786.ASP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/786.ASP</sourceURL>
+		<offset>7</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S786.RGP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/786.RGP</sourceURL>
+		<offset>8</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S786.CGR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/786.CGR</sourceURL>
+		<offset>9</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S787.ASP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/787.ASP</sourceURL>
+		<offset>0</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S787.RGP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/787.RGP</sourceURL>
+		<offset>1</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S787.CGR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/787.CGR</sourceURL>
+		<offset>2</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S787.NGP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/787.NGP</sourceURL>
+		<offset>3</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S787.RIP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/787.RIP</sourceURL>
+		<offset>13</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S787.CPBS">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/787.CPBS</sourceURL>
+		<offset>14</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S787.AOR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/787.AOR</sourceURL>
+		<offset>15</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S798.RGP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/798.RGP</sourceURL>
+		<offset>10</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S798.CGR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/798.CGR</sourceURL>
+		<offset>11</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S798.NGP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/798.NGP</sourceURL>
+		<offset>12</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S798.RIP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/798.RIP</sourceURL>
+		<offset>6</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S798.CPBS">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/798.CPBS</sourceURL>
+		<offset>7</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S798.AOR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/798.AOR</sourceURL>
+		<offset>8</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S798.ASP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/798.ASP</sourceURL>
+		<offset>9</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S853.RGP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/853.RGP</sourceURL>
+		<offset>5</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S854.RGP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/854.RGP</sourceURL>
+		<offset>4</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S855.RGP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/855.RGP</sourceURL>
+		<offset>3</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S982.AOR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/982.AOR</sourceURL>
+		<offset>10</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S982.ASP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/982.ASP</sourceURL>
+		<offset>11</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S982.RGP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/982.RGP</sourceURL>
+		<offset>12</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S982.CGR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/982.CGR</sourceURL>
+		<offset>13</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S982.NGP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/982.NGP</sourceURL>
+		<offset>14</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S982.RIP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/982.RIP</sourceURL>
+		<offset>8</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S982.CPBS">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/982.CPBS</sourceURL>
+		<offset>9</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T631.TPK">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/631.TPK</sourceURL>
+		<offset>13</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T639.TPK">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/639.TPK</sourceURL>
+		<offset>12</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T647.TPK">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/647.TPK</sourceURL>
+		<offset>11</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T661.TPK">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/661.TPK</sourceURL>
+		<offset>10</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T663.TPK">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/663.TPK</sourceURL>
+		<offset>9</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T674.TPK">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/674.TPK</sourceURL>
+		<offset>8</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T676.TPK">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/676.TPK</sourceURL>
+		<offset>7</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T677.TPK">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/677.TPK</sourceURL>
+		<offset>6</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T678.TPK">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/678.TPK</sourceURL>
+		<offset>5</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T679.TPK">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/679.TPK</sourceURL>
+		<offset>4</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T681.TPK">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/681.TPK</sourceURL>
+		<offset>3</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T682.TPK">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/682.TPK</sourceURL>
+		<offset>2</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T697.TPK">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/697.TPK</sourceURL>
+		<offset>1</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T698.TPK">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/698.TPK</sourceURL>
+		<offset>0</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T699.TPK">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/699.TPK</sourceURL>
+		<offset>15</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T700.TPK">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/700.TPK</sourceURL>
+		<offset>2</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T747.TPK">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/747.TPK</sourceURL>
+		<offset>14</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T769.TPK">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/769.TPK</sourceURL>
+		<offset>13</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T781.TPK">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/781.TPK</sourceURL>
+		<offset>11</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T782.TPK">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/782.TPK</sourceURL>
+		<offset>10</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T783.TPK">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/783.TPK</sourceURL>
+		<offset>9</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T784.TPK">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/784.TPK</sourceURL>
+		<offset>8</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T785.TPK">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/785.TPK</sourceURL>
+		<offset>7</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T786.TPK">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/786.TPK</sourceURL>
+		<offset>6</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T787.TPK">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/787.TPK</sourceURL>
+		<offset>5</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T788.TPK">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/788.TPK</sourceURL>
+		<offset>4</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T789.TPK">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/789.TPK</sourceURL>
+		<offset>3</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T792.TPK">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/792.TPK</sourceURL>
+		<offset>2</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T793.TPK">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/793.TPK</sourceURL>
+		<offset>1</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T798.TPK">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/798.TPK</sourceURL>
+		<offset>0</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T853.TPK">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/853.TPK</sourceURL>
+		<offset>15</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T854.TPK">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/854.TPK</sourceURL>
+		<offset>14</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T855.TPK">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/855.TPK</sourceURL>
+		<offset>13</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T856IB.TPK">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/856.TPK</sourceURL>
+		<offset>12</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T879.TPK">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/879.TPK</sourceURL>
+		<offset>11</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T885.TPK">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/885.TPK</sourceURL>
+		<offset>9</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T980.TPK">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/980.TPK</sourceURL>
+		<offset>7</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T982.TPK">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEF</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/982.TPK</sourceURL>
+		<offset>6</offset>
+		<word>11</word>
+	</SignallingIndication>
+</Configs>

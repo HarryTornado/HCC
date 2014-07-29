@@ -1,0 +1,815 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configs>
+	<SignallingIndication xml:id="E005.BF">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/E005.BF</sourceURL>
+		<offset>12</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E110.PGFP">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/E110.PGFP</sourceURL>
+		<offset>15</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E473.PGFP">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/E473.PGFP</sourceURL>
+		<offset>14</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L104.FGNP">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/104.FGNP</sourceURL>
+		<offset>8</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L104.FCP">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/104.FCP</sourceURL>
+		<offset>9</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L473.FGNP">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/473.FGNP</sourceURL>
+		<offset>4</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L473.FCP">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/473.FCP</sourceURL>
+		<offset>5</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P004.LRP">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/004.LRP</sourceURL>
+		<offset>6</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P004.RWCR">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/004.RWCR</sourceURL>
+		<offset>7</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P004.NWCR">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/004.NWCR</sourceURL>
+		<offset>8</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P006.LRP">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/006.LRP</sourceURL>
+		<offset>3</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P006.RWCR">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/006.RWCR</sourceURL>
+		<offset>4</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P006.NWCR">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/006.NWCR</sourceURL>
+		<offset>5</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P007.LRP">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/007.LRP</sourceURL>
+		<offset>0</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P007.RWCR">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/007.RWCR</sourceURL>
+		<offset>1</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P007.NWCR">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/007.NWCR</sourceURL>
+		<offset>2</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P009.LRP">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/009.LRP</sourceURL>
+		<offset>13</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P009.RWCR">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/009.RWCR</sourceURL>
+		<offset>14</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P009.NWCR">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/009.NWCR</sourceURL>
+		<offset>15</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P011.LRP">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/011.LRP</sourceURL>
+		<offset>10</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P011.RWCR">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/011.RWCR</sourceURL>
+		<offset>11</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P011.NWCR">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/011.NWCR</sourceURL>
+		<offset>12</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S101.RIP">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/101.RIP</sourceURL>
+		<offset>10</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S101.AOR">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/101.AOR</sourceURL>
+		<offset>12</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S101.ASP">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/101.ASP</sourceURL>
+		<offset>13</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S101.RGP">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/101.RGP</sourceURL>
+		<offset>14</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S101.NGP">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/101.NGP</sourceURL>
+		<offset>15</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S102.RIP">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/102.RIP</sourceURL>
+		<offset>4</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S102.AOR">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/102.AOR</sourceURL>
+		<offset>6</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S102.ASP">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/102.ASP</sourceURL>
+		<offset>7</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S102.RGP">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/102.RGP</sourceURL>
+		<offset>8</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S102.NGP">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/102.NGP</sourceURL>
+		<offset>9</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S104.CPBS">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/104.CPBS</sourceURL>
+		<offset>10</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S104.AOR">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/104.AOR</sourceURL>
+		<offset>11</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S104.ASP">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/104.ASP</sourceURL>
+		<offset>12</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S104.RGP">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/104.RGP</sourceURL>
+		<offset>13</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S104.CGR">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/104.CGR</sourceURL>
+		<offset>14</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S104.NGP">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/104.NGP</sourceURL>
+		<offset>15</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S104.RIP">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/104.RIP</sourceURL>
+		<offset>9</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S106.RIP">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/106.RIP</sourceURL>
+		<offset>4</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S106.ASP">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/106.ASP</sourceURL>
+		<offset>5</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S106.RGP">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/106.RGP</sourceURL>
+		<offset>6</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S106.NGP">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/106.NGP</sourceURL>
+		<offset>7</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S107.RIP">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/107.RIP</sourceURL>
+		<offset>2</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S107.CPBS">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/107.CPBS</sourceURL>
+		<offset>3</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S107.AOR">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/107.AOR</sourceURL>
+		<offset>4</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S107.ASP">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/107.ASP</sourceURL>
+		<offset>5</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S107.RGP">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/107.RGP</sourceURL>
+		<offset>6</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S107.CGR">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/107.CGR</sourceURL>
+		<offset>7</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S107.NGP">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/107.NGP</sourceURL>
+		<offset>8</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S108.RIP">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/108.RIP</sourceURL>
+		<offset>0</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S108.ASP">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/108.ASP</sourceURL>
+		<offset>1</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S108.RGP">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/108.RGP</sourceURL>
+		<offset>2</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S108.NGP">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/108.NGP</sourceURL>
+		<offset>3</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S109.CGR">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/109.CGR</sourceURL>
+		<offset>0</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S109.NGP">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/109.NGP</sourceURL>
+		<offset>1</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S109.RIP">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/109.RIP</sourceURL>
+		<offset>11</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S109.CPBS">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/109.CPBS</sourceURL>
+		<offset>12</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S109.AOR">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/109.AOR</sourceURL>
+		<offset>13</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S109.ASP">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/109.ASP</sourceURL>
+		<offset>14</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S109.RGP">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/109.RGP</sourceURL>
+		<offset>15</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S110.AOR">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/110.AOR</sourceURL>
+		<offset>0</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S110.ASP">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/110.ASP</sourceURL>
+		<offset>1</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S110.RGP">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/110.RGP</sourceURL>
+		<offset>2</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S110.NGP">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/110.NGP</sourceURL>
+		<offset>3</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S110.RIP">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/110.RIP</sourceURL>
+		<offset>14</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S111.NGP">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/111.NGP</sourceURL>
+		<offset>10</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S111.RIP">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/111.RIP</sourceURL>
+		<offset>4</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S111.CPBS">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/111.CPBS</sourceURL>
+		<offset>5</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S111.AOR">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/111.AOR</sourceURL>
+		<offset>6</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S111.ASP">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/111.ASP</sourceURL>
+		<offset>7</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S111.RGP">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/111.RGP</sourceURL>
+		<offset>8</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S111.CGR">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/111.CGR</sourceURL>
+		<offset>9</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S113.AOR">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/113.AOR</sourceURL>
+		<offset>10</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S113.ASP">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/113.ASP</sourceURL>
+		<offset>11</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S113.RGP">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/113.RGP</sourceURL>
+		<offset>12</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S113.NGP">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/113.NGP</sourceURL>
+		<offset>13</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S113.RIP">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/113.RIP</sourceURL>
+		<offset>8</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S468.RGP">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/468.RGP</sourceURL>
+		<offset>15</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S473.RGP">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/473.RGP</sourceURL>
+		<offset>14</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S488.RGP">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/488.RGP</sourceURL>
+		<offset>13</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S489.RGP">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/489.RGP</sourceURL>
+		<offset>12</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S563.RGP">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/563.RGP</sourceURL>
+		<offset>11</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S585.RGP">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/585.RGP</sourceURL>
+		<offset>10</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S604.RGP">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/604.RGP</sourceURL>
+		<offset>9</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T006.TPK">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/006.TPK</sourceURL>
+		<offset>15</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T007.TPK">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/007.TPK</sourceURL>
+		<offset>14</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T009.TPK">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/009.TPK</sourceURL>
+		<offset>13</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T011.TPK">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/011.TPK</sourceURL>
+		<offset>12</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T050.TPK">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/050.TPK</sourceURL>
+		<offset>11</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T102.TPK">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/102.TPK</sourceURL>
+		<offset>10</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T104.TPK">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/104.TPK</sourceURL>
+		<offset>9</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T106.TPK">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/106.TPK</sourceURL>
+		<offset>8</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T107.TPK">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/107.TPK</sourceURL>
+		<offset>7</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T108.TPK">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/108.TPK</sourceURL>
+		<offset>6</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T109.TPK">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/109.TPK</sourceURL>
+		<offset>5</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T111.TPK">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/111.TPK</sourceURL>
+		<offset>4</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T113.TPK">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/113.TPK</sourceURL>
+		<offset>3</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T115.TPK">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/115.TPK</sourceURL>
+		<offset>2</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T461.TPK">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/461.TPK</sourceURL>
+		<offset>0</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T470.TPK">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/470.TPK</sourceURL>
+		<offset>15</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T473.TPK">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/473.TPK</sourceURL>
+		<offset>14</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T475.TPK">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/475.TPK</sourceURL>
+		<offset>13</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T488.TPK">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/488.TPK</sourceURL>
+		<offset>12</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T489.TPK">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/489.TPK</sourceURL>
+		<offset>11</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T490.TPK">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/490.TPK</sourceURL>
+		<offset>10</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T497.TPK">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/497.TPK</sourceURL>
+		<offset>9</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T507.TPK">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/507.TPK</sourceURL>
+		<offset>8</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T508.TPK">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/508.TPK</sourceURL>
+		<offset>7</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T537.TPK">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/537.TPK</sourceURL>
+		<offset>6</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T538.TPK">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/538.TPK</sourceURL>
+		<offset>5</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T563.TPK">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/563.TPK</sourceURL>
+		<offset>4</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T584.TPK">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/584.TPK</sourceURL>
+		<offset>3</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T585.TPK">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/585.TPK</sourceURL>
+		<offset>2</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T604.TPK">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/604.TPK</sourceURL>
+		<offset>1</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T610.TPK">
+		<interlockingName>MCD</interlockingName>
+		<deviceName>config:/JzaSimulator#MCD</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MCD/mnem/610.TPK</sourceURL>
+		<offset>0</offset>
+		<word>9</word>
+	</SignallingIndication>
+</Configs>

@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configs>
+	<SignallingIndication xml:id="E005MT.BF">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/JzaSimulator#MTH</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/CHL/005MT.BF/value</sourceURL>
+		<offset>0</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E506.TELER">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#MTH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/E506.TELER</sourceURL>
+		<offset>8</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E506.TELCR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#MTH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/E506.TELCR</sourceURL>
+		<offset>9</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E520.TELER">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#MTH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/E520.TELER</sourceURL>
+		<offset>6</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E520.TELCR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#MTH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/E520.TELCR</sourceURL>
+		<offset>7</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E522.TELER">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#MTH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/E522.TELER</sourceURL>
+		<offset>4</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E522.TELCR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#MTH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/E522.TELCR</sourceURL>
+		<offset>5</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E523.TELER">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#MTH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/E523.TELER</sourceURL>
+		<offset>2</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E523.TELCR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#MTH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/E523.TELCR</sourceURL>
+		<offset>3</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E526.TELER">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#MTH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/E526.TELER</sourceURL>
+		<offset>0</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E526.TELCR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#MTH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/E526.TELCR</sourceURL>
+		<offset>1</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E529.TELER">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#MTH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/E529.TELER</sourceURL>
+		<offset>14</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E529.TELCR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#MTH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/E529.TELCR</sourceURL>
+		<offset>15</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E561.TELER">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#MTH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/E561.TELER</sourceURL>
+		<offset>12</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E561.TELCR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#MTH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/E561.TELCR</sourceURL>
+		<offset>13</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E562.TELER">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#MTH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/E562.TELER</sourceURL>
+		<offset>10</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E562.TELCR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#MTH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/E562.TELCR</sourceURL>
+		<offset>11</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E563.TELER">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#MTH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/E563.TELER</sourceURL>
+		<offset>8</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E563.TELCR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#MTH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/E563.TELCR</sourceURL>
+		<offset>9</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E564.TELER">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#MTH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/E564.TELER</sourceURL>
+		<offset>6</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E564.TELCR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#MTH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/E564.TELCR</sourceURL>
+		<offset>7</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E566.TELER">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#MTH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/E566.TELER</sourceURL>
+		<offset>4</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E566.TELCR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#MTH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/E566.TELCR</sourceURL>
+		<offset>5</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E567.TELER">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#MTH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/E567.TELER</sourceURL>
+		<offset>2</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E567.TELCR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#MTH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/E567.TELCR</sourceURL>
+		<offset>3</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E571.TELER">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#MTH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/E571.TELER</sourceURL>
+		<offset>0</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E571.TELCR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#MTH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/E571.TELCR</sourceURL>
+		<offset>1</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E572.TELER">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#MTH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/E572.TELER</sourceURL>
+		<offset>14</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E572.TELCR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#MTH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/E572.TELCR</sourceURL>
+		<offset>15</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E573.TELER">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#MTH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/E573.TELER</sourceURL>
+		<offset>12</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E573.TELCR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#MTH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/E573.TELCR</sourceURL>
+		<offset>13</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E576.TELER">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#MTH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/E576.TELER</sourceURL>
+		<offset>10</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E576.TELCR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#MTH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/E576.TELCR</sourceURL>
+		<offset>11</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E577.TELER">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#MTH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/E577.TELER</sourceURL>
+		<offset>8</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E577.TELCR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#MTH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/E577.TELCR</sourceURL>
+		<offset>9</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E580.TELER">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#MTH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/E580.TELER</sourceURL>
+		<offset>6</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E580.TELCR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#MTH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/E580.TELCR</sourceURL>
+		<offset>7</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E591.TELER">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#MTH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/E591.TELER</sourceURL>
+		<offset>4</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E591.TELCR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#MTH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/E591.TELCR</sourceURL>
+		<offset>5</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E730.TELER">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#MTH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/E730.TELER</sourceURL>
+		<offset>2</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E730.TELCR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#MTH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/E730.TELCR</sourceURL>
+		<offset>3</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E777.TELER">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#MTH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/E777.TELER</sourceURL>
+		<offset>0</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E777.TELCR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#MTH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/E777.TELCR</sourceURL>
+		<offset>1</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E781.TELER">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#MTH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/E781.TELER</sourceURL>
+		<offset>14</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E781.TELCR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#MTH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/E781.TELCR</sourceURL>
+		<offset>15</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E783.TELER">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#MTH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/E783.TELER</sourceURL>
+		<offset>12</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E783.TELCR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#MTH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/E783.TELCR</sourceURL>
+		<offset>13</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E786.TELER">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#MTH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/E786.TELER</sourceURL>
+		<offset>10</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E786.TELCR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#MTH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/E786.TELCR</sourceURL>
+		<offset>11</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E787.TELER">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#MTH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/E787.TELER</sourceURL>
+		<offset>8</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E787.TELCR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#MTH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/E787.TELCR</sourceURL>
+		<offset>9</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E788.TELER">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#MTH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/E788.TELER</sourceURL>
+		<offset>6</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E788.TELCR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#MTH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/E788.TELCR</sourceURL>
+		<offset>7</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E796.TELER">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#MTH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/E796.TELER</sourceURL>
+		<offset>4</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E796.TELCR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#MTH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/E796.TELCR</sourceURL>
+		<offset>5</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E797.TELER">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#MTH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/E797.TELER</sourceURL>
+		<offset>2</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E797.TELCR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#MTH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/E797.TELCR</sourceURL>
+		<offset>3</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E798.TELER">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#MTH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/E798.TELER</sourceURL>
+		<offset>0</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E798.TELCR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#MTH</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/E798.TELCR</sourceURL>
+		<offset>1</offset>
+		<word>6</word>
+	</SignallingIndication>
+</Configs>

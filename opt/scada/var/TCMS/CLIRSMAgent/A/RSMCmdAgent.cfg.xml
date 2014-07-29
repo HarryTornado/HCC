@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Config>
+
+<CmdAgentMain xml_id="CmdAgentRSMMain">
+	<thisServiceCommandPath>/coreCommand</thisServiceCommandPath>
+	<targetAppHostname>oil://RailwayStateManager.TCMS</targetAppHostname>
+	<thisServiceName>CLIRSMAgent</thisServiceName>
+	<thisServiceHostname>oil://CLIRSMAgent.TCMS</thisServiceHostname>
+	<commandsInfo>
+
+		<!-- Command strings from SC Panel or keyboard. -->
+		<commandInfo registration="^.*" type="SELECT">
+			<data><syntaxOptions>
+
+				<!-- Annul Route -->
+				<description>
+					<syntax mnemonic="ANL">RAILOBJ:signal+</syntax>
+					<selectUrlPath selectContent="set %1!=%1 selected=1">/cli</selectUrlPath>
+					<deselectUrlPath deselectContent="set %1!=%1 selected=0">/cli</deselectUrlPath>
+				</description>
+
+				<!-- Cancel Route -->
+				<description>
+					<syntax mnemonic="CAN" multiple="true">RAILOBJ:signal</syntax>
+					<selectUrlPath selectContent="set %1!=%1 selected=1">/cli</selectUrlPath>
+					<deselectUrlPath deselectContent="set %1!=%1 selected=0">/cli</deselectUrlPath>
+				</description>
+
+				<!-- Points Normal -->
+				<description>
+					<syntax mnemonic="PTN">RAILOBJ:point</syntax>
+					<selectUrlPath selectContent="set %1!=%1 selected=1">/cli</selectUrlPath>
+					<deselectUrlPath deselectContent="set %1!=%1 selected=0">/cli</deselectUrlPath>
+				</description>
+
+				<!-- Points Reverse -->
+				<description>
+					<syntax mnemonic="PTR">RAILOBJ:point</syntax>
+					<selectUrlPath selectContent="set %1!=%1 selected=1">/cli</selectUrlPath>
+					<deselectUrlPath deselectContent="set %1!=%1 selected=0">/cli</deselectUrlPath>
+				</description>
+
+				<!-- Points to Sleeve -->
+				<description>
+					<syntax mnemonic="PTS">RAILOBJ:point</syntax>
+					<selectUrlPath selectContent="set %1!=%1 selected=1">/cli</selectUrlPath>
+					<deselectUrlPath deselectContent="set %1!=%1 selected=0">/cli</deselectUrlPath>
+				</description>
+
+				<!-- Points to Unsleeve -->
+				<description>
+					<syntax mnemonic="PTU">RAILOBJ:point</syntax>
+					<selectUrlPath selectContent="set %1!=%1 selected=1">/cli</selectUrlPath>
+					<deselectUrlPath deselectContent="set %1!=%1 selected=0">/cli</deselectUrlPath>
+				</description>
+
+				<!-- Set Fleeting Off -->
+				<description>
+					<syntax mnemonic="SFF" multiple="true">RAILOBJ:signal</syntax>
+					<selectUrlPath selectContent="set %1!=%1 selected=1">/cli</selectUrlPath>
+					<deselectUrlPath deselectContent="set %1!=%1 selected=0">/cli</deselectUrlPath>
+				</description>
+
+				<!-- Set Fleeting On -->
+				<description>
+					<syntax mnemonic="SFO" multiple="true">RAILOBJ:signal</syntax>
+					<selectUrlPath selectContent="set %1!=%1 selected=1">/cli</selectUrlPath>
+					<deselectUrlPath deselectContent="set %1!=%1 selected=0">/cli</deselectUrlPath>
+				</description>
+
+				<!-- Signal Low Speed -->
+				<description>
+					<syntax mnemonic="SLS" multiple="true">RAILOBJ:signal</syntax>
+					<selectUrlPath selectContent="set %1!=%1 selected=1">/cli</selectUrlPath>
+					<deselectUrlPath deselectContent="set %1!=%1 selected=0">/cli</deselectUrlPath>
+				</description>
+
+				<!-- Signal Manual Operation -->
+				<description>
+					<syntax mnemonic="SMO" multiple="true">RAILOBJ:signal</syntax>
+					<selectUrlPath selectContent="set %1!=%1 selected=1">/cli</selectUrlPath>
+					<deselectUrlPath deselectContent="set %1!=%1 selected=0">/cli</deselectUrlPath>
+				</description>
+
+				<!-- Set Route Command -->
+				<description>
+					<syntax mnemonic="SRO">RAILOBJ:signal RAILOBJ:signal+</syntax>
+					<selectUrlPath selectContent="set %1!=%1 selected=1">/cli</selectUrlPath>
+					<deselectUrlPath deselectContent="set %1!=%1 selected=0">/cli</deselectUrlPath>
+				</description>
+
+				<!-- Set Signal to ARS -->
+				<description>
+					<syntax mnemonic="STD" multiple="true">RAILOBJ:signal</syntax>
+					<selectUrlPath selectContent="set %1!=%1 selected=1">/cli</selectUrlPath>
+					<deselectUrlPath deselectContent="set %1!=%1 selected=0">/cli</deselectUrlPath>
+				</description>
+			</syntaxOptions></data>
+		</commandInfo>
+
+		<!-- General Control Cancel -->
+		<commandInfo registration="^GCC\s.*" type="SELECT">
+			<data><syntaxOptions>
+				<description>
+					<syntax mnemonic="GCC">RAILOBJ:special</syntax>
+					<selectUrlPath selectContent="set object=%1 selected=1">/cli</selectUrlPath>
+					<deselectUrlPath deselectContent="set object=%1 selected=0">/cli</deselectUrlPath>
+				</description>
+			</syntaxOptions></data>
+		</commandInfo>
+
+		<!-- General Control Given -->
+		<commandInfo registration="^GCG\s.*" type="SELECT">
+			<data><syntaxOptions>
+				<description>
+					<syntax mnemonic="GCG">RAILOBJ:special</syntax>
+					<selectUrlPath selectContent="set object=%1 selected=1">/cli</selectUrlPath>
+					<deselectUrlPath deselectContent="set object=%1 selected=0">/cli</deselectUrlPath>
+			</description>
+			</syntaxOptions></data>
+		</commandInfo>
+
+		<!-- Line Control Cancel -->
+		<commandInfo registration="^LCC\s.*" type="SELECT">
+			<data><syntaxOptions>
+				<description>
+					<syntax mnemonic="LCC">RAILOBJ:slcontrol</syntax>
+					<selectUrlPath selectContent="set object=%1 selected=1">/cli</selectUrlPath>
+					<deselectUrlPath deselectContent="set object=%1 selected=0">/cli</deselectUrlPath>
+				</description>
+			</syntaxOptions></data>
+		</commandInfo>
+
+		<!-- Line Control Given -->
+		<commandInfo registration="^LCG\s.*" type="SELECT">
+			<data><syntaxOptions>
+				<description>
+					<syntax mnemonic="LCG">RAILOBJ:slcontrol</syntax>
+					<selectUrlPath selectContent="set object=%1 selected=1">/cli</selectUrlPath>
+					<deselectUrlPath deselectContent="set object=%1 selected=0">/cli</deselectUrlPath>
+				</description>
+			</syntaxOptions></data>
+		</commandInfo>
+
+		<!-- Signal Block -->
+		<commandInfo registration="^SLB\s.*" type="SELECT">
+			<data><syntaxOptions>
+				<description>
+					<syntax mnemonic="SLB">RAILOBJ:signal</syntax>
+					<selectUrlPath selectContent="set %1!=%1 selected=1">/cli</selectUrlPath>
+					<deselectUrlPath deselectContent="set %1!=%1 selected=0">/cli</deselectUrlPath>
+				</description>
+			</syntaxOptions></data>
+		</commandInfo>
+
+		<!-- Signal Unblock -->
+		<commandInfo registration="^SLU\s.*" type="SELECT">
+			<data><syntaxOptions>
+				<description>
+					<syntax mnemonic="SLU">RAILOBJ:signal</syntax>
+					<selectUrlPath selectContent="set %1!=%1 selected=1">/cli</selectUrlPath>
+					<deselectUrlPath deselectContent="set %1!=%1 selected=0">/cli</deselectUrlPath>
+				</description>
+			</syntaxOptions></data>
+		</commandInfo>
+
+		<!-- Track Block -->
+		<commandInfo registration="^TKB\s.*" type="SELECT">
+			<data><syntaxOptions>
+				<description>
+					<syntax mnemonic="TKB">RAILOBJ:trackcct</syntax>
+					<selectUrlPath selectContent="set %1!=%1 selected=1">/cli</selectUrlPath>
+					<deselectUrlPath deselectContent="set %1!=%1 selected=0">/cli</deselectUrlPath>
+				</description>
+			</syntaxOptions></data>
+		</commandInfo>
+
+		<!-- Track Unblock -->
+		<commandInfo registration="^TKU\s.*" type="SELECT">
+			<data><syntaxOptions>
+				<description>
+					<syntax mnemonic="TKU">RAILOBJ:trackcct</syntax>
+					<selectUrlPath selectContent="set %1!=%1 selected=1">/cli</selectUrlPath>
+					<deselectUrlPath deselectContent="set %1!=%1 selected=0">/cli</deselectUrlPath>
+				</description>
+			</syntaxOptions></data>
+		</commandInfo>		
+
+	</commandsInfo>
+</CmdAgentMain>
+
+</Config>
+

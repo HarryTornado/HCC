@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TimetableManager xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TimetableManagerConfig.xsd" acceptedUpdatesPath="log/TimetableManager/accepted-updates" releaseTimetableInMinutes="10">
+    <Timetables>
+	<Timetable amount="1" url="/timetable/" planned-url="/planned-timetable/" config="oil://TimetableManager.TCMS/config"/>
+     </Timetables>
+     <Subsystems>
+        <Subsystem id="TimetableDataLibrary" enable="true" configpath="TTConfigData.xml"/>
+        <Subsystem id="ActivationScheduler" enable="true" configpath="ActivationSchedule.xml"/>
+	<Subsystem id="PathBook" enable="true" configpath="PathBook02A.xml"/>
+	<Subsystem id="ServicePlanManager" enable="true" configpath="ServicePlanManagerConfig.xml"/>
+	<Subsystem id="HistoricalRecord" enable="true" configpath="oil://history.TCMS"/>
+     </Subsystems>
+     <Logs>
+	<!-- level can be TRACE, DEBUG, INFO, WARN, ERROR or FATAL -->
+	<Log level="DEBUG" enableTT="true" enableICS="false"/>
+     </Logs>
+</TimetableManager>

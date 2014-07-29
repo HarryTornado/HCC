@@ -1,0 +1,1563 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configs>
+	<JzaIndication xml:id="C210.CRP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>15</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="C248.CRP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>14</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E152.ACPOR">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>1</offset>
+		<word>18</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E202.ISEP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>1</offset>
+		<word>14</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E203.ISEP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>0</offset>
+		<word>14</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E204.SCREP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>15</offset>
+		<word>15</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E205.EFP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>14</offset>
+		<word>15</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E206.BF">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>13</offset>
+		<word>15</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E207.HIRR">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>12</offset>
+		<word>15</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E208.FIRE">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>11</offset>
+		<word>15</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E215.JR">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>10</offset>
+		<word>15</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E280.JR">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>7</offset>
+		<word>18</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E285.JR">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>6</offset>
+		<word>18</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E287.JR">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>5</offset>
+		<word>18</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E289.JR">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>4</offset>
+		<word>18</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E290.JR">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>3</offset>
+		<word>18</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E291.JR">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>2</offset>
+		<word>18</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E742.PIDF">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>2</offset>
+		<word>14</word>
+	</JzaIndication>
+	<JzaIndication xml:id="L152.DTOP">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>6</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="L152.BPOK">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>7</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="L152.FGNP">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>8</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="L152.FCP">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>9</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P215.LRP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>4</offset>
+		<word>10</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P215.RWCR">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>5</offset>
+		<word>10</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P215.NWCR">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>6</offset>
+		<word>10</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P217.LRP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>1</offset>
+		<word>10</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P217.RWCR">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>2</offset>
+		<word>10</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P217.NWCR">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>3</offset>
+		<word>10</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P219.NWCR">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>0</offset>
+		<word>10</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P219.LRP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>14</offset>
+		<word>11</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P219.RWCR">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>15</offset>
+		<word>11</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P231.LRP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>11</offset>
+		<word>11</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P231.RWCR">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>12</offset>
+		<word>11</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P231.NWCR">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>13</offset>
+		<word>11</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P235.NWCR">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>10</offset>
+		<word>11</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P235.LRP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>8</offset>
+		<word>11</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P235.RWCR">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>9</offset>
+		<word>11</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P243.LRP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>5</offset>
+		<word>11</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P243.RWCR">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>6</offset>
+		<word>11</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P243.NWCR">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>7</offset>
+		<word>11</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P275.LRP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>2</offset>
+		<word>11</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P275.RWCR">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>3</offset>
+		<word>11</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P275.NWCR">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>4</offset>
+		<word>11</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P277.RWCR">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>0</offset>
+		<word>11</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P277.NWCR">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>1</offset>
+		<word>11</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P277.LRP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>15</offset>
+		<word>12</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P280.RWCR">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>0</offset>
+		<word>16</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P280.NWCR">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>1</offset>
+		<word>16</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P280.LRP">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>15</offset>
+		<word>17</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P283.LRP">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>3</offset>
+		<word>17</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P283.RWCR">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>4</offset>
+		<word>17</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P283.NWCR">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>5</offset>
+		<word>17</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P285.LRP">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>12</offset>
+		<word>17</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P285.RWCR">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>13</offset>
+		<word>17</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P285.NWCR">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>14</offset>
+		<word>17</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P287.RWCR">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>10</offset>
+		<word>17</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P287.NWCR">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>11</offset>
+		<word>17</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P287.LRP">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>9</offset>
+		<word>17</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P289.LRP">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>6</offset>
+		<word>17</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P289.RWCR">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>7</offset>
+		<word>17</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P289.NWCR">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>8</offset>
+		<word>17</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P291.LRP">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>2</offset>
+		<word>16</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P291.RWCR">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>3</offset>
+		<word>16</word>
+	</JzaIndication>
+	<JzaIndication xml:id="P291.NWCR">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>4</offset>
+		<word>16</word>
+	</JzaIndication>
+	<JzaIndication xml:id="SH107.RGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>9</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="SL107.RGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>5</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="SH108.RGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>7</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="SL108.RGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>3</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S273.RGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>12</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S277.RGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>6</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S281.RGP">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>8</offset>
+		<word>16</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S293.RGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>0</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S297.RGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>10</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S310.CPBS">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>0</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S310.AOR">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>1</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S310.ASP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>2</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S310.RGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>3</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S310.CGR">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>4</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S310.NGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>5</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S310.RIP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>15</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S312.CPBS">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>10</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S312.ASP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>12</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S312.RGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>13</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S312.NGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>14</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S312.RIP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>9</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S316.RIP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>2</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S316.CPBS">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>3</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S316.AOR">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>4</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S316.ASP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>5</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S316.RGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>6</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S316.CGR">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>7</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S316.NGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>8</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S318.RGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>0</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S318.NGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>1</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S318.RIP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>14</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S318.ASP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>15</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S321.RIP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>10</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S321.ASP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>11</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S321.RGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>12</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S321.NGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>13</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S332.RIP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>3</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S332.CPBS">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>4</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S332.ASP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>6</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S332.RGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>7</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S332.CGR">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>8</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S332.NGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>9</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S334.ASP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>0</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S334.RGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>1</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S334.NGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>2</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S334.RIP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>13</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S334.CPBS">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>14</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S336.RGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>10</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S336.CGR">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>11</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S336.NGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>12</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S336.RIP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>6</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S336.CPBS">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>7</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S336.ASP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>9</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S338.CPBS">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>0</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S338.ASP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>2</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S338.RGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>3</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S338.CGR">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>4</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S338.NGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>5</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S338.RIP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>15</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S340.RIP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>11</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S340.ASP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>12</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S340.RGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>13</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S340.NGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>14</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S343.NGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>10</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S343.RIP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>4</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S343.CPBS">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>5</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S343.ASP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>7</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S343.RGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>8</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S343.CGR">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>9</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S345.ASP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>0</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S345.RGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>1</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S345.CGR">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>2</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S345.NGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>3</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S345.RIP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>13</offset>
+		<word>8</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S345.CPBS">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>14</offset>
+		<word>8</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S372.ASP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>10</offset>
+		<word>8</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S372.RGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>11</offset>
+		<word>8</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S372.NGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>12</offset>
+		<word>8</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S372.RIP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>9</offset>
+		<word>8</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S375.RIP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>2</offset>
+		<word>8</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S375.CPBS">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>3</offset>
+		<word>8</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S375.ASP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>5</offset>
+		<word>8</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S375.RGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>6</offset>
+		<word>8</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S375.CGR">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>7</offset>
+		<word>8</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S375.NGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>8</offset>
+		<word>8</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S377.CGR">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>0</offset>
+		<word>8</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S377.NGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>1</offset>
+		<word>8</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S377.RIP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>11</offset>
+		<word>9</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S377.CPBS">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>12</offset>
+		<word>9</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S377.ASP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>14</offset>
+		<word>9</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S377.RGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>15</offset>
+		<word>9</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S379.NGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>10</offset>
+		<word>9</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S379.RIP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>5</offset>
+		<word>9</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S379.AOR">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>7</offset>
+		<word>9</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S379.ASP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>8</offset>
+		<word>9</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S379.RGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>9</offset>
+		<word>9</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S380.RIP">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>1</offset>
+		<word>15</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S380.CPBS">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>2</offset>
+		<word>15</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S380.AOR">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>3</offset>
+		<word>15</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S380.ASP">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>4</offset>
+		<word>15</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S380.RGP">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>5</offset>
+		<word>15</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S380.CGR">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>6</offset>
+		<word>15</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S380.NGP">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>7</offset>
+		<word>15</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S381.CPBS">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>10</offset>
+		<word>16</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S381.AOR">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>11</offset>
+		<word>16</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S381.ASP">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>12</offset>
+		<word>16</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S381.RGP">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>13</offset>
+		<word>16</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S381.CGR">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>14</offset>
+		<word>16</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S381.NGP">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>15</offset>
+		<word>16</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S381.RIP">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>9</offset>
+		<word>16</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S385.RGP">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>10</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S385.NGP">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>11</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S385.RIP">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>8</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S385.ASP">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>9</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S387.RIP">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>2</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S387.ASP">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>3</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S387.RGP">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>4</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S387.NGP">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>5</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S389.RIP">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>12</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S389.ASP">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>13</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S389.RGP">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>14</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S389.NGP">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>15</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S395.RIP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>14</offset>
+		<word>10</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S395.CPBS">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>15</offset>
+		<word>10</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S395.ASP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>1</offset>
+		<word>9</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S395.RGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>2</offset>
+		<word>9</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S395.CGR">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>3</offset>
+		<word>9</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S395.NGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>4</offset>
+		<word>9</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S397.ASP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>10</offset>
+		<word>10</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S397.RGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>11</offset>
+		<word>10</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S397.CGR">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>12</offset>
+		<word>10</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S397.NGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>13</offset>
+		<word>10</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S397.RIP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>7</offset>
+		<word>10</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S397.CPBS">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>8</offset>
+		<word>10</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T016.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>4</offset>
+		<word>12</word>
+	</JzaIndication>
+	<JzaIndication xml:id="TH107.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>8</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="TL107.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>4</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="TH108.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>6</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="TL108.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>2</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T111.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>1</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T144.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>11</offset>
+		<word>12</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T146.TPK">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>12</offset>
+		<word>18</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T153.TPK">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>0</offset>
+		<word>15</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T156.ARP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>8</offset>
+		<word>12</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T156.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>9</offset>
+		<word>12</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T174.TPK">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>10</offset>
+		<word>18</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T174.ARP">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>9</offset>
+		<word>18</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T215.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>7</offset>
+		<word>12</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T217.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>6</offset>
+		<word>12</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T219.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>5</offset>
+		<word>12</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T231.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>3</offset>
+		<word>12</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T235.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>2</offset>
+		<word>12</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T236.ARP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>0</offset>
+		<word>12</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T236.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>1</offset>
+		<word>12</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T243.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>15</offset>
+		<word>13</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T269.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>14</offset>
+		<word>13</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T271.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>13</offset>
+		<word>13</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T273.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>12</offset>
+		<word>13</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T275.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>11</offset>
+		<word>13</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T277.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>10</offset>
+		<word>13</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T287.TPK">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>1</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T291.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>9</offset>
+		<word>13</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T293.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>8</offset>
+		<word>13</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T295.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>7</offset>
+		<word>13</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T297.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>6</offset>
+		<word>13</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T299.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>5</offset>
+		<word>13</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T310.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>4</offset>
+		<word>13</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T312.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>3</offset>
+		<word>13</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T314.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>2</offset>
+		<word>13</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T316.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>1</offset>
+		<word>13</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T321.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>0</offset>
+		<word>13</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T321.ARP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>15</offset>
+		<word>14</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T334.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>14</offset>
+		<word>14</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T336.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>13</offset>
+		<word>14</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T338.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>12</offset>
+		<word>14</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T340.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>11</offset>
+		<word>14</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T343.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>10</offset>
+		<word>14</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T345.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>9</offset>
+		<word>14</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T370.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>9</offset>
+		<word>15</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T372.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>8</offset>
+		<word>14</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T373.TPK">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>11</offset>
+		<word>18</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T375.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>7</offset>
+		<word>14</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T377.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>6</offset>
+		<word>14</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T379.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>5</offset>
+		<word>14</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T380.TPK">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>0</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T381.TPK">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>13</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T382.TPK">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>11</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T385.ARP">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>1</offset>
+		<word>17</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T385.TPK">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>2</offset>
+		<word>17</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T387.TPK">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>0</offset>
+		<word>17</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T387.ARP">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>15</offset>
+		<word>18</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T389.ARP">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>13</offset>
+		<word>18</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T389.TPK">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>14</offset>
+		<word>18</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T390.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>8</offset>
+		<word>15</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T395.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>4</offset>
+		<word>14</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T397.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/BLY#BLY</deviceName>
+		<offset>3</offset>
+		<word>14</word>
+	</JzaIndication>
+</Configs>

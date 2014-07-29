@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Config>
+
+<CmdAgentMain xml_id="CmdAgentDisplay">
+	<thisServiceCommandPath>/coreCommand</thisServiceCommandPath>
+	<targetAppHostname>oil://DisplayService.TCMS</targetAppHostname>
+	<thisServiceHostname>oil://CLIDSAgent.TCMS</thisServiceHostname>
+	<asURL>oil://DisplayService.TCMS</asURL>
+	<thisServiceName>CLIDSAgent</thisServiceName>
+	<commandsInfo>
+
+		<!-- Display Points -->
+		<commandInfo registration="^DAP\s.*">
+			<data><syntaxOptions>
+				<description>
+					<syntax mnemonic="DAP" authoriseArgs="NONE">NUMBER:crt?1</syntax>
+					<urlPathTemplateSet>
+						<urlPathTemplate content="layer=points">/dsi/%#/%1/visiblelayer</urlPathTemplate>
+					</urlPathTemplateSet>
+				</description>
+			</syntaxOptions></data>
+		</commandInfo>
+
+		<!-- Display Signals -->
+		<commandInfo registration="^DAS\s.*">
+			<data><syntaxOptions>
+				<description>
+					<syntax mnemonic="DAS" authoriseArgs="NONE">NUMBER:crt?1</syntax>
+					<urlPathTemplateSet>
+						<urlPathTemplate content="layer=signals">/dsi/%#/%1/visiblelayer</urlPathTemplate>
+					</urlPathTemplateSet>
+				</description>
+			</syntaxOptions></data>
+		</commandInfo>
+
+		<!-- Display Track-circuits -->
+		<commandInfo registration="^DAT\s.*">
+			<data><syntaxOptions>
+				<description>
+					<syntax mnemonic="DAT" authoriseArgs="NONE">NUMBER:crt?1</syntax>
+					<urlPathTemplateSet>
+						<urlPathTemplate content="layer=trkccts">/dsi/%#/%1/visiblelayer</urlPathTemplate>
+					</urlPathTemplateSet>
+				</description>
+			</syntaxOptions></data>
+		</commandInfo>
+		
+                <!-- request track layout picture -->
+                <commandInfo registration="^RQP\s.*">
+                        <data><syntaxOptions>
+                                <description>
+                                        <syntax mnemonic="RQP" authoriseArgs="NONE">NUMBER:fmt NUMBER:crt?1</syntax>
+                                        <urlPathTemplateSet>
+                                                <urlPathTemplate action="EXEC">evt_client -l ln2068 -c AW -c %2 %1</urlPathTemplate>
+                                        </urlPathTemplateSet>
+                                </description>
+                        </syntaxOptions></data>
+                </commandInfo>
+
+	</commandsInfo>
+</CmdAgentMain>
+
+</Config>
+

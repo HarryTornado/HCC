@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configs>
+	<SignallingControl xml:id="P228.RLPR">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/JzaSimulator#ERM</deviceName>
+		<offset>2</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P228.NLPR">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/JzaSimulator#ERM</deviceName>
+		<offset>3</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P291.RLPR">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/JzaSimulator#ERM</deviceName>
+		<offset>0</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P291.NLPR">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/JzaSimulator#ERM</deviceName>
+		<offset>1</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S304.AORPN">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/JzaSimulator#ERM</deviceName>
+		<offset>12</offset>
+		<word>4</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S304.AORPR">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/JzaSimulator#ERM</deviceName>
+		<offset>13</offset>
+		<word>4</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S304.RLPR">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/JzaSimulator#ERM</deviceName>
+		<offset>14</offset>
+		<word>4</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S304.NLPR">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/JzaSimulator#ERM</deviceName>
+		<offset>15</offset>
+		<word>4</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S306.CPBPR">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/JzaSimulator#ERM</deviceName>
+		<offset>7</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S306.AORPN">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/JzaSimulator#ERM</deviceName>
+		<offset>8</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S306.AORPR">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/JzaSimulator#ERM</deviceName>
+		<offset>9</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S306.RLPR">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/JzaSimulator#ERM</deviceName>
+		<offset>10</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S306.NLPR">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/JzaSimulator#ERM</deviceName>
+		<offset>11</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S328.CPBPR">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/JzaSimulator#ERM</deviceName>
+		<offset>2</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S328.AORPN">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/JzaSimulator#ERM</deviceName>
+		<offset>3</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S328.AORPR">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/JzaSimulator#ERM</deviceName>
+		<offset>4</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S328.RLPR">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/JzaSimulator#ERM</deviceName>
+		<offset>5</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S328.NLPR">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/JzaSimulator#ERM</deviceName>
+		<offset>6</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S371.RLPR">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/JzaSimulator#ERM</deviceName>
+		<offset>0</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S371.NLPR">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/JzaSimulator#ERM</deviceName>
+		<offset>1</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S371.CPBPR">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/JzaSimulator#ERM</deviceName>
+		<offset>13</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S371.AORPN">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/JzaSimulator#ERM</deviceName>
+		<offset>14</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S371.AORPR">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/JzaSimulator#ERM</deviceName>
+		<offset>15</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S373.AORPN">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/JzaSimulator#ERM</deviceName>
+		<offset>7</offset>
+		<word>4</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S373.AORPR">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/JzaSimulator#ERM</deviceName>
+		<offset>8</offset>
+		<word>4</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S373.RLPR">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/JzaSimulator#ERM</deviceName>
+		<offset>9</offset>
+		<word>4</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S373.NLPR">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/JzaSimulator#ERM</deviceName>
+		<offset>10</offset>
+		<word>4</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S391.CPBPR">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/JzaSimulator#ERM</deviceName>
+		<offset>4</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S391.AORPN">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/JzaSimulator#ERM</deviceName>
+		<offset>5</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S391.AORPR">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/JzaSimulator#ERM</deviceName>
+		<offset>6</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S391.RLPR">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/JzaSimulator#ERM</deviceName>
+		<offset>7</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S391.NLPR">
+		<interlockingName>ERM</interlockingName>
+		<deviceName>config:/JzaSimulator#ERM</deviceName>
+		<offset>8</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+</Configs>

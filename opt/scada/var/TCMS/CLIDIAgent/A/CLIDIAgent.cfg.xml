@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Config>
+
+<CmdAgentMain xml_id="CmdAgentDIMain">
+	<thisServiceCommandPath>/command</thisServiceCommandPath>
+	<targetAppHostname>oil://DerivedIndications.TCMS</targetAppHostname>
+	<thisServiceName>CLIDIAgent</thisServiceName>
+	<thisServiceHostname>oil://CLIDIAgent.TCMS</thisServiceHostname>
+	<commandsInfo>
+		
+		<commandInfo mnemonic="PTN">
+			<data><cmd><urlPathTemplateSet>
+				<urlPathTemplate>/%s/mnem/P%s.NR/value</urlPathTemplate>
+			</urlPathTemplateSet></cmd></data></commandInfo>
+
+		<commandInfo mnemonic="PTR">
+			<data><cmd><urlPathTemplateSet>
+				<urlPathTemplate>/%s/mnem/P%s.RR/value</urlPathTemplate>
+			</urlPathTemplateSet></cmd></data></commandInfo>
+
+		<commandInfo mnemonic="PTS">
+			<data><cmd><urlPathTemplateSet>
+				<urlPathTemplate>/%s/mnem/P%s.BLKR/value</urlPathTemplate>
+			</urlPathTemplateSet></cmd></data></commandInfo>
+
+		<commandInfo mnemonic="PTU">
+			<data><cmd><urlPathTemplateSet>
+				<urlPathTemplate>/%s/mnem/P%s.BLKN/value</urlPathTemplate>
+			</urlPathTemplateSet></cmd></data></commandInfo>
+<!-- These command mnemonics do not appear to be implemented.
+		<commandInfo mnemonic="TKB">
+			<data><cmd><urlPathTemplateSet>
+				<urlPathTemplate>/%s/mnem/T%s.BLKR/value</urlPathTemplate>
+			</urlPathTemplateSet></cmd></data></commandInfo>
+
+		<commandInfo mnemonic="TKU">
+			<data><cmd><urlPathTemplateSet>
+				<urlPathTemplate>/%s/mnem/T%s.BLKN/value</urlPathTemplate>
+			</urlPathTemplateSet></cmd></data></commandInfo>
+-->
+		<commandInfo mnemonic="CAN">
+			<data><cmd><urlPathTemplateSet>
+				<urlPathTemplate>/%s/mnem/S%s.NR/value</urlPathTemplate>
+			</urlPathTemplateSet></cmd></data></commandInfo>
+
+		<commandInfo mnemonic="SFO">
+			<data><cmd><urlPathTemplateSet>
+				<urlPathTemplate>/%s/mnem/S%s.AORR/value</urlPathTemplate>
+			</urlPathTemplateSet></cmd></data></commandInfo>
+
+		<commandInfo mnemonic="SMO">
+			<data><cmd><urlPathTemplateSet>
+				<urlPathTemplate>/%s/mnem/S%s.AORN/value</urlPathTemplate>
+			</urlPathTemplateSet></cmd></data></commandInfo>
+
+		<commandInfo mnemonic="SLS">
+			<data><cmd><urlPathTemplateSet>
+				<urlPathTemplate>/%s/mnem/S%s.CPBR/value</urlPathTemplate>
+			</urlPathTemplateSet></cmd></data></commandInfo>
+
+		<commandInfo mnemonic="SGB">
+			<data><cmd><urlPathTemplateSet>
+				<urlPathTemplate>/%s/mnem/S%s.BLKR/value</urlPathTemplate>
+			</urlPathTemplateSet></cmd></data></commandInfo>
+
+		<commandInfo mnemonic="SGU">
+			<data><cmd><urlPathTemplateSet>
+				<urlPathTemplate>/%s/mnem/S%s.BLKN/value</urlPathTemplate>
+			</urlPathTemplateSet></cmd></data></commandInfo>
+
+		<commandInfo mnemonic="SRO">
+			<data><cmd><urlPathTemplateSet>
+				<urlPathTemplate>/%s/mnem/R%s.(%s)%sRR/value</urlPathTemplate>
+			</urlPathTemplateSet></cmd></data></commandInfo>
+
+		<commandInfo mnemonic="SRR">
+			<data><cmd><urlPathTemplateSet>
+				<urlPathTemplate>/%s/mnem/R%s.(%s)RR/value</urlPathTemplate>
+			</urlPathTemplateSet></cmd></data></commandInfo>
+		
+	</commandsInfo>
+</CmdAgentMain>
+
+</Config>

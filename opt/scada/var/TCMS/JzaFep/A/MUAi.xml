@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configs>
+	<JzaIndication xml:id="E025.SLAP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>5</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E040.SLAP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>12</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E225.SLAP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>4</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E240.SLAP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>11</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E413.BOHP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>2</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E414.BOHP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>1</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E415.BOHP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>0</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E427.SLAP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>3</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E438.BF">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>4</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E439.SLAP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>10</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E443.ECP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>12</offset>
+		<word>9</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E444.ECP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>11</offset>
+		<word>9</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E445.ECP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>10</offset>
+		<word>9</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E446.ECP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>9</offset>
+		<word>9</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S025.RGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>8</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S025.NGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>9</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S032.RGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>6</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S032.NGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>7</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S033.RGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>4</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S033.NGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>5</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S039.RGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>2</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S039.NGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>3</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S040.RGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>0</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S040.NGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>1</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S041.RGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>14</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S041.NGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>15</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S044.RGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>12</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S044.NGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>13</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S190.NGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>11</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S190.CPBS">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>6</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S190.ASP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>8</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S190.RGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>9</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S191.ASP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>1</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S191.RGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>2</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S191.NGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>4</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S191.CPBS">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>15</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S225.RGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>14</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S225.NGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>15</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S229.RGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>12</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S229.NGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>13</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S234.RGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>10</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S234.NGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>11</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S235.RGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>8</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S235.NGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>9</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S237.RGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>6</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S237.NGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>7</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S240.RGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>4</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S240.NGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>5</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S248.RGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>2</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S248.NGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>3</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S390.NGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>1</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S390.CPBS">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>12</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S390.ASP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>14</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S390.RGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>15</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S391.NGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>10</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S391.CPBS">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>5</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S391.ASP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>7</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S391.RGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>8</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S427.RGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>14</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S427.NGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>15</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S432.RGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>12</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S432.NGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>13</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S433.RGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>10</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S433.NGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>11</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S438.RGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>8</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S438.NGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>9</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S439.RGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>6</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S439.NGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>7</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S441.RGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>4</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S441.NGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>5</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S444.RGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>2</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S444.NGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>3</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S590.NGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>1</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S590.CPBS">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>12</offset>
+		<word>8</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S590.ASP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>14</offset>
+		<word>8</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S590.RGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>15</offset>
+		<word>8</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S591.NGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>10</offset>
+		<word>8</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S591.CPBS">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>5</offset>
+		<word>8</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S591.ASP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>7</offset>
+		<word>8</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S591.RGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>8</offset>
+		<word>8</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T025.TPK">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>13</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T039.TPK">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>12</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T040.TPK">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>11</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T041.TPK">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>10</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T044.TPK">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>9</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T190.TPK">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>8</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T191.TPK">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>7</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T193.TPK">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>6</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T225.TPK">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>3</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T229.TPK">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>2</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T237.TPK">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>1</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T240.TPK">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>0</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T248.TPK">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>15</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T390.TPK">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>14</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T391.TPK">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>13</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T427.TPK">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>3</offset>
+		<word>8</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T428.TPK">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>0</offset>
+		<word>8</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T432.TPK">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>2</offset>
+		<word>8</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T433.TPK">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>1</offset>
+		<word>8</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T444.TPK">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>14</offset>
+		<word>9</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T469.TPK">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>15</offset>
+		<word>9</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T590.TPK">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/MUA#MUA</deviceName>
+		<offset>13</offset>
+		<word>9</word>
+	</JzaIndication>
+</Configs>

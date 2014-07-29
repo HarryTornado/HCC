@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+	<Connection xml:id="STN">
+		<cip_IP>127.0.0.1</cip_IP>
+		<cip_Port>5011</cip_Port>
+		<connectionDelay>5</connectionDelay>
+		<usePrefix>true</usePrefix>
+		<prefixOverride></prefixOverride>
+		<transmit_regex_list></transmit_regex_list>
+		<txRepeats>1</txRepeats>
+	<!-- ****************************************--> 
+		<!--  From Controls       --> 
+	<!-- ****************************************--> 
+		<src_url_list>
+			<source>
+				<mnemonic>QXS527</mnemonic>
+				<src_url>oil://JzaSimulator.TCMS/STN/controls/S527.NLPR</src_url>
+			</source>
+		</src_url_list>
+		<src_url_list>
+			<source>
+				<mnemonic>QRR527</mnemonic>
+				<src_url>oil://JzaSimulator.TCMS/STN/controls/S527.RLPR</src_url>
+			</source>
+		</src_url_list>
+		<src_url_list>
+			<source>
+				<mnemonic>QLC527</mnemonic>
+				<src_url>oil://JzaSimulator.TCMS/STN/controls/S527.CPBPR</src_url>
+			</source>
+		</src_url_list>
+	</Connection>
+</Configuration>

@@ -1,0 +1,1767 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configs>
+	<SignallingIndication xml:id="C210.CRP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/210.CRP</sourceURL>
+		<offset>15</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="C248.CRP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/248.CRP</sourceURL>
+		<offset>14</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E202.ISEP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/202.ISEP</sourceURL>
+		<offset>1</offset>
+		<word>14</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E203.ISEP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/203.ISEP</sourceURL>
+		<offset>0</offset>
+		<word>14</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E280.JR">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/BLS/LIMP280D/value</sourceURL>
+		<offset>7</offset>
+		<word>18</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E285.JR">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/BLS/LIMP285D/value</sourceURL>
+		<offset>6</offset>
+		<word>18</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E287.JR">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/BLS/LIMP287D/value</sourceURL>
+		<offset>5</offset>
+		<word>18</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E289.JR">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/BLS/LIMP289D/value</sourceURL>
+		<offset>4</offset>
+		<word>18</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E291.JR">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/BLS/LIMP291D/value</sourceURL>
+		<offset>2</offset>
+		<word>18</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E742.PIDF">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/742.PIDF</sourceURL>
+		<offset>2</offset>
+		<word>14</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L152.DTOP">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/BLS/LIML152D/value</sourceURL>
+		<offset>6</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L152.BPOK">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/BLS/LIML152C/value</sourceURL>
+		<offset>7</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L152.FGNP">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/BLS/LIML152B/value</sourceURL>
+		<offset>8</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L152.FCP">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/BLS/LIML152A/value</sourceURL>
+		<offset>9</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P215.LRP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/215.LRP</sourceURL>
+		<offset>4</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P215.RWCR">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/215.RWCR</sourceURL>
+		<offset>5</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P215.NWCR">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/215.NWCR</sourceURL>
+		<offset>6</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P217.LRP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/217.LRP</sourceURL>
+		<offset>1</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P217.RWCR">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/217.RWCR</sourceURL>
+		<offset>2</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P217.NWCR">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/217.NWCR</sourceURL>
+		<offset>3</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P219.NWCR">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/219.NWCR</sourceURL>
+		<offset>0</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P219.LRP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/219.LRP</sourceURL>
+		<offset>14</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P219.RWCR">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/219.RWCR</sourceURL>
+		<offset>15</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P231.LRP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/231.LRP</sourceURL>
+		<offset>11</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P231.RWCR">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/231.RWCR</sourceURL>
+		<offset>12</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P231.NWCR">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/231.NWCR</sourceURL>
+		<offset>13</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P235.NWCR">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/235.NWCR</sourceURL>
+		<offset>10</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P235.LRP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/235.LRP</sourceURL>
+		<offset>8</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P235.RWCR">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/235.RWCR</sourceURL>
+		<offset>9</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P243.LRP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/243.LRP</sourceURL>
+		<offset>5</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P243.RWCR">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/243.RWCR</sourceURL>
+		<offset>6</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P243.NWCR">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/243.NWCR</sourceURL>
+		<offset>7</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P275.LRP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/275.LRP</sourceURL>
+		<offset>2</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P275.RWCR">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/275.RWCR</sourceURL>
+		<offset>3</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P275.NWCR">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/275.NWCR</sourceURL>
+		<offset>4</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P277.RWCR">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/277.RWCR</sourceURL>
+		<offset>0</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P277.NWCR">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/277.NWCR</sourceURL>
+		<offset>1</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P277.LRP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/277.LRP</sourceURL>
+		<offset>15</offset>
+		<word>12</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P280.RWCR">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/BLS/LIMP280B/value</sourceURL>
+		<offset>0</offset>
+		<word>16</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P280.NWCR">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/BLS/LIMP280A/value</sourceURL>
+		<offset>1</offset>
+		<word>16</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P280.LRP">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/BLS/LIMP280C/value</sourceURL>
+		<offset>15</offset>
+		<word>17</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P283.LRP">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/BLS/LIMP283C/value</sourceURL>
+		<offset>3</offset>
+		<word>17</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P283.RWCR">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/BLS/LIMP283B/value</sourceURL>
+		<offset>4</offset>
+		<word>17</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P283.NWCR">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/BLS/LIMP283A/value</sourceURL>
+		<offset>5</offset>
+		<word>17</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P285.LRP">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/BLS/LIMP285C/value</sourceURL>
+		<offset>12</offset>
+		<word>17</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P285.RWCR">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/BLS/LIMP285B/value</sourceURL>
+		<offset>13</offset>
+		<word>17</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P285.NWCR">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/BLS/LIMP285A/value</sourceURL>
+		<offset>14</offset>
+		<word>17</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P287.RWCR">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/BLS/LIMP287B/value</sourceURL>
+		<offset>10</offset>
+		<word>17</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P287.NWCR">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/BLS/LIMP287A/value</sourceURL>
+		<offset>11</offset>
+		<word>17</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P287.LRP">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/BLS/LIMP287C/value</sourceURL>
+		<offset>9</offset>
+		<word>17</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P289.LRP">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/BLS/LIMP289C/value</sourceURL>
+		<offset>6</offset>
+		<word>17</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P289.RWCR">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/BLS/LIMP289B/value</sourceURL>
+		<offset>7</offset>
+		<word>17</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P289.NWCR">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/BLS/LIMP289A/value</sourceURL>
+		<offset>8</offset>
+		<word>17</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P291.LRP">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/BLS/LIMP291C/value</sourceURL>
+		<offset>2</offset>
+		<word>16</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P291.RWCR">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/BLS/LIMP291B/value</sourceURL>
+		<offset>3</offset>
+		<word>16</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P291.NWCR">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/BLS/LIMP291A/value</sourceURL>
+		<offset>4</offset>
+		<word>16</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="SH107.RGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/H107.RGP</sourceURL>
+		<offset>9</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="SL107.RGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/L107.RGP</sourceURL>
+		<offset>5</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="SH108.RGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/H108.RGP</sourceURL>
+		<offset>7</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="SL108.RGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/L108.RGP</sourceURL>
+		<offset>3</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S273.RGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/273.RGP</sourceURL>
+		<offset>12</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S277.RGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/277.RGP</sourceURL>
+		<offset>6</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S281.RGP">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/BLS/LIMS281C/value</sourceURL>
+		<offset>8</offset>
+		<word>16</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S293.RGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/293.RGP</sourceURL>
+		<offset>0</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S297.RGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/297.RGP</sourceURL>
+		<offset>10</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S310.CPBS">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/310.CPBS</sourceURL>
+		<offset>0</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S310.AOR">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/310.AOR</sourceURL>
+		<offset>1</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S310.ASP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/310.ASP</sourceURL>
+		<offset>2</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S310.RGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/310.RGP</sourceURL>
+		<offset>3</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S310.CGR">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/310.CGR</sourceURL>
+		<offset>4</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S310.NGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/310.NGP</sourceURL>
+		<offset>5</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S310.RIP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/310.RIP</sourceURL>
+		<offset>15</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S312.CPBS">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/312.CPBS</sourceURL>
+		<offset>10</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S312.ASP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/312.ASP</sourceURL>
+		<offset>12</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S312.RGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/312.RGP</sourceURL>
+		<offset>13</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S312.NGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/312.NGP</sourceURL>
+		<offset>14</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S312.RIP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/312.RIP</sourceURL>
+		<offset>9</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S316.RIP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/316.RIP</sourceURL>
+		<offset>2</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S316.CPBS">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/316.CPBS</sourceURL>
+		<offset>3</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S316.AOR">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/316.AOR</sourceURL>
+		<offset>4</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S316.ASP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/316.ASP</sourceURL>
+		<offset>5</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S316.RGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/316.RGP</sourceURL>
+		<offset>6</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S316.CGR">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/316.CGR</sourceURL>
+		<offset>7</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S316.NGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/316.NGP</sourceURL>
+		<offset>8</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S318.RGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/318.RGP</sourceURL>
+		<offset>0</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S318.NGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/318.NGP</sourceURL>
+		<offset>1</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S318.RIP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/318.RIP</sourceURL>
+		<offset>14</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S318.ASP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/318.ASP</sourceURL>
+		<offset>15</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S321.RIP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/321.RIP</sourceURL>
+		<offset>10</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S321.ASP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/321.ASP</sourceURL>
+		<offset>11</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S321.RGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/321.RGP</sourceURL>
+		<offset>12</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S321.NGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/321.NGP</sourceURL>
+		<offset>13</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S332.RIP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/332.RIP</sourceURL>
+		<offset>3</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S332.CPBS">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/332.CPBS</sourceURL>
+		<offset>4</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S332.ASP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/332.ASP</sourceURL>
+		<offset>6</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S332.RGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/332.RGP</sourceURL>
+		<offset>7</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S332.CGR">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/332.CGR</sourceURL>
+		<offset>8</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S332.NGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/332.NGP</sourceURL>
+		<offset>9</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S334.ASP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/334.ASP</sourceURL>
+		<offset>0</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S334.RGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/334.RGP</sourceURL>
+		<offset>1</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S334.NGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/334.NGP</sourceURL>
+		<offset>2</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S334.RIP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/334.RIP</sourceURL>
+		<offset>13</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S334.CPBS">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/334.CPBS</sourceURL>
+		<offset>14</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S336.RGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/336.RGP</sourceURL>
+		<offset>10</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S336.CGR">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/336.CGR</sourceURL>
+		<offset>11</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S336.NGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/336.NGP</sourceURL>
+		<offset>12</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S336.RIP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/336.RIP</sourceURL>
+		<offset>6</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S336.CPBS">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/336.CPBS</sourceURL>
+		<offset>7</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S336.ASP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/336.ASP</sourceURL>
+		<offset>9</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S338.CPBS">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/338.CPBS</sourceURL>
+		<offset>0</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S338.ASP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/338.ASP</sourceURL>
+		<offset>2</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S338.RGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/338.RGP</sourceURL>
+		<offset>3</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S338.CGR">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/338.CGR</sourceURL>
+		<offset>4</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S338.NGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/338.NGP</sourceURL>
+		<offset>5</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S338.RIP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/338.RIP</sourceURL>
+		<offset>15</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S340.RIP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/340.RIP</sourceURL>
+		<offset>11</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S340.ASP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/340.ASP</sourceURL>
+		<offset>12</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S340.RGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/340.RGP</sourceURL>
+		<offset>13</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S340.NGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/340.NGP</sourceURL>
+		<offset>14</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S343.NGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/343.NGP</sourceURL>
+		<offset>10</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S343.RIP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/343.RIP</sourceURL>
+		<offset>4</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S343.CPBS">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/343.CPBS</sourceURL>
+		<offset>5</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S343.ASP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/343.ASP</sourceURL>
+		<offset>7</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S343.RGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/343.RGP</sourceURL>
+		<offset>8</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S343.CGR">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/343.CGR</sourceURL>
+		<offset>9</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S345.ASP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/345.ASP</sourceURL>
+		<offset>0</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S345.RGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/345.RGP</sourceURL>
+		<offset>1</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S345.CGR">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/345.CGR</sourceURL>
+		<offset>2</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S345.NGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/345.NGP</sourceURL>
+		<offset>3</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S345.RIP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/345.RIP</sourceURL>
+		<offset>13</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S345.CPBS">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/345.CPBS</sourceURL>
+		<offset>14</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S372.ASP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/372.ASP</sourceURL>
+		<offset>10</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S372.RGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/372.RGP</sourceURL>
+		<offset>11</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S372.NGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/372.NGP</sourceURL>
+		<offset>12</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S372.RIP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/372.RIP</sourceURL>
+		<offset>9</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S375.RIP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/375.RIP</sourceURL>
+		<offset>2</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S375.CPBS">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/375.CPBS</sourceURL>
+		<offset>3</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S375.ASP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/375.ASP</sourceURL>
+		<offset>5</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S375.RGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/375.RGP</sourceURL>
+		<offset>6</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S375.CGR">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/375.CGR</sourceURL>
+		<offset>7</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S375.NGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/375.NGP</sourceURL>
+		<offset>8</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S377.CGR">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/377.CGR</sourceURL>
+		<offset>0</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S377.NGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/377.NGP</sourceURL>
+		<offset>1</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S377.RIP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/377.RIP</sourceURL>
+		<offset>11</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S377.CPBS">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/377.CPBS</sourceURL>
+		<offset>12</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S377.ASP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/377.ASP</sourceURL>
+		<offset>14</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S377.RGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/377.RGP</sourceURL>
+		<offset>15</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S379.NGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/379.NGP</sourceURL>
+		<offset>10</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S379.RIP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/379.RIP</sourceURL>
+		<offset>5</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S379.AOR">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/379.AOR</sourceURL>
+		<offset>7</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S379.ASP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/379.ASP</sourceURL>
+		<offset>8</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S379.RGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/379.RGP</sourceURL>
+		<offset>9</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S380.RIP">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/BLS/LIMS380G/value</sourceURL>
+		<offset>1</offset>
+		<word>15</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S380.CPBS">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/BLS/LIMS380F/value</sourceURL>
+		<offset>2</offset>
+		<word>15</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S380.AOR">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/BLS/LIMS380E/value</sourceURL>
+		<offset>3</offset>
+		<word>15</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S380.ASP">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/BLS/LIMS380D/value</sourceURL>
+		<offset>4</offset>
+		<word>15</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S380.RGP">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/BLS/LIMS380C/value</sourceURL>
+		<offset>5</offset>
+		<word>15</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S380.CGR">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/BLS/LIMS380B/value</sourceURL>
+		<offset>6</offset>
+		<word>15</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S380.NGP">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/BLS/LIMS380A/value</sourceURL>
+		<offset>7</offset>
+		<word>15</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S381.CPBS">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/BLS/LIMS381F/value</sourceURL>
+		<offset>10</offset>
+		<word>16</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S381.AOR">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/BLS/LIMS381E/value</sourceURL>
+		<offset>11</offset>
+		<word>16</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S381.ASP">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/BLS/LIMS381D/value</sourceURL>
+		<offset>12</offset>
+		<word>16</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S381.RGP">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/BLS/LIMS381C/value</sourceURL>
+		<offset>13</offset>
+		<word>16</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S381.CGR">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/BLS/LIMS381B/value</sourceURL>
+		<offset>14</offset>
+		<word>16</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S381.NGP">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/BLS/LIMS381A/value</sourceURL>
+		<offset>15</offset>
+		<word>16</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S381.RIP">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/BLS/LIMS381G/value</sourceURL>
+		<offset>9</offset>
+		<word>16</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S385.RGP">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/BLS/LIMS385C/value</sourceURL>
+		<offset>10</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S385.NGP">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/BLS/LIMS385A/value</sourceURL>
+		<offset>11</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S385.RIP">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/BLS/LIMS385G/value</sourceURL>
+		<offset>8</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S385.ASP">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/BLS/LIMS385D/value</sourceURL>
+		<offset>9</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S387.RIP">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/BLS/LIMS387G/value</sourceURL>
+		<offset>2</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S387.ASP">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/BLS/LIMS387D/value</sourceURL>
+		<offset>3</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S387.RGP">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/BLS/LIMS387C/value</sourceURL>
+		<offset>4</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S387.NGP">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/BLS/LIMS387A/value</sourceURL>
+		<offset>5</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S389.RIP">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/BLS/LIMS389G/value</sourceURL>
+		<offset>12</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S389.ASP">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/BLS/LIMS389D/value</sourceURL>
+		<offset>13</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S389.RGP">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/BLS/LIMS389C/value</sourceURL>
+		<offset>14</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S389.NGP">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/BLS/LIMS389A/value</sourceURL>
+		<offset>15</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S395.RIP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/395.RIP</sourceURL>
+		<offset>14</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S395.CPBS">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/395.CPBS</sourceURL>
+		<offset>15</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S395.ASP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/395.ASP</sourceURL>
+		<offset>1</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S395.RGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/395.RGP</sourceURL>
+		<offset>2</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S395.CGR">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/395.CGR</sourceURL>
+		<offset>3</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S395.NGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/395.NGP</sourceURL>
+		<offset>4</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S397.ASP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/397.ASP</sourceURL>
+		<offset>10</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S397.RGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/397.RGP</sourceURL>
+		<offset>11</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S397.CGR">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/397.CGR</sourceURL>
+		<offset>12</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S397.NGP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/397.NGP</sourceURL>
+		<offset>13</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S397.RIP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/397.RIP</sourceURL>
+		<offset>7</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S397.CPBS">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/397.CPBS</sourceURL>
+		<offset>8</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T016.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/016.TPK</sourceURL>
+		<offset>4</offset>
+		<word>12</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="TH107.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/H107.TPK</sourceURL>
+		<offset>8</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="TL107.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/L107.TPK</sourceURL>
+		<offset>4</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="TH108.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/H108.TPK</sourceURL>
+		<offset>6</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="TL108.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/L108.TPK</sourceURL>
+		<offset>2</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T111.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/111.TPK</sourceURL>
+		<offset>1</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T144.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/144.TPK</sourceURL>
+		<offset>11</offset>
+		<word>12</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T146.TPK">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/BLS/LIMT146A/value</sourceURL>
+		<offset>12</offset>
+		<word>18</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T153.TPK">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/BLS/LIMT153A/value</sourceURL>
+		<offset>0</offset>
+		<word>15</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T156.ARP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/156.ARP</sourceURL>
+		<offset>8</offset>
+		<word>12</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T156.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/156.TPK</sourceURL>
+		<offset>9</offset>
+		<word>12</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T174.TPK">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/BLS/LIMT174A/value</sourceURL>
+		<offset>10</offset>
+		<word>18</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T174.ARP">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/BLS/LIMT174B/value</sourceURL>
+		<offset>9</offset>
+		<word>18</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T215.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/215.TPK</sourceURL>
+		<offset>7</offset>
+		<word>12</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T217.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/217.TPK</sourceURL>
+		<offset>6</offset>
+		<word>12</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T219.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/219.TPK</sourceURL>
+		<offset>5</offset>
+		<word>12</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T231.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/231.TPK</sourceURL>
+		<offset>3</offset>
+		<word>12</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T235.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/235.TPK</sourceURL>
+		<offset>2</offset>
+		<word>12</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T236.ARP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/236.ARP</sourceURL>
+		<offset>0</offset>
+		<word>12</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T236.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/236.TPK</sourceURL>
+		<offset>1</offset>
+		<word>12</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T243.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/243.TPK</sourceURL>
+		<offset>15</offset>
+		<word>13</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T269.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/269.TPK</sourceURL>
+		<offset>14</offset>
+		<word>13</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T271.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/271.TPK</sourceURL>
+		<offset>13</offset>
+		<word>13</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T273.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/273.TPK</sourceURL>
+		<offset>12</offset>
+		<word>13</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T275.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/275.TPK</sourceURL>
+		<offset>11</offset>
+		<word>13</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T277.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/277.TPK</sourceURL>
+		<offset>10</offset>
+		<word>13</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T287.TPK">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/BLS/LIMT287A/value</sourceURL>
+		<offset>1</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T291.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/291.TPK</sourceURL>
+		<offset>9</offset>
+		<word>13</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T293.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/293.TPK</sourceURL>
+		<offset>8</offset>
+		<word>13</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T295.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/295.TPK</sourceURL>
+		<offset>7</offset>
+		<word>13</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T297.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/297.TPK</sourceURL>
+		<offset>6</offset>
+		<word>13</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T299.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/299.TPK</sourceURL>
+		<offset>5</offset>
+		<word>13</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T310.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/310.TPK</sourceURL>
+		<offset>4</offset>
+		<word>13</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T312.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/312.TPK</sourceURL>
+		<offset>3</offset>
+		<word>13</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T314.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/314.TPK</sourceURL>
+		<offset>2</offset>
+		<word>13</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T316.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/316.TPK</sourceURL>
+		<offset>1</offset>
+		<word>13</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T321.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/321.TPK</sourceURL>
+		<offset>0</offset>
+		<word>13</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T321.ARP">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/321.ARP</sourceURL>
+		<offset>15</offset>
+		<word>14</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T334.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/334.TPK</sourceURL>
+		<offset>14</offset>
+		<word>14</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T336.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/336.TPK</sourceURL>
+		<offset>13</offset>
+		<word>14</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T338.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/338.TPK</sourceURL>
+		<offset>12</offset>
+		<word>14</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T340.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/340.TPK</sourceURL>
+		<offset>11</offset>
+		<word>14</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T343.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/343.TPK</sourceURL>
+		<offset>10</offset>
+		<word>14</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T345.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/345.TPK</sourceURL>
+		<offset>9</offset>
+		<word>14</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T370.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/370.TPK</sourceURL>
+		<offset>9</offset>
+		<word>15</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T372.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/372.TPK</sourceURL>
+		<offset>8</offset>
+		<word>14</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T373.TPK">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/BLS/LIMT373A/value</sourceURL>
+		<offset>11</offset>
+		<word>18</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T375.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/375.TPK</sourceURL>
+		<offset>7</offset>
+		<word>14</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T377.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/377.TPK</sourceURL>
+		<offset>6</offset>
+		<word>14</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T379.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/379.TPK</sourceURL>
+		<offset>5</offset>
+		<word>14</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T380.TPK">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/BLS/LIMT380A/value</sourceURL>
+		<offset>0</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T381.TPK">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/BLS/LIMT381A/value</sourceURL>
+		<offset>13</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T382.TPK">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/BLS/LIMT382A/value</sourceURL>
+		<offset>11</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T385.ARP">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/BLS/LIMT385B/value</sourceURL>
+		<offset>1</offset>
+		<word>17</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T385.TPK">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/BLS/LIMT385A/value</sourceURL>
+		<offset>2</offset>
+		<word>17</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T387.TPK">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/BLS/LIMT387A/value</sourceURL>
+		<offset>0</offset>
+		<word>17</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T387.ARP">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/BLS/LIMT387B/value</sourceURL>
+		<offset>15</offset>
+		<word>18</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T389.ARP">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/BLS/LIMT389B/value</sourceURL>
+		<offset>13</offset>
+		<word>18</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T389.TPK">
+		<interlockingName>BLS</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/BLS/LIMT389A/value</sourceURL>
+		<offset>14</offset>
+		<word>18</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T390.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/390.TPK</sourceURL>
+		<offset>8</offset>
+		<word>15</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T395.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/395.TPK</sourceURL>
+		<offset>4</offset>
+		<word>14</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T397.TPK">
+		<interlockingName>BLY</interlockingName>
+		<deviceName>config:/JzaSimulator#BLY</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/BLY/mnem/397.TPK</sourceURL>
+		<offset>3</offset>
+		<word>14</word>
+	</SignallingIndication>
+</Configs>

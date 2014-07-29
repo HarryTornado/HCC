@@ -1,0 +1,1727 @@
+Wed 02/Nov/2011 18:55:44.449 TrainController/4324 reading trip
+Wed 02/Nov/2011 18:55:44.458 TrainController/4324 creating train plan
+Wed 02/Nov/2011 18:55:44.458 TrainController/4324 train restarted. tdn 4324
+Wed 02/Nov/2011 18:55:44.464 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 18:55:44.464 TrainController/4324 head track CFD/T769 is on new platform CFD001
+Wed 02/Nov/2011 18:55:44.468 TrainController/4324 update train plan time
+Wed 02/Nov/2011 18:55:44.481 TrainController/4324 request Schedule
+Wed 02/Nov/2011 18:55:44.488 TrainController/4324 inPlatform: true
+Wed 02/Nov/2011 18:55:44.488 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 18:55:44.491 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 18:55:44.491 TrainController/4324 head track CFD/T769 is on new platform CFD001
+Wed 02/Nov/2011 18:55:44.493 TrainController/4324 inPlatform: true
+Wed 02/Nov/2011 18:55:44.497 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 18:55:45.537 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:55:46.114 TrainController/4324 checking CFD/R767A
+Wed 02/Nov/2011 18:55:46.829 TrainController/4324 now starting CFD/R767A
+Wed 02/Nov/2011 18:55:47.121 TrainController2/4324/SignalController/CFD/R767A created
+Wed 02/Nov/2011 18:55:47.321 TrainController/4324 checking CFD/R667A
+Wed 02/Nov/2011 18:55:47.342 TrainController2/4324/SignalController/CFD/R767A successfully claimed
+Wed 02/Nov/2011 18:55:47.378 TrainController/4324 checking SYR/RF308A
+Wed 02/Nov/2011 18:55:47.389 TrainController/4324 checking SYR/RF296A
+Wed 02/Nov/2011 18:55:47.438 TrainController/4324 checking SYR/RF288A
+Wed 02/Nov/2011 18:55:47.451 TrainController2/4324/SignalController/CFD/R767A RouteStateChange Event. RouteModel:CFD/R767A, oldState: Dormant, newState: Turning
+Wed 02/Nov/2011 18:55:47.460 TrainController/4324 checking SYR/RF276A
+Wed 02/Nov/2011 18:55:47.465 TrainController/4324 checking SYR/RF262A
+Wed 02/Nov/2011 18:55:47.484 TrainController/4324 checking SYR/RF252A
+Wed 02/Nov/2011 18:55:47.499 TrainController/4324 checking SYR/RF242A
+Wed 02/Nov/2011 18:55:47.499 TrainController/4324 checking SYR/RF230A
+Wed 02/Nov/2011 18:55:47.504 TrainController/4324 checking SYR/RF220A
+Wed 02/Nov/2011 18:55:47.515 TrainController/4324 checking SYR/RF206A
+Wed 02/Nov/2011 18:55:47.515 TrainController/4324 checking SYR/RF192A
+Wed 02/Nov/2011 18:55:47.516 TrainController/4324 checking SYR/RF178A
+Wed 02/Nov/2011 18:55:47.517 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:55:48.653 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:55:48.774 TrainController/4324 checking SYR/RF178A
+Wed 02/Nov/2011 18:55:48.992 TrainController/4324 checking SYR/RF164A
+Wed 02/Nov/2011 18:55:49.449 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:55:50.576 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:55:50.745 TrainController/4324 checking SYR/RF164A
+Wed 02/Nov/2011 18:55:50.751 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:55:51.810 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:55:51.832 TrainController/4324 checking SYR/RF164A
+Wed 02/Nov/2011 18:55:51.833 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:55:52.877 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:55:52.956 TrainController/4324 checking SYR/RF164A
+Wed 02/Nov/2011 18:55:52.957 TrainController/4324 checking SYR/R154A
+Wed 02/Nov/2011 18:55:52.999 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:55:54.010 TrainController2/4324/SignalController/CFD/R767A RouteStateChange Event. RouteModel:CFD/R767A, oldState: Turning, newState: Locked
+Wed 02/Nov/2011 18:55:54.036 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:55:54.046 TrainController/4324 checking SYR/R154A
+Wed 02/Nov/2011 18:55:54.054 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:55:55.115 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:55:55.159 TrainController/4324 checking SYR/R154A
+Wed 02/Nov/2011 18:55:55.181 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:55:55.303 TrainController2/4324/SignalController/CFD/R767A RouteStateChange Event. RouteModel:CFD/R767A, oldState: Locked, newState: Clear
+Wed 02/Nov/2011 18:55:55.303 TrainController2/4324/SignalController/CFD/R767A checking for next route...
+Wed 02/Nov/2011 18:55:55.310 TrainController2/4324/SignalController/CFD/R767A no more route. SignalController OK sent to Traincontroller
+Wed 02/Nov/2011 18:55:55.310 TrainController/4324  signal controller CFD/R767A ok
+Wed 02/Nov/2011 18:55:56.193 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:55:56.249 TrainController/4324 checking SYR/R154A
+Wed 02/Nov/2011 18:55:56.271 TrainController/4324 checking SYR/RF140A
+Wed 02/Nov/2011 18:55:56.284 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:55:56.315 TrainController2/4324/SignalController/CFD/R767A RouteStateChange Event. RouteModel:CFD/R767A, oldState: Clear, newState: TrainIn
+Wed 02/Nov/2011 18:55:56.437 TrainController2/4324/SignalController/CFD/R767A Clearing up
+Wed 02/Nov/2011 18:55:56.695 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 18:55:56.695 TrainController/4324 head track CFD/T769 is on new platform CFD001
+Wed 02/Nov/2011 18:55:56.740 TrainController/4324 inPlatform: true
+Wed 02/Nov/2011 18:55:56.747 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 18:55:58.041 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 18:55:58.059 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:55:58.371 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 18:55:58.387 TrainController/4324 checking SYR/RF140A
+Wed 02/Nov/2011 18:55:58.864 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:56:00.011 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:56:00.096 TrainController/4324 checking SYR/RF140A
+Wed 02/Nov/2011 18:56:00.297 TrainController/4324 checking SYR/RF124A
+Wed 02/Nov/2011 18:56:00.368 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:56:01.477 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:56:01.589 TrainController/4324 checking SYR/RF124A
+Wed 02/Nov/2011 18:56:01.696 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:56:02.709 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:56:02.784 TrainController/4324 checking SYR/RF124A
+Wed 02/Nov/2011 18:56:02.785 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:56:03.946 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:56:04.094 TrainController/4324 checking SYR/RF124A
+Wed 02/Nov/2011 18:56:04.193 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:56:05.028 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 18:56:05.028 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 18:56:05.091 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 18:56:05.091 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 18:56:05.153 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 18:56:05.153 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 18:56:05.213 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:56:05.280 TrainController/4324 checking SYR/RF124A
+Wed 02/Nov/2011 18:56:05.326 TrainController/4324 checking SYR/RF114A
+Wed 02/Nov/2011 18:56:05.422 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:56:06.452 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:56:06.541 TrainController/4324 checking SYR/RF114A
+Wed 02/Nov/2011 18:56:06.570 TrainController/4324 checking SYR/RF100A
+Wed 02/Nov/2011 18:56:06.627 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:56:07.904 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:56:08.103 TrainController/4324 checking SYR/RF100A
+Wed 02/Nov/2011 18:56:08.504 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:56:09.821 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:56:10.055 TrainController/4324 checking SYR/RF100A
+Wed 02/Nov/2011 18:56:10.287 TrainController/4324 checking SYR/RF088A
+Wed 02/Nov/2011 18:56:10.456 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:56:11.800 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:56:12.164 TrainController/4324 checking SYR/RF088A
+Wed 02/Nov/2011 18:56:12.205 TrainController/4324 checking SYR/RF080A
+Wed 02/Nov/2011 18:56:12.546 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:56:13.659 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:56:13.827 TrainController/4324 checking SYR/RF080A
+Wed 02/Nov/2011 18:56:13.867 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:56:14.959 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:56:15.232 TrainController/4324 checking SYR/RF080A
+Wed 02/Nov/2011 18:56:15.333 TrainController/4324 checking SYR/RF076A
+Wed 02/Nov/2011 18:56:15.577 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:56:16.753 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:56:16.770 TrainController/4324 checking SYR/RF076A
+Wed 02/Nov/2011 18:56:16.822 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:56:17.304 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 18:56:17.304 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 18:56:17.630 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 18:56:17.630 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 18:56:17.717 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 18:56:17.718 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 18:56:17.899 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:56:18.048 TrainController/4324 checking SYR/RF076A
+Wed 02/Nov/2011 18:56:18.178 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:56:18.385 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:56:19.401 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:56:19.464 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:56:19.717 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:56:19.774 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 18:56:19.774 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 18:56:19.949 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 18:56:19.949 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 18:56:20.299 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 18:56:20.299 TrainController/4324 head track SYR/TF288 is on new platform MAL001
+Wed 02/Nov/2011 18:56:20.300 TrainController/4324 inPlatform: true
+Wed 02/Nov/2011 18:56:20.306 TrainController/4324 dwell time: 0
+Wed 02/Nov/2011 18:56:20.307 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 18:56:20.916 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:56:21.145 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:56:21.357 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:56:21.624 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 18:56:21.624 TrainController/4324 head track SYR/TF288 is on new platform MAL001
+Wed 02/Nov/2011 18:56:21.829 TrainController/4324 inPlatform: true
+Wed 02/Nov/2011 18:56:21.829 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 18:56:22.474 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:56:22.720 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:56:22.729 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:56:23.681 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 18:56:23.682 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 18:56:23.844 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:56:24.064 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:56:24.266 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:56:25.275 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:56:25.284 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:56:25.314 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:56:26.233 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 18:56:26.233 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 18:56:26.433 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:56:26.434 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:56:26.629 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:56:27.231 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 18:56:27.231 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 18:56:27.412 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 18:56:27.412 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 18:56:27.672 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 18:56:27.750 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:56:27.847 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 18:56:27.848 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:56:28.792 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:56:29.600 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 18:56:29.600 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 18:56:29.904 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:56:29.916 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:56:29.925 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:56:29.987 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 18:56:29.988 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 18:56:30.270 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 18:56:30.270 TrainController/4324 head track SYR/TF242 is on new platform ARM001
+Wed 02/Nov/2011 18:56:30.270 TrainController/4324 inPlatform: true
+Wed 02/Nov/2011 18:56:30.271 TrainController/4324 dwell time: 0
+Wed 02/Nov/2011 18:56:30.271 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 18:56:30.663 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 18:56:30.766 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 18:56:31.058 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:56:31.222 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:56:31.321 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:56:31.647 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 18:56:31.647 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 18:56:32.338 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:56:32.422 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:56:32.422 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:56:34.716 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:56:34.941 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:56:35.434 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:56:36.628 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:56:36.633 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:56:37.103 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:56:37.780 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 18:56:37.780 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 18:56:38.133 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 18:56:38.133 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 18:56:38.140 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:56:38.146 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:56:38.397 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:56:39.474 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:56:39.486 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:56:39.486 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:56:40.742 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:56:40.907 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:56:40.939 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:56:41.189 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 18:56:41.189 TrainController/4324 head track SYR/TF212 is on new platform TOR001
+Wed 02/Nov/2011 18:56:41.213 TrainController/4324 inPlatform: true
+Wed 02/Nov/2011 18:56:41.313 TrainController/4324 dwell time: 0
+Wed 02/Nov/2011 18:56:41.313 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 18:56:41.595 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 18:56:41.595 TrainController/4324 head track SYR/TF212 is on new platform TOR001
+Wed 02/Nov/2011 18:56:41.604 TrainController/4324 inPlatform: true
+Wed 02/Nov/2011 18:56:41.611 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 18:56:41.678 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 18:56:41.678 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 18:56:41.995 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:56:42.086 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:56:42.170 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:56:42.404 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 18:56:42.405 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 18:56:43.294 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:56:43.391 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:56:43.479 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:56:44.067 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 18:56:44.067 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 18:56:44.546 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:56:44.554 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:56:44.646 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:56:44.816 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 18:56:44.816 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 18:56:44.867 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 18:56:44.867 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 18:56:44.877 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 18:56:44.877 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 18:56:45.669 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:56:45.823 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:56:45.872 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:56:46.958 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:56:47.191 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:56:47.370 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:56:47.866 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 18:56:47.866 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 18:56:48.410 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:56:48.516 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:56:48.691 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:56:49.835 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:56:49.836 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:56:49.847 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:56:50.793 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 18:56:50.794 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 18:56:51.011 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:56:51.199 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:56:51.335 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:56:52.336 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:56:52.388 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:56:52.466 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:56:53.520 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:56:53.755 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:56:53.763 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:56:54.197 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 18:56:54.197 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 18:56:54.335 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 18:56:54.335 TrainController/4324 head track SYR/TF170 is on new platform HKN001
+Wed 02/Nov/2011 18:56:54.345 TrainController/4324 inPlatform: true
+Wed 02/Nov/2011 18:56:54.440 TrainController/4324 dwell time: 0
+Wed 02/Nov/2011 18:56:54.440 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 18:56:54.833 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:56:54.965 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:56:54.988 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:56:56.133 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:56:56.349 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:56:56.769 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:56:57.778 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:56:57.847 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:56:57.856 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:56:57.963 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 18:56:57.963 TrainController/4324 head track SYR/TF170 is on new platform HKN001
+Wed 02/Nov/2011 18:56:57.966 TrainController/4324 inPlatform: true
+Wed 02/Nov/2011 18:56:57.973 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 18:56:57.994 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 18:56:57.995 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 18:56:58.094 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 18:56:58.094 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 18:56:58.191 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 18:56:58.191 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 18:56:59.755 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:56:59.844 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:57:00.350 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:57:01.007 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 18:57:01.007 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 18:57:01.154 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 18:57:01.154 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 18:57:01.354 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:57:01.363 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:57:01.370 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:57:01.481 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 18:57:01.481 TrainController/4324 head track SYR/TF132 is on new platform SYR003
+Wed 02/Nov/2011 18:57:01.482 TrainController/4324 inPlatform: true
+Wed 02/Nov/2011 18:57:01.485 TrainController/4324 dwell time: 0
+Wed 02/Nov/2011 18:57:01.485 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 18:57:01.522 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 18:57:01.522 TrainController/4324 head track SYR/TF132 is on new platform SYR003
+Wed 02/Nov/2011 18:57:01.523 TrainController/4324 inPlatform: true
+Wed 02/Nov/2011 18:57:01.523 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 18:57:02.466 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:57:02.724 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:57:02.736 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:57:03.013 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 18:57:03.014 TrainController/4324 head track SYR/TF132 is on new platform SYR003
+Wed 02/Nov/2011 18:57:03.015 TrainController/4324 inPlatform: true
+Wed 02/Nov/2011 18:57:03.015 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 18:57:03.989 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:57:04.138 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:57:04.375 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:57:05.489 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:57:05.624 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:57:05.766 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:57:05.994 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 18:57:06.070 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 18:57:06.779 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:57:06.782 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:57:06.784 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:57:07.792 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:57:07.796 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:57:07.797 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:57:08.346 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 18:57:08.346 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 18:57:08.570 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 18:57:08.571 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 18:57:08.878 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:57:08.890 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:57:08.965 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:57:10.024 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:57:10.035 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:57:10.040 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:57:10.064 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 18:57:10.065 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 18:57:11.066 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 18:57:11.066 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 18:57:11.112 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:57:11.173 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:57:11.225 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:57:12.376 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:57:12.393 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:57:12.531 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:57:14.158 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 18:57:14.158 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 18:57:14.173 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:57:14.471 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:57:14.810 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:57:15.275 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 18:57:15.275 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 18:57:15.446 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 18:57:15.446 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 18:57:15.512 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 18:57:15.512 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 18:57:15.687 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 18:57:15.687 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 18:57:15.914 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:57:16.246 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:57:16.608 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:57:17.931 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:57:18.415 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:57:18.799 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:57:19.287 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 18:57:19.287 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 18:57:19.801 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:57:19.804 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:57:19.807 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:57:21.209 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:57:21.210 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:57:21.558 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:57:22.665 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:57:22.914 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:57:23.119 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:57:24.208 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:57:24.360 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:57:24.429 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:57:25.604 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:57:25.850 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:57:26.125 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:57:27.244 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:57:27.258 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:57:27.345 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:57:28.585 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:57:28.753 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:57:28.965 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:57:30.483 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:57:31.180 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:57:31.613 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:57:32.696 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:57:32.696 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:57:32.705 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:57:33.902 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:57:34.028 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:57:34.159 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:57:35.324 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:57:35.348 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:57:35.576 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:57:36.598 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:57:36.658 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:57:36.746 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:57:37.838 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:57:37.909 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:57:37.945 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:57:39.215 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:57:39.519 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:57:39.639 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:57:40.816 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:57:40.931 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:57:41.116 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:57:42.215 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:57:42.220 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:57:42.252 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:57:43.329 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:57:43.544 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:57:43.780 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:57:44.808 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:57:44.867 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:57:44.884 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:57:45.885 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:57:45.928 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:57:46.039 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:57:47.153 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:57:47.265 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:57:47.287 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:57:48.567 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:57:48.752 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:57:48.882 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:57:49.991 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:57:50.350 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:57:50.596 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:57:51.625 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:57:51.700 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:57:51.828 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:57:53.002 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:57:53.173 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:57:53.252 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:57:54.268 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:57:54.375 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:57:54.375 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:57:55.399 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:57:55.409 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:57:55.431 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:57:56.552 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:57:56.570 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:57:56.631 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:57:57.714 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:57:57.788 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:57:57.812 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:57:58.974 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:57:58.979 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:57:59.173 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:58:00.236 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:58:00.317 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:58:01.226 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:58:02.368 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:58:02.386 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:58:02.522 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:58:03.569 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:58:03.795 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:58:03.924 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:58:05.060 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:58:05.173 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:58:05.302 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:58:06.303 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:58:06.323 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:58:06.331 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:58:07.401 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:58:08.191 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:58:08.192 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:58:09.272 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:58:09.280 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:58:09.287 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:58:10.481 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:58:10.635 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:58:10.707 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:58:11.885 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:58:11.886 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:58:12.010 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:58:13.033 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:58:13.054 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:58:13.108 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:58:14.241 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:58:14.423 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:58:14.542 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:58:15.613 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:58:15.692 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:58:15.745 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:58:16.860 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:58:16.887 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:58:16.887 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:58:18.100 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:58:18.305 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:58:18.316 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:58:19.320 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:58:19.322 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:58:19.334 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:58:20.404 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:58:20.478 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:58:20.593 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:58:21.657 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:58:21.682 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:58:21.682 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:58:22.902 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:58:23.054 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:58:23.159 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:58:24.349 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:58:24.430 TrainController/4324 checking SYR/RF072A
+Wed 02/Nov/2011 18:58:24.456 TrainController/4324 checking FSE/R679A-FSE/R787B-FSE/R799A
+Wed 02/Nov/2011 18:58:24.596 TrainController/4324 FSE/R679A-FSE/R787B-FSE/R799A not available
+Wed 02/Nov/2011 18:58:24.596 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:58:25.833 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:58:25.959 TrainController/4324 checking FSE/R679A-FSE/R787B-FSE/R799A
+Wed 02/Nov/2011 18:58:25.960 TrainController/4324 FSE/R679A-FSE/R787B-FSE/R799A not available
+Wed 02/Nov/2011 18:58:25.960 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:58:27.359 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:58:27.454 TrainController/4324 checking FSE/R679A-FSE/R787B-FSE/R799A
+Wed 02/Nov/2011 18:58:27.515 TrainController/4324 FSE/R679A-FSE/R787B-FSE/R799A not available
+Wed 02/Nov/2011 18:58:27.515 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:58:28.659 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:58:28.677 TrainController/4324 checking FSE/R679A-FSE/R787B-FSE/R799A
+Wed 02/Nov/2011 18:58:28.833 TrainController/4324 FSE/R679A-FSE/R787B-FSE/R799A not available
+Wed 02/Nov/2011 18:58:28.834 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:58:29.859 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:58:29.868 TrainController/4324 checking FSE/R679A-FSE/R787B-FSE/R799A
+Wed 02/Nov/2011 18:58:29.910 TrainController/4324 FSE/R679A-FSE/R787B-FSE/R799A not available
+Wed 02/Nov/2011 18:58:29.910 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:58:32.110 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:58:32.221 TrainController/4324 checking FSE/R679A-FSE/R787B-FSE/R799A
+Wed 02/Nov/2011 18:58:32.492 TrainController/4324 FSE/R679A-FSE/R787B-FSE/R799A not available
+Wed 02/Nov/2011 18:58:32.492 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:58:33.575 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:58:33.633 TrainController/4324 checking FSE/R679A-FSE/R787B-FSE/R799A
+Wed 02/Nov/2011 18:58:33.663 TrainController/4324 FSE/R679A-FSE/R787B-FSE/R799A not available
+Wed 02/Nov/2011 18:58:33.663 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:58:35.198 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:58:35.199 TrainController/4324 checking FSE/R679A-FSE/R787B-FSE/R799A
+Wed 02/Nov/2011 18:58:35.199 TrainController/4324 FSE/R679A-FSE/R787B-FSE/R799A not available
+Wed 02/Nov/2011 18:58:35.199 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:58:36.200 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:58:36.201 TrainController/4324 checking FSE/R679A-FSE/R787B-FSE/R799A
+Wed 02/Nov/2011 18:58:36.201 TrainController/4324 FSE/R679A-FSE/R787B-FSE/R799A not available
+Wed 02/Nov/2011 18:58:36.201 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:58:37.281 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:58:37.298 TrainController/4324 checking FSE/R679A-FSE/R787B-FSE/R799A
+Wed 02/Nov/2011 18:58:37.298 TrainController/4324 FSE/R679A-FSE/R787B-FSE/R799A not available
+Wed 02/Nov/2011 18:58:37.304 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:58:38.362 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:58:38.390 TrainController/4324 checking FSE/R679A-FSE/R787B-FSE/R799A
+Wed 02/Nov/2011 18:58:38.518 TrainController/4324 FSE/R679A-FSE/R787B-FSE/R799A not available
+Wed 02/Nov/2011 18:58:38.518 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:58:39.627 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:58:39.645 TrainController/4324 checking FSE/R679A-FSE/R787B-FSE/R799A
+Wed 02/Nov/2011 18:58:39.814 TrainController/4324 FSE/R679A-FSE/R787B-FSE/R799A not available
+Wed 02/Nov/2011 18:58:39.815 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:58:40.838 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:58:40.855 TrainController/4324 checking FSE/R679A-FSE/R787B-FSE/R799A
+Wed 02/Nov/2011 18:58:41.067 TrainController/4324 FSE/R679A-FSE/R787B-FSE/R799A not available
+Wed 02/Nov/2011 18:58:41.067 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:58:42.119 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:58:42.129 TrainController/4324 checking FSE/R679A-FSE/R787B-FSE/R799A
+Wed 02/Nov/2011 18:58:42.219 TrainController/4324 FSE/R679A-FSE/R787B-FSE/R799A not available
+Wed 02/Nov/2011 18:58:42.219 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:58:43.454 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:58:43.455 TrainController/4324 checking FSE/R679A-FSE/R787B-FSE/R799A
+Wed 02/Nov/2011 18:58:43.474 TrainController/4324 FSE/R679A-FSE/R787B-FSE/R799A not available
+Wed 02/Nov/2011 18:58:43.474 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:58:44.547 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:58:44.563 TrainController/4324 checking FSE/R679A-FSE/R787B-FSE/R799A
+Wed 02/Nov/2011 18:58:44.622 TrainController/4324 FSE/R679A-FSE/R787B-FSE/R799A not available
+Wed 02/Nov/2011 18:58:44.622 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:58:45.720 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:58:45.746 TrainController/4324 checking FSE/R679A-FSE/R787B-FSE/R799A
+Wed 02/Nov/2011 18:58:45.820 TrainController/4324 FSE/R679A-FSE/R787B-FSE/R799A not available
+Wed 02/Nov/2011 18:58:45.820 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:58:46.889 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:58:46.894 TrainController/4324 checking FSE/R679A-FSE/R787B-FSE/R799A
+Wed 02/Nov/2011 18:58:46.952 TrainController/4324 FSE/R679A-FSE/R787B-FSE/R799A not available
+Wed 02/Nov/2011 18:58:46.952 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:58:48.241 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:58:48.255 TrainController/4324 checking FSE/R679A-FSE/R787B-FSE/R799A
+Wed 02/Nov/2011 18:58:48.485 TrainController/4324 FSE/R679A-FSE/R787B-FSE/R799A not available
+Wed 02/Nov/2011 18:58:48.485 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:58:49.704 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:58:49.711 TrainController/4324 checking FSE/R679A-FSE/R787B-FSE/R799A
+Wed 02/Nov/2011 18:58:50.033 TrainController/4324 FSE/R679A-FSE/R787B-FSE/R799A not available
+Wed 02/Nov/2011 18:58:50.033 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:58:51.082 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:58:51.266 TrainController/4324 checking FSE/R679A-FSE/R787B-FSE/R799A
+Wed 02/Nov/2011 18:58:51.276 TrainController/4324 FSE/R679A-FSE/R787B-FSE/R799A not available
+Wed 02/Nov/2011 18:58:51.276 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:58:52.388 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:58:52.412 TrainController/4324 checking FSE/R679A-FSE/R787B-FSE/R799A
+Wed 02/Nov/2011 18:58:52.468 TrainController/4324 FSE/R679A-FSE/R787B-FSE/R799A not available
+Wed 02/Nov/2011 18:58:52.468 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:58:53.149 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 18:58:53.149 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 18:58:53.619 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:58:53.630 TrainController/4324 checking FSE/R679A-FSE/R787B-FSE/R799A
+Wed 02/Nov/2011 18:58:53.699 TrainController/4324 FSE/R679A-FSE/R787B-FSE/R799A not available
+Wed 02/Nov/2011 18:58:53.699 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:58:54.575 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 18:58:54.576 TrainController/4324 head track SYR/TF072 is on new platform RMD003
+Wed 02/Nov/2011 18:58:54.577 TrainController/4324 inPlatform: true
+Wed 02/Nov/2011 18:58:54.579 TrainController/4324 dwell time: 0
+Wed 02/Nov/2011 18:58:54.579 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 18:58:54.794 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:58:54.795 TrainController/4324 checking FSE/R679A-FSE/R787B-FSE/R799A
+Wed 02/Nov/2011 18:58:54.836 TrainController/4324 FSE/R679A-FSE/R787B-FSE/R799A not available
+Wed 02/Nov/2011 18:58:54.836 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:58:55.890 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:58:55.903 TrainController/4324 checking FSE/R679A-FSE/R787B-FSE/R799A
+Wed 02/Nov/2011 18:58:55.929 TrainController/4324 FSE/R679A-FSE/R787B-FSE/R799A not available
+Wed 02/Nov/2011 18:58:55.929 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:58:56.531 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 18:58:56.531 TrainController/4324 head track SYR/TF072 is on new platform RMD003
+Wed 02/Nov/2011 18:58:56.533 TrainController/4324 inPlatform: true
+Wed 02/Nov/2011 18:58:56.534 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 18:58:57.102 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:58:57.104 TrainController/4324 checking FSE/R679A-FSE/R787B-FSE/R799A
+Wed 02/Nov/2011 18:58:57.315 TrainController/4324 FSE/R679A-FSE/R787B-FSE/R799A not available
+Wed 02/Nov/2011 18:58:57.315 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:58:58.324 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:58:58.327 TrainController/4324 checking FSE/R679A-FSE/R787B-FSE/R799A
+Wed 02/Nov/2011 18:58:58.335 TrainController/4324 FSE/R679A-FSE/R787B-FSE/R799A not available
+Wed 02/Nov/2011 18:58:58.336 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:58:59.227 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 18:58:59.227 TrainController/4324 head track SYR/TF072 is on new platform RMD003
+Wed 02/Nov/2011 18:58:59.235 TrainController/4324 inPlatform: true
+Wed 02/Nov/2011 18:58:59.242 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 18:58:59.445 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:58:59.496 TrainController/4324 checking FSE/R679A-FSE/R787B-FSE/R799A
+Wed 02/Nov/2011 18:58:59.529 TrainController/4324 FSE/R679A-FSE/R787B-FSE/R799A not available
+Wed 02/Nov/2011 18:58:59.529 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:59:00.767 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:59:01.214 TrainController/4324 checking FSE/R679A-FSE/R787B-FSE/R799A
+Wed 02/Nov/2011 18:59:01.270 TrainController/4324 FSE/R679A-FSE/R787B-FSE/R799A not available
+Wed 02/Nov/2011 18:59:01.270 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:59:02.775 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:59:03.236 TrainController/4324 checking FSE/R679A-FSE/R787B-FSE/R799A
+Wed 02/Nov/2011 18:59:03.236 TrainController/4324 FSE/R679A-FSE/R787B-FSE/R799A not available
+Wed 02/Nov/2011 18:59:03.237 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:59:04.244 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:59:04.246 TrainController/4324 checking FSE/R679A-FSE/R787B-FSE/R799A
+Wed 02/Nov/2011 18:59:04.246 TrainController/4324 FSE/R679A-FSE/R787B-FSE/R799A not available
+Wed 02/Nov/2011 18:59:04.248 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:59:05.472 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:59:05.485 TrainController/4324 checking FSE/R679A-FSE/R787B-FSE/R799A
+Wed 02/Nov/2011 18:59:05.485 TrainController/4324 FSE/R679A-FSE/R787B-FSE/R799A not available
+Wed 02/Nov/2011 18:59:05.486 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:59:06.506 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:59:06.579 TrainController/4324 checking FSE/R679A-FSE/R787B-FSE/R799A
+Wed 02/Nov/2011 18:59:06.613 TrainController/4324 FSE/R679A-FSE/R787B-FSE/R799A not available
+Wed 02/Nov/2011 18:59:06.613 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:59:07.642 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:59:07.655 TrainController/4324 checking FSE/R679A-FSE/R787B-FSE/R799A
+Wed 02/Nov/2011 18:59:07.701 TrainController/4324 FSE/R679A-FSE/R787B-FSE/R799A not available
+Wed 02/Nov/2011 18:59:07.701 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:59:08.842 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:59:08.853 TrainController/4324 checking FSE/R679A-FSE/R787B-FSE/R799A
+Wed 02/Nov/2011 18:59:09.084 TrainController/4324 FSE/R679A-FSE/R787B-FSE/R799A not available
+Wed 02/Nov/2011 18:59:09.084 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:59:10.255 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:59:10.260 TrainController/4324 checking FSE/R679A-FSE/R787B-FSE/R799A
+Wed 02/Nov/2011 18:59:10.389 TrainController/4324 FSE/R679A-FSE/R787B-FSE/R799A not available
+Wed 02/Nov/2011 18:59:10.389 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:59:11.403 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:59:11.404 TrainController/4324 checking FSE/R679A-FSE/R787B-FSE/R799A
+Wed 02/Nov/2011 18:59:11.431 TrainController/4324 now starting FSE/R679A-FSE/R787B-FSE/R799A
+Wed 02/Nov/2011 18:59:11.524 TrainController2/4324/SignalController/FSE/R679A-FSE/R787B-FSE/R799A created
+Wed 02/Nov/2011 18:59:11.556 TrainController/4324 checking FSE/R659A
+Wed 02/Nov/2011 18:59:11.556 TrainController/4324 previous sr FSE/R679A-FSE/R787B-FSE/R799A status: waiting
+Wed 02/Nov/2011 18:59:11.565 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:59:12.594 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:59:12.638 TrainController/4324 checking FSE/R659A
+Wed 02/Nov/2011 18:59:12.639 TrainController/4324 previous sr FSE/R679A-FSE/R787B-FSE/R799A status: waiting
+Wed 02/Nov/2011 18:59:12.661 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:59:13.671 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:59:13.676 TrainController/4324 checking FSE/R659A
+Wed 02/Nov/2011 18:59:13.676 TrainController/4324 previous sr FSE/R679A-FSE/R787B-FSE/R799A status: waiting
+Wed 02/Nov/2011 18:59:13.726 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:59:14.853 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:59:14.861 TrainController/4324 checking FSE/R659A
+Wed 02/Nov/2011 18:59:14.862 TrainController/4324 previous sr FSE/R679A-FSE/R787B-FSE/R799A status: waiting
+Wed 02/Nov/2011 18:59:14.863 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:59:15.121 TrainController2/4324/SignalController/FSE/R679A-FSE/R787B-FSE/R799A successfully claimed
+Wed 02/Nov/2011 18:59:15.807 TrainController2/4324/SignalController/FSE/R679A-FSE/R787B-FSE/R799A RouteStateChange Event. RouteModel:FSE/R799A, oldState: Turning, newState: Locked
+Wed 02/Nov/2011 18:59:16.088 TrainController2/4324/SignalController/FSE/R679A-FSE/R787B-FSE/R799A RouteStateChange Event. RouteModel:FSE/R799A, oldState: Dormant, newState: Locked
+Wed 02/Nov/2011 18:59:16.149 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:59:16.349 TrainController/4324 checking FSE/R659A
+Wed 02/Nov/2011 18:59:16.349 TrainController/4324 FSE/R659A not available
+Wed 02/Nov/2011 18:59:16.361 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:59:17.416 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:59:17.505 TrainController/4324 checking FSE/R659A
+Wed 02/Nov/2011 18:59:17.563 TrainController/4324 waiting 46 seconds  to start FSE/R659A
+Wed 02/Nov/2011 18:59:17.564 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:59:17.833 TrainController2/4324/SignalController/FSE/R679A-FSE/R787B-FSE/R799A RouteStateChange Event. RouteModel:FSE/R799A, oldState: Locked, newState: Clear
+Wed 02/Nov/2011 18:59:17.833 TrainController2/4324/SignalController/FSE/R679A-FSE/R787B-FSE/R799A checking for next route...
+Wed 02/Nov/2011 18:59:17.834 TrainController2/4324/SignalController/FSE/R679A-FSE/R787B-FSE/R799A new route: FSE/R787B
+Wed 02/Nov/2011 18:59:18.127 TrainController2/4324/SignalController/FSE/R679A-FSE/R787B-FSE/R799A RouteStateChange Event. RouteModel:FSE/R787B, oldState: Turning, newState: Locked
+Wed 02/Nov/2011 18:59:18.320 TrainController2/4324/SignalController/FSE/R679A-FSE/R787B-FSE/R799A RouteStateChange Event. RouteModel:FSE/R787B, oldState: Dormant, newState: Locked
+Wed 02/Nov/2011 18:59:18.626 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:59:18.747 TrainController/4324 checking FSE/R659A
+Wed 02/Nov/2011 18:59:18.842 TrainController/4324 waiting 46 seconds  to start FSE/R659A
+Wed 02/Nov/2011 18:59:18.842 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:59:19.239 TrainController2/4324/SignalController/FSE/R679A-FSE/R787B-FSE/R799A RouteStateChange Event. RouteModel:FSE/R787B, oldState: Locked, newState: Clear
+Wed 02/Nov/2011 18:59:19.239 TrainController2/4324/SignalController/FSE/R679A-FSE/R787B-FSE/R799A checking for next route...
+Wed 02/Nov/2011 18:59:19.240 TrainController2/4324/SignalController/FSE/R679A-FSE/R787B-FSE/R799A new route: FSE/R679A
+Wed 02/Nov/2011 18:59:19.259 TrainController2/4324/SignalController/FSE/R679A-FSE/R787B-FSE/R799A RouteStateChange Event. RouteModel:FSE/R679A, oldState: Turning, newState: Locked
+Wed 02/Nov/2011 18:59:19.277 TrainController2/4324/SignalController/FSE/R679A-FSE/R787B-FSE/R799A RouteStateChange Event. RouteModel:FSE/R679A, oldState: Dormant, newState: Locked
+Wed 02/Nov/2011 18:59:19.967 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:59:20.025 TrainController/4324 checking FSE/R659A
+Wed 02/Nov/2011 18:59:20.083 TrainController/4324 waiting 46 seconds  to start FSE/R659A
+Wed 02/Nov/2011 18:59:20.083 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:59:20.762 TrainController2/4324/SignalController/FSE/R679A-FSE/R787B-FSE/R799A RouteStateChange Event. RouteModel:FSE/R679A, oldState: Locked, newState: Clear
+Wed 02/Nov/2011 18:59:20.762 TrainController2/4324/SignalController/FSE/R679A-FSE/R787B-FSE/R799A checking for next route...
+Wed 02/Nov/2011 18:59:20.767 TrainController2/4324/SignalController/FSE/R679A-FSE/R787B-FSE/R799A no more route. SignalController OK sent to Traincontroller
+Wed 02/Nov/2011 18:59:20.778 TrainController/4324  signal controller FSE/R679A-FSE/R787B-FSE/R799A ok
+Wed 02/Nov/2011 18:59:21.188 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:59:21.191 TrainController/4324 checking FSE/R659A
+Wed 02/Nov/2011 18:59:21.280 TrainController/4324 waiting 46 seconds  to start FSE/R659A
+Wed 02/Nov/2011 18:59:21.280 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:59:22.063 TrainController2/4324/SignalController/FSE/R679A-FSE/R787B-FSE/R799A RouteStateChange Event. RouteModel:FSE/R679A, oldState: Clear, newState: TrainIn
+Wed 02/Nov/2011 18:59:22.314 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:59:22.366 TrainController/4324 checking FSE/R659A
+Wed 02/Nov/2011 18:59:22.372 TrainController/4324 waiting 46 seconds  to start FSE/R659A
+Wed 02/Nov/2011 18:59:22.372 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:59:23.434 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:59:23.490 TrainController/4324 checking FSE/R659A
+Wed 02/Nov/2011 18:59:23.490 TrainController/4324 waiting 46 seconds  to start FSE/R659A
+Wed 02/Nov/2011 18:59:23.498 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:59:24.604 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:59:24.649 TrainController/4324 checking FSE/R659A
+Wed 02/Nov/2011 18:59:24.668 TrainController/4324 waiting 46 seconds  to start FSE/R659A
+Wed 02/Nov/2011 18:59:24.668 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:59:25.820 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:59:25.833 TrainController/4324 checking FSE/R659A
+Wed 02/Nov/2011 18:59:25.841 TrainController/4324 waiting 46 seconds  to start FSE/R659A
+Wed 02/Nov/2011 18:59:25.841 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:59:25.904 TrainController2/4324/SignalController/FSE/R679A-FSE/R787B-FSE/R799A RouteStateChange Event. RouteModel:FSE/R787B, oldState: Clear, newState: TrainIn
+Wed 02/Nov/2011 18:59:26.939 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:59:27.019 TrainController/4324 checking FSE/R659A
+Wed 02/Nov/2011 18:59:27.220 TrainController/4324 waiting 46 seconds  to start FSE/R659A
+Wed 02/Nov/2011 18:59:27.220 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:59:28.535 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:59:28.810 TrainController/4324 checking FSE/R659A
+Wed 02/Nov/2011 18:59:29.123 TrainController/4324 waiting 46 seconds  to start FSE/R659A
+Wed 02/Nov/2011 18:59:29.123 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:59:30.131 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:59:30.133 TrainController/4324 checking FSE/R659A
+Wed 02/Nov/2011 18:59:30.135 TrainController/4324 waiting 46 seconds  to start FSE/R659A
+Wed 02/Nov/2011 18:59:30.136 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:59:31.298 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:59:31.542 TrainController/4324 checking FSE/R659A
+Wed 02/Nov/2011 18:59:31.811 TrainController/4324 waiting 46 seconds  to start FSE/R659A
+Wed 02/Nov/2011 18:59:31.811 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:59:33.458 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:59:33.907 TrainController/4324 checking FSE/R659A
+Wed 02/Nov/2011 18:59:34.150 TrainController/4324 waiting 46 seconds  to start FSE/R659A
+Wed 02/Nov/2011 18:59:34.150 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:59:35.182 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:59:35.202 TrainController/4324 checking FSE/R659A
+Wed 02/Nov/2011 18:59:35.284 TrainController/4324 waiting 46 seconds  to start FSE/R659A
+Wed 02/Nov/2011 18:59:35.285 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:59:36.385 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:59:36.395 TrainController/4324 checking FSE/R659A
+Wed 02/Nov/2011 18:59:36.485 TrainController/4324 waiting 46 seconds  to start FSE/R659A
+Wed 02/Nov/2011 18:59:36.485 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:59:37.530 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:59:37.615 TrainController/4324 checking FSE/R659A
+Wed 02/Nov/2011 18:59:37.615 TrainController/4324 waiting 46 seconds  to start FSE/R659A
+Wed 02/Nov/2011 18:59:37.615 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:59:37.743 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 18:59:37.743 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 18:59:38.752 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:59:38.758 TrainController/4324 checking FSE/R659A
+Wed 02/Nov/2011 18:59:38.886 TrainController/4324 waiting 38 seconds  to start FSE/R659A
+Wed 02/Nov/2011 18:59:38.887 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:59:40.012 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:59:40.186 TrainController/4324 checking FSE/R659A
+Wed 02/Nov/2011 18:59:40.275 TrainController/4324 waiting 38 seconds  to start FSE/R659A
+Wed 02/Nov/2011 18:59:40.275 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:59:41.067 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 18:59:41.067 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 18:59:41.376 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:59:41.378 TrainController/4324 checking FSE/R659A
+Wed 02/Nov/2011 18:59:41.391 TrainController/4324 waiting 29 seconds  to start FSE/R659A
+Wed 02/Nov/2011 18:59:41.391 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:59:42.471 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:59:42.481 TrainController/4324 checking FSE/R659A
+Wed 02/Nov/2011 18:59:42.745 TrainController/4324 waiting 29 seconds  to start FSE/R659A
+Wed 02/Nov/2011 18:59:42.745 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:59:43.773 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:59:43.834 TrainController/4324 checking FSE/R659A
+Wed 02/Nov/2011 18:59:44.102 TrainController/4324 waiting 29 seconds  to start FSE/R659A
+Wed 02/Nov/2011 18:59:44.102 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:59:44.338 TrainController2/4324/SignalController/FSE/R679A-FSE/R787B-FSE/R799A RouteStateChange Event. RouteModel:FSE/R799A, oldState: Clear, newState: TrainIn
+Wed 02/Nov/2011 18:59:44.535 TrainController2/4324/SignalController/FSE/R679A-FSE/R787B-FSE/R799A Clearing up
+Wed 02/Nov/2011 18:59:45.171 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:59:45.271 TrainController/4324 checking FSE/R659A
+Wed 02/Nov/2011 18:59:45.282 TrainController/4324 waiting 29 seconds  to start FSE/R659A
+Wed 02/Nov/2011 18:59:45.282 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:59:45.288 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 18:59:45.288 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 18:59:46.479 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:59:46.623 TrainController/4324 checking FSE/R659A
+Wed 02/Nov/2011 18:59:47.020 TrainController/4324 waiting 29 seconds  to start FSE/R659A
+Wed 02/Nov/2011 18:59:47.020 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:59:48.089 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:59:48.113 TrainController/4324 checking FSE/R659A
+Wed 02/Nov/2011 18:59:48.257 TrainController/4324 waiting 29 seconds  to start FSE/R659A
+Wed 02/Nov/2011 18:59:48.257 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:59:49.349 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:59:49.382 TrainController/4324 checking FSE/R659A
+Wed 02/Nov/2011 18:59:49.409 TrainController/4324 waiting 25 seconds  to start FSE/R659A
+Wed 02/Nov/2011 18:59:49.409 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:59:49.596 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 18:59:49.596 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 18:59:49.742 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 18:59:49.743 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 18:59:50.497 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:59:50.518 TrainController/4324 checking FSE/R659A
+Wed 02/Nov/2011 18:59:50.588 TrainController/4324 waiting 25 seconds  to start FSE/R659A
+Wed 02/Nov/2011 18:59:50.588 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:59:51.639 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:59:51.727 TrainController/4324 checking FSE/R659A
+Wed 02/Nov/2011 18:59:51.814 TrainController/4324 waiting 16 seconds  to start FSE/R659A
+Wed 02/Nov/2011 18:59:51.814 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:59:51.894 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 18:59:51.895 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 18:59:52.635 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 18:59:52.635 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 18:59:52.925 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:59:53.005 TrainController/4324 checking FSE/R659A
+Wed 02/Nov/2011 18:59:53.104 TrainController/4324 waiting 4 seconds  to start FSE/R659A
+Wed 02/Nov/2011 18:59:53.104 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:59:54.133 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:59:54.143 TrainController/4324 checking FSE/R659A
+Wed 02/Nov/2011 18:59:54.143 TrainController/4324 waiting 4 seconds  to start FSE/R659A
+Wed 02/Nov/2011 18:59:54.148 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:59:55.640 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:59:55.824 TrainController/4324 checking FSE/R659A
+Wed 02/Nov/2011 18:59:55.960 TrainController/4324 now starting FSE/R659A
+Wed 02/Nov/2011 18:59:56.040 TrainController2/4324/SignalController/FSE/R659A created
+Wed 02/Nov/2011 18:59:56.040 TrainController/4324 checking FSE/R657A
+Wed 02/Nov/2011 18:59:56.050 TrainController/4324 previous sr FSE/R659A status: waiting
+Wed 02/Nov/2011 18:59:56.051 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:59:56.182 TrainController2/4324/SignalController/FSE/R659A successfully claimed
+Wed 02/Nov/2011 18:59:56.198 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 18:59:56.198 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 18:59:56.502 TrainController2/4324/SignalController/FSE/R659A RouteStateChange Event. RouteModel:FSE/R659A, oldState: Turning, newState: Locked
+Wed 02/Nov/2011 18:59:56.520 TrainController2/4324/SignalController/FSE/R659A RouteStateChange Event. RouteModel:FSE/R659A, oldState: Dormant, newState: Locked
+Wed 02/Nov/2011 18:59:56.785 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 18:59:56.785 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 18:59:57.134 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:59:57.350 TrainController/4324 checking FSE/R657A
+Wed 02/Nov/2011 18:59:57.476 TrainController/4324 waiting 15 seconds  to start FSE/R657A
+Wed 02/Nov/2011 18:59:57.476 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:59:58.082 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 18:59:58.083 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 18:59:58.092 TrainController2/4324/SignalController/FSE/R659A RouteStateChange Event. RouteModel:FSE/R659A, oldState: Locked, newState: Clear
+Wed 02/Nov/2011 18:59:58.092 TrainController2/4324/SignalController/FSE/R659A checking for next route...
+Wed 02/Nov/2011 18:59:58.094 TrainController2/4324/SignalController/FSE/R659A no more route. SignalController OK sent to Traincontroller
+Wed 02/Nov/2011 18:59:58.094 TrainController/4324  signal controller FSE/R659A ok
+Wed 02/Nov/2011 18:59:58.536 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:59:58.557 TrainController/4324 checking FSE/R657A
+Wed 02/Nov/2011 18:59:58.740 TrainController/4324 waiting 6 seconds  to start FSE/R657A
+Wed 02/Nov/2011 18:59:58.741 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 18:59:59.765 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 18:59:59.805 TrainController2/4324/SignalController/FSE/R659A RouteStateChange Event. RouteModel:FSE/R659A, oldState: Clear, newState: TrainIn
+Wed 02/Nov/2011 18:59:59.835 TrainController/4324 checking FSE/R657A
+Wed 02/Nov/2011 18:59:59.858 TrainController2/4324/SignalController/FSE/R659A Clearing up
+Wed 02/Nov/2011 18:59:59.859 TrainController/4324 waiting 1 seconds  to start FSE/R657A
+Wed 02/Nov/2011 18:59:59.859 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:00:01.113 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:00:01.154 TrainController/4324 checking FSE/R657A
+Wed 02/Nov/2011 19:00:01.155 TrainController/4324 waiting 1 seconds  to start FSE/R657A
+Wed 02/Nov/2011 19:00:01.155 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:00:02.310 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:00:02.557 TrainController/4324 checking FSE/R657A
+Wed 02/Nov/2011 19:00:02.566 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 19:00:02.566 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 19:00:02.573 TrainController/4324 waiting 1 seconds  to start FSE/R657A
+Wed 02/Nov/2011 19:00:02.573 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:00:04.234 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:00:04.244 TrainController/4324 checking FSE/R657A
+Wed 02/Nov/2011 19:00:04.472 TrainController/4324 waiting 1 seconds  to start FSE/R657A
+Wed 02/Nov/2011 19:00:04.472 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:00:05.504 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:00:05.655 TrainController/4324 checking FSE/R657A
+Wed 02/Nov/2011 19:00:05.655 TrainController/4324 waiting 1 seconds  to start FSE/R657A
+Wed 02/Nov/2011 19:00:05.729 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:00:06.273 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 19:00:06.273 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 19:00:06.791 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:00:06.803 TrainController/4324 checking FSE/R657A
+Wed 02/Nov/2011 19:00:06.811 TrainController/4324 waiting 1 seconds  to start FSE/R657A
+Wed 02/Nov/2011 19:00:06.811 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:00:07.681 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 19:00:07.681 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 19:00:07.914 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:00:08.059 TrainController/4324 checking FSE/R657A
+Wed 02/Nov/2011 19:00:08.099 TrainController/4324 now starting FSE/R657A
+Wed 02/Nov/2011 19:00:08.257 TrainController2/4324/SignalController/FSE/R657A created
+Wed 02/Nov/2011 19:00:08.386 TrainController/4324 checking MUL/R655A
+Wed 02/Nov/2011 19:00:08.386 TrainController2/4324/SignalController/FSE/R657A successfully claimed
+Wed 02/Nov/2011 19:00:08.598 TrainController/4324 waiting 10 seconds  to start MUL/R655A
+Wed 02/Nov/2011 19:00:08.598 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:00:09.329 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 19:00:09.330 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 19:00:09.527 TrainController2/4324/SignalController/FSE/R657A RouteStateChange Event. RouteModel:FSE/R657A, oldState: Turning, newState: Locked
+Wed 02/Nov/2011 19:00:09.832 TrainController2/4324/SignalController/FSE/R657A RouteStateChange Event. RouteModel:FSE/R657A, oldState: Dormant, newState: Locked
+Wed 02/Nov/2011 19:00:09.893 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:00:10.060 TrainController/4324 checking MUL/R655A
+Wed 02/Nov/2011 19:00:10.124 TrainController/4324 waiting 10 seconds  to start MUL/R655A
+Wed 02/Nov/2011 19:00:10.125 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:00:11.158 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:00:11.268 TrainController/4324 checking MUL/R655A
+Wed 02/Nov/2011 19:00:11.268 TrainController/4324 waiting 10 seconds  to start MUL/R655A
+Wed 02/Nov/2011 19:00:11.272 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:00:11.439 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 19:00:11.439 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 19:00:11.591 TrainController2/4324/SignalController/FSE/R657A RouteStateChange Event. RouteModel:FSE/R657A, oldState: Locked, newState: Clear
+Wed 02/Nov/2011 19:00:11.591 TrainController2/4324/SignalController/FSE/R657A checking for next route...
+Wed 02/Nov/2011 19:00:11.602 TrainController2/4324/SignalController/FSE/R657A no more route. SignalController OK sent to Traincontroller
+Wed 02/Nov/2011 19:00:11.609 TrainController/4324  signal controller FSE/R657A ok
+Wed 02/Nov/2011 19:00:12.275 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:00:12.609 TrainController/4324 checking MUL/R655A
+Wed 02/Nov/2011 19:00:12.621 TrainController/4324 waiting 10 seconds  to start MUL/R655A
+Wed 02/Nov/2011 19:00:12.621 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:00:12.850 TrainController2/4324/SignalController/FSE/R657A RouteStateChange Event. RouteModel:FSE/R657A, oldState: Clear, newState: TrainIn
+Wed 02/Nov/2011 19:00:13.085 TrainController2/4324/SignalController/FSE/R657A Clearing up
+Wed 02/Nov/2011 19:00:13.821 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:00:13.998 TrainController/4324 checking MUL/R655A
+Wed 02/Nov/2011 19:00:14.022 TrainController/4324 waiting 10 seconds  to start MUL/R655A
+Wed 02/Nov/2011 19:00:14.022 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:00:15.069 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:00:15.070 TrainController/4324 checking MUL/R655A
+Wed 02/Nov/2011 19:00:15.122 TrainController/4324 waiting 10 seconds  to start MUL/R655A
+Wed 02/Nov/2011 19:00:15.123 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:00:16.128 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:00:16.208 TrainController/4324 checking MUL/R655A
+Wed 02/Nov/2011 19:00:16.315 TrainController/4324 waiting 10 seconds  to start MUL/R655A
+Wed 02/Nov/2011 19:00:16.315 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:00:17.490 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:00:17.515 TrainController/4324 checking MUL/R655A
+Wed 02/Nov/2011 19:00:17.590 TrainController/4324 waiting 10 seconds  to start MUL/R655A
+Wed 02/Nov/2011 19:00:17.590 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:00:18.983 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:00:18.984 TrainController/4324 checking MUL/R655A
+Wed 02/Nov/2011 19:00:19.211 TrainController/4324 waiting 10 seconds  to start MUL/R655A
+Wed 02/Nov/2011 19:00:19.212 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:00:20.129 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 19:00:20.129 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 19:00:20.266 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:00:20.352 TrainController/4324 checking MUL/R655A
+Wed 02/Nov/2011 19:00:20.535 TrainController/4324 now starting MUL/R655A
+Wed 02/Nov/2011 19:00:20.593 TrainController2/4324/SignalController/MUL/R655A created
+Wed 02/Nov/2011 19:00:20.735 TrainController/4324 checking MUL/R653A
+Wed 02/Nov/2011 19:00:20.735 TrainController2/4324/SignalController/MUL/R655A successfully claimed
+Wed 02/Nov/2011 19:00:20.818 TrainController/4324 waiting 12 seconds  to start MUL/R653A
+Wed 02/Nov/2011 19:00:20.818 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:00:20.867 TrainController2/4324/SignalController/MUL/R655A RouteStateChange Event. RouteModel:MUL/R655A, oldState: Turning, newState: Locked
+Wed 02/Nov/2011 19:00:20.924 TrainController2/4324/SignalController/MUL/R655A RouteStateChange Event. RouteModel:MUL/R655A, oldState: Dormant, newState: Locked
+Wed 02/Nov/2011 19:00:21.893 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:00:21.960 TrainController/4324 checking MUL/R653A
+Wed 02/Nov/2011 19:00:22.000 TrainController/4324 waiting 13 seconds  to start MUL/R653A
+Wed 02/Nov/2011 19:00:22.000 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:00:22.016 TrainController2/4324/SignalController/MUL/R655A RouteStateChange Event. RouteModel:MUL/R655A, oldState: Locked, newState: Clear
+Wed 02/Nov/2011 19:00:22.016 TrainController2/4324/SignalController/MUL/R655A checking for next route...
+Wed 02/Nov/2011 19:00:22.017 TrainController2/4324/SignalController/MUL/R655A no more route. SignalController OK sent to Traincontroller
+Wed 02/Nov/2011 19:00:22.017 TrainController/4324  signal controller MUL/R655A ok
+Wed 02/Nov/2011 19:00:22.967 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 19:00:22.968 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 19:00:23.055 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:00:23.133 TrainController/4324 checking MUL/R653A
+Wed 02/Nov/2011 19:00:23.272 TrainController/4324 waiting 13 seconds  to start MUL/R653A
+Wed 02/Nov/2011 19:00:23.272 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:00:23.419 TrainController2/4324/SignalController/MUL/R655A RouteStateChange Event. RouteModel:MUL/R655A, oldState: Clear, newState: TrainIn
+Wed 02/Nov/2011 19:00:23.493 TrainController2/4324/SignalController/MUL/R655A Clearing up
+Wed 02/Nov/2011 19:00:24.305 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:00:24.339 TrainController/4324 checking MUL/R653A
+Wed 02/Nov/2011 19:00:24.449 TrainController/4324 waiting 13 seconds  to start MUL/R653A
+Wed 02/Nov/2011 19:00:24.450 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:00:25.557 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:00:25.659 TrainController/4324 checking MUL/R653A
+Wed 02/Nov/2011 19:00:25.660 TrainController/4324 waiting 13 seconds  to start MUL/R653A
+Wed 02/Nov/2011 19:00:25.667 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:00:26.866 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:00:26.879 TrainController/4324 checking MUL/R653A
+Wed 02/Nov/2011 19:00:27.027 TrainController/4324 waiting 13 seconds  to start MUL/R653A
+Wed 02/Nov/2011 19:00:27.027 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:00:28.063 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:00:28.088 TrainController/4324 checking MUL/R653A
+Wed 02/Nov/2011 19:00:28.091 TrainController/4324 waiting 13 seconds  to start MUL/R653A
+Wed 02/Nov/2011 19:00:28.091 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:00:29.364 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:00:29.403 TrainController/4324 checking MUL/R653A
+Wed 02/Nov/2011 19:00:30.212 TrainController/4324 waiting 13 seconds  to start MUL/R653A
+Wed 02/Nov/2011 19:00:30.213 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:00:31.429 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:00:31.775 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 19:00:31.775 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 19:00:31.779 TrainController/4324 checking MUL/R653A
+Wed 02/Nov/2011 19:00:32.134 TrainController/4324 waiting 5 seconds  to start MUL/R653A
+Wed 02/Nov/2011 19:00:32.134 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:00:33.244 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:00:33.899 TrainController/4324 checking MUL/R653A
+Wed 02/Nov/2011 19:00:33.997 TrainController/4324 waiting 5 seconds  to start MUL/R653A
+Wed 02/Nov/2011 19:00:33.997 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:00:35.153 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:00:35.218 TrainController/4324 checking MUL/R653A
+Wed 02/Nov/2011 19:00:35.377 TrainController/4324 waiting 5 seconds  to start MUL/R653A
+Wed 02/Nov/2011 19:00:35.378 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:00:36.503 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:00:36.762 TrainController/4324 checking MUL/R653A
+Wed 02/Nov/2011 19:00:36.921 TrainController/4324 waiting 5 seconds  to start MUL/R653A
+Wed 02/Nov/2011 19:00:36.921 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:00:37.977 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:00:38.018 TrainController/4324 checking MUL/R653A
+Wed 02/Nov/2011 19:00:38.061 TrainController/4324 now starting MUL/R653A
+Wed 02/Nov/2011 19:00:38.118 TrainController2/4324/SignalController/MUL/R653A created
+Wed 02/Nov/2011 19:00:38.119 TrainController/4324 checking MUL/R649A
+Wed 02/Nov/2011 19:00:38.218 TrainController2/4324/SignalController/MUL/R653A successfully claimed
+Wed 02/Nov/2011 19:00:38.218 TrainController/4324 waiting 4 seconds  to start MUL/R649A
+Wed 02/Nov/2011 19:00:38.219 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:00:38.753 TrainController2/4324/SignalController/MUL/R653A RouteStateChange Event. RouteModel:MUL/R653A, oldState: Turning, newState: Locked
+Wed 02/Nov/2011 19:00:38.838 TrainController2/4324/SignalController/MUL/R653A RouteStateChange Event. RouteModel:MUL/R653A, oldState: Dormant, newState: Locked
+Wed 02/Nov/2011 19:00:39.313 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:00:39.482 TrainController/4324 checking MUL/R649A
+Wed 02/Nov/2011 19:00:39.482 TrainController/4324 waiting 4 seconds  to start MUL/R649A
+Wed 02/Nov/2011 19:00:39.483 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:00:40.480 TrainController2/4324/SignalController/MUL/R653A RouteStateChange Event. RouteModel:MUL/R653A, oldState: Locked, newState: Clear
+Wed 02/Nov/2011 19:00:40.481 TrainController2/4324/SignalController/MUL/R653A checking for next route...
+Wed 02/Nov/2011 19:00:40.483 TrainController2/4324/SignalController/MUL/R653A no more route. SignalController OK sent to Traincontroller
+Wed 02/Nov/2011 19:00:40.501 TrainController/4324  signal controller MUL/R653A ok
+Wed 02/Nov/2011 19:00:40.505 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:00:40.583 TrainController/4324 checking MUL/R649A
+Wed 02/Nov/2011 19:00:40.653 TrainController/4324 waiting 4 seconds  to start MUL/R649A
+Wed 02/Nov/2011 19:00:40.653 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:00:41.412 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 19:00:41.412 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 19:00:41.840 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:00:41.855 TrainController/4324 checking MUL/R649A
+Wed 02/Nov/2011 19:00:42.116 TrainController/4324 waiting 4 seconds  to start MUL/R649A
+Wed 02/Nov/2011 19:00:42.116 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:00:42.495 TrainController2/4324/SignalController/MUL/R653A RouteStateChange Event. RouteModel:MUL/R653A, oldState: Clear, newState: TrainIn
+Wed 02/Nov/2011 19:00:42.706 TrainController2/4324/SignalController/MUL/R653A Clearing up
+Wed 02/Nov/2011 19:00:43.137 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:00:43.137 TrainController/4324 checking MUL/R649A
+Wed 02/Nov/2011 19:00:43.138 TrainController/4324 waiting 4 seconds  to start MUL/R649A
+Wed 02/Nov/2011 19:00:43.138 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:00:43.242 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 19:00:43.242 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 19:00:44.313 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:00:44.354 TrainController/4324 checking MUL/R649A
+Wed 02/Nov/2011 19:00:44.355 TrainController/4324 waiting 4 seconds  to start MUL/R649A
+Wed 02/Nov/2011 19:00:44.371 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:00:45.399 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:00:45.416 TrainController/4324 checking MUL/R649A
+Wed 02/Nov/2011 19:00:45.416 TrainController/4324 waiting 4 seconds  to start MUL/R649A
+Wed 02/Nov/2011 19:00:45.425 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:00:46.590 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:00:46.779 TrainController/4324 checking MUL/R649A
+Wed 02/Nov/2011 19:00:46.831 TrainController/4324 waiting 4 seconds  to start MUL/R649A
+Wed 02/Nov/2011 19:00:46.832 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:00:47.954 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:00:48.022 TrainController/4324 checking MUL/R649A
+Wed 02/Nov/2011 19:00:48.082 TrainController/4324 waiting 4 seconds  to start MUL/R649A
+Wed 02/Nov/2011 19:00:48.082 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:00:48.101 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 19:00:48.101 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 19:00:49.236 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:00:49.817 TrainController/4324 checking MUL/R649A
+Wed 02/Nov/2011 19:00:50.011 TrainController/4324 now starting MUL/R649A
+Wed 02/Nov/2011 19:00:50.333 TrainController2/4324/SignalController/MUL/R649A created
+Wed 02/Nov/2011 19:00:50.333 TrainController/4324 checking MUL/R645A
+Wed 02/Nov/2011 19:00:50.334 TrainController/4324 previous sr MUL/R649A status: waiting
+Wed 02/Nov/2011 19:00:50.334 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:00:50.641 TrainController2/4324/SignalController/MUL/R649A successfully claimed
+Wed 02/Nov/2011 19:00:50.812 TrainController2/4324/SignalController/MUL/R649A RouteStateChange Event. RouteModel:MUL/R649A, oldState: Turning, newState: Locked
+Wed 02/Nov/2011 19:00:50.876 TrainController2/4324/SignalController/MUL/R649A RouteStateChange Event. RouteModel:MUL/R649A, oldState: Dormant, newState: Locked
+Wed 02/Nov/2011 19:00:51.341 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:00:51.421 TrainController/4324 checking MUL/R645A
+Wed 02/Nov/2011 19:00:51.432 TrainController/4324 now starting MUL/R645A
+Wed 02/Nov/2011 19:00:51.512 TrainController2/4324/SignalController/MUL/R645A created
+Wed 02/Nov/2011 19:00:51.578 TrainController/4324 checking MUL/R793A
+Wed 02/Nov/2011 19:00:51.578 TrainController2/4324/SignalController/MUL/R645A successfully claimed
+Wed 02/Nov/2011 19:00:51.718 TrainController/4324 waiting 4 seconds  to start MUL/R793A
+Wed 02/Nov/2011 19:00:51.718 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:00:51.754 TrainController2/4324/SignalController/MUL/R649A RouteStateChange Event. RouteModel:MUL/R649A, oldState: Locked, newState: Clear
+Wed 02/Nov/2011 19:00:51.755 TrainController2/4324/SignalController/MUL/R649A checking for next route...
+Wed 02/Nov/2011 19:00:51.755 TrainController2/4324/SignalController/MUL/R649A no more route. SignalController OK sent to Traincontroller
+Wed 02/Nov/2011 19:00:51.756 TrainController/4324  signal controller MUL/R649A ok
+Wed 02/Nov/2011 19:00:52.027 TrainController2/4324/SignalController/MUL/R645A RouteStateChange Event. RouteModel:MUL/R645A, oldState: Turning, newState: Locked
+Wed 02/Nov/2011 19:00:52.038 TrainController2/4324/SignalController/MUL/R645A RouteStateChange Event. RouteModel:MUL/R645A, oldState: Dormant, newState: Locked
+Wed 02/Nov/2011 19:00:52.885 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:00:52.956 TrainController2/4324/SignalController/MUL/R649A RouteStateChange Event. RouteModel:MUL/R649A, oldState: Clear, newState: TrainIn
+Wed 02/Nov/2011 19:00:52.959 TrainController/4324 checking MUL/R793A
+Wed 02/Nov/2011 19:00:52.962 TrainController2/4324/SignalController/MUL/R645A RouteStateChange Event. RouteModel:MUL/R645A, oldState: Locked, newState: Clear
+Wed 02/Nov/2011 19:00:52.962 TrainController2/4324/SignalController/MUL/R645A checking for next route...
+Wed 02/Nov/2011 19:00:52.967 TrainController2/4324/SignalController/MUL/R645A no more route. SignalController OK sent to Traincontroller
+Wed 02/Nov/2011 19:00:52.967 TrainController/4324  signal controller MUL/R645A ok
+Wed 02/Nov/2011 19:00:53.002 TrainController/4324 waiting 4 seconds  to start MUL/R793A
+Wed 02/Nov/2011 19:00:53.002 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:00:53.003 TrainController2/4324/SignalController/MUL/R649A Clearing up
+Wed 02/Nov/2011 19:00:54.140 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:00:54.262 TrainController/4324 checking MUL/R793A
+Wed 02/Nov/2011 19:00:54.610 TrainController/4324 waiting 4 seconds  to start MUL/R793A
+Wed 02/Nov/2011 19:00:54.611 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:00:55.492 TrainController2/4324/SignalController/MUL/R645A RouteStateChange Event. RouteModel:MUL/R645A, oldState: Clear, newState: TrainIn
+Wed 02/Nov/2011 19:00:55.521 TrainController2/4324/SignalController/MUL/R645A Clearing up
+Wed 02/Nov/2011 19:00:55.705 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:00:55.712 TrainController/4324 checking MUL/R793A
+Wed 02/Nov/2011 19:00:55.713 TrainController/4324 waiting 4 seconds  to start MUL/R793A
+Wed 02/Nov/2011 19:00:55.713 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:00:55.720 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 19:00:55.720 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 19:00:56.862 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:00:56.955 TrainController/4324 checking MUL/R793A
+Wed 02/Nov/2011 19:00:57.114 TrainController/4324 waiting 4 seconds  to start MUL/R793A
+Wed 02/Nov/2011 19:00:57.114 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:00:58.379 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:00:58.400 TrainController/4324 checking MUL/R793A
+Wed 02/Nov/2011 19:00:58.400 TrainController/4324 waiting 4 seconds  to start MUL/R793A
+Wed 02/Nov/2011 19:00:58.400 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:00:58.705 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 19:00:58.705 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 19:00:59.451 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:00:59.542 TrainController/4324 checking MUL/R793A
+Wed 02/Nov/2011 19:00:59.596 TrainController/4324 now starting MUL/R793A
+Wed 02/Nov/2011 19:00:59.610 TrainController2/4324/SignalController/MUL/R793A created
+Wed 02/Nov/2011 19:00:59.623 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:00:59.625 TrainController2/4324/SignalController/MUL/R793A successfully claimed
+Wed 02/Nov/2011 19:00:59.701 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:00:59.701 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:00:59.777 TrainController2/4324/SignalController/MUL/R793A RouteStateChange Event. RouteModel:MUL/R793A, oldState: Turning, newState: Locked
+Wed 02/Nov/2011 19:00:59.811 TrainController2/4324/SignalController/MUL/R793A RouteStateChange Event. RouteModel:MUL/R793A, oldState: Dormant, newState: Locked
+Wed 02/Nov/2011 19:01:00.730 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:01:00.797 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:01:00.962 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:01:00.962 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:01:01.302 TrainController2/4324/SignalController/MUL/R793A RouteStateChange Event. RouteModel:MUL/R793A, oldState: Locked, newState: Clear
+Wed 02/Nov/2011 19:01:01.302 TrainController2/4324/SignalController/MUL/R793A checking for next route...
+Wed 02/Nov/2011 19:01:01.304 TrainController2/4324/SignalController/MUL/R793A no more route. SignalController OK sent to Traincontroller
+Wed 02/Nov/2011 19:01:01.365 TrainController/4324  signal controller MUL/R793A ok
+Wed 02/Nov/2011 19:01:02.168 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:01:02.177 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:01:02.376 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:01:02.376 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:01:03.262 TrainController2/4324/SignalController/MUL/R793A RouteStateChange Event. RouteModel:MUL/R793A, oldState: Clear, newState: TrainIn
+Wed 02/Nov/2011 19:01:03.507 TrainController2/4324/SignalController/MUL/R793A Clearing up
+Wed 02/Nov/2011 19:01:03.518 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:01:03.520 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:01:03.751 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:01:03.751 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:01:05.566 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:01:05.567 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:01:05.930 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:01:05.930 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:01:06.434 TrainController/4324 train status changed. 
+Wed 02/Nov/2011 19:01:06.435 TrainController/4324 exiting trainStateChanged
+Wed 02/Nov/2011 19:01:07.036 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:01:07.320 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:01:07.464 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:01:07.464 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:01:08.504 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:01:08.505 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:01:08.505 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:01:08.509 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:01:09.584 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:01:09.636 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:01:09.729 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:01:09.729 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:01:10.735 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:01:10.737 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:01:10.739 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:01:10.739 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:01:11.798 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:01:11.805 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:01:11.983 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:01:11.983 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:01:13.063 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:01:13.065 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:01:13.065 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:01:13.066 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:01:14.177 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:01:14.192 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:01:14.211 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:01:14.212 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:01:15.215 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:01:15.234 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:01:15.235 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:01:15.236 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:01:16.238 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:01:16.242 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:01:16.243 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:01:16.243 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:01:17.245 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:01:17.246 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:01:17.246 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:01:17.246 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:01:18.248 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:01:18.249 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:01:18.249 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:01:18.250 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:01:19.252 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:01:19.279 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:01:19.279 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:01:19.289 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:01:20.360 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:01:20.373 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:01:20.397 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:01:20.397 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:01:21.431 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:01:21.442 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:01:21.447 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:01:21.447 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:01:22.448 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:01:22.449 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:01:22.450 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:01:22.450 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:01:23.450 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:01:23.452 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:01:23.452 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:01:23.453 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:01:24.457 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:01:24.459 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:01:24.462 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:01:24.462 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:01:25.558 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:01:25.620 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:01:25.644 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:01:25.644 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:01:26.652 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:01:26.652 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:01:26.661 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:01:26.661 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:01:27.663 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:01:27.664 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:01:27.664 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:01:27.665 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:01:28.667 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:01:28.667 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:01:28.668 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:01:28.683 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:01:29.700 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:01:29.700 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:01:29.701 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:01:29.701 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:01:30.703 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:01:30.704 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:01:30.704 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:01:30.704 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:01:31.706 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:01:31.707 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:01:31.707 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:01:31.707 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:01:32.745 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:01:32.771 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:01:32.790 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:01:32.790 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:01:33.794 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:01:33.794 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:01:33.795 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:01:33.795 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:01:34.797 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:01:34.798 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:01:34.799 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:01:34.799 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:01:36.134 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:01:36.450 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:01:36.768 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:01:36.768 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:01:37.770 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:01:37.772 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:01:37.775 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:01:37.775 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:01:38.776 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:01:38.778 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:01:38.779 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:01:38.779 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:01:39.780 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:01:39.782 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:01:39.783 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:01:39.783 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:01:40.785 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:01:40.786 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:01:40.787 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:01:40.787 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:01:41.788 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:01:41.789 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:01:41.790 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:01:41.790 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:01:42.792 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:01:42.793 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:01:42.794 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:01:42.794 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:01:43.796 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:01:43.797 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:01:43.798 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:01:43.798 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:01:44.800 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:01:44.801 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:01:44.801 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:01:44.801 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:01:45.805 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:01:45.806 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:01:45.806 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:01:45.807 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:01:46.809 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:01:46.810 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:01:46.811 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:01:46.811 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:01:47.813 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:01:47.814 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:01:47.815 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:01:47.815 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:01:48.817 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:01:48.818 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:01:48.820 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:01:48.820 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:01:49.823 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:01:49.824 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:01:49.824 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:01:49.824 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:01:50.828 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:01:50.829 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:01:50.829 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:01:50.829 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:01:51.831 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:01:51.832 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:01:51.833 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:01:51.833 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:01:52.835 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:01:52.837 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:01:52.837 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:01:52.837 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:01:53.839 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:01:53.840 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:01:53.842 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:01:53.842 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:01:54.843 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:01:54.846 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:01:54.847 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:01:54.847 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:01:55.849 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:01:55.852 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:01:55.853 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:01:55.853 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:01:56.855 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:01:56.856 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:01:56.858 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:01:56.858 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:01:57.859 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:01:57.860 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:01:57.861 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:01:57.861 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:01:58.862 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:01:58.863 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:01:58.864 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:01:58.864 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:01:59.866 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:01:59.868 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:01:59.869 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:01:59.869 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:02:00.870 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:02:00.871 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:02:00.872 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:02:00.872 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:02:01.874 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:02:01.875 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:02:01.876 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:02:01.876 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:02:02.878 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:02:02.880 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:02:02.881 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:02:02.881 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:02:03.882 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:02:03.884 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:02:03.885 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:02:03.886 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:02:04.887 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:02:04.888 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:02:04.889 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:02:04.889 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:02:05.891 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:02:05.893 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:02:05.895 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:02:05.895 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:02:06.896 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:02:06.898 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:02:06.899 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:02:06.899 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:02:07.900 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:02:07.902 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:02:07.902 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:02:07.902 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:02:08.904 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:02:08.905 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:02:08.906 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:02:08.906 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:02:09.908 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:02:09.910 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:02:09.910 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:02:09.910 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:02:10.911 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:02:10.913 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:02:10.913 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:02:10.914 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:02:11.915 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:02:11.917 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:02:11.918 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:02:11.918 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:02:12.919 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:02:12.921 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:02:12.922 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:02:12.922 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:02:13.924 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:02:13.926 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:02:13.927 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:02:13.927 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:02:14.928 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:02:14.930 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:02:14.932 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:02:14.932 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:02:15.932 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:02:15.934 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:02:15.936 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:02:15.936 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:02:16.937 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:02:16.940 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:02:16.940 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:02:16.940 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:02:17.941 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:02:17.945 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:02:17.946 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:02:17.946 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:02:18.947 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:02:18.950 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:02:18.951 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:02:18.951 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:02:19.952 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:02:19.953 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:02:19.954 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:02:19.954 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:02:20.956 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:02:20.957 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:02:20.958 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:02:20.958 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:02:21.960 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:02:21.961 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:02:21.962 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:02:21.962 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:02:22.963 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:02:22.965 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:02:22.966 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:02:22.966 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:02:23.967 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:02:23.969 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:02:23.970 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:02:23.970 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:02:24.972 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:02:24.973 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:02:24.975 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:02:24.975 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:02:25.976 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:02:25.980 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:02:25.981 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:02:25.981 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:02:26.982 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:02:26.983 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:02:26.984 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:02:26.984 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:02:27.986 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:02:27.987 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:02:27.988 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:02:27.988 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:02:28.990 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:02:28.991 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:02:28.992 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:02:28.992 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:02:29.995 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:02:29.996 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:02:29.998 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:02:29.998 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:02:30.999 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:02:31.000 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:02:31.001 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:02:31.002 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:02:32.003 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:02:32.004 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:02:32.005 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:02:32.005 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:02:33.007 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:02:33.008 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:02:33.009 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:02:33.010 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:02:34.012 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:02:34.014 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:02:34.015 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:02:34.015 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:02:35.017 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:02:35.018 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:02:35.019 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:02:35.019 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:02:36.021 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:02:36.022 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:02:36.022 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:02:36.023 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:02:37.025 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:02:37.027 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:02:37.028 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:02:37.028 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:02:38.030 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:02:38.031 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:02:38.033 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:02:38.033 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:02:39.034 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:02:39.035 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:02:39.037 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:02:39.037 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:02:40.039 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:02:40.041 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:02:40.042 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:02:40.043 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:02:41.043 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:02:41.046 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:02:41.047 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:02:41.048 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:02:42.049 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:02:42.050 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:02:42.050 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:02:42.053 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:02:43.054 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:02:43.059 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:02:43.060 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:02:43.060 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:02:44.062 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:02:44.066 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:02:44.069 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:02:44.069 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:02:45.125 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:02:45.223 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:02:45.283 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:02:45.283 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:02:46.285 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:02:46.286 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:02:46.287 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:02:46.287 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:02:47.288 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:02:47.290 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:02:47.290 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:02:47.290 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:02:48.292 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:02:48.301 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:02:48.302 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:02:48.302 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:02:49.304 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:02:49.305 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:02:49.306 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:02:49.307 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:02:50.307 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:02:50.308 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:02:50.309 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:02:50.309 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:02:51.310 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:02:51.312 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:02:51.312 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:02:51.312 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:02:52.313 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:02:52.314 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:02:52.314 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:02:52.314 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:02:53.316 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:02:53.317 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:02:53.317 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:02:53.317 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:02:54.319 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:02:54.320 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:02:54.320 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:02:54.320 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:02:55.322 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:02:55.323 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:02:55.324 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:02:55.324 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:02:56.325 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:02:56.326 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:02:56.327 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:02:56.328 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:02:57.329 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:02:57.330 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:02:57.331 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:02:57.331 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:02:58.333 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:02:58.334 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:02:58.336 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:02:58.336 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:02:59.337 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:02:59.338 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:02:59.339 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:02:59.340 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:03:00.341 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:03:00.342 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:03:00.342 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:03:00.342 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:03:01.343 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:03:01.344 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:03:01.345 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:03:01.345 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:03:02.345 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:03:02.347 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:03:02.347 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:03:02.347 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:03:03.350 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:03:03.351 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:03:03.351 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:03:03.351 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:03:04.354 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:03:04.355 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:03:04.355 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:03:04.355 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:03:05.356 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:03:05.358 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:03:05.359 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:03:05.359 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:03:06.362 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:03:06.364 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:03:06.366 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:03:06.366 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:03:07.367 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:03:07.372 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:03:07.437 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:03:07.437 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:03:08.515 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:03:08.516 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:03:08.516 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:03:08.516 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:03:09.681 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:03:09.715 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:03:09.725 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:03:09.725 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:03:10.729 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:03:10.733 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:03:10.733 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:03:10.734 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:03:11.735 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:03:11.737 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:03:11.738 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:03:11.739 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:03:12.739 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:03:12.741 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:03:12.741 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:03:12.742 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:03:13.743 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:03:13.744 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:03:13.745 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:03:13.745 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:03:14.746 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:03:14.747 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:03:14.748 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:03:14.748 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:03:15.749 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:03:15.750 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:03:15.750 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:03:15.750 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:03:16.751 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:03:16.752 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:03:16.752 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:03:16.753 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:03:17.755 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:03:17.756 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:03:17.756 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:03:17.757 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:03:18.759 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:03:18.760 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:03:18.761 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:03:18.761 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:03:19.764 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:03:19.765 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:03:19.768 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:03:19.768 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:03:20.769 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:03:20.770 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:03:20.771 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:03:20.771 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:03:21.773 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:03:21.775 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:03:21.775 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:03:21.776 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:03:22.777 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:03:22.778 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:03:22.778 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:03:22.778 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:03:23.780 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:03:23.780 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:03:23.781 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:03:23.781 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:03:24.783 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:03:24.784 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:03:24.784 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:03:24.784 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:03:25.788 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:03:25.790 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:03:25.790 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:03:25.791 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:03:26.793 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:03:26.795 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:03:26.795 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:03:26.796 TrainController/4324 requestSchedule...... completed
+Wed 02/Nov/2011 19:03:27.797 TrainController/4324 starting requestSchedule......
+Wed 02/Nov/2011 19:03:27.798 TrainController/4324 checking MUL/R637A
+Wed 02/Nov/2011 19:03:27.799 TrainController/4324 waiting 16 seconds  to start MUL/R637A
+Wed 02/Nov/2011 19:03:27.799 TrainController/4324 requestSchedule...... completed

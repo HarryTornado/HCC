@@ -1,0 +1,1431 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configs>
+	<SignallingIndication xml:id="C081.CRP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/081.CRP</sourceURL>
+		<offset>3</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E001.EFP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/001.EFP</sourceURL>
+		<offset>4</offset>
+		<word>16</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E002.ECP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/002.ECP</sourceURL>
+		<offset>3</offset>
+		<word>16</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E003.ACPOR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/003.ACPOR</sourceURL>
+		<offset>2</offset>
+		<word>16</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E004.BATTLR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/004.BATTLR</sourceURL>
+		<offset>1</offset>
+		<word>16</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E005.BF">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/005.BF</sourceURL>
+		<offset>0</offset>
+		<word>16</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E006.SCREP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/006.SCREP</sourceURL>
+		<offset>7</offset>
+		<word>16</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E480.NGFP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/480.NGFP</sourceURL>
+		<offset>8</offset>
+		<word>16</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E480.GFRCP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/480.GFRCP</sourceURL>
+		<offset>9</offset>
+		<word>16</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E021.APLP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/021.APLP</sourceURL>
+		<offset>12</offset>
+		<word>16</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E022.CF">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/022.CF</sourceURL>
+		<offset>11</offset>
+		<word>16</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E023.CPFR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/023.CPFR</sourceURL>
+		<offset>10</offset>
+		<word>16</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E136.LXACFR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/136.LXACFR</sourceURL>
+		<offset>5</offset>
+		<word>16</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E150.LXACFR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/150.LXACFR</sourceURL>
+		<offset>6</offset>
+		<word>16</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E480.JR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/480.JR</sourceURL>
+		<offset>12</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E491.JR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/491.JR</sourceURL>
+		<offset>8</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L137.FGNP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/137.FGNP</sourceURL>
+		<offset>11</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L137.FCP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/137.FCP</sourceURL>
+		<offset>12</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L151.FGNP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/151.FGNP</sourceURL>
+		<offset>6</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L151.FCP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/151.FCP</sourceURL>
+		<offset>7</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P406.LRP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/406.LRP</sourceURL>
+		<offset>1</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P406.RWCR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/406.RWCR</sourceURL>
+		<offset>2</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P406.NWCR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/406.NWCR</sourceURL>
+		<offset>3</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P426.LRP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/426.LRP</sourceURL>
+		<offset>5</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P426.RWCR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/426.RWCR</sourceURL>
+		<offset>6</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P426.NWCR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/426.NWCR</sourceURL>
+		<offset>7</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P427.LRP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/427.LRP</sourceURL>
+		<offset>2</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P427.RWCR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/427.RWCR</sourceURL>
+		<offset>3</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P427.NWCR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/427.NWCR</sourceURL>
+		<offset>4</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P428.LRP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/428.LRP</sourceURL>
+		<offset>15</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P428.RWCR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/428.RWCR</sourceURL>
+		<offset>0</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P428.NWCR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/428.NWCR</sourceURL>
+		<offset>1</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P429.LRP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/429.LRP</sourceURL>
+		<offset>12</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P429.RWCR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/429.RWCR</sourceURL>
+		<offset>13</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P429.NWCR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/429.NWCR</sourceURL>
+		<offset>14</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P464.RWCR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/464.RWCR</sourceURL>
+		<offset>10</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P464.NWCR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/464.NWCR</sourceURL>
+		<offset>11</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P464.LRP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/464.LRP</sourceURL>
+		<offset>9</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P466.LRP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/466.LRP</sourceURL>
+		<offset>6</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P466.RWCR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/466.RWCR</sourceURL>
+		<offset>7</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P466.NWCR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/466.NWCR</sourceURL>
+		<offset>8</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P467.LRP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/467.LRP</sourceURL>
+		<offset>3</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P467.RWCR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/467.RWCR</sourceURL>
+		<offset>4</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P467.NWCR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/467.NWCR</sourceURL>
+		<offset>5</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P468.LRP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/468.LRP</sourceURL>
+		<offset>0</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P468.RWCR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/468.RWCR</sourceURL>
+		<offset>1</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P468.NWCR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/468.NWCR</sourceURL>
+		<offset>2</offset>
+		<word>10</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P476.LRP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/476.LRP</sourceURL>
+		<offset>13</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P476.RWCR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/476.RWCR</sourceURL>
+		<offset>14</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P476.NWCR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/476.NWCR</sourceURL>
+		<offset>15</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P477.LRP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/477.LRP</sourceURL>
+		<offset>10</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P477.RWCR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/477.RWCR</sourceURL>
+		<offset>11</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P477.NWCR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/477.NWCR</sourceURL>
+		<offset>12</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P480.LRP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/480.LRP</sourceURL>
+		<offset>13</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P480.RWCR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/480.RWCR</sourceURL>
+		<offset>14</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P480.NWCR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/480.NWCR</sourceURL>
+		<offset>15</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P491.RWCR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/491.RWCR</sourceURL>
+		<offset>10</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P491.NWCR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/491.NWCR</sourceURL>
+		<offset>11</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P491.LRP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/491.LRP</sourceURL>
+		<offset>9</offset>
+		<word>9</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P499.LRP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/499.LRP</sourceURL>
+		<offset>4</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P499.RWCR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/499.RWCR</sourceURL>
+		<offset>5</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P499.NWCR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/499.NWCR</sourceURL>
+		<offset>6</offset>
+		<word>11</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S209.RGP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/209.RGP</sourceURL>
+		<offset>12</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S423.RGP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/423.RGP</sourceURL>
+		<offset>4</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S424.RGP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/424.RGP</sourceURL>
+		<offset>3</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S506.RIP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/506.RIP</sourceURL>
+		<offset>6</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S506.ASP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/506.ASP</sourceURL>
+		<offset>7</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S506.RGP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/506.RGP</sourceURL>
+		<offset>8</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S506.NGP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/506.NGP</sourceURL>
+		<offset>9</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S508.RGP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/508.RGP</sourceURL>
+		<offset>0</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S520.CPBS">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/520.CPBS</sourceURL>
+		<offset>0</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S520.AOR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/520.AOR</sourceURL>
+		<offset>1</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S520.ASP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/520.ASP</sourceURL>
+		<offset>2</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S520.RGP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/520.RGP</sourceURL>
+		<offset>3</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S520.CGR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/520.CGR</sourceURL>
+		<offset>4</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S520.NGP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/520.NGP</sourceURL>
+		<offset>5</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S520.RIP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/520.RIP</sourceURL>
+		<offset>15</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S522.AOR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/522.AOR</sourceURL>
+		<offset>10</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S522.ASP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/522.ASP</sourceURL>
+		<offset>11</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S522.RGP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/522.RGP</sourceURL>
+		<offset>12</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S522.CGR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/522.CGR</sourceURL>
+		<offset>13</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S522.NGP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/522.NGP</sourceURL>
+		<offset>14</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S522.RIP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/522.RIP</sourceURL>
+		<offset>8</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S522.CPBS">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/522.CPBS</sourceURL>
+		<offset>9</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S523.ASP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/523.ASP</sourceURL>
+		<offset>0</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S523.RGP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/523.RGP</sourceURL>
+		<offset>1</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S523.CGR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/523.CGR</sourceURL>
+		<offset>2</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S523.NGP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/523.NGP</sourceURL>
+		<offset>3</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S523.RIP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/523.RIP</sourceURL>
+		<offset>13</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S523.CPBS">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/523.CPBS</sourceURL>
+		<offset>14</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S523.AOR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/523.AOR</sourceURL>
+		<offset>15</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S526.RIP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/526.RIP</sourceURL>
+		<offset>2</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S526.CPBS">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/526.CPBS</sourceURL>
+		<offset>3</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S526.AOR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/526.AOR</sourceURL>
+		<offset>4</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S526.ASP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/526.ASP</sourceURL>
+		<offset>5</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S526.RGP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/526.RGP</sourceURL>
+		<offset>6</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S526.CGR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/526.CGR</sourceURL>
+		<offset>7</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S526.NGP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/526.NGP</sourceURL>
+		<offset>8</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S527.RGP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/527.RGP</sourceURL>
+		<offset>0</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S527.NGP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/527.NGP</sourceURL>
+		<offset>1</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S527.RIP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/527.RIP</sourceURL>
+		<offset>14</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S527.ASP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/527.ASP</sourceURL>
+		<offset>15</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S528.RIP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/528.RIP</sourceURL>
+		<offset>10</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S528.ASP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/528.ASP</sourceURL>
+		<offset>11</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S528.RGP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/528.RGP</sourceURL>
+		<offset>12</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S528.NGP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/528.NGP</sourceURL>
+		<offset>13</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S529.RIP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/529.RIP</sourceURL>
+		<offset>3</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S529.CPBS">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/529.CPBS</sourceURL>
+		<offset>4</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S529.AOR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/529.AOR</sourceURL>
+		<offset>5</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S529.ASP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/529.ASP</sourceURL>
+		<offset>6</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S529.RGP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/529.RGP</sourceURL>
+		<offset>7</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S529.CGR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/529.CGR</sourceURL>
+		<offset>8</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S529.NGP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/529.NGP</sourceURL>
+		<offset>9</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S550.RGP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/550.RGP</sourceURL>
+		<offset>15</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S567.RGP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/567.RGP</sourceURL>
+		<offset>0</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S567.CGR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/567.CGR</sourceURL>
+		<offset>1</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S567.NGP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/567.NGP</sourceURL>
+		<offset>2</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S567.RIP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/567.RIP</sourceURL>
+		<offset>12</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S567.CPBS">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/567.CPBS</sourceURL>
+		<offset>13</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S567.AOR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/567.AOR</sourceURL>
+		<offset>14</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S567.ASP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/567.ASP</sourceURL>
+		<offset>15</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S577.CGR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/577.CGR</sourceURL>
+		<offset>10</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S577.NGP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/577.NGP</sourceURL>
+		<offset>11</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S577.RIP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/577.RIP</sourceURL>
+		<offset>5</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S577.CPBS">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/577.CPBS</sourceURL>
+		<offset>6</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S577.AOR">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/577.AOR</sourceURL>
+		<offset>7</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S577.ASP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/577.ASP</sourceURL>
+		<offset>8</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S577.RGP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/577.RGP</sourceURL>
+		<offset>9</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S580.RIP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/580.RIP</sourceURL>
+		<offset>1</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S580.ASP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/580.ASP</sourceURL>
+		<offset>2</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S580.RGP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/580.RGP</sourceURL>
+		<offset>3</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S580.NGP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/580.NGP</sourceURL>
+		<offset>4</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S582.RGP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/582.RGP</sourceURL>
+		<offset>10</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S582.NGP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/582.NGP</sourceURL>
+		<offset>11</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S582.RIP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/582.RIP</sourceURL>
+		<offset>8</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S582.ASP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/582.ASP</sourceURL>
+		<offset>9</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S584.RIP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/584.RIP</sourceURL>
+		<offset>4</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S584.ASP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/584.ASP</sourceURL>
+		<offset>5</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S584.RGP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/584.RGP</sourceURL>
+		<offset>6</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S584.NGP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/584.NGP</sourceURL>
+		<offset>7</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S591.NGP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/591.NGP</sourceURL>
+		<offset>0</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S591.RIP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/591.RIP</sourceURL>
+		<offset>13</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S591.ASP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/591.ASP</sourceURL>
+		<offset>14</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S591.RGP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/591.RGP</sourceURL>
+		<offset>15</offset>
+		<word>8</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T139.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/139.TPK</sourceURL>
+		<offset>13</offset>
+		<word>12</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T153.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/153.TPK</sourceURL>
+		<offset>12</offset>
+		<word>12</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T173.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/173.TPK</sourceURL>
+		<offset>5</offset>
+		<word>15</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T178.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/178.TPK</sourceURL>
+		<offset>11</offset>
+		<word>12</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T187.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/187.TPK</sourceURL>
+		<offset>12</offset>
+		<word>15</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T191.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/191.TPK</sourceURL>
+		<offset>9</offset>
+		<word>12</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T193.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/193.TPK</sourceURL>
+		<offset>4</offset>
+		<word>15</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T202.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/202.TPK</sourceURL>
+		<offset>3</offset>
+		<word>15</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T224.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/224.TPK</sourceURL>
+		<offset>2</offset>
+		<word>15</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T226.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/226.TPK</sourceURL>
+		<offset>8</offset>
+		<word>12</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T264.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/264.TPK</sourceURL>
+		<offset>7</offset>
+		<word>12</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T265.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/265.TPK</sourceURL>
+		<offset>6</offset>
+		<word>12</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T276.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/276.TPK</sourceURL>
+		<offset>5</offset>
+		<word>12</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T401.ARP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/401.ARP</sourceURL>
+		<offset>10</offset>
+		<word>15</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T401.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/401.TPK</sourceURL>
+		<offset>11</offset>
+		<word>15</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T406.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/406.TPK</sourceURL>
+		<offset>0</offset>
+		<word>12</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T406.ARP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/406.ARP</sourceURL>
+		<offset>15</offset>
+		<word>13</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T420.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/420.TPK</sourceURL>
+		<offset>14</offset>
+		<word>13</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T422.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/422.TPK</sourceURL>
+		<offset>13</offset>
+		<word>13</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T424.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/424.TPK</sourceURL>
+		<offset>12</offset>
+		<word>13</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T426.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/426.TPK</sourceURL>
+		<offset>11</offset>
+		<word>13</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T427.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/427.TPK</sourceURL>
+		<offset>10</offset>
+		<word>13</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T429.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/429.TPK</sourceURL>
+		<offset>9</offset>
+		<word>13</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T464.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/464.TPK</sourceURL>
+		<offset>8</offset>
+		<word>13</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T466.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/466.TPK</sourceURL>
+		<offset>7</offset>
+		<word>13</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T467.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/467.TPK</sourceURL>
+		<offset>6</offset>
+		<word>13</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T468.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/468.TPK</sourceURL>
+		<offset>5</offset>
+		<word>13</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T476.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/476.TPK</sourceURL>
+		<offset>4</offset>
+		<word>13</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T477.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/477.TPK</sourceURL>
+		<offset>3</offset>
+		<word>13</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T478.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/478.TPK</sourceURL>
+		<offset>12</offset>
+		<word>14</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T479.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/479.TPK</sourceURL>
+		<offset>11</offset>
+		<word>14</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T480.ARP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/480.ARP</sourceURL>
+		<offset>3</offset>
+		<word>12</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T480.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/480.TPK</sourceURL>
+		<offset>4</offset>
+		<word>12</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T481.ARP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/481.ARP</sourceURL>
+		<offset>8</offset>
+		<word>15</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T481.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/481.TPK</sourceURL>
+		<offset>9</offset>
+		<word>15</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T482.ARP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/482.ARP</sourceURL>
+		<offset>6</offset>
+		<word>15</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T482.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/482.TPK</sourceURL>
+		<offset>7</offset>
+		<word>15</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T484.ARP">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/484.ARP</sourceURL>
+		<offset>13</offset>
+		<word>16</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T484.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/484.TPK</sourceURL>
+		<offset>14</offset>
+		<word>16</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T491.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/491.TPK</sourceURL>
+		<offset>0</offset>
+		<word>13</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T498.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/498.TPK</sourceURL>
+		<offset>13</offset>
+		<word>14</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T500.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/500.TPK</sourceURL>
+		<offset>14</offset>
+		<word>12</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T506.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/506.TPK</sourceURL>
+		<offset>10</offset>
+		<word>14</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T507.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/507.TPK</sourceURL>
+		<offset>9</offset>
+		<word>14</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T508.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/508.TPK</sourceURL>
+		<offset>2</offset>
+		<word>12</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T520.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/520.TPK</sourceURL>
+		<offset>8</offset>
+		<word>14</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T522.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/522.TPK</sourceURL>
+		<offset>7</offset>
+		<word>14</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T523.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/523.TPK</sourceURL>
+		<offset>6</offset>
+		<word>14</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T524.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/524.TPK</sourceURL>
+		<offset>5</offset>
+		<word>14</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T526.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/526.TPK</sourceURL>
+		<offset>4</offset>
+		<word>14</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T529.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/529.TPK</sourceURL>
+		<offset>3</offset>
+		<word>14</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T548.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/548.TPK</sourceURL>
+		<offset>15</offset>
+		<word>14</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T550.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/550.TPK</sourceURL>
+		<offset>14</offset>
+		<word>14</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T567.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/567.TPK</sourceURL>
+		<offset>2</offset>
+		<word>14</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T568.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/568.TPK</sourceURL>
+		<offset>1</offset>
+		<word>14</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T569.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/569.TPK</sourceURL>
+		<offset>0</offset>
+		<word>14</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T577.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/577.TPK</sourceURL>
+		<offset>15</offset>
+		<word>15</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T578.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/578.TPK</sourceURL>
+		<offset>14</offset>
+		<word>15</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T579.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/579.TPK</sourceURL>
+		<offset>13</offset>
+		<word>15</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T580.TPK">
+		<interlockingName>NME</interlockingName>
+		<deviceName>config:/JzaSimulator#NMA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/NME/mnem/580.TPK</sourceURL>
+		<offset>1</offset>
+		<word>12</word>
+	</SignallingIndication>
+</Configs>

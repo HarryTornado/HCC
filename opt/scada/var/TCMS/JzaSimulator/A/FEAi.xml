@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configs>
+	<SignallingIndication xml:id="C220.CRP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/220.CRP</sourceURL>
+		<offset>9</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P254.LRP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/254.LRP</sourceURL>
+		<offset>6</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P254.RWCR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/254.RWCR</sourceURL>
+		<offset>7</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P254.NWCR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/254.NWCR</sourceURL>
+		<offset>8</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P255.LRP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/255.LRP</sourceURL>
+		<offset>3</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P255.RWCR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/255.RWCR</sourceURL>
+		<offset>4</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P255.NWCR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/255.NWCR</sourceURL>
+		<offset>5</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S259.RGP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/259.RGP</sourceURL>
+		<offset>7</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S259.NGP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/259.NGP</sourceURL>
+		<offset>8</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S268.RGP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/268.RGP</sourceURL>
+		<offset>5</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S268.NGP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/268.NGP</sourceURL>
+		<offset>6</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S272.RGP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/272.RGP</sourceURL>
+		<offset>4</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S274.RGP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/274.RGP</sourceURL>
+		<offset>2</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S275.RGP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/275.RGP</sourceURL>
+		<offset>1</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S276.RGP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/276.RGP</sourceURL>
+		<offset>0</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S277.RGP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/277.RGP</sourceURL>
+		<offset>15</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S278.RGP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/278.RGP</sourceURL>
+		<offset>14</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S279.RGP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/279.RGP</sourceURL>
+		<offset>13</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S354.RIP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/354.RIP</sourceURL>
+		<offset>0</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S354.CPBS">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/354.CPBS</sourceURL>
+		<offset>1</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S354.AOR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/354.AOR</sourceURL>
+		<offset>2</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S354.ASP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/354.ASP</sourceURL>
+		<offset>3</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S354.RGP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/354.RGP</sourceURL>
+		<offset>4</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S354.CGR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/354.CGR</sourceURL>
+		<offset>5</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S354.NGP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/354.NGP</sourceURL>
+		<offset>6</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S355.CPBS">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/355.CPBS</sourceURL>
+		<offset>10</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S355.AOR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/355.AOR</sourceURL>
+		<offset>11</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S355.ASP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/355.ASP</sourceURL>
+		<offset>12</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S355.RGP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/355.RGP</sourceURL>
+		<offset>13</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S355.CGR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/355.CGR</sourceURL>
+		<offset>14</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S355.NGP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/355.NGP</sourceURL>
+		<offset>15</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S355.RIP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/355.RIP</sourceURL>
+		<offset>9</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S394.RIP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/394.RIP</sourceURL>
+		<offset>2</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S394.CPBS">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/394.CPBS</sourceURL>
+		<offset>3</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S394.AOR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/394.AOR</sourceURL>
+		<offset>4</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S394.ASP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/394.ASP</sourceURL>
+		<offset>5</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S394.RGP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/394.RGP</sourceURL>
+		<offset>6</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S394.CGR">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/394.CGR</sourceURL>
+		<offset>7</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S394.NGP">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/394.NGP</sourceURL>
+		<offset>8</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T255.TPK">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/255.TPK</sourceURL>
+		<offset>15</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T256.TPK">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/256.TPK</sourceURL>
+		<offset>14</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T268.TPK">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/268.TPK</sourceURL>
+		<offset>13</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T272.TPK">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/272.TPK</sourceURL>
+		<offset>12</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T273.TPK">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/273.TPK</sourceURL>
+		<offset>11</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T274.TPK">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/274.TPK</sourceURL>
+		<offset>10</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T275.TPK">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/275.TPK</sourceURL>
+		<offset>9</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T276.TPK">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/276.TPK</sourceURL>
+		<offset>8</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T277.TPK">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/277.TPK</sourceURL>
+		<offset>7</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T278.TPK">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/278.TPK</sourceURL>
+		<offset>6</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T279.TPK">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/279.TPK</sourceURL>
+		<offset>5</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T280.TPK">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/280.TPK</sourceURL>
+		<offset>4</offset>
+		<word>6</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T354.TPK">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/354.TPK</sourceURL>
+		<offset>15</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T355.TPK">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/355.TPK</sourceURL>
+		<offset>14</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T356.TPK">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/356.TPK</sourceURL>
+		<offset>13</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T358.TPK">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/358.TPK</sourceURL>
+		<offset>12</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T370.TPK">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/370.TPK</sourceURL>
+		<offset>2</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T372.TPK">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/372.TPK</sourceURL>
+		<offset>10</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T375.TPK">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/375.TPK</sourceURL>
+		<offset>9</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T379.TPK">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/379.TPK</sourceURL>
+		<offset>8</offset>
+		<word>7</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T394.TPK">
+		<interlockingName>FSE</interlockingName>
+		<deviceName>config:/JzaSimulator#FEA</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/FSE/mnem/394.TPK</sourceURL>
+		<offset>7</offset>
+		<word>7</word>
+	</SignallingIndication>
+</Configs>

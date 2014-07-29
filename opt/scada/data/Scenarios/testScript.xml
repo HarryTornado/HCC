@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scenario>
+	<header>
+		<name>testScript</name>
+		<author>CMW</author>
+		<description>Testing purpose</description>
+		<date>24/03/2010</date>
+	</header>
+	<actions>
+		<!-- Delete all created trains in TrafficSim. -->
+		<cli>INI</cli>
+
+		<control type="if">
+			<condition>
+				<connective logic="and">
+					<comparison type="boolean" operator="eq">
+						<operand context="uri_exists">oil://trafficsimulator.westrol/trains/TD1</operand>
+						<operand context="literal">false</operand>
+					</comparison>
+					<comparison type="boolean" operator="eq">
+						<operand context="uri_exists">oil://trafficsimulator.westrol/trains/TD2</operand>
+						<operand context="literal">false</operand>
+					</comparison>
+				</connective>
+			</condition>
+			
+			<actions>
+				<!-- Process the signal -->
+				<http_put uri="oil://westracesim.WESTROL/FSE/mnem/782.NLPR"><content>0</content></http_put>
+				<http_put uri="oil://westracesim.WESTROL/FSE/mnem/782.RLPR"><content>1</content></http_put>
+				<http_put uri="oil://westracesim.WESTROL/FSE/mnem/982.NLPR"><content>0</content></http_put>
+				<http_put uri="oil://westracesim.WESTROL/FSE/mnem/982.RLPR"><content>1</content></http_put>
+				
+				<!-- sleep 3 seconds to wait the signal clear-->
+				<sleep>3</sleep>
+				
+				<!-- Load the train TD1 and TD2-->
+				<http_put uri="oil://trafficsimulator.westrol/trains/TD1">
+					<content type="application/train-info+xml">
+						<Train>
+						    <id>TD1</id>
+							<serviceId>D1</serviceId>
+							<length>30</length>
+							<speed>0</speed>
+							<maxSpeed>120</maxSpeed>
+							<direction>Down</direction>
+							<acceleration>0.7</acceleration>
+							<deceleration>-0.9</deceleration>
+							<tripCock>true</tripCock>
+							<normalAcceleration>0.65</normalAcceleration>
+							<normalDeceleration>-0.65</normalDeceleration>
+							<frontAxleLocation>FSE/T854</frontAxleLocation>
+							<frontAxleUpDistance>100</frontAxleUpDistance>
+						</Train>
+					</content>
+				</http_put>
+				<http_put uri="oil://trafficsimulator.westrol/trains/TD2">
+					<content type="application/train-info+xml">
+						<Train>
+						    <id>TD2</id>
+							<serviceId>D2</serviceId>
+							<length>30</length>
+							<speed>0</speed>
+							<maxSpeed>120</maxSpeed>
+							<direction>Down</direction>
+							<acceleration>0.7</acceleration>
+							<deceleration>-0.9</deceleration>
+							<tripCock>true</tripCock>
+							<normalAcceleration>0.65</normalAcceleration>
+							<normalDeceleration>-0.65</normalDeceleration>
+							<frontAxleLocation>FSE/T698</frontAxleLocation>
+							<frontAxleUpDistance>100</frontAxleUpDistance>
+						</Train>
+					</content>
+				</http_put>
+			</actions>
+		</control>
+		
+		<!-- sleep 5 seconds to wait the trains to move-->
+		<sleep>5</sleep>
+				
+		<control type="wait_until">
+			<condition>
+				<connective logic="and">
+					<comparison type="number" operator="eq">
+						<operand context="uri_resource">oil://trafficsimulator.westrol/trains/TD1/speed</operand>
+						<operand context="literal">0</operand>
+					</comparison>
+					<comparison type="number" operator="eq">
+						<operand context="uri_resource">oil://trafficsimulator.westrol/trains/TD2/speed</operand>
+						<operand context="literal">0</operand>
+					</comparison>
+				</connective>
+			</condition>
+			
+			<actions>
+				<!-- delete the trains -->
+				<http_delete uri="oil://trafficsimulator.westrol/trains/TD1" />
+				<http_delete uri="oil://trafficsimulator.westrol/trains/TD2" />
+				
+				<!-- Load the train TD3 and TD4-->
+				<http_put uri="oil://trafficsimulator.westrol/trains/TD3">
+					<content type="application/train-info+xml">
+						<Train>
+						    <id>TD3</id>
+							<serviceId>D1</serviceId>
+							<length>30</length>
+							<speed>0</speed>
+							<maxSpeed>120</maxSpeed>
+							<direction>Down</direction>
+							<acceleration>0.7</acceleration>
+							<deceleration>-0.9</deceleration>
+							<tripCock>true</tripCock>
+							<normalAcceleration>0.65</normalAcceleration>
+							<normalDeceleration>-0.65</normalDeceleration>
+							<frontAxleLocation>FSE/T866</frontAxleLocation>
+							<frontAxleUpDistance>20</frontAxleUpDistance>
+						</Train>
+					</content>
+				</http_put>
+				
+				<http_put uri="oil://trafficsimulator.westrol/trains/TD4">
+					<content type="application/train-info+xml">
+						<Train>
+						    <id>TD4</id>
+							<serviceId>D1</serviceId>
+							<length>30</length>
+							<speed>0</speed>
+							<maxSpeed>120</maxSpeed>
+							<direction>UP</direction>
+							<acceleration>0.7</acceleration>
+							<deceleration>-0.9</deceleration>
+							<tripCock>true</tripCock>
+							<normalAcceleration>0.65</normalAcceleration>
+							<normalDeceleration>-0.65</normalDeceleration>
+							<frontAxleLocation>FSE/T656</frontAxleLocation>
+							<frontAxleUpDistance>20</frontAxleUpDistance>
+						</Train>
+					</content>
+				</http_put>
+				
+				<!-- sleep 10 seconds-->
+				<sleep>10</sleep>
+				
+				<!-- Set rout 775 => 697 -->	
+				<cli>SRO FSE 775 FSE 697</cli>
+
+				<!-- Reverse the point P881 -->	
+				<http_put uri="oil://westracesim.WESTROL/FSE/mnem/881.NLPR/value"><content>0</content></http_put>
+				<http_put uri="oil://westracesim.WESTROL/FSE/mnem/881.RLPR/value"><content>1</content></http_put>
+				<!-- Change the Signal S992 to clear-->
+				<http_put uri="oil://westracesim.WESTROL/FSE/mnem/992.NLPR"><content>0</content></http_put>
+				<http_put uri="oil://westracesim.WESTROL/FSE/mnem/992.RLPR"><content>1</content></http_put>
+			</actions>
+		</control>
+		
+		<control type="on">
+			<condition>
+				<comparison type="string" operator="eq">
+					<operand context="uri_resource">oil://trafficsimulator.westrol/trains/TD3/leadingTrack</operand>
+					<operand context="literal">FSE/T870</operand>
+				</comparison>
+			</condition>
+		
+			<actions>
+				<!-- delete the trains -->
+				<http_delete uri="oil://trafficsimulator.westrol/trains/TD3" />
+			</actions>
+		</control>
+		
+		<control type="on">
+			<condition>
+				<comparison type="string" operator="eq">
+					<operand context="uri_resource">oil://trafficsimulator.westrol/trains/TD4/leadingTrack</operand>
+					<operand context="literal">FSE/T697</operand>
+				</comparison>
+			</condition>
+		
+			<actions>
+				<!-- delete the trains -->
+				<http_delete uri="oil://trafficsimulator.westrol/trains/TD4" />
+			</actions>
+		</control>
+		
+		<!-- Change Point P675 & P881 layer to normal when TD3 & TD4 are deleted-->
+		<control type="wait_until">
+			<condition>
+				<connective logic="and">
+					<comparison type="boolean" operator="eq">
+						<operand context="uri_exists">oil://trafficsimulator.westrol/trains/TD3</operand>
+						<operand context="literal">false</operand>
+					</comparison>
+					<comparison type="boolean" operator="eq">
+						<operand context="uri_exists">oil://trafficsimulator.westrol/trains/TD4</operand>
+						<operand context="literal">false</operand>
+					</comparison>
+				</connective>
+			</condition>
+			
+			<actions>			
+				<!-- normal the point P675 -->	
+				<cli>PTN FSE 675U</cli>
+				<!-- normal the point P881 -->	
+				<http_put uri="oil://westracesim.WESTROL/FSE/mnem/881.NLPR/value"><content>1</content></http_put>
+				<http_put uri="oil://westracesim.WESTROL/FSE/mnem/881.RLPR/value"><content>0</content></http_put>	
+			</actions>
+		</control>
+	</actions>
+</scenario>

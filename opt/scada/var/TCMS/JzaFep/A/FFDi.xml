@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configs>
+	<JzaIndication xml:id="E001FF.EFP">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/FFD#FFD</deviceName>
+		<offset>4</offset>
+		<word>8</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E002FF.ECP">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/FFD#FFD</deviceName>
+		<offset>3</offset>
+		<word>8</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E003FF.ACPOR">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/FFD#FFD</deviceName>
+		<offset>2</offset>
+		<word>8</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E004FF.BATTLR">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/FFD#FFD</deviceName>
+		<offset>1</offset>
+		<word>8</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E005FF.BF">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/FFD#FFD</deviceName>
+		<offset>0</offset>
+		<word>8</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E006FF.SCREP">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/FFD#FFD</deviceName>
+		<offset>7</offset>
+		<word>8</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E011.PWRONR">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/FFD#FFD</deviceName>
+		<offset>9</offset>
+		<word>8</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E012.PWROFFR">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/FFD#FFD</deviceName>
+		<offset>8</offset>
+		<word>8</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E021.APLP">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/FFD#FFD</deviceName>
+		<offset>12</offset>
+		<word>8</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E022.CF">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/FFD#FFD</deviceName>
+		<offset>11</offset>
+		<word>8</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E023.CPFR">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/FFD#FFD</deviceName>
+		<offset>10</offset>
+		<word>8</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E257.LXACFR">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/FFD#FFD</deviceName>
+		<offset>6</offset>
+		<word>8</word>
+	</JzaIndication>
+	<JzaIndication xml:id="E277.LXACFR">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/FFD#FFD</deviceName>
+		<offset>5</offset>
+		<word>8</word>
+	</JzaIndication>
+	<JzaIndication xml:id="L257.DTOP">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/FFD#FFD</deviceName>
+		<offset>2</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="L257.BPOK">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/FFD#FFD</deviceName>
+		<offset>3</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="L257.FGNP">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/FFD#FFD</deviceName>
+		<offset>4</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="L257.FCP">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/FFD#FFD</deviceName>
+		<offset>5</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="L277.FGNP">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/FFD#FFD</deviceName>
+		<offset>0</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="L277.FCP">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/FFD#FFD</deviceName>
+		<offset>1</offset>
+		<word>5</word>
+	</JzaIndication>
+	<JzaIndication xml:id="L277.DTOP">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/FFD#FFD</deviceName>
+		<offset>14</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="L277.BPOK">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/FFD#FFD</deviceName>
+		<offset>15</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S245.RGP">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/FFD#FFD</deviceName>
+		<offset>9</offset>
+		<word>2</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S248.RGP">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/FFD#FFD</deviceName>
+		<offset>6</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S257.RGP">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/FFD#FFD</deviceName>
+		<offset>11</offset>
+		<word>3</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S266.RGP">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/FFD#FFD</deviceName>
+		<offset>12</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S273.RGP">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/FFD#FFD</deviceName>
+		<offset>7</offset>
+		<word>1</word>
+	</JzaIndication>
+	<JzaIndication xml:id="S280.RGP">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/FFD#FFD</deviceName>
+		<offset>0</offset>
+		<word>4</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T235.TPK">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/FFD#FFD</deviceName>
+		<offset>12</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T245.TPK">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/FFD#FFD</deviceName>
+		<offset>11</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T248.TPK">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/FFD#FFD</deviceName>
+		<offset>4</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T249.TPK">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/FFD#FFD</deviceName>
+		<offset>3</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T252.TPK">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/FFD#FFD</deviceName>
+		<offset>2</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T256.TPK">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/FFD#FFD</deviceName>
+		<offset>1</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T257.TPK">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/FFD#FFD</deviceName>
+		<offset>8</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T259.TPK">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/FFD#FFD</deviceName>
+		<offset>0</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T261.TPK">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/FFD#FFD</deviceName>
+		<offset>13</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T265.TPK">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/FFD#FFD</deviceName>
+		<offset>15</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T266.TPK">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/FFD#FFD</deviceName>
+		<offset>7</offset>
+		<word>6</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T273.TPK">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/FFD#FFD</deviceName>
+		<offset>13</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T274.TPK">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/FFD#FFD</deviceName>
+		<offset>14</offset>
+		<word>7</word>
+	</JzaIndication>
+	<JzaIndication xml:id="T280.TPK">
+		<interlockingName>HDB</interlockingName>
+		<deviceName>config:/FFD#FFD</deviceName>
+		<offset>5</offset>
+		<word>6</word>
+	</JzaIndication>
+</Configs>

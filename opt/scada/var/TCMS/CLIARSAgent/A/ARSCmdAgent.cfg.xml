@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Config>
+
+<CmdAgentMain xml_id="CmdAgentARSMain">
+	<thisServiceCommandPath>/coreCommand</thisServiceCommandPath>
+	<targetAppHostname>oil://ARS.TCMS</targetAppHostname>
+	<thisServiceName>CLIARSAgent</thisServiceName>
+	<thisServiceHostname>oil://CLIARSAgent.TCMS</thisServiceHostname>
+	<commandsInfo>
+
+		<!-- Disable Automatic Route Setting -->
+		<commandInfo registration="^ARD\s.*">
+			<data><syntaxOptions>
+				<description>
+					<syntax mnemonic="ARD">NUMBER:train</syntax>
+					<urlPathTemplateSet>
+						<urlPathTemplate content="ARD %1">/cli</urlPathTemplate>
+					</urlPathTemplateSet>
+				</description>
+			</syntaxOptions></data>
+		</commandInfo>
+
+		<!-- Enable Automatic Route Setting -->
+		<commandInfo registration="^ARE\s.*">
+			<data><syntaxOptions>
+				<description>
+					<syntax mnemonic="ARE">NUMBER:train</syntax>
+					<urlPathTemplateSet>
+						<urlPathTemplate content="ARE %1">/cli</urlPathTemplate>
+					</urlPathTemplateSet>
+				</description>
+			</syntaxOptions></data>
+		</commandInfo>
+
+	</commandsInfo>
+</CmdAgentMain>
+
+</Config>
+

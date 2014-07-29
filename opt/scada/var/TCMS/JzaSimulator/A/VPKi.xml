@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configs>
+	<SignallingIndication xml:id="P002.LRP">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/JzaSimulator#VPK</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/CHL/LIMP002C/value</sourceURL>
+		<offset>0</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P002.RWCR">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/JzaSimulator#VPK</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/CHL/LIMP002B/value</sourceURL>
+		<offset>1</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P002.NWCR">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/JzaSimulator#VPK</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/CHL/LIMP002A/value</sourceURL>
+		<offset>2</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P005.LRP">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/JzaSimulator#VPK</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/CHL/LIMP005C/value</sourceURL>
+		<offset>13</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P005.RWCR">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/JzaSimulator#VPK</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/CHL/LIMP005B/value</sourceURL>
+		<offset>14</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="P005.NWCR">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/JzaSimulator#VPK</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/CHL/LIMP005A/value</sourceURL>
+		<offset>15</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="SV002.RGP">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/JzaSimulator#VPK</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/CHL/LIMSVPK002C/value</sourceURL>
+		<offset>10</offset>
+		<word>5</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="SV005.RGP">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/JzaSimulator#VPK</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/CHL/LIMSVPK005C/value</sourceURL>
+		<offset>9</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="SV100.RIP">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/JzaSimulator#VPK</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/CHL/LIMSVPK100G/value</sourceURL>
+		<offset>3</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="SV100.AOR">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/JzaSimulator#VPK</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/CHL/LIMSVPK100E/value</sourceURL>
+		<offset>5</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="SV100.ASP">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/JzaSimulator#VPK</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/CHL/LIMSVPK100D/value</sourceURL>
+		<offset>6</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="SV100.RGP">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/JzaSimulator#VPK</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/CHL/LIMSVPK100C/value</sourceURL>
+		<offset>7</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="SV100.NGP">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/JzaSimulator#VPK</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/CHL/LIMSVPK100A/value</sourceURL>
+		<offset>8</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="SV102.RGP">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/JzaSimulator#VPK</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/CHL/LIMSVPK102C/value</sourceURL>
+		<offset>0</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="SV102.CGR">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/JzaSimulator#VPK</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/CHL/LIMSVPK102B/value</sourceURL>
+		<offset>1</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="SV102.NGP">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/JzaSimulator#VPK</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/CHL/LIMSVPK102A/value</sourceURL>
+		<offset>2</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="SV102.RIP">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/JzaSimulator#VPK</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/CHL/LIMSVPK102G/value</sourceURL>
+		<offset>12</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="SV102.CPBS">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/JzaSimulator#VPK</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/CHL/LIMSVPK102F/value</sourceURL>
+		<offset>13</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="SV102.AOR">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/JzaSimulator#VPK</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/CHL/LIMSVPK102E/value</sourceURL>
+		<offset>14</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="SV102.ASP">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/JzaSimulator#VPK</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/CHL/LIMSVPK102D/value</sourceURL>
+		<offset>15</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="SV103.RGP">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/JzaSimulator#VPK</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/CHL/LIMSVPK103C/value</sourceURL>
+		<offset>10</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="SV103.NGP">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/JzaSimulator#VPK</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/CHL/LIMSVPK103A/value</sourceURL>
+		<offset>11</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="SV103.RIP">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/JzaSimulator#VPK</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/CHL/LIMSVPK103G/value</sourceURL>
+		<offset>8</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="SV103.ASP">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/JzaSimulator#VPK</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/CHL/LIMSVPK103D/value</sourceURL>
+		<offset>9</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="SV104.RIP">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/JzaSimulator#VPK</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/CHL/LIMSVPK104G/value</sourceURL>
+		<offset>4</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="SV104.ASP">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/JzaSimulator#VPK</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/CHL/LIMSVPK104D/value</sourceURL>
+		<offset>5</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="SV104.RGP">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/JzaSimulator#VPK</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/CHL/LIMSVPK104C/value</sourceURL>
+		<offset>6</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="SV104.NGP">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/JzaSimulator#VPK</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/CHL/LIMSVPK104A/value</sourceURL>
+		<offset>7</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="SV105.ASP">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/JzaSimulator#VPK</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/CHL/LIMSVPK105D/value</sourceURL>
+		<offset>0</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="SV105.RGP">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/JzaSimulator#VPK</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/CHL/LIMSVPK105C/value</sourceURL>
+		<offset>1</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="SV105.CGR">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/JzaSimulator#VPK</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/CHL/LIMSVPK105B/value</sourceURL>
+		<offset>2</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="SV105.NGP">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/JzaSimulator#VPK</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/CHL/LIMSVPK105A/value</sourceURL>
+		<offset>3</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="SV105.RIP">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/JzaSimulator#VPK</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/CHL/LIMSVPK105G/value</sourceURL>
+		<offset>13</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="SV105.CPBS">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/JzaSimulator#VPK</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/CHL/LIMSVPK105F/value</sourceURL>
+		<offset>14</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="SV105.AOR">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/JzaSimulator#VPK</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/CHL/LIMSVPK105E/value</sourceURL>
+		<offset>15</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="SV107.ASP">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/JzaSimulator#VPK</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/CHL/LIMSVPK107D/value</sourceURL>
+		<offset>10</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="SV107.RGP">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/JzaSimulator#VPK</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/CHL/LIMSVPK107C/value</sourceURL>
+		<offset>11</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="SV107.NGP">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/JzaSimulator#VPK</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/CHL/LIMSVPK107A/value</sourceURL>
+		<offset>12</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="SV107.RIP">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/JzaSimulator#VPK</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/CHL/LIMSVPK107G/value</sourceURL>
+		<offset>7</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="SV107.AOR">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/JzaSimulator#VPK</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/CHL/LIMSVPK107E/value</sourceURL>
+		<offset>9</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="SV109.RIP">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/JzaSimulator#VPK</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/CHL/LIMSVPK109G/value</sourceURL>
+		<offset>3</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="SV109.ASP">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/JzaSimulator#VPK</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/CHL/LIMSVPK109D/value</sourceURL>
+		<offset>4</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="SV109.RGP">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/JzaSimulator#VPK</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/CHL/LIMSVPK109C/value</sourceURL>
+		<offset>5</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="SV109.NGP">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/JzaSimulator#VPK</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/CHL/LIMSVPK109A/value</sourceURL>
+		<offset>6</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T002.TPK">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/JzaSimulator#VPK</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/CHL/LIMT002A/value</sourceURL>
+		<offset>10</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T005.TPK">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/JzaSimulator#VPK</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/CHL/LIMT005A/value</sourceURL>
+		<offset>12</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T100.TPK">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/JzaSimulator#VPK</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/CHL/LIMT100A/value</sourceURL>
+		<offset>9</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T102.TPK">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/JzaSimulator#VPK</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/CHL/LIMT102A/value</sourceURL>
+		<offset>11</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="TV103.TPK">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/JzaSimulator#VPK</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/CHL/LIMT103ZA/value</sourceURL>
+		<offset>7</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T105.TPK">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/JzaSimulator#VPK</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/CHL/LIMT105A/value</sourceURL>
+		<offset>5</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T107.TPK">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/JzaSimulator#VPK</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/CHL/LIMT107A/value</sourceURL>
+		<offset>4</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="TS135.TPK">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/JzaSimulator#VPK</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/CHL/LIMTS135A/value</sourceURL>
+		<offset>8</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="TS141.TPK">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/JzaSimulator#VPK</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/CHL/LIMTS141A/value</sourceURL>
+		<offset>6</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T703.ARP">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/JzaSimulator#VPK</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/CHL/LIMT703B/value</sourceURL>
+		<offset>2</offset>
+		<word>4</word>
+	</SignallingIndication>
+</Configs>

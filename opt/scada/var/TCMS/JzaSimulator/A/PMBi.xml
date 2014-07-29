@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configs>
+	<SignallingIndication xml:id="E609.BOHP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#PMB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/609.BOHP</sourceURL>
+		<offset>2</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E615.ESEP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#PMB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/615.ESEP</sourceURL>
+		<offset>15</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E616.ESEP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#PMB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/616.ESEP</sourceURL>
+		<offset>14</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E619.SCREP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#PMB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/619.SCREP</sourceURL>
+		<offset>13</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E620.EFP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#PMB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/620.EFP</sourceURL>
+		<offset>12</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E629.ECP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#PMB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/629.ECP</sourceURL>
+		<offset>7</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E630.ECP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#PMB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/630.ECP</sourceURL>
+		<offset>6</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E645.SLAP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#PMB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/645.SLAP</sourceURL>
+		<offset>1</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E654.SLAP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#PMB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/654.SLAP</sourceURL>
+		<offset>0</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E697.APLP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#PMB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/697.APLP</sourceURL>
+		<offset>10</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E699.APLP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#PMB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/699.APLP</sourceURL>
+		<offset>9</offset>
+		<word>4</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S645.RGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#PMB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/645.RGP</sourceURL>
+		<offset>8</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S645.NGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#PMB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/645.NGP</sourceURL>
+		<offset>9</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S646.RGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#PMB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/646.RGP</sourceURL>
+		<offset>6</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S646.NGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#PMB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/646.NGP</sourceURL>
+		<offset>7</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S649.RGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#PMB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/649.RGP</sourceURL>
+		<offset>4</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S649.NGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#PMB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/649.NGP</sourceURL>
+		<offset>5</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S650.RGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#PMB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/650.RGP</sourceURL>
+		<offset>2</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S650.NGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#PMB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/650.NGP</sourceURL>
+		<offset>3</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S653.RGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#PMB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/653.RGP</sourceURL>
+		<offset>0</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S653.NGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#PMB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/653.NGP</sourceURL>
+		<offset>1</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S654.RGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#PMB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/654.RGP</sourceURL>
+		<offset>14</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S654.NGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#PMB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/654.NGP</sourceURL>
+		<offset>15</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S655.RGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#PMB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/655.RGP</sourceURL>
+		<offset>12</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S655.NGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#PMB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/655.NGP</sourceURL>
+		<offset>13</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S660.RGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#PMB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/660.RGP</sourceURL>
+		<offset>10</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S660.NGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#PMB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/660.NGP</sourceURL>
+		<offset>11</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S792.CPBS">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#PMB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/792.(DN)APOP</sourceURL>
+		<offset>4</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S792.ASP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#PMB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/792.ASP</sourceURL>
+		<offset>6</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S792.RGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#PMB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/792.RGP</sourceURL>
+		<offset>7</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S792.NGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#PMB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/792.NGP</sourceURL>
+		<offset>9</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S793.RGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#PMB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/793.RGP</sourceURL>
+		<offset>0</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S793.NGP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#PMB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/793.NGP</sourceURL>
+		<offset>2</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S793.CPBS">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#PMB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/793.(UP)APOP</sourceURL>
+		<offset>13</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S793.ASP">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#PMB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/793.ASP</sourceURL>
+		<offset>15</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T644.TPK">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#PMB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/644.TKP</sourceURL>
+		<offset>11</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T645.TPK">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#PMB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/645.TKP</sourceURL>
+		<offset>10</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T646.TPK">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#PMB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/646.TKP</sourceURL>
+		<offset>9</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T649.TPK">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#PMB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/649.TKP</sourceURL>
+		<offset>8</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T650.TPK">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#PMB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/650.TKP</sourceURL>
+		<offset>7</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T653.TPK">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#PMB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/653.TKP</sourceURL>
+		<offset>6</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T654.TPK">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#PMB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/654.TKP</sourceURL>
+		<offset>5</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T655.TPK">
+		<interlockingName>MUL</interlockingName>
+		<deviceName>config:/JzaSimulator#PMB</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/MUL/mnem/655.TKP</sourceURL>
+		<offset>4</offset>
+		<word>3</word>
+	</SignallingIndication>
+</Configs>

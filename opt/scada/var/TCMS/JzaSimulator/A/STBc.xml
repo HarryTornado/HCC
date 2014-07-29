@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configs>
+	<SignallingControl xml:id="C661.RLPR">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>6</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="C661.NLPR">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>7</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P603.RLPR">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>1</offset>
+		<word>4</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P603.NLPR">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>2</offset>
+		<word>4</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P604.NLPR">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>0</offset>
+		<word>4</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P604.RLPR">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>15</offset>
+		<word>5</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P607.RLPR">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>13</offset>
+		<word>5</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P607.NLPR">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>14</offset>
+		<word>5</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P622.RLPR">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>12</offset>
+		<word>9</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P622.NLPR">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>13</offset>
+		<word>9</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P623.RLPR">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>10</offset>
+		<word>9</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P623.NLPR">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>11</offset>
+		<word>9</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P625.RLPR">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>8</offset>
+		<word>9</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P625.NLPR">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>9</offset>
+		<word>9</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P626.RLPR">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>6</offset>
+		<word>9</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="P626.NLPR">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>7</offset>
+		<word>9</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S606.RLPR">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>14</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S606.NLPR">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>15</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S607.RLPR">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>10</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S607.NLPR">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>11</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S702.AORPN">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>2</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S702.AORPR">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>3</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S702.RLPR">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>4</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S702.NLPR">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>5</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S703.NLPR">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>0</offset>
+		<word>2</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S703.CPBPR">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>12</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S703.AORPN">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>13</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S703.AORPR">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>14</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S703.RLPR">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>15</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S704.CPBPR">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>7</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S704.AORPN">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>8</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S704.AORPR">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>9</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S704.RLPR">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>10</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S704.NLPR">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>11</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S705.AORPN">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>3</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S705.AORPR">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>4</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S705.RLPR">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>5</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S705.NLPR">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>6</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S706.AORPR">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>0</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S706.RLPR">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>1</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S706.NLPR">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>2</offset>
+		<word>3</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S706.AORPN">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>15</offset>
+		<word>4</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S707.CPBPR">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>9</offset>
+		<word>4</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S707.AORPN">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>10</offset>
+		<word>4</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S707.AORPR">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>11</offset>
+		<word>4</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S707.RLPR">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>12</offset>
+		<word>4</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S707.NLPR">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>13</offset>
+		<word>4</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S709.AORPN">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>9</offset>
+		<word>5</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S709.AORPR">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>10</offset>
+		<word>5</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S709.RLPR">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>11</offset>
+		<word>5</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S709.NLPR">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>12</offset>
+		<word>5</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S716.AORPN">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>12</offset>
+		<word>6</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S716.AORPR">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>13</offset>
+		<word>6</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S716.RLPR">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>14</offset>
+		<word>6</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S716.NLPR">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>15</offset>
+		<word>6</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S718.CPBPR">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>7</offset>
+		<word>6</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S718.AORPN">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>8</offset>
+		<word>6</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S718.AORPR">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>9</offset>
+		<word>6</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S718.RLPR">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>10</offset>
+		<word>6</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S718.NLPR">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>11</offset>
+		<word>6</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S720.AORPN">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>1</offset>
+		<word>6</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S720.AORPR">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>2</offset>
+		<word>6</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S720.RLPR">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>3</offset>
+		<word>6</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S720.NLPR">
+		<interlockingName>SSN</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>4</offset>
+		<word>6</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S721.NLPR">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>0</offset>
+		<word>6</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S721.CPBPR">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>12</offset>
+		<word>7</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S721.AORPN">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>13</offset>
+		<word>7</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S721.AORPR">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>14</offset>
+		<word>7</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S721.RLPR">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>15</offset>
+		<word>7</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S722.CPBPR">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>7</offset>
+		<word>7</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S722.AORPN">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>8</offset>
+		<word>7</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S722.AORPR">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>9</offset>
+		<word>7</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S722.RLPR">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>10</offset>
+		<word>7</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S722.NLPR">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>11</offset>
+		<word>7</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S723.CPBPR">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>2</offset>
+		<word>7</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S723.AORPN">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>3</offset>
+		<word>7</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S723.AORPR">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>4</offset>
+		<word>7</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S723.RLPR">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>5</offset>
+		<word>7</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S723.NLPR">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>6</offset>
+		<word>7</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S725.AORPN">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>10</offset>
+		<word>8</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S725.AORPR">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>11</offset>
+		<word>8</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S725.RLPR">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>12</offset>
+		<word>8</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S725.NLPR">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>13</offset>
+		<word>8</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S726.CPBPR">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>5</offset>
+		<word>8</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S726.AORPN">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>6</offset>
+		<word>8</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S726.AORPR">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>7</offset>
+		<word>8</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S726.RLPR">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>8</offset>
+		<word>8</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+	<SignallingControl xml:id="S726.NLPR">
+		<interlockingName>SSS</interlockingName>
+		<deviceName>config:/JzaSimulator#STB</deviceName>
+		<offset>9</offset>
+		<word>8</word>
+		<pulseTime>1000</pulseTime>
+	</SignallingControl>
+</Configs>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ActivationSchedule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ActivationSchedule.xsd" FileName="ActivationSchedule.xml" Version="0.1" LoadTime="17:00:00" ActivationTime="22:00:00" MaxLoadTime="23:59:59">
+  <MasterTimetable FileName="CoreTCMS_TimeTable_SA.xml" Version="2.0" ValidFrom="2008-06-29" ValidTo="2020-12-01" DayCode="SA"/>
+  <MasterTimetable FileName="CoreTCMS_TimeTable_SU.xml" Version="2.0" ValidFrom="2008-06-30" ValidTo="2020-12-01" DayCode="SU"/>
+  <MasterTimetable FileName="CoreTCMS_TimeTable_MF.xml" Version="" ValidFrom="2010-05-03" ValidTo="2020-05-03" DayCode="MF"/>
+  <DailyTimetable FileName="CoreTCMS_TimeTable.xml" Version="" DateToUse="2011-05-03"/>
+</ActivationSchedule>

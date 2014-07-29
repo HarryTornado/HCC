@@ -1,0 +1,1602 @@
+Sun 30/Oct/2011 21:23:23.868 TrainController/7596 train restarted. tdn 7596
+Sun 30/Oct/2011 21:23:23.868 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:23:23.868 TrainController/7596 head track SHM/T806 is on new platform SHM001
+Sun 30/Oct/2011 21:23:23.868 TrainController/7596 inPlatform: false
+Sun 30/Oct/2011 21:23:23.869 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:23:24.695 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:23:24.695 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:23:25.696 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:23:25.696 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:23:26.697 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:23:26.698 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:23:26.948 TrainController/7596 reading trip
+Sun 30/Oct/2011 21:23:26.949 TrainController/7596 creating train plan
+Sun 30/Oct/2011 21:23:26.957 TrainController/7596 update train plan time
+Sun 30/Oct/2011 21:23:26.958 TrainController/7596 request Schedule
+Sun 30/Oct/2011 21:23:26.959 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:23:26.959 TrainController/7596 head track SHM/T806 is on new platform SHM001
+Sun 30/Oct/2011 21:23:26.959 TrainController/7596 inPlatform: false
+Sun 30/Oct/2011 21:23:26.959 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:23:27.699 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:23:27.701 TrainController/7596 checking SHM/R916A
+Sun 30/Oct/2011 21:23:27.701 TrainController/7596 now starting SHM/R916A
+Sun 30/Oct/2011 21:23:27.702 TrainController2/7596/SignalController/SHM/R916A created
+Sun 30/Oct/2011 21:23:27.703 TrainController/7596 checking SHM/R917A
+Sun 30/Oct/2011 21:23:27.703 TrainController/7596 previous sr SHM/R916A status: waiting
+Sun 30/Oct/2011 21:23:27.703 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:23:27.704 TrainController2/7596/SignalController/SHM/R916A successfully claimed
+Sun 30/Oct/2011 21:23:27.707 TrainController2/7596/SignalController/SHM/R916A RouteStateChange Event. RouteModel:SHM/R916A, oldState: Dormant, newState: Turning
+Sun 30/Oct/2011 21:23:28.704 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:23:28.706 TrainController/7596 checking SHM/R917A
+Sun 30/Oct/2011 21:23:28.706 TrainController/7596 SHM/R917A not available
+Sun 30/Oct/2011 21:23:28.706 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:23:29.708 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:23:29.710 TrainController/7596 checking SHM/R917A
+Sun 30/Oct/2011 21:23:29.710 TrainController/7596 SHM/R917A not available
+Sun 30/Oct/2011 21:23:29.710 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:23:30.711 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:23:30.713 TrainController/7596 checking SHM/R917A
+Sun 30/Oct/2011 21:23:30.714 TrainController/7596 waiting 5 seconds  to start SHM/R917A
+Sun 30/Oct/2011 21:23:30.714 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:23:31.715 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:23:31.716 TrainController/7596 checking SHM/R917A
+Sun 30/Oct/2011 21:23:31.717 TrainController/7596 waiting 5 seconds  to start SHM/R917A
+Sun 30/Oct/2011 21:23:31.717 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:23:32.718 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:23:32.720 TrainController/7596 checking SHM/R917A
+Sun 30/Oct/2011 21:23:32.720 TrainController/7596 waiting 5 seconds  to start SHM/R917A
+Sun 30/Oct/2011 21:23:32.720 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:23:32.811 TrainController2/7596/SignalController/SHM/R916A RouteStateChange Event. RouteModel:SHM/R916A, oldState: Turning, newState: Locked
+Sun 30/Oct/2011 21:23:33.721 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:23:33.722 TrainController/7596 checking SHM/R917A
+Sun 30/Oct/2011 21:23:33.723 TrainController/7596 waiting 5 seconds  to start SHM/R917A
+Sun 30/Oct/2011 21:23:33.723 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:23:33.813 TrainController2/7596/SignalController/SHM/R916A RouteStateChange Event. RouteModel:SHM/R916A, oldState: Locked, newState: Clear
+Sun 30/Oct/2011 21:23:33.813 TrainController2/7596/SignalController/SHM/R916A checking for next route...
+Sun 30/Oct/2011 21:23:33.813 TrainController2/7596/SignalController/SHM/R916A no more route. SignalController OK sent to Traincontroller
+Sun 30/Oct/2011 21:23:33.814 TrainController/7596  signal controller SHM/R916A ok
+Sun 30/Oct/2011 21:37:29.798 TrainController/7596 train restarted. tdn 7596
+Sun 30/Oct/2011 21:37:29.822 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:37:29.867 TrainController/7596 head track SHM/T806 is on new platform SHM001
+Sun 30/Oct/2011 21:37:29.868 TrainController/7596 inPlatform: false
+Sun 30/Oct/2011 21:37:29.868 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:37:30.537 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:37:30.538 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:37:30.684 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:37:30.684 TrainController/7596 head track SHM/T806 is on new platform SHM001
+Sun 30/Oct/2011 21:37:30.685 TrainController/7596 inPlatform: false
+Sun 30/Oct/2011 21:37:30.685 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:37:31.539 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:37:31.539 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:37:32.541 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:37:32.541 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:37:32.861 TrainController/7596 reading trip
+Sun 30/Oct/2011 21:37:32.862 TrainController/7596 creating train plan
+Sun 30/Oct/2011 21:37:32.871 TrainController/7596 update train plan time
+Sun 30/Oct/2011 21:37:32.872 TrainController/7596 request Schedule
+Sun 30/Oct/2011 21:37:32.874 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:37:32.875 TrainController/7596 head track SHM/T806 is on new platform SHM001
+Sun 30/Oct/2011 21:37:32.875 TrainController/7596 inPlatform: false
+Sun 30/Oct/2011 21:37:32.876 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:37:33.542 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:37:33.544 TrainController/7596 checking SHM/R916A
+Sun 30/Oct/2011 21:37:33.544 TrainController/7596 now starting SHM/R916A
+Sun 30/Oct/2011 21:37:33.545 TrainController2/7596/SignalController/SHM/R916A created
+Sun 30/Oct/2011 21:37:33.545 TrainController/7596 checking SHM/R917A
+Sun 30/Oct/2011 21:37:33.546 TrainController/7596 previous sr SHM/R916A status: waiting
+Sun 30/Oct/2011 21:37:33.546 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:37:33.546 TrainController2/7596/SignalController/SHM/R916A successfully claimed
+Sun 30/Oct/2011 21:37:33.549 TrainController2/7596/SignalController/SHM/R916A RouteStateChange Event. RouteModel:SHM/R916A, oldState: Dormant, newState: Turning
+Sun 30/Oct/2011 21:37:34.643 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:37:34.654 TrainController/7596 checking SHM/R917A
+Sun 30/Oct/2011 21:37:34.732 TrainController/7596 waiting 5 seconds  to start SHM/R917A
+Sun 30/Oct/2011 21:37:34.732 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:37:35.735 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:37:35.738 TrainController/7596 checking SHM/R917A
+Sun 30/Oct/2011 21:37:35.742 TrainController/7596 waiting 5 seconds  to start SHM/R917A
+Sun 30/Oct/2011 21:37:35.742 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:37:36.757 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:37:36.778 TrainController/7596 checking SHM/R917A
+Sun 30/Oct/2011 21:37:36.785 TrainController/7596 waiting 5 seconds  to start SHM/R917A
+Sun 30/Oct/2011 21:37:36.785 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:37:37.798 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:37:37.800 TrainController/7596 checking SHM/R917A
+Sun 30/Oct/2011 21:37:37.801 TrainController/7596 waiting 5 seconds  to start SHM/R917A
+Sun 30/Oct/2011 21:37:37.801 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:37:38.803 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:37:38.804 TrainController/7596 checking SHM/R917A
+Sun 30/Oct/2011 21:37:38.805 TrainController/7596 waiting 5 seconds  to start SHM/R917A
+Sun 30/Oct/2011 21:37:38.805 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:37:39.734 TrainController2/7596/SignalController/SHM/R916A RouteStateChange Event. RouteModel:SHM/R916A, oldState: Turning, newState: Locked
+Sun 30/Oct/2011 21:37:39.957 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:37:39.960 TrainController/7596 checking SHM/R917A
+Sun 30/Oct/2011 21:37:39.962 TrainController/7596 waiting 5 seconds  to start SHM/R917A
+Sun 30/Oct/2011 21:37:39.963 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:37:40.744 TrainController2/7596/SignalController/SHM/R916A RouteStateChange Event. RouteModel:SHM/R916A, oldState: Locked, newState: Clear
+Sun 30/Oct/2011 21:37:40.745 TrainController2/7596/SignalController/SHM/R916A checking for next route...
+Sun 30/Oct/2011 21:37:40.745 TrainController2/7596/SignalController/SHM/R916A no more route. SignalController OK sent to Traincontroller
+Sun 30/Oct/2011 21:37:40.745 TrainController/7596  signal controller SHM/R916A ok
+Sun 30/Oct/2011 21:37:40.965 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:37:40.967 TrainController/7596 checking SHM/R917A
+Sun 30/Oct/2011 21:37:40.967 TrainController/7596 waiting 5 seconds  to start SHM/R917A
+Sun 30/Oct/2011 21:37:40.968 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:37:41.969 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:37:41.971 TrainController/7596 checking SHM/R917A
+Sun 30/Oct/2011 21:37:41.971 TrainController/7596 waiting 5 seconds  to start SHM/R917A
+Sun 30/Oct/2011 21:37:41.972 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:37:42.974 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:37:42.975 TrainController/7596 checking SHM/R917A
+Sun 30/Oct/2011 21:37:42.976 TrainController/7596 waiting 5 seconds  to start SHM/R917A
+Sun 30/Oct/2011 21:37:42.976 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:37:44.023 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:37:44.027 TrainController/7596 checking SHM/R917A
+Sun 30/Oct/2011 21:37:44.031 TrainController/7596 waiting 5 seconds  to start SHM/R917A
+Sun 30/Oct/2011 21:37:44.031 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:37:45.034 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:37:45.037 TrainController/7596 checking SHM/R917A
+Sun 30/Oct/2011 21:37:45.040 TrainController/7596 waiting 5 seconds  to start SHM/R917A
+Sun 30/Oct/2011 21:37:45.041 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:37:46.043 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:37:46.045 TrainController/7596 checking SHM/R917A
+Sun 30/Oct/2011 21:37:46.046 TrainController/7596 waiting 5 seconds  to start SHM/R917A
+Sun 30/Oct/2011 21:37:46.046 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:37:47.048 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:37:47.050 TrainController/7596 checking SHM/R917A
+Sun 30/Oct/2011 21:37:47.052 TrainController/7596 waiting 5 seconds  to start SHM/R917A
+Sun 30/Oct/2011 21:37:47.052 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:37:48.177 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:37:48.262 TrainController/7596 checking SHM/R917A
+Sun 30/Oct/2011 21:37:48.271 TrainController/7596 waiting 5 seconds  to start SHM/R917A
+Sun 30/Oct/2011 21:37:48.271 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:37:49.276 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:37:49.280 TrainController/7596 checking SHM/R917A
+Sun 30/Oct/2011 21:37:49.282 TrainController/7596 waiting 5 seconds  to start SHM/R917A
+Sun 30/Oct/2011 21:37:49.282 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:37:49.890 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:37:49.890 TrainController/7596 head track SHM/T806 is on new platform SHM001
+Sun 30/Oct/2011 21:37:49.890 TrainController/7596 inPlatform: false
+Sun 30/Oct/2011 21:37:49.890 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:37:50.285 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:37:50.289 TrainController/7596 checking SHM/R917A
+Sun 30/Oct/2011 21:37:50.291 TrainController/7596 waiting 5 seconds  to start SHM/R917A
+Sun 30/Oct/2011 21:37:50.291 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:37:51.294 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:37:51.296 TrainController/7596 checking SHM/R917A
+Sun 30/Oct/2011 21:37:51.296 TrainController/7596 waiting 5 seconds  to start SHM/R917A
+Sun 30/Oct/2011 21:37:51.296 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:37:51.829 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:37:51.829 TrainController/7596 head track SHM/T906 is on new platform SHM001
+Sun 30/Oct/2011 21:37:51.829 TrainController/7596 inPlatform: true
+Sun 30/Oct/2011 21:37:51.830 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:37:52.298 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:37:52.303 TrainController/7596 checking SHM/R917A
+Sun 30/Oct/2011 21:37:52.306 TrainController/7596 waiting 5 seconds  to start SHM/R917A
+Sun 30/Oct/2011 21:37:52.306 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:37:53.308 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:37:53.308 TrainController/7596 checking SHM/R917A
+Sun 30/Oct/2011 21:37:53.309 TrainController/7596 waiting 5 seconds  to start SHM/R917A
+Sun 30/Oct/2011 21:37:53.310 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:37:53.842 TrainController2/7596/SignalController/SHM/R916A RouteStateChange Event. RouteModel:SHM/R916A, oldState: Clear, newState: TrainIn
+Sun 30/Oct/2011 21:37:53.853 TrainController2/7596/SignalController/SHM/R916A Clearing up
+Sun 30/Oct/2011 21:37:54.315 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:37:54.319 TrainController/7596 checking SHM/R917A
+Sun 30/Oct/2011 21:37:54.320 TrainController/7596 waiting 2 seconds  to start SHM/R917A
+Sun 30/Oct/2011 21:37:54.321 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:37:55.413 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:37:55.418 TrainController/7596 checking SHM/R917A
+Sun 30/Oct/2011 21:37:55.424 TrainController/7596 waiting 2 seconds  to start SHM/R917A
+Sun 30/Oct/2011 21:37:55.606 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:37:56.607 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:37:56.609 TrainController/7596 checking SHM/R917A
+Sun 30/Oct/2011 21:37:56.610 TrainController/7596 now starting SHM/R917A
+Sun 30/Oct/2011 21:37:56.614 TrainController2/7596/SignalController/SHM/R917A created
+Sun 30/Oct/2011 21:37:56.616 TrainController/7596 checking SHM/R542A
+Sun 30/Oct/2011 21:37:56.617 TrainController2/7596/SignalController/SHM/R917A successfully claimed
+Sun 30/Oct/2011 21:37:56.620 TrainController/7596 checking SHM/R526A
+Sun 30/Oct/2011 21:37:56.623 TrainController/7596 checking BBH/R498A
+Sun 30/Oct/2011 21:37:56.633 TrainController/7596 waiting 125 seconds  to start BBH/R498A
+Sun 30/Oct/2011 21:37:56.633 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:37:56.638 TrainController2/7596/SignalController/SHM/R917A RouteStateChange Event. RouteModel:SHM/R917A, oldState: Turning, newState: Locked
+Sun 30/Oct/2011 21:37:56.817 TrainController2/7596/SignalController/SHM/R917A RouteStateChange Event. RouteModel:SHM/R917A, oldState: Dormant, newState: Locked
+Sun 30/Oct/2011 21:37:57.175 TrainController2/7596/SignalController/SHM/R917A RouteStateChange Event. RouteModel:SHM/R917A, oldState: Locked, newState: Clear
+Sun 30/Oct/2011 21:37:57.175 TrainController2/7596/SignalController/SHM/R917A checking for next route...
+Sun 30/Oct/2011 21:37:57.176 TrainController2/7596/SignalController/SHM/R917A no more route. SignalController OK sent to Traincontroller
+Sun 30/Oct/2011 21:37:57.176 TrainController/7596  signal controller SHM/R917A ok
+Sun 30/Oct/2011 21:37:57.177 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:37:57.177 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:37:57.638 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:37:57.645 TrainController/7596 checking BBH/R498A
+Sun 30/Oct/2011 21:37:57.650 TrainController/7596 waiting 115 seconds  to start BBH/R498A
+Sun 30/Oct/2011 21:37:57.650 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:37:58.652 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:37:58.652 TrainController/7596 checking BBH/R498A
+Sun 30/Oct/2011 21:37:58.653 TrainController/7596 waiting 110 seconds  to start BBH/R498A
+Sun 30/Oct/2011 21:37:58.653 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:37:58.931 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:37:58.931 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:37:59.816 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:38:00.080 TrainController/7596 checking BBH/R498A
+Sun 30/Oct/2011 21:38:00.095 TrainController/7596 waiting 110 seconds  to start BBH/R498A
+Sun 30/Oct/2011 21:38:00.095 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:38:01.096 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:38:01.097 TrainController/7596 checking BBH/R498A
+Sun 30/Oct/2011 21:38:01.097 TrainController/7596 waiting 110 seconds  to start BBH/R498A
+Sun 30/Oct/2011 21:38:01.097 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:38:01.214 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:38:01.214 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:38:02.099 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:38:02.100 TrainController/7596 checking BBH/R498A
+Sun 30/Oct/2011 21:38:02.100 TrainController/7596 waiting 96 seconds  to start BBH/R498A
+Sun 30/Oct/2011 21:38:02.100 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:38:02.369 TrainController2/7596/SignalController/SHM/R917A RouteStateChange Event. RouteModel:SHM/R917A, oldState: Clear, newState: TrainIn
+Sun 30/Oct/2011 21:38:02.380 TrainController2/7596/SignalController/SHM/R917A Clearing up
+Sun 30/Oct/2011 21:38:03.122 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:38:03.127 TrainController/7596 checking BBH/R498A
+Sun 30/Oct/2011 21:38:03.137 TrainController/7596 waiting 76 seconds  to start BBH/R498A
+Sun 30/Oct/2011 21:38:03.137 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:38:03.225 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:38:03.225 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:38:04.143 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:38:04.146 TrainController/7596 checking BBH/R498A
+Sun 30/Oct/2011 21:38:04.151 TrainController/7596 waiting 76 seconds  to start BBH/R498A
+Sun 30/Oct/2011 21:38:04.151 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:38:05.166 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:38:05.174 TrainController/7596 checking BBH/R498A
+Sun 30/Oct/2011 21:38:05.176 TrainController/7596 waiting 66 seconds  to start BBH/R498A
+Sun 30/Oct/2011 21:38:05.176 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:38:05.410 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:38:05.410 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:38:06.259 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:38:06.270 TrainController/7596 checking BBH/R498A
+Sun 30/Oct/2011 21:38:06.271 TrainController/7596 waiting 66 seconds  to start BBH/R498A
+Sun 30/Oct/2011 21:38:06.271 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:38:07.407 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:38:07.409 TrainController/7596 checking BBH/R498A
+Sun 30/Oct/2011 21:38:07.442 TrainController/7596 waiting 60 seconds  to start BBH/R498A
+Sun 30/Oct/2011 21:38:07.625 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:38:08.042 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:38:08.042 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:38:08.625 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:38:08.627 TrainController/7596 checking BBH/R498A
+Sun 30/Oct/2011 21:38:08.629 TrainController/7596 waiting 60 seconds  to start BBH/R498A
+Sun 30/Oct/2011 21:38:08.629 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:38:09.472 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:38:09.641 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:38:09.642 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:38:09.646 TrainController/7596 checking BBH/R498A
+Sun 30/Oct/2011 21:38:09.649 TrainController/7596 waiting 43 seconds  to start BBH/R498A
+Sun 30/Oct/2011 21:38:09.649 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:38:10.651 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:38:10.652 TrainController/7596 checking BBH/R498A
+Sun 30/Oct/2011 21:38:10.652 TrainController/7596 waiting 43 seconds  to start BBH/R498A
+Sun 30/Oct/2011 21:38:10.653 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:38:11.654 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:38:11.655 TrainController/7596 checking BBH/R498A
+Sun 30/Oct/2011 21:38:11.655 TrainController/7596 waiting 29 seconds  to start BBH/R498A
+Sun 30/Oct/2011 21:38:11.656 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:38:12.526 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:38:12.526 TrainController/7596 head track SHM/T532 is on new platform HAM001
+Sun 30/Oct/2011 21:38:12.532 TrainController/7596 inPlatform: true
+Sun 30/Oct/2011 21:38:12.532 TrainController/7596 dwell time: 5
+Sun 30/Oct/2011 21:38:12.536 TrainController/7596 train stopped
+Sun 30/Oct/2011 21:38:12.536 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:38:12.541 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:38:12.541 TrainController/7596 head track SHM/T532 is on new platform HAM001
+Sun 30/Oct/2011 21:38:12.547 TrainController/7596 inPlatform: true
+Sun 30/Oct/2011 21:38:12.547 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:38:12.657 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:38:12.658 TrainController/7596 checking BBH/R498A
+Sun 30/Oct/2011 21:38:12.658 TrainController/7596 waiting 29 seconds  to start BBH/R498A
+Sun 30/Oct/2011 21:38:12.659 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:38:13.660 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:38:13.661 TrainController/7596 checking BBH/R498A
+Sun 30/Oct/2011 21:38:13.661 TrainController/7596 waiting 2 seconds  to start BBH/R498A
+Sun 30/Oct/2011 21:38:13.661 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:38:14.501 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:38:14.502 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:38:14.662 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:38:14.663 TrainController/7596 checking BBH/R498A
+Sun 30/Oct/2011 21:38:14.663 TrainController/7596 waiting 2 seconds  to start BBH/R498A
+Sun 30/Oct/2011 21:38:14.664 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:38:15.665 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:38:15.666 TrainController/7596 checking BBH/R498A
+Sun 30/Oct/2011 21:38:15.667 TrainController/7596 waiting 2 seconds  to start BBH/R498A
+Sun 30/Oct/2011 21:38:15.667 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:38:16.848 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:38:16.849 TrainController/7596 checking BBH/R498A
+Sun 30/Oct/2011 21:38:16.852 TrainController/7596 waiting 2 seconds  to start BBH/R498A
+Sun 30/Oct/2011 21:38:16.852 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:38:16.863 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:38:16.863 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:38:17.552 TrainController/7596 restarting the train
+Sun 30/Oct/2011 21:38:17.553 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:38:17.553 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:38:17.855 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:38:17.859 TrainController/7596 checking BBH/R498A
+Sun 30/Oct/2011 21:38:17.862 TrainController/7596 waiting 2 seconds  to start BBH/R498A
+Sun 30/Oct/2011 21:38:17.862 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:38:18.654 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:38:18.654 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:38:18.866 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:38:18.868 TrainController/7596 checking BBH/R498A
+Sun 30/Oct/2011 21:38:18.869 TrainController/7596 now starting BBH/R498A
+Sun 30/Oct/2011 21:38:18.873 TrainController2/7596/SignalController/BBH/R498A created
+Sun 30/Oct/2011 21:38:18.875 TrainController/7596 checking BBH/R915A-BBH/R911A
+Sun 30/Oct/2011 21:38:18.875 TrainController2/7596/SignalController/BBH/R498A successfully claimed
+Sun 30/Oct/2011 21:38:18.878 TrainController/7596 waiting 1 seconds  to start BBH/R915A-BBH/R911A
+Sun 30/Oct/2011 21:38:18.878 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:38:18.881 TrainController2/7596/SignalController/BBH/R498A RouteStateChange Event. RouteModel:BBH/R498A, oldState: Turning, newState: Locked
+Sun 30/Oct/2011 21:38:18.894 TrainController2/7596/SignalController/BBH/R498A RouteStateChange Event. RouteModel:BBH/R498A, oldState: Dormant, newState: Locked
+Sun 30/Oct/2011 21:38:19.075 TrainController2/7596/SignalController/BBH/R498A RouteStateChange Event. RouteModel:BBH/R498A, oldState: Locked, newState: Clear
+Sun 30/Oct/2011 21:38:19.076 TrainController2/7596/SignalController/BBH/R498A checking for next route...
+Sun 30/Oct/2011 21:38:19.076 TrainController2/7596/SignalController/BBH/R498A no more route. SignalController OK sent to Traincontroller
+Sun 30/Oct/2011 21:38:19.076 TrainController/7596  signal controller BBH/R498A ok
+Sun 30/Oct/2011 21:38:19.880 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:38:19.881 TrainController/7596 checking BBH/R915A-BBH/R911A
+Sun 30/Oct/2011 21:38:19.881 TrainController/7596 waiting 1 seconds  to start BBH/R915A-BBH/R911A
+Sun 30/Oct/2011 21:38:19.881 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:38:20.883 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:38:20.885 TrainController/7596 checking BBH/R915A-BBH/R911A
+Sun 30/Oct/2011 21:38:20.888 TrainController/7596 now starting BBH/R915A-BBH/R911A
+Sun 30/Oct/2011 21:38:20.889 TrainController2/7596/SignalController/BBH/R915A-BBH/R911A created
+Sun 30/Oct/2011 21:38:20.890 TrainController/7596 checking BBH/R901A
+Sun 30/Oct/2011 21:38:20.890 TrainController/7596 previous sr BBH/R915A-BBH/R911A status: waiting
+Sun 30/Oct/2011 21:38:20.890 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:38:20.891 TrainController2/7596/SignalController/BBH/R915A-BBH/R911A successfully claimed
+Sun 30/Oct/2011 21:38:20.893 TrainController2/7596/SignalController/BBH/R915A-BBH/R911A RouteStateChange Event. RouteModel:BBH/R911A, oldState: Turning, newState: Locked
+Sun 30/Oct/2011 21:38:20.905 TrainController2/7596/SignalController/BBH/R915A-BBH/R911A RouteStateChange Event. RouteModel:BBH/R911A, oldState: Dormant, newState: Locked
+Sun 30/Oct/2011 21:38:21.087 TrainController2/7596/SignalController/BBH/R915A-BBH/R911A RouteStateChange Event. RouteModel:BBH/R911A, oldState: Locked, newState: Clear
+Sun 30/Oct/2011 21:38:21.087 TrainController2/7596/SignalController/BBH/R915A-BBH/R911A checking for next route...
+Sun 30/Oct/2011 21:38:21.087 TrainController2/7596/SignalController/BBH/R915A-BBH/R911A new route: BBH/R915A
+Sun 30/Oct/2011 21:38:21.101 TrainController2/7596/SignalController/BBH/R915A-BBH/R911A RouteStateChange Event. RouteModel:BBH/R915A, oldState: Turning, newState: Locked
+Sun 30/Oct/2011 21:38:21.279 TrainController2/7596/SignalController/BBH/R915A-BBH/R911A RouteStateChange Event. RouteModel:BBH/R915A, oldState: Dormant, newState: Locked
+Sun 30/Oct/2011 21:38:21.894 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:38:21.895 TrainController/7596 checking BBH/R901A
+Sun 30/Oct/2011 21:38:21.896 TrainController/7596 waiting 60 seconds  to start BBH/R901A
+Sun 30/Oct/2011 21:38:21.896 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:38:22.090 TrainController2/7596/SignalController/BBH/R498A RouteStateChange Event. RouteModel:BBH/R498A, oldState: Clear, newState: TrainIn
+Sun 30/Oct/2011 21:38:22.097 TrainController2/7596/SignalController/BBH/R915A-BBH/R911A RouteStateChange Event. RouteModel:BBH/R915A, oldState: Locked, newState: Clear
+Sun 30/Oct/2011 21:38:22.097 TrainController2/7596/SignalController/BBH/R915A-BBH/R911A checking for next route...
+Sun 30/Oct/2011 21:38:22.097 TrainController2/7596/SignalController/BBH/R915A-BBH/R911A no more route. SignalController OK sent to Traincontroller
+Sun 30/Oct/2011 21:38:22.098 TrainController/7596  signal controller BBH/R915A-BBH/R911A ok
+Sun 30/Oct/2011 21:38:22.101 TrainController2/7596/SignalController/BBH/R498A Clearing up
+Sun 30/Oct/2011 21:38:22.886 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:38:22.886 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:38:22.900 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:38:22.902 TrainController/7596 checking BBH/R901A
+Sun 30/Oct/2011 21:38:22.902 TrainController/7596 waiting 45 seconds  to start BBH/R901A
+Sun 30/Oct/2011 21:38:22.903 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:38:24.018 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:38:24.026 TrainController/7596 checking BBH/R901A
+Sun 30/Oct/2011 21:38:24.033 TrainController/7596 waiting 45 seconds  to start BBH/R901A
+Sun 30/Oct/2011 21:38:24.033 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:38:25.098 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:38:25.106 TrainController/7596 checking BBH/R901A
+Sun 30/Oct/2011 21:38:25.112 TrainController/7596 waiting 31 seconds  to start BBH/R901A
+Sun 30/Oct/2011 21:38:25.112 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:38:25.131 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:38:25.131 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:38:26.114 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:38:26.119 TrainController/7596 checking BBH/R901A
+Sun 30/Oct/2011 21:38:26.124 TrainController/7596 waiting 31 seconds  to start BBH/R901A
+Sun 30/Oct/2011 21:38:26.124 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:38:26.645 TrainController2/7596/SignalController/BBH/R915A-BBH/R911A RouteStateChange Event. RouteModel:BBH/R915A, oldState: Clear, newState: TrainIn
+Sun 30/Oct/2011 21:38:27.125 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:38:27.126 TrainController/7596 checking BBH/R901A
+Sun 30/Oct/2011 21:38:27.128 TrainController/7596 waiting 16 seconds  to start BBH/R901A
+Sun 30/Oct/2011 21:38:27.128 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:38:27.759 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:38:27.760 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:38:28.129 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:38:28.130 TrainController/7596 checking BBH/R901A
+Sun 30/Oct/2011 21:38:28.130 TrainController/7596 waiting 16 seconds  to start BBH/R901A
+Sun 30/Oct/2011 21:38:28.130 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:38:29.131 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:38:29.131 TrainController/7596 checking BBH/R901A
+Sun 30/Oct/2011 21:38:29.132 TrainController/7596 waiting 3 seconds  to start BBH/R901A
+Sun 30/Oct/2011 21:38:29.132 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:38:29.652 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:38:29.652 TrainController/7596 head track BBH/T913 is on new platform BBH002
+Sun 30/Oct/2011 21:38:29.653 TrainController/7596 inPlatform: true
+Sun 30/Oct/2011 21:38:29.654 TrainController/7596 dwell time: 5
+Sun 30/Oct/2011 21:38:29.655 TrainController/7596 train stopped
+Sun 30/Oct/2011 21:38:29.655 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:38:29.657 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:38:29.657 TrainController/7596 head track BBH/T913 is on new platform BBH002
+Sun 30/Oct/2011 21:38:29.658 TrainController/7596 inPlatform: true
+Sun 30/Oct/2011 21:38:29.658 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:38:30.391 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:38:30.450 TrainController/7596 checking BBH/R901A
+Sun 30/Oct/2011 21:38:30.486 TrainController/7596 waiting 3 seconds  to start BBH/R901A
+Sun 30/Oct/2011 21:38:30.486 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:38:31.487 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:38:31.490 TrainController/7596 checking BBH/R901A
+Sun 30/Oct/2011 21:38:31.493 TrainController/7596 waiting 3 seconds  to start BBH/R901A
+Sun 30/Oct/2011 21:38:31.493 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:38:31.916 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:38:31.916 TrainController/7596 head track BBH/T913 is on new platform BBH002
+Sun 30/Oct/2011 21:38:31.929 TrainController/7596 inPlatform: true
+Sun 30/Oct/2011 21:38:31.929 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:38:32.500 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:38:32.506 TrainController/7596 checking BBH/R901A
+Sun 30/Oct/2011 21:38:32.511 TrainController/7596 waiting 3 seconds  to start BBH/R901A
+Sun 30/Oct/2011 21:38:32.511 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:38:33.514 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:38:33.515 TrainController/7596 checking BBH/R901A
+Sun 30/Oct/2011 21:38:33.517 TrainController/7596 waiting 3 seconds  to start BBH/R901A
+Sun 30/Oct/2011 21:38:33.517 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:38:34.284 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:38:34.284 TrainController/7596 head track BBH/T913 is on new platform BBH002
+Sun 30/Oct/2011 21:38:34.287 TrainController/7596 inPlatform: true
+Sun 30/Oct/2011 21:38:34.287 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:38:34.525 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:38:34.538 TrainController/7596 checking BBH/R901A
+Sun 30/Oct/2011 21:38:34.606 TrainController/7596 waiting 3 seconds  to start BBH/R901A
+Sun 30/Oct/2011 21:38:34.607 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:38:34.702 TrainController/7596 restarting the train
+Sun 30/Oct/2011 21:38:34.714 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:38:34.714 TrainController/7596 head track BBH/T913 is on new platform BBH002
+Sun 30/Oct/2011 21:38:34.775 TrainController/7596 inPlatform: true
+Sun 30/Oct/2011 21:38:34.778 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:38:35.608 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:38:35.609 TrainController/7596 checking BBH/R901A
+Sun 30/Oct/2011 21:38:35.611 TrainController/7596 waiting 3 seconds  to start BBH/R901A
+Sun 30/Oct/2011 21:38:35.611 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:38:36.299 TrainController2/7596/SignalController/BBH/R915A-BBH/R911A RouteStateChange Event. RouteModel:BBH/R911A, oldState: Clear, newState: TrainIn
+Sun 30/Oct/2011 21:38:36.310 TrainController2/7596/SignalController/BBH/R915A-BBH/R911A Clearing up
+Sun 30/Oct/2011 21:38:36.613 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:38:36.614 TrainController/7596 checking BBH/R901A
+Sun 30/Oct/2011 21:38:36.614 TrainController/7596 now starting BBH/R901A
+Sun 30/Oct/2011 21:38:36.616 TrainController2/7596/SignalController/BBH/R901A created
+Sun 30/Oct/2011 21:38:36.617 TrainController/7596 checking BBH/R450A
+Sun 30/Oct/2011 21:38:36.617 TrainController2/7596/SignalController/BBH/R901A successfully claimed
+Sun 30/Oct/2011 21:38:36.618 TrainController/7596 checking BBH/R440A
+Sun 30/Oct/2011 21:38:36.619 TrainController/7596 checking BBH/R430A
+Sun 30/Oct/2011 21:38:36.619 TrainController/7596 checking BBH/R420A
+Sun 30/Oct/2011 21:38:36.620 TrainController/7596 checking BBH/R404A
+Sun 30/Oct/2011 21:38:36.621 TrainController/7596 checking BBH/R388A
+Sun 30/Oct/2011 21:38:36.621 TrainController2/7596/SignalController/BBH/R901A RouteStateChange Event. RouteModel:BBH/R901A, oldState: Turning, newState: Locked
+Sun 30/Oct/2011 21:38:36.621 TrainController/7596 checking BBH/R380A
+Sun 30/Oct/2011 21:38:36.622 TrainController/7596 checking BBH/R368A
+Sun 30/Oct/2011 21:38:36.622 TrainController/7596 checking BBH/R350A-SYR/R330A
+Sun 30/Oct/2011 21:38:36.622 TrainController/7596 BBH/R350A-SYR/R330A not available
+Sun 30/Oct/2011 21:38:36.623 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:38:36.633 TrainController2/7596/SignalController/BBH/R901A RouteStateChange Event. RouteModel:BBH/R901A, oldState: Dormant, newState: Locked
+Sun 30/Oct/2011 21:38:37.311 TrainController2/7596/SignalController/BBH/R901A RouteStateChange Event. RouteModel:BBH/R901A, oldState: Locked, newState: Clear
+Sun 30/Oct/2011 21:38:37.311 TrainController2/7596/SignalController/BBH/R901A checking for next route...
+Sun 30/Oct/2011 21:38:37.312 TrainController2/7596/SignalController/BBH/R901A no more route. SignalController OK sent to Traincontroller
+Sun 30/Oct/2011 21:38:37.313 TrainController/7596  signal controller BBH/R901A ok
+Sun 30/Oct/2011 21:38:37.624 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:38:37.625 TrainController/7596 checking BBH/R350A-SYR/R330A
+Sun 30/Oct/2011 21:38:37.625 TrainController/7596 BBH/R350A-SYR/R330A not available
+Sun 30/Oct/2011 21:38:37.626 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:38:38.627 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:38:38.629 TrainController/7596 checking BBH/R350A-SYR/R330A
+Sun 30/Oct/2011 21:38:38.629 TrainController/7596 BBH/R350A-SYR/R330A not available
+Sun 30/Oct/2011 21:38:38.630 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:38:39.631 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:38:39.632 TrainController/7596 checking BBH/R350A-SYR/R330A
+Sun 30/Oct/2011 21:38:39.632 TrainController/7596 BBH/R350A-SYR/R330A not available
+Sun 30/Oct/2011 21:38:39.633 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:38:40.815 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:38:40.821 TrainController/7596 checking BBH/R350A-SYR/R330A
+Sun 30/Oct/2011 21:38:40.830 TrainController/7596 BBH/R350A-SYR/R330A not available
+Sun 30/Oct/2011 21:38:40.830 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:38:41.318 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:38:41.318 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:38:41.835 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:38:41.843 TrainController/7596 checking BBH/R350A-SYR/R330A
+Sun 30/Oct/2011 21:38:41.848 TrainController/7596 BBH/R350A-SYR/R330A not available
+Sun 30/Oct/2011 21:38:41.848 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:38:42.857 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:38:42.860 TrainController/7596 checking BBH/R350A-SYR/R330A
+Sun 30/Oct/2011 21:38:42.867 TrainController/7596 BBH/R350A-SYR/R330A not available
+Sun 30/Oct/2011 21:38:42.867 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:38:43.926 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:38:43.936 TrainController/7596 checking BBH/R350A-SYR/R330A
+Sun 30/Oct/2011 21:38:43.953 TrainController/7596 BBH/R350A-SYR/R330A not available
+Sun 30/Oct/2011 21:38:43.953 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:38:44.432 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:38:44.432 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:38:44.956 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:38:44.961 TrainController/7596 checking BBH/R350A-SYR/R330A
+Sun 30/Oct/2011 21:38:44.964 TrainController/7596 BBH/R350A-SYR/R330A not available
+Sun 30/Oct/2011 21:38:44.964 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:38:45.432 TrainController2/7596/SignalController/BBH/R901A RouteStateChange Event. RouteModel:BBH/R901A, oldState: Clear, newState: TrainIn
+Sun 30/Oct/2011 21:38:45.445 TrainController2/7596/SignalController/BBH/R901A Clearing up
+Sun 30/Oct/2011 21:38:46.010 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:38:46.025 TrainController/7596 checking BBH/R350A-SYR/R330A
+Sun 30/Oct/2011 21:38:46.043 TrainController/7596 BBH/R350A-SYR/R330A not available
+Sun 30/Oct/2011 21:38:46.043 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:38:46.421 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:38:46.421 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:38:47.046 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:38:47.053 TrainController/7596 checking BBH/R350A-SYR/R330A
+Sun 30/Oct/2011 21:38:47.058 TrainController/7596 BBH/R350A-SYR/R330A not available
+Sun 30/Oct/2011 21:38:47.058 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:38:48.062 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:38:48.066 TrainController/7596 checking BBH/R350A-SYR/R330A
+Sun 30/Oct/2011 21:38:48.066 TrainController/7596 waiting 180 seconds  to start BBH/R350A-SYR/R330A
+Sun 30/Oct/2011 21:38:48.066 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:38:48.493 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:38:48.493 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:38:49.070 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:38:49.071 TrainController/7596 checking BBH/R350A-SYR/R330A
+Sun 30/Oct/2011 21:38:49.072 TrainController/7596 waiting 180 seconds  to start BBH/R350A-SYR/R330A
+Sun 30/Oct/2011 21:38:49.072 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:38:50.076 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:38:50.077 TrainController/7596 checking BBH/R350A-SYR/R330A
+Sun 30/Oct/2011 21:38:50.078 TrainController/7596 waiting 171 seconds  to start BBH/R350A-SYR/R330A
+Sun 30/Oct/2011 21:38:50.078 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:38:50.447 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:38:50.447 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:38:51.080 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:38:51.082 TrainController/7596 checking BBH/R350A-SYR/R330A
+Sun 30/Oct/2011 21:38:51.083 TrainController/7596 waiting 162 seconds  to start BBH/R350A-SYR/R330A
+Sun 30/Oct/2011 21:38:51.083 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:38:52.103 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:38:52.132 TrainController/7596 checking BBH/R350A-SYR/R330A
+Sun 30/Oct/2011 21:38:52.167 TrainController/7596 waiting 162 seconds  to start BBH/R350A-SYR/R330A
+Sun 30/Oct/2011 21:38:52.167 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:38:52.714 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:38:52.714 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:38:53.170 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:38:53.173 TrainController/7596 checking BBH/R350A-SYR/R330A
+Sun 30/Oct/2011 21:38:53.173 TrainController/7596 waiting 162 seconds  to start BBH/R350A-SYR/R330A
+Sun 30/Oct/2011 21:38:53.174 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:38:54.176 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:38:54.177 TrainController/7596 checking BBH/R350A-SYR/R330A
+Sun 30/Oct/2011 21:38:54.177 TrainController/7596 waiting 139 seconds  to start BBH/R350A-SYR/R330A
+Sun 30/Oct/2011 21:38:54.178 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:38:54.540 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:38:54.541 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:38:55.179 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:38:55.180 TrainController/7596 checking BBH/R350A-SYR/R330A
+Sun 30/Oct/2011 21:38:55.180 TrainController/7596 waiting 137 seconds  to start BBH/R350A-SYR/R330A
+Sun 30/Oct/2011 21:38:55.180 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:38:56.181 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:38:56.185 TrainController/7596 checking BBH/R350A-SYR/R330A
+Sun 30/Oct/2011 21:38:56.185 TrainController/7596 waiting 137 seconds  to start BBH/R350A-SYR/R330A
+Sun 30/Oct/2011 21:38:56.186 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:38:56.508 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:38:56.508 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:38:57.187 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:38:57.190 TrainController/7596 checking BBH/R350A-SYR/R330A
+Sun 30/Oct/2011 21:38:57.191 TrainController/7596 waiting 120 seconds  to start BBH/R350A-SYR/R330A
+Sun 30/Oct/2011 21:38:57.191 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:38:58.199 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:38:58.202 TrainController/7596 checking BBH/R350A-SYR/R330A
+Sun 30/Oct/2011 21:38:58.206 TrainController/7596 waiting 120 seconds  to start BBH/R350A-SYR/R330A
+Sun 30/Oct/2011 21:38:58.206 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:38:58.849 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:38:58.849 TrainController/7596 head track BBH/T426 is on new platform MBN001
+Sun 30/Oct/2011 21:38:58.852 TrainController/7596 inPlatform: true
+Sun 30/Oct/2011 21:38:58.854 TrainController/7596 dwell time: 5
+Sun 30/Oct/2011 21:38:58.856 TrainController/7596 train stopped
+Sun 30/Oct/2011 21:38:58.856 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:38:58.858 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:38:58.858 TrainController/7596 head track BBH/T426 is on new platform MBN001
+Sun 30/Oct/2011 21:38:58.858 TrainController/7596 inPlatform: true
+Sun 30/Oct/2011 21:38:58.858 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:38:59.207 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:38:59.209 TrainController/7596 checking BBH/R350A-SYR/R330A
+Sun 30/Oct/2011 21:38:59.209 TrainController/7596 waiting 101 seconds  to start BBH/R350A-SYR/R330A
+Sun 30/Oct/2011 21:38:59.210 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:38:59.920 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:38:59.920 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:39:00.211 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:39:00.213 TrainController/7596 checking BBH/R350A-SYR/R330A
+Sun 30/Oct/2011 21:39:00.213 TrainController/7596 waiting 101 seconds  to start BBH/R350A-SYR/R330A
+Sun 30/Oct/2011 21:39:00.214 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:39:01.216 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:39:01.217 TrainController/7596 checking BBH/R350A-SYR/R330A
+Sun 30/Oct/2011 21:39:01.221 TrainController/7596 waiting 101 seconds  to start BBH/R350A-SYR/R330A
+Sun 30/Oct/2011 21:39:01.221 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:39:01.847 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:39:01.848 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:39:02.223 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:39:02.224 TrainController/7596 checking BBH/R350A-SYR/R330A
+Sun 30/Oct/2011 21:39:02.225 TrainController/7596 waiting 101 seconds  to start BBH/R350A-SYR/R330A
+Sun 30/Oct/2011 21:39:02.225 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:39:03.368 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:39:03.380 TrainController/7596 checking BBH/R350A-SYR/R330A
+Sun 30/Oct/2011 21:39:03.390 TrainController/7596 waiting 101 seconds  to start BBH/R350A-SYR/R330A
+Sun 30/Oct/2011 21:39:03.390 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:39:03.859 TrainController/7596 restarting the train
+Sun 30/Oct/2011 21:39:03.861 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:39:03.861 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:39:03.865 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:39:03.866 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:39:04.392 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:39:04.397 TrainController/7596 checking BBH/R350A-SYR/R330A
+Sun 30/Oct/2011 21:39:04.402 TrainController/7596 waiting 101 seconds  to start BBH/R350A-SYR/R330A
+Sun 30/Oct/2011 21:39:04.402 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:39:05.558 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:39:05.559 TrainController/7596 checking BBH/R350A-SYR/R330A
+Sun 30/Oct/2011 21:39:05.573 TrainController/7596 waiting 84 seconds  to start BBH/R350A-SYR/R330A
+Sun 30/Oct/2011 21:39:05.573 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:39:06.576 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:39:06.577 TrainController/7596 checking BBH/R350A-SYR/R330A
+Sun 30/Oct/2011 21:39:06.577 TrainController/7596 waiting 84 seconds  to start BBH/R350A-SYR/R330A
+Sun 30/Oct/2011 21:39:06.578 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:39:07.580 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:39:07.581 TrainController/7596 checking BBH/R350A-SYR/R330A
+Sun 30/Oct/2011 21:39:07.581 TrainController/7596 waiting 54 seconds  to start BBH/R350A-SYR/R330A
+Sun 30/Oct/2011 21:39:07.581 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:39:08.582 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:39:08.583 TrainController/7596 checking BBH/R350A-SYR/R330A
+Sun 30/Oct/2011 21:39:08.583 TrainController/7596 waiting 54 seconds  to start BBH/R350A-SYR/R330A
+Sun 30/Oct/2011 21:39:08.584 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:39:09.586 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:39:09.587 TrainController/7596 checking BBH/R350A-SYR/R330A
+Sun 30/Oct/2011 21:39:09.587 TrainController/7596 waiting 49 seconds  to start BBH/R350A-SYR/R330A
+Sun 30/Oct/2011 21:39:09.588 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:39:10.041 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:39:10.042 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:39:10.590 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:39:10.590 TrainController/7596 checking BBH/R350A-SYR/R330A
+Sun 30/Oct/2011 21:39:10.591 TrainController/7596 waiting 49 seconds  to start BBH/R350A-SYR/R330A
+Sun 30/Oct/2011 21:39:10.591 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:39:11.592 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:39:11.593 TrainController/7596 checking BBH/R350A-SYR/R330A
+Sun 30/Oct/2011 21:39:11.593 TrainController/7596 waiting 33 seconds  to start BBH/R350A-SYR/R330A
+Sun 30/Oct/2011 21:39:11.593 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:39:12.264 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:39:12.269 TrainController/7596 head track BBH/T384 is on new platform NBN001
+Sun 30/Oct/2011 21:39:12.273 TrainController/7596 inPlatform: true
+Sun 30/Oct/2011 21:39:12.273 TrainController/7596 dwell time: 5
+Sun 30/Oct/2011 21:39:12.277 TrainController/7596 train stopped
+Sun 30/Oct/2011 21:39:12.277 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:39:12.284 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:39:12.288 TrainController/7596 head track BBH/T384 is on new platform NBN001
+Sun 30/Oct/2011 21:39:12.288 TrainController/7596 inPlatform: true
+Sun 30/Oct/2011 21:39:12.288 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:39:12.684 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:39:12.697 TrainController/7596 checking BBH/R350A-SYR/R330A
+Sun 30/Oct/2011 21:39:12.869 TrainController/7596 waiting 33 seconds  to start BBH/R350A-SYR/R330A
+Sun 30/Oct/2011 21:39:12.869 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:39:13.873 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:39:13.876 TrainController/7596 checking BBH/R350A-SYR/R330A
+Sun 30/Oct/2011 21:39:13.879 TrainController/7596 waiting 33 seconds  to start BBH/R350A-SYR/R330A
+Sun 30/Oct/2011 21:39:13.879 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:39:14.341 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:39:14.341 TrainController/7596 head track BBH/T384 is on new platform NBN001
+Sun 30/Oct/2011 21:39:14.342 TrainController/7596 inPlatform: true
+Sun 30/Oct/2011 21:39:14.343 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:39:14.881 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:39:14.883 TrainController/7596 checking BBH/R350A-SYR/R330A
+Sun 30/Oct/2011 21:39:14.886 TrainController/7596 waiting 33 seconds  to start BBH/R350A-SYR/R330A
+Sun 30/Oct/2011 21:39:14.887 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:39:15.889 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:39:15.891 TrainController/7596 checking BBH/R350A-SYR/R330A
+Sun 30/Oct/2011 21:39:15.893 TrainController/7596 waiting 33 seconds  to start BBH/R350A-SYR/R330A
+Sun 30/Oct/2011 21:39:15.893 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:39:16.331 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:39:16.331 TrainController/7596 head track BBH/T384 is on new platform NBN001
+Sun 30/Oct/2011 21:39:16.332 TrainController/7596 inPlatform: true
+Sun 30/Oct/2011 21:39:16.332 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:39:16.894 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:39:16.895 TrainController/7596 checking BBH/R350A-SYR/R330A
+Sun 30/Oct/2011 21:39:16.895 TrainController/7596 waiting 33 seconds  to start BBH/R350A-SYR/R330A
+Sun 30/Oct/2011 21:39:16.896 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:39:17.335 TrainController/7596 restarting the train
+Sun 30/Oct/2011 21:39:17.337 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:39:17.337 TrainController/7596 head track BBH/T384 is on new platform NBN001
+Sun 30/Oct/2011 21:39:17.337 TrainController/7596 inPlatform: true
+Sun 30/Oct/2011 21:39:17.338 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:39:17.917 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:39:17.926 TrainController/7596 checking BBH/R350A-SYR/R330A
+Sun 30/Oct/2011 21:39:18.098 TrainController/7596 waiting 33 seconds  to start BBH/R350A-SYR/R330A
+Sun 30/Oct/2011 21:39:18.098 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:39:19.100 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:39:19.101 TrainController/7596 checking BBH/R350A-SYR/R330A
+Sun 30/Oct/2011 21:39:19.104 TrainController/7596 waiting 12 seconds  to start BBH/R350A-SYR/R330A
+Sun 30/Oct/2011 21:39:19.104 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:39:20.106 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:39:20.109 TrainController/7596 checking BBH/R350A-SYR/R330A
+Sun 30/Oct/2011 21:39:20.109 TrainController/7596 waiting 12 seconds  to start BBH/R350A-SYR/R330A
+Sun 30/Oct/2011 21:39:20.110 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:39:21.110 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:39:21.112 TrainController/7596 checking BBH/R350A-SYR/R330A
+Sun 30/Oct/2011 21:39:21.113 TrainController/7596 now starting BBH/R350A-SYR/R330A
+Sun 30/Oct/2011 21:39:21.115 TrainController2/7596/SignalController/BBH/R350A-SYR/R330A created
+Sun 30/Oct/2011 21:39:21.116 TrainController/7596 checking SYR/R318A
+Sun 30/Oct/2011 21:39:21.116 TrainController/7596 previous sr BBH/R350A-SYR/R330A status: waiting
+Sun 30/Oct/2011 21:39:21.116 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:39:21.116 TrainController2/7596/SignalController/BBH/R350A-SYR/R330A successfully claimed
+Sun 30/Oct/2011 21:39:21.118 TrainController2/7596/SignalController/BBH/R350A-SYR/R330A RouteStateChange Event. RouteModel:SYR/R330A, oldState: Turning, newState: Locked
+Sun 30/Oct/2011 21:39:21.131 TrainController2/7596/SignalController/BBH/R350A-SYR/R330A RouteStateChange Event. RouteModel:SYR/R330A, oldState: Dormant, newState: Locked
+Sun 30/Oct/2011 21:39:21.816 TrainController2/7596/SignalController/BBH/R350A-SYR/R330A RouteStateChange Event. RouteModel:SYR/R330A, oldState: Locked, newState: Clear
+Sun 30/Oct/2011 21:39:21.816 TrainController2/7596/SignalController/BBH/R350A-SYR/R330A checking for next route...
+Sun 30/Oct/2011 21:39:21.817 TrainController2/7596/SignalController/BBH/R350A-SYR/R330A new route: BBH/R350A
+Sun 30/Oct/2011 21:39:21.829 TrainController2/7596/SignalController/BBH/R350A-SYR/R330A RouteStateChange Event. RouteModel:BBH/R350A, oldState: Turning, newState: Locked
+Sun 30/Oct/2011 21:39:21.840 TrainController2/7596/SignalController/BBH/R350A-SYR/R330A RouteStateChange Event. RouteModel:BBH/R350A, oldState: Dormant, newState: Locked
+Sun 30/Oct/2011 21:39:22.118 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:39:22.119 TrainController/7596 checking SYR/R318A
+Sun 30/Oct/2011 21:39:22.119 TrainController/7596 waiting 100 seconds  to start SYR/R318A
+Sun 30/Oct/2011 21:39:22.119 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:39:22.365 TrainController2/7596/SignalController/BBH/R350A-SYR/R330A RouteStateChange Event. RouteModel:BBH/R350A, oldState: Locked, newState: Clear
+Sun 30/Oct/2011 21:39:22.366 TrainController2/7596/SignalController/BBH/R350A-SYR/R330A checking for next route...
+Sun 30/Oct/2011 21:39:22.366 TrainController2/7596/SignalController/BBH/R350A-SYR/R330A no more route. SignalController OK sent to Traincontroller
+Sun 30/Oct/2011 21:39:22.367 TrainController/7596  signal controller BBH/R350A-SYR/R330A ok
+Sun 30/Oct/2011 21:39:23.121 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:39:23.122 TrainController/7596 checking SYR/R318A
+Sun 30/Oct/2011 21:39:23.123 TrainController/7596 waiting 77 seconds  to start SYR/R318A
+Sun 30/Oct/2011 21:39:23.123 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:39:23.367 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:39:23.367 TrainController/7596 head track BBH/T356 is on new platform GVE001
+Sun 30/Oct/2011 21:39:23.369 TrainController/7596 inPlatform: true
+Sun 30/Oct/2011 21:39:23.369 TrainController/7596 dwell time: 5
+Sun 30/Oct/2011 21:39:23.370 TrainController/7596 train stopped
+Sun 30/Oct/2011 21:39:23.370 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:39:23.372 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:39:23.372 TrainController/7596 head track BBH/T356 is on new platform GVE001
+Sun 30/Oct/2011 21:39:23.374 TrainController/7596 inPlatform: true
+Sun 30/Oct/2011 21:39:23.374 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:39:24.252 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:39:24.263 TrainController/7596 checking SYR/R318A
+Sun 30/Oct/2011 21:39:24.263 TrainController/7596 waiting 77 seconds  to start SYR/R318A
+Sun 30/Oct/2011 21:39:24.264 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:39:25.266 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:39:25.269 TrainController/7596 checking SYR/R318A
+Sun 30/Oct/2011 21:39:25.270 TrainController/7596 waiting 77 seconds  to start SYR/R318A
+Sun 30/Oct/2011 21:39:25.270 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:39:25.469 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:39:25.469 TrainController/7596 head track BBH/T356 is on new platform GVE001
+Sun 30/Oct/2011 21:39:25.472 TrainController/7596 inPlatform: true
+Sun 30/Oct/2011 21:39:25.475 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:39:26.272 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:39:26.274 TrainController/7596 checking SYR/R318A
+Sun 30/Oct/2011 21:39:26.274 TrainController/7596 waiting 77 seconds  to start SYR/R318A
+Sun 30/Oct/2011 21:39:26.275 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:39:27.408 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:39:27.409 TrainController/7596 checking SYR/R318A
+Sun 30/Oct/2011 21:39:27.431 TrainController/7596 waiting 77 seconds  to start SYR/R318A
+Sun 30/Oct/2011 21:39:27.431 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:39:27.521 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:39:27.521 TrainController/7596 head track BBH/T356 is on new platform GVE001
+Sun 30/Oct/2011 21:39:27.526 TrainController/7596 inPlatform: true
+Sun 30/Oct/2011 21:39:27.526 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:39:28.400 TrainController/7596 restarting the train
+Sun 30/Oct/2011 21:39:28.403 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:39:28.404 TrainController/7596 head track BBH/T356 is on new platform GVE001
+Sun 30/Oct/2011 21:39:28.405 TrainController/7596 inPlatform: true
+Sun 30/Oct/2011 21:39:28.405 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:39:28.434 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:39:28.435 TrainController/7596 checking SYR/R318A
+Sun 30/Oct/2011 21:39:28.441 TrainController/7596 waiting 77 seconds  to start SYR/R318A
+Sun 30/Oct/2011 21:39:28.441 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:39:29.448 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:39:29.449 TrainController/7596 checking SYR/R318A
+Sun 30/Oct/2011 21:39:29.449 TrainController/7596 waiting 77 seconds  to start SYR/R318A
+Sun 30/Oct/2011 21:39:29.450 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:39:29.797 TrainController2/7596/SignalController/BBH/R350A-SYR/R330A RouteStateChange Event. RouteModel:BBH/R350A, oldState: Clear, newState: TrainIn
+Sun 30/Oct/2011 21:39:30.451 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:39:30.453 TrainController/7596 checking SYR/R318A
+Sun 30/Oct/2011 21:39:30.454 TrainController/7596 waiting 64 seconds  to start SYR/R318A
+Sun 30/Oct/2011 21:39:30.454 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:39:31.579 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:39:31.580 TrainController/7596 checking SYR/R318A
+Sun 30/Oct/2011 21:39:31.596 TrainController/7596 waiting 64 seconds  to start SYR/R318A
+Sun 30/Oct/2011 21:39:31.596 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:39:32.599 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:39:32.601 TrainController/7596 checking SYR/R318A
+Sun 30/Oct/2011 21:39:32.604 TrainController/7596 waiting 42 seconds  to start SYR/R318A
+Sun 30/Oct/2011 21:39:32.604 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:39:33.478 TrainController2/7596/SignalController/BBH/R350A-SYR/R330A RouteStateChange Event. RouteModel:SYR/R330A, oldState: Clear, newState: TrainIn
+Sun 30/Oct/2011 21:39:33.489 TrainController2/7596/SignalController/BBH/R350A-SYR/R330A Clearing up
+Sun 30/Oct/2011 21:39:33.660 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:39:33.679 TrainController/7596 checking SYR/R318A
+Sun 30/Oct/2011 21:39:33.691 TrainController/7596 now starting SYR/R318A
+Sun 30/Oct/2011 21:39:33.697 TrainController2/7596/SignalController/SYR/R318A created
+Sun 30/Oct/2011 21:39:33.701 TrainController/7596 checking SYR/R306A
+Sun 30/Oct/2011 21:39:33.701 TrainController2/7596/SignalController/SYR/R318A successfully claimed
+Sun 30/Oct/2011 21:39:33.702 TrainController/7596 checking SYR/R286A
+Sun 30/Oct/2011 21:39:33.703 TrainController/7596 checking SYR/R270A
+Sun 30/Oct/2011 21:39:33.704 TrainController/7596 checking SYR/R258A
+Sun 30/Oct/2011 21:39:33.704 TrainController/7596 checking SYR/R246A
+Sun 30/Oct/2011 21:39:33.705 TrainController/7596 checking SYR/R222A
+Sun 30/Oct/2011 21:39:33.705 TrainController2/7596/SignalController/SYR/R318A RouteStateChange Event. RouteModel:SYR/R318A, oldState: Turning, newState: Locked
+Sun 30/Oct/2011 21:39:33.706 TrainController/7596 checking SYR/R210A
+Sun 30/Oct/2011 21:39:33.707 TrainController/7596 checking SYR/R200A
+Sun 30/Oct/2011 21:39:33.708 TrainController/7596 checking SYR/R190A
+Sun 30/Oct/2011 21:39:33.708 TrainController/7596 SYR/R190A not available
+Sun 30/Oct/2011 21:39:33.709 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:39:33.717 TrainController2/7596/SignalController/SYR/R318A RouteStateChange Event. RouteModel:SYR/R318A, oldState: Dormant, newState: Locked
+Sun 30/Oct/2011 21:39:34.480 TrainController2/7596/SignalController/SYR/R318A RouteStateChange Event. RouteModel:SYR/R318A, oldState: Locked, newState: Clear
+Sun 30/Oct/2011 21:39:34.480 TrainController2/7596/SignalController/SYR/R318A checking for next route...
+Sun 30/Oct/2011 21:39:34.480 TrainController2/7596/SignalController/SYR/R318A no more route. SignalController OK sent to Traincontroller
+Sun 30/Oct/2011 21:39:34.481 TrainController/7596  signal controller SYR/R318A ok
+Sun 30/Oct/2011 21:39:34.710 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:39:34.711 TrainController/7596 checking SYR/R190A
+Sun 30/Oct/2011 21:39:34.711 TrainController/7596 waiting 193 seconds  to start SYR/R190A
+Sun 30/Oct/2011 21:39:34.711 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:39:34.988 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:39:34.989 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:39:35.653 TrainController2/7596/SignalController/SYR/R318A RouteStateChange Event. RouteModel:SYR/R318A, oldState: Clear, newState: TrainIn
+Sun 30/Oct/2011 21:39:35.667 TrainController2/7596/SignalController/SYR/R318A Clearing up
+Sun 30/Oct/2011 21:39:35.834 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:39:35.835 TrainController/7596 checking SYR/R190A
+Sun 30/Oct/2011 21:39:35.856 TrainController/7596 waiting 177 seconds  to start SYR/R190A
+Sun 30/Oct/2011 21:39:35.856 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:39:36.859 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:39:36.860 TrainController/7596 checking SYR/R190A
+Sun 30/Oct/2011 21:39:36.861 TrainController/7596 waiting 177 seconds  to start SYR/R190A
+Sun 30/Oct/2011 21:39:36.861 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:39:37.067 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:39:37.067 TrainController/7596 head track SYR/T318 is on new platform ELS001
+Sun 30/Oct/2011 21:39:37.073 TrainController/7596 inPlatform: true
+Sun 30/Oct/2011 21:39:37.077 TrainController/7596 dwell time: 5
+Sun 30/Oct/2011 21:39:37.083 TrainController/7596 train stopped
+Sun 30/Oct/2011 21:39:37.083 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:39:37.086 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:39:37.086 TrainController/7596 head track SYR/T318 is on new platform ELS001
+Sun 30/Oct/2011 21:39:37.088 TrainController/7596 inPlatform: true
+Sun 30/Oct/2011 21:39:37.088 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:39:38.023 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:39:38.024 TrainController/7596 checking SYR/R190A
+Sun 30/Oct/2011 21:39:38.067 TrainController/7596 waiting 177 seconds  to start SYR/R190A
+Sun 30/Oct/2011 21:39:38.067 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:39:39.069 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:39:39.070 TrainController/7596 checking SYR/R190A
+Sun 30/Oct/2011 21:39:39.072 TrainController/7596 waiting 177 seconds  to start SYR/R190A
+Sun 30/Oct/2011 21:39:39.072 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:39:39.084 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:39:39.084 TrainController/7596 head track SYR/T318 is on new platform ELS001
+Sun 30/Oct/2011 21:39:39.086 TrainController/7596 inPlatform: true
+Sun 30/Oct/2011 21:39:39.086 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:39:40.079 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:39:40.085 TrainController/7596 checking SYR/R190A
+Sun 30/Oct/2011 21:39:40.091 TrainController/7596 waiting 177 seconds  to start SYR/R190A
+Sun 30/Oct/2011 21:39:40.091 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:39:40.569 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:39:40.569 TrainController/7596 head track SYR/T318 is on new platform ELS001
+Sun 30/Oct/2011 21:39:40.569 TrainController/7596 inPlatform: true
+Sun 30/Oct/2011 21:39:40.570 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:39:41.096 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:39:41.099 TrainController/7596 checking SYR/R190A
+Sun 30/Oct/2011 21:39:41.100 TrainController/7596 waiting 177 seconds  to start SYR/R190A
+Sun 30/Oct/2011 21:39:41.100 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:39:42.101 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:39:42.102 TrainController/7596 checking SYR/R190A
+Sun 30/Oct/2011 21:39:42.103 TrainController/7596 waiting 177 seconds  to start SYR/R190A
+Sun 30/Oct/2011 21:39:42.104 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:39:42.133 TrainController/7596 restarting the train
+Sun 30/Oct/2011 21:39:42.134 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:39:42.134 TrainController/7596 head track SYR/T318 is on new platform ELS001
+Sun 30/Oct/2011 21:39:42.135 TrainController/7596 inPlatform: true
+Sun 30/Oct/2011 21:39:42.136 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:39:43.106 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:39:43.107 TrainController/7596 checking SYR/R190A
+Sun 30/Oct/2011 21:39:43.108 TrainController/7596 waiting 170 seconds  to start SYR/R190A
+Sun 30/Oct/2011 21:39:43.108 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:39:44.271 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:39:44.277 TrainController/7596 checking SYR/R190A
+Sun 30/Oct/2011 21:39:44.283 TrainController/7596 waiting 170 seconds  to start SYR/R190A
+Sun 30/Oct/2011 21:39:44.283 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:39:45.287 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:39:45.290 TrainController/7596 checking SYR/R190A
+Sun 30/Oct/2011 21:39:45.291 TrainController/7596 waiting 160 seconds  to start SYR/R190A
+Sun 30/Oct/2011 21:39:45.291 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:39:46.292 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:39:46.294 TrainController/7596 checking SYR/R190A
+Sun 30/Oct/2011 21:39:46.295 TrainController/7596 waiting 160 seconds  to start SYR/R190A
+Sun 30/Oct/2011 21:39:46.296 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:39:47.296 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:39:47.299 TrainController/7596 checking SYR/R190A
+Sun 30/Oct/2011 21:39:47.303 TrainController/7596 waiting 138 seconds  to start SYR/R190A
+Sun 30/Oct/2011 21:39:47.303 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:39:47.594 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:39:47.594 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:39:48.305 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:39:48.305 TrainController/7596 checking SYR/R190A
+Sun 30/Oct/2011 21:39:48.306 TrainController/7596 waiting 138 seconds  to start SYR/R190A
+Sun 30/Oct/2011 21:39:48.306 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:39:49.308 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:39:49.311 TrainController/7596 checking SYR/R190A
+Sun 30/Oct/2011 21:39:49.311 TrainController/7596 waiting 127 seconds  to start SYR/R190A
+Sun 30/Oct/2011 21:39:49.312 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:39:49.978 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:39:49.978 TrainController/7596 head track SYR/T274 is on new platform RIP001
+Sun 30/Oct/2011 21:39:49.981 TrainController/7596 inPlatform: true
+Sun 30/Oct/2011 21:39:49.983 TrainController/7596 dwell time: 5
+Sun 30/Oct/2011 21:39:49.985 TrainController/7596 train stopped
+Sun 30/Oct/2011 21:39:49.986 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:39:50.045 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:39:50.045 TrainController/7596 head track SYR/T274 is on new platform RIP001
+Sun 30/Oct/2011 21:39:50.048 TrainController/7596 inPlatform: true
+Sun 30/Oct/2011 21:39:50.048 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:39:50.313 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:39:50.314 TrainController/7596 checking SYR/R190A
+Sun 30/Oct/2011 21:39:50.314 TrainController/7596 waiting 127 seconds  to start SYR/R190A
+Sun 30/Oct/2011 21:39:50.315 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:39:51.329 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:39:51.362 TrainController/7596 checking SYR/R190A
+Sun 30/Oct/2011 21:39:51.371 TrainController/7596 waiting 127 seconds  to start SYR/R190A
+Sun 30/Oct/2011 21:39:51.371 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:39:51.916 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:39:51.916 TrainController/7596 head track SYR/T274 is on new platform RIP001
+Sun 30/Oct/2011 21:39:51.918 TrainController/7596 inPlatform: true
+Sun 30/Oct/2011 21:39:51.918 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:39:52.374 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:39:52.378 TrainController/7596 checking SYR/R190A
+Sun 30/Oct/2011 21:39:52.383 TrainController/7596 waiting 127 seconds  to start SYR/R190A
+Sun 30/Oct/2011 21:39:52.384 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:39:53.498 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:39:53.505 TrainController/7596 checking SYR/R190A
+Sun 30/Oct/2011 21:39:53.513 TrainController/7596 waiting 127 seconds  to start SYR/R190A
+Sun 30/Oct/2011 21:39:53.513 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:39:54.241 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:39:54.241 TrainController/7596 head track SYR/T274 is on new platform RIP001
+Sun 30/Oct/2011 21:39:54.242 TrainController/7596 inPlatform: true
+Sun 30/Oct/2011 21:39:54.242 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:39:54.515 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:39:54.523 TrainController/7596 checking SYR/R190A
+Sun 30/Oct/2011 21:39:54.526 TrainController/7596 waiting 127 seconds  to start SYR/R190A
+Sun 30/Oct/2011 21:39:54.526 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:39:55.005 TrainController/7596 restarting the train
+Sun 30/Oct/2011 21:39:55.006 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:39:55.006 TrainController/7596 head track SYR/T274 is on new platform RIP001
+Sun 30/Oct/2011 21:39:55.007 TrainController/7596 inPlatform: true
+Sun 30/Oct/2011 21:39:55.008 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:39:55.528 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:39:55.529 TrainController/7596 checking SYR/R190A
+Sun 30/Oct/2011 21:39:55.529 TrainController/7596 waiting 127 seconds  to start SYR/R190A
+Sun 30/Oct/2011 21:39:55.530 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:39:56.585 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:39:56.593 TrainController/7596 checking SYR/R190A
+Sun 30/Oct/2011 21:39:56.601 TrainController/7596 waiting 106 seconds  to start SYR/R190A
+Sun 30/Oct/2011 21:39:56.766 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:39:57.767 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:39:57.769 TrainController/7596 checking SYR/R190A
+Sun 30/Oct/2011 21:39:57.771 TrainController/7596 waiting 106 seconds  to start SYR/R190A
+Sun 30/Oct/2011 21:39:57.771 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:39:58.772 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:39:58.773 TrainController/7596 checking SYR/R190A
+Sun 30/Oct/2011 21:39:58.773 TrainController/7596 waiting 80 seconds  to start SYR/R190A
+Sun 30/Oct/2011 21:39:58.774 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:39:59.775 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:39:59.777 TrainController/7596 checking SYR/R190A
+Sun 30/Oct/2011 21:39:59.777 TrainController/7596 waiting 80 seconds  to start SYR/R190A
+Sun 30/Oct/2011 21:39:59.777 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:40:00.852 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:40:00.865 TrainController/7596 checking SYR/R190A
+Sun 30/Oct/2011 21:40:00.867 TrainController/7596 waiting 57 seconds  to start SYR/R190A
+Sun 30/Oct/2011 21:40:00.867 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:40:01.655 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:40:01.656 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:40:01.870 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:40:01.875 TrainController/7596 checking SYR/R190A
+Sun 30/Oct/2011 21:40:01.878 TrainController/7596 waiting 57 seconds  to start SYR/R190A
+Sun 30/Oct/2011 21:40:01.878 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:40:03.264 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:40:03.282 TrainController/7596 checking SYR/R190A
+Sun 30/Oct/2011 21:40:03.290 TrainController/7596 waiting 37 seconds  to start SYR/R190A
+Sun 30/Oct/2011 21:40:03.290 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:40:03.533 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:40:03.533 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:40:04.294 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:40:04.295 TrainController/7596 checking SYR/R190A
+Sun 30/Oct/2011 21:40:04.295 TrainController/7596 waiting 37 seconds  to start SYR/R190A
+Sun 30/Oct/2011 21:40:04.296 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:40:05.298 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:40:05.301 TrainController/7596 checking SYR/R190A
+Sun 30/Oct/2011 21:40:05.302 TrainController/7596 waiting 16 seconds  to start SYR/R190A
+Sun 30/Oct/2011 21:40:05.302 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:40:05.644 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:40:05.645 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:40:06.305 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:40:06.306 TrainController/7596 checking SYR/R190A
+Sun 30/Oct/2011 21:40:06.307 TrainController/7596 waiting 16 seconds  to start SYR/R190A
+Sun 30/Oct/2011 21:40:06.307 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:40:07.308 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:40:07.309 TrainController/7596 checking SYR/R190A
+Sun 30/Oct/2011 21:40:07.310 TrainController/7596 now starting SYR/R190A
+Sun 30/Oct/2011 21:40:07.310 TrainController2/7596/SignalController/SYR/R190A created
+Sun 30/Oct/2011 21:40:07.311 TrainController/7596 checking SYR/R180A
+Sun 30/Oct/2011 21:40:07.312 TrainController2/7596/SignalController/SYR/R190A successfully claimed
+Sun 30/Oct/2011 21:40:07.313 TrainController/7596 checking SYR/RB170A
+Sun 30/Oct/2011 21:40:07.315 TrainController/7596 checking SYR/R142A
+Sun 30/Oct/2011 21:40:07.318 TrainController/7596 checking SYR/RB124A
+Sun 30/Oct/2011 21:40:07.318 TrainController/7596 checking SYR/RB114A
+Sun 30/Oct/2011 21:40:07.319 TrainController2/7596/SignalController/SYR/R190A RouteStateChange Event. RouteModel:SYR/R190A, oldState: Turning, newState: Locked
+Sun 30/Oct/2011 21:40:07.323 TrainController/7596 checking SYR/RB100A
+Sun 30/Oct/2011 21:40:07.324 TrainController/7596 checking SYR/RB088A
+Sun 30/Oct/2011 21:40:07.328 TrainController/7596 checking SYR/R078A
+Sun 30/Oct/2011 21:40:07.330 TrainController/7596 checking SYR/RB072A-FSE/R987A
+Sun 30/Oct/2011 21:40:07.332 TrainController/7596 SYR/RB072A-FSE/R987A not available
+Sun 30/Oct/2011 21:40:07.332 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:40:07.343 TrainController2/7596/SignalController/SYR/R190A RouteStateChange Event. RouteModel:SYR/R190A, oldState: Dormant, newState: Locked
+Sun 30/Oct/2011 21:40:07.646 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:40:07.646 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:40:08.128 TrainController2/7596/SignalController/SYR/R190A RouteStateChange Event. RouteModel:SYR/R190A, oldState: Locked, newState: Clear
+Sun 30/Oct/2011 21:40:08.128 TrainController2/7596/SignalController/SYR/R190A checking for next route...
+Sun 30/Oct/2011 21:40:08.129 TrainController2/7596/SignalController/SYR/R190A no more route. SignalController OK sent to Traincontroller
+Sun 30/Oct/2011 21:40:08.130 TrainController/7596  signal controller SYR/R190A ok
+Sun 30/Oct/2011 21:40:08.344 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:40:08.345 TrainController/7596 checking SYR/RB072A-FSE/R987A
+Sun 30/Oct/2011 21:40:08.345 TrainController/7596 SYR/RB072A-FSE/R987A not available
+Sun 30/Oct/2011 21:40:08.345 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:40:09.508 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:40:09.511 TrainController/7596 checking SYR/RB072A-FSE/R987A
+Sun 30/Oct/2011 21:40:09.512 TrainController/7596 SYR/RB072A-FSE/R987A not available
+Sun 30/Oct/2011 21:40:09.512 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:40:09.787 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:40:09.787 TrainController/7596 head track SYR/T200 is on new platform WIN001
+Sun 30/Oct/2011 21:40:09.788 TrainController/7596 inPlatform: false
+Sun 30/Oct/2011 21:40:09.788 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:40:10.516 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:40:10.518 TrainController/7596 checking SYR/RB072A-FSE/R987A
+Sun 30/Oct/2011 21:40:10.520 TrainController/7596 waiting 181 seconds  to start SYR/RB072A-FSE/R987A
+Sun 30/Oct/2011 21:40:10.520 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:40:11.523 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:40:11.525 TrainController/7596 checking SYR/RB072A-FSE/R987A
+Sun 30/Oct/2011 21:40:11.526 TrainController/7596 waiting 173 seconds  to start SYR/RB072A-FSE/R987A
+Sun 30/Oct/2011 21:40:11.526 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:40:12.146 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:40:12.146 TrainController/7596 head track SYR/T192 is on new platform WIN001
+Sun 30/Oct/2011 21:40:12.148 TrainController/7596 inPlatform: true
+Sun 30/Oct/2011 21:40:12.149 TrainController/7596 dwell time: 5
+Sun 30/Oct/2011 21:40:12.150 TrainController/7596 train stopped
+Sun 30/Oct/2011 21:40:12.151 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:40:12.153 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:40:12.153 TrainController/7596 head track SYR/T192 is on new platform WIN001
+Sun 30/Oct/2011 21:40:12.154 TrainController/7596 inPlatform: true
+Sun 30/Oct/2011 21:40:12.154 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:40:12.528 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:40:12.531 TrainController/7596 checking SYR/RB072A-FSE/R987A
+Sun 30/Oct/2011 21:40:12.531 TrainController/7596 waiting 173 seconds  to start SYR/RB072A-FSE/R987A
+Sun 30/Oct/2011 21:40:12.532 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:40:13.598 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:40:13.602 TrainController/7596 checking SYR/RB072A-FSE/R987A
+Sun 30/Oct/2011 21:40:13.607 TrainController/7596 waiting 173 seconds  to start SYR/RB072A-FSE/R987A
+Sun 30/Oct/2011 21:40:13.607 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:40:14.295 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:40:14.295 TrainController/7596 head track SYR/T192 is on new platform WIN001
+Sun 30/Oct/2011 21:40:14.296 TrainController/7596 inPlatform: true
+Sun 30/Oct/2011 21:40:14.296 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:40:14.609 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:40:14.610 TrainController/7596 checking SYR/RB072A-FSE/R987A
+Sun 30/Oct/2011 21:40:14.610 TrainController/7596 waiting 173 seconds  to start SYR/RB072A-FSE/R987A
+Sun 30/Oct/2011 21:40:14.610 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:40:15.612 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:40:15.613 TrainController/7596 checking SYR/RB072A-FSE/R987A
+Sun 30/Oct/2011 21:40:15.613 TrainController/7596 waiting 173 seconds  to start SYR/RB072A-FSE/R987A
+Sun 30/Oct/2011 21:40:15.614 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:40:16.239 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:40:16.239 TrainController/7596 head track SYR/T192 is on new platform WIN001
+Sun 30/Oct/2011 21:40:16.241 TrainController/7596 inPlatform: true
+Sun 30/Oct/2011 21:40:16.241 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:40:16.624 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:40:16.626 TrainController/7596 checking SYR/RB072A-FSE/R987A
+Sun 30/Oct/2011 21:40:16.628 TrainController/7596 waiting 173 seconds  to start SYR/RB072A-FSE/R987A
+Sun 30/Oct/2011 21:40:16.628 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:40:17.232 TrainController/7596 restarting the train
+Sun 30/Oct/2011 21:40:17.232 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:40:17.233 TrainController/7596 head track SYR/T192 is on new platform WIN001
+Sun 30/Oct/2011 21:40:17.233 TrainController/7596 inPlatform: true
+Sun 30/Oct/2011 21:40:17.233 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:40:17.629 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:40:17.630 TrainController/7596 checking SYR/RB072A-FSE/R987A
+Sun 30/Oct/2011 21:40:17.631 TrainController/7596 waiting 173 seconds  to start SYR/RB072A-FSE/R987A
+Sun 30/Oct/2011 21:40:17.631 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:40:18.409 TrainController2/7596/SignalController/SYR/R190A RouteStateChange Event. RouteModel:SYR/R190A, oldState: Clear, newState: TrainIn
+Sun 30/Oct/2011 21:40:18.419 TrainController2/7596/SignalController/SYR/R190A Clearing up
+Sun 30/Oct/2011 21:40:18.760 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:40:18.766 TrainController/7596 checking SYR/RB072A-FSE/R987A
+Sun 30/Oct/2011 21:40:18.778 TrainController/7596 waiting 171 seconds  to start SYR/RB072A-FSE/R987A
+Sun 30/Oct/2011 21:40:18.778 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:40:19.832 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:40:19.844 TrainController/7596 checking SYR/RB072A-FSE/R987A
+Sun 30/Oct/2011 21:40:19.853 TrainController/7596 waiting 171 seconds  to start SYR/RB072A-FSE/R987A
+Sun 30/Oct/2011 21:40:19.853 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:40:20.856 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:40:20.859 TrainController/7596 checking SYR/RB072A-FSE/R987A
+Sun 30/Oct/2011 21:40:20.863 TrainController/7596 waiting 156 seconds  to start SYR/RB072A-FSE/R987A
+Sun 30/Oct/2011 21:40:20.863 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:40:21.864 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:40:21.865 TrainController/7596 checking SYR/RB072A-FSE/R987A
+Sun 30/Oct/2011 21:40:21.865 TrainController/7596 waiting 156 seconds  to start SYR/RB072A-FSE/R987A
+Sun 30/Oct/2011 21:40:21.866 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:40:22.872 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:40:22.876 TrainController/7596 checking SYR/RB072A-FSE/R987A
+Sun 30/Oct/2011 21:40:22.876 TrainController/7596 waiting 145 seconds  to start SYR/RB072A-FSE/R987A
+Sun 30/Oct/2011 21:40:22.877 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:40:23.598 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:40:23.598 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:40:23.879 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:40:23.880 TrainController/7596 checking SYR/RB072A-FSE/R987A
+Sun 30/Oct/2011 21:40:23.880 TrainController/7596 waiting 145 seconds  to start SYR/RB072A-FSE/R987A
+Sun 30/Oct/2011 21:40:23.880 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:40:25.003 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:40:25.025 TrainController/7596 checking SYR/RB072A-FSE/R987A
+Sun 30/Oct/2011 21:40:25.042 TrainController/7596 waiting 134 seconds  to start SYR/RB072A-FSE/R987A
+Sun 30/Oct/2011 21:40:25.043 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:40:25.790 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:40:25.790 TrainController/7596 head track SYR/T174 is on new platform PRA001
+Sun 30/Oct/2011 21:40:25.791 TrainController/7596 inPlatform: true
+Sun 30/Oct/2011 21:40:25.792 TrainController/7596 dwell time: 5
+Sun 30/Oct/2011 21:40:25.794 TrainController/7596 train stopped
+Sun 30/Oct/2011 21:40:25.795 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:40:25.796 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:40:25.796 TrainController/7596 head track SYR/T174 is on new platform PRA001
+Sun 30/Oct/2011 21:40:25.798 TrainController/7596 inPlatform: true
+Sun 30/Oct/2011 21:40:25.798 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:40:26.049 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:40:26.060 TrainController/7596 checking SYR/RB072A-FSE/R987A
+Sun 30/Oct/2011 21:40:26.066 TrainController/7596 waiting 112 seconds  to start SYR/RB072A-FSE/R987A
+Sun 30/Oct/2011 21:40:26.066 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:40:27.070 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:40:27.075 TrainController/7596 checking SYR/RB072A-FSE/R987A
+Sun 30/Oct/2011 21:40:27.080 TrainController/7596 waiting 112 seconds  to start SYR/RB072A-FSE/R987A
+Sun 30/Oct/2011 21:40:27.080 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:40:27.443 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:40:27.443 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:40:28.133 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:40:28.134 TrainController/7596 checking SYR/RB072A-FSE/R987A
+Sun 30/Oct/2011 21:40:28.163 TrainController/7596 waiting 112 seconds  to start SYR/RB072A-FSE/R987A
+Sun 30/Oct/2011 21:40:28.163 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:40:29.167 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:40:29.171 TrainController/7596 checking SYR/RB072A-FSE/R987A
+Sun 30/Oct/2011 21:40:29.173 TrainController/7596 waiting 112 seconds  to start SYR/RB072A-FSE/R987A
+Sun 30/Oct/2011 21:40:29.173 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:40:29.662 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:40:29.663 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:40:30.176 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:40:30.177 TrainController/7596 checking SYR/RB072A-FSE/R987A
+Sun 30/Oct/2011 21:40:30.177 TrainController/7596 waiting 112 seconds  to start SYR/RB072A-FSE/R987A
+Sun 30/Oct/2011 21:40:30.177 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:40:30.821 TrainController/7596 restarting the train
+Sun 30/Oct/2011 21:40:30.829 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:40:30.829 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:40:30.832 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:40:30.832 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:40:31.179 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:40:31.180 TrainController/7596 checking SYR/RB072A-FSE/R987A
+Sun 30/Oct/2011 21:40:31.180 TrainController/7596 waiting 112 seconds  to start SYR/RB072A-FSE/R987A
+Sun 30/Oct/2011 21:40:31.181 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:40:32.251 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:40:32.252 TrainController/7596 checking SYR/RB072A-FSE/R987A
+Sun 30/Oct/2011 21:40:32.466 TrainController/7596 waiting 112 seconds  to start SYR/RB072A-FSE/R987A
+Sun 30/Oct/2011 21:40:32.466 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:40:33.467 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:40:33.469 TrainController/7596 checking SYR/RB072A-FSE/R987A
+Sun 30/Oct/2011 21:40:33.470 TrainController/7596 waiting 83 seconds  to start SYR/RB072A-FSE/R987A
+Sun 30/Oct/2011 21:40:33.470 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:40:34.471 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:40:34.472 TrainController/7596 checking SYR/RB072A-FSE/R987A
+Sun 30/Oct/2011 21:40:34.473 TrainController/7596 waiting 50 seconds  to start SYR/RB072A-FSE/R987A
+Sun 30/Oct/2011 21:40:34.473 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:40:35.474 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:40:35.475 TrainController/7596 checking SYR/RB072A-FSE/R987A
+Sun 30/Oct/2011 21:40:35.476 TrainController/7596 waiting 50 seconds  to start SYR/RB072A-FSE/R987A
+Sun 30/Oct/2011 21:40:35.476 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:40:36.502 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:40:36.511 TrainController/7596 checking SYR/RB072A-FSE/R987A
+Sun 30/Oct/2011 21:40:36.514 TrainController/7596 waiting 34 seconds  to start SYR/RB072A-FSE/R987A
+Sun 30/Oct/2011 21:40:36.515 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:40:37.226 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:40:37.226 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:40:37.518 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:40:37.520 TrainController/7596 checking SYR/RB072A-FSE/R987A
+Sun 30/Oct/2011 21:40:37.523 TrainController/7596 waiting 34 seconds  to start SYR/RB072A-FSE/R987A
+Sun 30/Oct/2011 21:40:37.523 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:40:38.555 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:40:38.565 TrainController/7596 checking SYR/RB072A-FSE/R987A
+Sun 30/Oct/2011 21:40:38.569 TrainController/7596 waiting 10 seconds  to start SYR/RB072A-FSE/R987A
+Sun 30/Oct/2011 21:40:38.569 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:40:39.071 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:40:39.071 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:40:39.572 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:40:39.574 TrainController/7596 checking SYR/RB072A-FSE/R987A
+Sun 30/Oct/2011 21:40:39.574 TrainController/7596 waiting 10 seconds  to start SYR/RB072A-FSE/R987A
+Sun 30/Oct/2011 21:40:39.575 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:40:40.576 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:40:40.576 TrainController/7596 checking SYR/RB072A-FSE/R987A
+Sun 30/Oct/2011 21:40:40.577 TrainController/7596 now starting SYR/RB072A-FSE/R987A
+Sun 30/Oct/2011 21:40:40.578 TrainController2/7596/SignalController/SYR/RB072A-FSE/R987A created
+Sun 30/Oct/2011 21:40:40.578 TrainController/7596 checking FSE/R871A-FSE/R983B
+Sun 30/Oct/2011 21:40:40.579 TrainController/7596 previous sr SYR/RB072A-FSE/R987A status: waiting
+Sun 30/Oct/2011 21:40:40.579 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:40:40.580 TrainController2/7596/SignalController/SYR/RB072A-FSE/R987A successfully claimed
+Sun 30/Oct/2011 21:40:40.589 TrainController2/7596/SignalController/SYR/RB072A-FSE/R987A RouteStateChange Event. RouteModel:FSE/R987A, oldState: Turning, newState: Locked
+Sun 30/Oct/2011 21:40:40.603 TrainController2/7596/SignalController/SYR/RB072A-FSE/R987A RouteStateChange Event. RouteModel:FSE/R987A, oldState: Dormant, newState: Locked
+Sun 30/Oct/2011 21:40:41.371 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:40:41.371 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:40:41.495 TrainController2/7596/SignalController/SYR/RB072A-FSE/R987A RouteStateChange Event. RouteModel:FSE/R987A, oldState: Locked, newState: Clear
+Sun 30/Oct/2011 21:40:41.495 TrainController2/7596/SignalController/SYR/RB072A-FSE/R987A checking for next route...
+Sun 30/Oct/2011 21:40:41.496 TrainController2/7596/SignalController/SYR/RB072A-FSE/R987A new route: SYR/RB072A
+Sun 30/Oct/2011 21:40:41.509 TrainController2/7596/SignalController/SYR/RB072A-FSE/R987A RouteStateChange Event. RouteModel:SYR/RB072A, oldState: Turning, newState: Locked
+Sun 30/Oct/2011 21:40:41.519 TrainController2/7596/SignalController/SYR/RB072A-FSE/R987A RouteStateChange Event. RouteModel:SYR/RB072A, oldState: Dormant, newState: Locked
+Sun 30/Oct/2011 21:40:41.581 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:40:41.581 TrainController/7596 checking FSE/R871A-FSE/R983B
+Sun 30/Oct/2011 21:40:41.582 TrainController/7596 waiting 30 seconds  to start FSE/R871A-FSE/R983B
+Sun 30/Oct/2011 21:40:41.582 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:40:42.490 TrainController2/7596/SignalController/SYR/RB072A-FSE/R987A RouteStateChange Event. RouteModel:SYR/RB072A, oldState: Locked, newState: Clear
+Sun 30/Oct/2011 21:40:42.490 TrainController2/7596/SignalController/SYR/RB072A-FSE/R987A checking for next route...
+Sun 30/Oct/2011 21:40:42.500 TrainController2/7596/SignalController/SYR/RB072A-FSE/R987A no more route. SignalController OK sent to Traincontroller
+Sun 30/Oct/2011 21:40:42.501 TrainController/7596  signal controller SYR/RB072A-FSE/R987A ok
+Sun 30/Oct/2011 21:40:42.584 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:40:42.584 TrainController/7596 checking FSE/R871A-FSE/R983B
+Sun 30/Oct/2011 21:40:42.585 TrainController/7596 waiting 15 seconds  to start FSE/R871A-FSE/R983B
+Sun 30/Oct/2011 21:40:42.585 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:40:43.509 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:40:43.509 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:40:43.728 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:40:43.739 TrainController/7596 checking FSE/R871A-FSE/R983B
+Sun 30/Oct/2011 21:40:43.741 TrainController/7596 waiting 15 seconds  to start FSE/R871A-FSE/R983B
+Sun 30/Oct/2011 21:40:43.741 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:40:44.911 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:40:44.916 TrainController/7596 checking FSE/R871A-FSE/R983B
+Sun 30/Oct/2011 21:40:44.919 TrainController/7596 waiting 4 seconds  to start FSE/R871A-FSE/R983B
+Sun 30/Oct/2011 21:40:44.920 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:40:46.003 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:40:46.036 TrainController/7596 checking FSE/R871A-FSE/R983B
+Sun 30/Oct/2011 21:40:46.036 TrainController/7596 waiting 4 seconds  to start FSE/R871A-FSE/R983B
+Sun 30/Oct/2011 21:40:46.038 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:40:46.311 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:40:46.311 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:40:47.050 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:40:47.051 TrainController/7596 checking FSE/R871A-FSE/R983B
+Sun 30/Oct/2011 21:40:47.054 TrainController/7596 waiting 4 seconds  to start FSE/R871A-FSE/R983B
+Sun 30/Oct/2011 21:40:47.054 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:40:47.242 TrainController2/7596/SignalController/SYR/RB072A-FSE/R987A RouteStateChange Event. RouteModel:SYR/RB072A, oldState: Clear, newState: TrainIn
+Sun 30/Oct/2011 21:40:47.599 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:40:47.599 TrainController/7596 head track SYR/TB072 is on new platform RMD001
+Sun 30/Oct/2011 21:40:47.600 TrainController/7596 inPlatform: true
+Sun 30/Oct/2011 21:40:47.600 TrainController/7596 dwell time: 5
+Sun 30/Oct/2011 21:40:47.601 TrainController/7596 train stopped
+Sun 30/Oct/2011 21:40:47.601 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:40:47.603 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:40:47.603 TrainController/7596 head track SYR/TB072 is on new platform RMD001
+Sun 30/Oct/2011 21:40:47.605 TrainController/7596 inPlatform: true
+Sun 30/Oct/2011 21:40:47.605 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:40:48.056 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:40:48.058 TrainController/7596 checking FSE/R871A-FSE/R983B
+Sun 30/Oct/2011 21:40:48.060 TrainController/7596 now starting FSE/R871A-FSE/R983B
+Sun 30/Oct/2011 21:40:48.064 TrainController2/7596/SignalController/FSE/R871A-FSE/R983B created
+Sun 30/Oct/2011 21:40:48.064 TrainController/7596 checking FSE/R855A
+Sun 30/Oct/2011 21:40:48.064 TrainController/7596 checking FSE/R853A
+Sun 30/Oct/2011 21:40:48.065 TrainController/7596 checking FSB/R769A-FSB/R767A-FSB/R765B
+Sun 30/Oct/2011 21:40:48.065 TrainController2/7596/SignalController/FSE/R871A-FSE/R983B successfully claimed
+Sun 30/Oct/2011 21:40:48.065 TrainController/7596 FSB/R769A-FSB/R767A-FSB/R765B not available
+Sun 30/Oct/2011 21:40:48.066 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:40:48.068 TrainController2/7596/SignalController/FSE/R871A-FSE/R983B RouteStateChange Event. RouteModel:FSE/R983B, oldState: Turning, newState: Locked
+Sun 30/Oct/2011 21:40:48.081 TrainController2/7596/SignalController/FSE/R871A-FSE/R983B RouteStateChange Event. RouteModel:FSE/R983B, oldState: Dormant, newState: Locked
+Sun 30/Oct/2011 21:40:49.068 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:40:49.069 TrainController/7596 checking FSB/R769A-FSB/R767A-FSB/R765B
+Sun 30/Oct/2011 21:40:49.069 TrainController/7596 FSB/R769A-FSB/R767A-FSB/R765B not available
+Sun 30/Oct/2011 21:40:49.070 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:40:49.353 TrainController2/7596/SignalController/FSE/R871A-FSE/R983B RouteStateChange Event. RouteModel:FSE/R983B, oldState: Locked, newState: Clear
+Sun 30/Oct/2011 21:40:49.353 TrainController2/7596/SignalController/FSE/R871A-FSE/R983B checking for next route...
+Sun 30/Oct/2011 21:40:49.354 TrainController2/7596/SignalController/FSE/R871A-FSE/R983B new route: FSE/R871A
+Sun 30/Oct/2011 21:40:49.367 TrainController2/7596/SignalController/FSE/R871A-FSE/R983B RouteStateChange Event. RouteModel:FSE/R871A, oldState: Turning, newState: Locked
+Sun 30/Oct/2011 21:40:49.378 TrainController2/7596/SignalController/FSE/R871A-FSE/R983B RouteStateChange Event. RouteModel:FSE/R871A, oldState: Dormant, newState: Locked
+Sun 30/Oct/2011 21:40:50.074 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:40:50.076 TrainController/7596 checking FSB/R769A-FSB/R767A-FSB/R765B
+Sun 30/Oct/2011 21:40:50.076 TrainController/7596 FSB/R769A-FSB/R767A-FSB/R765B not available
+Sun 30/Oct/2011 21:40:50.077 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:40:50.099 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:40:50.099 TrainController/7596 head track SYR/TB072 is on new platform RMD001
+Sun 30/Oct/2011 21:40:50.101 TrainController/7596 inPlatform: true
+Sun 30/Oct/2011 21:40:50.101 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:40:50.334 TrainController2/7596/SignalController/FSE/R871A-FSE/R983B RouteStateChange Event. RouteModel:FSE/R871A, oldState: Locked, newState: Clear
+Sun 30/Oct/2011 21:40:50.334 TrainController2/7596/SignalController/FSE/R871A-FSE/R983B checking for next route...
+Sun 30/Oct/2011 21:40:50.335 TrainController2/7596/SignalController/FSE/R871A-FSE/R983B no more route. SignalController OK sent to Traincontroller
+Sun 30/Oct/2011 21:40:50.335 TrainController/7596  signal controller FSE/R871A-FSE/R983B ok
+Sun 30/Oct/2011 21:40:51.078 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:40:51.079 TrainController/7596 checking FSB/R769A-FSB/R767A-FSB/R765B
+Sun 30/Oct/2011 21:40:51.079 TrainController/7596 FSB/R769A-FSB/R767A-FSB/R765B not available
+Sun 30/Oct/2011 21:40:51.080 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:40:52.081 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:40:52.082 TrainController/7596 checking FSB/R769A-FSB/R767A-FSB/R765B
+Sun 30/Oct/2011 21:40:52.082 TrainController/7596 FSB/R769A-FSB/R767A-FSB/R765B not available
+Sun 30/Oct/2011 21:40:52.082 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:40:52.437 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:40:52.438 TrainController/7596 head track SYR/TB072 is on new platform RMD001
+Sun 30/Oct/2011 21:40:52.439 TrainController/7596 inPlatform: true
+Sun 30/Oct/2011 21:40:52.439 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:40:52.656 TrainController/7596 restarting the train
+Sun 30/Oct/2011 21:40:52.660 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:40:52.660 TrainController/7596 head track SYR/TB072 is on new platform RMD001
+Sun 30/Oct/2011 21:40:52.662 TrainController/7596 inPlatform: true
+Sun 30/Oct/2011 21:40:52.662 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:40:53.084 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:40:53.084 TrainController/7596 checking FSB/R769A-FSB/R767A-FSB/R765B
+Sun 30/Oct/2011 21:40:53.085 TrainController/7596 FSB/R769A-FSB/R767A-FSB/R765B not available
+Sun 30/Oct/2011 21:40:53.085 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:40:54.086 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:40:54.088 TrainController/7596 checking FSB/R769A-FSB/R767A-FSB/R765B
+Sun 30/Oct/2011 21:40:54.088 TrainController/7596 FSB/R769A-FSB/R767A-FSB/R765B not available
+Sun 30/Oct/2011 21:40:54.088 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:40:54.554 TrainController2/7596/SignalController/SYR/RB072A-FSE/R987A RouteStateChange Event. RouteModel:FSE/R987A, oldState: Clear, newState: TrainIn
+Sun 30/Oct/2011 21:40:54.569 TrainController2/7596/SignalController/SYR/RB072A-FSE/R987A Clearing up
+Sun 30/Oct/2011 21:40:55.089 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:40:55.091 TrainController/7596 checking FSB/R769A-FSB/R767A-FSB/R765B
+Sun 30/Oct/2011 21:40:55.092 TrainController/7596 FSB/R769A-FSB/R767A-FSB/R765B not available
+Sun 30/Oct/2011 21:40:55.092 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:40:56.095 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:40:56.096 TrainController/7596 checking FSB/R769A-FSB/R767A-FSB/R765B
+Sun 30/Oct/2011 21:40:56.096 TrainController/7596 FSB/R769A-FSB/R767A-FSB/R765B not available
+Sun 30/Oct/2011 21:40:56.096 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:40:57.099 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:40:57.100 TrainController/7596 checking FSB/R769A-FSB/R767A-FSB/R765B
+Sun 30/Oct/2011 21:40:57.100 TrainController/7596 FSB/R769A-FSB/R767A-FSB/R765B not available
+Sun 30/Oct/2011 21:40:57.110 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:40:58.112 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:40:58.113 TrainController/7596 checking FSB/R769A-FSB/R767A-FSB/R765B
+Sun 30/Oct/2011 21:40:58.113 TrainController/7596 FSB/R769A-FSB/R767A-FSB/R765B not available
+Sun 30/Oct/2011 21:40:58.113 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:40:59.210 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:40:59.212 TrainController/7596 checking FSB/R769A-FSB/R767A-FSB/R765B
+Sun 30/Oct/2011 21:40:59.248 TrainController/7596 FSB/R769A-FSB/R767A-FSB/R765B not available
+Sun 30/Oct/2011 21:40:59.248 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:40:59.258 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:40:59.276 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:41:00.092 TrainController2/7596/SignalController/FSE/R871A-FSE/R983B RouteStateChange Event. RouteModel:FSE/R871A, oldState: Clear, newState: TrainIn
+Sun 30/Oct/2011 21:41:00.272 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:41:00.288 TrainController/7596 checking FSB/R769A-FSB/R767A-FSB/R765B
+Sun 30/Oct/2011 21:41:00.307 TrainController/7596 FSB/R769A-FSB/R767A-FSB/R765B not available
+Sun 30/Oct/2011 21:41:00.307 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:41:00.584 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:41:00.585 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:41:01.309 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:41:01.314 TrainController/7596 checking FSB/R769A-FSB/R767A-FSB/R765B
+Sun 30/Oct/2011 21:41:01.316 TrainController/7596 FSB/R769A-FSB/R767A-FSB/R765B not available
+Sun 30/Oct/2011 21:41:01.316 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:41:02.318 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:41:02.320 TrainController/7596 checking FSB/R769A-FSB/R767A-FSB/R765B
+Sun 30/Oct/2011 21:41:02.321 TrainController/7596 FSB/R769A-FSB/R767A-FSB/R765B not available
+Sun 30/Oct/2011 21:41:02.322 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:41:02.629 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:41:02.629 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:41:03.332 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:41:03.334 TrainController/7596 checking FSB/R769A-FSB/R767A-FSB/R765B
+Sun 30/Oct/2011 21:41:03.337 TrainController/7596 FSB/R769A-FSB/R767A-FSB/R765B not available
+Sun 30/Oct/2011 21:41:03.337 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:41:04.346 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:41:04.354 TrainController/7596 checking FSB/R769A-FSB/R767A-FSB/R765B
+Sun 30/Oct/2011 21:41:04.361 TrainController/7596 FSB/R769A-FSB/R767A-FSB/R765B not available
+Sun 30/Oct/2011 21:41:04.361 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:41:04.375 TrainController2/7596/SignalController/FSE/R871A-FSE/R983B RouteStateChange Event. RouteModel:FSE/R983B, oldState: Clear, newState: TrainIn
+Sun 30/Oct/2011 21:41:04.388 TrainController2/7596/SignalController/FSE/R871A-FSE/R983B Clearing up
+Sun 30/Oct/2011 21:41:05.216 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:41:05.216 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:41:05.374 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:41:05.381 TrainController/7596 checking FSB/R769A-FSB/R767A-FSB/R765B
+Sun 30/Oct/2011 21:41:05.391 TrainController/7596 FSB/R769A-FSB/R767A-FSB/R765B not available
+Sun 30/Oct/2011 21:41:05.391 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:41:06.394 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:41:06.399 TrainController/7596 checking FSB/R769A-FSB/R767A-FSB/R765B
+Sun 30/Oct/2011 21:41:06.399 TrainController/7596 FSB/R769A-FSB/R767A-FSB/R765B not available
+Sun 30/Oct/2011 21:41:06.399 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:41:07.477 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:41:07.663 TrainController/7596 checking FSB/R769A-FSB/R767A-FSB/R765B
+Sun 30/Oct/2011 21:41:07.717 TrainController/7596 FSB/R769A-FSB/R767A-FSB/R765B not available
+Sun 30/Oct/2011 21:41:07.717 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:41:08.129 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:41:08.129 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:41:08.719 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:41:08.722 TrainController/7596 checking FSB/R769A-FSB/R767A-FSB/R765B
+Sun 30/Oct/2011 21:41:08.726 TrainController/7596 FSB/R769A-FSB/R767A-FSB/R765B not available
+Sun 30/Oct/2011 21:41:08.726 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:41:09.446 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:41:09.447 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:41:09.875 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:41:09.887 TrainController/7596 checking FSB/R769A-FSB/R767A-FSB/R765B
+Sun 30/Oct/2011 21:41:09.891 TrainController/7596 FSB/R769A-FSB/R767A-FSB/R765B not available
+Sun 30/Oct/2011 21:41:09.891 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:41:10.658 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:41:10.658 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:41:10.895 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:41:10.900 TrainController/7596 checking FSB/R769A-FSB/R767A-FSB/R765B
+Sun 30/Oct/2011 21:41:10.907 TrainController/7596 FSB/R769A-FSB/R767A-FSB/R765B not available
+Sun 30/Oct/2011 21:41:10.908 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:41:11.911 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:41:11.911 TrainController/7596 checking FSB/R769A-FSB/R767A-FSB/R765B
+Sun 30/Oct/2011 21:41:11.914 TrainController/7596 FSB/R769A-FSB/R767A-FSB/R765B not available
+Sun 30/Oct/2011 21:41:11.914 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:41:13.021 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:41:13.023 TrainController/7596 checking FSB/R769A-FSB/R767A-FSB/R765B
+Sun 30/Oct/2011 21:41:13.048 TrainController/7596 FSB/R769A-FSB/R767A-FSB/R765B not available
+Sun 30/Oct/2011 21:41:13.048 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:41:13.933 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:41:13.933 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:41:14.050 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:41:14.054 TrainController/7596 checking FSB/R769A-FSB/R767A-FSB/R765B
+Sun 30/Oct/2011 21:41:14.056 TrainController/7596 FSB/R769A-FSB/R767A-FSB/R765B not available
+Sun 30/Oct/2011 21:41:14.056 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:41:15.057 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:41:15.058 TrainController/7596 checking FSB/R769A-FSB/R767A-FSB/R765B
+Sun 30/Oct/2011 21:41:15.058 TrainController/7596 FSB/R769A-FSB/R767A-FSB/R765B not available
+Sun 30/Oct/2011 21:41:15.059 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:41:15.990 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:41:15.990 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:41:16.059 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:41:16.060 TrainController/7596 checking FSB/R769A-FSB/R767A-FSB/R765B
+Sun 30/Oct/2011 21:41:16.060 TrainController/7596 FSB/R769A-FSB/R767A-FSB/R765B not available
+Sun 30/Oct/2011 21:41:16.061 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:41:17.063 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:41:17.065 TrainController/7596 checking FSB/R769A-FSB/R767A-FSB/R765B
+Sun 30/Oct/2011 21:41:17.066 TrainController/7596 FSB/R769A-FSB/R767A-FSB/R765B not available
+Sun 30/Oct/2011 21:41:17.066 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:41:18.069 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:41:18.070 TrainController/7596 checking FSB/R769A-FSB/R767A-FSB/R765B
+Sun 30/Oct/2011 21:41:18.070 TrainController/7596 FSB/R769A-FSB/R767A-FSB/R765B not available
+Sun 30/Oct/2011 21:41:18.071 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:41:18.300 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:41:18.300 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:41:19.072 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:41:19.073 TrainController/7596 checking FSB/R769A-FSB/R767A-FSB/R765B
+Sun 30/Oct/2011 21:41:19.073 TrainController/7596 FSB/R769A-FSB/R767A-FSB/R765B not available
+Sun 30/Oct/2011 21:41:19.074 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:41:20.076 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:41:20.078 TrainController/7596 checking FSB/R769A-FSB/R767A-FSB/R765B
+Sun 30/Oct/2011 21:41:20.078 TrainController/7596 FSB/R769A-FSB/R767A-FSB/R765B not available
+Sun 30/Oct/2011 21:41:20.078 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:41:20.755 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:41:20.755 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:41:21.080 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:41:21.081 TrainController/7596 checking FSB/R769A-FSB/R767A-FSB/R765B
+Sun 30/Oct/2011 21:41:21.082 TrainController/7596 FSB/R769A-FSB/R767A-FSB/R765B not available
+Sun 30/Oct/2011 21:41:21.082 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:41:22.086 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:41:22.087 TrainController/7596 checking FSB/R769A-FSB/R767A-FSB/R765B
+Sun 30/Oct/2011 21:41:22.088 TrainController/7596 FSB/R769A-FSB/R767A-FSB/R765B not available
+Sun 30/Oct/2011 21:41:22.088 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:41:22.353 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:41:22.353 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:41:23.164 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:41:23.176 TrainController/7596 checking FSB/R769A-FSB/R767A-FSB/R765B
+Sun 30/Oct/2011 21:41:23.188 TrainController/7596 now starting FSB/R769A-FSB/R767A-FSB/R765B
+Sun 30/Oct/2011 21:41:23.195 TrainController2/7596/SignalController/FSB/R769A-FSB/R767A-FSB/R765B created
+Sun 30/Oct/2011 21:41:23.201 TrainController/7596 checking FSB/R755A
+Sun 30/Oct/2011 21:41:23.201 TrainController2/7596/SignalController/FSB/R769A-FSB/R767A-FSB/R765B successfully claimed
+Sun 30/Oct/2011 21:41:23.205 TrainController/7596 waiting 68 seconds  to start FSB/R755A
+Sun 30/Oct/2011 21:41:23.205 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:41:23.212 TrainController2/7596/SignalController/FSB/R769A-FSB/R767A-FSB/R765B RouteStateChange Event. RouteModel:FSB/R765B, oldState: Dormant, newState: Turning
+Sun 30/Oct/2011 21:41:24.356 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:41:24.364 TrainController/7596 checking FSB/R755A
+Sun 30/Oct/2011 21:41:24.379 TrainController/7596 waiting 68 seconds  to start FSB/R755A
+Sun 30/Oct/2011 21:41:24.379 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:41:25.387 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:41:25.397 TrainController/7596 checking FSB/R755A
+Sun 30/Oct/2011 21:41:25.409 TrainController/7596 waiting 68 seconds  to start FSB/R755A
+Sun 30/Oct/2011 21:41:25.409 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:41:26.412 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:41:26.415 TrainController/7596 checking FSB/R755A
+Sun 30/Oct/2011 21:41:26.416 TrainController/7596 waiting 68 seconds  to start FSB/R755A
+Sun 30/Oct/2011 21:41:26.418 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:41:27.483 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:41:27.484 TrainController/7596 checking FSB/R755A
+Sun 30/Oct/2011 21:41:27.505 TrainController/7596 waiting 68 seconds  to start FSB/R755A
+Sun 30/Oct/2011 21:41:27.506 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:41:28.509 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:41:28.510 TrainController/7596 checking FSB/R755A
+Sun 30/Oct/2011 21:41:28.511 TrainController/7596 waiting 68 seconds  to start FSB/R755A
+Sun 30/Oct/2011 21:41:28.511 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:41:28.531 TrainController2/7596/SignalController/FSB/R769A-FSB/R767A-FSB/R765B RouteStateChange Event. RouteModel:FSB/R765B, oldState: Turning, newState: Locked
+Sun 30/Oct/2011 21:41:29.634 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:41:29.635 TrainController/7596 checking FSB/R755A
+Sun 30/Oct/2011 21:41:29.655 TrainController/7596 waiting 68 seconds  to start FSB/R755A
+Sun 30/Oct/2011 21:41:29.655 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:41:29.691 TrainController2/7596/SignalController/FSB/R769A-FSB/R767A-FSB/R765B RouteStateChange Event. RouteModel:FSB/R765B, oldState: Locked, newState: Clear
+Sun 30/Oct/2011 21:41:29.691 TrainController2/7596/SignalController/FSB/R769A-FSB/R767A-FSB/R765B checking for next route...
+Sun 30/Oct/2011 21:41:29.692 TrainController2/7596/SignalController/FSB/R769A-FSB/R767A-FSB/R765B new route: FSB/R767A
+Sun 30/Oct/2011 21:41:30.107 TrainController2/7596/SignalController/FSB/R769A-FSB/R767A-FSB/R765B RouteStateChange Event. RouteModel:FSB/R767A, oldState: Turning, newState: Locked
+Sun 30/Oct/2011 21:41:30.135 TrainController2/7596/SignalController/FSB/R769A-FSB/R767A-FSB/R765B RouteStateChange Event. RouteModel:FSB/R767A, oldState: Dormant, newState: Locked
+Sun 30/Oct/2011 21:41:30.657 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:41:30.657 TrainController/7596 checking FSB/R755A
+Sun 30/Oct/2011 21:41:30.658 TrainController/7596 waiting 68 seconds  to start FSB/R755A
+Sun 30/Oct/2011 21:41:30.658 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:41:30.720 TrainController2/7596/SignalController/FSB/R769A-FSB/R767A-FSB/R765B RouteStateChange Event. RouteModel:FSB/R767A, oldState: Locked, newState: Clear
+Sun 30/Oct/2011 21:41:30.720 TrainController2/7596/SignalController/FSB/R769A-FSB/R767A-FSB/R765B checking for next route...
+Sun 30/Oct/2011 21:41:30.721 TrainController2/7596/SignalController/FSB/R769A-FSB/R767A-FSB/R765B new route: FSB/R769A
+Sun 30/Oct/2011 21:41:30.737 TrainController2/7596/SignalController/FSB/R769A-FSB/R767A-FSB/R765B RouteStateChange Event. RouteModel:FSB/R769A, oldState: Turning, newState: Locked
+Sun 30/Oct/2011 21:41:30.748 TrainController2/7596/SignalController/FSB/R769A-FSB/R767A-FSB/R765B RouteStateChange Event. RouteModel:FSB/R769A, oldState: Dormant, newState: Locked
+Sun 30/Oct/2011 21:41:31.659 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:41:31.660 TrainController/7596 checking FSB/R755A
+Sun 30/Oct/2011 21:41:31.660 TrainController/7596 waiting 68 seconds  to start FSB/R755A
+Sun 30/Oct/2011 21:41:31.660 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:41:31.741 TrainController2/7596/SignalController/FSB/R769A-FSB/R767A-FSB/R765B RouteStateChange Event. RouteModel:FSB/R769A, oldState: Locked, newState: Clear
+Sun 30/Oct/2011 21:41:31.741 TrainController2/7596/SignalController/FSB/R769A-FSB/R767A-FSB/R765B checking for next route...
+Sun 30/Oct/2011 21:41:31.742 TrainController2/7596/SignalController/FSB/R769A-FSB/R767A-FSB/R765B no more route. SignalController OK sent to Traincontroller
+Sun 30/Oct/2011 21:41:31.742 TrainController/7596  signal controller FSB/R769A-FSB/R767A-FSB/R765B ok
+Sun 30/Oct/2011 21:41:32.681 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:41:32.862 TrainController/7596 checking FSB/R755A
+Sun 30/Oct/2011 21:41:32.887 TrainController/7596 waiting 68 seconds  to start FSB/R755A
+Sun 30/Oct/2011 21:41:32.887 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:41:32.931 TrainController2/7596/SignalController/FSB/R769A-FSB/R767A-FSB/R765B RouteStateChange Event. RouteModel:FSB/R769A, oldState: Clear, newState: TrainIn
+Sun 30/Oct/2011 21:41:34.020 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:41:34.050 TrainController/7596 checking FSB/R755A
+Sun 30/Oct/2011 21:41:34.066 TrainController/7596 waiting 40 seconds  to start FSB/R755A
+Sun 30/Oct/2011 21:41:34.066 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:41:35.080 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:41:35.098 TrainController/7596 checking FSB/R755A
+Sun 30/Oct/2011 21:41:35.120 TrainController/7596 waiting 40 seconds  to start FSB/R755A
+Sun 30/Oct/2011 21:41:35.120 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:41:36.123 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:41:36.124 TrainController/7596 checking FSB/R755A
+Sun 30/Oct/2011 21:41:36.125 TrainController/7596 waiting 23 seconds  to start FSB/R755A
+Sun 30/Oct/2011 21:41:36.125 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:41:36.588 TrainController2/7596/SignalController/FSB/R769A-FSB/R767A-FSB/R765B RouteStateChange Event. RouteModel:FSB/R767A, oldState: Clear, newState: TrainIn
+Sun 30/Oct/2011 21:41:37.137 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:41:37.145 TrainController/7596 checking FSB/R755A
+Sun 30/Oct/2011 21:41:37.151 TrainController/7596 waiting 9 seconds  to start FSB/R755A
+Sun 30/Oct/2011 21:41:37.152 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:41:38.118 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:41:38.118 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:41:38.153 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:41:38.156 TrainController/7596 checking FSB/R755A
+Sun 30/Oct/2011 21:41:38.161 TrainController/7596 waiting 9 seconds  to start FSB/R755A
+Sun 30/Oct/2011 21:41:38.162 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:41:38.593 TrainController2/7596/SignalController/FSB/R769A-FSB/R767A-FSB/R765B RouteStateChange Event. RouteModel:FSB/R765B, oldState: Clear, newState: TrainIn
+Sun 30/Oct/2011 21:41:38.607 TrainController2/7596/SignalController/FSB/R769A-FSB/R767A-FSB/R765B Clearing up
+Sun 30/Oct/2011 21:41:39.163 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:41:39.164 TrainController/7596 checking FSB/R755A
+Sun 30/Oct/2011 21:41:39.165 TrainController/7596 now starting FSB/R755A
+Sun 30/Oct/2011 21:41:39.166 TrainController2/7596/SignalController/FSB/R755A created
+Sun 30/Oct/2011 21:41:39.168 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:41:39.169 TrainController2/7596/SignalController/FSB/R755A successfully claimed
+Sun 30/Oct/2011 21:41:39.177 TrainController2/7596/SignalController/FSB/R755A RouteStateChange Event. RouteModel:FSB/R755A, oldState: Turning, newState: Locked
+Sun 30/Oct/2011 21:41:39.191 TrainController2/7596/SignalController/FSB/R755A RouteStateChange Event. RouteModel:FSB/R755A, oldState: Dormant, newState: Locked
+Sun 30/Oct/2011 21:41:39.600 TrainController2/7596/SignalController/FSB/R755A RouteStateChange Event. RouteModel:FSB/R755A, oldState: Locked, newState: Clear
+Sun 30/Oct/2011 21:41:39.600 TrainController2/7596/SignalController/FSB/R755A checking for next route...
+Sun 30/Oct/2011 21:41:39.600 TrainController2/7596/SignalController/FSB/R755A no more route. SignalController OK sent to Traincontroller
+Sun 30/Oct/2011 21:41:39.601 TrainController/7596  signal controller FSB/R755A ok
+Sun 30/Oct/2011 21:41:40.170 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:41:40.170 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:41:40.389 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:41:40.389 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:41:41.172 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:41:41.172 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:41:41.712 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:41:41.712 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:41:42.173 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:41:42.174 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:41:43.206 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:41:43.220 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:41:44.197 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:41:44.197 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:41:44.236 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:41:44.236 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:41:44.618 TrainController2/7596/SignalController/FSB/R755A RouteStateChange Event. RouteModel:FSB/R755A, oldState: Clear, newState: TrainIn
+Sun 30/Oct/2011 21:41:44.629 TrainController2/7596/SignalController/FSB/R755A Clearing up
+Sun 30/Oct/2011 21:41:45.240 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:41:45.240 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:41:45.877 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:41:45.877 TrainController/7596 head track FSB/T755 is on new platform FSS008
+Sun 30/Oct/2011 21:41:45.879 TrainController/7596 inPlatform: false
+Sun 30/Oct/2011 21:41:45.879 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:41:46.244 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:41:46.245 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:41:47.415 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:41:47.423 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:41:47.669 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:41:47.669 TrainController/7596 head track FSA/T751 is on new platform FSS008
+Sun 30/Oct/2011 21:41:47.671 TrainController/7596 inPlatform: false
+Sun 30/Oct/2011 21:41:47.671 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:41:48.479 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:41:48.479 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:41:49.600 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:41:49.600 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:41:49.892 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:41:49.892 TrainController/7596 head track FSA/T744 is on new platform FSS008
+Sun 30/Oct/2011 21:41:49.893 TrainController/7596 inPlatform: true
+Sun 30/Oct/2011 21:41:49.894 TrainController/7596 At the last platform FSS008, forming [7597]
+Sun 30/Oct/2011 21:41:49.894 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:41:49.896 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:41:49.896 TrainController/7596 head track FSA/T744 is on new platform FSS008
+Sun 30/Oct/2011 21:41:49.898 TrainController/7596 inPlatform: true
+Sun 30/Oct/2011 21:41:49.898 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:41:50.604 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:41:50.605 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:41:51.608 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:41:51.609 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:41:51.705 TrainController/7596 train status changed. 
+Sun 30/Oct/2011 21:41:51.706 TrainController/7596 head track FSA/T744 is on new platform FSS008
+Sun 30/Oct/2011 21:41:51.708 TrainController/7596 inPlatform: true
+Sun 30/Oct/2011 21:41:51.709 TrainController/7596 exiting trainStateChanged
+Sun 30/Oct/2011 21:41:52.613 TrainController/7596 starting requestSchedule......
+Sun 30/Oct/2011 21:41:52.613 TrainController/7596 requestSchedule...... completed
+Sun 30/Oct/2011 21:41:52.925 TrainController/7596 trip 7596 finished. Train stopped. dwell time: 20 seconds

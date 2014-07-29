@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configs>
+	<SignallingIndication xml:id="E801WI.BOHP">
+		<interlockingName>SYR</interlockingName>
+		<deviceName>config:/JzaSimulator#WIN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SYR/mnem/801WI.BOHP</sourceURL>
+		<offset>9</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E802WI.ISEP">
+		<interlockingName>SYR</interlockingName>
+		<deviceName>config:/JzaSimulator#WIN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SYR/mnem/802WI.ISEP</sourceURL>
+		<offset>8</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E803WI.SCREP">
+		<interlockingName>SYR</interlockingName>
+		<deviceName>config:/JzaSimulator#WIN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SYR/mnem/803WI.SCREP</sourceURL>
+		<offset>7</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E804WI.EFP">
+		<interlockingName>SYR</interlockingName>
+		<deviceName>config:/JzaSimulator#WIN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SYR/mnem/804WI.EFP</sourceURL>
+		<offset>6</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="E805WI.BF">
+		<interlockingName>SYR</interlockingName>
+		<deviceName>config:/JzaSimulator#WIN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SYR/mnem/805WI.BF</sourceURL>
+		<offset>5</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L188.DTOP">
+		<interlockingName>SYR</interlockingName>
+		<deviceName>config:/JzaSimulator#WIN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SYR/mnem/188.DTOP</sourceURL>
+		<offset>5</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L188.BPOK">
+		<interlockingName>SYR</interlockingName>
+		<deviceName>config:/JzaSimulator#WIN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SYR/mnem/188.BPOK</sourceURL>
+		<offset>6</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L188.FGNP">
+		<interlockingName>SYR</interlockingName>
+		<deviceName>config:/JzaSimulator#WIN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SYR/mnem/188.FGNP</sourceURL>
+		<offset>7</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="L188.FCP">
+		<interlockingName>SYR</interlockingName>
+		<deviceName>config:/JzaSimulator#WIN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SYR/mnem/188.FCP</sourceURL>
+		<offset>8</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S187.RIP">
+		<interlockingName>SYR</interlockingName>
+		<deviceName>config:/JzaSimulator#WIN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SYR/mnem/187.RIP</sourceURL>
+		<offset>2</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S187.RGP">
+		<interlockingName>SYR</interlockingName>
+		<deviceName>config:/JzaSimulator#WIN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SYR/mnem/187.RGP</sourceURL>
+		<offset>6</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S187.NGP">
+		<interlockingName>SYR</interlockingName>
+		<deviceName>config:/JzaSimulator#WIN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SYR/mnem/187.NGP</sourceURL>
+		<offset>7</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S190.NGP">
+		<interlockingName>SYR</interlockingName>
+		<deviceName>config:/JzaSimulator#WIN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SYR/mnem/190.NGP</sourceURL>
+		<offset>0</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S190.RIP">
+		<interlockingName>SYR</interlockingName>
+		<deviceName>config:/JzaSimulator#WIN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SYR/mnem/190.RIP</sourceURL>
+		<offset>11</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S190.RGP">
+		<interlockingName>SYR</interlockingName>
+		<deviceName>config:/JzaSimulator#WIN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SYR/mnem/190.RGP</sourceURL>
+		<offset>15</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S199.RGP">
+		<interlockingName>SYR</interlockingName>
+		<deviceName>config:/JzaSimulator#WIN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SYR/mnem/199.RGP</sourceURL>
+		<offset>1</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S200.RGP">
+		<interlockingName>SYR</interlockingName>
+		<deviceName>config:/JzaSimulator#WIN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SYR/mnem/200.RGP</sourceURL>
+		<offset>15</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S210.RGP">
+		<interlockingName>SYR</interlockingName>
+		<deviceName>config:/JzaSimulator#WIN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SYR/mnem/210.RGP</sourceURL>
+		<offset>13</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="S222.RGP">
+		<interlockingName>SYR</interlockingName>
+		<deviceName>config:/JzaSimulator#WIN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SYR/mnem/222.RGP</sourceURL>
+		<offset>10</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T175.TPK">
+		<interlockingName>SYR</interlockingName>
+		<deviceName>config:/JzaSimulator#WIN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SYR/mnem/175.TPK</sourceURL>
+		<offset>9</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T187.TPK">
+		<interlockingName>SYR</interlockingName>
+		<deviceName>config:/JzaSimulator#WIN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SYR/mnem/187.TPK</sourceURL>
+		<offset>1</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T188.TPK">
+		<interlockingName>SYR</interlockingName>
+		<deviceName>config:/JzaSimulator#WIN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SYR/mnem/188.TPK</sourceURL>
+		<offset>4</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T189.TPK">
+		<interlockingName>SYR</interlockingName>
+		<deviceName>config:/JzaSimulator#WIN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SYR/mnem/189.TPK</sourceURL>
+		<offset>3</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T190.TPK">
+		<interlockingName>SYR</interlockingName>
+		<deviceName>config:/JzaSimulator#WIN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SYR/mnem/190.TPK</sourceURL>
+		<offset>10</offset>
+		<word>3</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T192.TPK">
+		<interlockingName>SYR</interlockingName>
+		<deviceName>config:/JzaSimulator#WIN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SYR/mnem/192.TPK</sourceURL>
+		<offset>2</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T199.TPK">
+		<interlockingName>SYR</interlockingName>
+		<deviceName>config:/JzaSimulator#WIN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SYR/mnem/199.TPK</sourceURL>
+		<offset>0</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T200.TPK">
+		<interlockingName>SYR</interlockingName>
+		<deviceName>config:/JzaSimulator#WIN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SYR/mnem/200.TPK</sourceURL>
+		<offset>14</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T210.TPK">
+		<interlockingName>SYR</interlockingName>
+		<deviceName>config:/JzaSimulator#WIN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SYR/mnem/210.TPK</sourceURL>
+		<offset>12</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T211.TPK">
+		<interlockingName>SYR</interlockingName>
+		<deviceName>config:/JzaSimulator#WIN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SYR/mnem/211.TPK</sourceURL>
+		<offset>11</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T222.TPK">
+		<interlockingName>SYR</interlockingName>
+		<deviceName>config:/JzaSimulator#WIN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SYR/mnem/222.TPK</sourceURL>
+		<offset>9</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="T234.TPK">
+		<interlockingName>SYR</interlockingName>
+		<deviceName>config:/JzaSimulator#WIN</deviceName>
+		<sourceURL>oil://WestRACESim.TCMS/SYR/mnem/234.TPK</sourceURL>
+		<offset>8</offset>
+		<word>2</word>
+	</SignallingIndication>
+</Configs>

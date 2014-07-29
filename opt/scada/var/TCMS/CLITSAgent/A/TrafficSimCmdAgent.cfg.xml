@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configs>
+
+<CmdAgentMain  xml_id="CmdAgentTSMain">
+	<thisServiceCommandPath>/coreCommand</thisServiceCommandPath>
+	<targetAppHostname>oil://TrafficSimulator.TCMS</targetAppHostname>
+	<thisServiceName>CLITSAgent</thisServiceName>
+	<thisServiceHostname>oil://CLITSAgent.TCMS</thisServiceHostname>
+	<commandsInfo>
+
+		<!-- Delay train for time interval. -->
+		<commandInfo registration="^DLY\s.*">
+			<data><syntaxOptions>
+				<description>
+					<syntax mnemonic="DLY">NUMBER:train TIME:duration</syntax>
+					<urlPathTemplateSet>
+						<urlPathTemplate content="%2">/trains/%1/delay</urlPathTemplate>
+					</urlPathTemplateSet>
+				</description>
+			</syntaxOptions></data>
+		</commandInfo>
+
+		<!-- Terminate train trip. -->
+		<commandInfo registration="^END\s.*">
+			<data><syntaxOptions>
+				<description>
+					<syntax mnemonic="END">NUMBER:train</syntax>
+					<urlPathTemplateSet>
+						<urlPathTemplate content="END">/trains/%1/trip</urlPathTemplate>
+					</urlPathTemplateSet>
+				</description>
+			</syntaxOptions></data>
+		</commandInfo>
+
+		<!-- Hold train at destination. -->
+		<commandInfo registration="^HLD\s.*">
+			<data><syntaxOptions>
+				<description>
+					<syntax mnemonic="HLD">NUMBER:train</syntax>
+					<urlPathTemplateSet>
+						<urlPathTemplate content="HOLD_AT_DEST">/trains/%1/hold</urlPathTemplate>
+					</urlPathTemplateSet>
+				</description>
+			</syntaxOptions></data>
+		</commandInfo>
+
+		<!-- Halt all trains. -->
+		<commandInfo registration="^HLT\s.*">
+			<data><syntaxOptions>
+				<description>
+					<syntax mnemonic="HLT"></syntax>
+					<urlPathTemplateSet>
+						<urlPathTemplate content="HLT">/command</urlPathTemplate>
+					</urlPathTemplateSet>
+				</description>
+			</syntaxOptions></data>
+		</commandInfo>
+
+		<!-- Initialize the model. -->
+		<commandInfo registration="^INI\s.*">
+			<data><syntaxOptions>
+				<description>
+					<syntax mnemonic="INI"></syntax>
+					<urlPathTemplateSet>
+						<urlPathTemplate action="DELETE">/command</urlPathTemplate>
+					</urlPathTemplateSet>
+				</description>
+			</syntaxOptions></data>
+		</commandInfo>
+
+		<!-- Kill running train. -->
+		<commandInfo registration="^KIL\s.*">
+			<data><syntaxOptions>
+				<description>
+					<syntax mnemonic="KIL">NUMBER:train</syntax>
+					<urlPathTemplateSet>
+						<urlPathTemplate action="DELETE">/trains/%1</urlPathTemplate>
+					</urlPathTemplateSet>
+				</description>
+			</syntaxOptions></data>
+		</commandInfo>
+
+		<commandInfo registration="^PSA\s.*">
+			<data><syntaxOptions>
+				<description>
+					<syntax mnemonic="PSA">NUMBER:train</syntax>
+		            <urlPathTemplateSet>
+					    <urlPathTemplate content="HIGH_SPEED_ALL">/trains/%1/signalBehaviour</urlPathTemplate>
+					</urlPathTemplateSet>
+				</description>
+			</syntaxOptions></data>
+		</commandInfo>
+
+		<!-- Pass signal at stop. -->
+		<commandInfo registration="^PSS\s.*">
+			<data><syntaxOptions>
+				<description>
+					<syntax mnemonic="PSS">NUMBER:train</syntax>
+					<urlPathTemplateSet>
+						<urlPathTemplate content="STOP_AND_LOW_SPEED_SPAD_NEXT_SAD">/trains/%1/signalBehaviour</urlPathTemplate>
+					</urlPathTemplateSet>
+				</description>
+			</syntaxOptions></data>
+		</commandInfo>
+
+		<!-- Resume suspended train. -->
+		<commandInfo registration="^RES\s.*">
+			<data><syntaxOptions>
+				<description>
+					<syntax mnemonic="RES">NUMBER:train</syntax>
+					<urlPathTemplateSet>
+						<urlPathTemplate content="DISABLED">/trains/%1/hold</urlPathTemplate>
+					</urlPathTemplateSet>
+				</description>
+			</syntaxOptions></data>
+		</commandInfo>
+
+		<!-- Run train. -->
+		<commandInfo registration="^RUN\s.*">
+			<data><syntaxOptions>
+				<description>
+					<syntax mnemonic="RUN"></syntax>
+					<urlPathTemplateSet>
+						<urlPathTemplate content="RUN">/command</urlPathTemplate>
+					</urlPathTemplateSet>
+				</description>
+			</syntaxOptions></data>
+		</commandInfo>
+
+		<!-- Reverse train. -->
+		<commandInfo registration="^RVT\s.*">
+			<data><syntaxOptions>
+				<description>
+					<syntax mnemonic="RVT">NUMBER:train</syntax>
+					<urlPathTemplateSet>
+						<urlPathTemplate action="SCRIPT">rvt_script</urlPathTemplate>
+					</urlPathTemplateSet>
+				</description>
+			</syntaxOptions></data>
+		</commandInfo>
+
+		<!-- Step train. -->
+		<commandInfo registration="^STE\s.*">
+			<data><syntaxOptions>
+				<description>
+					<syntax mnemonic="STE">NUMBER:train</syntax>
+					<urlPathTemplateSet>
+						<urlPathTemplate action="SCRIPT">ste_script</urlPathTemplate>
+					</urlPathTemplateSet>
+				</description>
+			</syntaxOptions></data>
+		</commandInfo>
+
+		<!-- Stop train. -->
+		<commandInfo registration="^STP\s.*">
+			<data><syntaxOptions>
+				<description>
+					<syntax mnemonic="STP">NUMBER:train</syntax>
+					<urlPathTemplateSet>
+						<urlPathTemplate content="TRUE">/trains/%1/suspend</urlPathTemplate>
+					</urlPathTemplateSet>
+				</description>
+			</syntaxOptions></data>
+		</commandInfo>
+
+		<!-- Unstop train. -->
+		<commandInfo registration="^UNS\s.*">
+			<data><syntaxOptions>
+				<description>
+					<syntax mnemonic="UNS">NUMBER:train</syntax>
+					<urlPathTemplateSet>
+						<urlPathTemplate content="FALSE">/trains/%1/suspend</urlPathTemplate>
+					</urlPathTemplateSet>
+				</description>
+			</syntaxOptions></data>
+		</commandInfo>
+
+		<commandInfo registration="^UPS\s.*">
+			<data><syntaxOptions>
+				<description>
+					<syntax mnemonic="UPS">NUMBER:train</syntax>
+		            <urlPathTemplateSet>
+					    <urlPathTemplate content="OBEY_ALL">/trains/%1/signalBehaviour</urlPathTemplate>
+					</urlPathTemplateSet>
+				</description>
+			</syntaxOptions></data>
+		</commandInfo>
+
+	</commandsInfo>
+	<senderIgnoreNames>
+		<senderIgnoreName>coreRaw</senderIgnoreName>
+	</senderIgnoreNames>
+</CmdAgentMain>
+
+</Configs>

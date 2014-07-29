@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configs>
+	<SignallingIndication xml:id="SS106.RGP">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/JzaSimulator#CWD</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/CHL/LIMSS106C/value</sourceURL>
+		<offset>9</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="SS107.RGP">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/JzaSimulator#CWD</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/CHL/LIMSS107C/value</sourceURL>
+		<offset>7</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="SS114.RGP">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/JzaSimulator#CWD</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/CHL/LIMSS114C/value</sourceURL>
+		<offset>5</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="SS115.RGP">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/JzaSimulator#CWD</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/CHL/LIMSS115C/value</sourceURL>
+		<offset>3</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="SS121.RGP">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/JzaSimulator#CWD</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/CHL/LIMSS121C/value</sourceURL>
+		<offset>1</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="SS122.RGP">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/JzaSimulator#CWD</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/CHL/LIMSS122C/value</sourceURL>
+		<offset>15</offset>
+		<word>2</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="TS106.TPK">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/JzaSimulator#CWD</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/CHL/LIMTS106A/value</sourceURL>
+		<offset>8</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="TS107.TPK">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/JzaSimulator#CWD</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/CHL/LIMTS107A/value</sourceURL>
+		<offset>6</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="TS114.TPK">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/JzaSimulator#CWD</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/CHL/LIMTS114A/value</sourceURL>
+		<offset>4</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="TS115.TPK">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/JzaSimulator#CWD</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/CHL/LIMTS115A/value</sourceURL>
+		<offset>2</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="TS121.TPK">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/JzaSimulator#CWD</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/CHL/LIMTS121A/value</sourceURL>
+		<offset>0</offset>
+		<word>1</word>
+	</SignallingIndication>
+	<SignallingIndication xml:id="TS122.TPK">
+		<interlockingName>CHL</interlockingName>
+		<deviceName>config:/JzaSimulator#CWD</deviceName>
+		<sourceURL>oil://IPCSMBridge.TCMS/CHL/LIMTS122A/value</sourceURL>
+		<offset>14</offset>
+		<word>2</word>
+	</SignallingIndication>
+</Configs>
