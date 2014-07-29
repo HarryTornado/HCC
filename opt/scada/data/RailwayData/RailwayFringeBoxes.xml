@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Railway xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="fringe-boxes.xsd">
+	<Header version="1.0;1.0;1.0;1.0;1.0;1.0;1.0;1.0;1.0;1.0;1.0;1.0;1.0;1.0;1.0;1.0;1.0;1.0;1.0;1.0;1.0;1.0;1.0;1.0;1.0;1.0;1.0;1.0;1.0;1.0;1.0;0.1;1.0;1.0;1.0;1.0;1.0;1.0" date="3 August 2010;3 August 2010;3 August 2010;3 August 2010;3 August 2010;3 August 2010;3 August 2010;3 August 2010;3 August 2010;3 August 2010;3 August 2010;3 August 2010;3 August 2010;3 August 2010;3 August 2010;3 August 2010;3 August 2010;3 August 2010;3 August 2010;3 August 2010;3 August 2010;3 August 2010;3 August 2010;3 August 2010;3 August 2010;3 August 2010;3 August 2010;3 August 2010;3 August 2010;3 August 2010;3 August 2010;27-4-2011;3 August 2010;3 August 2010;3 August 2010;3 August 2010;28 October 2010;3 August 2010" source="AS Plans;AS Plans;AS Plans;AS Plans;AS Plans;AS Plans;AS Plans;AS Plans;AS Plans;AS Plans;AS Plans;AS Plans;AS Plans;AS Plans;AS Plans;AS Plans;AS Plans;AS Plans;AS Plans;AS Plans;AS Plans;AS Plans;AS Plans;AS Plans;AS Plans;AS Plans;AS Plans;AS Plans;AS Plans;AS Plans;AS Plans;modification;AS Plans;AS Plans;AS Plans;AS Plans;AS Plans;AS Plans" />
+	<FringeBoxes>
+		<FringeBox id="BLY/FB-BLY" region="110">
+			<berth id="BLY/BT295" location="1" />
+			<berth id="BLY/BT275" location="2" />
+			<berth id="BLY/BP231U" location="3" />
+			<berth id="BLY/BP231D" location="4" />
+			<berth id="BLY/BT321" location="9" />
+			<berth id="BLS/BT174" location="5" />
+			<berth id="BLY/BT156" location="6" />
+			<berth id="BLY/BT236" location="7" />
+			<berth id="BLS/BT387" location="12" />
+			<berth id="BLS/BT389" location="13" />
+			<berth id="BLS/BT385" location="11" />
+		</FringeBox>
+		<FringeBox id="CFD/FB-CFD" region="120">
+			<berth id="CFD/BT769" location="1" />
+			<berth id="CFD/BT749" location="2" />
+			<berth id="CFD/BT729" location="3" />
+			<berth id="CFD/BT709" location="4" />
+			<berth id="CFD/BT734" location="5" />
+			<berth id="MRN/BT606" location="6" />
+			<berth id="MRN/BT608" location="7" />
+			<berth id="MRN/BT584" location="8" />
+		</FringeBox>
+		<FringeBox id="EPP/FB-EPP" region="130">
+			<berth id="EPP/BT021" location="1" />
+			<berth id="EPP/BT020" location="2" />
+			<berth id="EPP/BT701" location="3" />
+			<berth id="LAL/BT108" location="4" />
+			<berth id="LAL/BT109" location="5" />
+			<berth id="KPK/BT108" location="6" />
+			<berth id="KPK/BT109" location="7" />
+			<berth id="BEL/BT111" location="8" />
+			<berth id="BEL/BT104" location="9" />
+		</FringeBox>
+		<FringeBox id="GRN/FB-GRN" region="131">
+			<berth id="GRN/BT028" location="1" />
+			<berth id="GRN/BT014" location="2" />
+			<berth id="GRN/BT030" location="3" />
+			<berth id="MCD/BT108" location="4" />
+			<berth id="MCD/BT115" location="5" />
+			<berth id="MCD/BT107" location="7" />
+			<berth id="HDB/BT043" location="8" />
+			<berth id="MCD/BP007U" location="6" />
+		</FringeBox>
+		<FringeBox id="MCD/FB-MCD" region="132">
+			<berth id="MCD/BT108" location="4" />
+			<berth id="MCD/BT115" location="5" />
+			<berth id="MCD/BT107" location="7" />
+			<berth id="HDB/BT043" location="8" />
+			<berth id="GRN/BT028" location="1" />
+			<berth id="GRN/BT014" location="2" />
+			<berth id="GRN/BT030" location="3" />
+			<berth id="MCD/BP007U" location="6" />
+		</FringeBox>
+		<FringeBox id="NME/FB-KEN" region="150">
+			<berth id="NME/BTK556" location="11" />
+			<berth id="NME/BTK492" location="12" />
+		</FringeBox>
+		<FringeBox id="SUN/FB-SUN" region="152">
+			<berth id="SUN/BT726" location="1" />
+			<berth id="SUN/BT736" location="2" />
+			<berth id="SUN/BT756" location="3" />
+			<berth id="SUN/BT750" location="4" />
+			<berth id="SUN/BT760" location="5" />
+			<berth id="SUN/BT724" location="6" />
+			<berth id="SUN/BT740" location="7" />
+		</FringeBox>
+		<FringeBox id="UFD/FB-UPF" region="142">
+			<berth id="UFD/BT404" location="1" />
+			<berth id="UFD/BT406" location="2" />
+			<berth id="UFD/BT408" location="3" />
+			<berth id="UFD/BT511" location="4" />
+			<berth id="COB/BT340" location="5" />
+			<berth id="COB/BT384" location="6" />
+		</FringeBox>
+		<FringeBox id="WFY/FB-NPT" region="151">
+			<berth id="WFY/BT310" location="1" />
+		</FringeBox>
+	</FringeBoxes>
+</Railway>

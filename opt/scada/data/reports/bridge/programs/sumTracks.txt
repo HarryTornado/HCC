@@ -1,0 +1,168 @@
+#!/bin/bash
+function usage {
+echo -e "#================================================================================================="
+echo -e "#"
+echo -e "#\tFor each of the interlockings, the summary would include the following sections:"
+echo -e "#"
+echo -e "#\t1.\tURI not at all define in the "
+echo -e "#\t\t\t/opt/scada/var/${domain}/TrafficSimulator/A/trafficSim.cfg.xml"
+echo -e "#\t\tfile."
+echo -e "#"
+echo -e "#\t2.\tTracks properly picked up and dropped down. The minimum time, average time, and"
+echo -e "#\t\tmaximum time for picking and dropping tracks are also given."
+echo -e "#"
+echo -e "#\t3.\tTracks failed to pick or drop, which usually implies URI defined in the "
+echo -e "#\t\tthe file"
+echo -e "#\t\t\t/opt/scada/var/${domain}/TrafficSimulator/A/trafficSim.cfg.xml"
+echo -e "#\t\tbut probably not properly defined."
+echo -e "#"
+echo -e "#\t4.\tTracks that have invalid status [x] "
+echo -e "#================================================================================================="
+}
+
+function reportLessThan {
+	cat results/tracks/${it}.txt | awk -v ptn=".*Spent.*$1.*" -v vLimit=$2 '
+		BEGIN { count = 0 }
+		$0 ~ ptn { 
+			if ( $2 < vLimit ) { 
+				tcs[count] = $7;
+				tms[count] = $2;
+				count++; 
+			} 
+		}
+		END {
+			printf("(%d)\n", count);
+			for ( x = 0; x < count; x++)
+				printf("\t\t\t%s\t%s\n", tcs[x], tms[x]);
+		}' >> $resultFile
+}
+ 
+function reportMoreThan {
+	cat results/tracks/${it}.txt | awk -v ptn=".*Spent.*$1.*" -v vLimit=$2 '
+		BEGIN { count = 0 }
+		$0 ~ ptn { 
+			if ( $2 > vLimit ) { 
+				tcs[count] = $7;
+				tms[count] = $2;
+				count++; 
+			} 
+		}
+		END {
+			printf("(%d)\n", count);
+			for(x=0; x<count; x++)
+				printf("\t\t\t%s\t%s\n", tcs[x], tms[x]); 
+		}' >> $resultFile
+}
+
+function sumTracksInterlocking {
+	it=$1
+	type=$2
+	
+	tmpFile="tmp.`date +%k%M%S%N`"
+	tmpFile=${tmpFile/ /}
+	
+	echo -e "\n=========================================================================================" >> $resultFile
+	echo -e "\nTrack test summary for ${type} interlocking ${it}...." >> $resultFile
+
+	echo -e -n "\n\t1. Tracks for which URI is not defined at all " >> $resultFile
+	
+	# check for URI errors
+	cat results/tracks/${it}.txt | grep "URI" > $tmpFile
+	sed -i 's/URI null for //g' $tmpFile 
+	sed -i 's/ //g' $tmpFile
+	sed -i 's/\\t//g' $tmpFile
+	count=`cat $tmpFile | sort | uniq | wc -l`
+	echo "($count):" >> $resultFile
+	cat $tmpFile | sort | uniq | awk '{print "\t\t", $1}' >> $resultFile
+	
+	# check for average pick up time 
+	echo -e "\n\t2. Tracks successfully picked up or dropped down:" >> $resultFile
+	
+	cat results/tracks/${it}.txt | gawk '
+		BEGIN { max=0; min=100; count=0 } 
+		
+		/.*Spent.*pick up.*/ {
+			count++;
+			sum += $2; 
+			if (max < $2) 
+				max = $2; 
+			if (min > $2) 
+				min = $2;
+		} 
+		
+		END { 
+			if( count > 0 ) 
+				printf("\t\t%d\ttracks picked. \taverage=%0.4f, min=%0.4f, max=%0.4f seconds\n", count, sum/count, min, max);
+			else 
+				print("\t\tno track picked up");
+		}' >> $resultFile
+	
+	cat results/tracks/${it}.txt | gawk '
+		BEGIN { max=0; min=100; count=0 } 
+		
+		/.*Spent.*drop.*/ {
+			count++;
+			sum += $2; 
+			if (max < $2) 
+				max = $2; 
+			if (min > $2) 
+				min = $2;
+		} 
+		
+		END { 
+			if( count > 0 ) 
+				printf("\t\t%d\ttracks dropped.\taverage=%0.4f, min=%0.4f, max=%0.4f seconds\n", count, sum/count, min, max);
+			else
+				print("\t\tno track dropped down");
+		}' >> $resultFile
+
+	# tracks exceeded time limits
+	echo -e -n "\n\t\ttracks picked up with less time than pick_up_time_low_limit=${pick_up_time_low_limit} " >> $resultFile
+	reportLessThan "pick" ${pick_up_time_low_limit}
+
+	echo -e -n "\n\t\ttracks picked up with more time than pick_up_time_high_limit=${pick_up_time_high_limit} " >> $resultFile
+	reportMoreThan "pick" ${pick_up_time_high_limit}
+	
+	echo -e -n "\n\t\ttracks dropped down with less time than drop_time_low_limit=${drop_time_low_limit} " >> $resultFile
+	reportLessThan "drop" ${drop_time_low_limit}
+
+	echo -e -n "\n\t\ttracks dropped down with more time than drop_time_high_limit=${drop_time_high_limit} " >> $resultFile
+	reportMoreThan "drop" ${drop_time_high_limit}
+	
+	# check for tracks that do not pick or drop properly
+	echo -e -n "\n\t3. Tracks which can not picked up or dropped properly " >> $resultFile
+	cat results/tracks/${it}.txt | grep "Error:" > $tmpFile
+	sed -i 's/Error: failed to pick up //g' $tmpFile
+	sed -i 's/Error: failed to drop //g' $tmpFile
+	sed -i 's/ //g' $tmpFile
+	sed -i 's/\\t//g' $tmpFile
+	count=`cat $tmpFile | sort | uniq | wc -l`
+	echo "($count):" >> $resultFile
+	cat $tmpFile | sort | uniq | awk '{print "\t\t", $1}' >> $resultFile
+
+	#check for tracks that has invaild status
+	echo -e -n "\n\t4. Tracks that have invaild status [x] " >> $resultFile
+	count=`cat results/tracks/$it.txt | grep "invalid" | awk '{print $1}' | wc -l`
+	echo "($count):" >> $resultFile
+	cat results/tracks/$it.txt | grep "invalid" | awk '{print "\t\t", $1}'>> $resultFile
+	# check to see if every track in the interlocking failed
+	failedCount=`cat $tmpFile | wc -l`
+	if [[ "$failedCount" != "0" ]]
+	then
+		okCount=`cat results/tracks/${it}.txt | grep "Spent" | wc -l`
+		if [[ "$okCount" == "0" ]]
+		then
+			echo -e "\n\tNote: all the tracks in the interlocking ${it} are not working\n" >> $resultFile
+		fi
+	else
+		okCount=`cat results/tracks/${it}.txt | grep "Spent" | wc -l`
+		if [[ "$okCount" == "0" ]]
+		then
+			echo -e "\n\tNote: no tracks found in interlocking ${it}.\n"  >> $resultFile
+		fi
+	fi
+	
+	rm $tmpFile
+}
+
+

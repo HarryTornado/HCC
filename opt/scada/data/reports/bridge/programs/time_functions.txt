@@ -1,0 +1,38 @@
+
+#==========================================================================
+#
+#	time_functions
+#
+#==========================================================================
+#
+# function to get the current time
+function getTime {
+	now=`date +%s%N`
+}
+
+# function to measure time passed from the time passed as the first argument
+function time_passed {
+	# the first argument should be a start time. This should be set as follows:
+	# 
+	#          	getTime
+	#			start=$now
+	# 
+	# after the execution, the following variables are available:
+	#
+	#		1. timeGapNano ............ time gap in nano seconds
+	#		2. timeGapMilli ........... time gap in milli seconds
+	#		3. timeGapSec ............. time gap in seconds
+	#		4. timeGapSecPart ......... part of time gap in seconds
+	#		5. timeGapReport .......... reports
+	#
+	
+	start=$1
+	getTime
+	timeGapNano=$((now-start))
+	timeGapMilli=$((timeGapNano/1000000))
+	timeGapSec=$((timeGapMilli/1000))
+	timeGapSecPart=`printf "%03d" $((timeGapMilli-timeGapSec*1000))`
+	timeGapReport="${timeGapSec}.${timeGapSecPart}"
+}
+
+

@@ -1,0 +1,42 @@
+
+#=======================================================================
+#
+#	constants
+#
+#=======================================================================
+#
+# 	time constants
+#
+drop_time=10
+drop_time_low_limit=0
+drop_time_high_limit=3
+turnning_time=15
+pick_up_time=15
+pick_up_time_low_limit=4
+pick_up_time_high_limit=6
+setroute_time=15
+cancel_time=10
+
+#
+#	track bits
+#
+track_block=6
+track_clear=7
+
+#
+#	point bits	
+#
+point_normal=8
+point_reverse=9
+point_sleeved=10
+point_locked=12
+
+#
+#	signal bits
+#
+route_set=16
+signal_stop=7
+signal_clear=8
+#
+
+

@@ -1,0 +1,746 @@
+
+#===============================================================================
+#
+#	track_functions
+#
+#===============================================================================
+#
+#	toggleTrack
+#		toggle the track. 
+#		that is, to pick it up if occupied, and drop down if vacant.
+#
+#	arguments:
+#		$1 ................ domain
+#		$2 ................ track
+#		$3 ................ uri
+#	
+#
+function toggleTrack {
+	domain=$1
+	track=$2
+	uri=$3
+	
+	# get the current status of the track ...
+	ret=`curl http://railwaystatemanager.${domain}:8080/track/${track} 2>/dev/null`
+	status=${ret:${track_clear}:1}
+
+	if [[ "$status" == "1" ]]
+	then
+		# track is vacant, try to drop it...
+		curl -X PUT --data '0' -H 'content-type:text/plain' ${uri} 2>/dev/null
+		expected_track_clear=0
+		max_time=$pick_up_time
+	else
+		# track is Occupied, try to pick it up...
+		curl -X PUT --data '1' -H 'content-type:text/plain' ${uri} 2>/dev/null
+		expected_track_clear=1
+		max_time=$drop_time
+	fi
+
+	# check for track operation result...
+	ret=`curl http://railwaystatemanager.${domain}:8080/track/${track} 2>/dev/null`
+	status=${ret:${track_clear}:1}
+	waitTime=0
+	getTime
+	startTime=$now
+	time_passed $startTime
+
+	while [[ "$status" != "$expected_track_clear" && "$waitTime" -lt "$max_time" ]]
+	do
+		time_passed $startTime
+		waitTime=$timeGapSec
+		ret=`curl http://railwaystatemanager.${domain}:8080/track/${track} 2>/dev/null`
+		status=${ret:${track_clear}:1}
+	done
+
+	# report error is result is not as expected...
+	if [[ "$status" != "$expected_track_clear" ]]
+	then
+		if [[ "$expected_track_clear" == "1" ]]
+		then
+			echo "        Error: failed to pick up ${track}"
+		else
+			echo "        Error: failed to drop ${track}"
+		fi
+	else
+		echo -n "        Spent $timeGapReport seconds to "
+		if [[ "$expected_track_clear" == "1" ]]
+		then
+			echo -n "pick up "
+		else
+			echo -n "drop "
+		fi
+		echo ${track}
+	fi
+}
+
+#
+#	pickUpTrackIfOccupied
+#		pick up the track if it is occupied
+#
+#	arguments:
+#		$1 .................. domain
+#		$2 .................. track
+#		$3 .................. uri
+#
+#	global variables:
+#		pickUpCount increased
+#
+function pickUpTrackIfOccupied {
+	domain=$1
+	track=$2
+	uri=$3
+	
+	# get the current status of the track ...
+	ret=`curl http://railwaystatemanager.${domain}:8080/track/${track} 2>/dev/null`
+	status=${ret:${track_clear}:1}
+
+	if [[ "$status" == "0" ]]
+	then
+		# track is Occupied, try to pick it up...
+		curl -X PUT --data '1' -H 'content-type:text/plain' ${uri} 2>/dev/null
+		pickUpCount=$((pickUpCount+1))
+	fi
+}
+
+function unsleevePointIfSleeved {
+	domain=$1
+	point=$2
+
+	# get the current status "sleeved" of the point ...
+	ret=`curl http://railwaystatemanager.${domain}:8080/track/${point} 2>/dev/null`
+	status=${ret:${point_sleeved}:1}
+
+	if [[ "$status" != "0" ]]
+	then
+		# unsleeve point
+		curl -X PUT --data "UnsleevePoints point=${point}" http://routevalidation.${domain}:8080/cli 2>/dev/null
+	fi
+}
+
+#	dropTrackIfVacant
+#		drop the track if it is vacant
+#
+#	arguments:
+#		$1 .................. domain
+#		$2 .................. track
+#		$3 .................. uri
+#
+function dropTrackIfVacant {
+	domain=$1
+	track=$2
+	uri=$3
+	
+	# get the current status of the track ...
+	ret=`curl http://railwaystatemanager.${domain}:8080/track/${track} 2>/dev/null`
+	status=${ret:${track_clear}:1}
+
+	if [[ "$status" == "1" ]]
+	then
+		# track is Occupied, try to pick it up...
+		curl -X PUT --data '0' -H 'content-type:text/plain' ${uri} 2>/dev/null
+	fi
+}
+
+#
+#	waitTracksPickUp
+#		wait for every track in $@ to pick up
+#
+#	arguments:
+#		$@ ........... a list of tracks
+#
+#	global variable needed
+#		domain ....... the domain
+#
+function waitTracksPickUp {
+	if [[ $pickUpCount -gt 0 ]]
+	then
+#		echo "        waiting for ${pickUpCount} tracks to be picked up..."
+		
+		waitTime=0
+		getTime
+		startTime=$now
+		time_passed $startTime
+		ok="no"
+		
+		while [[ "$ok" != "yes" && "$waitTime" -lt "${pick_up_time}" ]]
+		do
+			time_passed $startTime
+			waitTime=$timeGapSec
+			ok="yes"
+			
+			for tc in "$@"
+			do
+				
+				if [[ "$ok" == "yes" ]]
+				then
+					ret=`curl http://railwaystatemanager.${domain}:8080/track/${tc} 2>/dev/null`
+					status=${ret:${track_clear}:1}
+					if [[ "$status" != "1" ]]
+					then
+						ok="no"
+						failedTrack=$tc
+					fi
+				fi
+			done
+		done
+		
+		if [[ "$ok" != "yes" ]]
+		then
+#			echo "        Spent $timeGapReport seconds to pick up the tracks $@"
+#		else
+			echo "        Error: failed to pick up track $failedTrack"
+		fi
+	fi
+}
+
+#
+#	waitTracksBlock
+#		wait for every track in $@ to be blocked
+#
+#	arguments:
+#		$@ ........... a list of tracks
+#
+#	global variable needed
+#		domain ....... the domain
+#
+function waitTracksBlock {
+#	echo "        waiting for track $@ to be blocked ..."
+		
+	waitTime=0
+	getTime
+	startTime=$now
+	ok="no"
+		
+	while [[ "$ok" != "yes" && "$waitTime" -lt "${pick_up_time}" ]]
+	do
+		time_passed $startTime
+		waitTime=$timeGapSec
+		ok="yes"
+		
+		for tc in "$@"
+		do		
+			if [[ "$ok" == "yes" ]]
+			then
+				ret=`curl http://railwaystatemanager.${domain}:8080/track-circuit/${tc} 2>/dev/null`
+				status=${ret:${track_block}:1}
+			
+				if [[ "$status" != "1" ]]
+				then
+					ok="no"
+					failedTrack=$tc
+				fi
+			fi
+		done
+	done
+	
+	if [[ "$ok" != "yes" ]]
+	then
+#		echo "        Spent $timeGapReport seconds to block the tracks $@"
+#	else
+		echo "        Error: failed to block track $failedTrack"
+	fi	
+}
+
+#
+#	waitTracksUnBlock
+#		wait for every track in $@ to be unblocked
+#
+#	arguments:
+#		$@ ........... a list of tracks
+#
+#	global variable needed
+#		domain ....... the domain
+#
+function waitTracksUnBlock {
+#	echo "        waiting for track $@ to be un-blocked ..."
+		
+	waitTime=0
+	getTime
+	startTime=$now
+	ok="no"
+		
+	while [[ "$ok" != "yes" && "$waitTime" -lt "${pick_up_time}" ]]
+	do
+		time_passed $startTime
+		waitTime=$timeGapSec
+		ok="yes"
+		
+		for tc in "$@"
+		do		
+			if [[ "$ok" == "yes" ]]
+			then
+				ret=`curl http://railwaystatemanager.${domain}:8080/track-circuit/${tc} 2>/dev/null`
+				status=${ret:${track_block}:1}
+			
+				if [[ "$status" == "1" ]]
+				then
+					ok="no"
+					failedTrack=$tc
+				fi
+			fi
+		done
+	done
+	
+	if [[ "$ok" != "yes" ]]
+	then
+#		echo "        Spent $timeGapReport seconds to un-block the tracks $@"
+#	else
+		echo "        Error: failed to un-block track $failedTrack"
+	fi	
+}
+
+function waitPointsUnsleeved {
+#	echo "        waiting for points $@ to be un-sleeved ..."
+		
+	waitTime=0
+	getTime
+	startTime=$now
+	ok="no"
+		
+	while [[ "$ok" != "yes" && "$waitTime" -lt "${pick_up_time}" ]]
+	do
+		time_passed $startTime
+		waitTime=$timeGapSec
+		ok="yes"
+		
+		for point in "$@"
+		do		
+			if [[ "$ok" == "yes" ]]
+			then
+				ret=`curl http://railwaystatemanager.${domain}:8080/track/${point} 2>/dev/null`
+				status=${ret:${point_sleeved}:1}
+			
+				if [[ "$status" == "1" ]]
+				then
+					ok="no"
+					failedPoint=$point
+				fi
+			fi
+		done
+	done
+	
+	if [[ "$ok" != "yes" ]]
+	then
+#		echo "        Spent $timeGapReport seconds to un-sleeve the points $@"
+#	else
+		echo "        Error: failed to un-sleeve point $failedPoint"
+	fi	
+}
+
+#
+#	getTrackStatusDIC
+#		get the track status from derived indications
+#
+#	arguments:
+#		$1 ............... domain
+#		$2 ............... interlocking
+#		$3 ............... DOT track circuit name
+#	return:
+#		status ........... the status of the track-circuit
+#
+function getTrackStatusDIC {
+	domain=$1
+	interlocking=$2
+	tc=$3
+	
+	status=`curl http://derivedindications.${domain}:8080/${interlocking}/mnem/${tc}.TPK/value 2>/dev/null`
+}
+
+#
+#	getTrackStatusSimu
+#		get track status from the simulator
+#
+#	arguments:
+#		$1 ............. uri for access the status of the track circuit from the interlocking simulator
+#
+#	return:
+#		status ......... the status of the track circuit
+#
+function getTrackStatusSimu {
+	uri=$1
+
+	status=`curl ${uri} 2>/dev/null`
+}
+
+#
+#	getTrackStatus
+#		get track status from railway state manager
+#
+#	arguments:
+#		$1 ............. domain
+#		$2 ............. track id
+#
+#	return:
+#		status ......... the status of the track circuit
+#
+function getTrackStatus {
+	domain=$1
+	track=$2
+	
+	ret=`curl http://railwaystatemanager.${domain}:8080/track/${track} 2>/dev/null`
+	status=${ret:${track_clear}:1}
+}
+
+#
+#	trackExpectSimu
+#
+#	arguments:
+#		$1 .............. track
+#		$2 .............. uri
+#		$3 .............. expectedStatus
+#
+#	return:
+#		ok .............. yes for ok, no for timeout
+#
+function trackExpectSimu {
+	track=$1
+	uri=$2
+	expectedStatus=$3
+
+	if [[ "$expectedStatus" == "vacant" ]]
+	then
+		expected_tc_status=1
+	else
+		expected_tc_status=0
+	fi
+
+	getTrackStatusSimu $uri
+
+	max_time=2
+	#waitTime=0
+	#getTime
+	#startTime=$now
+	#time_passed $startTime
+
+	while [[ "$status" != "$expected_tc_status" && "$waitTime" -lt "$max_time" ]]
+	do
+		time_passed $startTime
+		waitTime=$timeGapSec
+
+		getTrackStatusSimu $uri
+	done
+
+	if [[ "$status" != "$expected_tc_status" ]]
+	then
+		testResult="failed"
+		if [[ "$expected_tc_status" == "1" ]]
+		then
+			echo "        Error: failed to pick up ${track} in Simulator"
+		else
+			echo "        Error: failed to drop down ${track} in Simulator"
+		fi
+	else
+		testResult="ok"
+
+		echo -n "        Spent $timeGapReport seconds to "
+		if [[ "$expected_tc_status" == "1" ]]
+		then
+			echo -n "pick up in Simulator "
+		else 
+			echo -n "drop in Simulator "
+		fi
+		echo $track
+	fi	
+}
+
+#	trackExpectDIC
+#
+#	argument:
+#		$1 .............. domain
+#		$2 .............. track
+#		$3 .............. interlocking
+#		$4 .............. DOT track-circuit
+#		$5 .............. expectedStatus
+#	return
+#		ok.............. yes for ok, no for timeout
+#
+function trackExpectDIC {
+	domain=$1
+	track=$2
+        interlocking=$3
+	trackCircuit=$4
+        expectedStatus=$5
+
+        if [[ "$expectedStatus" == "vacant" ]]
+        then
+                expected_tc_status=1
+				max_time=$pick_up_time
+        else
+                expected_tc_status=0
+				max_time=$drop_time
+        fi
+
+        getTrackStatusDIC $domain $interlocking $trackCircuit
+
+        #max_time=10
+        #waitTime=0
+        #getTime
+        #startTime=$now
+        #time_passed $startTime
+
+        while [[ "$status" != "$expected_tc_status" && "$waitTime" -lt "$max_time" ]]
+        do
+                time_passed $startTime
+                waitTime=$timeGapSec
+
+                getTrackStatusDIC $domain $interlocking $trackCircuit
+        done
+
+        if [[ "$status" != "$expected_tc_status" ]]
+        then
+                testResult="failed"
+                if [[ "$expected_tc_status" == "1" ]]
+                then
+                        echo "        Error: failed to pick up ${track} in DIC"
+                else
+                        echo "        Error: failed to drop down ${track} in DIC"
+                fi
+        else
+                testResult="ok"
+
+		echo -n "        Spent $timeGapReport seconds to "
+                if [[ "$expected_tc_status" == "1" ]]
+                then
+                        echo -n "pick up in DIC "
+                else
+                        echo -n "drop in DIC "
+                fi
+                echo $track
+        fi
+	
+}
+#	trackExpect
+#		
+#	arguments:
+#		$1 .................. domain
+#		$2 .................. the track circuit
+#		$3 .................. status
+#								"vacant" or "occupied"
+#
+function trackExpect {
+	domain=$1
+	track=$2
+	expectedStatus=$3
+	
+	if [[ "$expectedStatus" == "vacant" ]]
+	then
+		max_time=$pick_up_time
+		expected_track_clear=1
+	else
+		max_time=$drop_time
+		expected_track_clear=0
+	fi
+	
+	getTrackStatus $domain $track
+	
+	#waitTime=0
+	#getTime
+	#startTime=$now
+	#time_passed $startTime
+
+	while [[ "$status" != "$expected_track_clear" && "$waitTime" -lt "$max_time" ]]
+	do
+		time_passed $startTime
+		waitTime=$timeGapSec
+		
+		getTrackStatus $domain $track
+	done
+
+	# report error is result is not as expected...
+	if [[ "$status" != "$expected_track_clear" ]]
+	then
+		testResult="failed"
+		if [[ "$expected_track_clear" == "1" ]]
+		then
+			echo "        Error: failed to pick up ${track} in RSM"
+		else
+			echo "        Error: failed to drop ${track} in RSM"
+		fi
+	else
+		testResult="ok"
+		echo -n "        Spent $timeGapReport seconds to "
+		if [[ "$expected_track_clear" == "1" ]]
+		then
+			echo -n "pick up in RSM "
+		else
+			echo -n "drop in RSM "
+		fi
+		echo ${track}
+	fi
+}
+
+#
+#	dropTrack
+#		to drop a track circuuit
+#
+#	arguments:
+#		$1 ................ uri
+#
+function dropTrack {
+	uri=$1
+
+	curl -X PUT --data '0' -H 'content-type:text/plain' ${uri} 2>/dev/null
+}
+
+#
+#	pickTrack
+#		to pick up a track circuuit
+#
+#	arguments:
+#		$1 ................ uri
+#
+function pickTrack {
+	uri=$1
+	
+	curl -X PUT --data '1' -H 'content-type:text/plain' ${uri} 2>/dev/null
+}
+
+#
+#	testTrack
+#		to test a track. and try to leave it vacant
+#
+#	arguments:
+#		$1 ................ domain
+#		$2 ................ track id
+#		$3 ................ interlocking
+#		$4 ................ track-circuit of the track
+#		$5 ................ uri 
+#
+function testTrack {
+	domain=$1
+	track=$2
+	interlocking=$3
+	trackCircuit=$4
+	uri=$5
+	
+	getTrackStatus $domain $track
+	
+	if [[ "$status" == "0" ]]
+	then
+		pickTestTrack $domain $track $interlocking $trackCircuit $uri
+		if [[ "$testResult" == "ok" ]]
+		then
+			dropTestTrack $domain $track $interlocking $trackCircuit $uri
+			pickTestTrack $domain $track $interlocking $trackCircuit $uri
+		fi 
+	elif [[ "$status" == "1" ]]
+	then
+		dropTestTrack $domain $track $interlocking $trackCircuit $uri
+		if [[ "$testResult" == "ok" ]]
+		then
+			pickTestTrack $domain $track $interlocking $trackCircuit $uri
+		fi 
+	else
+		echo -e "\t${track} has invalid status [${status}]"
+		dropTestTrack $domain $track $interlocking $trackCircuit $uri
+		pickTestTrack $domain $track $interlocking $trackCircuit $uri
+	fi
+}
+
+#
+#	dropTestTrack
+#		to drop test a track circuit. 
+#
+#	arguments:
+#		$1 ................ domain
+#		$2 ................ track ID
+#		$3 ................ interlocking
+#		$4 ................ track circuit of the track
+#		$5 ................ uri
+#
+function dropTestTrack {
+	domain=$1
+	track=$2
+	interlocking=$3
+	trackCircuit=$4
+	uri=$5
+
+	dropTrack $uri
+
+	waitTime=0
+	getTime
+	startTime=$now
+	time_passed $startTime
+
+	trackExpectSimu $track $uri "occupied"
+	if [[ "${testResult}" == "ok" ]] 
+	then
+		trackExpectDIC $domain $track $interlocking $trackCircuit "occupied"
+		if [[ "${testResult}" == "ok" ]] 
+		then
+			trackExpect $domain $track "occupied"
+		fi
+	fi
+}
+
+#
+#	pcikTestTrack
+#		to pick test a track circuit. 
+#
+#	arguments:
+#		$1 ................ domain
+#		$2 ................ track ID
+#		$3 ................ interlocking
+#		$4 ................ track circuit of the track
+#		$5 ................ uri
+#
+function pickTestTrack {
+	domain=$1
+	track=$2
+	interlocking=$3
+	trackCircuit=$4
+	uri=$5
+	
+	pickTrack $uri
+
+	waitTime=0
+	getTime
+	startTime=$now
+	time_passed $startTime
+
+	trackExpectSimu $track $uri "vacant"
+	if [[ "$testResult" == "ok" ]]
+	then
+		trackExpectDIC $domain $track $interlocking $trackCircuit "vacant"
+		if [[ "$testResult" == "ok" ]]
+		then
+			trackExpect $domain $track "vacant"
+		fi
+	fi
+}
+
+#
+#	blockTrackCircuit
+#		block the track circuit
+#
+#	arguments:
+#		$1 ............. domain
+#		$2 ............. track circuit to block
+#
+function blockTrackCircuit {
+	domain=$1
+	trackCircuit=$2
+	curl -X PUT --data "BlockTrack  track-circuit=${trackCircuit}"  -H 'content-type:text/plain' http://routevalidation.${domain}:8080/cli 2>/dev/null
+}
+
+#
+#	unBlockTrackCircuit
+#		unblock the track circuit
+#
+#	arguments:
+#		$1 ............. domain
+#		$2 ............. track circuit to block
+#
+function unBlockTrackCircuit {
+	domain=$1
+	trackCircuit=$2
+	curl -X PUT --data "UnblockTrack  track-circuit=${trackCircuit}"  -H 'content-type:text/plain' http://routevalidation.${domain}:8080/cli 2>/dev/null
+}
+
+
+
+
+
+
+

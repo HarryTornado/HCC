@@ -1,0 +1,92 @@
+function usage {
+echo -e "#================================================================================================================================="
+echo -e "#"
+echo -e "#\tFor each of the interlockings, the summary would include the following section:"
+echo -e "#"
+echo -e "#\t1.\tPoints failed "
+echo -e "#"
+echo -e "#\t2.\tTNumber of Points turn to Normal/Reverse, Average time to turn Normal/Reverse, Max & Minimum time to turn Normal/Reverse"
+echo -e "#"
+echo -e "#=================================================================================================================================="
+}
+
+function sumPointsInterlocking {
+	it=$1
+	type=$2
+	
+	tmpFile="tmp.`date +%k%M%S%N`"
+	tmpFile=${tmpFile/ /}
+
+	echo -e "\n==========================================================================================================================" >> $resultFile
+	echo -e "\nPoint test summary for ${type} interlocking ${it}...." >> $resultFile
+	echo -e -n "\n\tpoints failed the test" >> $resultFile
+
+	# check for Point Failure
+	cat results/points/${it}.txt | grep "Error: failed to t" > ${tmpFile}
+	sed -i 's/ Error: failed to turn//g' ${tmpFile}
+        sed -i 's/to reverse//g' ${tmpFile}
+	sed -i 's/to normal//g' ${tmpFile}
+	sed -i 's/ //g' ${tmpFile}
+	sed -i 's/\\t//g' ${tmpFile}
+	count=`cat ${tmpFile} | sort | uniq | wc -l`
+	echo -e " ($count):" >> $resultFile
+	cat ${tmpFile} | sort | uniq | awk '{print "\t\t", $1}' >> $resultFile
+	
+	#check for average time to turn point to Normal and Reverse.
+	echo -e "\n\tpoint successfully turn to Normal and Reverse:" >> $resultFile	
+	cat results/points/${it}.txt | awk ' 
+		BEGIN {	min=100; max=0; sum=0 } 
+		
+		/.*Spent.*normal.*/  { 
+			sum += $2; 
+			count++;			   
+			if (max < $2) 
+				max = $2;  
+			if (min > $2) 
+				min = $2; 
+		} 
+		
+		END {
+			if (count != 0) 
+				printf("\t\t%d\tpoints turn to normal. \taverage:%0.4f, min:%0.4f, max:%0.4f seconds\n", count, sum/count, min, max);
+		}' >> $resultFile
+
+	cat results/points/${it}.txt | awk ' 
+		BEGIN { min=100; max=0; sum=0 } 
+		
+		/.*Spent.*reverse.*/  { 
+			sum += $2; 
+			count++;                          
+			if (max < $2) 
+				max = $2;  
+			if (min > $2) 
+				min = $2; 
+		} 
+		
+		END { 
+			if (count != 0) 
+				printf("\t\t%d\tpoints turn to reverse.\taverage:%0.4f, min:%0.4f, max:%0.4f seconds\n", count, sum/count, min, max);
+		}' >> $resultFile
+
+	
+	# check to see if every point in the interlocking failed
+	failedCount=`cat ${tmpFile} | wc -l`
+	if [[ "$failedCount" != "0" ]]
+	then
+		okCount=`cat results/points/${it}.txt | grep "Spent" | wc -l`
+		if [[ "$okCount" == "0" ]]
+		then
+			echo -e "\n\tNote: all the points in the interlocking ${it} are not working\n" >> $resultFile
+		fi
+	else
+		okCount=`cat results/points/${it}.txt | grep "Spent" | wc -l`
+		if [[ "$okCount" == "0" ]]
+		then
+			echo -e "\n\tNote: no points found in interlocking ${it}.\n"  >> $resultFile
+		fi
+	fi
+	
+	rm $tmpFile
+}
+
+

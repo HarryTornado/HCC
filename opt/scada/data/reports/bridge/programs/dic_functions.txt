@@ -1,0 +1,184 @@
+
+#=====================================================================================
+#
+#	dic_functions
+#
+#=====================================================================================
+#
+#	dic_setRoute
+#		set the route through DIC directly
+#
+#	arguments:
+#		$1 ................. domain
+#		$2 ................. interlocking
+#		$3 ................. route id part1
+#		$4 ................. route id part2
+#		$5 ................. entry signal
+#
+#	globals/return value
+#		routeSet ..................
+#					"yes" ...............
+#					"no" ................
+#
+function dic_setRoute {
+	domain=$1
+	interlocking=$2
+	idPart1=$3
+	idPart2=$4
+	entrySignal=$5
+	
+	routeName="${interlocking}/${idPart1}${idPart2}"
+	
+	#setting the route ...
+	curl -X PUT --data '1' -H 'content-type:text/plain' http://derivedindications.${domain}:8080/${interlocking}/mnem/${idPart1}.\(${idPart2}\)1RR/value 2>/dev/null
+        
+	waitTime=0
+	getTime
+	startTime=$now
+	time_passed $startTime
+	
+	ret=`curl http://railwaystatemanager.${domain}:8080/signal/${entrySignal} 2>/dev/null`
+	status=${ret:${signal_stop}:2}
+	
+	while [[ "$status" != "01" && "${waitTime}" -lt "${setroute_time}" ]]
+	do
+		time_passed $startTime
+		waitTime=$timeGapSec
+		ret=`curl http://railwaystatemanager.${domain}:8080/signal/${entrySignal} 2>/dev/null`
+ 		status=${ret:${signal_stop}:2}
+	done
+
+	routeSet="no"
+	
+	# check entry signal status
+	ret=`curl http://railwaystatemanager.${domain}:8080/signal/${entrySignal} 2>/dev/null`
+	status=${ret:${signal_stop}:2}
+	if [[ "$status" != "01" ]]
+	then
+		echo -n "        Error: the entry signal ${entrySignal} of route ${routeName} is not cleared. "
+		status=${ret:${route_set}:1}
+		if [[ "$status" == "1" ]]
+		then
+			echo "But the route is set."
+			routeSet="yes"
+		else
+			echo "And the route is not set"
+		fi
+	else
+		routeSet="yes"
+		echo "        Spent $timeGapReport seconds to set route ${routeName}"
+	fi
+}
+
+#
+# 	dic_cancelSignalIfRouteSet
+#		This function cancel the route by sending command directly to DIC,
+#		if a route was already set for this signal
+# 
+#	arguments:
+#		$1 ........ domain
+#		$2 ........ interlocking
+#		$3 ........ signal dot id
+#		$4 ........ entry signal
+#
+function dic_cancelSignalIfRouteSet {
+	domain=$1
+	interlocking=$2
+	signalDotId=$3
+	entrySignal=$4
+	
+	ret=`curl http://railwaystatemanager.${domain}:8080/signal/${entrySignal} 2>/dev/null`
+	status=${ret:${route_set}:1}
+	if [[ "$status" == "1" ]]
+	then
+		curl -X PUT --data '1' -H 'content-type:text/plain' http://derivedindications.${domain}:8080/${interlocking}/mnem/S${signalDotId}.NR/value 2>/dev/null
+	                
+		#wait until the route is cancelled
+		waitTime=0
+		getTime
+		startTime=$now
+		time_passed $startTime
+		
+		ret=`curl http://railwaystatemanager.${domain}:8080/signal/${entrySignal} 2>/dev/null`
+		status=${ret:${route_set}:1}
+			
+		while [[ "$status" == "1" && "$waitTime" -lt "$cancel_time" ]]
+		do
+			time_passed $startTime
+			waitTime=$timeGapSec
+			
+			ret=`curl http://railwaystatemanager.${domain}:8080/signal/${entrySignal} 2>/dev/null`
+			status=${ret:${route_set}:1}
+		done
+		
+		# check entry signal status
+		ret=`curl http://railwaystatemanager.${domain}:8080/signal/${entrySignal} 2>/dev/null`
+		status=${ret:${route_set}:1}
+		if [[ "$status" == "1" ]]
+		then
+			echo "        Error: can not cancel signal ${entrySignal}."
+		else
+			echo "        Spent $timeGapReport seconds to cancel signal ${entrySignal}"
+		fi
+		
+		sleep 2
+	else
+		echo `curl http://RouteValidation.${domain}:8080/StoredRoutesList 2>/dev/null` | grep "entry_signal=\"$entrySignal\"" >/dev/null
+		if [[ "$?" == "0" ]]
+		then
+			curl -X PUT --data "RemoveQueueEntry signal=${entrySignal}" -H 'content-type:text/plain' http://routevalidation.${domain}:8080/cli 2>/dev/null
+			curl -X PUT --data "CancelSignal signal=${entrySignal}" -H 'content-type:text/plain' http://routevalidation.${domain}:8080/cli 2>/dev/null
+		fi
+	fi
+}
+
+#
+# 	dic_cancelSignal
+#		This function cancel the route by sending command directly to DIC.
+# 
+#	arguments:
+#		$1 ........ domain
+#		$2 ........ interlocking
+#		$3 ........ signal dot id
+#		$4 ........ entry signal
+#
+function dic_cancelSignal {
+	domain=$1
+	interlocking=$2
+	signalDotId=$3
+	entrySignal=$4
+	
+	curl -X PUT --data '1' -H 'content-type:text/plain' http://derivedindications.${domain}:8080/${interlocking}/mnem/S${signalDotId}.NR/value 2>/dev/null
+	                
+	#wait until the route is cancelled
+	waitTime=0
+	getTime
+	startTime=$now
+	time_passed $startTime
+	
+	ret=`curl http://railwaystatemanager.${domain}:8080/signal/${entrySignal} 2>/dev/null`
+	status=${ret:${route_set}:1}
+	
+	while [[ "$status" == "1" && "$waitTime" -lt "$cancel_time" ]]
+	do
+		time_passed $startTime
+		waitTime=$timeGapSec
+		
+		ret=`curl http://railwaystatemanager.${domain}:8080/signal/${entrySignal} 2>/dev/null`
+		status=${ret:${route_set}:1}
+	done
+		
+	# check entry signal status
+	ret=`curl http://railwaystatemanager.${domain}:8080/signal/${entrySignal} 2>/dev/null`
+	status=${ret:${route_set}:1}
+	if [[ "$status" == "1" ]]
+	then
+		echo "        Error: can not cancel signal ${entrySignal}."
+	else
+		echo "        Spent $timeGapReport seconds to cancel signal ${entrySignal}"
+	fi
+	
+	sleep 2
+}
+
+

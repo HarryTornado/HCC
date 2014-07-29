@@ -1,0 +1,1006 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Railway xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="stations.xsd">
+	<Header version="1.0;1.0;1.0;1.0;1.0;1.0;1.0;1.0;1.0;1.0;1.0;1.0;1.0;1.0;1.0;1.0;1.0;1.0;1.0;1.0;1.0;1.0;1.0;1.0;1.0;1.0;1.0;1.0;1.0;1.0;1.0;0.1;1.0;1.0;1.0;1.0;1.0;1.0" date="3 August 2010;3 August 2010;3 August 2010;3 August 2010;3 August 2010;3 August 2010;3 August 2010;3 August 2010;3 August 2010;3 August 2010;3 August 2010;3 August 2010;3 August 2010;3 August 2010;3 August 2010;3 August 2010;3 August 2010;3 August 2010;3 August 2010;3 August 2010;3 August 2010;3 August 2010;3 August 2010;3 August 2010;3 August 2010;3 August 2010;3 August 2010;3 August 2010;3 August 2010;3 August 2010;3 August 2010;27-4-2011;3 August 2010;3 August 2010;3 August 2010;3 August 2010;28 October 2010;3 August 2010" source="AS Plans;AS Plans;AS Plans;AS Plans;AS Plans;AS Plans;AS Plans;AS Plans;AS Plans;AS Plans;AS Plans;AS Plans;AS Plans;AS Plans;AS Plans;AS Plans;AS Plans;AS Plans;AS Plans;AS Plans;AS Plans;AS Plans;AS Plans;AS Plans;AS Plans;AS Plans;AS Plans;AS Plans;AS Plans;AS Plans;AS Plans;modification;AS Plans;AS Plans;AS Plans;AS Plans;AS Plans;AS Plans" />
+	<Stations>
+		<Station id="ALP">
+			<platform id="ALP002">
+				<track id="HDB/T293" />
+			</platform>
+			<platform id="ALP001">
+				<track id="HDB/T298" />
+			</platform>
+		</Station>
+		<Station id="ARM">
+			<platform id="ARM001">
+				<track id="SYR/TF242" />
+			</platform>
+			<platform id="ARM002">
+				<track id="SYR/TF231" />
+			</platform>
+			<platform id="ARM003">
+				<track id="SYR/TD242" />
+			</platform>
+			<platform id="ARM004">
+				<track id="SYR/TD231" />
+			</platform>
+		</Station>
+		<Station id="ASY">
+			<platform id="ASY002">
+				<track id="COB/T307" />
+			</platform>
+			<platform id="ASY001">
+				<track id="COB/T314" />
+			</platform>
+		</Station>
+		<Station id="BAT">
+			<platform id="BAT001">
+				<track id="COB/T420" />
+			</platform>
+			<platform id="BAT002">
+				<track id="UFD/T413" />
+			</platform>
+		</Station>
+		<Station id="BBH">
+			<platform id="BBH003">
+				<track id="BBH/T906" />
+			</platform>
+			<platform id="BBH002">
+				<track id="BBH/T913" />
+			</platform>
+			<platform id="BBH001">
+				<track id="BBH/T912" />
+			</platform>
+		</Station>
+		<Station id="BCV">
+			<platform id="BCV001">
+				<track id="SYR/T258" />
+			</platform>
+			<platform id="BCV002">
+				<track id="SYR/T247" />
+			</platform>
+		</Station>
+		<Station id="BEL">
+			<platform id="BEL002">
+				<track id="BEL/T102" />
+			</platform>
+			<platform id="BEL001">
+				<track id="BEL/T111" />
+			</platform>
+		</Station>
+		<Station id="BEN">
+			<platform id="BEN002">
+				<track id="MRN/TFM487" />
+			</platform>
+			<platform id="BEN003">
+				<track id="MRN/TF487" />
+			</platform>
+			<platform id="BEN001">
+				<track id="MRN/T488" />
+			</platform>
+		</Station>
+		<Station id="BLY">
+			<platform id="BLY001">
+				<track id="BLY/T297" />
+				<track id="BLY/T295" />
+			</platform>
+			<platform id="BLY002">
+				<track id="BLY/T277" />
+				<track id="BLY/T275" />
+			</platform>
+			<platform id="BLY004">
+				<track id="BLY/T314" />
+				<track id="BLY/T312" />
+			</platform>
+			<platform id="BLY003">
+				<track id="BLY/T334" />
+			</platform>
+		</Station>
+		<Station id="BWK">
+			<platform id="BWK002">
+				<track id="COB/T285" />
+			</platform>
+			<platform id="BWK001">
+				<track id="COB/T290" />
+			</platform>
+		</Station>
+		<Station id="CFD">
+			<platform id="CFD001">
+				<track id="CFD/T769" />
+			</platform>
+			<platform id="CFD002">
+				<track id="CFD/T749" />
+			</platform>
+			<platform id="CFD003">
+				<track id="CFD/T729" />
+			</platform>
+			<platform id="CFD004">
+				<track id="CFD/T709" />
+			</platform>
+		</Station>
+		<Station id="CHL">
+			<platform id="CHL001">
+				<track id="CHL/T126" />
+			</platform>
+			<platform id="CHL002">
+				<track id="CHL/T106" />
+			</platform>
+		</Station>
+		<Station id="COB">
+			<platform id="COB002">
+				<track id="COB/T377" />
+			</platform>
+			<platform id="COB001">
+				<track id="COB/T384" />
+			</platform>
+		</Station>
+		<Station id="CWD">
+			<platform id="CWD002">
+				<track id="CHL/TS107" />
+			</platform>
+			<platform id="CWD001">
+				<track id="CHL/TS114" />
+			</platform>
+		</Station>
+		<Station id="CXT">
+			<platform id="CXT001">
+				<track id="BEL/T272" />
+			</platform>
+			<platform id="CXT002">
+				<track id="BEL/T265" />
+			</platform>
+		</Station>
+		<Station id="DBN">
+			<platform id="DBN002">
+				<track id="HDB/T317" />
+			</platform>
+			<platform id="DBN001">
+				<track id="HDB/T324" />
+			</platform>
+		</Station>
+		<Station id="DEN">
+			<platform id="DEN001">
+				<track id="HDB/T230" />
+				<!-- added by hli on 8/8/11 -->
+				<track id="HDB/T226" />
+			</platform>
+			<platform id="DEN002">
+				<track id="HDB/T221" />
+				<!-- added by hli on 8/8/11 -->
+				<track id="HDB/T235" />
+			</platform>
+		</Station>
+		<Station id="EAG">
+			<platform id="EAG002">
+				<track id="HDB/T377" />
+			</platform>
+			<platform id="EAG001">
+				<track id="HDB/T386" />
+				<!-- added by hli on 8/8/11 -->
+				<track id="HDB/T376" />
+			</platform>
+		</Station>
+		<Station id="ELS">
+			<platform id="ELS001">
+				<track id="SYR/T318" />
+			</platform>
+			<platform id="ELS002">
+				<track id="SYR/T307" />
+			</platform>
+		</Station>
+		<Station id="EPP">
+			<platform id="EPP002">
+				<track id="EPP/T020" />
+			</platform>
+			<platform id="EPP001">
+				<track id="EPP/T021" />
+			</platform>
+		</Station>
+		<Station id="ERM">
+			<platform id="ERM002">
+				<track id="ERM/TL93" />
+				<track id="ERM/TL89" />
+			</platform>
+			<platform id="ERM001">
+				<track id="ERM/TL96" />
+				<track id="ERM/TL94" />
+			</platform>
+			<station_road id="ERMDBT">
+				<track id="ERM/T328" />
+			</station_road>
+			<station_road id="ERMUBT">
+				<track id="ERM/T373" />
+			</station_road>
+		</Station>
+		<Station id="FAK">
+			<platform id="FAK001">
+				<track id="UFD/T482" />
+			</platform>
+			<platform id="FAK002">
+				<track id="UFD/T477" />
+			</platform>
+		</Station>
+		<Station id="FBD">
+			<platform id="FBD002">
+				<track id="NME/T173" />
+				<!-- added by hli on 8/8/11 -->
+				<track id="NME/T187" />
+				<track id="NME/T193" />
+			</platform>
+			<platform id="FBD001">
+				<track id="NME/T178" />
+				<track id="NME/T202" />
+			</platform>
+		</Station>
+		<Station id="FFD">
+			<platform id="FFD002">
+				<track id="HDB/T249" />
+			</platform>
+			<platform id="FFD001">
+				<track id="HDB/T256" />
+				<!-- added by hli on 8/8/11 -->
+				<track id="HDB/T252" />
+			</platform>
+		</Station>
+		<Station id="FGS">
+			<platform id="FGS002">
+				<track id="MUL/T612" />
+				<!-- added by hli on 8/8/11 -->
+				<track id="MUL/T611" />
+			</platform>
+			<platform id="FGS001">
+				<track id="MUL/T018" />
+				<!-- added by hli on 8/8/11 -->
+				<track id="MUL/T011" />
+			</platform>
+			<platform id="FGS004">
+				<track id="MUL/T218" />
+				<!-- added by hli on 8/8/11 -->
+				<track id="MUL/T209" />
+			</platform>
+			<platform id="FGS003">
+				<track id="MUL/T418" />
+				<!-- added by hli on 8/8/11 -->
+				<track id="MUL/T411" />
+			</platform>
+		</Station>
+		<Station id="FSS">
+			<platform id="FSS001">
+				<track id="FSA/T147" />
+				<!-- added by hli on 8/8/11 -->
+				<track id="FSD/T142" />
+			</platform>
+			<platform id="FSS002">
+				<track id="FSA/T314" />
+				<track id="FSD/T313" />
+				<track id="FSD/T326" />
+			</platform>
+			<platform id="FSS003">
+				<track id="FSA/T334" />
+				<track id="FSD/T331" />
+			</platform>
+			<platform id="FSS004">
+				<track id="FSA/T344" />
+				<track id="FSD/T341" />
+			</platform>
+			<platform id="FSS005">
+				<track id="FSA/T574" />
+				<track id="FSD/T575" />
+			</platform>
+			<platform id="FSS006">
+				<track id="FSA/T584" />
+				<track id="FSB/T585" />
+			</platform>
+			<platform id="FSS007">
+				<track id="FSA/T729" />
+				<track id="FSA/T734" />
+				<track id="FSB/T733" />
+			</platform>
+			<platform id="FSS008">
+				<track id="FSA/T744" />
+				<track id="FSA/T751" />
+				<track id="FSB/T755" />
+			</platform>
+			<platform id="FSS009">
+				<track id="FSA/T754" />
+				<track id="FSB/T763" />
+				<track id="FSB/T758" />
+			</platform>
+			<platform id="FSS01W">
+				<track id="FSA/P040D" />
+				<track id="FSA/T140" />
+			</platform>
+			<platform id="FSS010">
+				<track id="FSB/T946" />
+			</platform>
+			<platform id="FSS012">
+				<track id="FSB/T945" />
+			</platform>
+			<platform id="FSS013">
+				<track id="FSB/T964" />
+			</platform>
+			<platform id="FSS014">
+				<track id="FSD/T157" />
+			</platform>
+			<station_road id="FSS09A">
+				<track id="FSA/T932" />
+				<track id="FSB/T935" />
+				<track id="FSB/P834U" />
+			</station_road>
+			<station_road id="FSS01A">
+				<track id="FSD/T144" />
+				<!-- added by hli on 8/8/11 -->
+				<track id="FSA/T151" />
+			</station_road>
+		</Station>
+		<Station id="FSY">
+			<platform id="FSY003">
+				<track id="WFY/T238" />
+			</platform>
+			<platform id="FSY004">
+				<track id="WFY/T227" />
+			</platform>
+			<platform id="FSY001">
+				<track id="WFY/T244" />
+			</platform>
+			<platform id="FSY002">
+				<track id="WFY/T225" />
+			</platform>
+		</Station>
+		<Station id="GHY">
+			<platform id="GHY001">
+				<track id="MRN/T388" />
+			</platform>
+			<platform id="GHY002">
+				<track id="MRN/TFM389" />
+				<!-- added by hli on 8/8/11 -->
+				<track id="MRN/TFM398" />
+			</platform>
+			<platform id="GHY003">
+				<track id="MRN/TF389" />
+			</platform>
+		</Station>
+		<Station id="GOW">
+			<platform id="GOW001">
+				<track id="UFD/T534" />
+			</platform>
+			<platform id="GOW002">
+				<track id="UFD/T527" />
+			</platform>
+		</Station>
+		<Station id="GRN">
+			<platform id="GRN002">
+				<track id="GRN/T014" />
+			</platform>
+			<platform id="GRN001">
+				<track id="GRN/T028" />
+			</platform>
+		</Station>
+		<Station id="GVE">
+			<platform id="GVE002">
+				<track id="BBH/T355" />
+			</platform>
+			<platform id="GVE001">
+				<track id="BBH/T356" />
+			</platform>
+		</Station>
+		<Station id="HAM">
+			<platform id="HAM001">
+				<track id="SHM/T532" />
+			</platform>
+			<platform id="HAM002">
+				<track id="SHM/T531" />
+			</platform>
+		</Station>
+		<Station id="HDB">
+			<platform id="HDB002">
+				<track id="HDB/T043" />
+			</platform>
+			<platform id="HDB001">
+				<track id="HDB/T154" />
+			</platform>
+		</Station>
+		<Station id="HKN">
+			<platform id="HKN001">
+				<track id="SYR/TF170" />
+			</platform>
+			<platform id="HKN002">
+				<track id="SYR/TF161" />
+			</platform>
+			<platform id="HKN003">
+				<track id="SYR/TD170" />
+			</platform>
+			<platform id="HKN004">
+				<track id="SYR/TD161" />
+			</platform>
+		</Station>
+		<Station id="IVA">
+			<platform id="IVA002">
+				<track id="HDB/T349" />
+			</platform>
+			<platform id="IVA001">
+				<track id="HDB/T356" />
+				<!-- added by hli on 8/8/11 -->
+				<track id="HDB/T348" />
+			</platform>
+		</Station>
+		<Station id="JLI">
+			<platform id="JLI001">
+				<track id="CHL/TS052" />
+			</platform>
+			<platform id="JLI002">
+				<track id="JLI/TS043" />
+			</platform>
+		</Station>
+		<Station id="JWL">
+			<platform id="JWL001">
+				<track id="COB/T264" />
+			</platform>
+			<platform id="JWL002">
+				<track id="COB/T259" />
+			</platform>
+		</Station>
+		<Station id="KPK">
+			<platform id="KPK001">
+				<track id="KPK/T108" />
+			</platform>
+			<platform id="KPK002">
+				<track id="KPK/T109" />
+			</platform>
+		</Station>
+		<Station id="LAL">
+			<platform id="LAL002">
+				<track id="LAL/T109" />
+			</platform>
+			<platform id="LAL001">
+				<track id="LAL/T108" />
+			</platform>
+		</Station>
+		<Station id="MAC">
+			<platform id="MAC001">
+				<track id="NME/T420" />
+			</platform>
+			<platform id="MAC002">
+				<track id="NME/T153" />
+			</platform>
+		</Station>
+		<Station id="MAL">
+			<platform id="MAL001">
+				<track id="SYR/TF288" />
+			</platform>
+			<platform id="MAL002">
+				<track id="SYR/TF271" />
+			</platform>
+			<platform id="MAL003">
+				<track id="SYR/TD288" />
+			</platform>
+			<platform id="MAL004">
+				<track id="SYR/TD271" />
+			</platform>
+		</Station>
+		<Station id="MBN">
+			<platform id="MBN001">
+				<track id="BBH/T426" />
+			</platform>
+			<platform id="MBN002">
+				<track id="BBH/T423" />
+			</platform>
+		</Station>
+		<Station id="MCD">
+			<platform id="MCD001">
+				<track id="MCD/T115" />
+			</platform>
+			<platform id="MCD002">
+				<track id="MCD/T108" />
+			</platform>
+			<platform id="MCD003">
+				<track id="MCD/T107" />
+			</platform>
+		</Station>
+		<Station id="MCE">
+			<platform id="MCE002">
+				<track id="MUL/T636" />
+				<track id="MUL/T623" />
+			</platform>
+			<platform id="MCE001">
+				<track id="MUL/T040" />
+				<track id="MUL/T025" />
+			</platform>
+			<platform id="MCE004">
+				<track id="MUL/T240" />
+				<track id="MUL/T225" />
+			</platform>
+			<platform id="MCE003">
+				<track id="MUL/T428" />
+				<track id="MUL/T427" />
+			</platform>
+		</Station>
+		<Station id="MCK">
+			<platform id="MCK001">
+				<track id="MRN/T466" />
+			</platform>
+			<platform id="MCK002">
+				<track id="MRN/TFM461" />
+			</platform>
+			<platform id="MCK003">
+				<track id="MRN/TF461" />
+			</platform>
+		</Station>
+		<Station id="MER">
+			<platform id="MER001">
+				<track id="BEL/T220" />
+			</platform>
+		</Station>
+		<Station id="MLD">
+			<platform id="MLD002">
+				<track id="COB/T335" />
+			</platform>
+			<platform id="MLD001">
+				<track id="COB/T340" />
+			</platform>
+		</Station>
+		<Station id="MRN">
+			<platform id="MRN003">
+				<track id="MRN/T605" />
+			</platform>
+			<platform id="MRN002">
+				<track id="MRN/T606" />
+			</platform>
+			<platform id="MRN001">
+				<track id="MRN/T608" />
+			</platform>
+		</Station>
+		<Station id="MYN">
+			<platform id="MYN001">
+				<track id="UFD/T460" />
+			</platform>
+			<platform id="MYN002">
+				<track id="UFD/T453" />
+			</platform>
+		</Station>
+		<Station id="NBN">
+			<platform id="NBN002">
+				<track id="BBH/T383" />
+			</platform>
+			<platform id="NBN001">
+				<track id="BBH/T384" />
+			</platform>
+		</Station>
+		<Station id="NCE">
+			<platform id="NCE001">
+				<track id="BEL/T248" />
+			</platform>
+			<platform id="NCE002">
+				<track id="BEL/T243" />
+			</platform>
+		</Station>
+		<Station id="NME">
+			<platform id="NME006">
+				<track id="FKS/T789" />
+				<track id="NME/T689" />
+			</platform>
+			<platform id="NME005">
+				<track id="NME/T788" />
+			</platform>
+			<platform id="NME004">
+				<track id="NME/T579" />
+				<track id="NME/T481" />
+			</platform>
+			<platform id="NME002">
+				<track id="NME/T569" />
+				<track id="NMU/T471" />
+			</platform>
+			<platform id="NME001">
+				<track id="NME/T500" />
+			</platform>
+			<platform id="NME003">
+				<track id="NMU/T548" />
+			</platform>
+		</Station>
+		<Station id="NRM">
+			<platform id="NRM002">
+				<track id="CHL/TS083" />
+			</platform>
+			<platform id="NRM001">
+				<track id="CHL/TS092" />
+			</platform>
+		</Station>
+		<Station id="OMD">
+			<platform id="OMD001">
+				<track id="MRN/T436" />
+			</platform>
+			<platform id="OMD002">
+				<track id="MRN/TFM435" />
+			</platform>
+			<platform id="OMD003">
+				<track id="MRN/TF435" />
+			</platform>
+		</Station>
+		<Station id="PAR">
+			<platform id="PAR002">
+				<track id="MUL/T645" />
+				<track id="MUL/T654" />
+			</platform>
+			<platform id="PAR001">
+				<track id="MUL/T049" />
+				<track id="MUL/T056" />
+			</platform>
+			<platform id="PAR004">
+				<track id="MUL/T245" />
+				<track id="MUL/T258" />
+			</platform>
+			<platform id="PAR003">
+				<track id="MUL/T489" />
+				<track id="MUL/T456" />
+			</platform>
+		</Station>
+		<Station id="PAT">
+			<platform id="PAT001">
+				<track id="MRN/T520" />
+			</platform>
+			<platform id="PAT002">
+				<track id="MRN/TFM513" />
+			</platform>
+			<platform id="PAT003">
+				<track id="MRN/TF513" />
+			</platform>
+		</Station>
+		<Station id="PRA">
+			<platform id="PRA002">
+				<track id="SYR/T169" />
+				<!-- added by hli on 8/8/11 -->
+				<track id="SYR/T173" />
+			</platform>
+			<platform id="PRA001">
+				<track id="SYR/T174" />
+			</platform>
+		</Station>
+		<Station id="PRE">
+			<platform id="PRE002">
+				<track id="BEL/T359" />
+			</platform>
+			<platform id="PRE001">
+				<track id="BEL/T366" />
+			</platform>
+		</Station>
+		<Station id="REG">
+			<platform id="REG002">
+				<track id="BEL/T397" />
+				<!-- added by hli on 8/8/11 -->
+				<track id="BEL/T403" />
+			</platform>
+			<platform id="REG001">
+				<track id="BEL/T402" />
+				<!-- added by hli on 8/8/11 -->
+				<track id="BEL/T398" />
+			</platform>
+		</Station>
+		<Station id="RES">
+			<platform id="RES001">
+				<track id="KPK/T446" />
+			</platform>
+			<platform id="RES002">
+				<track id="KPK/T441" />
+			</platform>
+		</Station>
+		<Station id="RIP">
+			<platform id="RIP002">
+				<track id="SYR/T269" />
+			</platform>
+			<platform id="RIP001">
+				<track id="SYR/T274" />
+			</platform>
+		</Station>
+		<Station id="RMD">
+			<platform id="RMD010">
+				<track id="ERM/TL69" />
+				<track id="FSE/T298" />
+			</platform>
+			<platform id="RMD009">
+				<track id="ERM/TH69" />
+				<track id="FSE/T278" />
+			</platform>
+			<platform id="RMD008">
+				<track id="ERM/TH72" />
+				<track id="FSE/T379" />
+			</platform>
+			<platform id="RMD007">
+				<track id="ERM/TL72" />
+				<track id="FSE/T399" />
+			</platform>
+			<platform id="RMD006">
+				<track id="FSE/T670" />
+				<track id="SYR/TD069" />
+			</platform>
+			<platform id="RMD004">
+				<track id="FSE/T678" />
+				<!-- added by hli on 8/8/11 -->
+				<track id="SYR/TF069" />
+			</platform>
+			<platform id="RMD002">
+				<track id="FSE/T874" />
+				<!-- added by hli on 8/8/11 -->
+				<track id="SYR/TB069" />
+			</platform>
+			<platform id="RMD003">
+				<track id="SYR/TF072" />
+			</platform>
+			<platform id="RMD001">
+				<track id="SYR/TB072" />
+			</platform>
+			<platform id="RMD005">
+				<track id="SYR/TD072" />
+			</platform>
+		</Station>
+		<Station id="ROS">
+			<platform id="ROS001">
+				<track id="MCD/T470" />
+			</platform>
+			<platform id="ROS002">
+				<track id="MCD/T461" />
+			</platform>
+		</Station>
+		<Station id="RPK">
+			<platform id="RPK001">
+				<track id="COB/T232" />
+			</platform>
+			<platform id="RPK002">
+				<track id="COB/T225" />
+			</platform>
+		</Station>
+		<Station id="RUS">
+			<platform id="RUS002">
+				<track id="BEL/T187" />
+			</platform>
+			<platform id="RUS001">
+				<track id="BEL/T196" />
+			</platform>
+		</Station>
+		<Station id="RUT">
+			<platform id="RUT001">
+				<track id="KPK/T478" />
+			</platform>
+			<platform id="RUT002">
+				<track id="KPK/T471" />
+				<!-- added by hli on 8/8/11 -->
+				<track id="KPK/T481" />
+				<track id="KPK/T485" />
+			</platform>
+		</Station>
+		<Station id="SEN">
+			<platform id="SEN002">
+				<track id="WFY/T255" />
+			</platform>
+			<platform id="SEN001">
+				<track id="WFY/T276" />
+			</platform>
+		</Station>
+		<Station id="SHM">
+			<platform id="SHM001">
+				<track id="SHM/T806" />
+				<!-- added by hli on 8/8/11 -->
+				<track id="SHM/T906" />
+			</platform>
+		</Station>
+		<Station id="SKN">
+			<platform id="SKN001">
+				<track id="SKN/T660" />
+			</platform>
+			<platform id="SKN002">
+				<track id="SKN/T667" />
+			</platform>
+			<station_road id="SKN003">
+				<track id="SKN/T757" />
+			</station_road>
+			<station_road id="SKN004">
+				<track id="SKN/T650" />
+			</station_road>
+		</Station>
+		<Station id="SSS">
+			<platform id="SSS008">
+				<track id="SSN/T429" />
+			</platform>
+			<platform id="SSS08S">
+				<track id="SSN/T713" />
+			</platform>
+			<platform id="SSS08N">
+				<track id="SSN/T434" />
+			</platform>
+			<platform id="SSS010">
+				<track id="SSN/T304" />
+				<track id="SSS/T283" />
+				<track id="SSS/T223" />
+			</platform>
+			<platform id="SSS009">
+				<track id="SSN/T126" />
+				<track id="SSS/T083" />
+			</platform>
+			<platform id="SSS014">
+				<track id="SSN/T816" />
+				<track id="SSS/T817" />
+			</platform>
+			<platform id="SSS011">
+				<track id="SSN/T492" />
+				<track id="SSS/T491" />
+			</platform>
+			<platform id="SSS012">
+				<track id="SSN/T680" />
+				<track id="SSS/T705" />
+			</platform>
+			<platform id="SSS013">
+				<track id="SSN/T720" />
+				<track id="SSS/T605" />
+			</platform>
+		</Station>
+		<Station id="SUN">
+			<platform id="SUN001">
+				<track id="SUN/T726" />
+			</platform>
+			<platform id="SUN002">
+				<track id="SUN/T736" />
+			</platform>
+			<platform id="SUN003">
+				<track id="SUN/T756" />
+			</platform>
+		</Station>
+		<Station id="SYR">
+			<platform id="SYR001">
+				<track id="SYR/T142" />
+			</platform>
+			<platform id="SYR002">
+				<track id="SYR/TB117" />
+			</platform>
+			<platform id="SYR003">
+				<track id="SYR/TF132" />
+			</platform>
+			<platform id="SYR004">
+				<track id="SYR/TF117" />
+			</platform>
+			<platform id="SYR005">
+				<track id="SYR/TD132" />
+			</platform>
+			<platform id="SYR006">
+				<track id="SYR/TD117" />
+			</platform>
+		</Station>
+		<Station id="TBY">
+			<platform id="TBY001">
+				<track id="BEL/T304" />
+			</platform>
+			<platform id="TBY002">
+				<track id="BEL/T299" />
+			</platform>
+		</Station>
+		<Station id="TOR">
+			<platform id="TOR001">
+				<track id="SYR/TF212" />
+			</platform>
+			<platform id="TOR002">
+				<track id="SYR/TF201" />
+			</platform>
+			<platform id="TOR003">
+				<track id="SYR/TD212" />
+			</platform>
+			<platform id="TOR004">
+				<track id="SYR/TD201" />
+			</platform>
+		</Station>
+		<Station id="TOT">
+			<platform id="TOT001">
+				<track id="WFY/T356" />
+			</platform>
+			<platform id="TOT002">
+				<track id="WFY/T339" />
+			</platform>
+		</Station>
+		<Station id="TSN">
+			<platform id="TSN001">
+				<track id="LAL/T577" />
+			</platform>
+		</Station>
+		<Station id="UFD">
+			<platform id="UFD001">
+				<track id="UFD/T511" />
+			</platform>
+		</Station>
+		<Station id="VPK">
+			<platform id="VPK002">
+				<track id="CHL/T100" />
+			</platform>
+			<platform id="VPK001">
+				<track id="CHL/T105" />
+			</platform>
+		</Station>
+		<Station id="WAT">
+			<platform id="WAT002">
+				<track id="MCD/T585" />
+			</platform>
+		</Station>
+		<Station id="WFY">
+			<platform id="WFY001">
+				<track id="WFY/T286" />
+			</platform>
+			<platform id="WFY002">
+				<track id="WFY/T707" />
+			</platform>
+		</Station>
+		<Station id="WIN">
+			<platform id="WIN001">
+				<track id="SYR/T200" />
+				<!-- added by hli on 8/8/11 -->
+				<track id="SYR/T192" />
+			</platform>
+			<platform id="WIN002">
+				<track id="SYR/T189" />
+			</platform>
+		</Station>
+		<Station id="WRM">
+			<platform id="WRM002">
+				<track id="CHL/TS071" />
+			</platform>
+			<platform id="WRM001">
+				<track id="CHL/TS078" />
+			</platform>
+		</Station>
+		<Station id="WTG">
+			<platform id="WTG002">
+				<track id="CHL/TS199" />
+			</platform>
+			<platform id="WTG001">
+				<track id="CHL/T202" />
+			</platform>
+		</Station>
+		<Station id="YVE">
+			<platform id="YVE002">
+				<track id="WFY/T293" />
+			</platform>
+			<platform id="YVE001">
+				<track id="WFY/T298" />
+			</platform>
+		</Station>
+		<Station id="MYD">
+			<station_road id="MYDSDG">
+				<!-- commented out by hli on 8/8/11 
+					<track id="WST/P117" />
+				and the following line is added -->
+				<track id="WST/T252" />
+			</station_road>
+			<station_road id="MYDS01">
+				<track id="WST/T119" />
+			</station_road>
+		</Station>
+		<Station id="BLS">
+			<station_road id="BLSS02">
+				<track id="BLS/T387" />
+			</station_road>
+			<station_road id="BLSS03">
+				<track id="BLS/T389" />
+			</station_road>
+			<station_road id="BLSSDG">
+				<track id="BLS/P285" />
+				<track id="BLS/P289U" />
+				<track id="BLS/P287U" />
+				<track id="BLS/P291" />
+				<track id="BLS/P287D" />
+				<track id="BLS/P289D" />
+			</station_road>
+			<station_road id="BLSS01">
+				<track id="BLS/T385" />
+			</station_road>
+		</Station>
+		<Station id="LBY">
+			<station_road id="LBYSDG">
+				<track id="SSN/P445" />
+				<track id="SSN/P422" />
+				<track id="SSN/P430U" />
+				<track id="SSN/P430D" />
+				<track id="SSN/P428" />
+			</station_road>
+			<station_road id="LBYS01">
+				<track id="SSN/T928" />
+			</station_road>
+			<station_road id="LBYS02">
+				<track id="SSN/T930" />
+			</station_road>
+		</Station>
+	</Stations>
+</Railway>

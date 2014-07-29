@@ -1,0 +1,228 @@
+function usage {
+	echo -e "#==================================================================================================================================="
+	echo -e "#"
+	echo -e "#\tFor each of the interlockings the summary of RV test would include the following section:"	
+	echo -e "#"
+	echo -e "#\t\t1. Routes Successfully Set."
+	echo -e "#"
+	echo -e "#\t\t2. Routes Set but Entry Signal Not Cleared."	
+	echo -e "#"
+	echo -e "#\t\t3. Routes Successfully Cancelled."
+	echo -e "#"
+	echo -e "#\t\t4. Signals Failed to Cancel"
+	echo -e "#"
+	echo -e "#\t\t5. Routes Failed to Set but Stored in StoredRouteList."
+	echo -e "#"
+	echo -e "#\t\t6. Routes Failed to Set neither Stored in StoredRouteList."
+	echo -e "#"
+	echo -e "#\t\t7. Points Neither in Correct Position Nor Locked."
+	echo -e "#"
+	echo -e "#\t\t8. Points Locked in Wrong Position."
+	echo -e "#"
+	echo -e "#\t\t9. Points in Correct Position but not Locked"
+	echo -e "#"
+	echo -e "#\tThe numbers in each section should satisfy the following relation:"
+	echo -e "#\t\tsection_1 + section_2 = section_3 + section_4"
+	echo -e "#\t\tsection_1 + section_2 + section_5 + section_6 = total"	
+	echo -e "#"
+	echo -e "#===================================================================================================================================="
+}
+
+function sumRVInterlocking {
+ 	it=$1
+ 	type=$2	
+
+	#creation of patterns	
+	cat results/rv_routes/$it.txt | sed 's/->/ -> /' | sed 's/:/ :/' | awk -v interlocking="${it}" -v intType="${type}" ' 
+		 BEGIN {
+			route = "null";
+			minSetRoute = 100; maxSetRoute = 0; countSetRoute = 0; sumSetRoute = 0;
+			minCanRoute = 100; maxCanRoute = 0; countCanRoute = 0; sumCanRoute = 0; rtClear = "null";
+			routeSetOkCount = 0;
+ 			routeCancelFailedCount = 0;
+			sigNotCancelCount = 0;
+			signalNotClearPtnCount = 0;
+			signalNotClearRtSetCount = 0;
+			pntNolockNopostionCount = 0;
+			pntlockNopositionCount = 0;
+			pntNolocNosetCount = 0;
+			pntNolocCount = 0;
+			signalNotClearbutStoredCount = 0;
+			routefound = "false";
+			cancelsignal = "false";
+		}
+
+		/testing route/ {
+			route = $3;
+			entrySignal = $5;
+			totalRouteCount++;
+			rtClear = "null"
+			meaningfulcancel = "no";
+			setRouteOkPtn = "Spent.*set.*" route ".*";
+			signalNotClearRtSet = "Error.*" entrySignal ".*" route ".*But the route is set";	
+			cancelRouteOkPtn = "Spent.*cancel.*" entrySignal;
+			cancelRouteNotOkptn = "Error.*can no cancel.*"entrySignal;
+			signalNotClearbutStoredPtn = "Error.*" entrySignal ".*not cleared.*not set at all.*is stored.$";		
+			signalNotClearPtn = "Error.*" entrySignal ".*not cleared.*not set at all. $";
+			pntNolockNopostion = "Neither in correct position nor locked";
+			pntlockNoposition = "Locked but in wrong position";
+			pntNoloc = ".*has been locked.*In correct position but not locked"; 
+		}
+
+		#Successfully Route Set...
+		$0 ~ setRouteOkPtn {	
+			meaningfulcancel = "yes";													
+			rtSet[routeSetOkCount] = route;
+			rtSetTm[routeSetOkCount] = $2;
+			routeSetOkCount++;			
+			sumSetRoute = sumSetRoute + $2;
+			if($2 > maxSetRoute)
+				maxSetRoute = $2;
+			if($2 < minSetRoute)
+				minSetRoute = $2;
+			rtClear = "Yes";
+		}
+		
+		#Successfully Route Cancel...	
+		$0 ~  cancelRouteOkPtn {
+			if (meaningfulcancel == "yes") {											
+				rtcancel[routeCancelFailedCount] = route;	
+				rtcanceltm[routeCancelFailedCount] = $2;
+				routeCancelFailedCount++;
+				sumCanRoute = sumCanRoute + $2;
+				if($2 > maxCanRoute)
+					maxCanRoute = $2;
+				if($2 < minCanRoute)
+					minCanRoute = $2;
+			}
+		}
+
+		#Failed to cancel the Signal...	
+		$0 ~ cancelRouteNotOkptn {
+			if ( meaningfulcancel == "yes") {
+				sigNotCancel[sigNotCancelCount] = entrySignal;
+				sigNotCancelRoute[sigNotCancelCount] = route;
+				sigNotCancelCount++;
+			}
+		}
+
+		#Entry Signal Not Cleared and Route not Set but stored ...
+		$0 ~ signalNotClearbutStoredPtn {
+			signalNotClearbutStoredSig[signalNotClearbutStoredCount] = entrySignal;
+			signalNotClearbutStoredRoute[signalNotClearbutStoredCount] = route;
+			signalNotClearbutStoredCount++;
+			rtClear = "null";
+		}
+
+		#Entry Signal Not Cleared, Route not Set and not Stored ...		
+		$0 ~ signalNotClearPtn {						
+			entSignal[signalNotClearPtnCount] = entrySignal;
+			entSignalRoute[signalNotClearPtnCount] = route;
+			signalNotClearPtnCount++;
+			rtClear = "null"
+		}
+
+		#Entry Signal is Not Cleared but Route is Set...
+		$0 ~ signalNotClearRtSet {
+			meaningfulcancel = "yes";							
+			entSignalNotClear[signalNotClearRtSetCount] = entrySignal;
+			entSignalNotClearRouteSet[signalNotClearRtSetCount] = route;
+			signalNotClearRtSetCount++;
+		}
+
+		#Route is not set due to Point neither in correct position nor locked..
+		$0 ~ pntNolockNopostion {
+			pntNLNPSignal[pntNolockNopostionCount] = entrySignal;
+			pntNLNPRoute[pntNolockNopostionCount] = route;
+			pntNLNP[pntNolockNopostionCount] = $4;
+			pntNolockNopostionCount++;
+		}
+
+		#Route is not set due Point is locked but in wrong position..
+		$0 ~ pntlockNoposition {
+			pntLNPSignal[pntlockNopositionCount] = entrySignal;
+			pntLNPRoute[pntlockNopositionCount] = route;
+			pntLNP[pntlockNopositionCount] = $4;
+			pntlockNopositionCount++;
+		}
+
+		#Point is in correct position but not locked..
+		$0 ~ pntNoloc {
+			pntNLSetSignal[pntNolocCount] = entrySignal;	
+			pntNLSetRoute[pntNolocCount] = route;
+			pntSet[pntNolocCount] = $4;
+			pntNolocCount++;
+		}
+		
+		END {
+			printf("\n============================================================================================================================\n");
+			printf("\nRV route tests summary for %s interlocking %s (%d routes in total)....\n", intType, interlocking, totalRouteCount);
+
+			printf("\n\t1.  Routes Successfully Set (%d)...\n", routeSetOkCount);
+			if ( routeSetOkCount > 0 ) {
+				printf("\t\tRoute   \t\tTime\n");
+				for (i = 0; i<routeSetOkCount;i++)			
+					printf("\t\t%s\t\t%0.4f\n", rtSet[i], rtSetTm[i]);
+				printf("\n\t\tAverage Time: %0.4f\tMax: %0.4f\tMin: %0.4f\n", sumSetRoute/routeSetOkCount, maxSetRoute, minSetRoute);
+			}
+			
+			printf("\n\t2. Route Set but Entry Signal Not Cleared (%d)..\n", signalNotClearRtSetCount);
+			if ( signalNotClearRtSetCount > 0 ) {
+				printf("\t\tSignal \t\t\tRoute: \n");
+				for (i=0; i<signalNotClearRtSetCount; i++)
+					printf("\t\t%s\t\t%s\n", entSignalNotClear[i],entSignalNotClearRouteSet[i]);
+			}
+
+			printf("\n\t3. Routes Successfully Cancelled (%d)...\n", routeCancelFailedCount);
+			if ( routeCancelFailedCount > 0 ) {
+				printf("\t\tRoute   \t\tTime\n");
+				for (i = 0; i<routeCancelFailedCount;i++)
+					printf("\t\t%s\t\t%0.4f\n", rtcancel[i], rtcanceltm[i]);
+				printf("\n\t\tAverage Time: %0.4f\tMax: %0.4f\tMin: %0.4f\n", sumCanRoute/routeCancelFailedCount, maxCanRoute, minCanRoute);
+			}
+
+			printf("\n\t4. Signal failed to cancel (%d)...\n", sigNotCancelCount);
+			if ( sigNotCancelCount > 0 ) {
+				printf("\t\tSignal  \t\tRoute\n");
+				for (i=0; i<sigNotCancelCount; i++)				
+					printf("\t\t%s\t\t%s\n", sigNotCancel[i], sigNotCancelRoute[i]);
+			}
+	
+			printf("\n\t5. Routes failed to set but stored in StoredRouteList (%d)...\n", signalNotClearbutStoredCount);
+			if ( signalNotClearbutStoredCount > 0 ) {
+				printf("\t\tSignal  \t\tRoute\n");
+				for (i=0; i<signalNotClearbutStoredCount; i++)
+					printf("\t\t%s\t\t%s\n", signalNotClearbutStoredSig[i], signalNotClearbutStoredRoute[i]);
+			}
+
+			printf("\n\t6. Routes failed to Set neither Stored in StoredRouteList (%d) ...\n", signalNotClearPtnCount);
+			if ( signalNotClearPtnCount > 0) {
+				printf("\t\tSignal  \t\tRoute\n");
+				for (i=0; i<signalNotClearPtnCount; i++)
+					printf("\t\t%s\t\t%s\n", entSignal[i], entSignalRoute[i]);
+			}
+			
+			printf("\n\t7. Points neither in Correct Position nor Locked(%d)... \n", pntNolockNopostionCount);
+			if ( pntNolockNopostionCount > 0 ) {
+				printf("\t\tSignal  \t\tRoute   \t\tPoint\n");	
+				for (i=0; i<pntNolockNopostionCount; i++)
+					printf("\t\t%s\t\t%s\t\t%s\n", pntNLNPSignal[i], pntNLNPRoute[i], pntNLNP[i]);
+			}
+			
+			printf("\n\t8. Point is locked but in Wrong position (%d).. \n", pntlockNopostionCount);	
+			if ( pntlockNopostionCount > 0) {
+				printf("\t\tSignal  \t\tRoute   \t\tPoint\n");	
+				for (i=0; i<pntlockNopostionCount; i++)
+					printf("\t\t%s\t\t%s\t\t%s\n", pntLNPSignal[i], pntLNPRoute[i], pntLNP[i]);
+			}
+			
+			printf("\n\t9. Points in Correct Position but not Locked (%d)... \n", pntNolocCount);	
+			if ( pntNolocCount > 0 ) {
+				printf("\t\tSignal  \t\tRoute   \t\tPoint\n");	
+				for (i=0; i<pntNolocCount; i++)
+					printf("\t\t%s\t\t%s\t\t%s\n", pntNLSetSignal[i], pntNLSetRoute[i], pntSet[i]);
+			}
+	}'  >> $resultFile
+}
+
+

@@ -1,0 +1,15 @@
+ntr shm/s916 1
+start t0001
+ren *0001 x002
+
+ntr fsb/s960 1
+start t0002
+ren *0002 x005
+
+ntr fse/s777 1
+start t0003
+ren *0003 x006
+
+ntr fsb/s586 1
+start t0004
+ren *0004 x009

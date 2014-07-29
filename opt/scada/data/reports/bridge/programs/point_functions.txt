@@ -1,0 +1,129 @@
+
+#======================================================================
+#
+#	point_functions
+#
+#======================================================================
+#
+#	turnPoint
+#		to turn the point to the other position.
+#
+#	arguments:
+#		$1 .................. domain
+#		$2 .................. point
+#
+function turnPoint {
+	domain=$1
+	point=$2
+	
+	#getting the current position of the point...
+	
+	ret=`curl http://railwaystatemanager.${domain}:8080/track/${point} 2>/dev/null`
+	status=${ret:${point_normal}:2}
+
+	if [[ "$status" == "01" ]]
+	then
+		#turning the point to normal...
+		curl -X PUT --data "SetPointsNormal point=${point}" http://RouteValidation.${domain}:8080/cli 2>/dev/null
+		expected_position="10"
+	else
+		#turning the point to reverse...
+		curl -X PUT --data "SetPointsReverse point=${point}" http://RouteValidation.${domain}:8080/cli 2>/dev/null
+		expected_position="01"
+	fi
+
+	# waiting for point to turn...
+	waitTime=0
+	getTime
+	startTime=$now
+	ret=`curl http://railwaystatemanager.${domain}:8080/track/${point} 2>/dev/null`
+	status=${ret:${point_normal}:2}
+
+	while [[ "$status" != "$expected_position" && "$waitTime" -lt "$turnning_time" ]]
+	do
+		time_passed $startTime
+		waitTime=$timeGapSec
+		ret=`curl http://railwaystatemanager.${domain}:8080/track/${point} 2>/dev/null`
+		status=${ret:${point_normal}:2}
+	done
+
+	# report error if the point position is not as expected...
+	if [[ "$status" != "$expected_position" ]]
+ 	then
+		# report error
+		if [[ "$expected_position" == "10" ]]
+		then
+			echo "        Error: failed to turn ${point} to normal"
+		else
+			echo "        Error: failed to turn ${point} to reverse"
+		fi
+	else
+		# report time spent
+		echo -n "        Spent $timeGapReport seconds to turn ${point} to "
+		if [[ "$expected_position" == "10" ]]
+		then
+			echo normal
+		else
+			echo reverse
+		fi
+	fi
+}
+
+#
+#	checkPointLockedCorrect
+#		checks to see if the given point is locked to the correct position.
+#
+#	arguments:
+#		$1 ............ domain
+#		$2 ............ point
+#		$3 ............ position, normal/reverse
+#
+function checkPointLockedCorrect {
+	domain=$1
+	point=$2
+	positionExpected=$3
+	
+	if [[ "$positionExpected" == "normal" ]]
+	then
+		pnValue=1
+		prValue=0
+	else
+		pnValue=0
+		prValue=1
+	fi
+	
+	ret=`curl http://railwaystatemanager.${domain}:8080/track/${point} 2>/dev/null`
+
+	lockedOk="yes"
+	positionOk="yes"
+	
+	#check for point locked
+	status=${ret:${point_locked}:1}
+	if [[ "$status" != "1" ]]
+	then
+		lockedOk="no"
+	fi
+	
+	#check for point position
+	pNormal=${ret:${point_normal}:1}
+	pReverse=${ret:${point_reverse}:1}
+	if [[ "$pNormal" != "$pnValue" && "$pReverse" != "$prValue" ]]
+	then
+		positionOk="no"
+	fi
+	
+	if [[ "$lockedOk" == "yes" && "$positionOk" == "yes" ]]
+	then
+		echo -e "\t.. Locked in correct position"
+	elif [[ "$lockedOk" == "no" && "positionOk" == "no" ]]
+	then
+		echo -e "\t.. Neither in correct position nor locked"
+	elif [[ "$lockOk" == "yes" ]]
+	then
+		echo -e "\t.. Locked but in wrong position"
+	else
+		echo -e "\t.. In correct position but not locked"
+	fi
+}
+
+

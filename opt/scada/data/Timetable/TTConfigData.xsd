@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--Created with Liquid XML Studio - FREE Community Edition 7.1.6.1440 (http://www.liquid-technologies.com)-->
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="RangeType">
+    <xs:sequence>
+      <xs:annotation>
+        <xs:documentation>No sub elements</xs:documentation>
+      </xs:annotation>
+    </xs:sequence>
+    <xs:attribute name="start" type="xs:string" />
+    <xs:attribute name="end" type="xs:string" />
+  </xs:complexType>
+  <xs:element name="TTConfigData">
+    <xs:annotation>
+      <xs:documentation>Comment describing your root element</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="PlatformRestriction">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" maxOccurs="unbounded" name="Station">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="0" maxOccurs="unbounded" name="Platform">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element maxOccurs="unbounded" ref="Group" />
+                        </xs:sequence>
+                        <xs:attribute ref="PlatformId" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute ref="StationShortName" use="required" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+		<xs:element name="SignalRestriction" minOccurs="0">
+		  <xs:complexType>
+		    <xs:sequence>
+              <xs:element name="Signal" maxOccurs="unbounded">
+                <xs:complexType>
+				  <xs:sequence>
+				    <xs:element ref="Group" minOccurs="0" maxOccurs="unbounded" />
+				  </xs:sequence>
+			      <xs:attribute name="id" type="xs:string" />
+                </xs:complexType>
+		        <xs:unique name="uniqueRestrictedSignalGrp">
+                  <xs:selector xpath="Group" />
+                  <xs:field xpath="." />
+		        </xs:unique>
+              </xs:element>
+		    </xs:sequence>
+		  </xs:complexType>
+		  <xs:unique name="uniqueRestrictedSignalId">
+            <xs:selector xpath="Signal" />
+            <xs:field xpath="@id" />
+		  </xs:unique>
+		</xs:element>
+        <xs:element name="Stations">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" name="Station">
+                <xs:complexType>
+                  <xs:choice>
+                    <xs:element name="Platforms">
+                      <xs:complexType>
+                        <xs:attribute ref="NumberOfPlatforms" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="BusStop">
+                      <xs:complexType>
+                        <xs:attribute ref="IsBusStop" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="Siding">
+                      <xs:complexType>
+                        <xs:attribute name="IsSiding" use="required">
+                          <xs:simpleType>
+                            <xs:restriction base="xs:boolean">
+                              <xs:pattern value="true" />
+                            </xs:restriction>
+                          </xs:simpleType>
+                        </xs:attribute>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:choice>
+                  <xs:attribute ref="StationShortName" use="required" />
+                  <xs:attribute ref="StationLongName" use="required" />
+                  <xs:attribute name="IsSiding" type="xs:boolean" default="false" use="optional"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+          <xs:key name="stationShortNameKey">
+            <xs:selector xpath=".//Station" />
+            <xs:field xpath="@StationShortName" />
+          </xs:key>
+          <xs:key name="stationLongNameKey">
+            <xs:selector xpath=".//Station" />
+            <xs:field xpath="@StationLongName" />
+          </xs:key>
+        </xs:element>
+        <xs:element name="ThroughStationRef">
+          <xs:complexType>
+            <xs:attribute ref="StationShortName" use="required" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Groups">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" name="Group">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Lines">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element maxOccurs="unbounded" name="Line">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element minOccurs="0" maxOccurs="unbounded" name="Range" type="RangeType" />
+                              </xs:sequence>
+                              <xs:attribute ref="LineShortName" use="required" />
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                      <xs:unique name="lineInGroup">
+                        <xs:selector xpath="./Line" />
+                        <xs:field xpath="@LineShortName" />
+                      </xs:unique>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute ref="GroupLongName" use="required" />
+                  <xs:attribute ref="GroupShortName" use="required" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+          <xs:key name="groupShortNameKey">
+            <xs:selector xpath=".//Group" />
+            <xs:field xpath="@GroupShortName" />
+          </xs:key>
+          <xs:key name="groupLongNameKey">
+            <xs:selector xpath=".//Group" />
+            <xs:field xpath="@GroupLongName" />
+          </xs:key>
+          <xs:unique name="GroupLineShortNameUniqueAcrossGroup">
+            <xs:selector xpath="./Group/Lines/Line" />
+            <xs:field xpath="@LineShortName" />
+          </xs:unique>
+        </xs:element>
+        <xs:element name="Sections">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" name="Section">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Stations">
+                      <xs:annotation>
+                        <xs:documentation>Order of stations is important they run for start to finish in the UP direction i.e. to the city. For the loop we list station in the clockwise dirction from flinders e.g. FSS, SSS, FGS, MCE, PAR in CoreTCMS</xs:documentation>
+                      </xs:annotation>
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element maxOccurs="unbounded" name="Station">
+                            <xs:complexType>
+                              <xs:attribute ref="StationShortName" use="required" />
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                      <xs:unique name="uniqueLineStationShortName">
+                        <xs:selector xpath="./Station" />
+                        <xs:field xpath="@StationShortName" />
+                      </xs:unique>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute ref="SectionName" use="required" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+          <xs:key name="sectionNameKey">
+            <xs:selector xpath=".//Section" />
+            <xs:field xpath="@SectionName" />
+          </xs:key>
+        </xs:element>
+        <xs:element name="Lines">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" name="Line">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Sections">
+                      <xs:annotation>
+                        <xs:documentation>Order of sections is importannt, they need to be in the up directioon.</xs:documentation>
+                      </xs:annotation>
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element maxOccurs="unbounded" name="Section">
+                            <xs:annotation>
+                              <xs:documentation>We must have a section called CityLoop with city loop stations. e.g) from PAR - FSS in CoreTCMS</xs:documentation>
+                            </xs:annotation>
+                            <xs:complexType>
+                              <xs:attribute ref="SectionName" use="required" />
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                      <xs:unique name="uniqueSectionName">
+                        <xs:selector xpath="./Section" />
+                        <xs:field xpath="@SectionName" />
+                      </xs:unique>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute ref="LineShortName" use="required" />
+                  <xs:attribute name="nonLoopEntry" use="required">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:pattern value="FSS|SSS" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:attribute>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+          <xs:key name="lineShortNameKey">
+            <xs:selector xpath="./Line" />
+            <xs:field xpath="@LineShortName" />
+          </xs:key>
+        </xs:element>
+        <xs:element name="Consists">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" name="Consist">
+                <xs:complexType>
+                  <xs:attribute ref="ConsistName" use="required" />
+				  <xs:attribute name="cars" type="xs:nonNegativeInteger" use="optional"/>
+                  <xs:attribute name="dividable" type="xs:boolean" use="optional" />
+				  <xs:attribute name="length" type="xs:string" use="optional"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+          <xs:unique name="uniqueConsistName">
+            <xs:selector xpath="./Consist" />
+            <xs:field xpath="@ConsistName" />
+          </xs:unique>
+        </xs:element>
+        <xs:element name="TripTypes">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" name="TripType">
+                <xs:complexType>
+                  <xs:attribute ref="TypeName" use="required" />
+				  <xs:attribute name="Desc" use="optional" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="TripFormLinkState" use="optional">
+              <xs:simpleType>
+                <xs:restriction base="xs:string">
+                  <xs:pattern value="VALID|INVALID|SPARE" />
+                </xs:restriction>
+              </xs:simpleType>
+            </xs:attribute>
+          </xs:complexType>
+          <xs:unique name="uniqueType">
+            <xs:selector xpath="./TripType" />
+            <xs:field xpath="@TypeName" />
+          </xs:unique>
+        </xs:element>
+        <xs:element name="Distances">
+          <xs:complexType>
+            <xs:sequence maxOccurs="unbounded">
+              <xs:element name="StationPairDistance">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="FirstStation">
+                      <xs:complexType>
+                        <xs:attribute ref="StationShortName" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="SecondStation">
+                      <xs:complexType>
+                        <xs:attribute ref="StationShortName" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="Distance" type="xs:nonNegativeInteger" use="required" />
+                  <xs:attribute ref="Unit" use="required">
+                    <xs:annotation>
+                      <xs:documentation>The only accepted unit at the moment is metres.</xs:documentation>
+                    </xs:annotation>
+                  </xs:attribute>
+                </xs:complexType>
+                <xs:unique name="stationsNotSame">
+                  <xs:selector xpath="./FirstStation | ./SecondStation" />
+                  <xs:field xpath="@StationShortName" />
+                </xs:unique>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+          <xs:unique name="stationPairsUnique">
+            <xs:annotation>
+              <xs:documentation>Does not check if the reverse ordering of stations is also unique - how do we do this?</xs:documentation>
+            </xs:annotation>
+            <xs:selector xpath="./StationPairDistance" />
+            <xs:field xpath="./FirstStation/@StationShortName" />
+            <xs:field xpath="./SecondStation/@StationShortName" />
+          </xs:unique>
+        </xs:element>
+        <xs:element name="LineCodePassenger"  minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+    		<xs:attribute name="LineCode" use="required" >
+              <xs:simpleType>
+                <xs:restriction base="xs:string">
+                  <xs:pattern value="[0-9]*" />
+                </xs:restriction>
+              </xs:simpleType>
+            </xs:attribute>
+    		<xs:attribute name="BitNumber" use="required" >
+              <xs:simpleType>
+                <xs:restriction base="xs:string">
+                  <xs:pattern value="[0-9]*" />
+                </xs:restriction>
+              </xs:simpleType>
+            </xs:attribute>
+    		<xs:attribute name="ServiceType" use="required" >
+              <xs:simpleType>
+                <xs:restriction base="xs:string">
+<!--
+                  <xs:pattern value="SUBURBAN|VLINE" />
+-->
+                </xs:restriction>
+              </xs:simpleType>
+            </xs:attribute>
+    		<xs:attribute name="MessageType" use="required" >
+              <xs:simpleType>
+                <xs:restriction base="xs:string">
+                  <xs:pattern value="HEADER|TITLE|ANCILIARY" />
+                </xs:restriction>
+              </xs:simpleType>
+            </xs:attribute>
+    		<xs:attribute name="Message" type="xs:string" use="required"/>
+    		<xs:attribute name="ViaLoop" use="required" >
+              <xs:simpleType>
+                <xs:restriction base="xs:string">
+                  <xs:pattern value="YES|NO"/>
+                </xs:restriction>
+              </xs:simpleType>
+            </xs:attribute>
+    		<xs:attribute name="TripTerminus" use="required" >
+              <xs:simpleType>
+                <xs:restriction base="xs:string">
+<!-- for CoreTCM
+                  <xs:pattern value="UNKNOWN|SAL|BDE|ALY|ECH|WNB|ART|GWY|ALM|BBN|RWD|BEG|PKM|CGB|RCE|DRT|WIL|WER|SHM"/>
+-->
+                </xs:restriction>
+              </xs:simpleType>
+            </xs:attribute>
+    		<xs:attribute name="Direction" use="required" >
+              <xs:simpleType>
+                <xs:restriction base="xs:string">
+                  <xs:pattern value="UNKNOWN|UP|DOWN"/>
+                </xs:restriction>
+              </xs:simpleType>
+            </xs:attribute>
+          </xs:complexType>
+        </xs:element>
+		  <xs:element name="SpecialID">
+			<xs:complexType>
+			  <xs:sequence>
+				<xs:element maxOccurs="unbounded" name="Line">
+				  <xs:complexType>
+					<xs:attribute ref="LineShortName" use="required" />
+					<xs:attribute name="loop" type="xs:boolean" />
+					<xs:attribute name="start" type="xs:string" />
+					<xs:attribute name="end" type="xs:string" />
+				  </xs:complexType>
+				</xs:element>
+			  </xs:sequence>
+			</xs:complexType>
+			</xs:element>
+		  <xs:element name="PathBook">
+			<xs:complexType>
+				<xs:attribute name="DwellTime" type="xs:string"/>
+				<!-- This is for handling different geoobject format in a path for several projects, default is TCMS -->
+				<xs:attribute name="Format" use="optional"> 
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="TMS" />
+							<xs:enumeration value="TPS" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:attribute>
+			</xs:complexType>
+		  </xs:element>
+		  <xs:element name="Misc">
+			<xs:annotation>
+				<xs:documentation>Misc configurable information,in case of CoreTCMS ShortNameLength=3(FSS,SSS,...),GeoObjectSize=6(N01FSS),LoopCount=3(loop determine count) </xs:documentation>
+			</xs:annotation>
+			<xs:complexType>
+				<xs:attribute name="ShortNameLength" type="xs:nonNegativeInteger"/>
+				<xs:attribute name="CityLoopCount" type="xs:nonNegativeInteger"/>
+				<xs:attribute name="PlatformData" type="xs:string"/>
+				<xs:attribute name="SignalData" type="xs:string"/>
+			</xs:complexType>
+		  </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+    <xs:keyref name="SectionStationMustExistInStationList" refer="stationShortNameKey">
+      <xs:selector xpath="./Sections/Section/Stations/Station" />
+      <xs:field xpath="@StationShortName" />
+    </xs:keyref>
+    <xs:keyref name="groupLineMustExistInLineList" refer="lineShortNameKey">
+      <xs:selector xpath="./Groups/Group/Lines/Line" />
+      <xs:field xpath="@LineShortName" />
+    </xs:keyref>
+    <xs:keyref name="AOCGroupMustExistInGroups" refer="groupShortNameKey">
+      <xs:selector xpath="./AOCs/AOC/Groups/Group" />
+      <xs:field xpath="@GroupShortName" />
+    </xs:keyref>
+    <xs:keyref name="lineSectionNameMustExistInSections" refer="sectionNameKey">
+      <xs:selector xpath="./Lines/Line/Sections/Section" />
+      <xs:field xpath="@SectionName" />
+    </xs:keyref>
+    <xs:keyref name="lineShortNameMustBeAStationShortName" refer="stationShortNameKey">
+      <xs:selector xpath="./Lines/Line" />
+      <xs:field xpath="@LineShortName" />
+    </xs:keyref>
+    <xs:keyref name="throughStationRefMustExist" refer="stationShortNameKey">
+      <xs:selector xpath="./ThroughStationRef" />
+      <xs:field xpath="@StationShortName" />
+    </xs:keyref>
+    <xs:keyref name="distanceFirstStationMustExist" refer="stationShortNameKey">
+      <xs:selector xpath="./Distances/StationPairDistance/FirstStation" />
+      <xs:field xpath="@StationShortName" />
+    </xs:keyref>
+    <xs:keyref name="distanceSecondStationMustExist" refer="stationShortNameKey">
+      <xs:selector xpath="./Distances/StationPairDistance/SecondStation" />
+      <xs:field xpath="@StationShortName" />
+    </xs:keyref>
+  </xs:element>
+  <xs:attribute name="StationLongName" type="xs:string" />
+  <xs:attribute name="StationShortName">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:length value="3" />
+		<xs:pattern value="ABD|ABJ|ABL|ACF|ACI|ACR|ADE|ADJ|ADZ|AGS|AGT|ALA|ALB|ALD|ALI|ALJ|ALM|ALP|ALS|ALT|ALY|AMN|ANO|ANP|ANZ|APA|APD|APK|ARA|ARD|ARM|ARR|ART|ARZ|ASB|ASC|ASD|ASH|ASP|AST|ASV|ASY|ATO|AUB|AVA|AVE|AVL|AVN|AXW|AZS|BAE|BAH|BAL|BAM|BAR|BAT|BAY|BBG|BBH|BBI|BBK|BBL|BBN|BCH|BCV|BDE|BDG|BEA|BEB|BEG|BEH|BEK|BEL|BEN|BEP|BER|BET|BEU|BEW|BFD|BGA|BGB|BGE|BGG|BGL|BGO|BGR|BGT|BHP|BIA|BIT|BKL|BLK|BLN|BLS|BLY|BMH|BMS|BNB|BND|BNE|BNG|BNH|BNL|BNO|BNS|BON|BOR|BOX|BPT|BRD|BRF|BRK|BRM|BRN|BRQ|BRS|BRT|BRZ|BSA|BSG|BSP|BSR|BTC|BTG|BTN|BUL|BUN|BVR|BVT|BWD|BWK|BWZ|BXL|BXM|BXR|BYN|BYP|CAD|CAL|CAM|CAR|CBE|CBG|CBY|CCL|CDN|CDS|CFD|CGB|CGY|CHI|CHL|CHM|CHN|CIE|CKF|CLA|CLC|CLH|CLO|CLT|CLY|CME|CML|CNA|CNS|CNE|CNK|CNL|COB|COC|COE|COL|COQ|COR|COW|COY|CPD|CPE|CPK|CPT|CQR|CRA|CRD|CRM|CRO|CRT|CRU|CSA|CSG|CTB|CTM|CTO|CUL|CUM|CUR|CUZ|CWB|CWD|CWL|CWP|CXT|DAK|DAP|DBK|DBN|DCK|DDS|DEK|DEN|DGB|DGC|DGE|DGN|DIL|DIM|DIT|DKE|DLG|DLM|DLL|DLY|DNG|DNI|DNU|DOA|DON|DPK|DPW|DQN|DQR|DRL|DRN|DRO|DRP|DRT|DSG|DUK|DVS|DWJ|DYS|DYT|EAG|ECH|ECM|EDI|EGT|EHK|ELM|ELS|ELT|EME|EMU|EMV|EOA|EPH|EPP|EPS|ERM|ERZ|ESD|ESS|EUR|EXL|FAK|FBD|FCZ|FEX|FFD|FGS|FKN|FLD|FLG|FLX|FSN|FSS|FSY|FTG|GAH|GAL|GAM|GAR|GAZ|GBT|GBV|GCY|GDE|GEL|GEY|GFD|GFE|GHA|GHP|GHY|GIN|GIR|GIS|GLG|GLM|GLN|GLR|GMH|GML|GNA|GNG|GON|GOW|GRA|GRB|GRE|GRN|GRY|GRZ|GSB|GSG|GSQ|GTN|GVE|GWT|GWV|GWY|GYA|HAM|HAT|HAW|HBE|HCG|HCJ|HDB|HEG|HEV|HEY|HEZ|HGN|HIG|HIL|HKN|HLM|HMT|HNE|HNR|HOK|HOL|HON|HOT|HPN|HRM|HST|HTD|HUE|HUG|HUN|HUZ|HWD|HWL|HYN|ING|IRY|IUH|IUZ|IVA|JAC|JAZ|JCL|JEL|JLI|JOR|JPT|JUG|JWL|KAG|KAN|KAV|KAX|KBR|KEN|KER|KET|KFT|KIA|KIL|KIN|KLM|KME|KNN|KNT|KPK|KPL|KRG|KUL|KUR|KVE|KVL|KWR|KYB|KYG|KYN|LAB|LAH|LAL|LAR|LAS|LAV|LAZ|LBG|LBK|LBL|LBS|LBT|LBY|LDE|LEL|LFD|LGW|LIG|LIL|LIS|LJC|LKT|LGA|LLG|LLR|LNY|LOH|LOZ|LRA|LRR|LSG|LTH|LTR|LTZ|LUK|LVL|LWA|LWY|LYB|LYN|MAB|MAC|MAL|MAR|MAS|MAV|MAZ|MBN|MBS|MBY|MCD|MCE|MCH|MCK|MCY|MDA|MDC|MDE|MDN|MEH|MEL|MEN|MEO|MEP|MER|MET|MFY|MIR|MIS|MIT|MKI|MLD|MLE|MLK|MLRC|MLS|MML|MMN|MMY|MNG|MNP|MNZ|MOE|MON|MOM|MOR|MOS|MOZ|MPA|MPD|MPK|MPM|MRA|MRB|MRD|MRE|MRG|MRH|MRI|MRN|MRO|MRP|MRS|MRT|MSG|MSE|MSL|MSS|MST|MSY|MTH|MTL|MTY|MUA|MUE|MUL|MVL|MVN|MWL|MWY|MYC|MYD|MYK|MYN|MYP|MYR|MYZ|NAN|NAS|NAW|NBN|NBT|NCE|NEW|NGA|NGB|NGC|NGE|NGL|NGM|NGZ|NHL|NIL|NKT|NLJ|NME|NMK|NMS|NNA|NNG|NOG|NPH|NPK|NPO|NPS|NPT|NRM|NSH|NUH|NUL|NUN|NWA|NWG|NWN|NWS|NYN|NYR|NYT|OAE|OAH|OAK|OFC|OFR|OKP|OMD|OPK|OUN|P15|PAM|PAN|PAR|PAT|PCL|PIE|PIT|PKD|PKM|PNG|POD|POG|POK|POP|PRA|PRE|PRH|PRN|PSN|PTM|PTY|PUL|PVE|PVL|PWN|PYD|PYL|PYM|QUK|QUZ|RAD|RBK|RBW|RCE|RCK|RCL|RDC|RDL|RED|REG|REN|RES|RIK|RIP|RIV|RMD|RKB|RMS|RNI|ROB|ROC|ROD|ROE|ROR|ROS|ROY|RPK|RPW|RUS|RUT|RVA|RVW|RWD|RWE|RXP|SAB|SAE|SAG|SAL|SBY|SCT|SDG|SDK|SDL|SDM|SDR|SDY|SEA|SED|SEL|SEN|SEO|SEP|SER|SEY|SEZ|SFD|SGG|SGL|SGS|SHE|SHL|SHM|SHP|SIS|SKE|SKN|SLD|SLE|SLL|SLO|SMB|SME|SMS|SNG|SNH|SNP|SOC|SOE|SOG|SOM|SON|SOS|SPD|SPE|SPG|SPH|SPK|SPT|SPV|SPW|SRR|SSK|SSS|STA|STD|STK|STL|STN|STP|STS|STY|SUD|SUE|SUN|SUP|SUY|SVE|SWC|SWH|SWL|SWR|SYD|SYM|SYN|SYR|TAA|TAB|TAE|TAN|TAR|TAT|TBY|TCA|TCL|TCM|TDE|TED|TER|TEY|TFG|TGA|TGH|TGL|THY|TLA|TLS|TMY|TNA|TNH|TOA|TOK|TOL|TOR|TOT|TOZ|TRD|TRF|TRG|TRK|TRN|TSG|TSN|TSS|TTA|TUE|TUH|TVK|TWA|TYD|TYN|TYP|UBS|UFD|UFG|ULA|ULZ|UNL|UPW|VDJ|VPG|VPK|VSG|VTN|VVE|WAB|WAE|WAG|WAI|WAK|WAN|WAP|WAR|WAT|WBH|WBL|WCB|WCH|WCS|WDG|WED|WER|WEZ|WFG|WFY|WGD|WGG|WGI|WGL|WGR|WHA|WHP|WIA|WIE|WIL|WIN|WLN|WLP|WLS|WLY|WMO|WNB|WND|WNG|WNO|WNS|WNU|WOD|WON|WPD|WPK|WPR|WRC|WRE|WRG|WRM|WRN|WSG|WSM|WSN|WST|WTA|WTG|WTL|WTO|WTP|WTR|WTS|WTT|WTW|WVC|WYA|WYF|WYZ|YAG|YAN|YAT|YEL|YGA|YGN|YMN|YRM|YON|YPZ|YRG|YVE" />
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:attribute>
+  <xs:attribute name="LineShortName">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:length value="3" />
+        <xs:pattern value="RCE|SGS|SHM|EPP|HBE|GWY|ALM|BEG|LIL||PKM|CBE|FKN|BMS|UFD|SDM|WIL|WER" />
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:attribute>
+  <xs:attribute name="LineLongName">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:pattern value="Racecourse|Showgrounds|Sydenham|Epping|Hurtsbridge|Glen Waverly|Alamein|Belgrave|Lilydale||Pakenham|Cranbourne|Frankston|Broadmedows|Upfield|Sandringham|Wiliamstown|Werribee" />
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:attribute>
+  <xs:attribute name="GroupShortName">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:length value="3" />
+        <xs:pattern value="CFD|BLY|NOR|CHL|SHM" />
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:attribute>
+  <xs:attribute name="GroupLongName">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:pattern value="Caufield|Burnley|Northern|Clifton Hill|Sandringham" />
+      </xs:restriction>
+
+    </xs:simpleType>
+  </xs:attribute>
+  <xs:attribute name="SectionName">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:maxLength value="20" />
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:attribute>
+  <xs:attribute name="PlatformNumber">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:length value="2" />
+        <xs:pattern value="[0-1][0-9]" />
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:attribute>
+  <xs:attribute name="PlatformId" type="xs:nonNegativeInteger" />
+  <xs:element name="Platform">
+    <xs:complexType>
+      <xs:attribute ref="PlatformId" use="required" />
+      <xs:attribute ref="PlatformNumber" use="required" />
+    </xs:complexType>
+  </xs:element>
+  <xs:attribute name="ConsistName">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:pattern value="3M|3N|3C|3X|3S|3|6C|6X|6N|6S|6M|6R|6E|6|Z" />
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:attribute>
+  <xs:attribute name="IsBusStop">
+    <xs:simpleType>
+      <xs:restriction base="xs:boolean">
+        <xs:pattern value="true" />
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:attribute>
+  <xs:attribute name="NumberOfPlatforms" type="xs:nonNegativeInteger" />
+  <xs:attribute name="TypeName">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:pattern value="E|N|T|P|Q|Y|S|R|J|V|U|W|X|L|G|H|Z" />
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:attribute>
+  <xs:attribute name="Unit">
+    <xs:simpleType>
+      <xs:restriction base="xs:token">
+        <xs:pattern value="m" />
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:attribute>
+  <xs:element name="Group">
+    <xs:annotation>
+      <xs:documentation>BLY=Burnley CFD=Caufield CHL=CliftonHill NOR=Northern SHM=Sandringham for CoreTCMS</xs:documentation>
+    </xs:annotation>
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:pattern value="BLY|CFD|CHL|NOR|SHM" />
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+</xs:schema>

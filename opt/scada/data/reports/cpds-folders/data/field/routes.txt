@@ -1,0 +1,41 @@
+#
+# for the tracks layout
+# please refer to field.gif
+#
+
+# up-ward routes:
+R01 up:	T01 T02 T03 T04
+R03 up: 	T28 T27 T21
+R05 up:	T20
+R07 up: 	T05 T06 T18
+R09 up: 	T05 T06 T07
+R11 up:	T05 T06 T18
+R13 up:	T06 T07
+R15 up:	T06 T18
+R17 up:	T08 T09 T10
+R19 up:	T08 T09 T19
+R21 up:	T11 T12 
+R25 up:	T13
+R27 up:	T14
+R29 up:	T15 T24
+R31 up:	T15 T16 T17 T25 T26
+R33 up:	T15 T22 T23
+R35 up:	T11 T12 T13 T14
+
+#
+
+#
+# down-ward routes:
+R02 dn: 	T26 T25 T16
+R04 dn:	T24
+R06 dn: 	T23 T22 
+R08 dn:	T15 T14
+R10 dn:	T13
+R12 dn:	T12
+R14 dn:	T11 T19
+R16 dn:	T11 T10
+R18 dn:	T09 T08 T18
+R20 dn:	T09 T08 T07
+R22 dn:	T06 T21 T27 T28
+R24 dn:	T06 T05 T04 T03 T02 T01
+R26 dn:	T06 T05 T20

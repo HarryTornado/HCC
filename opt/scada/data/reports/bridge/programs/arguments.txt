@@ -1,0 +1,49 @@
+
+#==============================================================================
+#
+#	arguments
+#
+#==============================================================================
+#
+#	checkNeedTest
+#		to determine whether a device need to be tested
+#
+#	arguments:
+#		$1 ............... the current interlocking
+#		$2 ............... the current device
+#
+#	global variables used:
+#		interlockingSp
+#		deviceSp 
+#
+	
+function checkNeedTest {
+        interlockingCrt=$1
+        deviceCrt=$2
+
+        needTest="no"
+
+        #echo interlockingSp=$interlockingSp
+        #echo deviceSp=$deviceSp
+        #echo interlockingCrt=$interlockingCrt
+        #echo deviceCrt=$deviceCrt
+
+        if [[ "$interlockingSp" == "$interlockingCrt" ]]
+        then
+                if [[ "${deviceCrt}" == "${interlockingSp}/${deviceSp}" ]]
+                then
+                        needTest="yes"
+                else
+                        remPart1=${deviceCrt#"${interlockingSp}/"}
+                        #echo remPart1=$remPart1
+                        remPart2=${remPart1#$deviceSp}
+                        #echo remPart2=$remPart2
+                        if [[ "$remPatr1" != "$deviceCrt" && "$remPart1" != "$remPart2" ]]
+                        then
+                                needTest="yes"
+                        fi
+                fi
+        fi
+}
+
+

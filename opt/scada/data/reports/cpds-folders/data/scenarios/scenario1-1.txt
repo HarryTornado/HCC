@@ -1,0 +1,15 @@
+#	Service:	name	weight	in-use
+#	Train:	train-length	startTime
+#	Routes:	Route(stopTime) Route(stopTime) ...
+	
+	Service:	X1	3		yes
+	Train:	180			0
+	Routes:	R01 R09(0) R17(0) R21 R25 R27 R31(0)
+
+	Service:	X3	1		yes
+	Train:	180			0
+	Routes:	R03(0) R15(0) R19(0) R21(0) R25(0) R27(0) R33(0)
+
+	Service:	X5	1		yes
+	Train:	180			0
+	Routes:	R05(0) R11(0) R19(0) R21(0) R25(0) R27(0) R29(0)
